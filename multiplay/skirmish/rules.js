@@ -156,8 +156,8 @@ function eventGameInit()
 		enableStructure("A0Hardcrete", playnum);
 		enableStructure("A0PlascreteC", playnum);
 		enableStructure("A0Plascrete", playnum);
-		enableStructure("A0SupercreteRC", playnum);
-		enableStructure("A0SupercreteR", playnum);
+		enableStructure("A0PlascreteRC", playnum);
+		enableStructure("A0PlascreteR", playnum);
 		enableStructure("A0SupercreteC", playnum);
 		enableStructure("A0PlasteelC", playnum);
 		enableStructure("A0SupercreteG", playnum);
