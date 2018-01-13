@@ -1,0 +1,8 @@
+{
+	 "ALL ROUNDER": {		"Half-Tracked": 115,		"Hover": 100,		"Legged": 65,		"Lift": 40,		"Tracked": 105,		"Wheeled": 125	}, 
+	 "ANTI PERSONNEL": {		"Half-Tracked": 40,		"Hover": 125,		"Legged": 140,		"Lift": 55,		"Tracked": 25,		"Wheeled": 100	}, 
+	 "ANTI TANK": {		"Half-Tracked": 125,		"Hover": 110,		"Legged": 30,		"Lift": 80,		"Tracked": 120,		"Wheeled": 130	}, 
+	 "ARTILLERY ROUND": {		"Half-Tracked": 65,		"Hover": 110,		"Legged": 130,		"Lift": 25,		"Tracked": 40,		"Wheeled": 80	}, 
+	 "BUNKER BUSTER": {		"Half-Tracked": 40,		"Hover": 20,		"Legged": 30,		"Lift": 30,		"Tracked": 50,		"Wheeled": 30	}, 
+	 "FLAMER": {		"Half-Tracked": 115,		"Hover": 30,		"Legged": 130,		"Lift": 110,		"Tracked": 90,		"Wheeled": 70
+	}}
