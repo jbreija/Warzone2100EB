@@ -150,22 +150,7 @@ function eventGameInit()
 		enableStructure("A0ResourceExtractor", playnum);
 		enableStructure("A0PowerGenerator", playnum);
 		enableStructure("A0ResearchFacility", playnum);
-
-		
-		enableStructure("A0HardcreteC", playnum);
-		enableStructure("A0Hardcrete", playnum);
-		enableStructure("A0PlascreteC", playnum);
-		enableStructure("A0Plascrete", playnum);
-		enableStructure("A0PlascreteRC", playnum);
-		enableStructure("A0PlascreteR", playnum);
-		enableStructure("A0SupercreteC", playnum);
-		enableStructure("A0PlasteelC", playnum);
-		enableStructure("A0SupercreteG", playnum);
-		enableStructure("A0Plasteel", playnum);
-		enableStructure("A0Supercrete", playnum);
-
-
-		
+	
 		setStructureLimits("A0LightFactory", 5, playnum);	// set structure limits
 		setStructureLimits("A0PowerGenerator", 20, playnum);
 		setStructureLimits("A0ResearchFacility", 5, playnum);
@@ -231,6 +216,7 @@ function eventGameInit()
 		enableResearch("R-Wpn-MG1Mk1", playnum);
 		enableResearch("R-Sys-Engineering01", playnum);
 		enableResearch("R-Vehicle-Engine01", playnum);
+		enableResearch("R-Cyborg-NASLegs", playnum);
 		
 		// enable cyborgs components that can't be enabled with research
 		makeComponentAvailable("CyborgSpade", playnum);
