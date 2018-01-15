@@ -758,11 +758,9 @@
 			"Laser4-PlasmaCannon"		]	}, 
 	 "TwinAG-HvyHPython-Tracks": {		"body": "Body27SUP",		"id": "TwinAG-HvyHPython-Tracks",		"name": "Twin Assault Gun HvyHPython Tracks",		"propulsion": "tracked01",		"type": "DROID",		"weapons": [			"MG5TWINROTARY",
 			"MG5TWINROTARY"		]	}, 
-	 "Scav-Helicopter": {		"body": "ScavengerChopper",		"id": "Scav-Helicopter",		"name": "Scavenger Helicopter",		"propulsion": "Helicopter",		"type": "DROID",		"weapons": [			"MG1-VTOL"
-			]	},		"Scav-Helicopter2": {		"body": "HeavyChopper",		"id": "Scav-Helicopter2",		"name": "Heavy Scavenger Helicopter",		"propulsion": "Helicopter",		"type": "DROID",		"weapons": [			"Rocket-VTOL-Pod",
-			"MG1-VTOL",
-			"MG1-VTOL"		]	}, 
-	 "Cyb-Hvywpn-Acannon-AR": {		"available": 1,		"body": "CyborgHeavyNAS",		"id": "Cyb-Hvywpn-Acannon-AR",		"name": "Cyb-Hvywpn-Acannon-AR",		"propulsion": "CyborgLegsNAS",		"type": "CYBORG_SUPER",		"weapons": [			"Cyb-Hvywpn-Acannon-AR"
+	 "ScavengerHelicopter": {		"body": "ScavengerChopper",		"id": "ScavengerHelicopter",		"name": "ScavengerHelicopter",		"propulsion": "Helicopter",		"type": "DROID",		"weapons": [			"MG1-VTOL"
+			]	},		"ScavengerHelicopter": {		"body": "HeavyChopper",		"id": "ScavengerHelicopter",		"name": "ScavengerHelicopter",		"propulsion": "Helicopter",		"type": "DROID",		"weapons": [			"Rocket-VTOL-Pod"
+			]	},		"Cyb-Hvywpn-Acannon-AR": {		"available": 1,		"body": "CyborgHeavyNAS",		"id": "Cyb-Hvywpn-Acannon-AR",		"name": "Cyb-Hvywpn-Acannon-AR",		"propulsion": "CyborgLegsNAS",		"type": "CYBORG_SUPER",		"weapons": [			"Cyb-Hvywpn-Acannon-AR"
 			]	},		"Cyb-Hvywpn-A-T-AR": {		"available": 1,		"body": "CyborgHeavyNAS",		"id": "Cyb-Hvywpn-A-T-AR",		"name": "Cyb-Hvywpn-A-T-AR",		"propulsion": "CyborgLegsNAS",		"type": "CYBORG_SUPER",		"weapons": [			"Cyb-Hvywpn-A-T-AR"
 			]	},		"Cyb-Hvywpn-EMP-AR": {		"available": 1,		"body": "CyborgHeavyNAS",		"id": "Cyb-Hvywpn-EMP-AR",		"name": "Cyb-Hvywpn-EMP-AR",		"propulsion": "CyborgLegsNAS",		"type": "CYBORG_SUPER",		"weapons": [			"Cyb-Hvywpn-EMP-AR"
 			]	},		"Cyb-Hvywpn-Flamer2-AR": {		"available": 1,		"body": "CyborgHeavyNAS",		"id": "Cyb-Hvywpn-Flamer2-AR",		"name": "Cyb-Hvywpn-Flamer2-AR",		"propulsion": "CyborgLegsNAS",		"type": "CYBORG_SUPER",		"weapons": [			"Cyb-Hvywpn-Flamer2-AR"
@@ -806,5 +804,40 @@
 			]	},		"Cyb-Wpn-Rocket-Sunburst-ARch-AR": {		"available": 1,		"body": "CyborgLightNAS",		"id": "Cyb-Wpn-Rocket-Sunburst-ARch-AR",		"name": "Cyb-Wpn-Rocket-Sunburst-ARch-AR",		"propulsion": "CyborgLegsNAS",		"type": "CYBORG",		"weapons": [			"Cyb-Wpn-Rocket-Sunburst-ARch-AR"
 			]	},		"Cyb-Wpn-SpyTurret01-AR": {		"available": 1,		"body": "CyborgLightNAS",		"id": "Cyb-Wpn-SpyTurret01-AR",		"name": "Cyb-Wpn-SpyTurret01-AR",		"propulsion": "CyborgLegsNAS",		"type": "CYBORG",		"weapons": [			"Cyb-Wpn-SpyTurret01-AR"
 			]	},		"Cyb-Wpn-Thermite-AR": {		"available": 1,		"body": "CyborgLightNAS",		"id": "Cyb-Wpn-Thermite-AR",		"name": "Cyb-Wpn-Thermite-AR",		"propulsion": "CyborgLegsNAS",		"type": "CYBORG",		"weapons": [			"Cyb-Wpn-Thermite-AR"
+			]	},		"B4body-sml-trike01-bTrikeMG": {		"body": "B4body-sml-trike01",		"id": "B4body-sml-trike01-bTrikeMG",		"name": "B4body-sml-trike01-bTrikeMG",		"propulsion": "BaBaProp",		"type": "DROID",		"weapons": [			"bTrikeMG"
+			]	},		"B3body-sml-buggy01-BuggyMG": {		"body": "B3body-sml-buggy01",		"id": "B3body-sml-buggy01-BuggyMG",		"name": "B3body-sml-buggy01-BuggyMG",		"propulsion": "BaBaProp",		"type": "DROID",		"weapons": [			"BuggyMG"
+			]	},		"B2JeepBody-BJeepMG": {		"body": "B2JeepBody",		"id": "B2JeepBody-BJeepMG",		"name": "B2JeepBody-BJeepMG",		"propulsion": "BaBaProp",		"type": "DROID",		"weapons": [			"BJeepMG"
+			]	},		"B2RKJeepBody-BabaRocket": {		"body": "B2RKJeepBody",		"id": "B2RKJeepBody-BabaRocket",		"name": "B2RKJeepBody-BabaRocket",		"propulsion": "BaBaProp",		"type": "DROID",		"weapons": [			"BabaRocket"
+			]	},		"B3bodyRKbuggy01-BabaRocket": {		"body": "B3bodyRKbuggy01",		"id": "B3bodyRKbuggy01-BabaRocket",		"name": "B3bodyRKbuggy01-BabaRocket",		"propulsion": "BaBaProp",		"type": "DROID",		"weapons": [			"BabaRocket"
+			]	},		"BusBody-BusCannon": {		"body": "BusBody",		"id": "BusBody-BusCannon",		"name": "BusBody-BusCannon",		"propulsion": "BaBaProp",		"type": "DROID",		"weapons": [			"BusCannon"
+			]	},		"BusBody-BabaPitRocketAT": {		"body": "BusBody",		"id": "BusBody-BabaPitRocketAT",		"name": "BusBody-BabaPitRocketAT",		"propulsion": "BaBaProp",		"type": "DROID",		"weapons": [			"BabaPitRocketAT"
+			]	},		"B2tractor-BabaFlame": {		"body": "B2tractor",		"id": "B2tractor-BabaFlame",		"name": "B2tractor-BabaFlame",		"propulsion": "BaBaProp",		"type": "DROID",		"weapons": [			"BabaFlame"
+			]	},		"FireBody-BabaFlame": {		"body": "FireBody",		"id": "FireBody-BabaFlame",		"name": "FireBody-BabaFlame",		"propulsion": "BaBaProp",		"type": "DROID",		"weapons": [			"BabaFlame"
+			]	},		"FireBody-BusCannon": {		"body": "FireBody",		"id": "FireBody-BusCannon",		"name": "FireBody-BusCannon",		"propulsion": "BaBaProp",		"type": "DROID",		"weapons": [			"BusCannon"
+			]	},		"FireBody-BabaPitRocket": {		"body": "FireBody",		"id": "FireBody-BabaPitRocket",		"name": "FireBody-BabaPitRocket",		"propulsion": "BaBaProp",		"type": "DROID",		"weapons": [			"BabaPitRocket"
+			]	},		"FireBody-BabaPitRocketAT": {		"body": "FireBody",		"id": "FireBody-BabaPitRocketAT",		"name": "FireBody-BabaPitRocketAT",		"propulsion": "BaBaProp",		"type": "DROID",		"weapons": [			"BabaPitRocketAT"
+			]	},		"ScavCamperBody-BabaPitRocket": {		"body": "ScavCamperBody",		"id": "ScavCamperBody-BabaPitRocket",		"name": "ScavCamperBody-BabaPitRocket",		"propulsion": "BaBaProp",		"type": "DROID",		"weapons": [			"BabaPitRocket"
+			]	},		"ScavCamperBody-BusCannon": {		"body": "ScavCamperBody",		"id": "ScavCamperBody-BusCannon",		"name": "ScavCamperBody-BusCannon",		"propulsion": "BaBaProp",		"type": "DROID",		"weapons": [			"BusCannon"
+			]	},		"ScavTruckBody-BabaFlame": {		"body": "ScavTruckBody",		"id": "ScavTruckBody-BabaFlame",		"name": "ScavTruckBody-BabaFlame",		"propulsion": "BaBaProp",		"type": "DROID",		"weapons": [			"BabaFlame",
+			"BabaRocket",
+			"BabaPitRocketAT"		]	}, 
+	 "ScavTruckBody-BusCannon": {		"body": "ScavTruckBody",		"id": "ScavTruckBody-BusCannon",		"name": "ScavTruckBody-BusCannon",		"propulsion": "BaBaProp",		"type": "DROID",		"weapons": [			"BusCannon",
+			"BabaRocket",
+			"BabaPitRocket"		]	}, 
+	 "ScavIcevanBody-Mortar1Mk1": {		"body": "ScavIcevanBody",		"id": "ScavIcevanBody-Mortar1Mk1",		"name": "ScavIcevanBody-Mortar1Mk1",		"propulsion": "BaBaProp",		"type": "DROID",		"weapons": [			"Mortar1Mk1"
+			]	},		"ScavIcevanBody-BabaFlame": {		"body": "ScavIcevanBody",		"id": "ScavIcevanBody-BabaFlame",		"name": "ScavIcevanBody-BabaFlame",		"propulsion": "BaBaProp",		"type": "DROID",		"weapons": [			"BabaFlame"
+			]	},		"ScavNEXUStrack-ScavNEXUSlink": {		"body": "ScavNEXUStrack",		"id": "ScavNEXUStrack-ScavNEXUSlink",		"name": "ScavNEXUStrack-ScavNEXUSlink",		"propulsion": "BaBaProp",		"type": "DROID",		"weapons": [			"ScavNEXUSlink"
+			]	},		"ScavSensor": {		"body": "BusBody",		"id": "ScavSensor",		"name": "ScavSensor",		"propulsion": "BaBaProp",		"sensor": "BaBaSensor",		"type": "DROID"	}, 
+	 "Crane": {		"body": "B2crane1",		"construct": "scavCrane1",		"id": "Crane",		"name": "Crane1",		"propulsion": "BaBaProp",		"type": "DROID"	}, 
+	 "Crane": {		"body": "B2crane1",		"construct": "scavCrane2",		"id": "Crane",		"name": "Crane2",		"propulsion": "BaBaProp",		"type": "DROID"	}, 
+	 "Crane": {		"body": "B2crane2",		"construct": "scavCrane2",		"id": "Crane",		"name": "Crane3",		"propulsion": "BaBaProp",		"type": "DROID"	}, 
+	 "Crane": {		"body": "B2crane2",		"construct": "scavCrane1",		"id": "Crane",		"name": "Crane4",		"propulsion": "BaBaProp",		"type": "DROID"	}, 
+	 "Mech1": {		"available": 1,		"body": "CyborgMecha",		"id": "Mech1",		"name": "Mech1",		"propulsion": "CyborgLegs",		"type": "DROID",		"weapons": [			"Cyb-Cannon-Mech"
+			]	},		"Mech2": {		"available": 1,		"body": "CyborgMecha",		"id": "Mech2",		"name": "Mech2",		"propulsion": "CyborgLegs",		"type": "DROID",		"weapons": [			"Cyb-Flamer01-Mech"
+			]	},		"Mech3": {		"available": 1,		"body": "CyborgMecha",		"id": "Mech3",		"name": "Mech3",		"propulsion": "CyborgLegs",		"type": "DROID",		"weapons": [			"Cyb-Rocket-Mech"
+			]	},		"Mech4": {		"available": 1,		"body": "CyborgMecha",		"id": "Mech4",		"name": "Mech4",		"propulsion": "CyborgLegs",		"type": "DROID",		"weapons": [			"Cyb-RotMG-Mech"
+			]	},		"Mech5": {		"available": 1,		"body": "CyborgMecha",		"id": "Mech5",		"name": "Mech5",		"propulsion": "CyborgLegs",		"type": "DROID",		"weapons": [			"Cyb-Atmiss-Mech"
+			]	},		"Mech6": {		"available": 1,		"body": "CyborgMecha",		"id": "Mech6",		"name": "Mech6",		"propulsion": "CyborgLegs",		"type": "DROID",		"weapons": [			"Cyb-Laser-Mech"
+			]	},		"Mech7": {		"available": 1,		"body": "CyborgMecha",		"id": "Mech7",		"name": "Mech7",		"propulsion": "CyborgLegs",		"type": "DROID",		"weapons": [			"Cyb-Rail1-Mech"
 		]
 	}}

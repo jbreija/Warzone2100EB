@@ -5,5 +5,5 @@
 	 "Spade1Mk1": {		"buildPoints": 25,		"buildPower": 30,		"constructPoints": 7,		"droidType": "DROID_CONSTRUCT",		"designable": 1,		"hitpoints": 25,		"id": "Spade1Mk1",		"name": "Truck",		"sensorModel": "TRLCON.PIE",		"weight": 50	}, 
 	 "ZNULLCONSTRUCT": {		"id": "ZNULLCONSTRUCT",		"mountModel": "TRLCON.PIE",		"name": "ZNULLCONSTRUCT",		"sensorModel": "TRLCON.PIE"	}, 
 	 "HvyCybSpade": {		"buildPoints": 50,		"buildPower": 10,		"constructPoints": 6,		"id": "HvyCybSpade",		"mountModel": "scbody.pie",		"name": "HvyCybSpade",		"sensorModel": "cy_con.pie"	}, 
-	 "Spade1Hvy": {		"buildPoints": 265,		"buildPower": 53,		"constructPoints": 24,		"designable": 1,		"id": "Spade1Hvy",		"name": "Spade1Hvy",		"sensorModel": "TRLCON2.PIE",		"weight": 7999
+	 "Spade1Hvy": {		"buildPoints": 350,		"buildPower": 125,		"constructPoints": 22,		"designable": 1,		"id": "Spade1Hvy",		"name": "Heavy Truck",		"sensorModel": "TRLCON2.PIE",		"weight": 5400
 	}}

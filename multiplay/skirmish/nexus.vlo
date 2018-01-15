@@ -688,7 +688,7 @@ run
 	// wall structs (4)
 	numWallWeaps	int					10
 	wall			STRUCTURESTAT		"A0HardcreteMk1Wall"
-	cornerWall		STRUCTURESTAT		"A0HardcreteMk1WallC"
+	cornerWall		STRUCTURESTAT		"A0HardcreteMk1CWall"
 	wallWeaps[0]	STRUCTURESTAT		"WallTower01"
 	wallWeaps[1]	STRUCTURESTAT		"WallTower02"
 	wallWeaps[2]	STRUCTURESTAT		"WallTower03"
@@ -1700,41 +1700,41 @@ run
 	// branchRocket
 	numRebuildStat[0]	int				2
 	rebuildStat[0][0]	STRUCTURESTAT	"A0HardcreteMk1Wall"
-	rebuildStat[0][1]	STRUCTURESTAT	"A0HardcreteMk1WallC"
+	rebuildStat[0][1]	STRUCTURESTAT	"A0HardcreteMk1CWall"
 
 	// branchFlamer
 	numRebuildStat[1]	int				2
 	rebuildStat[1][0]	STRUCTURESTAT	"A0HardcreteMk1Wall"
-	rebuildStat[1][1]	STRUCTURESTAT	"A0HardcreteMk1WallC"
+	rebuildStat[1][1]	STRUCTURESTAT	"A0HardcreteMk1CWall"
 	
 	// branchCannon
 	numRebuildStat[2]	int				2
 	rebuildStat[2][0]	STRUCTURESTAT	"A0HardcreteMk1Wall"
-	rebuildStat[2][1]	STRUCTURESTAT	"A0HardcreteMk1WallC"
+	rebuildStat[2][1]	STRUCTURESTAT	"A0HardcreteMk1CWall"
 
 	// branchArtillery
 	numRebuildStat[3]	int				2
 	rebuildStat[3][0]	STRUCTURESTAT	"A0HardcreteMk1Wall"
-	rebuildStat[3][1]	STRUCTURESTAT	"A0HardcreteMk1WallC"
+	rebuildStat[3][1]	STRUCTURESTAT	"A0HardcreteMk1CWall"
 	
 	// branchCannonMGMortar
 	numRebuildStat[4]	int				2
 	rebuildStat[4][0]	STRUCTURESTAT	"A0HardcreteMk1Wall"
-	rebuildStat[4][1]	STRUCTURESTAT	"A0HardcreteMk1WallC"
+	rebuildStat[4][1]	STRUCTURESTAT	"A0HardcreteMk1CWall"
 	
 	// branchRocketMGMortar
 	numRebuildStat[5]	int				2
 	rebuildStat[5][0]	STRUCTURESTAT	"A0HardcreteMk1Wall"
-	rebuildStat[5][1]	STRUCTURESTAT	"A0HardcreteMk1WallC"
+	rebuildStat[5][1]	STRUCTURESTAT	"A0HardcreteMk1CWall"
 	
 	// branchFlameVtolLaser
 	numRebuildStat[6]	int				2
 	rebuildStat[6][0]	STRUCTURESTAT	"A0HardcreteMk1Wall"
-	rebuildStat[6][1]	STRUCTURESTAT	"A0HardcreteMk1WallC"
+	rebuildStat[6][1]	STRUCTURESTAT	"A0HardcreteMk1CWall"
 	
 	numRebuildStat[7]	int				2
 	rebuildStat[7][0]	STRUCTURESTAT	"A0HardcreteMk1Wall"
-	rebuildStat[7][1]	STRUCTURESTAT	"A0HardcreteMk1WallC"
+	rebuildStat[7][1]	STRUCTURESTAT	"A0HardcreteMk1CWall"
 
 	/////////////////////////////////////////////////////////////////////
 }

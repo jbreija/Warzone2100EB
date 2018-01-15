@@ -408,8 +408,8 @@ function produceDroid(fac)
 	{
 		if (countDroid(DROID_SENSOR, me) < MAX_SENSORS)
 		{
-			weapons.push("ScavSensor");
-			scavBuildDroid(fac, "Sensor", "BusBody", "BaBaProp", weapons);
+			weapons.push("BaBaSensor");
+			scavBuildDroid(fac, "ScavSensor", "BusBody", "BaBaProp", weapons);
 		}
 	}
 	else
@@ -449,7 +449,7 @@ function produceHelicopter(fac)
 			break;
 		}
 	}
-	scavBuildDroid(fac, "Scavenger Helicopter", vtolTemplates[j][0], "Helicopter", weapons);
+	scavBuildDroid(fac, "ScavengerHelicopter", vtolTemplates[j][0], "Helicopter", weapons);
 }
 
 function structureReady(struct)
@@ -862,9 +862,9 @@ function eventGameInit()
 		"ScavNEXUSbody", "ScavNEXUStrack", "ScavTruckBody", "MG1-VTOL",
 		"Rocket-VTOL-Pod", "ScavNEXUSlink", "BaBaCannon", "BabaPitRocket",
 		"BabaPitRocketAT", "BabaRocket", "BabaRPG", "babawep",
-		"BTowerMG", "Mortar1Mk1",
+		"BTowerMG", "Mortar1Mk1", "BusCannon", "BabaFlame", "bTrikeMG", "BuggyMG", "BJeepMG", "BaBaSensor",
 	];
-
+	
 	for (var i = 0, c = SCAV_COMPONENTS.length; i < c; ++i)
 	{
 		makeComponentAvailable(SCAV_COMPONENTS[i], me);

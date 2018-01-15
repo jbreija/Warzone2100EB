@@ -120,6 +120,11 @@ function eventGameInit()
 	makeComponentAvailable("BusCannon", scavengerPlayer);
 	makeComponentAvailable("BabaFlame", scavengerPlayer);
 	makeComponentAvailable("BaBaMG", scavengerPlayer);
+	
+	
+	
+	
+	
 	for (var playnum = 0; playnum < maxPlayers; playnum++)
 	{
 		if (powerType == 0)
@@ -150,9 +155,9 @@ function eventGameInit()
 		enableStructure("A0ResourceExtractor", playnum);
 		enableStructure("A0PowerGenerator", playnum);
 		enableStructure("A0ResearchFacility", playnum);
-	
+
 		setStructureLimits("A0LightFactory", 5, playnum);	// set structure limits
-		setStructureLimits("A0PowerGenerator", 20, playnum);
+		setStructureLimits("A0PowerGenerator", 10, playnum);
 		setStructureLimits("A0ResearchFacility", 5, playnum);
 		setStructureLimits("A0CommandCentre", 1, playnum);
 		setStructureLimits("A0ComDroidControl", 1, playnum);
