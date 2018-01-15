@@ -60,6 +60,7 @@
 	 "CobraSpadeTracks": {		"body": "Body5REC",		"construct": "Spade1Mk1",		"id": "CobraSpadeTracks",		"name": "Cobra Truck",		"propulsion": "tracked01",		"type": "DROID"	}, 
 	 "CobraTrkLancer": {		"body": "Body5REC",		"id": "CobraTrkLancer",		"name": "Lancer Cobra Tracks",		"propulsion": "tracked01",		"type": "DROID",		"weapons": [			"Rocket-LtA-T"
 			]	},		"ConstructorDroid": {		"body": "Body1REC",		"construct": "Spade1Mk1",		"id": "ConstructorDroid",		"name": "Truck",		"propulsion": "wheeled01",		"type": "DROID"	}, 
+	 "TruckNAS": {		"available": 1,		"body": "Body11REC",		"construct": "Spade1Mk1NAS",		"id": "TruckNAS",		"name": "NASDA Truck",		"propulsion": "wheeled01NAS",		"type": "DROID"	}, 
 	 "Cyb-ComEng": {		"available": 1,		"body": "CyborgLightBody",		"construct": "CyborgSpade",		"id": "Cyb-ComEng",		"name": "Combat Engineer",		"propulsion": "CyborgLegs",		"type": "CYBORG_CONSTRUCT"	}, 
 	 "Cyb-Gren": {		"available": 1,		"body": "CyborgLightBody",		"id": "Cyb-Gren",		"name": "Grenadier",		"propulsion": "CyborgLegs",		"type": "CYBORG",		"weapons": [			"Cyb-Wpn-Grenade"
 			]	},		"Cyb-Hvy-A-T": {		"available": 1,		"body": "CyborgHeavyBody",		"id": "Cyb-Hvy-A-T",		"name": "Super Scourge Cyborg",		"propulsion": "CyborgLegs",		"type": "CYBORG_SUPER",		"weapons": [			"Cyb-Hvywpn-A-T"
@@ -583,7 +584,6 @@
 			]	},		"HCobraMedCnTrks": {		"body": "Body21MED",		"id": "HCobraMedCnTrks",		"name": "Medium Cannon HCobra Tracks",		"propulsion": "tracked01",		"type": "DROID",		"weapons": [			"Cannon2A-TMk1"
 			]	},		"HCobraPODTracks": {		"body": "Body21MED",		"id": "HCobraPODTracks",		"name": "Mini-Rocket HCobra Tracks",		"propulsion": "tracked01",		"type": "DROID",		"weapons": [			"Rocket-Pod"
 			]	},		"HCobraSensorHalftrack": {		"body": "Body21MED",		"id": "HCobraSensorHalftrack",		"name": "Sensor Turret HCobra Half-tracks",		"propulsion": "HalfTrack",		"sensor": "SensorTurret1Mk1",		"type": "DROID"	}, 
-	 "HCobraSpadeTracks": {		"body": "Body21MED",		"construct": "Spade1Mk1",		"id": "HCobraSpadeTracks",		"name": "HCobra Truck",		"propulsion": "tracked01",		"type": "DROID"	}, 
 	 "HCobraTrkLancer": {		"body": "Body21MED",		"id": "HCobraTrkLancer",		"name": "Lancer HCobra Tracks",		"propulsion": "tracked01",		"type": "DROID",		"weapons": [			"Rocket-LtA-T"
 			]	},		"P0HCobraRepairTrks": {		"body": "Body21MED",		"id": "P0HCobraRepairTrks",		"name": "Repair HCobra Tracks",		"propulsion": "tracked01",		"repair": "LightRepair1",		"type": "DROID"	}, 
 	 "SK-HCobra-Hover-BB": {		"body": "Body21MED",		"id": "SK-HCobra-Hover-BB",		"name": "*SK-HCobra-Hover-BB*",		"propulsion": "hover01",		"type": "DROID",		"weapons": [			"Rocket-BB"
@@ -818,6 +818,7 @@
 			]	},		"FireBody-BabaPitRocketAT": {		"body": "FireBody",		"id": "FireBody-BabaPitRocketAT",		"name": "FireBody-BabaPitRocketAT",		"propulsion": "BaBaProp",		"type": "DROID",		"weapons": [			"BabaPitRocketAT"
 			]	},		"ScavCamperBody-BabaPitRocket": {		"body": "ScavCamperBody",		"id": "ScavCamperBody-BabaPitRocket",		"name": "ScavCamperBody-BabaPitRocket",		"propulsion": "BaBaProp",		"type": "DROID",		"weapons": [			"BabaPitRocket"
 			]	},		"ScavCamperBody-BusCannon": {		"body": "ScavCamperBody",		"id": "ScavCamperBody-BusCannon",		"name": "ScavCamperBody-BusCannon",		"propulsion": "BaBaProp",		"type": "DROID",		"weapons": [			"BusCannon"
+			]	},		"ScavTruckBody-BusCannon": {		"body": "ScavTruckBody",		"id": "ScavTruckBody-BusCannon",		"name": "ScavTruckBody-BusCannon",		"propulsion": "BaBaProp",		"type": "DROID",		"weapons": [			"BusCannon"
 			]	},		"ScavTruckBody-BabaFlame": {		"body": "ScavTruckBody",		"id": "ScavTruckBody-BabaFlame",		"name": "ScavTruckBody-BabaFlame",		"propulsion": "BaBaProp",		"type": "DROID",		"weapons": [			"BabaFlame",
 			"BabaRocket",
 			"BabaPitRocketAT"		]	}, 
@@ -832,12 +833,12 @@
 	 "Crane": {		"body": "B2crane1",		"construct": "scavCrane2",		"id": "Crane",		"name": "Crane2",		"propulsion": "BaBaProp",		"type": "DROID"	}, 
 	 "Crane": {		"body": "B2crane2",		"construct": "scavCrane2",		"id": "Crane",		"name": "Crane3",		"propulsion": "BaBaProp",		"type": "DROID"	}, 
 	 "Crane": {		"body": "B2crane2",		"construct": "scavCrane1",		"id": "Crane",		"name": "Crane4",		"propulsion": "BaBaProp",		"type": "DROID"	}, 
-	 "Mech1": {		"available": 1,		"body": "CyborgMecha",		"id": "Mech1",		"name": "Mech1",		"propulsion": "CyborgLegs",		"type": "DROID",		"weapons": [			"Cyb-Cannon-Mech"
-			]	},		"Mech2": {		"available": 1,		"body": "CyborgMecha",		"id": "Mech2",		"name": "Mech2",		"propulsion": "CyborgLegs",		"type": "DROID",		"weapons": [			"Cyb-Flamer01-Mech"
-			]	},		"Mech3": {		"available": 1,		"body": "CyborgMecha",		"id": "Mech3",		"name": "Mech3",		"propulsion": "CyborgLegs",		"type": "DROID",		"weapons": [			"Cyb-Rocket-Mech"
-			]	},		"Mech4": {		"available": 1,		"body": "CyborgMecha",		"id": "Mech4",		"name": "Mech4",		"propulsion": "CyborgLegs",		"type": "DROID",		"weapons": [			"Cyb-RotMG-Mech"
-			]	},		"Mech5": {		"available": 1,		"body": "CyborgMecha",		"id": "Mech5",		"name": "Mech5",		"propulsion": "CyborgLegs",		"type": "DROID",		"weapons": [			"Cyb-Atmiss-Mech"
-			]	},		"Mech6": {		"available": 1,		"body": "CyborgMecha",		"id": "Mech6",		"name": "Mech6",		"propulsion": "CyborgLegs",		"type": "DROID",		"weapons": [			"Cyb-Laser-Mech"
-			]	},		"Mech7": {		"available": 1,		"body": "CyborgMecha",		"id": "Mech7",		"name": "Mech7",		"propulsion": "CyborgLegs",		"type": "DROID",		"weapons": [			"Cyb-Rail1-Mech"
+	 "Mech1": {		"available": 1,		"body": "CyborgMecha",		"id": "Mech1",		"name": "Mech1",		"propulsion": "CyborgLegs",		"type": "CYBORG",		"weapons": [			"Cyb-Cannon-Mech"
+			]	},		"Mech2": {		"available": 1,		"body": "CyborgMecha",		"id": "Mech2",		"name": "Mech2",		"propulsion": "CyborgLegs",		"type": "CYBORG",		"weapons": [			"Cyb-Flamer01-Mech"
+			]	},		"Mech3": {		"available": 1,		"body": "CyborgMecha",		"id": "Mech3",		"name": "Mech3",		"propulsion": "CyborgLegs",		"type": "CYBORG",		"weapons": [			"Cyb-Rocket-Mech"
+			]	},		"Mech4": {		"available": 1,		"body": "CyborgMecha",		"id": "Mech4",		"name": "Mech4",		"propulsion": "CyborgLegs",		"type": "CYBORG",		"weapons": [			"Cyb-RotMG-Mech"
+			]	},		"Mech5": {		"available": 1,		"body": "CyborgMecha",		"id": "Mech5",		"name": "Mech5",		"propulsion": "CyborgLegs",		"type": "CYBORG",		"weapons": [			"Cyb-Atmiss-Mech"
+			]	},		"Mech6": {		"available": 1,		"body": "CyborgMecha",		"id": "Mech6",		"name": "Mech6",		"propulsion": "CyborgLegs",		"type": "CYBORG",		"weapons": [			"Cyb-Laser-Mech"
+			]	},		"Mech7": {		"available": 1,		"body": "CyborgMecha",		"id": "Mech7",		"name": "Mech7",		"propulsion": "CyborgLegs",		"type": "CYBORG",		"weapons": [			"Cyb-Rail1-Mech"
 		]
 	}}

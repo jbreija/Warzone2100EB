@@ -80,7 +80,7 @@
 			"hover01NAS": {				"left": "prhhov1ar.pie"	}, 
 			"tracked01NAS": {				"left": "prhltrk3ar.pie",				"right": "prhrtrk3ar.pie"	}, 
 			"wheeled01NAS": {				"left": "prhlwhl1ar.pie",				"right": "prhrwhl1ar.pie"	}, 
-			"wheeled01": {				"left": "prhlwhl1.pie",				"right": "prhrwhl1.pie"			}		},		"size": "HEAVY",		"weaponSlots": 1,		"weight": 11000	}, 
+			"wheeled01": {				"left": "prhlwhl1.pie",				"right": "prhrwhl1.pie"			}		},		"size": "HEAVY",		"weaponSlots": 1,		"weight": 8700	}, 
 	 "Body14SUP": {		"armourHeat": 50,		"armourKinetic": 45,		"buildPoints": 800,		"buildPower": 250,		"class": "Droids",		"designable": 1,		"hitpoints": 550,		"id": "Body14SUP",		"model": "drhbod14.pie",		"name": "Dragon",		"powerOutput": 25300,		"propulsionExtraModels": {			"HalfTrack": {				"left": "prslhtr4.pie",				"right": "prsrhtr4.pie"	}, 
 			"Helicopter": {				"left": "prsheli1.pie",				"moving": "fxheli12.pie",				"still": "superheavyheli_rotor_stationary.pie"	}, 
 			"Naval": {				"left": "prhnaval1.pie"	}, 
@@ -235,7 +235,7 @@
 			"tracked01NAS": {				"left": "prmltrk2ar.pie",				"right": "prmrtrk2ar.pie"	}, 
 			"wheeled01NAS": {				"left": "prmlwhl1ar.pie",				"right": "prmrwhl1ar.pie"	}, 
 			"wheeled01": {				"left": "prmlwhl1.pie",				"right": "prmrwhl1.pie"			}		},		"size": "MEDIUM",		"weaponSlots": 1,		"weight": 1800	}, 
-	 "Body88MBT": {		"armourHeat": 16,		"armourKinetic": 14,		"buildPoints": 300,		"buildPower": 65,		"class": "Droids",		"designable": 1,		"hitpoints": 150,		"id": "Body88MBT",		"model": "drmbod08ar.pie",		"name": "NASDA Scorpion",		"powerOutput": 6300,		"propulsionExtraModels": {			"HalfTrack": {				"left": "prmlhtr2.pie",				"right": "prmrhtr2ar.pie"	}, 
+	 "Body88MBT": {		"armourHeat": 16,		"armourKinetic": 14,		"buildPoints": 300,		"buildPower": 65,		"class": "Droids",		"designable": 1,		"hitpoints": 150,		"id": "Body88MBT",		"model": "drmbod08ar.pie",		"name": "NASDA Scorpion",		"powerOutput": 6300,		"propulsionExtraModels": {			"HalfTrack": {				"left": "prmlhtr2.pie",				"right": "prmrhtr2.pie"	}, 
 			"Helicopter": {				"left": "prmheli1.pie",				"moving": "fxheli5to8.pie",				"still": "mediumheli_rotor_stationary.pie"	}, 
 			"Naval": {				"left": "prhnaval1.pie"	}, 
 			"V-Tol": {				"left": "prmlvtl1.pie",				"moving": "fxvtl5to8.pie",				"right": "prmrvtl1.pie"	}, 
@@ -273,10 +273,12 @@
 	 "CyborgLightBody": {		"armourHeat": 6,		"armourKinetic": 12,		"buildPoints": 95,		"buildPower": 25,		"class": "Cyborgs",		"droidType": "CYBORG",		"hitpoints": 200,		"id": "CyborgLightBody",		"model": "cybd_std.pie",		"name": "Cyborg Light Body",		"powerOutput": 600,		"size": "LIGHT",		"weaponSlots": 1,		"weight": 100	}, 
 	 "CyborgHeavyNAS": {		"armourHeat": 12,		"armourKinetic": 20,		"buildPoints": 235,		"buildPower": 80,		"class": "Cyborgs",		"droidType": "CYBORG_SUPER",		"hitpoints": 320,		"id": "CyborgHeavyNAS",		"model": "scbd_stdar.pie",		"name": "Cyborg Heavy NASDA",		"powerOutput": 1200,		"size": "LIGHT",		"weaponSlots": 1,		"weight": 260	}, 
 	 "CyborgLightNAS": {		"armourHeat": 10,		"armourKinetic": 16,		"buildPoints": 125,		"buildPower": 50,		"class": "Cyborgs",		"droidType": "CYBORG",		"hitpoints": 210,		"id": "CyborgLightNAS",		"model": "cybd_stdar.pie",		"name": "Cyborg Light NASDA",		"powerOutput": 610,		"size": "LIGHT",		"weaponSlots": 1,		"weight": 100	}, 
-	 "CyborgMecha": {		"armourHeat": 10,		"armourKinetic": 16,		"buildPoints": 125,		"buildPower": 50,		"class": "Cyborgs",		"droidType": "CYBORG",		"hitpoints": 210,		"id": "CyborgMecha",		"model": "cybd_stdme.pie",		"name": "Mecha Cyborg",		"powerOutput": 610,		"size": "LIGHT",		"weaponSlots": 1,		"weight": 100	}, 
+	 "CyborgMecha": {		"armourHeat": 10,		"armourKinetic": 16,		"buildPoints": 125,		"buildPower": 50,		"class": "Cyborgs",		"droidType": "CYBORG_SUPER",		"hitpoints": 210,		"id": "CyborgMecha",		"model": "cybd_stdme.pie",		"name": "Mecha Cyborg",		"powerOutput": 610,		"size": "LIGHT",		"weaponSlots": 1,		"weight": 100	}, 
 	 "FireBody": {		"armourHeat": 1,		"armourKinetic": 4,		"buildPoints": 75,		"buildPower": 4,		"class": "Babas",		"hitpoints": 200,		"id": "FireBody",		"model": "exfire.pie",		"name": "*Fire Engine Body*",		"powerOutput": 4000,		"size": "LIGHT",		"weaponSlots": 1,		"weight": 3000	}, 
 	 "SuperTransportBody": {		"armourHeat": 200,		"armourKinetic": 200,		"buildPoints": 625,		"buildPower": 400,		"class": "Transports",		"droidType": "TRANSPORTER",		"hitpoints": 2000,		"id": "SuperTransportBody",		"model": "drtrans.pie",		"name": "Super Transport Body",		"powerOutput": 14000,		"size": "SUPER HEAVY",		"weaponSlots": 1,		"weight": 12000	}, 
-	 "TransporterBody": {		"armourHeat": 60,		"armourKinetic": 60,		"buildPoints": 637,		"buildPower": 300,		"class": "Transports",		"droidType": "TRANSPORTER",		"hitpoints": 1500,		"id": "TransporterBody",		"model": "drcytran.pie",		"name": "Transport Body",		"powerOutput": 8000,		"size": "MEDIUM",		"weaponSlots": 1,		"weight": 4000	}, 
+	 "SuperTransportNAS": {		"armourHeat": 200,		"armourKinetic": 200,		"buildPoints": 625,		"buildPower": 400,		"class": "Transports",		"droidType": "TRANSPORTER",		"hitpoints": 2200,		"id": "SuperTransportNAS",		"model": "drtransar.pie",		"name": "Super NASDA Transport",		"powerOutput": 14800,		"size": "SUPER HEAVY",		"weaponSlots": 1,		"weight": 11000	}, 
+	 "TransporterBody": {		"armourHeat": 60,		"armourKinetic": 60,		"buildPoints": 637,		"buildPower": 300,		"class": "Transports",		"droidType": "TRANSPORTER",		"hitpoints": 1500,		"id": "TransporterBody",		"model": "drcytran.pie",		"name": "Transport Body",		"powerOutput": 8000,		"size": "MEDIUM",		"weaponSlots": 1,		"weight": 3800	}, 
+	 "TransporterNAS": {		"armourHeat": 60,		"armourKinetic": 60,		"buildPoints": 637,		"buildPower": 300,		"class": "Transports",		"droidType": "TRANSPORTER",		"hitpoints": 1700,		"id": "TransporterNAS",		"model": "drcytranar.pie",		"name": "NASDA Transport",		"powerOutput": 8600,		"size": "MEDIUM",		"weaponSlots": 1,		"weight": 4000	}, 
 	 "ZNULLBODY": {		"id": "ZNULLBODY",		"model": "mibnkbod.pie",		"name": "*Z NULL BODY*",		"size": "LIGHT",		"weaponSlots": 1	}, 
 	 "B1BaBaPerson02": {		"armourHeat": 1,		"armourKinetic": 1,		"buildPoints": 3,		"buildPower": 1,		"class": "Babas",		"droidType": "PERSON",		"hitpoints": 5,		"id": "B1BaBaPerson02",		"model": "EXBLOKE2.PIE",		"name": "*B1BaBaPerson02",		"powerOutput": 750,		"size": "LIGHT",		"weaponSlots": 1,		"weight": 499	}, 
 	 "Body15LGT": {		"armourHeat": 36,		"armourKinetic": 30,		"buildPoints": 500,		"buildPower": 138,		"class": "Droids",		"designable": 1,		"hitpoints": 107,		"id": "Body15LGT",		"model": "DRLBOD15.PIE",		"name": "Leopard Superior Alloys",		"powerOutput": 5600,		"propulsionExtraModels": {			"HalfTrack": {				"left": "prllhtr1.pie",				"right": "prlrhtr1.pie"	}, 
@@ -367,7 +369,7 @@
 			"tracked01NAS": {				"left": "prhltrk3ar.pie",				"right": "prhrtrk3ar.pie"	}, 
 			"wheeled01NAS": {				"left": "prhlwhl1ar.pie",				"right": "prhrwhl1ar.pie"	}, 
 			"wheeled01": {				"left": "prhlwhl1.pie",				"right": "prhrwhl1.pie"			}		},		"size": "HEAVY",		"weaponSlots": 1,		"weight": 4400	}, 
-	 "Body23SUP": {		"armourHeat": 9,		"armourKinetic": 20,		"buildPoints": 450,		"buildPower": 95,		"class": "Droids",		"designable": 1,		"hitpoints": 350,		"id": "Body23SUP",		"model": "DRSBOD23.PIE",		"name": "Python Heavy",		"powerOutput": 11970,		"propulsionExtraModels": {			"HalfTrack": {				"left": "prhlhtr3.pie",				"right": "prhrhtr3.pie"	}, 
+	 "Body23SUP": {		"armourHeat": 9,		"armourKinetic": 20,		"buildPoints": 450,		"buildPower": 95,		"class": "Droids",		"designable": 1,		"hitpoints": 350,		"id": "Body23SUP",		"model": "DRSBOD23.PIE",		"name": "Super Heavy Python",		"powerOutput": 11970,		"propulsionExtraModels": {			"HalfTrack": {				"left": "prhlhtr3.pie",				"right": "prhrhtr3.pie"	}, 
 			"Helicopter": {				"left": "prhheli1.pie",				"moving": "fxheli09.pie",				"still": "heavyheli_rotor_stationary.pie"	}, 
 			"Naval": {				"left": "prhnaval1.pie"	}, 
 			"V-Tol": {				"left": "prhlvtl1.pie",				"moving": "fxvtl09.pie",				"right": "prhrvtl1.pie"	}, 
@@ -377,8 +379,8 @@
 			"hover01NAS": {				"left": "prhhov1ar.pie"	}, 
 			"tracked01NAS": {				"left": "prhltrk3ar.pie",				"right": "prhrtrk3ar.pie"	}, 
 			"wheeled01NAS": {				"left": "prhlwhl1ar.pie",				"right": "prhrwhl1ar.pie"	}, 
-			"wheeled01": {				"left": "prhlwhl1.pie",				"right": "prhrwhl1.pie"			}		},		"size": "HEAVY",		"weaponSlots": 2,		"weight": 6400	}, 
-	 "Body24SUP": {		"armourHeat": 20,		"armourKinetic": 18,		"buildPoints": 500,		"buildPower": 78,		"class": "Droids",		"designable": 1,		"hitpoints": 315,		"id": "Body24SUP",		"model": "DRSBOD24.PIE",		"name": "Mantis Heavy",		"powerOutput": 11575,		"propulsionExtraModels": {			"HalfTrack": {				"left": "prhlhtr3.pie",				"right": "prhrhtr3.pie"	}, 
+			"wheeled01": {				"left": "prhlwhl1.pie",				"right": "prhrwhl1.pie"			}		},		"size": "HEAVY",		"weaponSlots": 2,		"weight": 9200	}, 
+	 "Body24SUP": {		"armourHeat": 20,		"armourKinetic": 18,		"buildPoints": 500,		"buildPower": 78,		"class": "Droids",		"designable": 1,		"hitpoints": 315,		"id": "Body24SUP",		"model": "DRSBOD24.PIE",		"name": "Super Heavy Mantis",		"powerOutput": 11575,		"propulsionExtraModels": {			"HalfTrack": {				"left": "prhlhtr3.pie",				"right": "prhrhtr3.pie"	}, 
 			"Helicopter": {				"left": "prhheli1.pie",				"moving": "fxheli09.pie",				"still": "heavyheli_rotor_stationary.pie"	}, 
 			"Naval": {				"left": "prhnaval1.pie"	}, 
 			"V-Tol": {				"left": "prhlvtl1.pie",				"moving": "fxvtl09.pie",				"right": "prhrvtl1.pie"	}, 
@@ -388,8 +390,8 @@
 			"hover01NAS": {				"left": "prhhov1ar.pie"	}, 
 			"tracked01NAS": {				"left": "prhltrk3ar.pie",				"right": "prhrtrk3ar.pie"	}, 
 			"wheeled01NAS": {				"left": "prhlwhl1ar.pie",				"right": "prhrwhl1ar.pie"	}, 
-			"wheeled01": {				"left": "prhlwhl1.pie",				"right": "prhrwhl1.pie"			}		},		"size": "HEAVY",		"weaponSlots": 2,		"weight": 5400	}, 
-	 "Body25SUP": {		"armourHeat": 15,		"armourKinetic": 21,		"buildPoints": 450,		"buildPower": 85,		"class": "Droids",		"designable": 1,		"hitpoints": 425,		"id": "Body25SUP",		"model": "DRSBOD25.PIE",		"name": "Leopard Heavy",		"powerOutput": 12000,		"propulsionExtraModels": {			"HalfTrack": {				"left": "prhlhtr3.pie",				"right": "prhrhtr3.pie"	}, 
+			"wheeled01": {				"left": "prhlwhl1.pie",				"right": "prhrwhl1.pie"			}		},		"size": "HEAVY",		"weaponSlots": 2,		"weight": 8400	}, 
+	 "Body25SUP": {		"armourHeat": 15,		"armourKinetic": 21,		"buildPoints": 450,		"buildPower": 85,		"class": "Droids",		"designable": 1,		"hitpoints": 425,		"id": "Body25SUP",		"model": "DRSBOD25.PIE",		"name": "Super Heavy Leopard",		"powerOutput": 12000,		"propulsionExtraModels": {			"HalfTrack": {				"left": "prhlhtr3.pie",				"right": "prhrhtr3.pie"	}, 
 			"Helicopter": {				"left": "prhheli1.pie",				"moving": "fxheli09.pie",				"still": "heavyheli_rotor_stationary.pie"	}, 
 			"Naval": {				"left": "prhnaval1.pie"	}, 
 			"V-Tol": {				"left": "prhlvtl1.pie",				"moving": "fxvtl09.pie",				"right": "prhrvtl1.pie"	}, 
@@ -399,8 +401,8 @@
 			"hover01NAS": {				"left": "prhhov1ar.pie"	}, 
 			"tracked01NAS": {				"left": "prhltrk3ar.pie",				"right": "prhrtrk3ar.pie"	}, 
 			"wheeled01NAS": {				"left": "prhlwhl1ar.pie",				"right": "prhrwhl1ar.pie"	}, 
-			"wheeled01": {				"left": "prhlwhl1.pie",				"right": "prhrwhl1.pie"			}		},		"size": "HEAVY",		"weaponSlots": 2,		"weight": 7300	}, 
-	 "Body26SUP": {		"armourHeat": 34,		"armourKinetic": 9,		"buildPoints": 550,		"buildPower": 90,		"class": "Droids",		"designable": 1,		"hitpoints": 315,		"id": "Body26SUP",		"model": "DRSBOD26.PIE",		"name": "Mantis Heavy Thermal",		"powerOutput": 11575,		"propulsionExtraModels": {			"HalfTrack": {				"left": "prhlhtr3.pie",				"right": "prhrhtr3.pie"	}, 
+			"wheeled01": {				"left": "prhlwhl1.pie",				"right": "prhrwhl1.pie"			}		},		"size": "HEAVY",		"weaponSlots": 2,		"weight": 12800	}, 
+	 "Body26SUP": {		"armourHeat": 34,		"armourKinetic": 9,		"buildPoints": 550,		"buildPower": 90,		"class": "Droids",		"designable": 1,		"hitpoints": 315,		"id": "Body26SUP",		"model": "DRSBOD26.PIE",		"name": "Super Heavy Thermal Mantis",		"powerOutput": 11575,		"propulsionExtraModels": {			"HalfTrack": {				"left": "prhlhtr3.pie",				"right": "prhrhtr3.pie"	}, 
 			"Helicopter": {				"left": "prhheli1.pie",				"moving": "fxheli09.pie",				"still": "heavyheli_rotor_stationary.pie"	}, 
 			"Naval": {				"left": "prhnaval1.pie"	}, 
 			"V-Tol": {				"left": "prhlvtl1.pie",				"moving": "fxvtl09.pie",				"right": "prhrvtl1.pie"	}, 
@@ -410,8 +412,8 @@
 			"hover01NAS": {				"left": "prhhov1ar.pie"	}, 
 			"tracked01NAS": {				"left": "prhltrk3ar.pie",				"right": "prhrtrk3ar.pie"	}, 
 			"wheeled01NAS": {				"left": "prhlwhl1ar.pie",				"right": "prhrwhl1ar.pie"	}, 
-			"wheeled01": {				"left": "prhlwhl1.pie",				"right": "prhrwhl1.pie"			}		},		"size": "HEAVY",		"weaponSlots": 2,		"weight": 5400	}, 
-	 "Body27SUP": {		"armourHeat": 0,		"armourKinetic": 36,		"buildPoints": 490,		"buildPower": 115,		"class": "Droids",		"designable": 1,		"hitpoints": 350,		"id": "Body27SUP",		"model": "DRSBOD27.PIE",		"name": "Python Heavy Hardened",		"powerOutput": 11970,		"propulsionExtraModels": {			"HalfTrack": {				"left": "prhlhtr3.pie",				"right": "prhrhtr3.pie"	}, 
+			"wheeled01": {				"left": "prhlwhl1.pie",				"right": "prhrwhl1.pie"			}		},		"size": "HEAVY",		"weaponSlots": 2,		"weight": 8400	}, 
+	 "Body27SUP": {		"armourHeat": 0,		"armourKinetic": 36,		"buildPoints": 490,		"buildPower": 115,		"class": "Droids",		"designable": 1,		"hitpoints": 350,		"id": "Body27SUP",		"model": "DRSBOD27.PIE",		"name": "Super Heavy Hardened Python",		"powerOutput": 11970,		"propulsionExtraModels": {			"HalfTrack": {				"left": "prhlhtr3.pie",				"right": "prhrhtr3.pie"	}, 
 			"Helicopter": {				"left": "prhheli1.pie",				"moving": "fxheli09.pie",				"still": "heavyheli_rotor_stationary.pie"	}, 
 			"Naval": {				"left": "prhnaval1.pie"	}, 
 			"V-Tol": {				"left": "prhlvtl1.pie",				"moving": "fxvtl09.pie",				"right": "prhrvtl1.pie"	}, 
@@ -421,8 +423,8 @@
 			"hover01NAS": {				"left": "prhhov1ar.pie"	}, 
 			"tracked01NAS": {				"left": "prhltrk3ar.pie",				"right": "prhrtrk3ar.pie"	}, 
 			"wheeled01NAS": {				"left": "prhlwhl1ar.pie",				"right": "prhrwhl1ar.pie"	}, 
-			"wheeled01": {				"left": "prhlwhl1.pie",				"right": "prhrwhl1.pie"			}		},		"size": "HEAVY",		"weaponSlots": 2,		"weight": 6400	}, 
-	 "Body28SUP": {		"armourHeat": 22,		"armourKinetic": 30,		"buildPoints": 600,		"buildPower": 190,		"class": "Droids",		"designable": 1,		"hitpoints": 500,		"id": "Body28SUP",		"model": "DRSBOD28.PIE",		"name": "Retribution Heavy",		"powerOutput": 17000,		"propulsionExtraModels": {			"HalfTrack": {				"left": "prhlhtr3.pie",				"right": "prhrhtr3.pie"	}, 
+			"wheeled01": {				"left": "prhlwhl1.pie",				"right": "prhrwhl1.pie"			}		},		"size": "HEAVY",		"weaponSlots": 2,		"weight": 9200	}, 
+	 "Body28SUP": {		"armourHeat": 22,		"armourKinetic": 30,		"buildPoints": 600,		"buildPower": 190,		"class": "Droids",		"designable": 1,		"hitpoints": 500,		"id": "Body28SUP",		"model": "DRSBOD28.PIE",		"name": "Super Heavy Retribution",		"powerOutput": 17000,		"propulsionExtraModels": {			"HalfTrack": {				"left": "prhlhtr3.pie",				"right": "prhrhtr3.pie"	}, 
 			"Helicopter": {				"left": "prhheli1.pie",				"moving": "fxheli09.pie",				"still": "heavyheli_rotor_stationary.pie"	}, 
 			"Naval": {				"left": "prhnaval1.pie"	}, 
 			"V-Tol": {				"left": "prhlvtl1.pie",				"moving": "fxvtl09.pie",				"right": "prhrvtl1.pie"	}, 
@@ -432,5 +434,5 @@
 			"hover01NAS": {				"left": "prhhov1ar.pie"	}, 
 			"tracked01NAS": {				"left": "prhltrk3ar.pie",				"right": "prhrtrk3ar.pie"	}, 
 			"wheeled01NAS": {				"left": "prhlwhl1ar.pie",				"right": "prhrwhl1ar.pie"	}, 
-			"wheeled01": {				"left": "prhlwhl1.pie",				"right": "prhrwhl1.pie"			}		},		"size": "HEAVY",		"weaponSlots": 2,		"weight": 6500
+			"wheeled01": {				"left": "prhlwhl1.pie",				"right": "prhrwhl1.pie"			}		},		"size": "HEAVY",		"weaponSlots": 2,		"weight": 11400
 	}}

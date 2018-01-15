@@ -168,17 +168,18 @@ function eventGameInit()
 	}
 	applyLimitSet();	// set limit options
 
-	const numCleanTech = 5;	// do x for clean	
-	const numBaseTech = 19; // do x for base
+	const numCleanTech = 7;	// do x for clean	
+	const numBaseTech = 21; // do x for base
 	var techlist = new Array(
 		"R-Vehicle-Prop-Wheels",
 		"R-Sys-Spade1Mk1",
 		"R-Vehicle-Body01",
 		"R-Comp-SynapticLink",
 		"R-Sys-Sensor-Upgrade00",
+		"R-Vehicle-Body26",
+		"R-Vehicle-Prop-Wheels-NAS",
 		"R-Wpn-MG1Mk1",
 		"R-Defense-HardcreteWall",
-		"R-Sys-Spade1Mk1",
 		"R-Struc-Factory-Cyborg",
 		"R-Defense-Pillbox01",
 		"R-Defense-Tower01",
@@ -221,12 +222,12 @@ function eventGameInit()
 		enableResearch("R-Wpn-MG1Mk1", playnum);
 		enableResearch("R-Sys-Engineering01", playnum);
 		enableResearch("R-Vehicle-Engine01", playnum);
-		enableResearch("R-Cyborg-NASLegs", playnum);
 		
 		// enable cyborgs components that can't be enabled with research
 		makeComponentAvailable("CyborgSpade", playnum);
 		makeComponentAvailable("CyborgRepair", playnum);
-
+		makeComponentAvailable("Spade1Mk1NAS", playnum);
+		
 		if (baseType == CAMP_CLEAN)
 		{
 			setPower(1300, playnum);
@@ -293,6 +294,8 @@ function eventGameInit()
 	// This is the only template that should be enabled before design is allowed
 	enableTemplate("ConstructionDroid");
 	enableTemplate("Cyb-ComEng");
+	enableTemplate("TruckNAS");
+
 	
 	var structlist = enumStruct(selectedPlayer, HQ);
 	for (var i = 0; i < structlist.length; i++)
