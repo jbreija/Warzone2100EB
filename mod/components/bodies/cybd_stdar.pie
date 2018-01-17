@@ -1,7 +1,7 @@
 PIE 3
 TYPE 10200
 TEXTURE 0 page-214-cyborgs.png 0 0
-EVENT 1 cybd_runar.pie
+EVENT 1 cybd_run.pie
 LEVELS 1
 LEVEL 1
 POINTS 104
