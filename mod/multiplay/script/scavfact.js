@@ -122,7 +122,7 @@ const templates = [
 	["B2RKJeepBody","BabaRocket"],
 	["B2RKJeepBody-AR","BabaRocket"],
 	["B2RKJeepBody","BabaRocket"],
-	["BusBody-AR","BusCannon"],
+	["BusBody-AR","BusCannon-AR"],
 	["BusBody","BusCannon"],
 	["BusBody-AR","BabaPitRocketAT"],
 	["B2tractor","BabaFlame"],
@@ -356,6 +356,18 @@ function buildThings()
 		var droid = list[i];
 		if (!checkAndRepair(droid))
 		{
+			for (var q = 0; q < maxPlayers; ++q)
+			{
+				var dlist = enumStruct(q, derrick);
+				for (var r = 0; r < dlist.length; ++r)
+				{
+					var enemy_derrick = dlist[r];
+					if(distBetweenTwoPoints(droid.x, droid.y, enemy_derrick.x, enemy_derrick.y) < 3)
+					{
+						buildTower(droid);
+					}
+				}
+			}
 			buildThingsWithDroid(droid);
 		}
 	}
@@ -397,10 +409,18 @@ function produceCrane(fac)
 
 function produceDroid(fac)
 {
-	if ((countDroid(DROID_CONSTRUCT, me) < 15) || !random(10))
+	if (countDroid(DROID_CONSTRUCT, me) < 15 || !random(10))
 	{
-		produceCrane(fac);
-		return;
+		if(gameTime < 300000)
+		{
+			produceCrane(fac);
+			return;
+		}
+		else if(countDroid(DROID_CONSTRUCT, me) < 3)
+		{
+			produceCrane(fac);
+			return;
+		}
 	}
 
 	var weapons = [];
@@ -863,6 +883,7 @@ function eventGameInit()
 		"Rocket-VTOL-Pod", "ScavNEXUSlink", "BaBaCannon", "BabaPitRocket",
 		"BabaPitRocketAT", "BabaRocket", "BabaRPG", "babawep",
 		"BTowerMG", "Mortar1Mk1", "BusCannon", "BabaFlame", "bTrikeMG", "BuggyMG", "BJeepMG", "BaBaSensor",
+		"A0ResourceExtractorMG",
 	];
 	
 	for (var i = 0, c = SCAV_COMPONENTS.length; i < c; ++i)

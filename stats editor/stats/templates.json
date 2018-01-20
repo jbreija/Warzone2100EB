@@ -838,18 +838,12 @@
 			]	},		"Mech4": {		"available": 1,		"body": "CyborgMecha",		"id": "Mech4",		"name": "Mech4",		"propulsion": "CyborgLegs",		"type": "CYBORG",		"weapons": [			"Cyb-RotMG-Mech"
 			]	},		"Mech5": {		"available": 1,		"body": "CyborgMecha",		"id": "Mech5",		"name": "Mech5",		"propulsion": "CyborgLegs",		"type": "CYBORG",		"weapons": [			"Cyb-Atmiss-Mech"
 			]	},		"Mech6": {		"available": 1,		"body": "CyborgMecha",		"id": "Mech6",		"name": "Mech6",		"propulsion": "CyborgLegs",		"type": "CYBORG",		"weapons": [			"Cyb-Laser-Mech"
-			]	},		"BabaBusCan-AR": {		"body": "BusBody-AR",		"id": "BabaBusCan-AR",		"name": "School Bus-AR",		"propulsion": "BaBaProp",		"type": "DROID",		"weapons": [			"BusCannon"
+			]	},		"BabaBusCan-AR": {		"body": "BusBody-AR",		"id": "BabaBusCan-AR",		"name": "School Bus-AR",		"propulsion": "BaBaProp",		"type": "DROID",		"weapons": [			"BusCannon-AR"
 			]	},		"BabaJeep-AR": {		"body": "B2JeepBody-AR",		"id": "BabaJeep-AR",		"name": "Jeep-AR",		"propulsion": "BaBaProp",		"type": "DROID",		"weapons": [			"BJeepMG"
 			]	},		"BabaRKJeep-AR": {		"body": "B2RKJeepBody-AR",		"id": "BabaRKJeep-AR",		"name": "Rocket Jeep-AR",		"propulsion": "BaBaProp",		"type": "DROID",		"weapons": [			"BabaRocket"
 			]	},		"BarbarianBuggy-AR": {		"body": "B3body-sml-buggy01-AR",		"id": "BarbarianBuggy-AR",		"name": "Buggy-AR",		"propulsion": "BaBaProp",		"type": "DROID",		"weapons": [			"BuggyMG"
 			]	},		"BarbarianRKBuggy-AR": {		"body": "B3bodyRKbuggy01-AR",		"id": "BarbarianRKBuggy-AR",		"name": "Rocket Buggy-AR",		"propulsion": "BaBaProp",		"type": "DROID",		"weapons": [			"BabaRocket"
 			]	},		"BarbarianTrike-AR": {		"body": "B4body-sml-trike01-AR",		"id": "BarbarianTrike-AR",		"name": "Trike-AR",		"propulsion": "BaBaProp",		"type": "DROID",		"weapons": [			"bTrikeMG"
-			]	},		"B4body-sml-trike01-bTrikeMG-AR": {		"body": "B4body-sml-trike01-AR",		"id": "B4body-sml-trike01-bTrikeMG-AR",		"name": "B4body-sml-trike01-bTrikeMG-AR",		"propulsion": "BaBaProp",		"type": "DROID",		"weapons": [			"bTrikeMG"
-			]	},		"B3body-sml-buggy01-BuggyMG-AR": {		"body": "B3body-sml-buggy01-AR",		"id": "B3body-sml-buggy01-BuggyMG-AR",		"name": "B3body-sml-buggy01-BuggyMG-AR",		"propulsion": "BaBaProp",		"type": "DROID",		"weapons": [			"BuggyMG"
-			]	},		"B2JeepBody-BJeepMG-AR": {		"body": "B2JeepBody-AR",		"id": "B2JeepBody-BJeepMG-AR",		"name": "B2JeepBody-BJeepMG-AR",		"propulsion": "BaBaProp",		"type": "DROID",		"weapons": [			"BJeepMG"
-			]	},		"B2RKJeepBody-BabaRocket-AR": {		"body": "B2RKJeepBody-AR",		"id": "B2RKJeepBody-BabaRocket-AR",		"name": "B2RKJeepBody-BabaRocket-AR",		"propulsion": "BaBaProp",		"type": "DROID",		"weapons": [			"BabaRocket"
-			]	},		"B3bodyRKbuggy01-BabaRocket-AR": {		"body": "B3bodyRKbuggy01-AR",		"id": "B3bodyRKbuggy01-BabaRocket-AR",		"name": "B3bodyRKbuggy01-BabaRocket-AR",		"propulsion": "BaBaProp",		"type": "DROID",		"weapons": [			"BabaRocket"
-			]	},		"BusBody-BusCannon-AR": {		"body": "BusBody-AR",		"id": "BusBody-BusCannon-AR",		"name": "BusBody-BusCannon-AR",		"propulsion": "BaBaProp",		"type": "DROID",		"weapons": [			"BusCannon"
 			]	},		"BusBody-BabaPitRocketAT-AR": {		"body": "BusBody-AR",		"id": "BusBody-BabaPitRocketAT-AR",		"name": "BusBody-BabaPitRocketAT-AR",		"propulsion": "BaBaProp",		"type": "DROID",		"weapons": [			"BabaPitRocketAT"
 			]	},		"SuperTransportNAS": {		"available": 1,		"body": "SuperTransportNAS",		"id": "SuperTransportNAS",		"name": "Super NASDA Transport ",		"propulsion": "V-Tol",		"type": "SUPERTRANSPORTER"	}, 
 	 "TransporterNAS": {		"available": 1,		"body": "TransporterNAS",		"id": "TransporterNAS",		"name": "NASDA Cyborg Transport",		"propulsion": "V-Tol",		"type": "TRANSPORTER"	}, 

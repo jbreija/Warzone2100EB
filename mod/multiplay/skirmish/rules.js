@@ -155,11 +155,13 @@ function eventGameInit()
 		enableStructure("A0ResourceExtractor", playnum);
 		enableStructure("A0PowerGenerator", playnum);
 		enableStructure("A0ResearchFacility", playnum);
-
+		enableStructure("A0CommandCentreAR", playnum);
+		
 		setStructureLimits("A0LightFactory", 5, playnum);	// set structure limits
 		setStructureLimits("A0PowerGenerator", 10, playnum);
 		setStructureLimits("A0ResearchFacility", 5, playnum);
 		setStructureLimits("A0CommandCentre", 1, playnum);
+		setStructureLimits("A0CommandCentreAR", 1, playnum);
 		setStructureLimits("A0ComDroidControl", 1, playnum);
 		setStructureLimits("A0CyborgFactory", 10, playnum);
 		setStructureLimits("A0VTolFactory1", 5, playnum);
@@ -230,7 +232,7 @@ function eventGameInit()
 		
 		if (baseType == CAMP_CLEAN)
 		{
-			setPower(1300, playnum);
+			setPower(2000, playnum);
 			for (var count = 0; count < numCleanTech; count++)
 			{
 				completeResearch(techlist[count], playnum);
