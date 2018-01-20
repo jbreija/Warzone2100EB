@@ -155,7 +155,6 @@ function eventGameInit()
 		enableStructure("A0ResourceExtractor", playnum);
 		enableStructure("A0PowerGenerator", playnum);
 		enableStructure("A0ResearchFacility", playnum);
-		enableStructure("A0CommandCentreAR", playnum);
 		
 		setStructureLimits("A0LightFactory", 5, playnum);	// set structure limits
 		setStructureLimits("A0PowerGenerator", 10, playnum);

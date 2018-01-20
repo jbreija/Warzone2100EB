@@ -770,23 +770,26 @@ function eventAttacked(victim, attacker)
 	if (victim.type == STRUCTURE)
 	{
 		var base = findNearest(baseInfo, victim.x, victim.y, true);
-		var list = enumGroup(base.defendGroup);
-
-		//Let this base build more defense units then
-		if (!isDefined(list[MAX_DEFENDERS]))
+		if (base != null)
 		{
-			list = enumGroup(base.attackDroids);
-		}
+			var list = enumGroup(base.defendGroup);
 
-		var globalDefenders = enumGroup(globalDefendGroup);
-		for (var i = 0, l = globalDefenders.length; i < l; ++i)
-		{
-			list.push(globalDefenders[i]);
-		}
+			//Let this base build more defense units then
+			if (!isDefined(list[MAX_DEFENDERS]))
+			{
+				list = enumGroup(base.attackDroids);
+			}
 
-		for (var i = 0, l = list.length; i < l; ++i)
-		{
-			attackWithDroid(list[i], attacker, true);
+			var globalDefenders = enumGroup(globalDefendGroup);
+			for (var i = 0, l = globalDefenders.length; i < l; ++i)
+			{
+				list.push(globalDefenders[i]);
+			}
+
+			for (var i = 0, l = list.length; i < l; ++i)
+			{
+				attackWithDroid(list[i], attacker, true);
+			}
 		}
 
 	}
@@ -917,6 +920,22 @@ function eventObjectTransfer(object, from)
 	}
 }
 
+function retreat()
+{
+	var list = enumDroid(me) 
+	for (var i = 0; i < list.length; ++i)
+	{
+		var droid = list[i];
+		if (!isVTOL(droid))
+		{
+			if (droid.health < 80)
+			{
+				orderDroid(droid, DORDER_RTR);
+			}
+		}
+	}
+}
+
 function eventStartLevel()
 {
 	var list = enumStruct(me, factory);
@@ -942,6 +961,7 @@ function eventStartLevel()
 
 	produceThings();
 	setTimer("produceThings", 600);
+	setTimer("retreat", 600);
 	setTimer("buildThings", 500);
 	setTimer("groundAttackStuff", 2000);
 	setTimer("helicopterAttack", 3000);
