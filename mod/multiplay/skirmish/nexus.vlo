@@ -617,9 +617,9 @@ run
 	numStructs		int					16
 	numFundamental		int					6
 	structs[0]		STRUCTURESTAT		"A0LightFactory"
-	structs[1]		STRUCTURESTAT		"A0ResearchFacility"
-	structs[2]		STRUCTURESTAT		"A0PowerGenerator"
-	structs[3]		STRUCTURESTAT		"A0ResourceExtractor"
+	structs[1]		STRUCTURESTAT		"A0PowerGenerator"
+	structs[2]		STRUCTURESTAT		"A0ResourceExtractor"
+	structs[3]		STRUCTURESTAT		"A0ResearchFacility"
 	structs[4]		STRUCTURESTAT		"A0CommandCentre"
 	structs[5]		STRUCTURESTAT		"A0ResearchFacility"
 	structs[6]		STRUCTURESTAT		"A0Sat-linkCentre"

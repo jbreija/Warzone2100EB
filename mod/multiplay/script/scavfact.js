@@ -944,7 +944,7 @@ function eventStartLevel()
 		var fac = list[i];
 		baseInfo[i] = new constructBaseInfo(fac.x, fac.y);
 	}
-	MAX_SENSORS = baseInfo.length;
+	MAX_SENSORS = 5;
 	currentEnemy = random(maxPlayers);
 	lastChangedEnemyTime = 0;
 	list = enumDroid(me);
