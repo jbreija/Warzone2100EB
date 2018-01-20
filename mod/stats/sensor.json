@@ -1,6 +1,6 @@
 {
 	 "ScavSensor": {		"buildPoints": 100,		"buildPower": 20,		"hitpoints": 200,		"id": "ScavSensor",		"location": "TURRET",		"name": "*BaBa Sensor*",		"power": 1000,		"range": 1536,		"type": "STANDARD"	}, 
-	 "BaBaSensor": {		"buildPoints": 1,		"buildPower": 1,		"hitpoints": 1,		"id": "BaBaSensor",		"location": "DEFAULT",		"mountModel": "trlrcktg.pie",		"name": "*BaBa Default Sensor*",		"power": 100,		"range": 1536,		"sensorModel": "gnlsnsr1.pie",		"type": "STANDARD",		"weight": 100	}, 
+	 "BaBaSensor": {		"buildPoints": 1,		"buildPower": 1,		"hitpoints": 1,		"id": "BaBaSensor",		"location": "DEFAULT",		"name": "*BaBa Default Sensor*",		"power": 100,		"range": 1536,		"sensorModel": "gnlsnsr1.pie",		"type": "STANDARD",		"weight": 100	}, 
 	 "CCSensor": {		"buildPoints": 1,		"buildPower": 1,		"hitpoints": 200,		"id": "CCSensor",		"location": "TURRET",		"mountModel": "TRLSNSR1.PIE",		"name": "*CC Sensor*",		"power": 1000,		"range": 2048,		"sensorModel": "misensor.PIE",		"type": "STANDARD",		"weight": 1	}, 
 	 "DefaultSensor1Mk1": {		"id": "DefaultSensor1Mk1",		"location": "DEFAULT",		"name": "*Default Sensor*",		"power": 500,		"range": 1024,		"type": "STANDARD"	}, 
 	 "FortressSensor": {		"id": "FortressSensor",		"location": "DEFAULT",		"name": "*Fortress Sensor*",		"power": 500,		"range": 1536,		"type": "STANDARD"	}, 
