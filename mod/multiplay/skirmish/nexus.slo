@@ -1889,104 +1889,105 @@ function void buildBaseStruct(STRUCTURESTAT _structure)
 		_buildY = buildY;
 		_proceed = false;
 	
-
-	
-		initIterateGroup(buildGroup);
-		droid = iterateGroup(buildGroup);
-		while(droid != NULLOBJECT)
-		{
-			if(_structure == powGen and countStruct(powGen) < 3 and gameTime > 1400) // prioritize power generators over other base structures even if building other structure except for first 2 minutes of game (screws up base build)
+	if(getPlayerName(me) == "Nexus" || not isHumanPlayer(me))							// not human
+	{
+			initIterateGroup(buildGroup);
+			droid = iterateGroup(buildGroup);
+			while(droid != NULLOBJECT)
 			{
-				_proceed = true;
-			}
-			else if(droid.order != DORDER_HELPBUILD and droid.order != DORDER_BUILD and droid.order != DORDER_LINEBUILD and droid.action != DACTION_BUILD and droid.order != DORDER_REPAIR)
-			{
-				_proceed = true;
-			}
-			else
-			{
-				_proceed = false;
+				if(_structure == powGen and countStruct(powGen) < 3 and gameTime > 1400) // prioritize power generators over other base structures even if building other structure except for first 2 minutes of game (screws up base build)
+				{
+					_proceed = true;
+				}
+				else if(droid.order != DORDER_HELPBUILD and droid.order != DORDER_BUILD and droid.order != DORDER_LINEBUILD and droid.action != DACTION_BUILD and droid.order != DORDER_REPAIR)
+				{
+					_proceed = true;
+				}
+				else
+				{
+					_proceed = false;
+				}
+				
+				if(_proceed)
+				{
+					_count = 1;
+					while(_count < 10)
+					{
+							_buildX = baseX + _count;
+							_buildY = baseY + _count;
+							if (pickDroidStructLocation(droid, _structure, ref _buildX, ref _buildY, me, 1))
+							{
+								_newDist = distBetweenTwoPoints(droid.x, droid.y, _buildX, _buildY);
+						
+								if (_newDist < _bestDist and droidCanReach(droid, _buildX, _buildY))	// this one is closer
+								{
+									_bestDist = _newDist;
+									_closestX = _buildX;
+									_closestY = _buildY;
+									_closestTruck = droid;
+								}
+							}
+							
+							_buildY = baseY + (_count * -1);
+							if(_buildY > 0 and _buildY < mapHeight)
+							{
+							if (pickDroidStructLocation(droid, _structure, ref _buildX, ref _buildY, me, 1))
+							{
+								_newDist = distBetweenTwoPoints(droid.x, droid.y, _buildX, _buildY);
+						
+								if (_newDist < _bestDist and droidCanReach(droid, _buildX, _buildY))	// this one is closer
+								{
+									_bestDist = _newDist;
+									_closestX = _buildX;
+									_closestY = _buildY;
+									_closestTruck = droid;
+								}
+							}
+							}
+							
+							_buildX = baseX + (_count * -1);
+							if(_buildX > 0 and _buildX < mapWidth)
+							{
+							if (pickDroidStructLocation(droid, _structure, ref _buildX, ref _buildY, me, 1))
+							{
+								_newDist = distBetweenTwoPoints(droid.x, droid.y, _buildX, _buildY);
+						
+								if (_newDist < _bestDist and droidCanReach(droid, _buildX, _buildY))	// this one is closer
+								{
+									_bestDist = _newDist;
+									_closestX = _buildX;
+									_closestY = _buildY;
+									_closestTruck = droid;
+								}
+							}
+							}
+							
+							_buildY = baseY + (_count * -1);
+							if(_buildY > 0 and _buildY < mapHeight)
+							{
+							if (pickDroidStructLocation(droid, _structure, ref _buildX, ref _buildY, me, 1))
+							{
+								_newDist = distBetweenTwoPoints(droid.x, droid.y, _buildX, _buildY);
+						
+								if (_newDist < _bestDist and droidCanReach(droid, _buildX, _buildY))	// this one is closer
+								{
+									_bestDist = _newDist;
+									_closestX = _buildX;
+									_closestY = _buildY;
+									_closestTruck = droid;
+								}
+							}
+							}
+							_count++;
+						}
+				}
+				droid = iterateGroup(buildGroup);
 			}
 			
-			if(_proceed)
+			if (pickDroidStructLocation(_closestTruck, _structure, ref _closestX, ref _closestY, me, 1) and _closestTruck != NULLOBJECT)
 			{
-				_count = 1;
-				while(_count < 10)
-				{
-						_buildX = baseX + _count;
-						_buildY = baseY + _count;
-						if (pickDroidStructLocation(droid, _structure, ref _buildX, ref _buildY, me, 1))
-						{
-							_newDist = distBetweenTwoPoints(droid.x, droid.y, _buildX, _buildY);
-					
-							if (_newDist < _bestDist and droidCanReach(droid, _buildX, _buildY))	// this one is closer
-							{
-								_bestDist = _newDist;
-								_closestX = _buildX;
-								_closestY = _buildY;
-								_closestTruck = droid;
-							}
-						}
-						
-						_buildY = baseY + (_count * -1);
-						if(_buildY > 0 and _buildY < mapHeight)
-						{
-						if (pickDroidStructLocation(droid, _structure, ref _buildX, ref _buildY, me, 1))
-						{
-							_newDist = distBetweenTwoPoints(droid.x, droid.y, _buildX, _buildY);
-					
-							if (_newDist < _bestDist and droidCanReach(droid, _buildX, _buildY))	// this one is closer
-							{
-								_bestDist = _newDist;
-								_closestX = _buildX;
-								_closestY = _buildY;
-								_closestTruck = droid;
-							}
-						}
-						}
-						
-						_buildX = baseX + (_count * -1);
-						if(_buildX > 0 and _buildX < mapWidth)
-						{
-						if (pickDroidStructLocation(droid, _structure, ref _buildX, ref _buildY, me, 1))
-						{
-							_newDist = distBetweenTwoPoints(droid.x, droid.y, _buildX, _buildY);
-					
-							if (_newDist < _bestDist and droidCanReach(droid, _buildX, _buildY))	// this one is closer
-							{
-								_bestDist = _newDist;
-								_closestX = _buildX;
-								_closestY = _buildY;
-								_closestTruck = droid;
-							}
-						}
-						}
-						
-						_buildY = baseY + (_count * -1);
-						if(_buildY > 0 and _buildY < mapHeight)
-						{
-						if (pickDroidStructLocation(droid, _structure, ref _buildX, ref _buildY, me, 1))
-						{
-							_newDist = distBetweenTwoPoints(droid.x, droid.y, _buildX, _buildY);
-					
-							if (_newDist < _bestDist and droidCanReach(droid, _buildX, _buildY))	// this one is closer
-							{
-								_bestDist = _newDist;
-								_closestX = _buildX;
-								_closestY = _buildY;
-								_closestTruck = droid;
-							}
-						}
-						}
-						_count++;
-					}
+				orderDroidStatsLoc(_closestTruck, DORDER_BUILD, _structure, _closestX, _closestY);
 			}
-			droid = iterateGroup(buildGroup);
-		}
-		
-		if (pickDroidStructLocation(_closestTruck, _structure, ref _closestX, ref _closestY, me, 1) and _closestTruck != NULLOBJECT)
-		{
-			orderDroidStatsLoc(_closestTruck, DORDER_BUILD, _structure, _closestX, _closestY);
 		}
 }
 
