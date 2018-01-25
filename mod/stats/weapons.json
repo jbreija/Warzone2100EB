@@ -1444,7 +1444,7 @@
 		"weaponEffect": "ALL ROUNDER",
 		"weaponSubClass": "CANNON",
 		"weaponWav": "hivelcan.ogg",
-		"weight": 2100
+		"weight": 9600
 	}, 
 	 "Cannon4AUTOMk1-Hvy-Inc": {
 		"buildPoints": 700,
@@ -14093,8 +14093,8 @@
 	}, 
 	 "ScavNEXUSlink": {
 		"buildPoints": 100,
-		"buildPower": 35,
-		"damage": 10,
+		"buildPower": 125,
+		"damage": 1,
 		"effectSize": 100,
 		"faceInFlight": 1,
 		"facePlayer": 1,

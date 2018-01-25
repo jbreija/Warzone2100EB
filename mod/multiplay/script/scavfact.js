@@ -129,19 +129,19 @@ const templates = [
 	["B2tractor","BabaFlame"],
 	["B2tractor","BabaFlame"],
 	["FireBody","BabaFlame"],
-	["FireBody","BabaFlame"],
-	["FireBody","BusCannon"],
-	["FireBody","BabaPitRocket"],
-	["FireBody","BabaPitRocketAT"],
+	["FireBody-AR","BabaFlame"],
+	["FireBody-AR","BusCannon"],
+	["FireBody-AR","BabaPitRocket"],
+	["FireBody-AR","BabaPitRocketAT"],
 	["ScavCamperBody","BabaPitRocket"],
 	["ScavCamperBody","BusCannon"],
 	["ScavTruckBody","BabaFlame","BabaRocket","BabaPitRocketAT"],
 	["ScavTruckBody","BusCannon","BabaPitRocket","BabaRocket"],
 	["ScavIcevanBody","BabaFlame"],
 	["ScavIcevanBody","Mortar1Mk1"],
-	["ScavNEXUStrack","ScavNEXUSlink"],
-	["ScavNEXUStrack","ScavNEXUSlink"],
-	["ScavNEXUStrack","ScavNEXUSlink"],
+	//["ScavNEXUStrack","ScavNEXUSlink"],
+	//["ScavNEXUStrack","ScavNEXUSlink"],
+	//["ScavNEXUStrack","ScavNEXUSlink"],
 ];
 
 const vtolTemplates = [
@@ -428,7 +428,7 @@ function produceDroid(fac)
 	{
 		if (countDroid(DROID_SENSOR, me) < MAX_SENSORS)
 		{
-			weapons.push("BaBaSensor");
+			weapons.push("ScavSensor");
 			scavBuildDroid(fac, "ScavSensor", "BusBody", "BaBaProp", weapons);
 		}
 	}

@@ -252,22 +252,22 @@
 		"name": "*scavengertruck",
 		"powerOutput": 8000,
 		"size": "LIGHT",
-		"weaponSlots": 3,
+		"weaponSlots": 1,
 		"weight": 2000
 	}, 
 	 "ScavNEXUSbody": {
 		"armourHeat": 8,
 		"armourKinetic": 10,
-		"buildPoints": 80,
-		"buildPower": 20,
+		"buildPoints": 300,
+		"buildPower": 50,
 		"class": "Droids",
 		"hitpoints": 180,
 		"id": "ScavNEXUSbody",
 		"model": "scavnexus.pie",
 		"name": "*scavengernexustank",
-		"powerOutput": 12000,
+		"powerOutput": 5000,
 		"size": "LIGHT",
-		"weaponSlots": 3,
+		"weaponSlots": 1,
 		"weight": 2000
 	}, 
 	 "ScavNEXUStrack": {
@@ -289,7 +289,7 @@
 		"armourHeat": 4,
 		"armourKinetic": 7,
 		"buildPoints": 100,
-		"buildPower": 20,
+		"buildPower": 40,
 		"class": "Droids",
 		"hitpoints": 130,
 		"id": "ScavengerChopper",
@@ -312,13 +312,13 @@
 		"armourHeat": 6,
 		"armourKinetic": 11,
 		"buildPoints": 110,
-		"buildPower": 29,
+		"buildPower": 50,
 		"class": "Droids",
 		"hitpoints": 230,
 		"id": "HeavyChopper",
 		"model": "hvychop.pie",
 		"name": "*heavychopper",
-		"powerOutput": 2000,
+		"powerOutput": 2800,
 		"propulsionExtraModels": {
 			"Helicopter": {
 				"left": "prmheli1.pie",
@@ -329,7 +329,7 @@
 		},
 		"size": "LIGHT",
 		"weaponSlots": 1,
-		"weight": 800
+		"weight": 1500
 	}, 
 	 "Body10MBT": {
 		"armourHeat": 28,
@@ -1843,6 +1843,21 @@
 		"size": "LIGHT",
 		"weaponSlots": 1,
 		"weight": 22000
+	}, 
+	 "FireBody-AR": {
+		"armourHeat": 1,
+		"armourKinetic": 4,
+		"buildPoints": 75,
+		"buildPower": 20,
+		"class": "Babas",
+		"hitpoints": 200,
+		"id": "FireBody",
+		"model": "exfirear.pie",
+		"name": "*Fire Engine Body AR*",
+		"powerOutput": 4000,
+		"size": "LIGHT",
+		"weaponSlots": 1,
+		"weight": 3000
 	}, 
 	 "FireBody": {
 		"armourHeat": 1,

@@ -70,6 +70,7 @@
 		"time": 7
 	}, 
 	 "NEXUSrepair": {
+		"droidType": "DROID_REPAIR",
 		"id": "NEXUSrepair",
 		"location": "DEFAULT",
 		"name": "*NEXUSrepair*",
@@ -85,6 +86,7 @@
 	 "CyborgHeavyRepair": {
 		"buildPoints": 500,
 		"buildPower": 150,
+		"droidType": "CYBORG_REPAIR",
 		"id": "CyborgHeavyRepair",
 		"location": "TURRET",
 		"model": "GNMREPR2.PIE",
@@ -96,6 +98,7 @@
 	 "HvyCybRepair": {
 		"buildPoints": 50,
 		"buildPower": 10,
+		"droidType": "CYBORG_REPAIR",
 		"id": "HvyCybRepair",
 		"location": "TURRET",
 		"model": "cy_rep.pie",
