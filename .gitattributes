@@ -2,4 +2,4 @@
 * text=auto
 
 # Force the following filetypes to have unix eols, so Windows does not break them
-*.json text eol=lf
+*.json text eol=crlf
