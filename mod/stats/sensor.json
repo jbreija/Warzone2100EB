@@ -19,7 +19,6 @@
 		"hitpoints": 1,
 		"id": "BaBaSensor",
 		"location": "DEFAULT",
-		"mountModel": "TRLSNSR1.PIE",
 		"name": "*BaBa Default Sensor*",
 		"power": 100,
 		"range": 1536,

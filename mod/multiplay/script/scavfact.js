@@ -139,9 +139,9 @@ const templates = [
 	["ScavTruckBody","BusCannon","BabaPitRocket","BabaRocket"],
 	["ScavIcevanBody","BabaFlame"],
 	["ScavIcevanBody","Mortar1Mk1"],
-	//["ScavNEXUStrack","ScavNEXUSlink"],
-	//["ScavNEXUStrack","ScavNEXUSlink"],
-	//["ScavNEXUStrack","ScavNEXUSlink"],
+	["ScavNEXUStrack","ScavNEXUSlink"],
+	["ScavNEXUStrack","ScavNEXUSlink"],
+	["ScavNEXUStrack","ScavNEXUSlink"],
 ];
 
 const vtolTemplates = [
@@ -885,8 +885,7 @@ function eventGameInit()
 		"ScavNEXUSbody", "ScavNEXUStrack", "ScavTruckBody", "MG1-VTOL",
 		"Rocket-VTOL-Pod", "ScavNEXUSlink", "BaBaCannon", "BabaPitRocket",
 		"BabaPitRocketAT", "BabaRocket", "BabaRPG", "babawep",
-		"BTowerMG", "Mortar1Mk1", "BusCannon", "BabaFlame", "bTrikeMG", "BuggyMG", "BJeepMG", "BaBaSensor",
-		"A0ResourceExtractorMG",
+		"BTowerMG", "Mortar1Mk1", "BusCannon", "BabaFlame", "bTrikeMG", "BuggyMG", "BJeepMG",
 	];
 	
 	for (var i = 0, c = SCAV_COMPONENTS.length; i < c; ++i)
