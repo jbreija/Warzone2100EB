@@ -48,7 +48,7 @@
 		"mountModel": "TRLSNSR1ar.PIE",
 		"name": "Fortified CC Sensor",
 		"power": 1000,
-		"range": 2048,
+		"range": 3000,
 		"sensorModel": "gnlsnsr1ar.pie",
 		"type": "STANDARD",
 		"weight": 1

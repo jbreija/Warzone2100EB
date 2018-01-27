@@ -166,6 +166,9 @@ function eventGameInit()
 		setStructureLimits("A0VTolFactory1", 5, playnum);
 		setStructureLimits("A0DedicatedResearchFacility", 5, playnum);
 		setStructureLimits("A0AutomatedFactory", 5, playnum);
+		setStructureLimits("A0GasPowerGenerator", 4, playnum);
+		setStructureLimits("A0RepairCentre", 5, playnum);
+		setStructureLimits("A0RepairCentre4", 5, playnum);
 	}
 	applyLimitSet();	// set limit options
 

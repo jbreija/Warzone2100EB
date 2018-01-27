@@ -2496,11 +2496,14 @@
         "imdName": "BLWALL2.PIE",
         "msgName": "RES_DF_WU4",
         "name": "Supercrete",
+        "redComponents": [
+            "A0HardcreteMk1CWall"
+        ],
         "requiredResearch": [
             "R-Sys-Engineering03", 
             "R-Struc-Research-Upgrade04", 
             "R-Defense-WallUpgrade03"
-        ],
+            ],
         "researchPoints": 6000,
         "researchPower": 415,
         "resultStructures": [
@@ -2588,10 +2591,13 @@
         "imdName": "BLWALL3.PIE",
         "msgName": "RES_DF_WU7",
         "name": "Plascrete",
+        "redComponents": [
+            "A0Supercrete"
+        ],
         "requiredResearch": [
             "R-Defense-WallUpgrade06", 
             "R-Sys-Engineering04"
-        ],
+            ],
         "researchPoints": 12000,
         "researchPower": 720,
         "resultStructures": [
@@ -2680,9 +2686,12 @@
         "imdName": "BLWALLHar.PIE",
         "msgName": "RES_DF_WU10",
         "name": "Plasteel",
+        "redComponents": [
+            "A0Plascrete"
+        ],
         "requiredResearch": [
             "R-Defense-WallUpgrade09"
-        ],
+            ],
         "researchPoints": 18000,
         "researchPower": 1080,
         "resultStructures": [
@@ -2836,7 +2845,7 @@
         "msgName": "RES_ST_CR1",
         "name": "Fortified Command Center",
         "requiredResearch": [
-            "R-Struc-Materials01"
+            "R-Struc-Materials02"
         ],
         "researchPoints": 2200,
         "researchPower": 175,
