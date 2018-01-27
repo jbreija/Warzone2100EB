@@ -901,7 +901,7 @@
 		"hitpoints": 800,
 		"id": "A0ResearchFacility",
 		"name": "Research Facility",
-		"researchPoints": 17,
+		"researchPoints": 20,
 		"moduleResearchPoints": 9,
 		"resistance": 150,
 		"sensorID": "DefaultSensor1Mk1",
