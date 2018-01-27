@@ -2,6 +2,7 @@ PIE 3
 TYPE 10200
 TEXTURE 0 page-208-derrick.png 0 0
 NORMALMAP 0 page-208_normalmap.png
+EVENT 1 blderik_animar.pie
 LEVELS 3
 LEVEL 1
 POINTS 160

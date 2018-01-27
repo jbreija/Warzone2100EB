@@ -2,7 +2,7 @@
 	 "scavCrane1": {
 		"buildPoints": 25,
 		"buildPower": 10,
-		"constructPoints": 12,
+		"constructPoints": 10,
 		"droidType": "DROID_CONSTRUCT",
 		"hitpoints": 35,
 		"id": "scavCrane1",
@@ -13,7 +13,7 @@
 	 "scavCrane2": {
 		"buildPoints": 25,
 		"buildPower": 10,
-		"constructPoints": 12,
+		"constructPoints": 13,
 		"droidType": "DROID_CONSTRUCT",
 		"hitpoints": 35,
 		"id": "scavCrane2",

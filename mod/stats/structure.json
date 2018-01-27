@@ -29,7 +29,7 @@
 		"rearmPoints": 300,
 		"repairPoints": 10,
 		"resistance": 150,
-		"strength": "MEDIUM",
+		"strength": "SOFT",
 		"structureModel": [
 			"blvtolpd.pie"
 		],
@@ -48,7 +48,7 @@
 		"name": "Scavenger MG tower",
 		"resistance": 150,
 		"sensorID": "BaBaSensor",
-		"strength": "HARD",
+		"strength": "SOFT",
 		"structureModel": [
 			"bbaatower.PIE"
 		],
@@ -71,7 +71,7 @@
 		"productionPoints": 15,
 		"resistance": 150,
 		"sensorID": "BaBaSensor",
-		"strength": "MEDIUM",
+		"strength": "SOFT",
 		"structureModel": [
 			"scavvtol.pie"
 		],
@@ -93,7 +93,7 @@
 		"repairPoints": 10,
 		"resistance": 150,
 		"sensorID": "BaBaSensor",
-		"strength": "MEDIUM",
+		"strength": "SOFT",
 		"structureModel": [
 			"repair.pie"
 		],
@@ -135,7 +135,7 @@
 		"productionPoints": 15,
 		"resistance": 150,
 		"sensorID": "BaBaSensor",
-		"strength": "MEDIUM",
+		"strength": "SOFT",
 		"structureModel": [
 			"BLBRBFAC.PIE"
 		],
@@ -154,7 +154,7 @@
 		"name": "Scavenger Flame Tower",
 		"resistance": 150,
 		"sensorID": "BaBaSensor",
-		"strength": "MEDIUM",
+		"strength": "SOFT",
 		"structureModel": [
 			"Blbrtowf.pie"
 		],
@@ -176,7 +176,7 @@
 		"name": "Scavenger Gun Tower",
 		"resistance": 150,
 		"sensorID": "BaBaSensor",
-		"strength": "MEDIUM",
+		"strength": "SOFT",
 		"structureModel": [
 			"BLBRBTW1.PIE"
 		],
@@ -198,7 +198,7 @@
 		"name": "*Scavenger End Tower*",
 		"resistance": 150,
 		"sensorID": "BaBaSensor",
-		"strength": "MEDIUM",
+		"strength": "SOFT",
 		"structureModel": [
 			"Blbrbtw2.PIE"
 		],
@@ -237,7 +237,7 @@
 		"name": "*BaBaMortarPit*",
 		"resistance": 150,
 		"sensorID": "BaBaSensor",
-		"strength": "MEDIUM",
+		"strength": "SOFT",
 		"structureModel": [
 			"BLBRMRTP.PIE"
 		],
@@ -280,7 +280,7 @@
 		"name": "Scavenger Rocket Pit",
 		"resistance": 150,
 		"sensorID": "BaBaSensor",
-		"strength": "MEDIUM",
+		"strength": "SOFT",
 		"structureModel": [
 			"EXROCKET.PIE"
 		],
@@ -302,7 +302,7 @@
 		"name": "Scavenger AT-Rocket Pit",
 		"resistance": 150,
 		"sensorID": "BaBaSensor",
-		"strength": "MEDIUM",
+		"strength": "SOFT",
 		"structureModel": [
 			"EXROCKET.PIE"
 		],
@@ -341,7 +341,7 @@
 		"name": "Cannon Tower",
 		"resistance": 150,
 		"sensorID": "BaBaSensor",
-		"strength": "MEDIUM",
+		"strength": "SOFT",
 		"structureModel": [
 			"BLBRTOWR.PIE"
 		],

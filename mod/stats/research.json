@@ -829,13 +829,30 @@
         ],
         "statID": "Rocket-MRL"
     }, 
+     "R-Cyborg-Hvywpn-EMP": {
+        "iconID": "IMAGE_RES_CYBORGTECH",
+        "id": "R-Cyborg-Hvywpn-EMP",
+        "msgName": "RES_EMP_CANT",
+        "name": "Super EMP Cyborg",
+        "requiredResearch": [
+            "R-Wpn-EMPCannon", 
+            "R-Cyborg-HvyBody"
+        ],
+        "researchPoints": 7200,
+        "researchPower": 395,
+        "resultComponents": [
+            "Cyb-Hvywpn-EMP-AR",
+            "Cyb-Hvywpn-EMP"
+        ],
+        "statID": "EMP-Cannon"
+    }, 
      "R-Cyborg-Hvywpn-Rocket-Pod": {
         "iconID": "IMAGE_RES_CYBORGTECH",
         "id": "R-Cyborg-Hvywpn-Rocket-Pod",
         "msgName": "RES_EMP_CANT",
         "name": "Super Rocket-Pod",
         "requiredResearch": [
-            "Rocket-Pod", 
+            "R-Wpn-Rocket05-MiniPod", 
             "R-Cyborg-HvyBody"
         ],
         "researchPoints": 4600,
@@ -3903,7 +3920,8 @@
         "msgName": "RES_ST_VPU7",
         "name": "Self-Loading VTOL Rearming",
         "requiredResearch": [
-            "R-Struc-VTOLPad-Upgrade05"
+            "R-Struc-VTOLPad-Upgrade06", 
+            "R-Struc-Research-Upgrade10"
         ],
         "researchPoints": 31000,
         "researchPower": 1615,
@@ -7218,7 +7236,7 @@
         "id": "R-Wpn-Cannon-Mount01",
         "imdName": "TRMGSS.PIE",
         "msgName": "RES_W_CN_MN1",
-        "name": "Augmented Assault Turret",
+        "name": "Augmented Cannon Turret",
         "requiredResearch": [
             "R-Wpn-Cannon5"
         ],
@@ -7240,7 +7258,7 @@
         "id": "R-Wpn-Cannon-Mount02",
         "imdName": "TRMCAN.PIE",
         "msgName": "RES_W_CN_MN2",
-        "name": "Augmented Assault Turret Mk2",
+        "name": "Augmented Cannon Turret Mk2",
         "requiredResearch": [
             "R-Wpn-Cannon-Mount01"
         ],
@@ -7262,7 +7280,7 @@
         "id": "R-Wpn-Cannon-Mount03",
         "imdName": "TRMMSLAT.PIE",
         "msgName": "RES_W_CN_MN3",
-        "name": "Augmented Assault Turret Mk3",
+        "name": "Augmented Cannon Turret Mk3",
         "requiredResearch": [
             "R-Wpn-Cannon-Mount02"
         ],
@@ -7284,7 +7302,7 @@
         "id": "R-Wpn-Cannon-Mount04",
         "imdName": "TRHGSS2.PIE",
         "msgName": "RES_W_CN_MN4",
-        "name": "Heavy Assault Turret",
+        "name": "Heavy Assault Cannon Turret",
         "requiredResearch": [
             "R-Wpn-Cannon-Mount03", 
             "R-Wpn-Cannon3Mk1"
@@ -9603,6 +9621,22 @@
         ],
         "statID": "MG3Mk1"
     }, 
+     "R-Wpn-MG3Mk1-Twn": {
+        "iconID": "IMAGE_RES_WEAPONTECH",
+        "id": "R-Wpn-MG3Mk1-Twn",
+        "keyTopic": 1,
+        "msgName": "RES_MG3MK1",
+        "name": "Twin Heavy Machinegun",
+        "requiredResearch": [
+            "R-Wpn-MG-Mount02"
+        ],
+        "researchPoints": 4800,
+        "researchPower": 265,
+        "resultComponents": [
+            "MG3Mk1-Twn"
+        ],
+        "statID": "MG3Mk1-Twn"
+    }, 
      "R-Wpn-MG4": {
         "iconID": "IMAGE_RES_WEAPONTECH",
         "id": "R-Wpn-MG4",
@@ -9837,53 +9871,12 @@
         "id": "R-Wpn-MG-Mount01",
         "imdName": "TRMMG.PIE",
         "msgName": "RES_W_MG_MN1",
-        "name": "Gatling MG Turret",
+        "name": "MG Gatling Turret",
         "requiredResearch": [
             "R-Wpn-MG3Mk1"
         ],
         "researchPoints": 3200,
-        "researchPower": 250
-    }, 
-     "R-Wpn-MG-Mount02": {
-        "iconID": "IMAGE_RES_WEAPONTECH",
-        "id": "R-Wpn-MG-Mount02",
-        "imdName": "TRHMG.PIE",
-        "msgName": "RES_W_MG_MN2",
-        "name": "Gatling MG Turret Mk2",
-        "requiredResearch": [
-            "R-Wpn-MG-Mount01", 
-            "R-Wpn-MG-ROF03"
-        ],
-        "researchPoints": 5000,
-        "researchPower": 285
-    }, 
-     "R-Wpn-MG-Mount03": {
-        "iconID": "IMAGE_RES_WEAPONTECH",
-        "id": "R-Wpn-MG-Mount03",
-        "imdName": "TRWPFCAN.PIE",
-        "msgName": "RES_W_MG_MN3",
-        "name": "Gatling MG Turret Mk3",
-        "requiredResearch": [
-            "R-Wpn-MG-Mount02", 
-            "R-Wpn-MG5"
-        ],
-        "researchPoints": 7200,
-        "researchPower": 325
-    }, 
-     "R-Wpn-MG-Range01": {
-        "iconID": "IMAGE_RES_WEAPONTECH",
-        "id": "R-Wpn-MG-Range01",
-        "msgName": "RES_W_MG_RA1",
-        "name": "Hardened MG Barrel",
-        "requiredResearch": [
-            "R-Struc-Research-Module ", 
-            "R-Wpn-MG-Mount01"
-        ],
-        "researchPoints": 4500,
-        "researchPower": 265,
-        "resultComponents": [
-            "MG3Mk1-Twn"
-        ],
+        "researchPower": 250,
         "results": [
             {
                 "class": "Weapon",
@@ -9893,19 +9886,20 @@
                 "value": 6
             }
         ],
-        "statID": "MG3Mk1-Twn"
+        "subgroupIconID": "IMAGE_RES_GRPUPG"
     }, 
-     "R-Wpn-MG-Range02": {
+     "R-Wpn-MG-Mount02": {
         "iconID": "IMAGE_RES_WEAPONTECH",
-        "id": "R-Wpn-MG-Range02",
-        "msgName": "RES_W_MG_RA2",
-        "name": "Hardened MG Barrel Mk2",
+        "id": "R-Wpn-MG-Mount02",
+        "imdName": "TRHMG.PIE",
+        "msgName": "RES_W_MG_MN2",
+        "name": "MG Gatling Turret Mk2",
         "requiredResearch": [
-            "R-Wpn-MG-Range01", 
-            "R-Wpn-MG-Damage04"
+            "R-Wpn-MG-Mount01", 
+            "R-Wpn-MG-ROF03"
         ],
-        "researchPoints": 8000,
-        "researchPower": 330,
+        "researchPoints": 5000,
+        "researchPower": 285,
         "results": [
             {
                 "class": "Weapon",
@@ -9915,18 +9909,20 @@
                 "value": 7
             }
         ],
-        "statID": "MG3Mk1-Twn"
+        "subgroupIconID": "IMAGE_RES_GRPUPG"
     }, 
-     "R-Wpn-MG-Range03": {
+     "R-Wpn-MG-Mount03": {
         "iconID": "IMAGE_RES_WEAPONTECH",
-        "id": "R-Wpn-MG-Range03",
-        "msgName": "RES_W_MG_RA3",
-        "name": "Hardened MG Barrel Mk3",
+        "id": "R-Wpn-MG-Mount03",
+        "imdName": "TRWPFCAN.PIE",
+        "msgName": "RES_W_MG_MN3",
+        "name": "MG Gatling Turret Mk3",
         "requiredResearch": [
-            "R-Wpn-MG-Range02"
+            "R-Wpn-MG-Mount02", 
+            "R-Wpn-MG5"
         ],
-        "researchPoints": 11000,
-        "researchPower": 450,
+        "researchPoints": 7200,
+        "researchPower": 325,
         "results": [
             {
                 "class": "Weapon",
@@ -9936,7 +9932,7 @@
                 "value": 8
             }
         ],
-        "statID": "MG3Mk1-Twn"
+        "subgroupIconID": "IMAGE_RES_GRPUPG"
     }, 
      "R-Wpn-MG-ROF01": {
         "iconID": "IMAGE_RES_WEAPONTECH",
@@ -11899,7 +11895,5 @@
             "Rocket-VTOL-Sunburst"
         ],
         "statID": "Rocket-Sunburst"
-    }, 
-
     }
 }

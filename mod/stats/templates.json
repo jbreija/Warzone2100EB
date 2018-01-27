@@ -7459,7 +7459,7 @@
 		"type": "DROID"
 	}, 
 	 "Crane": {
-		"body": "B2crane1",
+		"body": "B2crane2",
 		"construct": "scavCrane1",
 		"id": "Crane",
 		"name": "Crane1",
@@ -7467,7 +7467,7 @@
 		"type": "DROID"
 	}, 
 	 "Crane": {
-		"body": "B2crane1",
+		"body": "B2crane2",
 		"construct": "scavCrane2",
 		"id": "Crane",
 		"name": "Crane2",
@@ -7475,7 +7475,7 @@
 		"type": "DROID"
 	}, 
 	 "Crane": {
-		"body": "B2crane2",
+		"body": "B2crane1",
 		"construct": "scavCrane2",
 		"id": "Crane",
 		"name": "Crane3",
@@ -7483,7 +7483,7 @@
 		"type": "DROID"
 	}, 
 	 "Crane": {
-		"body": "B2crane2",
+		"body": "B2crane1",
 		"construct": "scavCrane1",
 		"id": "Crane",
 		"name": "Crane4",
