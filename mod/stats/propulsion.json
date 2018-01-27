@@ -72,7 +72,7 @@
 		"skidDeceleration": 700,
 		"speed": 212,
 		"type": "Half-Tracked",
-		"weight": 350
+		"weight": 360
 	}, 
 	 "Helicopter": {
 		"acceleration": 40,
@@ -191,7 +191,7 @@
 	}, 
 	 "wheeled01NAS": {
 		"buildPoints": 60,
-		"buildPower": 75,
+		"buildPower": 65,
 		"designable": 1,
 		"hitpointPctOfBody": 140,
 		"id": "wheeled01NAS",

@@ -722,11 +722,15 @@
         "id": "R-Cyborg-Hvywpn-TK",
         "msgName": "RES_CYW_H_TK",
         "name": "Super Tank-Killer Cyborg",
+        "redComponents": [
+            "Cyb-Hvywpn-Rocket-LtA-T",
+            "Cyb-Hvywpn-Rocket-LtA-T-AR"
+        ],
         "requiredResearch": [
             "R-Cyborg-Metals04", 
             "R-Wpn-Rocket07-Tank-Killer", 
             "R-Cyborg-HvyBody"
-        ],
+            ],
         "researchPoints": 5000,
         "researchPower": 290,
         "resultComponents": [
@@ -758,10 +762,14 @@
         "id": "R-Cyborg-Hvywpn-TwnFlamer",
         "msgName": "RES_CYW_H_TK",
         "name": "Super Twin Flamer",
+        "redComponents": [
+            "Cyb-Hvywpn-Flamer3-AR",
+            "Cyb-Hvywpn-Flamer3"
+        ],
         "requiredResearch": [
             "R-Cyborg-Hvywpn-Flamer", 
             "R-Wpn-Flamer-ROF04"
-        ],
+            ],
         "researchPoints": 8200,
         "researchPower": 415,
         "resultComponents": [
@@ -770,11 +778,11 @@
         ],
         "statID": "Flame2"
     }, 
-     "R-Cyborg-Hvywpn-EMP": {
+     "R-Cyborg-Hvywpn-Mortar1Mk1-Ram": {
         "iconID": "IMAGE_RES_CYBORGTECH",
-        "id": "R-Cyborg-Hvywpn-EMP",
+        "id": "R-Cyborg-Hvywpn-Mortar1Mk1-Ram",
         "msgName": "RES_EMP_CANT",
-        "name": "Super EMP Cyborg",
+        "name": "Super Mortar1Mk1 Ram",
         "requiredResearch": [
             "R-Wpn-EMPCannon", 
             "R-Cyborg-HvyBody"
@@ -782,27 +790,133 @@
         "researchPoints": 7200,
         "researchPower": 395,
         "resultComponents": [
-            "Cyb-Hvywpn-EMP-AR",
-            "Cyb-Hvywpn-EMP"
+            "Cyb-Hvywpn-Mortar1Mk1-Ram-AR",
+            "Cyb-Hvywpn-Mortar1Mk1-Ram"
         ],
-        "statID": "EMP-Cannon"
+        "statID": "Mortar1Mk1-Ram"
     }, 
-     "R-Cyborg-Hvywpn-HMG": {
+     "R-Cyborg-Hvywpn-Rocket-LtA-T": {
         "iconID": "IMAGE_RES_CYBORGTECH",
-        "id": "R-Cyborg-Hvywpn-HMG",
+        "id": "R-Cyborg-Hvywpn-Rocket-LtA-T",
         "msgName": "RES_EMP_CANT",
-        "name": "Super Machinegun Cyborg",
+        "name": "Super Rocket LtA T",
         "requiredResearch": [
-            "R-Cyborg-HvyBody", 
-            "R-Wpn-MG3Mk1"
+            "R-Wpn-Rocket-Accuracy02", 
+            "R-Cyborg-HvyBody"
         ],
-        "researchPoints": 4000,
-        "researchPower": 230,
+        "researchPoints": 7200,
+        "researchPower": 395,
         "resultComponents": [
-            "Cyb-Hvywpn-MG3-AR",
-            "Cyb-Hvywpn-MG3"
+            "Cyb-Hvywpn-Rocket-LtA-T-AR",
+            "Cyb-Hvywpn-Rocket-LtA-T"
         ],
-        "statID": "MG3Mk1"
+        "statID": "Rocket-LtA-T"
+    }, 
+     "R-Cyborg-Hvywpn-Rocket-MRL": {
+        "iconID": "IMAGE_RES_CYBORGTECH",
+        "id": "R-Cyborg-Hvywpn-Rocket-MRL",
+        "msgName": "RES_EMP_CANT",
+        "name": "Super Rocket-MRL",
+        "requiredResearch": [
+            "R-Wpn-Rocket02-MRL", 
+            "R-Cyborg-HvyBody"
+        ],
+        "researchPoints": 7200,
+        "researchPower": 395,
+        "resultComponents": [
+            "Cyb-Hvywpn-Rocket-MRL-AR",
+            "Cyb-Hvywpn-Rocket-MRL"
+        ],
+        "statID": "Rocket-MRL"
+    }, 
+     "R-Cyborg-Hvywpn-Rocket-Pod": {
+        "iconID": "IMAGE_RES_CYBORGTECH",
+        "id": "R-Cyborg-Hvywpn-Rocket-Pod",
+        "msgName": "RES_EMP_CANT",
+        "name": "Super Rocket-Pod",
+        "requiredResearch": [
+            "Rocket-Pod", 
+            "R-Cyborg-HvyBody"
+        ],
+        "researchPoints": 4600,
+        "researchPower": 265,
+        "resultComponents": [
+            "Cyb-Hvywpn-Rocket-Pod-AR",
+            "Cyb-Hvywpn-Rocket-Pod",
+            "Cyb-Hvywpn-Rocket-Pod-ARch-AR",
+            "Cyb-Hvywpn-Rocket-Pod-Arch"
+        ],
+        "statID": "Rocket-Pod"
+    }, 
+     "R-Cyborg-Hvywpn-Rocket-Pod-MRA": {
+        "iconID": "IMAGE_RES_CYBORGTECH",
+        "id": "R-Cyborg-Hvywpn-Rocket-Pod-MRA",
+        "msgName": "RES_EMP_CANT",
+        "name": "Super Rocket Array",
+        "requiredResearch": [
+            "R-Wpn-Rocket02-MRL", 
+            "R-Cyborg-HvyBody"
+        ],
+        "researchPoints": 4800,
+        "researchPower": 285,
+        "resultComponents": [
+            "Cyb-Hvywpn-Rocket-Pod-MRA-AR",
+            "Cyb-Hvywpn-Rocket-Pod-MRA"
+        ],
+        "statID": "Rocket-MRL"
+    }, 
+     "R-Cyborg-Hvywpn-Rocket-Sunburst": {
+        "iconID": "IMAGE_RES_CYBORGTECH",
+        "id": "R-Cyborg-Hvywpn-Rocket-Sunburst",
+        "msgName": "RES_EMP_CANT",
+        "name": "Super Sunburst",
+        "requiredResearch": [
+            "R-Wpn-Sunburst", 
+            "R-Cyborg-HvyBody"
+        ],
+        "researchPoints": 4700,
+        "researchPower": 275,
+        "resultComponents": [
+            "Cyb-Hvywpn-Rocket-Sunburst-AR",
+            "Cyb-Hvywpn-Rocket-Sunburst",
+            "Cyb-Hvywpn-Rocket-Sunburst-ARch-AR",
+            "Cyb-Hvywpn-Rocket-Sunburst-Arch"
+        ],
+        "statID": "Rocket-Sunburst"
+    }, 
+     "R-Cyborg-Hvywpn-Ripple": {
+        "iconID": "IMAGE_RES_CYBORGTECH",
+        "id": "R-Cyborg-Hvywpn-Ripple",
+        "msgName": "RES_EMP_CANT",
+        "name": "Super Rocket-TopAttack",
+        "requiredResearch": [
+            "R-Wpn-Rocket06-IDF", 
+            "R-Cyborg-HvyBody"
+        ],
+        "researchPoints": 7200,
+        "researchPower": 395,
+        "resultComponents": [
+            "Cyb-Hvywpn-Rocket-TopAttack-AR",
+            "Cyb-Hvywpn-Rocket-TopAttack"
+        ],
+        "statID": "Rocket-IDF"
+    }, 
+     "R-Cyborg-Hvywpn-SpyTurret01": {
+        "iconID": "IMAGE_RES_CYBORGTECH",
+        "id": "R-Cyborg-Hvywpn-SpyTurret01",
+        "msgName": "RES_EMP_CANT",
+        "name": "Super Nexus Cyborg",
+        "requiredResearch": [
+            "R-Sys-SpyTurret", 
+            "R-Cyborg-HvyBody"
+        ],
+        "researchPoints": 7200,
+        "researchPower": 395,
+        "resultComponents": [
+            "Cyb-Hvywpn-SpyTurret01-AR",
+            "Cyb-Hvywpn-SpyTurret01"
+        ],
+        "statID": "SpyTurret01"
     }, 
      "R-Cyborg-Hvywpn-MG4": {
         "iconID": "IMAGE_RES_CYBORGTECH",
@@ -830,10 +944,14 @@
         "id": "R-Cyborg-Hvywpn-Arch",
         "msgName": "RES_EMP_CANT",
         "name": "Super Arch-Angel Cyborg",
+        "redComponents": [
+            "Cyb-Hvywpn-Rocket-TopAttack-AR",
+            "Cyb-Hvywpn-Rocket-TopAttack"
+        ],
         "requiredResearch": [
             "R-Cyborg-HvyBody", 
             "R-Wpn-HvArtMissile"
-        ],
+            ],
         "researchPoints": 4000,
         "researchPower": 230,
         "resultComponents": [
@@ -3785,8 +3903,7 @@
         "msgName": "RES_ST_VPU7",
         "name": "Self-Loading VTOL Rearming",
         "requiredResearch": [
-            "R-Struc-VTOLPad-Upgrade06", 
-            "R-Struc-Research-Upgrade10"
+            "R-Struc-VTOLPad-Upgrade05"
         ],
         "researchPoints": 31000,
         "researchPower": 1615,
@@ -11117,17 +11234,17 @@
         "id": "R-Wpn-Rocket02-MRL",
         "keyTopic": 1,
         "msgName": "RES_W_RK_MRL1",
-        "name": "Mini-Rocket Array",
+        "name": "Twin Rocket Array",
         "requiredResearch": [
-            "R-Wpn-Rocket-Damage02"
+            "R-Wpn-Rocket-Pod-MRA"
         ],
         "researchPoints": 2400,
         "researchPower": 215,
         "resultComponents": [
-            "Rocket-MRL",
+            "Rocket-Pod-MRA-Twin",
             "Rocket-MRL-VTOL"
         ],
-        "statID": "Rocket-MRL"
+        "statID": "Rocket-Pod-MRA-Twin"
     }, 
      "R-Wpn-Rocket03-HvAT": {
         "iconID": "IMAGE_RES_WEAPONTECH",
@@ -11527,12 +11644,12 @@
         "iconID": "IMAGE_RES_WEAPONTECH",
         "id": "R-Wpn-Rocket-Pod-MRA",
         "msgName": "RES_W_RK_MR",
-        "name": "Single Rocket Array",
+        "name": "Rocket Array",
         "requiredResearch": [
-            "R-Wpn-Rocket02-MRL"
+            "R-Wpn-Rocket-Damage02"
         ],
-        "researchPoints": 2200,
-        "researchPower": 225,
+        "researchPoints": 3600,
+        "researchPower": 215,
         "resultComponents": [
             "Rocket-Pod-MRA"
         ],
@@ -11544,7 +11661,7 @@
         "msgName": "RES_W_RK_MR_QD",
         "name": "Quad Rocket Array",
         "requiredResearch": [
-            "R-Wpn-Rocket-Pod-MRA-Twin"
+            "R-Wpn-Rocket02-MRL"
         ],
         "researchPoints": 3200,
         "researchPower": 225,
@@ -11552,21 +11669,6 @@
             "Rocket-Pod-MRA-Quad"
         ],
         "statID": "Rocket-Pod-MRA-Quad"
-    }, 
-     "R-Wpn-Rocket-Pod-MRA-Twin": {
-        "iconID": "IMAGE_RES_WEAPONTECH",
-        "id": "R-Wpn-Rocket-Pod-MRA-Twin",
-        "msgName": "RES_W_RK_MR_TW",
-        "name": "Twin Rocket Array",
-        "requiredResearch": [
-            "R-Wpn-Rocket-Pod-MRA"
-        ],
-        "researchPoints": 2600,
-        "researchPower": 225,
-        "resultComponents": [
-            "Rocket-Pod-MRA-Twin"
-        ],
-        "statID": "Rocket-Pod-MRA-Twin"
     }, 
      "R-Wpn-Rocket-Pod-Quad": {
         "iconID": "IMAGE_RES_WEAPONTECH",
@@ -11797,5 +11899,7 @@
             "Rocket-VTOL-Sunburst"
         ],
         "statID": "Rocket-Sunburst"
+    }, 
+
     }
 }

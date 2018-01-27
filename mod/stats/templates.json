@@ -764,17 +764,6 @@
 			"Cyb-Hvywpn-Mortar1Mk1-Ram"
 			]
 	},
-		"Cyb-Hvywpn-Railgun-Aslt": {
-		"available": 1,
-		"body": "CyborgHeavyBody",
-		"id": "Cyb-Hvywpn-Railgun-Aslt",
-		"name": "Cyb-Hvywpn-Railgun-Aslt",
-		"propulsion": "CyborgLegs",
-		"type": "CYBORG_SUPER",
-		"weapons": [
-			"Cyb-Hvywpn-Railgun-Aslt"
-			]
-	},
 		"Cyb-Hvywpn-Rocket-Sunburst-Arch": {
 		"available": 1,
 		"body": "CyborgHeavyBody",
@@ -3736,17 +3725,6 @@
 		"type": "CYBORG_SUPER",
 		"weapons": [
 			"Cyb-Hvywpn-PulseLsr-AR"
-			]
-	},
-		"Cyb-Hvywpn-Railgun-Aslt-AR": {
-		"available": 1,
-		"body": "CyborgHeavyNAS",
-		"id": "Cyb-Hvywpn-Railgun-Aslt-AR",
-		"name": "Cyb-Hvywpn-Railgun-Aslt-AR",
-		"propulsion": "CyborgLegsNAS",
-		"type": "CYBORG_SUPER",
-		"weapons": [
-			"Cyb-Hvywpn-Railgun-Aslt-AR"
 			]
 	},
 		"Cyb-Hvywpn-RailGunner-AR": {
@@ -7177,17 +7155,6 @@
 		"type": "CYBORG",
 		"weapons": [
 			"Cyb-Wpn-Grenade-AR"
-			]
-	},
-		"Cyb-Wpn-HPV-AR": {
-		"available": 1,
-		"body": "CyborgLightNAS",
-		"id": "Cyb-Wpn-HPV-AR",
-		"name": "Cyb-Wpn-HPV-AR",
-		"propulsion": "CyborgLegsNAS",
-		"type": "CYBORG",
-		"weapons": [
-			"Cyb-Wpn-HPV-AR"
 			]
 	},
 		"Cyb-Wpn-Laser-AR": {
