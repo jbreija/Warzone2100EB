@@ -812,23 +812,6 @@
         ],
         "statID": "Rocket-LtA-T"
     }, 
-     "R-Cyborg-Hvywpn-Rocket-MRL": {
-        "iconID": "IMAGE_RES_CYBORGTECH",
-        "id": "R-Cyborg-Hvywpn-Rocket-MRL",
-        "msgName": "RES_EMP_CANT",
-        "name": "Super Rocket-MRL",
-        "requiredResearch": [
-            "R-Wpn-Rocket02-MRL", 
-            "R-Cyborg-HvyBody"
-        ],
-        "researchPoints": 7200,
-        "researchPower": 395,
-        "resultComponents": [
-            "Cyb-Hvywpn-Rocket-MRL-AR",
-            "Cyb-Hvywpn-Rocket-MRL"
-        ],
-        "statID": "Rocket-MRL"
-    }, 
      "R-Cyborg-Hvywpn-EMP": {
         "iconID": "IMAGE_RES_CYBORGTECH",
         "id": "R-Cyborg-Hvywpn-EMP",
@@ -878,7 +861,9 @@
         "researchPower": 285,
         "resultComponents": [
             "Cyb-Hvywpn-Rocket-Pod-MRA-AR",
-            "Cyb-Hvywpn-Rocket-Pod-MRA"
+            "Cyb-Hvywpn-Rocket-Pod-MRA",
+            "Cyb-Hvywpn-Rocket-MRL-AR",
+            "Cyb-Hvywpn-Rocket-MRL"
         ],
         "statID": "Rocket-MRL"
     }, 
@@ -905,7 +890,7 @@
         "iconID": "IMAGE_RES_CYBORGTECH",
         "id": "R-Cyborg-Hvywpn-Ripple",
         "msgName": "RES_EMP_CANT",
-        "name": "Super Rocket-TopAttack",
+        "name": "Super Ripple Cyborg",
         "requiredResearch": [
             "R-Wpn-Rocket06-IDF", 
             "R-Cyborg-HvyBody"
@@ -4057,7 +4042,8 @@
         "researchPoints": 635,
         "researchPower": 150,
         "resultComponents": [
-            "CyborgSpade"
+            "CyborgSpade",
+            "CyborgSpadeNAS"
         ],
         "results": [
             {
@@ -4171,7 +4157,8 @@
         "researchPower": 40,
         "resultComponents": [
             "CyborgRepair",
-            "LightRepair1"
+            "LightRepair1",
+            "CyborgRepairNAS"
         ],
         "statID": "LightRepair1"
     }, 
@@ -4481,7 +4468,7 @@
         "imdName": "icmolql.pie",
         "keyTopic": 1,
         "msgName": "RES_SY_SPTR",
-        "name": "Satellite Nexus Targeting",
+        "name": "Nexus Satellite Targeting",
         "requiredResearch": [
             "R-Sys-SpyTurret", 
             "R-Sys-Sensor-UpLink"
@@ -6782,7 +6769,7 @@
         "name": "Incendiary Heavy HPV Cannon",
         "requiredResearch": [
             "R-Wpn-Cannon4AMk1-Hvy", 
-            "R-Wpn-Cannon4AMk1-Inc"
+            "R-Wpn-Cannon5-Inc"
         ],
         "researchPoints": 4200,
         "researchPower": 245,
@@ -6790,23 +6777,6 @@
             "Cannon4AUTOMk1-Hvy-Inc"
         ],
         "statID": "Cannon4AUTOMk1-Hvy-Inc"
-    }, 
-     "R-Wpn-Cannon4AMk1-Inc": {
-        "iconID": "IMAGE_RES_WEAPONTECH",
-        "id": "R-Wpn-Cannon4AMk1-Inc",
-        "msgName": "RES_W_CN_4A_I",
-        "name": "Incendiary HPV Cannon",
-        "requiredResearch": [
-            "R-Wpn-Cannon4AMk1", 
-            "R-Wpn-Flame2"
-        ],
-        "researchPoints": 4200,
-        "researchPower": 245,
-        "resultComponents": [
-            "Cannon4AUTOMk1-Inc-Aslt",
-            "Cannon4AUTOMk1-Inc"
-        ],
-        "statID": "Cannon4AUTOMk1-Inc-Aslt"
     }, 
      "R-Wpn-Cannon4AMk1-Full-Aslt": {
         "iconID": "IMAGE_RES_WEAPONTECH",
@@ -6862,15 +6832,18 @@
         "iconID": "IMAGE_RES_WEAPONTECH",
         "id": "R-Wpn-Cannon5-Inc",
         "msgName": "RES_W_CN_5_I",
-        "name": "Assault Cannon Incendiary",
+        "name": "Incendiary Cannon Turret",
         "requiredResearch": [
             "R-Wpn-Cannon5", 
-            "R-Wpn-Flame2"
+            "R-Wpn-Flame2", 
+            "R-Wpn-Cannon-Mount01"
         ],
         "researchPoints": 7000,
         "researchPower": 530,
         "resultComponents": [
-            "Cannon5VulcanMk1-Inc"
+            "Cannon5VulcanMk1-Inc",
+            "Cannon4AUTOMk1-Inc-Aslt",
+            "Cannon4AUTOMk1-Inc"
         ],
         "statID": "Cannon5VulcanMk1-Inc"
     }, 
@@ -6914,7 +6887,7 @@
         "name": "Twin Assault Rail",
         "requiredResearch": [
             "R-Wpn-Cannon6TwinAslt", 
-            "R-Wpn-RailGun01"
+            "R-Wpn-RailGun02"
         ],
         "researchPoints": 10600,
         "researchPower": 765,
@@ -11230,17 +11203,17 @@
         "id": "R-Wpn-Rocket02-MRL",
         "keyTopic": 1,
         "msgName": "RES_W_RK_MRL1",
-        "name": "Twin Rocket Array",
+        "name": "Mini-Rocket Array",
         "requiredResearch": [
-            "R-Wpn-Rocket-Pod-MRA"
+            "R-Wpn-Rocket-Pod-MRA-Twn"
         ],
         "researchPoints": 2400,
         "researchPower": 215,
         "resultComponents": [
-            "Rocket-Pod-MRA-Twin",
+            "Rocket-MRL",
             "Rocket-MRL-VTOL"
         ],
-        "statID": "Rocket-Pod-MRA-Twin"
+        "statID": "Rocket-MRL"
     }, 
      "R-Wpn-Rocket03-HvAT": {
         "iconID": "IMAGE_RES_WEAPONTECH",
@@ -11282,13 +11255,13 @@
         "id": "R-Wpn-Rocket05-MiniPod-EMP",
         "keyTopic": 1,
         "msgName": "RES_W_RK_MP1",
-        "name": "Bunker Buster Pod",
+        "name": "EMP Rocket Pod",
         "requiredResearch": [
             "R-Wpn-Rocket05-MiniPod", 
             "R-Struc-Research-Upgrade08"
         ],
-        "researchPoints": 2200,
-        "researchPower": 225,
+        "researchPoints": 14400,
+        "researchPower": 695,
         "resultComponents": [
             "Rocket-Pod-EMP"
         ],
@@ -11651,6 +11624,22 @@
         ],
         "statID": "Rocket-Pod-MRA"
     }, 
+     "R-Wpn-Rocket-Pod-MRA-Twn": {
+        "iconID": "IMAGE_RES_WEAPONTECH",
+        "id": "R-Wpn-Rocket-Pod-MRA-Twn",
+        "keyTopic": 1,
+        "msgName": "RES_W_RK_MRL1",
+        "name": "Twin Rocket Array",
+        "requiredResearch": [
+            "R-Wpn-Rocket-Pod-MRA"
+        ],
+        "researchPoints": 2400,
+        "researchPower": 215,
+        "resultComponents": [
+            "Rocket-Pod-MRA-Twin"
+        ],
+        "statID": "Rocket-Pod-MRA-Twin"
+    }, 
      "R-Wpn-Rocket-Pod-MRA-Quad": {
         "iconID": "IMAGE_RES_WEAPONTECH",
         "id": "R-Wpn-Rocket-Pod-MRA-Quad",
@@ -11688,7 +11677,7 @@
         "msgName": "RES_W_RK_MP1_TW",
         "name": "Twin Rocket Pod",
         "requiredResearch": [
-            "R-Wpn-Rocket05-MiniPod"
+            "R-Wpn-Rocket-Damage02"
         ],
         "researchPoints": 2800,
         "researchPower": 255,

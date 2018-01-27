@@ -171,7 +171,7 @@
 		"buildPoints": 40,
 		"buildPower": 20,
 		"class": "Droids",
-		"hitpoints": 160,
+		"hitpoints": 120,
 		"id": "B2crane2",
 		"model": "cranebody1.pie",
 		"name": "*crane1*",
@@ -186,7 +186,7 @@
 		"buildPoints": 60,
 		"buildPower": 30,
 		"class": "Droids",
-		"hitpoints": 240,
+		"hitpoints": 180,
 		"id": "B2crane1",
 		"model": "cranebody2.pie",
 		"name": "*crane2*",
@@ -1842,7 +1842,7 @@
 		"powerOutput": 28000,
 		"size": "LIGHT",
 		"weaponSlots": 1,
-		"weight": 22000
+		"weight": 48000
 	}, 
 	 "FireBody-AR": {
 		"armourHeat": 1,

@@ -121,7 +121,7 @@ public	int				numTemplates[TECHS];
 public	TEMPLATE		tmpl[TECHS][105];
 private	TEMPLATE		tmplChoice[105];
 
-public	TEMPLATE		cybTempl[9],superCyb[15],cybMechanic,cybEngineer,hovertruck;
+public	TEMPLATE		cybTempl[9],superCyb[21],cybMechanic,cybEngineer,hovertruck;
 
 public	TEMPLATE		vtols[38],vtolAAdroid;
 public	int				numVtolTemplates;
@@ -3064,7 +3064,7 @@ function void cybFactorBuildCyborg(STRUCTURE _factory)
 	{
 		if( (defendGroup.members < maxCyborgs[curTech]) and (getDroidCount(me) < MAX_DROIDS) )
 		{		
-			count = 14;
+			count = 20;
 			count2 = 0;
 			while( count >= 0 )
 			{

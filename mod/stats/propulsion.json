@@ -33,6 +33,20 @@
 		"type": "Legged",
 		"weight": 320
 	}, 
+	 "MechLegs": {
+		"buildPoints": 50,
+		"buildPower": 10,
+		"deceleration": 450,
+		"hitpointPctOfBody": 50,
+		"id": "MechLegs",
+		"name": "Mech Propulsion",
+		"speed": 352,
+		"spinAngle": 45,
+		"spinSpeed": 450,
+		"turnSpeed": 225,
+		"type": "Tracked",
+		"weight": 320
+	}, 
 	 "CyborgLegsNAS": {
 		"buildPoints": 50,
 		"buildPower": 10,

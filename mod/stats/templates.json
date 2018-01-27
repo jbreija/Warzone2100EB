@@ -6873,6 +6873,15 @@
 		"propulsion": "CyborgLegs",
 		"type": "CYBORG_CONSTRUCT"
 	}, 
+	 "Cyb-ComEng-AR": {
+		"available": 1,
+		"body": "CyborgLightNAS",
+		"construct": "CyborgSpadeNAS",
+		"id": "Cyb-ComEng-AR",
+		"name": "NASDA Combat Engineer",
+		"propulsion": "CyborgLegsNAS",
+		"type": "CYBORG_CONSTRUCT"
+	}, 
 	 "Cyb-Gren": {
 		"available": 1,
 		"body": "CyborgLightBody",
@@ -7504,7 +7513,7 @@
 		"body": "CyborgMecha",
 		"id": "Mech1",
 		"name": "Mech1",
-		"propulsion": "CyborgLegs",
+		"propulsion": "MechLegs",
 		"type": "CYBORG",
 		"weapons": [
 			"Cyb-Cannon-Mech"
@@ -7515,7 +7524,7 @@
 		"body": "CyborgMecha",
 		"id": "Mech2",
 		"name": "Mech2",
-		"propulsion": "CyborgLegs",
+		"propulsion": "MechLegs",
 		"type": "CYBORG",
 		"weapons": [
 			"Cyb-Flamer01-Mech"
@@ -7526,7 +7535,7 @@
 		"body": "CyborgMecha",
 		"id": "Mech3",
 		"name": "Mech3",
-		"propulsion": "CyborgLegs",
+		"propulsion": "MechLegs",
 		"type": "CYBORG",
 		"weapons": [
 			"Cyb-Rocket-Mech"
@@ -7537,7 +7546,7 @@
 		"body": "CyborgMecha",
 		"id": "Mech4",
 		"name": "Mech4",
-		"propulsion": "CyborgLegs",
+		"propulsion": "MechLegs",
 		"type": "CYBORG",
 		"weapons": [
 			"Cyb-RotMG-Mech"
@@ -7548,7 +7557,7 @@
 		"body": "CyborgMecha",
 		"id": "Mech5",
 		"name": "Mech5",
-		"propulsion": "CyborgLegs",
+		"propulsion": "MechLegs",
 		"type": "CYBORG",
 		"weapons": [
 			"Cyb-Atmiss-Mech"
@@ -7559,10 +7568,21 @@
 		"body": "CyborgMecha",
 		"id": "Mech6",
 		"name": "Mech6",
-		"propulsion": "CyborgLegs",
+		"propulsion": "MechLegs",
 		"type": "CYBORG",
 		"weapons": [
 			"Cyb-Laser-Mech"
+			]
+	},
+		"Mech7": {
+		"available": 1,
+		"body": "CyborgMecha",
+		"id": "Mech7",
+		"name": "Mech7",
+		"propulsion": "MechLegs",
+		"type": "CYBORG",
+		"weapons": [
+			"Cyb-Rail1-Mech"
 			]
 	},
 		"BabaBusCan-AR": {

@@ -33,6 +33,18 @@
 		"sensorModel": "cy_con.pie",
 		"weight": 175
 	}, 
+	 "CyborgSpadeNAS": {
+		"buildPoints": 15,
+		"buildPower": 45,
+		"constructPoints": 6,
+		"droidType": "CYBORG_CONSTRUCT",
+		"hitpoints": 20,
+		"id": "CyborgSpadeNAS",
+		"mountModel": "cybodyar.pie",
+		"name": "NASDA Combat Engineer",
+		"sensorModel": "cy_con.pie",
+		"weight": 175
+	}, 
 	 "Spade1Mk1": {
 		"buildPoints": 25,
 		"buildPower": 30,

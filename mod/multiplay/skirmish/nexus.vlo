@@ -1649,6 +1649,13 @@ run
 	superCyb[12]	TEMPLATE	"Cyb-Hvy-A-T"
 	superCyb[13]	TEMPLATE	"Cyb-Hvy-PulseLsr"
 	superCyb[14]	TEMPLATE	"Cyb-Hvy-RailGunner"
+	superCyb[15]	TEMPLATE	"Mech4"
+	superCyb[16]	TEMPLATE	"Mech1"
+	superCyb[17]	TEMPLATE	"Mech3"
+	superCyb[18]	TEMPLATE	"Mech5"
+	superCyb[19]	TEMPLATE	"Mech7"
+	superCyb[20]	TEMPLATE	"Mech6"
+	
 
 	/////////////////////////////////////////////////////////////////////
 	// VTOL TEMPLATES
