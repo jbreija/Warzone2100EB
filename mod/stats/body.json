@@ -1839,10 +1839,10 @@
 		"id": "CyborgMecha",
 		"model": "cybd_stdme.pie",
 		"name": "Mecha Cyborg",
-		"powerOutput": 28000,
+		"powerOutput": 42000,
 		"size": "LIGHT",
 		"weaponSlots": 1,
-		"weight": 48000
+		"weight": 22000
 	}, 
 	 "FireBody-AR": {
 		"armourHeat": 1,
