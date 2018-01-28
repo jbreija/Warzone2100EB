@@ -106,24 +106,6 @@ function eventGameInit()
 
 
 	hackNetOff();
-	makeComponentAvailable("B4body-sml-trike01", scavengerPlayer);
-	makeComponentAvailable("B3body-sml-buggy01", scavengerPlayer);
-	makeComponentAvailable("B2JeepBody", scavengerPlayer);
-	makeComponentAvailable("BusBody", scavengerPlayer);
-	makeComponentAvailable("FireBody", scavengerPlayer);
-	makeComponentAvailable("B1BaBaPerson01", scavengerPlayer);
-	makeComponentAvailable("BaBaProp", scavengerPlayer);
-	makeComponentAvailable("BaBaLegs", scavengerPlayer);
-	makeComponentAvailable("bTrikeMG", scavengerPlayer);
-	makeComponentAvailable("BuggyMG", scavengerPlayer);
-	makeComponentAvailable("BJeepMG", scavengerPlayer);
-	makeComponentAvailable("BusCannon", scavengerPlayer);
-	makeComponentAvailable("BabaFlame", scavengerPlayer);
-	makeComponentAvailable("BaBaMG", scavengerPlayer);
-	
-	
-	
-	
 	
 	for (var playnum = 0; playnum < maxPlayers; playnum++)
 	{
@@ -173,7 +155,7 @@ function eventGameInit()
 	applyLimitSet();	// set limit options
 
 	const numCleanTech = 7;	// do x for clean	
-	const numBaseTech = 21; // do x for base
+	const numBaseTech = 20; // do x for base
 	var techlist = new Array(
 		"R-Vehicle-Prop-Wheels",
 		"R-Sys-Spade1Mk1",
@@ -193,7 +175,6 @@ function eventGameInit()
 		"R-Vehicle-Prop-Halftracks",
 		"R-Comp-CommandTurret01",
 		"R-Sys-Sensor-Turret01",
-		"R-Vehicle-Body20",
 		"R-Wpn-Flamer01Mk1",
 		"R-Vehicle-Body05",
 		"R-Struc-Research-Module",

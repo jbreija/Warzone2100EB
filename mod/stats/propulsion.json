@@ -48,14 +48,14 @@
 		"weight": 320
 	}, 
 	 "CyborgLegsNAS": {
-		"buildPoints": 50,
-		"buildPower": 10,
+		"buildPoints": 110,
+		"buildPower": 50,
 		"deceleration": 450,
 		"hitpointPctOfBody": 50,
 		"id": "CyborgLegsNAS",
 		"model": "cybd_stdar.pie",
 		"name": "NASDA Cyborg",
-		"speed": 352,
+		"speed": 375,
 		"spinAngle": 45,
 		"spinSpeed": 450,
 		"turnSpeed": 225,

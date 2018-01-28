@@ -20,7 +20,7 @@
 		"armour": 10,
 		"baseModel": "blbgen.pie",
 		"breadth": 1,
-		"buildPoints": 30,
+		"buildPoints": 50,
 		"buildPower": 15,
 		"height": 1,
 		"hitpoints": 100,
@@ -29,6 +29,7 @@
 		"rearmPoints": 300,
 		"repairPoints": 10,
 		"resistance": 150,
+		"sensorID": "BaBaSensor",
 		"strength": "SOFT",
 		"structureModel": [
 			"blvtolpd.pie"
@@ -190,7 +191,7 @@
 	 "A0BaBaGunTowerEND": {
 		"armour": 7,
 		"breadth": 1,
-		"buildPoints": 40,
+		"buildPoints": 50,
 		"buildPower": 20,
 		"height": 2,
 		"hitpoints": 300,
@@ -212,7 +213,7 @@
 	 "A0BaBaHorizontalWall": {
 		"armour": 7,
 		"breadth": 1,
-		"buildPoints": 40,
+		"buildPoints": 25,
 		"buildPower": 20,
 		"height": 2,
 		"hitpoints": 300,
@@ -316,7 +317,7 @@
 	 "A0BabaCornerWall": {
 		"armour": 5,
 		"breadth": 1,
-		"buildPoints": 3,
+		"buildPoints": 25,
 		"buildPower": 20,
 		"height": 2,
 		"hitpoints": 300,
@@ -333,7 +334,7 @@
 	 "A0CannonTower": {
 		"armour": 10,
 		"breadth": 1,
-		"buildPoints": 5,
+		"buildPoints": 50,
 		"buildPower": 10,
 		"height": 2,
 		"hitpoints": 300,
@@ -416,10 +417,10 @@
 		"armour": 10,
 		"baseModel": "blbcfact.pie",
 		"breadth": 2,
-		"buildPoints": 900,
+		"buildPoints": 1100,
 		"buildPower": 225,
 		"height": 2,
-		"hitpoints": 1000,
+		"hitpoints": 800,
 		"id": "A0CyborgFactory",
 		"name": "Cyborg Factory",
 		"productionPoints": 12,
@@ -766,7 +767,7 @@
 		"hitpoints": 1000,
 		"id": "A0PowerGenerator",
 		"name": "Power Generator",
-		"powerPoints": 100,
+		"powerPoints": 110,
 		"modulePowerPoints": 40,
 		"resistance": 300,
 		"sensorID": "DefaultSensor1Mk1",
@@ -902,7 +903,7 @@
 		"id": "A0ResearchFacility",
 		"name": "Research Facility",
 		"researchPoints": 20,
-		"moduleResearchPoints": 9,
+		"moduleResearchPoints": 10,
 		"resistance": 150,
 		"sensorID": "DefaultSensor1Mk1",
 		"strength": "MEDIUM",
@@ -1760,15 +1761,15 @@
 	 "GuardTower1": {
 		"armour": 10,
 		"breadth": 1,
-		"buildPoints": 250,
-		"buildPower": 90,
+		"buildPoints": 200,
+		"buildPower": 60,
 		"height": 2,
-		"hitpoints": 300,
+		"hitpoints": 200,
 		"id": "GuardTower1",
 		"name": "Wood Guard Tower",
 		"resistance": 150,
 		"sensorID": "TowerSensor",
-		"strength": "MEDIUM",
+		"strength": "SOFT",
 		"structureModel": [
 			"BLGUARDM.PIE"
 		],
@@ -2274,15 +2275,15 @@
 	 "Sys-SensoTower01": {
 		"armour": 10,
 		"breadth": 1,
-		"buildPoints": 1000,
-		"buildPower": 50,
+		"buildPoints": 200,
+		"buildPower": 40,
 		"height": 3,
-		"hitpoints": 450,
+		"hitpoints": 200,
 		"id": "Sys-SensoTower01",
 		"name": "Sensor Tower",
 		"resistance": 150,
 		"sensorID": "SensorTurret1Mk1",
-		"strength": "MEDIUM",
+		"strength": "SOFT",
 		"structureModel": [
 			"BLGUARDM.PIE"
 		],
@@ -2293,7 +2294,7 @@
 	 "Sys-SensoTower02": {
 		"armour": 15,
 		"breadth": 1,
-		"buildPoints": 1000,
+		"buildPoints": 600,
 		"buildPower": 150,
 		"height": 3,
 		"hitpoints": 700,
@@ -3586,7 +3587,7 @@
 		"Thermal": 20,
 		"type": "DEFENSE",
 		"weapons": [
-			"Rocket-LtA-T-Twn"
+			"Rocket-LtA-T-Quad"
 		],
 		"width": 1
 	}, 
@@ -4224,7 +4225,7 @@
 		"Thermal": 25,
 		"type": "DEFENSE",
 		"weapons": [
-			"Rocket-HvyA-T-Twn"
+			"Rocket-HvyA-T-Quad"
 		],
 		"width": 1
 	}, 
@@ -8745,7 +8746,7 @@
 		"Thermal": 16,
 		"type": "DEFENSE",
 		"weapons": [
-			"Rocket-LtA-T-Twn"
+			"Rocket-LtA-T-Quad"
 		],
 		"width": 1
 	}, 
@@ -9119,7 +9120,7 @@
 		"Thermal": 20,
 		"type": "DEFENSE",
 		"weapons": [
-			"Rocket-HvyA-T-Twn"
+			"Rocket-HvyA-T-Quad"
 		],
 		"width": 1
 	}, 

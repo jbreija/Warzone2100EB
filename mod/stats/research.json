@@ -799,7 +799,7 @@
         "iconID": "IMAGE_RES_CYBORGTECH",
         "id": "R-Cyborg-Hvywpn-Rocket-LtA-T",
         "msgName": "RES_EMP_CANT",
-        "name": "Super Rocket LtA T",
+        "name": "Super Lancer",
         "requiredResearch": [
             "R-Wpn-Rocket-Accuracy02", 
             "R-Cyborg-HvyBody"
@@ -11207,6 +11207,22 @@
         ],
         "statID": "Rocket-LtA-T"
     }, 
+     "R-Wpn-Rocket01-LtAT-Quad": {
+        "iconID": "IMAGE_RES_WEAPONTECH",
+        "id": "R-Wpn-Rocket01-LtAT-Quad",
+        "msgName": "RES_W_RK_LTAT1",
+        "name": "Quad Lancer Rocket",
+        "requiredResearch": [
+            "R-Wpn-Rocket-Accuracy02", 
+            "R-Wpn-Rocket01-LtAT"
+        ],
+        "researchPoints": 4800,
+        "researchPower": 395,
+        "resultComponents": [
+            "Rocket-LtA-T-Quad"
+        ],
+        "statID": "Rocket-LtA-T-Quad"
+    }, 
      "R-Wpn-Rocket02-MRL": {
         "iconID": "IMAGE_RES_WEAPONTECH",
         "id": "R-Wpn-Rocket02-MRL",
@@ -11220,7 +11236,10 @@
         "researchPower": 215,
         "resultComponents": [
             "Rocket-MRL",
-            "Rocket-MRL-VTOL"
+            "Rocket-MRL-VTOL",
+            "Rocket-MRL-Homing",
+            "Rocket-MRL-Homing-Hvy",
+            "Rocket-MRL-Twn"
         ],
         "statID": "Rocket-MRL"
     }, 
@@ -11298,7 +11317,7 @@
         "id": "R-Wpn-Rocket07-Tank-Killer",
         "keyTopic": 1,
         "msgName": "RES_W_RK_HvAT",
-        "name": "Tank Killer Rocket",
+        "name": "Tank Killer Thermal Rocket",
         "requiredResearch": [
             "R-Wpn-RocketSlow-Accuracy01", 
             "R-Wpn-Rocket-Damage06"
@@ -11310,6 +11329,23 @@
             "Rocket-VTOL-HvyA-T"
         ],
         "statID": "Rocket-HvyA-T"
+    }, 
+     "R-Wpn-Rocket07-Tank-Killer-Quad": {
+        "iconID": "IMAGE_RES_WEAPONTECH",
+        "id": "R-Wpn-Rocket07-Tank-Killer-Quad",
+        "keyTopic": 1,
+        "msgName": "RES_W_RK_HvAT",
+        "name": "Quad Tank Killer",
+        "requiredResearch": [
+            "R-Wpn-Rocket07-Tank-Killer", 
+            " R-Wpn-Rocket01-LtAT-Quad"
+        ],
+        "researchPoints": 9200,
+        "researchPower": 545,
+        "resultComponents": [
+            "Rocket-HvyA-T-Quad"
+        ],
+        "statID": "Rocket-HvyA-T-Quad"
     }, 
      "R-Wpn-Rocket-Accuracy01": {
         "iconID": "IMAGE_RES_WEAPONTECH",

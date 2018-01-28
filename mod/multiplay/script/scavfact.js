@@ -102,42 +102,50 @@ const defenses = [
 ];
 
 const templates = [
-	["B4body-sml-trike01","bTrikeMG"],
+	["B1BaBaPerson02","BaBaMG"],
+	["B1BaBaPerson02","BaBaMG"],
 	["B4body-sml-trike01-AR","bTrikeMG"],
-	["B4body-sml-trike01","bTrikeMG"],
 	["B4body-sml-trike01-AR","bTrikeMG"],
-	["B4body-sml-trike01","bTrikeMG"],
 	["B4body-sml-trike01-AR","bTrikeMG"],
-	["B3body-sml-buggy01","BuggyMG"],
+	["B4body-sml-trike01-AR","bTrikeMG"],
 	["B3body-sml-buggy01-AR","BuggyMG"],
-	["B3body-sml-buggy01","BuggyMG"],
 	["B3body-sml-buggy01-AR","BuggyMG"],
-	["B2JeepBody","BJeepMG"],
+	["B3body-sml-buggy01-AR","BuggyMG"],
+	["B3body-sml-buggy01-AR","BuggyMG"],
 	["B2JeepBody-AR","BJeepMG"],
-	["B2JeepBody","BJeepMG"],
 	["B2JeepBody-AR","BJeepMG"],
-	["B3bodyRKbuggy01","BabaRocket"],
+	["B2JeepBody-AR","BJeepMG"],
+	["B2JeepBody-AR","BJeepMG"],
 	["B3bodyRKbuggy01-AR","BabaRocket"],
-	["B3bodyRKbuggy01","BabaRocket"],
-	["B2RKJeepBody","BabaRocket"],
+	["B3bodyRKbuggy01-AR","BabaRocket"],
+	["B3bodyRKbuggy01-AR","BabaRocket"],
 	["B2RKJeepBody-AR","BabaRocket"],
-	["B2RKJeepBody","BabaRocket"],
+	["B2RKJeepBody-AR","BabaRocket"],
+	["B2RKJeepBody-AR","BabaRocket"],
 	["BusBody-AR","BusCannon-AR"],
-	["BusBody","BusCannon"],
+	["BusBody-AR","BusCannon"],
 	["BusBody-AR","BabaPitRocketAT"],
 	["B2tractor","BabaFlame"],
 	["B2tractor","BabaFlame"],
 	["B2tractor","BabaFlame"],
-	["FireBody","BabaFlame"],
+	["FireBody-AR","BabaFlame"],
 	["FireBody-AR","BabaFlame"],
 	["FireBody-AR","BusCannon"],
 	["FireBody-AR","BabaPitRocket"],
 	["FireBody-AR","BabaPitRocketAT"],
 	["ScavCamperBody","BabaPitRocket"],
 	["ScavCamperBody","BusCannon"],
+	["ScavCamperBody","BabaPitRocket"],
+	["ScavCamperBody","BusCannon"],
+	["ScavCamperBody","BabaPitRocket"],
+	["ScavCamperBody","BusCannon"],
+	["ScavTruckBody","BabaFlame","BabaRocket","BabaPitRocketAT"],
+	["ScavTruckBody","BusCannon","BabaPitRocket","BabaRocket"],
 	["ScavTruckBody","BabaFlame","BabaRocket","BabaPitRocketAT"],
 	["ScavTruckBody","BusCannon","BabaPitRocket","BabaRocket"],
 	["ScavIcevanBody","BabaFlame"],
+	["ScavIcevanBody","Mortar1Mk1"],
+	["ScavIcevanBody","Mortar1Mk1"],
 	["ScavIcevanBody","Mortar1Mk1"],
 	["ScavNEXUStrack","ScavNEXUSlink"],
 	["ScavNEXUStrack","ScavNEXUSlink"],
@@ -429,7 +437,7 @@ function produceDroid(fac)
 		if (countDroid(DROID_SENSOR, me) < MAX_SENSORS)
 		{
 			weapons.push("ScavSensor");
-			scavBuildDroid(fac, "ScavSensor", "BusBody", "BaBaProp", weapons);
+			scavBuildDroid(fac, "ScavSensor", "BusBody-AR", "BaBaProp", weapons);
 		}
 	}
 	else
@@ -885,7 +893,7 @@ function eventGameInit()
 		"ScavNEXUSbody", "ScavNEXUStrack", "ScavTruckBody", "MG1-VTOL",
 		"Rocket-VTOL-Pod", "ScavNEXUSlink", "BaBaCannon", "BabaPitRocket",
 		"BabaPitRocketAT", "BabaRocket", "BabaRPG", "babawep",
-		"BTowerMG", "Mortar1Mk1", "BusCannon", "BabaFlame", "bTrikeMG", "BuggyMG", "BJeepMG",
+		"BTowerMG", "Mortar1Mk1", "BusCannon", "BabaFlame", "bTrikeMG", "BuggyMG", "BJeepMG", "B1BaBaPerson02",
 	];
 	
 	for (var i = 0, c = SCAV_COMPONENTS.length; i < c; ++i)

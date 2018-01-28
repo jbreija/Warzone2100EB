@@ -252,7 +252,7 @@
 			]
 	},
 		"BabaBusCan": {
-		"body": "BusBody",
+		"body": "BusBody-AR",
 		"id": "BabaBusCan",
 		"name": "School Bus",
 		"propulsion": "BaBaProp",
@@ -262,7 +262,7 @@
 			]
 	},
 		"BabaFireCan": {
-		"body": "FireBody",
+		"body": "FireBody-AR",
 		"id": "BabaFireCan",
 		"name": "Cannon Fire Truck",
 		"propulsion": "BaBaProp",
@@ -272,7 +272,7 @@
 			]
 	},
 		"BabaFireTruck": {
-		"body": "FireBody",
+		"body": "FireBody-AR",
 		"id": "BabaFireTruck",
 		"name": "Fire Truck",
 		"propulsion": "BaBaProp",
@@ -282,7 +282,7 @@
 			]
 	},
 		"BabaJeep": {
-		"body": "B2JeepBody",
+		"body": "B2JeepBody-AR",
 		"id": "BabaJeep",
 		"name": "Jeep",
 		"propulsion": "BaBaProp",
@@ -292,14 +292,14 @@
 			]
 	},
 		"BabaPickUp": {
-		"body": "B2RKJeepBody",
+		"body": "B2RKJeepBody-AR",
 		"construct": "Spade1Mk1",
 		"id": "BabaPickUp",
 		"name": "Pick-Up Truck",
 		"type": "DROID"
 	}, 
 	 "BabaRKJeep": {
-		"body": "B2RKJeepBody",
+		"body": "B2RKJeepBody-AR",
 		"id": "BabaRKJeep",
 		"name": "Rocket Jeep",
 		"propulsion": "BaBaProp",
@@ -7286,7 +7286,7 @@
 			]
 	},
 		"B2JeepBody-BJeepMG": {
-		"body": "B2JeepBody",
+		"body": "B2JeepBody-AR",
 		"id": "B2JeepBody-BJeepMG",
 		"name": "B2JeepBody-BJeepMG",
 		"propulsion": "BaBaProp",
@@ -7296,7 +7296,7 @@
 			]
 	},
 		"B2RKJeepBody-BabaRocket": {
-		"body": "B2RKJeepBody",
+		"body": "B2RKJeepBody-AR",
 		"id": "B2RKJeepBody-BabaRocket",
 		"name": "B2RKJeepBody-BabaRocket",
 		"propulsion": "BaBaProp",
@@ -7316,7 +7316,7 @@
 			]
 	},
 		"BusBody-BusCannon": {
-		"body": "BusBody",
+		"body": "BusBody-AR",
 		"id": "BusBody-BusCannon",
 		"name": "BusBody-BusCannon",
 		"propulsion": "BaBaProp",
@@ -7326,7 +7326,7 @@
 			]
 	},
 		"BusBody-BabaPitRocketAT": {
-		"body": "BusBody",
+		"body": "BusBody-AR",
 		"id": "BusBody-BabaPitRocketAT",
 		"name": "BusBody-BabaPitRocketAT",
 		"propulsion": "BaBaProp",
@@ -7346,7 +7346,7 @@
 			]
 	},
 		"FireBody-BabaFlame": {
-		"body": "FireBody",
+		"body": "FireBody-AR",
 		"id": "FireBody-BabaFlame",
 		"name": "FireBody-BabaFlame",
 		"propulsion": "BaBaProp",
@@ -7356,7 +7356,7 @@
 			]
 	},
 		"FireBody-BusCannon": {
-		"body": "FireBody",
+		"body": "FireBody-AR",
 		"id": "FireBody-BusCannon",
 		"name": "FireBody-BusCannon",
 		"propulsion": "BaBaProp",
@@ -7366,7 +7366,7 @@
 			]
 	},
 		"FireBody-BabaPitRocket": {
-		"body": "FireBody",
+		"body": "FireBody-AR",
 		"id": "FireBody-BabaPitRocket",
 		"name": "FireBody-BabaPitRocket",
 		"propulsion": "BaBaProp",
@@ -7376,7 +7376,7 @@
 			]
 	},
 		"FireBody-BabaPitRocketAT": {
-		"body": "FireBody",
+		"body": "FireBody-AR",
 		"id": "FireBody-BabaPitRocketAT",
 		"name": "FireBody-BabaPitRocketAT",
 		"propulsion": "BaBaProp",
@@ -7460,7 +7460,7 @@
 			]
 	},
 		"ScavSensor": {
-		"body": "BusBody",
+		"body": "BusBody-AR",
 		"id": "ScavSensor",
 		"name": "ScavSensor",
 		"propulsion": "BaBaProp",
