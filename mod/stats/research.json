@@ -468,10 +468,11 @@
         "researchPoints": 16000,
         "researchPower": 765,
         "resultComponents": [
-            "CyborgMecha"
-            ]
-    },
-        "R-Cyborg-MechaCannon": {
+            "CyborgMecha",
+            "MechLegs"
+        ]
+    }, 
+     "R-Cyborg-MechaCannon": {
         "iconID": "IMAGE_RES_CYBORGTECH",
         "id": "R-Cyborg-MechaCannon",
         "keyTopic": 1,
@@ -2496,8 +2497,8 @@
         "imdName": "BLWALL2.PIE",
         "msgName": "RES_DF_WU4",
         "name": "Supercrete",
-        "redComponents": [
-            "A0HardcreteMk1CWall"
+        "replacedComponents": [
+            "A0HardcreteMk1CWall:A0Supercrete"
         ],
         "requiredResearch": [
             "R-Sys-Engineering03", 
@@ -4001,15 +4002,15 @@
      "R-Sys-ECM-Upgrade01": {
         "iconID": "IMAGE_RES_SYSTEMTECH",
         "id": "R-Sys-ECM-Upgrade01",
-        "imdName": "gnmecm1.pie",
+        "imdName": "GNHSNSR3.PIE",
         "keyTopic": 1,
         "msgName": "RES_SY_ECM1",
         "name": "Electronic Countermeasures",
         "requiredResearch": [
-            "R-Sys-Sensor-Upgrade01"
+            "R-Struc-CommandRelay"
         ],
-        "researchPoints": 9000,
-        "researchPower": 475,
+        "researchPoints": 1200,
+        "researchPower": 165,
         "resultStructures": [
             "ECM1PylonMk1"        
         ],
@@ -4021,12 +4022,12 @@
      "R-Sys-ECM-Upgrade02": {
         "iconID": "IMAGE_RES_SYSTEMTECH",
         "id": "R-Sys-ECM-Upgrade02",
-        "imdName": "gnmecm1.pie",
+        "imdName": "GNHSNSR3.PIE",
         "msgName": "RES_SY_ECM2",
         "name": "Electronic Countermeasures Mk2",
         "requiredResearch": [
             "R-Sys-ECM-Upgrade01", 
-            "R-Sys-Sensor-Upgrade03"
+            "R-Sys-Sensor-Upgrade02"
         ],
         "researchPoints": 9500,
         "researchPower": 500,

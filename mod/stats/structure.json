@@ -399,6 +399,7 @@
 		"breadth": 2,
 		"buildPoints": 1200,
 		"buildPower": 500,
+		"ecmID": "ECM1TurretMk1",
 		"height": 3,
 		"hitpoints": 3500,
 		"id": "A0CommandCentreAR",
@@ -815,28 +816,6 @@
 		"hitpoints": 600,
 		"id": "A0RepairCentre3",
 		"name": "Repair Facility",
-		"repairPoints": 30,
-		"resistance": 150,
-		"sensorID": "DefaultSensor1Mk1",
-		"strength": "MEDIUM",
-		"structureModel": [
-			"BLRPAIR3.PIE"
-		],
-		"Thermal": 10,
-		"type": "REPAIR FACILITY",
-		"width": 1
-	}, 
-	 "A0RepairCentre": {
-		"armour": 10,
-		"baseModel": "BLBGEN.PIE",
-		"breadth": 1,
-		"buildPoints": 800,
-		"buildPower": 125,
-		"ecmID": "RepairCentre",
-		"height": 2,
-		"hitpoints": 1000,
-		"id": "A0RepairCentre",
-		"name": "A0RepairCentre",
 		"repairPoints": 30,
 		"resistance": 150,
 		"sensorID": "DefaultSensor1Mk1",
@@ -1761,10 +1740,10 @@
 	 "GuardTower1": {
 		"armour": 10,
 		"breadth": 1,
-		"buildPoints": 200,
+		"buildPoints": 250,
 		"buildPower": 60,
 		"height": 2,
-		"hitpoints": 200,
+		"hitpoints": 300,
 		"id": "GuardTower1",
 		"name": "Wood Guard Tower",
 		"resistance": 150,
@@ -2296,7 +2275,7 @@
 		"breadth": 1,
 		"buildPoints": 600,
 		"buildPower": 150,
-		"height": 3,
+		"height": 6,
 		"hitpoints": 700,
 		"id": "Sys-SensoTower02",
 		"name": "Hardened Sensor Tower",
@@ -2304,7 +2283,7 @@
 		"sensorID": "SensorTower2Mk1",
 		"strength": "HARD",
 		"structureModel": [
-			"BLGUARDR.pie"
+			"BLGUARDRar.pie"
 		],
 		"Thermal": 15,
 		"type": "DEFENSE",
@@ -2387,23 +2366,6 @@
 		],
 		"Thermal": 15,
 		"type": "DEFENSE",
-		"width": 1
-	}, 
-	 "TankTrapC": {
-		"armour": 10,
-		"breadth": 1,
-		"buildPoints": 1000,
-		"buildPower": 15,
-		"height": 1,
-		"hitpoints": 200,
-		"id": "TankTrapC",
-		"name": "Tank Traps",
-		"strength": "HARD",
-		"structureModel": [
-			"MITRAP2.PIE"
-		],
-		"Thermal": 10,
-		"type": "CORNER WALL",
 		"width": 1
 	}, 
 	 "Tower-Projector": {
@@ -3304,116 +3266,6 @@
 			"LasSatEMP"
 		],
 		"width": 2
-	}, 
-	 "Bunker-Cannon-Aslt": {
-		"armour": 20,
-		"breadth": 1,
-		"buildPoints": 513,
-		"buildPower": 103,
-		"height": 1,
-		"hitpoints": 525,
-		"id": "Bunker-Cannon-Aslt",
-		"name": "Bunker-Cannon-Aslt",
-		"resistance": 150,
-		"sensorID": "DefaultSensor1Mk1",
-		"strength": "BUNKER",
-		"structureModel": [
-			"BlcaNPil.pie"
-		],
-		"Thermal": 20,
-		"type": "DEFENSE",
-		"weapons": [
-			"Cannon5VulcanMk1"
-		],
-		"width": 1
-	}, 
-	 "Bunker-Cannon-Flak": {
-		"armour": 20,
-		"breadth": 1,
-		"buildPoints": 749,
-		"buildPower": 150,
-		"height": 1,
-		"hitpoints": 525,
-		"id": "Bunker-Cannon-Flak",
-		"name": "Bunker-Cannon-Flak",
-		"resistance": 150,
-		"sensorID": "DefaultSensor1Mk1",
-		"strength": "BUNKER",
-		"structureModel": [
-			"BlcaNPil2.pie"
-		],
-		"Thermal": 20,
-		"type": "DEFENSE",
-		"weapons": [
-			"AAGun2Mk1"
-		],
-		"width": 1
-	}, 
-	 "Bunker-Cannon-Hvy": {
-		"armour": 20,
-		"breadth": 1,
-		"buildPoints": 663,
-		"buildPower": 133,
-		"height": 1,
-		"hitpoints": 525,
-		"id": "Bunker-Cannon-Hvy",
-		"name": "Bunker-Cannon-Hvy",
-		"resistance": 150,
-		"sensorID": "DefaultSensor1Mk1",
-		"strength": "BUNKER",
-		"structureModel": [
-			"BlcaNPil.pie"
-		],
-		"Thermal": 20,
-		"type": "DEFENSE",
-		"weapons": [
-			"Cannon375mmMk1"
-		],
-		"width": 1
-	}, 
-	 "Bunker-Cannon-Med": {
-		"armour": 20,
-		"breadth": 1,
-		"buildPoints": 513,
-		"buildPower": 103,
-		"height": 1,
-		"hitpoints": 525,
-		"id": "Bunker-Cannon-Med",
-		"name": "Bunker-Cannon-Med",
-		"resistance": 150,
-		"sensorID": "DefaultSensor1Mk1",
-		"strength": "BUNKER",
-		"structureModel": [
-			"BlcaNPil.pie"
-		],
-		"Thermal": 20,
-		"type": "DEFENSE",
-		"weapons": [
-			"Cannon2A-TMk1"
-		],
-		"width": 1
-	}, 
-	 "Bunker-AAGunLaser-Lng": {
-		"armour": 20,
-		"breadth": 1,
-		"buildPoints": 749,
-		"buildPower": 150,
-		"height": 1,
-		"hitpoints": 525,
-		"id": "Bunker-AAGunLaser-Lng",
-		"name": "Bunker-AAGunLaser-Lng",
-		"resistance": 150,
-		"sensorID": "DefaultSensor1Mk1",
-		"strength": "BUNKER",
-		"structureModel": [
-			"BlcaNPil.pie"
-		],
-		"Thermal": 20,
-		"type": "DEFENSE",
-		"weapons": [
-			"AAGunLaser-Lng"
-		],
-		"width": 1
 	}, 
 	 "Bunker-MG4ROTARYMk1-Hvy": {
 		"armour": 20,
@@ -7386,40 +7238,6 @@
 		"type": "DEFENSE",
 		"width": 1
 	}, 
-	 "PlascreteGate": {
-		"armour": 25,
-		"breadth": 1,
-		"buildPoints": 833,
-		"buildPower": 167,
-		"height": 2,
-		"hitpoints": 952,
-		"id": "PlascreteGate",
-		"name": "PlascreteGate",
-		"strength": "HARD",
-		"structureModel": [
-			"BLGATEH.pie"
-		],
-		"Thermal": 25,
-		"type": "GATE",
-		"width": 1
-	}, 
-	 "PlasteelGate": {
-		"armour": 32,
-		"breadth": 1,
-		"buildPoints": 1101,
-		"buildPower": 220,
-		"height": 2,
-		"hitpoints": 1200,
-		"id": "PlasteelGate",
-		"name": "PlasteelGate",
-		"strength": "HARD",
-		"structureModel": [
-			"BLGATEH.pie"
-		],
-		"Thermal": 32,
-		"type": "GATE",
-		"width": 1
-	}, 
 	 "Super-EMP-Fort": {
 		"armour": 38,
 		"breadth": 2,
@@ -7926,42 +7744,6 @@
 		],
 		"width": 2
 	}, 
-	 "SupercreteGate": {
-		"armour": 20,
-		"breadth": 1,
-		"buildPoints": 631,
-		"buildPower": 126,
-		"height": 2,
-		"hitpoints": 756,
-		"id": "SupercreteGate",
-		"name": "SupercreteGate",
-		"strength": "HARD",
-		"structureModel": [
-			"BLGATEH.pie"
-		],
-		"Thermal": 20,
-		"type": "GATE",
-		"width": 1
-	}, 
-	 "Sys-CB-Tower02": {
-		"armour": 12,
-		"breadth": 1,
-		"buildPoints": 524,
-		"buildPower": 105,
-		"height": 3,
-		"hitpoints": 300,
-		"id": "Sys-CB-Tower02",
-		"name": "Sys-CB-Tower02",
-		"resistance": 150,
-		"sensorID": "Sys-CBTower01",
-		"strength": "HARD",
-		"structureModel": [
-			"BLGUARDR.pie"
-		],
-		"Thermal": 12,
-		"type": "DEFENSE",
-		"width": 1
-	}, 
 	 "Sys-NX-CBTower": {
 		"armour": 19,
 		"breadth": 1,
@@ -8093,23 +7875,6 @@
 		],
 		"Thermal": 12,
 		"type": "DEFENSE",
-		"width": 1
-	}, 
-	 "TankTrapGate": {
-		"armour": 12,
-		"breadth": 1,
-		"buildPoints": 90,
-		"buildPower": 18,
-		"height": 1,
-		"hitpoints": 150,
-		"id": "TankTrapGate",
-		"name": "TankTrapGate",
-		"strength": "HARD",
-		"structureModel": [
-			"MITRAPGT.PIE"
-		],
-		"Thermal": 12,
-		"type": "GATE",
 		"width": 1
 	}, 
 	 "Tower-Cannon-Aslt": {
@@ -9503,6 +9268,7 @@
 		"breadth": 1,
 		"buildPoints": 781,
 		"buildPower": 156,
+		"ecmID": "ECMHardpoint",
 		"height": 2,
 		"hitpoints": 952,
 		"id": "WallTower3-Railgun-Lgt",

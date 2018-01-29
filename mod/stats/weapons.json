@@ -2243,8 +2243,8 @@
 		"minElevation": -30,
 		"minimumDamage": 33,
 		"missGfx": "FXSFlms.PIE",
-		"model": "GNLCMD1.PIE",
-		"mountModel": "TRLCMD1.PIE",
+		"model": "GNLCMD1ar.PIE",
+		"mountModel": "TRLCMD1ar.PIE",
 		"movement": "HOMING-DIRECT",
 		"name": "Command Turret",
 		"numExplosions": 1,
@@ -3079,7 +3079,7 @@
 	}, 
 	 "Cyb-Hvywpn-MG3-AR": {
 		"buildPoints": 400,
-		"buildPower": 10,
+		"buildPower": 100,
 		"damage": 12,
 		"effectSize": 150,
 		"facePlayer": 1,
@@ -3115,7 +3115,7 @@
 	}, 
 	 "Cyb-Hvywpn-MG3": {
 		"buildPoints": 400,
-		"buildPower": 10,
+		"buildPower": 100,
 		"damage": 12,
 		"effectSize": 150,
 		"facePlayer": 1,
@@ -3151,7 +3151,7 @@
 	}, 
 	 "Cyb-Hvywpn-MG4-AR": {
 		"buildPoints": 650,
-		"buildPower": 13,
+		"buildPower": 100,
 		"damage": 14,
 		"effectSize": 100,
 		"facePlayer": 1,
@@ -3187,7 +3187,7 @@
 	}, 
 	 "Cyb-Hvywpn-MG4": {
 		"buildPoints": 650,
-		"buildPower": 13,
+		"buildPower": 100,
 		"damage": 14,
 		"effectSize": 100,
 		"facePlayer": 1,
@@ -3223,7 +3223,7 @@
 	}, 
 	 "Cyb-Hvywpn-Missile-MdArt-AR": {
 		"buildPoints": 800,
-		"buildPower": 17,
+		"buildPower": 100,
 		"damage": 51,
 		"effectSize": 100,
 		"explosionWav": "smlexpl.ogg",
@@ -3265,7 +3265,7 @@
 	}, 
 	 "Cyb-Hvywpn-Missile-MdArt": {
 		"buildPoints": 800,
-		"buildPower": 17,
+		"buildPower": 100,
 		"damage": 51,
 		"effectSize": 100,
 		"explosionWav": "smlexpl.ogg",
@@ -3307,7 +3307,7 @@
 	}, 
 	 "Cyb-Hvywpn-Mortar1Mk1-Ram-AR": {
 		"buildPoints": 750,
-		"buildPower": 13,
+		"buildPower": 100,
 		"damage": 38,
 		"effectSize": 50,
 		"explosionWav": "smlexpl.ogg",
@@ -3343,7 +3343,7 @@
 	}, 
 	 "Cyb-Hvywpn-Mortar1Mk1-Ram": {
 		"buildPoints": 750,
-		"buildPower": 13,
+		"buildPower": 100,
 		"damage": 38,
 		"effectSize": 50,
 		"explosionWav": "smlexpl.ogg",
@@ -3609,7 +3609,7 @@
 	}, 
 	 "Cyb-Hvywpn-Rocket-MRL-AR": {
 		"buildPoints": 600,
-		"buildPower": 10,
+		"buildPower": 100,
 		"damage": 25,
 		"effectSize": 25,
 		"explosionWav": "smlexpl.ogg",
@@ -3651,7 +3651,7 @@
 	}, 
 	 "Cyb-Hvywpn-Rocket-MRL": {
 		"buildPoints": 600,
-		"buildPower": 10,
+		"buildPower": 100,
 		"damage": 25,
 		"effectSize": 25,
 		"explosionWav": "smlexpl.ogg",
@@ -3693,7 +3693,7 @@
 	}, 
 	 "Cyb-Hvywpn-Rocket-Pod-AR": {
 		"buildPoints": 500,
-		"buildPower": 10,
+		"buildPower": 100,
 		"damage": 41,
 		"effectSize": 25,
 		"explosionWav": "smlexpl.ogg",
@@ -3733,7 +3733,7 @@
 	}, 
 	 "Cyb-Hvywpn-Rocket-Pod": {
 		"buildPoints": 500,
-		"buildPower": 10,
+		"buildPower": 100,
 		"damage": 41,
 		"effectSize": 25,
 		"explosionWav": "smlexpl.ogg",
@@ -3773,7 +3773,7 @@
 	}, 
 	 "Cyb-Hvywpn-Rocket-Pod-ARch-AR": {
 		"buildPoints": 600,
-		"buildPower": 17,
+		"buildPower": 100,
 		"damage": 65,
 		"effectSize": 25,
 		"explosionWav": "smlexpl.ogg",
@@ -3814,7 +3814,7 @@
 	}, 
 	 "Cyb-Hvywpn-Rocket-Pod-Arch": {
 		"buildPoints": 600,
-		"buildPower": 17,
+		"buildPower": 100,
 		"damage": 65,
 		"effectSize": 25,
 		"explosionWav": "smlexpl.ogg",
@@ -3855,7 +3855,7 @@
 	}, 
 	 "Cyb-Hvywpn-Rocket-Pod-MRA-AR": {
 		"buildPoints": 600,
-		"buildPower": 13,
+		"buildPower": 100,
 		"damage": 52,
 		"effectSize": 25,
 		"explosionWav": "smlexpl.ogg",
@@ -3899,7 +3899,7 @@
 	}, 
 	 "Cyb-Hvywpn-Rocket-Pod-MRA": {
 		"buildPoints": 600,
-		"buildPower": 13,
+		"buildPower": 100,
 		"damage": 52,
 		"effectSize": 25,
 		"explosionWav": "smlexpl.ogg",
@@ -3943,7 +3943,7 @@
 	}, 
 	 "Cyb-Hvywpn-Rocket-Sunburst-AR": {
 		"buildPoints": 600,
-		"buildPower": 13,
+		"buildPower": 100,
 		"damage": 38,
 		"effectSize": 100,
 		"explosionWav": "smlexpl.ogg",
@@ -3987,7 +3987,7 @@
 	}, 
 	 "Cyb-Hvywpn-Rocket-Sunburst": {
 		"buildPoints": 600,
-		"buildPower": 13,
+		"buildPower": 100,
 		"damage": 38,
 		"effectSize": 100,
 		"explosionWav": "smlexpl.ogg",
@@ -4031,7 +4031,7 @@
 	}, 
 	 "Cyb-Hvywpn-Rocket-Sunburst-ARch-AR": {
 		"buildPoints": 600,
-		"buildPower": 17,
+		"buildPower": 100,
 		"damage": 48,
 		"effectSize": 100,
 		"explosionWav": "smlexpl.ogg",
@@ -4075,7 +4075,7 @@
 	}, 
 	 "Cyb-Hvywpn-Rocket-Sunburst-Arch": {
 		"buildPoints": 600,
-		"buildPower": 17,
+		"buildPower": 100,
 		"damage": 48,
 		"effectSize": 100,
 		"explosionWav": "smlexpl.ogg",
@@ -4119,7 +4119,7 @@
 	}, 
 	 "Cyb-Hvywpn-Rocket-TopAttack-AR": {
 		"buildPoints": 800,
-		"buildPower": 13,
+		"buildPower": 100,
 		"damage": 32,
 		"effectSize": 100,
 		"explosionWav": "smlexpl.ogg",
@@ -4161,7 +4161,7 @@
 	}, 
 	 "Cyb-Hvywpn-Rocket-TopAttack": {
 		"buildPoints": 800,
-		"buildPower": 13,
+		"buildPower": 100,
 		"damage": 32,
 		"effectSize": 100,
 		"explosionWav": "smlexpl.ogg",
@@ -4485,7 +4485,7 @@
 	}, 
 	 "CyborgChaingunNX": {
 		"buildPoints": 66,
-		"buildPower": 13,
+		"buildPower": 100,
 		"damage": 12,
 		"effectSize": 100,
 		"facePlayer": 1,
@@ -5031,8 +5031,8 @@
 		"weight": 220
 	}, 
 	 "Cyb-Wpn-Mortar1Mk1-Rail-AR": {
-		"buildPoints": 38,
-		"buildPower": 8,
+		"buildPoints": 600,
+		"buildPower": 100,
 		"damage": 48,
 		"effectSize": 50,
 		"explosionWav": "smlexpl.ogg",
@@ -5069,8 +5069,8 @@
 		"weaponWav": "mortar.ogg"
 	}, 
 	 "Cyb-Wpn-Mortar1Mk1-Rail": {
-		"buildPoints": 38,
-		"buildPower": 8,
+		"buildPoints": 600,
+		"buildPower": 100,
 		"damage": 48,
 		"effectSize": 50,
 		"explosionWav": "smlexpl.ogg",
@@ -5107,8 +5107,8 @@
 		"weaponWav": "mortar.ogg"
 	}, 
 	 "Cyb-Wpn-MortarInc-AR": {
-		"buildPoints": 38,
-		"buildPower": 8,
+		"buildPoints": 550,
+		"buildPower": 100,
 		"damage": 21,
 		"effectSize": 50,
 		"explosionWav": "smlexpl.ogg",
@@ -5151,8 +5151,8 @@
 		"weaponWav": "mortar.ogg"
 	}, 
 	 "Cyb-Wpn-MortarInc": {
-		"buildPoints": 38,
-		"buildPower": 8,
+		"buildPoints": 550,
+		"buildPower": 100,
 		"damage": 21,
 		"effectSize": 50,
 		"explosionWav": "smlexpl.ogg",
@@ -5269,8 +5269,8 @@
 		"weight": 275
 	}, 
 	 "Cyb-Wpn-Rocket-HvyA-T-AR": {
-		"buildPoints": 29,
-		"buildPower": 6,
+		"buildPoints": 600,
+		"buildPower": 100,
 		"damage": 60,
 		"effectSize": 75,
 		"explosionWav": "smlexpl.ogg",
@@ -5303,8 +5303,8 @@
 		"weaponWav": "rocket.ogg"
 	}, 
 	 "Cyb-Wpn-Rocket-HvyA-T": {
-		"buildPoints": 29,
-		"buildPower": 6,
+		"buildPoints": 600,
+		"buildPower": 100,
 		"damage": 60,
 		"effectSize": 75,
 		"explosionWav": "smlexpl.ogg",
@@ -5337,8 +5337,8 @@
 		"weaponWav": "rocket.ogg"
 	}, 
 	 "Cyb-Wpn-Rocket-Sunburst-AR": {
-		"buildPoints": 29,
-		"buildPower": 6,
+		"buildPoints": 500,
+		"buildPower": 100,
 		"damage": 31,
 		"effectSize": 100,
 		"explosionWav": "smlexpl.ogg",
@@ -5379,8 +5379,8 @@
 		"weaponWav": "rocket.ogg"
 	}, 
 	 "Cyb-Wpn-Rocket-Sunburst": {
-		"buildPoints": 29,
-		"buildPower": 6,
+		"buildPoints": 500,
+		"buildPower": 100,
 		"damage": 31,
 		"effectSize": 100,
 		"explosionWav": "smlexpl.ogg",
@@ -5421,8 +5421,8 @@
 		"weaponWav": "rocket.ogg"
 	}, 
 	 "Cyb-Wpn-Rocket-Sunburst-ARch-AR": {
-		"buildPoints": 38,
-		"buildPower": 8,
+		"buildPoints": 500,
+		"buildPower": 100,
 		"damage": 39,
 		"effectSize": 100,
 		"explosionWav": "smlexpl.ogg",
@@ -5463,8 +5463,8 @@
 		"weaponWav": "rocket.ogg"
 	}, 
 	 "Cyb-Wpn-Rocket-Sunburst-Arch": {
-		"buildPoints": 38,
-		"buildPower": 8,
+		"buildPoints": 500,
+		"buildPower": 100,
 		"damage": 39,
 		"effectSize": 100,
 		"explosionWav": "smlexpl.ogg",
@@ -9255,7 +9255,7 @@
 		"mountModel": "Trmmslat.PIE",
 		"movement": "HOMING-DIRECT",
 		"muzzleGfx": "FXMRocAt.PIE",
-		"name": "Twin Scourge Missile",
+		"name": "Quad Scourge Missile",
 		"numExplosions": 1,
 		"numRounds": 4,
 		"recoilValue": 20,
@@ -10033,7 +10033,7 @@
 		"weaponClass": "KINETIC",
 		"weaponEffect": "ARTILLERY ROUND",
 		"weaponSubClass": "MORTARS",
-		"weaponWav": "gaussgun.ogg",
+		"weaponWav": "mortar.ogg",
 		"weight": 2800
 	}, 
 	 "Mortar1Mk1-Rail-Inc": {
@@ -10078,7 +10078,7 @@
 		"weaponClass": "KINETIC",
 		"weaponEffect": "ARTILLERY ROUND",
 		"weaponSubClass": "MORTARS",
-		"weaponWav": "gaussgun.ogg",
+		"weaponWav": "mortar.ogg",
 		"weight": 2800
 	}, 
 	 "Mortar1Mk1-Rail-Ram": {
@@ -10117,7 +10117,7 @@
 		"weaponClass": "KINETIC",
 		"weaponEffect": "ARTILLERY ROUND",
 		"weaponSubClass": "MORTARS",
-		"weaponWav": "gaussgun.ogg",
+		"weaponWav": "mortar.ogg",
 		"weight": 2800
 	}, 
 	 "Mortar1Mk1-Ram": {
@@ -10281,7 +10281,7 @@
 		"weaponClass": "KINETIC",
 		"weaponEffect": "ARTILLERY ROUND",
 		"weaponSubClass": "MORTARS",
-		"weaponWav": "gaussgun.ogg",
+		"weaponWav": "mortar.ogg",
 		"weight": 2800
 	}, 
 	 "Mortar2Mk1-RailPlas": {
@@ -10327,7 +10327,7 @@
 		"weaponClass": "KINETIC",
 		"weaponEffect": "ARTILLERY ROUND",
 		"weaponSubClass": "MORTARS",
-		"weaponWav": "gaussgun.ogg",
+		"weaponWav": "mortar.ogg",
 		"weight": 2800
 	}, 
 	 "Mortar2Mk1-Rail-Ram": {
@@ -10367,7 +10367,7 @@
 		"weaponClass": "KINETIC",
 		"weaponEffect": "ARTILLERY ROUND",
 		"weaponSubClass": "MORTARS",
-		"weaponWav": "gaussgun.ogg",
+		"weaponWav": "mortar.ogg",
 		"weight": 2800
 	}, 
 	 "Mortar2Mk1-Ram": {
@@ -10539,7 +10539,7 @@
 		"weaponClass": "KINETIC",
 		"weaponEffect": "ARTILLERY ROUND",
 		"weaponSubClass": "MORTARS",
-		"weaponWav": "gaussgun.ogg",
+		"weaponWav": "mortar.ogg",
 		"weight": 3400
 	}, 
 	 "Mortar3ROTARYMk1-Rail-Inc": {
@@ -10587,7 +10587,7 @@
 		"weaponClass": "KINETIC",
 		"weaponEffect": "ARTILLERY ROUND",
 		"weaponSubClass": "MORTARS",
-		"weaponWav": "gaussgun.ogg",
+		"weaponWav": "mortar.ogg",
 		"weight": 3400
 	}, 
 	 "Mortar3ROTARYMk1-Rail-Ram": {
@@ -10629,7 +10629,7 @@
 		"weaponClass": "KINETIC",
 		"weaponEffect": "ARTILLERY ROUND",
 		"weaponSubClass": "MORTARS",
-		"weaponWav": "gaussgun.ogg",
+		"weaponWav": "mortar.ogg",
 		"weight": 3400
 	}, 
 	 "Mortar3ROTARYMk1-Ram-Rot": {
@@ -12396,7 +12396,7 @@
 		"mountModel": "Trmmslat.pie",
 		"movement": "HOMING-DIRECT",
 		"muzzleGfx": "FXMRocAt.PIE",
-		"name": "Twin Tank Killer",
+		"name": "Quad Tank Killer",
 		"numExplosions": 2,
 		"numRounds": 4,
 		"radiusLife": 10,
@@ -12553,7 +12553,7 @@
 		"mountModel": "TRMMSLAT.PIE",
 		"movement": "HOMING-DIRECT",
 		"muzzleGfx": "FXMRocAt.PIE",
-		"name": "Twin Lancer",
+		"name": "Quad Lancer",
 		"numExplosions": 2,
 		"numRounds": 2,
 		"radiusLife": 10,
@@ -13480,7 +13480,7 @@
 		"mountModel": "Trmmslat.PIE",
 		"movement": "HOMING-DIRECT",
 		"muzzleGfx": "FXMRocAt.PIE",
-		"name": "VTOL Twin Tank Killer",
+		"name": "VTOL Quad Tank Killer",
 		"numAttackRuns": 1,
 		"numExplosions": 2,
 		"numRounds": 4,
@@ -13561,7 +13561,7 @@
 		"mountModel": "TRMMSLAT.PIE",
 		"movement": "DIRECT",
 		"muzzleGfx": "FXMRocAt.PIE",
-		"name": "VTOL Twin Lancer",
+		"name": "VTOL Quad Lancer",
 		"numAttackRuns": 1,
 		"numExplosions": 2,
 		"numRounds": 4,
