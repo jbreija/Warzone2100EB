@@ -23,6 +23,15 @@
 		"range": 512,
 		"weight": 100
 	}, 
+	 "ECMBunker": {
+		"buildPoints": 100,
+		"buildPower": 20,
+		"id": "ECMBunker",
+		"location": "DEFAULT",
+		"name": "ECM Bunker",
+		"range": 142,
+		"weight": 100
+	}, 
 	 "RepairCentre": {
 		"id": "RepairCentre",
 		"location": "TURRET",

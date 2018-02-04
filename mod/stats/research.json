@@ -280,7 +280,7 @@
             "R-Struc-Factory-Cyborg"
         ],
         "researchPoints": 2400,
-        "researchPower": 145,
+        "researchPower": 195,
         "results": [
             {
                 "class": "Body",
@@ -974,7 +974,7 @@
             "R-Struc-Research-Module"
         ],
         "researchPoints": 1400,
-        "researchPower": 125,
+        "researchPower": 225,
         "results": [
             {
                 "class": "Body",
@@ -2497,14 +2497,11 @@
         "imdName": "BLWALL2.PIE",
         "msgName": "RES_DF_WU4",
         "name": "Supercrete",
-        "replacedComponents": [
-            "A0HardcreteMk1CWall:A0Supercrete"
-        ],
         "requiredResearch": [
             "R-Sys-Engineering03", 
             "R-Struc-Research-Upgrade04", 
             "R-Defense-WallUpgrade03"
-            ],
+        ],
         "researchPoints": 6000,
         "researchPower": 415,
         "resultStructures": [
@@ -2516,14 +2513,14 @@
                 "filterParameter": "Type",
                 "filterValue": "Wall",
                 "parameter": "Armour",
-                "value": 35
+                "value": 25
     }, 
         {
                 "class": "Building",
                 "filterParameter": "Type",
                 "filterValue": "Wall",
                 "parameter": "HitPoints",
-                "value": 30
+                "value": 20
             }
         ],
         "subgroupIconID": "IMAGE_RES_GRPUPG"
@@ -2545,14 +2542,14 @@
                 "filterParameter": "Type",
                 "filterValue": "Wall",
                 "parameter": "Armour",
-                "value": 35
+                "value": 25
     }, 
         {
                 "class": "Building",
                 "filterParameter": "Type",
                 "filterValue": "Wall",
                 "parameter": "HitPoints",
-                "value": 30
+                "value": 20
             }
         ],
         "subgroupIconID": "IMAGE_RES_GRPUPG"
@@ -2574,14 +2571,14 @@
                 "filterParameter": "Type",
                 "filterValue": "Wall",
                 "parameter": "Armour",
-                "value": 35
+                "value": 25
     }, 
         {
                 "class": "Building",
                 "filterParameter": "Type",
                 "filterValue": "Wall",
                 "parameter": "HitPoints",
-                "value": 30
+                "value": 20
             }
         ],
         "subgroupIconID": "IMAGE_RES_GRPUPG"
@@ -2592,13 +2589,9 @@
         "imdName": "BLWALL3.PIE",
         "msgName": "RES_DF_WU7",
         "name": "Plascrete",
-        "redComponents": [
-            "A0Supercrete"
-        ],
         "requiredResearch": [
-            "R-Defense-WallUpgrade06", 
-            "R-Sys-Engineering04"
-            ],
+            "R-Defense-WallUpgrade04"
+        ],
         "researchPoints": 12000,
         "researchPower": 720,
         "resultStructures": [
@@ -2687,12 +2680,9 @@
         "imdName": "BLWALLHar.PIE",
         "msgName": "RES_DF_WU10",
         "name": "Plasteel",
-        "redComponents": [
-            "A0Plascrete"
-        ],
         "requiredResearch": [
-            "R-Defense-WallUpgrade09"
-            ],
+            "R-Defense-WallUpgrade07"
+        ],
         "researchPoints": 18000,
         "researchPower": 1080,
         "resultStructures": [
@@ -2705,14 +2695,14 @@
                 "filterParameter": "Type",
                 "filterValue": "Wall",
                 "parameter": "Armour",
-                "value": 35
+                "value": 45
     }, 
         {
                 "class": "Building",
                 "filterParameter": "Type",
                 "filterValue": "Wall",
                 "parameter": "HitPoints",
-                "value": 30
+                "value": 40
             }
         ],
         "subgroupIconID": "IMAGE_RES_GRPUPG"
@@ -2734,14 +2724,14 @@
                 "filterParameter": "Type",
                 "filterValue": "Wall",
                 "parameter": "Armour",
-                "value": 35
+                "value": 45
     }, 
         {
                 "class": "Building",
                 "filterParameter": "Type",
                 "filterValue": "Wall",
                 "parameter": "HitPoints",
-                "value": 30
+                "value": 40
             }
         ],
         "subgroupIconID": "IMAGE_RES_GRPUPG"
@@ -2763,14 +2753,14 @@
                 "filterParameter": "Type",
                 "filterValue": "Wall",
                 "parameter": "Armour",
-                "value": 35
+                "value": 45
     }, 
         {
                 "class": "Building",
                 "filterParameter": "Type",
                 "filterValue": "Wall",
                 "parameter": "HitPoints",
-                "value": 30
+                "value": 40
             }
         ],
         "subgroupIconID": "IMAGE_RES_GRPUPG"
@@ -4005,7 +3995,7 @@
         "imdName": "GNHSNSR3.PIE",
         "keyTopic": 1,
         "msgName": "RES_SY_ECM1",
-        "name": "Electronic Countermeasures",
+        "name": "Jammer Turret",
         "requiredResearch": [
             "R-Struc-CommandRelay"
         ],
@@ -4024,7 +4014,7 @@
         "id": "R-Sys-ECM-Upgrade02",
         "imdName": "GNHSNSR3.PIE",
         "msgName": "RES_SY_ECM2",
-        "name": "Electronic Countermeasures Mk2",
+        "name": "Jammer Amplifier",
         "requiredResearch": [
             "R-Sys-ECM-Upgrade01", 
             "R-Sys-Sensor-Upgrade02"
@@ -4049,8 +4039,8 @@
         "keyTopic": 1,
         "msgName": "RES_ENGIN1",
         "name": "Engineering",
-        "researchPoints": 635,
-        "researchPower": 150,
+        "researchPoints": 935,
+        "researchPower": 170,
         "resultComponents": [
             "CyborgSpade",
             "CyborgSpadeNAS"
@@ -4163,8 +4153,8 @@
         "requiredResearch": [
             "R-Sys-Engineering01"
         ],
-        "researchPoints": 600,
-        "researchPower": 40,
+        "researchPoints": 800,
+        "researchPower": 85,
         "resultComponents": [
             "CyborgRepair",
             "LightRepair1",
@@ -4270,12 +4260,28 @@
         ],
         "statID": "Sys-SensoTower02"
     }, 
+     "R-Sys-Sensor-Tower03": {
+        "iconID": "IMAGE_RES_SYSTEMTECH",
+        "id": "R-Sys-Sensor-Tower03",
+        "keyTopic": 1,
+        "msgName": "RES_SY_STW2",
+        "name": "Sky Tower",
+        "requiredResearch": [
+            "R-Sys-Sensor-Tower02"
+        ],
+        "researchPoints": 2800,
+        "researchPower": 175,
+        "resultStructures": [
+            "Sys-SensoTower03"
+        ],
+        "statID": "Sys-SensoTower03"
+    }, 
      "R-Sys-Sensor-Turret01": {
         "iconID": "IMAGE_RES_SYSTEMTECH",
         "id": "R-Sys-Sensor-Turret01",
         "msgName": "RES_SENSO1",
         "name": "Sensor Turret",
-        "researchPoints": 635,
+        "researchPoints": 735,
         "researchPower": 150,
         "resultComponents": [
             "SensorTurret1Mk1"
@@ -5191,8 +5197,8 @@
         "keyTopic": 1,
         "msgName": "RES_V_EN1",
         "name": "Fuel Injection Engine",
-        "researchPoints": 635,
-        "researchPower": 150,
+        "researchPoints": 1135,
+        "researchPower": 190,
         "results": [
             {
                 "class": "Body",
@@ -5422,7 +5428,7 @@
             "R-Struc-Research-Module"
         ],
         "researchPoints": 1400,
-        "researchPower": 125,
+        "researchPower": 210,
         "results": [
             {
                 "class": "Body",
@@ -7845,7 +7851,7 @@
         "requiredResearch": [
             "R-Sys-Engineering01"
         ],
-        "researchPoints": 600,
+        "researchPoints": 1000,
         "researchPower": 150,
         "resultComponents": [
             "CyborgFlamer01",
@@ -7863,8 +7869,8 @@
         "requiredResearch": [
             "R-Wpn-Flamer01Mk1"
         ],
-        "researchPoints": 600,
-        "researchPower": 90,
+        "researchPoints": 900,
+        "researchPower": 125,
         "results": [
             {
                 "class": "Weapon",
@@ -7892,8 +7898,8 @@
         "requiredResearch": [
             "R-Wpn-Flamer-Damage01"
         ],
-        "researchPoints": 1200,
-        "researchPower": 100,
+        "researchPoints": 1400,
+        "researchPower": 150,
         "results": [
             {
                 "class": "Weapon",
@@ -7921,8 +7927,8 @@
         "requiredResearch": [
             "R-Wpn-Flamer-Damage02"
         ],
-        "researchPoints": 2400,
-        "researchPower": 145,
+        "researchPoints": 2800,
+        "researchPower": 175,
         "results": [
             {
                 "class": "Weapon",
@@ -9560,7 +9566,7 @@
         "msgName": "RES_MG1MK1",
         "name": "Machinegun",
         "researchPoints": 60,
-        "researchPower": 40,
+        "researchPower": 100,
         "resultComponents": [
             "CyborgChaingun",
             "CyborgChaingun-AR",
@@ -9678,8 +9684,8 @@
         "requiredResearch": [
             "R-Wpn-MG1Mk1"
         ],
-        "researchPoints": 600,
-        "researchPower": 70,
+        "researchPoints": 900,
+        "researchPower": 125,
         "results": [
             {
                 "class": "Weapon",
@@ -9701,7 +9707,7 @@
             "R-Wpn-MG-Damage01"
         ],
         "researchPoints": 1500,
-        "researchPower": 110,
+        "researchPower": 135,
         "results": [
             {
                 "class": "Weapon",
@@ -11924,7 +11930,7 @@
             "R-Wpn-Rocket01-LtAT"
         ],
         "researchPoints": 6000,
-        "researchPower": 475,
+        "researchPower": 325,
         "resultComponents": [
             "Rocket-Sunburst",
             "Rocket-VTOL-Sunburst"
