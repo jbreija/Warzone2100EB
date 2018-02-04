@@ -16,363 +16,6 @@
 		"type": "DEMOLISH",
 		"width": 1
 	}, 
-	 "A0BaBaVtolPad": {
-		"armour": 10,
-		"baseModel": "blbgen.pie",
-		"breadth": 1,
-		"buildPoints": 50,
-		"buildPower": 15,
-		"height": 1,
-		"hitpoints": 100,
-		"id": "A0BaBaVtolPad",
-		"name": "VTOL BaBa Rearming Pad",
-		"rearmPoints": 300,
-		"repairPoints": 10,
-		"resistance": 150,
-		"sensorID": "BaBaSensor",
-		"strength": "SOFT",
-		"structureModel": [
-			"blvtolpd.pie"
-		],
-		"Thermal": 10,
-		"type": "REARM PAD",
-		"width": 1
-	}, 
-	 "bbaatow": {
-		"armour": 11,
-		"breadth": 1,
-		"buildPoints": 200,
-		"buildPower": 50,
-		"height": 2,
-		"hitpoints": 250,
-		"id": "bbaatow",
-		"name": "Scavenger MG tower",
-		"resistance": 150,
-		"sensorID": "BaBaSensor",
-		"strength": "SOFT",
-		"structureModel": [
-			"bbaatower.PIE"
-		],
-		"Thermal": 11,
-		"type": "DEFENSE",
-		"weapons": [
-			"babawep"
-		],
-		"width": 1
-	}, 
-	 "A0BaBaVtolFactory": {
-		"armour": 10,
-		"breadth": 2,
-		"buildPoints": 250,
-		"buildPower": 50,
-		"height": 3,
-		"hitpoints": 500,
-		"id": "A0BaBaVtolFactory",
-		"name": "Scavenger Chopper Factory",
-		"productionPoints": 15,
-		"resistance": 150,
-		"sensorID": "BaBaSensor",
-		"strength": "SOFT",
-		"structureModel": [
-			"scavvtol.pie"
-		],
-		"Thermal": 10,
-		"type": "VTOL FACTORY",
-		"width": 2
-	}, 
-	 "ScavRepairCentre": {
-		"armour": 5,
-		"baseModel": "BLBGEN.PIE",
-		"breadth": 1,
-		"buildPoints": 100,
-		"buildPower": 20,
-		"ecmID": "RepairCentre",
-		"height": 2,
-		"hitpoints": 300,
-		"id": "ScavRepairCentre",
-		"name": "Scavenger Repair Center",
-		"repairPoints": 10,
-		"resistance": 150,
-		"sensorID": "BaBaSensor",
-		"strength": "SOFT",
-		"structureModel": [
-			"repair.pie"
-		],
-		"Thermal": 5,
-		"type": "REPAIR FACILITY",
-		"width": 1
-	}, 
-	 "A0BaBaBunker": {
-		"armour": 12,
-		"breadth": 1,
-		"buildPoints": 350,
-		"buildPower": 50,
-		"height": 1,
-		"hitpoints": 300,
-		"id": "A0BaBaBunker",
-		"name": "Scavenger Bunker",
-		"resistance": 150,
-		"sensorID": "BaBaSensor",
-		"strength": "BUNKER",
-		"structureModel": [
-			"blbrbbnk.PIE"
-		],
-		"Thermal": 12,
-		"type": "DEFENSE",
-		"weapons": [
-			"MG3Mk1"
-		],
-		"width": 1
-	}, 
-	 "A0BaBaFactory": {
-		"armour": 5,
-		"breadth": 1,
-		"buildPoints": 200,
-		"buildPower": 20,
-		"height": 2,
-		"hitpoints": 400,
-		"id": "A0BaBaFactory",
-		"name": "Scavenger Factory",
-		"productionPoints": 15,
-		"resistance": 150,
-		"sensorID": "BaBaSensor",
-		"strength": "SOFT",
-		"structureModel": [
-			"BLBRBFAC.PIE"
-		],
-		"Thermal": 5,
-		"type": "FACTORY",
-		"width": 2
-	}, 
-	 "A0BaBaFlameTower": {
-		"armour": 7,
-		"breadth": 1,
-		"buildPoints": 300,
-		"buildPower": 50,
-		"height": 2,
-		"hitpoints": 300,
-		"id": "A0BaBaFlameTower",
-		"name": "Scavenger Flame Tower",
-		"resistance": 150,
-		"sensorID": "BaBaSensor",
-		"strength": "SOFT",
-		"structureModel": [
-			"Blbrtowf.pie"
-		],
-		"Thermal": 7,
-		"type": "DEFENSE",
-		"weapons": [
-			"Flame1Mk1"
-		],
-		"width": 1
-	}, 
-	 "A0BaBaGunTower": {
-		"armour": 7,
-		"breadth": 1,
-		"buildPoints": 75,
-		"buildPower": 50,
-		"height": 2,
-		"hitpoints": 300,
-		"id": "A0BaBaGunTower",
-		"name": "Scavenger Gun Tower",
-		"resistance": 150,
-		"sensorID": "BaBaSensor",
-		"strength": "SOFT",
-		"structureModel": [
-			"BLBRBTW1.PIE"
-		],
-		"Thermal": 7,
-		"type": "DEFENSE",
-		"weapons": [
-			"BuggyMG"
-		],
-		"width": 1
-	}, 
-	 "A0BaBaGunTowerEND": {
-		"armour": 7,
-		"breadth": 1,
-		"buildPoints": 50,
-		"buildPower": 20,
-		"height": 2,
-		"hitpoints": 300,
-		"id": "A0BaBaGunTowerEND",
-		"name": "*Scavenger End Tower*",
-		"resistance": 150,
-		"sensorID": "BaBaSensor",
-		"strength": "SOFT",
-		"structureModel": [
-			"Blbrbtw2.PIE"
-		],
-		"Thermal": 7,
-		"type": "DEFENSE",
-		"weapons": [
-			"BuggyMG"
-		],
-		"width": 1
-	}, 
-	 "A0BaBaHorizontalWall": {
-		"armour": 7,
-		"breadth": 1,
-		"buildPoints": 25,
-		"buildPower": 20,
-		"height": 2,
-		"hitpoints": 300,
-		"id": "A0BaBaHorizontalWall",
-		"name": "Scavenger Horizontal Wall",
-		"strength": "SOFT",
-		"structureModel": [
-			"BLBRBWLH.PIE"
-		],
-		"Thermal": 7,
-		"type": "WALL",
-		"width": 1
-	}, 
-	 "A0BaBaMortarPit": {
-		"armour": 10,
-		"breadth": 1,
-		"buildPoints": 700,
-		"buildPower": 20,
-		"height": 1,
-		"hitpoints": 300,
-		"id": "A0BaBaMortarPit",
-		"name": "*BaBaMortarPit*",
-		"resistance": 150,
-		"sensorID": "BaBaSensor",
-		"strength": "SOFT",
-		"structureModel": [
-			"BLBRMRTP.PIE"
-		],
-		"Thermal": 10,
-		"type": "DEFENSE",
-		"weapons": [
-			"Mortar1Mk1"
-		],
-		"width": 1
-	}, 
-	 "A0BaBaPowerGenerator": {
-		"armour": 5,
-		"breadth": 1,
-		"buildPoints": 300,
-		"buildPower": 100,
-		"height": 2,
-		"hitpoints": 400,
-		"id": "A0BaBaPowerGenerator",
-		"name": "Scavenger Power Generator",
-		"powerPoints": 110,
-		"modulePowerPoints": 40,
-		"resistance": 150,
-		"sensorID": "BaBaSensor",
-		"strength": "SOFT",
-		"structureModel": [
-			"BLBRBGEN.PIE"
-		],
-		"Thermal": 5,
-		"type": "POWER GENERATOR",
-		"width": 1
-	}, 
-	 "A0BaBaRocketPit": {
-		"armour": 10,
-		"breadth": 1,
-		"buildPoints": 400,
-		"buildPower": 40,
-		"height": 1,
-		"hitpoints": 300,
-		"id": "A0BaBaRocketPit",
-		"name": "Scavenger Rocket Pit",
-		"resistance": 150,
-		"sensorID": "BaBaSensor",
-		"strength": "SOFT",
-		"structureModel": [
-			"EXROCKET.PIE"
-		],
-		"Thermal": 10,
-		"type": "DEFENSE",
-		"weapons": [
-			"BabaPitRocket"
-		],
-		"width": 1
-	}, 
-	 "A0BaBaRocketPitAT": {
-		"armour": 10,
-		"breadth": 1,
-		"buildPoints": 500,
-		"buildPower": 40,
-		"height": 1,
-		"hitpoints": 300,
-		"id": "A0BaBaRocketPitAT",
-		"name": "Scavenger AT-Rocket Pit",
-		"resistance": 150,
-		"sensorID": "BaBaSensor",
-		"strength": "SOFT",
-		"structureModel": [
-			"EXROCKET.PIE"
-		],
-		"Thermal": 10,
-		"type": "DEFENSE",
-		"weapons": [
-			"BabaPitRocketAT"
-		],
-		"width": 1
-	}, 
-	 "A0BabaCornerWall": {
-		"armour": 5,
-		"breadth": 1,
-		"buildPoints": 25,
-		"buildPower": 20,
-		"height": 2,
-		"hitpoints": 300,
-		"id": "A0BabaCornerWall",
-		"name": "Scavenger CornerWall",
-		"strength": "SOFT",
-		"structureModel": [
-			"BLBRBCR1.PIE"
-		],
-		"Thermal": 5,
-		"type": "CORNER WALL",
-		"width": 1
-	}, 
-	 "A0CannonTower": {
-		"armour": 10,
-		"breadth": 1,
-		"buildPoints": 50,
-		"buildPower": 10,
-		"height": 2,
-		"hitpoints": 300,
-		"id": "A0CannonTower",
-		"name": "Cannon Tower",
-		"resistance": 150,
-		"sensorID": "BaBaSensor",
-		"strength": "SOFT",
-		"structureModel": [
-			"BLBRTOWR.PIE"
-		],
-		"Thermal": 10,
-		"type": "DEFENSE",
-		"weapons": [
-			"BaBaCannon"
-		],
-		"width": 1
-	}, 
-	 "A0ComDroidControl": {
-		"armour": 10,
-		"baseModel": "BLBDRDCM.pie",
-		"breadth": 2,
-		"buildPoints": 500,
-		"buildPower": 100,
-		"height": 2,
-		"hitpoints": 1000,
-		"id": "A0ComDroidControl",
-		"name": "Command Relay Center",
-		"resistance": 300,
-		"sensorID": "DefaultSensor1Mk1",
-		"strength": "HARD",
-		"structureModel": [
-			"bldrdcm0.pie"
-		],
-		"Thermal": 10,
-		"type": "COMMAND RELAY",
-		"width": 2
-	}, 
 	 "A0CommandCentre": {
 		"armour": 10,
 		"baseModel": "blbhq.pie",
@@ -413,259 +56,23 @@
 		"type": "HQ",
 		"width": 2
 	}, 
-	 "A0CyborgFactory": {
-		"armour": 10,
-		"baseModel": "blbcfact.pie",
+	 "A0Sat-linkCentre": {
+		"armour": 12,
 		"breadth": 2,
-		"buildPoints": 1100,
-		"buildPower": 225,
-		"height": 2,
-		"hitpoints": 800,
-		"id": "A0CyborgFactory",
-		"name": "Cyborg Factory",
-		"productionPoints": 12,
-		"moduleProductionPoints": 10,
-		"resistance": 150,
-		"sensorID": "DefaultSensor1Mk1",
-		"strength": "MEDIUM",
-		"structureModel": [
-			"blcfact1.pie"
-		],
-		"Thermal": 10,
-		"type": "CYBORG FACTORY",
-		"width": 1
-	}, 
-	 "A0FacMod1": {
-		"armour": 10,
-		"breadth": 3,
-		"buildPoints": 1400,
-		"buildPower": 150,
-		"height": 2,
-		"hitpoints": 750,
-		"id": "A0FacMod1",
-		"name": "Factory Module",
-		"resistance": 150,
-		"sensorID": "DefaultSensor1Mk1",
-		"strength": "MEDIUM",
-		"structureModel": [
-			"blfact1.pie"
-		],
-		"Thermal": 10,
-		"type": "FACTORY MODULE",
-		"width": 3
-	}, 
-	 "A0SupercreteC": {
-		"armour": 15,
-		"breadth": 1,
-		"buildPoints": 600,
-		"buildPower": 65,
-		"height": 2,
-		"hitpoints": 1800,
-		"id": "A0SupercreteC",
-		"name": "Supercrete Corner Wall",
-		"strength": "HARD",
-		"structureModel": [
-			"BLWALLC2.pie"
-		],
-		"Thermal": 20,
-		"type": "CORNER WALL",
-		"width": 1
-	}, 
-	 "A0Supercrete": {
-		"armour": 15,
-		"breadth": 1,
-		"buildPoints": 600,
-		"buildPower": 65,
-		"height": 2,
-		"hitpoints": 1800,
-		"id": "A0Supercrete",
-		"name": "Supercrete Wall",
-		"strength": "HARD",
-		"structureModel": [
-			"blwall2.pie"
-		],
-		"Thermal": 20,
-		"type": "WALL",
-		"width": 1
-	}, 
-	 "A0PlascreteC": {
-		"armour": 15,
-		"breadth": 1,
-		"buildPoints": 600,
-		"buildPower": 65,
-		"height": 2,
-		"hitpoints": 1500,
-		"id": "A0PlascreteC",
-		"name": "Plascrete Corner Wall",
-		"strength": "HARD",
-		"structureModel": [
-			"BLWALLC3.pie"
-		],
-		"Thermal": 20,
-		"type": "CORNER WALL",
-		"width": 1
-	}, 
-	 "A0Plascrete": {
-		"armour": 15,
-		"breadth": 1,
-		"buildPoints": 600,
-		"buildPower": 65,
-		"height": 2,
-		"hitpoints": 1500,
-		"id": "A0Plascrete",
-		"name": "Plascrete Wall",
-		"strength": "HARD",
-		"structureModel": [
-			"blwall3.pie"
-		],
-		"Thermal": 20,
-		"type": "WALL",
-		"width": 1
-	}, 
-	 "A0PlascreteRC": {
-		"armour": 15,
-		"breadth": 1,
-		"buildPoints": 1800,
-		"buildPower": 75,
-		"height": 2,
-		"hitpoints": 3000,
-		"id": "A0PlascreteRC",
-		"name": "Reinforced Plascrete Corner Wall",
-		"strength": "HARD",
-		"structureModel": [
-			"BLWALLC5.pie"
-		],
-		"Thermal": 20,
-		"type": "CORNER WALL",
-		"width": 1
-	}, 
-	 "A0PlascreteR": {
-		"armour": 15,
-		"breadth": 1,
-		"buildPoints": 1800,
-		"buildPower": 75,
-		"height": 2,
-		"hitpoints": 3000,
-		"id": "A0PlascreteR",
-		"name": "Reinforced Plascrete Wall",
-		"strength": "HARD",
-		"structureModel": [
-			"blwall5.pie"
-		],
-		"Thermal": 20,
-		"type": "WALL",
-		"width": 1
-	}, 
-	 "A0HardcreteMk1CWall": {
-		"armour": 15,
-		"breadth": 1,
-		"buildPoints": 600,
-		"buildPower": 50,
-		"height": 2,
-		"hitpoints": 1000,
-		"id": "A0HardcreteMk1CWall",
-		"name": "Hardcrete Corner Wall",
-		"strength": "HARD",
-		"structureModel": [
-			"BLWALLC1.pie"
-		],
-		"Thermal": 20,
-		"type": "CORNER WALL",
-		"width": 1
-	}, 
-	 "A0PlasteelC": {
-		"armour": 25,
-		"breadth": 1,
-		"buildPoints": 600,
-		"buildPower": 50,
-		"height": 2,
-		"hitpoints": 2500,
-		"id": "A0PlasteelC",
-		"name": "Plasteel Corner Wall",
-		"strength": "HARD",
-		"structureModel": [
-			"BLWALLC1ar.pie"
-		],
-		"Thermal": 20,
-		"type": "CORNER WALL",
-		"width": 1
-	}, 
-	 "A0HardcreteMk1Gate": {
-		"armour": 15,
-		"breadth": 1,
-		"buildPoints": 900,
-		"buildPower": 75,
-		"height": 2,
+		"buildPoints": 5000,
+		"buildPower": 1500,
+		"height": 3,
 		"hitpoints": 1400,
-		"id": "A0HardcreteMk1Gate",
-		"name": "Plascrete Gate",
-		"strength": "HARD",
+		"id": "A0Sat-linkCentre",
+		"name": "Satellite Uplink Center",
+		"sensorID": "UplinkSensor",
+		"strength": "MEDIUM",
 		"structureModel": [
-			"blgateh.pie",
-			"blgateh_x.pie",
-			"blgateh_t.pie",
-			"blgateh_l.pie"
+			"miupbase.PIE"
 		],
-		"Thermal": 20,
-		"type": "GATE",
-		"width": 1
-	}, 
-	 "A0PlasteelG": {
-		"armour": 25,
-		"breadth": 1,
-		"buildPoints": 600,
-		"buildPower": 100,
-		"height": 2,
-		"hitpoints": 2500,
-		"id": "A0PlasteelG",
-		"name": "Plasteel Gate",
-		"strength": "HARD",
-		"structureModel": [
-			"blgatehar.pie"
-		],
-		"Thermal": 20,
-		"type": "GATE",
-		"width": 1
-	}, 
-	 "A0HardcreteMk1Wall": {
-		"armour": 15,
-		"breadth": 1,
-		"buildPoints": 600,
-		"buildPower": 50,
-		"height": 2,
-		"hitpoints": 1000,
-		"id": "A0HardcreteMk1Wall",
-		"name": "Hardcrete Wall",
-		"strength": "HARD",
-		"structureModel": [
-			"blwallh.pie",
-			"blwallc1.pie",
-			"blwallh_t.pie",
-			"blwallh_l.pie"
-		],
-		"Thermal": 20,
-		"type": "WALL",
-		"width": 1
-	}, 
-	 "A0Plasteel": {
-		"armour": 25,
-		"breadth": 1,
-		"buildPoints": 600,
-		"buildPower": 100,
-		"height": 2,
-		"hitpoints": 2500,
-		"id": "A0Plasteel",
-		"name": "Plasteel Wall",
-		"strength": "HARD",
-		"structureModel": [
-			"blwallhar.pie",
-			"blwallc1ar.pie",
-			"blwallh_tar.pie",
-			"blwallh_lar.pie"
-		],
-		"Thermal": 20,
-		"type": "WALL",
-		"width": 1
+		"Thermal": 12,
+		"type": "SAT UPLINK",
+		"width": 2
 	}, 
 	 "A0LasSatCommand": {
 		"armour": 16,
@@ -739,23 +146,94 @@
 		"type": "FACTORY",
 		"width": 3
 	}, 
-	 "A0PowMod1": {
+	 "A0VTolFactory1": {
 		"armour": 10,
-		"breadth": 2,
-		"buildPoints": 1200,
-		"height": 2,
-		"hitpoints": 1000,
-		"id": "A0PowMod1",
-		"name": "Power Module",
+		"baseModel": "blbfact.pie",
+		"breadth": 3,
+		"buildPoints": 500,
+		"buildPower": 300,
+		"height": 4,
+		"hitpoints": 700,
+		"id": "A0VTolFactory1",
+		"name": "VTOL Factory",
+		"productionPoints": 10,
+		"moduleProductionPoints": 10,
 		"resistance": 150,
 		"sensorID": "DefaultSensor1Mk1",
 		"strength": "MEDIUM",
 		"structureModel": [
-			"blpower4.pie"
+			"blvfact0.pie",
+			"vtolfactory_module1.pie",
+			"blvfact1.pie",
+			"vtolfactory_module2.pie",
+			"blvfact2.pie"
 		],
 		"Thermal": 10,
-		"type": "POWER MODULE",
-		"width": 2
+		"type": "VTOL FACTORY",
+		"width": 3
+	}, 
+	 "A0VtolPad": {
+		"armour": 10,
+		"baseModel": "blbgen.pie",
+		"breadth": 1,
+		"buildPoints": 300,
+		"buildPower": 100,
+		"height": 1,
+		"hitpoints": 300,
+		"id": "A0VtolPad",
+		"name": "VTOL Rearming Pad",
+		"rearmPoints": 100,
+		"repairPoints": 10,
+		"resistance": 150,
+		"sensorID": "DefaultSensor1Mk1",
+		"strength": "MEDIUM",
+		"structureModel": [
+			"blvtolpd.pie"
+		],
+		"Thermal": 10,
+		"type": "REARM PAD",
+		"width": 1
+	}, 
+	 "A0FacMod1": {
+		"armour": 10,
+		"breadth": 3,
+		"buildPoints": 1400,
+		"buildPower": 150,
+		"height": 2,
+		"hitpoints": 750,
+		"id": "A0FacMod1",
+		"name": "Factory Module",
+		"resistance": 150,
+		"sensorID": "DefaultSensor1Mk1",
+		"strength": "MEDIUM",
+		"structureModel": [
+			"blfact1.pie"
+		],
+		"Thermal": 10,
+		"type": "FACTORY MODULE",
+		"width": 3
+	}, 
+	 "A0CyborgFactory": {
+		"armour": 10,
+		"baseModel": "blbcfact.pie",
+		"breadth": 2,
+		"buildPoints": 1100,
+		"buildPower": 225,
+		"height": 2,
+		"hitpoints": 800,
+		"id": "A0CyborgFactory",
+		"name": "Cyborg Factory",
+		"productionPoints": 12,
+		"moduleProductionPoints": 10,
+		"resistance": 150,
+		"sensorID": "DefaultSensor1Mk1",
+		"strength": "MEDIUM",
+		"structureModel": [
+			"blcfact1.pie"
+		],
+		"Thermal": 10,
+		"type": "CYBORG FACTORY",
+		"width": 1
 	}, 
 	 "A0PowerGenerator": {
 		"armour": 20,
@@ -805,70 +283,63 @@
 		"type": "POWER GENERATOR",
 		"width": 2
 	}, 
-	 "A0RepairCentre3": {
+	 "A0PowMod1": {
 		"armour": 10,
-		"baseModel": "BLBGEN.PIE",
-		"breadth": 1,
-		"buildPoints": 800,
-		"buildPower": 150,
-		"ecmID": "RepairCentre",
+		"breadth": 2,
+		"buildPoints": 1200,
 		"height": 2,
+		"hitpoints": 1000,
+		"id": "A0PowMod1",
+		"name": "Power Module",
+		"resistance": 150,
+		"sensorID": "DefaultSensor1Mk1",
+		"strength": "MEDIUM",
+		"structureModel": [
+			"blpower4.pie"
+		],
+		"Thermal": 10,
+		"type": "POWER MODULE",
+		"width": 2
+	}, 
+	 "A0ResourceExtractor": {
+		"armour": 5,
+		"breadth": 1,
+		"buildPoints": 100,
+		"buildPower": 25,
+		"height": 1,
 		"hitpoints": 600,
-		"id": "A0RepairCentre3",
-		"name": "Repair Facility",
-		"repairPoints": 30,
+		"id": "A0ResourceExtractor",
+		"name": "Oil Derrick",
 		"resistance": 150,
 		"sensorID": "DefaultSensor1Mk1",
-		"strength": "MEDIUM",
+		"strength": "SOFT",
 		"structureModel": [
-			"BLRPAIR3.PIE"
+			"BLDERIK.PIE"
 		],
-		"Thermal": 10,
-		"type": "REPAIR FACILITY",
+		"Thermal": 5,
+		"type": "RESOURCE EXTRACTOR",
 		"width": 1
 	}, 
-	 "A0RepairCentre2": {
-		"armour": 10,
-		"baseModel": "BLBGEN.PIE",
+	 "A0ResourceExtractorMG": {
+		"armour": 5,
 		"breadth": 1,
-		"buildPoints": 800,
-		"buildPower": 125,
-		"ecmID": "RepairCentre",
-		"height": 2,
-		"hitpoints": 1000,
-		"id": "A0RepairCentre2",
-		"name": "A0RepairCentre2",
-		"repairPoints": 30,
+		"buildPoints": 250,
+		"buildPower": 50,
+		"height": 1,
+		"hitpoints": 1200,
+		"id": "A0ResourceExtractorMG",
+		"name": "Guarded Oil Derrick",
 		"resistance": 150,
 		"sensorID": "DefaultSensor1Mk1",
-		"strength": "MEDIUM",
+		"strength": "SOFT",
 		"structureModel": [
-			"BLRPAIR3A.PIE"
+			"BLDERIKar.PIE"
 		],
-		"Thermal": 10,
-		"type": "REPAIR FACILITY",
-		"width": 1
-	}, 
-	 "A0RepairCentre4": {
-		"armour": 20,
-		"baseModel": "BLBGEN.PIE",
-		"breadth": 1,
-		"buildPoints": 1400,
-		"buildPower": 250,
-		"ecmID": "RepairCentre",
-		"height": 3,
-		"hitpoints": 1000,
-		"id": "A0RepairCentre4",
-		"name": "Automated Repair Facility",
-		"repairPoints": 45,
-		"resistance": 150,
-		"sensorID": "DefaultSensor1Mk1",
-		"strength": "MEDIUM",
-		"structureModel": [
-			"BLRPAIR3C.PIE"
+		"Thermal": 5,
+		"type": "RESOURCE EXTRACTOR",
+		"weapons": [
+			"MG1Mk1"
 		],
-		"Thermal": 20,
-		"type": "REPAIR FACILITY",
 		"width": 1
 	}, 
 	 "A0ResearchFacility": {
@@ -938,64 +409,304 @@
 		"type": "RESEARCH MODULE",
 		"width": 2
 	}, 
-	 "A0ResourceExtractor": {
-		"armour": 5,
-		"breadth": 1,
-		"buildPoints": 100,
-		"buildPower": 25,
-		"height": 1,
-		"hitpoints": 600,
-		"id": "A0ResourceExtractor",
-		"name": "Oil Derrick",
-		"resistance": 150,
-		"sensorID": "DefaultSensor1Mk1",
-		"strength": "SOFT",
-		"structureModel": [
-			"BLDERIK.PIE"
-		],
-		"Thermal": 5,
-		"type": "RESOURCE EXTRACTOR",
-		"width": 1
-	}, 
-	 "A0ResourceExtractorMG": {
-		"armour": 5,
-		"breadth": 1,
-		"buildPoints": 250,
-		"buildPower": 50,
-		"height": 1,
-		"hitpoints": 1200,
-		"id": "A0ResourceExtractorMG",
-		"name": "Guarded Oil Derrick",
-		"resistance": 150,
-		"sensorID": "DefaultSensor1Mk1",
-		"strength": "SOFT",
-		"structureModel": [
-			"BLDERIKar.PIE"
-		],
-		"Thermal": 5,
-		"type": "RESOURCE EXTRACTOR",
-		"weapons": [
-			"MG1Mk1"
-		],
-		"width": 1
-	}, 
-	 "A0Sat-linkCentre": {
-		"armour": 12,
+	 "A0ComDroidControl": {
+		"armour": 10,
+		"baseModel": "BLBDRDCM.pie",
 		"breadth": 2,
-		"buildPoints": 5000,
-		"buildPower": 1500,
-		"height": 3,
-		"hitpoints": 1400,
-		"id": "A0Sat-linkCentre",
-		"name": "Satellite Uplink Center",
-		"sensorID": "UplinkSensor",
+		"buildPoints": 500,
+		"buildPower": 100,
+		"height": 2,
+		"hitpoints": 1000,
+		"id": "A0ComDroidControl",
+		"name": "Command Relay Center",
+		"resistance": 300,
+		"sensorID": "DefaultSensor1Mk1",
+		"strength": "HARD",
+		"structureModel": [
+			"bldrdcm0.pie"
+		],
+		"Thermal": 10,
+		"type": "COMMAND RELAY",
+		"width": 2
+	}, 
+	 "A0RepairCentre3": {
+		"armour": 10,
+		"baseModel": "BLBGEN.PIE",
+		"breadth": 1,
+		"buildPoints": 800,
+		"buildPower": 150,
+		"ecmID": "RepairCentre",
+		"height": 2,
+		"hitpoints": 600,
+		"id": "A0RepairCentre3",
+		"name": "Repair Facility",
+		"repairPoints": 30,
+		"resistance": 150,
+		"sensorID": "DefaultSensor1Mk1",
 		"strength": "MEDIUM",
 		"structureModel": [
-			"miupbase.PIE"
+			"BLRPAIR3A.PIE"
 		],
-		"Thermal": 12,
-		"type": "SAT UPLINK",
-		"width": 2
+		"Thermal": 10,
+		"type": "REPAIR FACILITY",
+		"width": 1
+	}, 
+	 "A0RepairCentre2": {
+		"armour": 10,
+		"baseModel": "BLBGEN.PIE",
+		"breadth": 1,
+		"buildPoints": 800,
+		"buildPower": 125,
+		"ecmID": "RepairCentre",
+		"height": 2,
+		"hitpoints": 1000,
+		"id": "A0RepairCentre2",
+		"name": "A0RepairCentre2",
+		"repairPoints": 30,
+		"resistance": 150,
+		"sensorID": "DefaultSensor1Mk1",
+		"strength": "MEDIUM",
+		"structureModel": [
+			"BLRPAIR3.PIE"
+		],
+		"Thermal": 10,
+		"type": "REPAIR FACILITY",
+		"width": 1
+	}, 
+	 "A0RepairCentre4": {
+		"armour": 20,
+		"baseModel": "BLBGEN.PIE",
+		"breadth": 1,
+		"buildPoints": 1400,
+		"buildPower": 250,
+		"ecmID": "RepairCentre",
+		"height": 3,
+		"hitpoints": 1000,
+		"id": "A0RepairCentre4",
+		"name": "Automated Repair Facility",
+		"repairPoints": 45,
+		"resistance": 150,
+		"sensorID": "DefaultSensor1Mk1",
+		"strength": "MEDIUM",
+		"structureModel": [
+			"BLRPAIR3C.PIE"
+		],
+		"Thermal": 20,
+		"type": "REPAIR FACILITY",
+		"width": 1
+	}, 
+	 "A0HardcreteMk1Wall": {
+		"armour": 15,
+		"breadth": 1,
+		"buildPoints": 500,
+		"buildPower": 35,
+		"height": 2,
+		"hitpoints": 1000,
+		"id": "A0HardcreteMk1Wall",
+		"name": "Hardcrete Wall",
+		"strength": "HARD",
+		"structureModel": [
+			"blwallh.pie",
+			"blwallc1.pie",
+			"blwallh_t.pie",
+			"blwallh_l.pie"
+		],
+		"Thermal": 20,
+		"type": "WALL",
+		"width": 1
+	}, 
+	 "A0HardcreteMk1CWall": {
+		"armour": 15,
+		"breadth": 1,
+		"buildPoints": 500,
+		"buildPower": 35,
+		"height": 2,
+		"hitpoints": 1000,
+		"id": "A0HardcreteMk1CWall",
+		"name": "Hardcrete Corner Wall",
+		"strength": "HARD",
+		"structureModel": [
+			"BLWALLC1.pie"
+		],
+		"Thermal": 20,
+		"type": "CORNER WALL",
+		"width": 1
+	}, 
+	 "A0HardcreteMk1Gate": {
+		"armour": 15,
+		"breadth": 1,
+		"buildPoints": 900,
+		"buildPower": 75,
+		"height": 2,
+		"hitpoints": 1400,
+		"id": "A0HardcreteMk1Gate",
+		"name": "Plascrete Gate",
+		"strength": "HARD",
+		"structureModel": [
+			"blgateh.pie",
+			"blgateh_x.pie",
+			"blgateh_t.pie",
+			"blgateh_l.pie"
+		],
+		"Thermal": 20,
+		"type": "GATE",
+		"width": 1
+	}, 
+	 "A0Supercrete": {
+		"armour": 15,
+		"breadth": 1,
+		"buildPoints": 700,
+		"buildPower": 55,
+		"height": 2,
+		"hitpoints": 1800,
+		"id": "A0Supercrete",
+		"name": "Supercrete Wall",
+		"strength": "HARD",
+		"structureModel": [
+			"blwall2.pie"
+		],
+		"Thermal": 20,
+		"type": "WALL",
+		"width": 1
+	}, 
+	 "A0SupercreteC": {
+		"armour": 15,
+		"breadth": 1,
+		"buildPoints": 700,
+		"buildPower": 55,
+		"height": 2,
+		"hitpoints": 1800,
+		"id": "A0SupercreteC",
+		"name": "Supercrete Corner Wall",
+		"strength": "HARD",
+		"structureModel": [
+			"BLWALLC2.pie"
+		],
+		"Thermal": 20,
+		"type": "CORNER WALL",
+		"width": 1
+	}, 
+	 "A0Plascrete": {
+		"armour": 15,
+		"breadth": 1,
+		"buildPoints": 1100,
+		"buildPower": 75,
+		"height": 2,
+		"hitpoints": 2200,
+		"id": "A0Plascrete",
+		"name": "Plascrete Wall",
+		"strength": "HARD",
+		"structureModel": [
+			"blwall3.pie"
+		],
+		"Thermal": 20,
+		"type": "WALL",
+		"width": 1
+	}, 
+	 "A0PlascreteC": {
+		"armour": 15,
+		"breadth": 1,
+		"buildPoints": 1100,
+		"buildPower": 75,
+		"height": 2,
+		"hitpoints": 2200,
+		"id": "A0PlascreteC",
+		"name": "Plascrete Corner Wall",
+		"strength": "HARD",
+		"structureModel": [
+			"BLWALLC3.pie"
+		],
+		"Thermal": 20,
+		"type": "CORNER WALL",
+		"width": 1
+	}, 
+	 "A0PlascreteR": {
+		"armour": 15,
+		"breadth": 1,
+		"buildPoints": 1800,
+		"buildPower": 100,
+		"height": 2,
+		"hitpoints": 2600,
+		"id": "A0PlascreteR",
+		"name": "Reinforced Plascrete Wall",
+		"strength": "HARD",
+		"structureModel": [
+			"blwall5.pie"
+		],
+		"Thermal": 20,
+		"type": "WALL",
+		"width": 1
+	}, 
+	 "A0PlascreteRC": {
+		"armour": 15,
+		"breadth": 1,
+		"buildPoints": 1800,
+		"buildPower": 100,
+		"height": 2,
+		"hitpoints": 2600,
+		"id": "A0PlascreteRC",
+		"name": "Reinforced Plascrete Corner Wall",
+		"strength": "HARD",
+		"structureModel": [
+			"BLWALLC5.pie"
+		],
+		"Thermal": 20,
+		"type": "CORNER WALL",
+		"width": 1
+	}, 
+	 "A0Plasteel": {
+		"armour": 25,
+		"breadth": 1,
+		"buildPoints": 2400,
+		"buildPower": 125,
+		"height": 2,
+		"hitpoints": 3200,
+		"id": "A0Plasteel",
+		"name": "Plasteel Wall",
+		"strength": "HARD",
+		"structureModel": [
+			"blwallhar.pie",
+			"blwallc1ar.pie",
+			"blwallh_tar.pie",
+			"blwallh_lar.pie"
+		],
+		"Thermal": 20,
+		"type": "WALL",
+		"width": 1
+	}, 
+	 "A0PlasteelG": {
+		"armour": 25,
+		"breadth": 1,
+		"buildPoints": 2000,
+		"buildPower": 125,
+		"height": 2,
+		"hitpoints": 2400,
+		"id": "A0PlasteelG",
+		"name": "Plasteel Gate",
+		"strength": "HARD",
+		"structureModel": [
+			"blgatehar.pie"
+		],
+		"Thermal": 20,
+		"type": "GATE",
+		"width": 1
+	}, 
+	 "A0PlasteelC": {
+		"armour": 25,
+		"breadth": 1,
+		"buildPoints": 2400,
+		"buildPower": 125,
+		"height": 2,
+		"hitpoints": 3200,
+		"id": "A0PlasteelC",
+		"name": "Plasteel Corner Wall",
+		"strength": "HARD",
+		"structureModel": [
+			"BLWALLC1ar.pie"
+		],
+		"Thermal": 20,
+		"type": "CORNER WALL",
+		"width": 1
 	}, 
 	 "A0TankTrap": {
 		"armour": 10,
@@ -1012,54 +723,6 @@
 		],
 		"Thermal": 10,
 		"type": "WALL",
-		"width": 1
-	}, 
-	 "A0VTolFactory1": {
-		"armour": 10,
-		"baseModel": "blbfact.pie",
-		"breadth": 3,
-		"buildPoints": 500,
-		"buildPower": 300,
-		"height": 4,
-		"hitpoints": 700,
-		"id": "A0VTolFactory1",
-		"name": "VTOL Factory",
-		"productionPoints": 10,
-		"moduleProductionPoints": 10,
-		"resistance": 150,
-		"sensorID": "DefaultSensor1Mk1",
-		"strength": "MEDIUM",
-		"structureModel": [
-			"blvfact0.pie",
-			"vtolfactory_module1.pie",
-			"blvfact1.pie",
-			"vtolfactory_module2.pie",
-			"blvfact2.pie"
-		],
-		"Thermal": 10,
-		"type": "VTOL FACTORY",
-		"width": 3
-	}, 
-	 "A0VtolPad": {
-		"armour": 10,
-		"baseModel": "blbgen.pie",
-		"breadth": 1,
-		"buildPoints": 300,
-		"buildPower": 100,
-		"height": 1,
-		"hitpoints": 300,
-		"id": "A0VtolPad",
-		"name": "VTOL Rearming Pad",
-		"rearmPoints": 100,
-		"repairPoints": 10,
-		"resistance": 150,
-		"sensorID": "DefaultSensor1Mk1",
-		"strength": "MEDIUM",
-		"structureModel": [
-			"blvtolpd.pie"
-		],
-		"Thermal": 10,
-		"type": "REARM PAD",
 		"width": 1
 	}, 
 	 "AASite-QuadBof": {
@@ -3261,6 +2924,299 @@
 		],
 		"width": 1
 	}, 
+	 "A0BaBaVtolFactory": {
+		"armour": 10,
+		"breadth": 2,
+		"buildPoints": 250,
+		"buildPower": 50,
+		"height": 3,
+		"hitpoints": 500,
+		"id": "A0BaBaVtolFactory",
+		"name": "Scavenger Chopper Factory",
+		"productionPoints": 15,
+		"resistance": 150,
+		"sensorID": "BaBaSensor",
+		"strength": "SOFT",
+		"structureModel": [
+			"scavvtol.pie"
+		],
+		"Thermal": 10,
+		"type": "VTOL FACTORY",
+		"width": 2
+	}, 
+	 "ScavRepairCentre": {
+		"armour": 5,
+		"baseModel": "BLBGEN.PIE",
+		"breadth": 1,
+		"buildPoints": 100,
+		"buildPower": 20,
+		"ecmID": "RepairCentre",
+		"height": 2,
+		"hitpoints": 300,
+		"id": "ScavRepairCentre",
+		"name": "Scavenger Repair Center",
+		"repairPoints": 10,
+		"resistance": 150,
+		"sensorID": "BaBaSensor",
+		"strength": "SOFT",
+		"structureModel": [
+			"repair.pie"
+		],
+		"Thermal": 5,
+		"type": "REPAIR FACILITY",
+		"width": 1
+	}, 
+	 "A0BaBaBunker": {
+		"armour": 12,
+		"breadth": 1,
+		"buildPoints": 350,
+		"buildPower": 50,
+		"height": 1,
+		"hitpoints": 300,
+		"id": "A0BaBaBunker",
+		"name": "Scavenger Bunker",
+		"resistance": 150,
+		"sensorID": "BaBaSensor",
+		"strength": "BUNKER",
+		"structureModel": [
+			"blbrbbnk.PIE"
+		],
+		"Thermal": 12,
+		"type": "DEFENSE",
+		"weapons": [
+			"MG3Mk1"
+		],
+		"width": 1
+	}, 
+	 "A0BaBaFactory": {
+		"armour": 5,
+		"breadth": 1,
+		"buildPoints": 200,
+		"buildPower": 20,
+		"height": 2,
+		"hitpoints": 400,
+		"id": "A0BaBaFactory",
+		"name": "Scavenger Factory",
+		"productionPoints": 15,
+		"resistance": 150,
+		"sensorID": "BaBaSensor",
+		"strength": "SOFT",
+		"structureModel": [
+			"BLBRBFAC.PIE"
+		],
+		"Thermal": 5,
+		"type": "FACTORY",
+		"width": 2
+	}, 
+	 "A0BaBaFlameTower": {
+		"armour": 7,
+		"breadth": 1,
+		"buildPoints": 300,
+		"buildPower": 50,
+		"height": 2,
+		"hitpoints": 300,
+		"id": "A0BaBaFlameTower",
+		"name": "Scavenger Flame Tower",
+		"resistance": 150,
+		"sensorID": "BaBaSensor",
+		"strength": "SOFT",
+		"structureModel": [
+			"Blbrtowf.pie"
+		],
+		"Thermal": 7,
+		"type": "DEFENSE",
+		"weapons": [
+			"Flame1Mk1"
+		],
+		"width": 1
+	}, 
+	 "A0BaBaGunTower": {
+		"armour": 7,
+		"breadth": 1,
+		"buildPoints": 75,
+		"buildPower": 50,
+		"height": 2,
+		"hitpoints": 300,
+		"id": "A0BaBaGunTower",
+		"name": "Scavenger Gun Tower",
+		"resistance": 150,
+		"sensorID": "BaBaSensor",
+		"strength": "SOFT",
+		"structureModel": [
+			"BLBRBTW1.PIE"
+		],
+		"Thermal": 7,
+		"type": "DEFENSE",
+		"weapons": [
+			"BuggyMG"
+		],
+		"width": 1
+	}, 
+	 "A0BaBaGunTowerEND": {
+		"armour": 7,
+		"breadth": 1,
+		"buildPoints": 50,
+		"buildPower": 20,
+		"height": 2,
+		"hitpoints": 300,
+		"id": "A0BaBaGunTowerEND",
+		"name": "*Scavenger End Tower*",
+		"resistance": 150,
+		"sensorID": "BaBaSensor",
+		"strength": "SOFT",
+		"structureModel": [
+			"Blbrbtw2.PIE"
+		],
+		"Thermal": 7,
+		"type": "DEFENSE",
+		"weapons": [
+			"BuggyMG"
+		],
+		"width": 1
+	}, 
+	 "A0BaBaHorizontalWall": {
+		"armour": 7,
+		"breadth": 1,
+		"buildPoints": 25,
+		"buildPower": 20,
+		"height": 2,
+		"hitpoints": 300,
+		"id": "A0BaBaHorizontalWall",
+		"name": "Scavenger Horizontal Wall",
+		"strength": "SOFT",
+		"structureModel": [
+			"BLBRBWLH.PIE"
+		],
+		"Thermal": 7,
+		"type": "WALL",
+		"width": 1
+	}, 
+	 "A0BaBaMortarPit": {
+		"armour": 10,
+		"breadth": 1,
+		"buildPoints": 700,
+		"buildPower": 20,
+		"height": 1,
+		"hitpoints": 300,
+		"id": "A0BaBaMortarPit",
+		"name": "*BaBaMortarPit*",
+		"resistance": 150,
+		"sensorID": "BaBaSensor",
+		"strength": "SOFT",
+		"structureModel": [
+			"BLBRMRTP.PIE"
+		],
+		"Thermal": 10,
+		"type": "DEFENSE",
+		"weapons": [
+			"Mortar1Mk1"
+		],
+		"width": 1
+	}, 
+	 "A0BaBaPowerGenerator": {
+		"armour": 5,
+		"breadth": 1,
+		"buildPoints": 300,
+		"buildPower": 100,
+		"height": 2,
+		"hitpoints": 400,
+		"id": "A0BaBaPowerGenerator",
+		"name": "Scavenger Power Generator",
+		"powerPoints": 110,
+		"modulePowerPoints": 40,
+		"resistance": 150,
+		"sensorID": "BaBaSensor",
+		"strength": "SOFT",
+		"structureModel": [
+			"BLBRBGEN.PIE"
+		],
+		"Thermal": 5,
+		"type": "POWER GENERATOR",
+		"width": 1
+	}, 
+	 "A0BaBaRocketPit": {
+		"armour": 10,
+		"breadth": 1,
+		"buildPoints": 400,
+		"buildPower": 40,
+		"height": 1,
+		"hitpoints": 300,
+		"id": "A0BaBaRocketPit",
+		"name": "Scavenger Rocket Pit",
+		"resistance": 150,
+		"sensorID": "BaBaSensor",
+		"strength": "SOFT",
+		"structureModel": [
+			"EXROCKET.PIE"
+		],
+		"Thermal": 10,
+		"type": "DEFENSE",
+		"weapons": [
+			"BabaPitRocket"
+		],
+		"width": 1
+	}, 
+	 "A0BaBaRocketPitAT": {
+		"armour": 10,
+		"breadth": 1,
+		"buildPoints": 500,
+		"buildPower": 40,
+		"height": 1,
+		"hitpoints": 300,
+		"id": "A0BaBaRocketPitAT",
+		"name": "Scavenger AT-Rocket Pit",
+		"resistance": 150,
+		"sensorID": "BaBaSensor",
+		"strength": "SOFT",
+		"structureModel": [
+			"EXROCKET.PIE"
+		],
+		"Thermal": 10,
+		"type": "DEFENSE",
+		"weapons": [
+			"BabaPitRocketAT"
+		],
+		"width": 1
+	}, 
+	 "A0BabaCornerWall": {
+		"armour": 5,
+		"breadth": 1,
+		"buildPoints": 25,
+		"buildPower": 20,
+		"height": 2,
+		"hitpoints": 300,
+		"id": "A0BabaCornerWall",
+		"name": "Scavenger CornerWall",
+		"strength": "SOFT",
+		"structureModel": [
+			"BLBRBCR1.PIE"
+		],
+		"Thermal": 5,
+		"type": "CORNER WALL",
+		"width": 1
+	}, 
+	 "A0CannonTower": {
+		"armour": 10,
+		"breadth": 1,
+		"buildPoints": 50,
+		"buildPower": 10,
+		"height": 2,
+		"hitpoints": 300,
+		"id": "A0CannonTower",
+		"name": "Cannon Tower",
+		"resistance": 150,
+		"sensorID": "BaBaSensor",
+		"strength": "SOFT",
+		"structureModel": [
+			"BLBRTOWR.PIE"
+		],
+		"Thermal": 10,
+		"type": "DEFENSE",
+		"weapons": [
+			"BaBaCannon"
+		],
+		"width": 1
+	}, 
 	 "Bunker3-HeavyLaser-Gat": {
 		"armour": 32,
 		"breadth": 1,
@@ -3591,6 +3547,50 @@
 		"type": "DEFENSE",
 		"weapons": [
 			"RailGun1Mk1-GatAA"
+		],
+		"width": 1
+	}, 
+	 "A0BaBaVtolPad": {
+		"armour": 10,
+		"baseModel": "blbgen.pie",
+		"breadth": 1,
+		"buildPoints": 50,
+		"buildPower": 15,
+		"height": 1,
+		"hitpoints": 100,
+		"id": "A0BaBaVtolPad",
+		"name": "VTOL BaBa Rearming Pad",
+		"rearmPoints": 300,
+		"repairPoints": 10,
+		"resistance": 150,
+		"sensorID": "BaBaSensor",
+		"strength": "SOFT",
+		"structureModel": [
+			"blvtolpd.pie"
+		],
+		"Thermal": 10,
+		"type": "REARM PAD",
+		"width": 1
+	}, 
+	 "bbaatow": {
+		"armour": 11,
+		"breadth": 1,
+		"buildPoints": 200,
+		"buildPower": 50,
+		"height": 2,
+		"hitpoints": 250,
+		"id": "bbaatow",
+		"name": "Scavenger MG tower",
+		"resistance": 150,
+		"sensorID": "BaBaSensor",
+		"strength": "SOFT",
+		"structureModel": [
+			"bbaatower.PIE"
+		],
+		"Thermal": 11,
+		"type": "DEFENSE",
+		"weapons": [
+			"babawep"
 		],
 		"width": 1
 	}, 
