@@ -2226,7 +2226,7 @@
 	}, 
 	 "CommandTurret1": {
 		"buildPoints": 600,
-		"buildPower": 250,
+		"buildPower": 125,
 		"damage": 3,
 		"effectSize": 1,
 		"facePlayer": 1,

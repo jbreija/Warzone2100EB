@@ -144,13 +144,15 @@ function eventGameInit()
 		setStructureLimits("A0CommandCentre", 1, playnum);
 		setStructureLimits("A0CommandCentreAR", 1, playnum);
 		setStructureLimits("A0ComDroidControl", 1, playnum);
-		setStructureLimits("A0CyborgFactory", 10, playnum);
+		setStructureLimits("A0CyborgFactory", 5, playnum);
+		setStructureLimits("A0CyborgFactoryMech", 5, playnum);
 		setStructureLimits("A0VTolFactory1", 5, playnum);
 		setStructureLimits("A0DedicatedResearchFacility", 5, playnum);
-		setStructureLimits("A0AutomatedFactory", 5, playnum);
+		setStructureLimits("A0RoboticFactory", 5, playnum);
 		setStructureLimits("A0GasPowerGenerator", 4, playnum);
-		setStructureLimits("A0RepairCentre3", 5, playnum);
-		setStructureLimits("A0RepairCentre4", 5, playnum);
+		setStructureLimits("A0RepairCentre3", 3, playnum);
+		setStructureLimits("A0RepairCentre4", 3, playnum);
+		setStructureLimits("A0RepairCentre4", 3, playnum);
 	}
 	applyLimitSet();	// set limit options
 

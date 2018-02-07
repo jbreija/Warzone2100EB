@@ -1839,7 +1839,7 @@
 		"id": "CyborgMecha",
 		"model": "cybd_stdme.pie",
 		"name": "Mecha Cyborg",
-		"powerOutput": 42000,
+		"powerOutput": 34000,
 		"size": "LIGHT",
 		"weaponSlots": 1,
 		"weight": 22000

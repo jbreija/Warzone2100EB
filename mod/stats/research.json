@@ -7,8 +7,8 @@
         "requiredResearch": [
             "R-Struc-CommandRelay"
         ],
-        "researchPoints": 800,
-        "researchPower": 50,
+        "researchPoints": 1100,
+        "researchPower": 110,
         "resultComponents": [
             "CommandBrain01",
             "CommandTurret1"
@@ -467,7 +467,10 @@
         ],
         "researchPoints": 16000,
         "researchPower": 765,
-        "resultComponents": [
+        "resultStructures": [
+            "A0CyborgFactoryMech"        
+        ],
+            "resultComponents": [
             "CyborgMecha",
             "MechLegs"
         ]
@@ -1452,7 +1455,7 @@
         "researchPoints": 1800,
         "researchPower": 115,
         "resultStructures": [
-            "A0HardcreteMk1Gate"
+            "A0HardcreteMk1GateHar"
         ],
         "statID": "A0HardcreteMk1Gate"
     }, 
@@ -2231,7 +2234,8 @@
             "WallTower06"
         ],
         "requiredResearch": [
-            "R-Wpn-Missile2A-T"
+            "R-Wpn-Missile2A-T", 
+            "R-Defense-WallUpgrade07"
             ],
         "researchPoints": 4800,
         "researchPower": 275,
@@ -2246,7 +2250,8 @@
         "msgName": "RES_WT_DOUBLEAA",
         "name": "AA Flak Cannon Hardpoint",
         "requiredResearch": [
-            "R-Wpn-AAGun02"
+            "R-Wpn-AAGun02", 
+            "R-Defense-WallUpgrade04"
         ],
         "researchPoints": 14400,
         "researchPower": 695,
@@ -2264,7 +2269,8 @@
             "WallTower02"
         ],
         "requiredResearch": [
-            "R-Wpn-Cannon4AMk1"
+            "R-Wpn-Cannon4AMk1", 
+            "R-Defense-WallUpgrade04"
             ],
         "researchPoints": 4800,
         "researchPower": 275,
@@ -2279,7 +2285,8 @@
         "msgName": "RES_WT12_HAT",
         "name": "Tank Killer Hardpoint",
         "requiredResearch": [
-            "R-Wpn-Rocket07-Tank-Killer"
+            "R-Wpn-Rocket07-Tank-Killer", 
+            "R-Defense-WallUpgrade04"
         ],
         "researchPoints": 4800,
         "researchPower": 275,
@@ -2294,7 +2301,8 @@
         "msgName": "RES_WT14_PLS",
         "name": "Pulse Laser Hardpoint",
         "requiredResearch": [
-            "R-Wpn-Laser02"
+            "R-Wpn-Laser02", 
+            "R-Defense-WallUpgrade07"
         ],
         "researchPoints": 4800,
         "researchPower": 275,
@@ -2309,7 +2317,8 @@
         "msgName": "RES_WT_QUADAA",
         "name": "Whirlwind Hardpoint",
         "requiredResearch": [
-            "R-Defense-AASite-QuadRotMg"
+            "R-Defense-AASite-QuadRotMg", 
+            "R-Defense-WallUpgrade04"
         ],
         "researchPoints": 22500,
         "researchPower": 1080,
@@ -2324,7 +2333,8 @@
         "msgName": "RES_WT15_RL2",
         "name": "Rail Gun Hardpoint",
         "requiredResearch": [
-            "R-Wpn-RailGun02"
+            "R-Wpn-RailGun02", 
+            "R-Defense-WallUpgrade07"
         ],
         "researchPoints": 4800,
         "researchPower": 275,
@@ -2342,7 +2352,8 @@
             "WallTower-Rail2"
         ],
         "requiredResearch": [
-            "R-Wpn-RailGun03"
+            "R-Wpn-RailGun03", 
+            "R-Defense-WallUpgrade07"
             ],
         "researchPoints": 4800,
         "researchPower": 275,
@@ -2395,7 +2406,8 @@
             "Wall-RotMg"
         ],
         "requiredResearch": [
-            "R-Wpn-MG5"
+            "R-Wpn-MG5", 
+            "R-Defense-WallUpgrade04"
             ],
         "researchPoints": 15000,
         "researchPower": 720,
@@ -2886,7 +2898,7 @@
      "R-Struc-Factory-Upgrade01": {
         "iconID": "IMAGE_RES_STRUCTURETECH",
         "id": "R-Struc-Factory-Upgrade01",
-        "imdName": "BLFACT1ar.PIE",
+        "imdName": "BLFACT1.PIE",
         "keyTopic": 1,
         "msgName": "RES_ST_FU1",
         "name": "Automated Manufacturing",
@@ -2895,9 +2907,6 @@
         ],
         "researchPoints": 2400,
         "researchPower": 145,
-        "resultStructures": [
-            "A0AutomatedFactory"
-        ],
         "results": [
             {
                 "class": "Building",
@@ -2920,6 +2929,9 @@
         ],
         "researchPoints": 9200,
         "researchPower": 490,
+        "resultStructures": [
+            "A0RoboticFactory"
+        ],
         "results": [
             {
                 "class": "Building",
@@ -3447,7 +3459,6 @@
         "msgName": "RES_REPAI1",
         "name": "Repair Facility",
         "requiredResearch": [
-            "R-Struc-Factory-Module", 
             "R-Sys-MobileRepairTurret01"
         ],
         "researchPoints": 6000,
@@ -3691,7 +3702,7 @@
         "researchPoints": 4800,
         "researchPower": 275,
         "resultStructures": [
-            "A0RepairCentre4"
+            "A0RepairCentre2"
         ],
         "results": [
             {
@@ -3700,7 +3711,7 @@
                 "value": 50
             }
         ],
-        "statID": "A0RepairCentre4",
+        "statID": "A0RepairCentre2",
         "subgroupIconID": "IMAGE_RES_GRPUPG"
     }, 
      "R-Struc-RprFac-Upgrade04": {
@@ -3714,6 +3725,9 @@
         ],
         "researchPoints": 6000,
         "researchPower": 330,
+        "resultStructures": [
+            "A0RepairCentre4"
+        ],
         "results": [
             {
                 "class": "Building",
@@ -3997,7 +4011,7 @@
         "msgName": "RES_SY_ECM1",
         "name": "Jammer Turret",
         "requiredResearch": [
-            "R-Struc-CommandRelay"
+            "R-Struc-Research-Module"
         ],
         "researchPoints": 1200,
         "researchPower": 165,
@@ -4236,7 +4250,8 @@
         "researchPoints": 400,
         "researchPower": 50,
         "resultStructures": [
-            "Sys-SensoTower01"
+            "Sys-SensoTower01",
+            "Sys-SensoTower06"
         ],
         "statID": "Sys-SensoTower01"
     }, 
@@ -4425,7 +4440,8 @@
         "researchPoints": 16400,
         "researchPower": 790,
         "resultStructures": [
-            "Sys-SensoTowerWS"
+            "Sys-SensoTowerWS",
+            "Sys-SensoTowerWS-Sky"
         ],
         "statID": "Sys-SensoTowerWS"
     }, 
@@ -4457,7 +4473,8 @@
         "researchPoints": 7200,
         "researchPower": 395,
         "resultStructures": [
-            "Sys-SpyTower"
+            "Sys-SpyTower",
+            "Sys-SpyTower-Sky"
         ],
         "statID": "Sys-SpyTower"
     }, 
@@ -6736,7 +6753,6 @@
         "name": "Gatling Cannon",
         "requiredResearch": [
             "R-Wpn-Cannon6TwinAslt", 
-            "R-Wpn-MG-Mount02", 
             "R-Wpn-Cannon-ROF04"
         ],
         "researchPoints": 4200,
@@ -9166,8 +9182,7 @@
         "msgName": "RES_W_HH1_GA",
         "name": "Ground Shaker Gatling",
         "requiredResearch": [
-            "R-Wpn-HvyHowitzer", 
-            "R-Wpn-MG-Mount03"
+            "R-Wpn-HvyHowitzer"
         ],
         "researchPoints": 18000,
         "researchPower": 1300,
@@ -9465,8 +9480,7 @@
         "msgName": "RES_W_LAS2_G",
         "name": "Pulse Laser Gatling",
         "requiredResearch": [
-            "R-Wpn-Laser02", 
-            "R-Wpn-MG-Mount02"
+            "R-Wpn-Laser02"
         ],
         "researchPoints": 17000,
         "researchPower": 820,
@@ -9617,7 +9631,7 @@
         "msgName": "RES_MG3MK1",
         "name": "Twin Heavy Machinegun",
         "requiredResearch": [
-            "R-Wpn-MG-Mount02"
+            "R-Wpn-MG3Mk1"
         ],
         "researchPoints": 4800,
         "researchPower": 265,
@@ -9854,74 +9868,6 @@
         ],
         "statID": "MG1Mk1",
         "subgroupIconID": "IMAGE_RES_GRPDAM"
-    }, 
-     "R-Wpn-MG-Mount01": {
-        "iconID": "IMAGE_RES_WEAPONTECH",
-        "id": "R-Wpn-MG-Mount01",
-        "imdName": "TRMMG.PIE",
-        "msgName": "RES_W_MG_MN1",
-        "name": "MG Gatling Turret",
-        "requiredResearch": [
-            "R-Wpn-MG3Mk1"
-        ],
-        "researchPoints": 3200,
-        "researchPower": 250,
-        "results": [
-            {
-                "class": "Weapon",
-                "filterParameter": "ImpactClass",
-                "filterValue": "MACHINE GUN",
-                "parameter": "MaxRange",
-                "value": 6
-            }
-        ],
-        "subgroupIconID": "IMAGE_RES_GRPUPG"
-    }, 
-     "R-Wpn-MG-Mount02": {
-        "iconID": "IMAGE_RES_WEAPONTECH",
-        "id": "R-Wpn-MG-Mount02",
-        "imdName": "TRHMG.PIE",
-        "msgName": "RES_W_MG_MN2",
-        "name": "MG Gatling Turret Mk2",
-        "requiredResearch": [
-            "R-Wpn-MG-Mount01", 
-            "R-Wpn-MG-ROF03"
-        ],
-        "researchPoints": 5000,
-        "researchPower": 285,
-        "results": [
-            {
-                "class": "Weapon",
-                "filterParameter": "ImpactClass",
-                "filterValue": "MACHINE GUN",
-                "parameter": "MaxRange",
-                "value": 7
-            }
-        ],
-        "subgroupIconID": "IMAGE_RES_GRPUPG"
-    }, 
-     "R-Wpn-MG-Mount03": {
-        "iconID": "IMAGE_RES_WEAPONTECH",
-        "id": "R-Wpn-MG-Mount03",
-        "imdName": "TRWPFCAN.PIE",
-        "msgName": "RES_W_MG_MN3",
-        "name": "MG Gatling Turret Mk3",
-        "requiredResearch": [
-            "R-Wpn-MG-Mount02", 
-            "R-Wpn-MG5"
-        ],
-        "researchPoints": 7200,
-        "researchPower": 325,
-        "results": [
-            {
-                "class": "Weapon",
-                "filterParameter": "ImpactClass",
-                "filterValue": "MACHINE GUN",
-                "parameter": "MaxRange",
-                "value": 8
-            }
-        ],
-        "subgroupIconID": "IMAGE_RES_GRPUPG"
     }, 
      "R-Wpn-MG-ROF01": {
         "iconID": "IMAGE_RES_WEAPONTECH",
@@ -11237,7 +11183,7 @@
         "msgName": "RES_W_RK_MRL1",
         "name": "Mini-Rocket Array",
         "requiredResearch": [
-            "R-Wpn-Rocket-Pod-MRA-Twn"
+            "R-Wpn-Rocket-Pod-MRA"
         ],
         "researchPoints": 2400,
         "researchPower": 215,
@@ -11667,7 +11613,7 @@
         "msgName": "RES_W_RK_MR",
         "name": "Rocket Array",
         "requiredResearch": [
-            "R-Wpn-Rocket-Damage02"
+            "R-Wpn-Rocket-Accuracy01"
         ],
         "researchPoints": 3600,
         "researchPower": 215,
@@ -11675,22 +11621,6 @@
             "Rocket-Pod-MRA"
         ],
         "statID": "Rocket-Pod-MRA"
-    }, 
-     "R-Wpn-Rocket-Pod-MRA-Twn": {
-        "iconID": "IMAGE_RES_WEAPONTECH",
-        "id": "R-Wpn-Rocket-Pod-MRA-Twn",
-        "keyTopic": 1,
-        "msgName": "RES_W_RK_MRL1",
-        "name": "Twin Rocket Array",
-        "requiredResearch": [
-            "R-Wpn-Rocket-Pod-MRA"
-        ],
-        "researchPoints": 2400,
-        "researchPower": 215,
-        "resultComponents": [
-            "Rocket-Pod-MRA-Twin"
-        ],
-        "statID": "Rocket-Pod-MRA-Twin"
     }, 
      "R-Wpn-Rocket-Pod-MRA-Quad": {
         "iconID": "IMAGE_RES_WEAPONTECH",
@@ -11729,7 +11659,7 @@
         "msgName": "RES_W_RK_MP1_TW",
         "name": "Twin Rocket Pod",
         "requiredResearch": [
-            "R-Wpn-Rocket-Damage02"
+            "R-Wpn-Rocket-ROF01"
         ],
         "researchPoints": 2800,
         "researchPower": 255,

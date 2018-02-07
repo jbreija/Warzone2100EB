@@ -29,7 +29,7 @@
 		"id": "ECMBunker",
 		"location": "DEFAULT",
 		"name": "ECM Bunker",
-		"range": 142,
+		"range": 110,
 		"weight": 100
 	}, 
 	 "RepairCentre": {

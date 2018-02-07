@@ -120,7 +120,7 @@
 		"type": "FACTORY",
 		"width": 3
 	}, 
-	 "A0AutomatedFactory": {
+	 "A0RoboticFactory": {
 		"armour": 20,
 		"baseModel": "blbfact.pie",
 		"breadth": 3,
@@ -128,8 +128,8 @@
 		"buildPower": 500,
 		"height": 4,
 		"hitpoints": 2000,
-		"id": "A0AutomatedFactory",
-		"name": "Automated Factory",
+		"id": "A0RoboticFactory",
+		"name": "Robotic Factory",
 		"productionPoints": 24,
 		"moduleProductionPoints": 12,
 		"resistance": 150,
@@ -230,6 +230,28 @@
 		"strength": "MEDIUM",
 		"structureModel": [
 			"blcfact1.pie"
+		],
+		"Thermal": 10,
+		"type": "CYBORG FACTORY",
+		"width": 1
+	}, 
+	 "A0CyborgFactoryMech": {
+		"armour": 10,
+		"baseModel": "blbcfact.pie",
+		"breadth": 2,
+		"buildPoints": 2200,
+		"buildPower": 375,
+		"height": 3,
+		"hitpoints": 1000,
+		"id": "A0CyborgFactoryMech",
+		"name": "Mech Cyborg Factory",
+		"productionPoints": 18,
+		"moduleProductionPoints": 10,
+		"resistance": 150,
+		"sensorID": "DefaultSensor1Mk1",
+		"strength": "MEDIUM",
+		"structureModel": [
+			"blcfact1ha.pie"
 		],
 		"Thermal": 10,
 		"type": "CYBORG FACTORY",
@@ -403,7 +425,7 @@
 		"sensorID": "DefaultSensor1Mk1",
 		"strength": "MEDIUM",
 		"structureModel": [
-			"blresch4.pie"
+			"blresch4ar.pie"
 		],
 		"Thermal": 10,
 		"type": "RESEARCH MODULE",
@@ -434,13 +456,13 @@
 		"baseModel": "BLBGEN.PIE",
 		"breadth": 1,
 		"buildPoints": 800,
-		"buildPower": 150,
+		"buildPower": 125,
 		"ecmID": "RepairCentre",
 		"height": 2,
 		"hitpoints": 600,
 		"id": "A0RepairCentre3",
 		"name": "Repair Facility",
-		"repairPoints": 30,
+		"repairPoints": 15,
 		"resistance": 150,
 		"sensorID": "DefaultSensor1Mk1",
 		"strength": "MEDIUM",
@@ -456,12 +478,12 @@
 		"baseModel": "BLBGEN.PIE",
 		"breadth": 1,
 		"buildPoints": 800,
-		"buildPower": 125,
+		"buildPower": 175,
 		"ecmID": "RepairCentre",
 		"height": 2,
 		"hitpoints": 1000,
 		"id": "A0RepairCentre2",
-		"name": "A0RepairCentre2",
+		"name": "Automated Repair Facility",
 		"repairPoints": 30,
 		"resistance": 150,
 		"sensorID": "DefaultSensor1Mk1",
@@ -483,7 +505,7 @@
 		"height": 3,
 		"hitpoints": 1000,
 		"id": "A0RepairCentre4",
-		"name": "Automated Repair Facility",
+		"name": "Robotic Repair Facility",
 		"repairPoints": 45,
 		"resistance": 150,
 		"sensorID": "DefaultSensor1Mk1",
@@ -547,6 +569,26 @@
 			"blgateh_x.pie",
 			"blgateh_t.pie",
 			"blgateh_l.pie"
+		],
+		"Thermal": 20,
+		"type": "GATE",
+		"width": 1
+	}, 
+	 "A0HardcreteMk1GateHar": {
+		"armour": 15,
+		"breadth": 1,
+		"buildPoints": 800,
+		"buildPower": 75,
+		"height": 2,
+		"hitpoints": 800,
+		"id": "A0HardcreteMk1GateHar",
+		"name": "Hardcrete Gate",
+		"strength": "HARD",
+		"structureModel": [
+			"blgatehha.pie",
+			"blgateh_xha.pie",
+			"blgateh_tha.pie",
+			"blgateh_lha.pie"
 		],
 		"Thermal": 20,
 		"type": "GATE",
@@ -1493,7 +1535,7 @@
 		"name": "Metal Guard Tower",
 		"resistance": 150,
 		"sensorID": "TowerSensor",
-		"strength": "HARD",
+		"strength": "MEDIUM",
 		"structureModel": [
 			"BLGUARDMar.PIE"
 		],
@@ -2017,10 +2059,10 @@
 	 "Sys-SensoTower01": {
 		"armour": 10,
 		"breadth": 1,
-		"buildPoints": 200,
-		"buildPower": 40,
+		"buildPoints": 300,
+		"buildPower": 75,
 		"height": 2,
-		"hitpoints": 200,
+		"hitpoints": 300,
 		"id": "Sys-SensoTower01",
 		"name": "Wood Sensor Tower",
 		"resistance": 150,
@@ -2030,6 +2072,25 @@
 			"BLGUARDM.PIE"
 		],
 		"Thermal": 10,
+		"type": "DEFENSE",
+		"width": 1
+	}, 
+	 "Sys-SensoTower06": {
+		"armour": 15,
+		"breadth": 1,
+		"buildPoints": 600,
+		"buildPower": 110,
+		"height": 2,
+		"hitpoints": 600,
+		"id": "Sys-SensoTower01",
+		"name": "Metal Sensor Tower",
+		"resistance": 150,
+		"sensorID": "SensorTurret1Mk1",
+		"strength": "MEDIUM",
+		"structureModel": [
+			"BLGUARDMar.PIE"
+		],
+		"Thermal": 15,
 		"type": "DEFENSE",
 		"width": 1
 	}, 
@@ -2122,7 +2183,26 @@
 		"sensorID": "Sensor-WideSpecTower",
 		"strength": "HARD",
 		"structureModel": [
-			"BLGUARDR.pie"
+			"Blgrdnex.PIE"
+		],
+		"Thermal": 15,
+		"type": "DEFENSE",
+		"width": 1
+	}, 
+	 "Sys-SensoTowerWS-Sky": {
+		"armour": 15,
+		"breadth": 1,
+		"buildPoints": 3000,
+		"buildPower": 650,
+		"height": 6,
+		"hitpoints": 700,
+		"id": "Sys-SensoTowerWS",
+		"name": "Wide Spectrum Sky Tower",
+		"resistance": 150,
+		"sensorID": "Sensor-WideSpecTower",
+		"strength": "HARD",
+		"structureModel": [
+			"blguardrar.pie"
 		],
 		"Thermal": 15,
 		"type": "DEFENSE",
@@ -2142,6 +2222,28 @@
 		"strength": "HARD",
 		"structureModel": [
 			"BLGUARDR.pie"
+		],
+		"Thermal": 15,
+		"type": "DEFENSE",
+		"weapons": [
+			"SpyTurret01"
+		],
+		"width": 1
+	}, 
+	 "Sys-SpyTower-Sky": {
+		"armour": 15,
+		"breadth": 1,
+		"buildPoints": 3000,
+		"buildPower": 950,
+		"height": 6,
+		"hitpoints": 700,
+		"id": "Sys-SpyTower",
+		"name": "Nexus Link Sky Tower",
+		"resistance": 150,
+		"sensorID": "DefaultSensor1Mk1",
+		"strength": "HARD",
+		"structureModel": [
+			"blguardrar.pie"
 		],
 		"Thermal": 15,
 		"type": "DEFENSE",

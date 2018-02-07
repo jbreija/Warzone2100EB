@@ -2,8 +2,8 @@
 	 "ALL ROUNDER": {
 		"BUNKER": 75,
 		"HARD": 90,
-		"MEDIUM": 100,
-		"SOFT": 120
+		"MEDIUM": 110,
+		"SOFT": 110
 	}, 
 	 "ANTI PERSONNEL": {
 		"BUNKER": 50,
@@ -19,8 +19,8 @@
 	}, 
 	 "ARTILLERY ROUND": {
 		"BUNKER": 30,
-		"HARD": 90,
-		"MEDIUM": 110,
+		"HARD": 80,
+		"MEDIUM": 100,
 		"SOFT": 120
 	}, 
 	 "BUNKER BUSTER": {
