@@ -22,7 +22,7 @@
 		"weight": 800
 	}, 
 	 "CyborgSpade": {
-		"buildPoints": 5,
+		"buildPoints": 20,
 		"buildPower": 35,
 		"constructPoints": 5,
 		"droidType": "CYBORG_CONSTRUCT",
@@ -34,7 +34,7 @@
 		"weight": 175
 	}, 
 	 "CyborgSpadeNAS": {
-		"buildPoints": 15,
+		"buildPoints": 30,
 		"buildPower": 45,
 		"constructPoints": 6,
 		"droidType": "CYBORG_CONSTRUCT",
@@ -46,7 +46,7 @@
 		"weight": 175
 	}, 
 	 "Spade1Mk1": {
-		"buildPoints": 25,
+		"buildPoints": 50,
 		"buildPower": 30,
 		"constructPoints": 7,
 		"droidType": "DROID_CONSTRUCT",
@@ -58,7 +58,7 @@
 		"weight": 50
 	}, 
 	 "Spade1Mk1NAS": {
-		"buildPoints": 65,
+		"buildPoints": 80,
 		"buildPower": 50,
 		"constructPoints": 9,
 		"droidType": "DROID_CONSTRUCT",

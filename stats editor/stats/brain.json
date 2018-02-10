@@ -8,7 +8,7 @@
         "maxDroidsMult": 6,
         "name": "Command Turret",
         "ranks": [ "Rookie", "Green", "Trained", "Regular", "Professional", "Veteran", "Elite", "Special", "Hero" ],
-        "thresholds": [ 0, 4, 8, 12, 20, 30, 40, 50, 60 ],
+        "thresholds": [ 0, 2, 4, 8, 16, 30, 40, 50, 60 ],
         "turret": "CommandTurret1"
     },
     "ZNULLBRAIN": {

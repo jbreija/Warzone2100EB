@@ -32,6 +32,15 @@
 		"range": 110,
 		"weight": 100
 	}, 
+	 "ECMCommandCenter": {
+		"buildPoints": 100,
+		"buildPower": 20,
+		"id": "ECMCommandCenter",
+		"location": "DEFAULT",
+		"name": "ECM Command Center",
+		"range": 2560,
+		"weight": 100
+	}, 
 	 "RepairCentre": {
 		"id": "RepairCentre",
 		"location": "TURRET",

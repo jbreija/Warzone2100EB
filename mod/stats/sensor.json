@@ -49,7 +49,7 @@
 		"name": "Fortified CC Sensor",
 		"power": 1000,
 		"range": 3000,
-		"sensorModel": "gnlsnsr1ar.pie",
+		"sensorModel": "GNHSNSR3.PIE",
 		"type": "STANDARD",
 		"weight": 1
 	}, 

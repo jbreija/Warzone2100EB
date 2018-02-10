@@ -747,7 +747,7 @@
         "iconID": "IMAGE_RES_CYBORGTECH",
         "id": "R-Cyborg-Hvywpn-Flamer",
         "msgName": "RES_CYW_H_TK",
-        "name": "Super Flamer",
+        "name": "Super Flamer Cyborg",
         "requiredResearch": [
             "R-Cyborg-Metals04", 
             "R-Wpn-Flamer-Damage04", 
@@ -765,7 +765,7 @@
         "iconID": "IMAGE_RES_CYBORGTECH",
         "id": "R-Cyborg-Hvywpn-TwnFlamer",
         "msgName": "RES_CYW_H_TK",
-        "name": "Super Twin Flamer",
+        "name": "Super Twin Flamer Cyborg",
         "redComponents": [
             "Cyb-Hvywpn-Flamer3-AR",
             "Cyb-Hvywpn-Flamer3"
@@ -786,7 +786,7 @@
         "iconID": "IMAGE_RES_CYBORGTECH",
         "id": "R-Cyborg-Hvywpn-Mortar1Mk1-Ram",
         "msgName": "RES_EMP_CANT",
-        "name": "Super Mortar1Mk1 Ram",
+        "name": "Super Ramjet  Cyborg",
         "requiredResearch": [
             "R-Wpn-EMPCannon", 
             "R-Cyborg-HvyBody"
@@ -803,7 +803,7 @@
         "iconID": "IMAGE_RES_CYBORGTECH",
         "id": "R-Cyborg-Hvywpn-Rocket-LtA-T",
         "msgName": "RES_EMP_CANT",
-        "name": "Super Lancer",
+        "name": "Super Lancer Cyborg",
         "requiredResearch": [
             "R-Wpn-Rocket-Accuracy02", 
             "R-Cyborg-HvyBody"
@@ -837,7 +837,7 @@
         "iconID": "IMAGE_RES_CYBORGTECH",
         "id": "R-Cyborg-Hvywpn-Rocket-Pod",
         "msgName": "RES_EMP_CANT",
-        "name": "Super Rocket-Pod",
+        "name": "Super Rocket-Pod Cyborg",
         "requiredResearch": [
             "R-Wpn-Rocket05-MiniPod", 
             "R-Cyborg-HvyBody"
@@ -856,7 +856,7 @@
         "iconID": "IMAGE_RES_CYBORGTECH",
         "id": "R-Cyborg-Hvywpn-Rocket-Pod-MRA",
         "msgName": "RES_EMP_CANT",
-        "name": "Super Rocket Array",
+        "name": "Super Rocket Array Cyborg",
         "requiredResearch": [
             "R-Wpn-Rocket02-MRL", 
             "R-Cyborg-HvyBody"
@@ -875,7 +875,7 @@
         "iconID": "IMAGE_RES_CYBORGTECH",
         "id": "R-Cyborg-Hvywpn-Rocket-Sunburst",
         "msgName": "RES_EMP_CANT",
-        "name": "Super Sunburst",
+        "name": "Super Sunburst Cyborg",
         "requiredResearch": [
             "R-Wpn-Sunburst", 
             "R-Cyborg-HvyBody"
@@ -1566,7 +1566,8 @@
             "PillBox5"
         ],
         "requiredResearch": [
-            "R-Wpn-Flame2"
+            "R-Wpn-Flame2", 
+            "R-Sys-ECM-Upgrade01"
             ],
         "researchPoints": 4000,
         "researchPower": 230,
@@ -1782,7 +1783,8 @@
         "name": "Flamer Bunker",
         "requiredResearch": [
             "R-Defense-HardcreteWall", 
-            "R-Wpn-Flamer01Mk1"
+            "R-Wpn-Flamer01Mk1", 
+            "R-Sys-ECM-Upgrade01"
         ],
         "researchPoints": 1500,
         "researchPower": 95,
@@ -1832,7 +1834,8 @@
             "Tower-Projector"
         ],
         "requiredResearch": [
-            "R-Wpn-Plasmite-Flamer"
+            "R-Wpn-Plasmite-Flamer", 
+            "R-Sys-ECM-Upgrade01"
         ],
         "researchPoints": 4000,
         "researchPower": 230,
@@ -2094,6 +2097,10 @@
         "id": "R-Defense-Tower02",
         "msgName": "RES_TOWER2",
         "name": "Twin Machinegun Tower",
+        "redStructures": [
+            "GuardTower1",
+            "GuardTower7"
+        ],
         "requiredResearch": [
             "R-Defense-HardcreteWall", 
             "R-Wpn-MG2Mk1"
@@ -2131,7 +2138,8 @@
         ],
         "requiredResearch": [
             "R-Wpn-MG4", 
-            "R-Defense-RotMG"
+            "R-Defense-RotMG", 
+            "R-Defense-WallUpgrade04"
             ],
         "researchPoints": 4800,
         "researchPower": 275,
@@ -2183,7 +2191,8 @@
         ],
         "requiredResearch": [
             "R-Wpn-Cannon2Mk1", 
-            "R-Defense-WallTower02"
+            "R-Defense-WallTower02", 
+            "R-Defense-WallUpgrade04"
             ],
         "researchPoints": 1800,
         "researchPower": 155,
@@ -2199,7 +2208,8 @@
         "name": "Heavy Cannon Hardpoint",
         "requiredResearch": [
             "R-Defense-WallTower03", 
-            "R-Wpn-Cannon3Mk1"
+            "R-Wpn-Cannon3Mk1", 
+            "R-Defense-WallUpgrade04"
         ],
         "researchPoints": 2400,
         "researchPower": 155,
@@ -2231,7 +2241,7 @@
         "msgName": "RES_WT9_ATM",
         "name": "Scourge Missile Hardpoint",
         "redStructures": [
-            "WallTower06"
+            "WallTower-HvATrocket"
         ],
         "requiredResearch": [
             "R-Wpn-Missile2A-T", 
@@ -2284,10 +2294,13 @@
         "id": "R-Defense-WallTower-HvyA-Trocket",
         "msgName": "RES_WT12_HAT",
         "name": "Tank Killer Hardpoint",
+        "redStructures": [
+            "WallTower06"
+        ],
         "requiredResearch": [
             "R-Wpn-Rocket07-Tank-Killer", 
             "R-Defense-WallUpgrade04"
-        ],
+            ],
         "researchPoints": 4800,
         "researchPower": 275,
         "resultStructures": [
@@ -2407,7 +2420,7 @@
         ],
         "requiredResearch": [
             "R-Wpn-MG5", 
-            "R-Defense-WallUpgrade04"
+            "R-Defense-WallUpgrade07"
             ],
         "researchPoints": 15000,
         "researchPower": 720,
@@ -2510,7 +2523,7 @@
         "msgName": "RES_DF_WU4",
         "name": "Supercrete",
         "requiredResearch": [
-            "R-Sys-Engineering03", 
+            "R-Sys-Engineering02", 
             "R-Struc-Research-Upgrade04", 
             "R-Defense-WallUpgrade03"
         ],
@@ -2848,7 +2861,9 @@
         "msgName": "RES_ST_CR1",
         "name": "Fortified Command Center",
         "requiredResearch": [
-            "R-Struc-Materials02"
+            "R-Struc-Materials02", 
+            "R-Sys-ECM-Upgrade01", 
+            "R-Defense-WallUpgrade04"
         ],
         "researchPoints": 2200,
         "researchPower": 175,
@@ -3370,7 +3385,7 @@
      "R-Struc-Power-Upgrade02": {
         "iconID": "IMAGE_RES_POWERTECH",
         "id": "R-Struc-Power-Upgrade02",
-        "imdName": "blpower4.pie",
+        "imdName": "blpower4ar.pie",
         "keyTopic": 1,
         "msgName": "RES_POWU4",
         "name": "Vapor Turbine Generator",
@@ -3392,7 +3407,7 @@
      "R-Struc-Power-Upgrade03": {
         "iconID": "IMAGE_RES_POWERTECH",
         "id": "R-Struc-Power-Upgrade03",
-        "imdName": "blpower4.pie",
+        "imdName": "blpower4ar.pie",
         "keyTopic": 1,
         "msgName": "RES_POWU5",
         "name": "Vapor Turbine Generator Mk2",
@@ -3413,7 +3428,7 @@
      "R-Struc-Power-Upgrade03a": {
         "iconID": "IMAGE_RES_POWERTECH",
         "id": "R-Struc-Power-Upgrade03a",
-        "imdName": "blpower4.pie",
+        "imdName": "blpower4ar.pie",
         "keyTopic": 1,
         "msgName": "RES_POWU6",
         "name": "Vapor Turbine Generator Mk3",
@@ -3434,7 +3449,7 @@
      "R-Struc-Power-Upgrade07": {
         "iconID": "IMAGE_RES_POWERTECH",
         "id": "R-Struc-Power-Upgrade07",
-        "imdName": "blpower4.pie",
+        "imdName": "blpower4ar.pie",
         "keyTopic": 1,
         "msgName": "RES_POWU7",
         "name": "Self-Sustained Perpetual Turbine",
@@ -3619,7 +3634,7 @@
         "requiredResearch": [
             "R-Struc-Research-Upgrade06"
         ],
-        "researchPoints": 14000,
+        "researchPoints": 16000,
         "researchPower": 875,
         "results": [
             {
@@ -3639,7 +3654,7 @@
         "requiredResearch": [
             "R-Struc-Research-Upgrade07"
         ],
-        "researchPoints": 12000,
+        "researchPoints": 18000,
         "researchPower": 1065,
         "results": [
             {
@@ -3659,7 +3674,7 @@
         "requiredResearch": [
             "R-Struc-Research-Upgrade08"
         ],
-        "researchPoints": 20000,
+        "researchPoints": 22000,
         "researchPower": 1250,
         "results": [
             {
@@ -4011,7 +4026,8 @@
         "msgName": "RES_SY_ECM1",
         "name": "Jammer Turret",
         "requiredResearch": [
-            "R-Struc-Research-Module"
+            "R-Struc-Research-Module", 
+            "R-Sys-Sensor-Tower02"
         ],
         "researchPoints": 1200,
         "researchPower": 165,
@@ -4088,7 +4104,7 @@
             {
                 "class": "Construct",
                 "parameter": "ConstructorPoints",
-                "value": 50
+                "value": 125
             }
         ],
         "subgroupIconID": "IMAGE_RES_GRPUPG"
@@ -4110,7 +4126,7 @@
             {
                 "class": "Construct",
                 "parameter": "ConstructorPoints",
-                "value": 70
+                "value": 50
             }
         ],
         "subgroupIconID": "IMAGE_RES_GRPUPG"
@@ -4132,7 +4148,7 @@
             {
                 "class": "Construct",
                 "parameter": "ConstructorPoints",
-                "value": 90
+                "value": 100
             }
         ],
         "subgroupIconID": "IMAGE_RES_GRPUPG"
@@ -4262,12 +4278,13 @@
         "msgName": "RES_SY_STW2",
         "name": "Hardened Sensor Tower",
         "redStructures": [
-            "Sys-SensoTower01"
+            "Sys-SensoTower01",
+            "Sys-SensoTower06"
         ],
         "requiredResearch": [
             "R-Defense-HardcreteWall", 
             "R-Sys-Sensor-Tower01"
-            ],
+        ],
         "researchPoints": 1200,
         "researchPower": 70,
         "resultStructures": [
@@ -4282,7 +4299,8 @@
         "msgName": "RES_SY_STW2",
         "name": "Sky Tower",
         "requiredResearch": [
-            "R-Sys-Sensor-Tower02"
+            "R-Sys-Sensor-Tower02", 
+            "R-Defense-WallUpgrade10"
         ],
         "researchPoints": 2800,
         "researchPower": 175,
@@ -4508,9 +4526,6 @@
         ],
         "researchPoints": 24000,
         "researchPower": 925,
-        "resultComponents": [
-            "SpyTurret01"
-        ],
         "results": [
             {
                 "class": "Weapon",
@@ -4531,7 +4546,8 @@
         "name": "VTOL CB Tower",
         "requiredResearch": [
             "R-Sys-VTOLStrike-Tower01", 
-            "R-Sys-Sensor-Upgrade02"
+            "R-Sys-Sensor-Upgrade02", 
+            "R-Defense-WallUpgrade04"
         ],
         "researchPoints": 7200,
         "researchPower": 395,
@@ -4563,7 +4579,8 @@
         "name": "VTOL Strike Tower",
         "requiredResearch": [
             "R-Struc-VTOLPad", 
-            "R-Sys-Sensor-Upgrade01"
+            "R-Sys-Sensor-Upgrade01", 
+            "R-Defense-WallUpgrade04"
         ],
         "researchPoints": 7200,
         "researchPower": 395,
@@ -5151,7 +5168,7 @@
             "R-Vehicle-Body26", 
             "R-Wpn-Cannon-Damage01"
         ],
-        "researchPoints": 600,
+        "researchPoints": 1400,
         "researchPower": 180,
         "resultComponents": [
             "Body20LGT"
@@ -6746,22 +6763,6 @@
         ],
         "statID": "Cannon4AUTOMk1"
     }, 
-     "R-Wpn-Cannon4AMk1-Gat": {
-        "iconID": "IMAGE_RES_WEAPONTECH",
-        "id": "R-Wpn-Cannon4AMk1-Gat",
-        "msgName": "RES_W_CN_4A_G",
-        "name": "Gatling Cannon",
-        "requiredResearch": [
-            "R-Wpn-Cannon6TwinAslt", 
-            "R-Wpn-Cannon-ROF04"
-        ],
-        "researchPoints": 4200,
-        "researchPower": 245,
-        "resultComponents": [
-            "Cannon5VulcanMk1-Gat"
-        ],
-        "statID": "Cannon5VulcanMk1-Gat"
-    }, 
      "R-Wpn-Cannon4AMk1-Hvy": {
         "iconID": "IMAGE_RES_WEAPONTECH",
         "id": "R-Wpn-Cannon4AMk1-Hvy",
@@ -6778,22 +6779,6 @@
         ],
         "statID": "Cannon4AUTOMk1-Hvy"
     }, 
-     "R-Wpn-Cannon4AMk1-Hvy-Aslt": {
-        "iconID": "IMAGE_RES_WEAPONTECH",
-        "id": "R-Wpn-Cannon4AMk1-Hvy-Aslt",
-        "msgName": "RES_W_CN_4A_HG",
-        "name": "Heavy Assault HPV Cannon",
-        "requiredResearch": [
-            "R-Wpn-Cannon5-Hvy-Aslt", 
-            "R-Wpn-Cannon4AMk1-Hvy"
-        ],
-        "researchPoints": 4200,
-        "researchPower": 245,
-        "resultComponents": [
-            "Cannon4AUTOMk1-Hvy-Aslt"
-        ],
-        "statID": "Cannon4AUTOMk1-Hvy-Aslt"
-    }, 
      "R-Wpn-Cannon4AMk1-Hvy-Inc": {
         "iconID": "IMAGE_RES_WEAPONTECH",
         "id": "R-Wpn-Cannon4AMk1-Hvy-Inc",
@@ -6809,21 +6794,6 @@
             "Cannon4AUTOMk1-Hvy-Inc"
         ],
         "statID": "Cannon4AUTOMk1-Hvy-Inc"
-    }, 
-     "R-Wpn-Cannon4AMk1-Full-Aslt": {
-        "iconID": "IMAGE_RES_WEAPONTECH",
-        "id": "R-Wpn-Cannon4AMk1-Full-Aslt",
-        "msgName": "RES_W_CN_4A_R",
-        "name": "Full Assault HPV Cannon",
-        "requiredResearch": [
-            "R-Wpn-Cannon4AMk1-Hvy-Aslt"
-        ],
-        "researchPoints": 4200,
-        "researchPower": 245,
-        "resultComponents": [
-            "Cannon4AUTOMk1-Full-Aslt"
-        ],
-        "statID": "Cannon4AUTOMk1-Full-Aslt"
     }, 
      "R-Wpn-Cannon5": {
         "iconID": "IMAGE_RES_WEAPONTECH",
@@ -7239,14 +7209,17 @@
      "R-Wpn-Cannon-Mount01": {
         "iconID": "IMAGE_RES_WEAPONTECH",
         "id": "R-Wpn-Cannon-Mount01",
-        "imdName": "TRMGSS.PIE",
         "msgName": "RES_W_CN_MN1",
         "name": "Augmented Cannon Turret",
         "requiredResearch": [
-            "R-Wpn-Cannon5"
+            "R-Wpn-Cannon6TwinAslt", 
+            "R-Wpn-Cannon-ROF04"
         ],
         "researchPoints": 5000,
         "researchPower": 250,
+        "resultComponents": [
+            "Cannon5VulcanMk1-Gat"
+        ],
         "results": [
             {
                 "class": "Weapon",
@@ -7256,6 +7229,7 @@
                 "value": 6
             }
         ],
+        "statID": "Cannon5VulcanMk1-Gat",
         "subgroupIconID": "IMAGE_RES_GRPUPG"
     }, 
      "R-Wpn-Cannon-Mount02": {
@@ -7265,10 +7239,15 @@
         "msgName": "RES_W_CN_MN2",
         "name": "Augmented Cannon Turret Mk2",
         "requiredResearch": [
-            "R-Wpn-Cannon-Mount01"
+            "R-Wpn-Cannon-Mount01", 
+            "R-Wpn-Cannon5-Hvy-Aslt", 
+            "R-Wpn-Cannon4AMk1-Hvy"
         ],
         "researchPoints": 7000,
         "researchPower": 375,
+        "resultComponents": [
+            "Cannon4AUTOMk1-Hvy-Aslt"
+        ],
         "results": [
             {
                 "class": "Weapon",
@@ -7287,10 +7266,14 @@
         "msgName": "RES_W_CN_MN3",
         "name": "Augmented Cannon Turret Mk3",
         "requiredResearch": [
-            "R-Wpn-Cannon-Mount02"
+            "R-Wpn-Cannon-Mount02", 
+            "R-Wpn-Cannon4AMk1-Hvy-Aslt"
         ],
         "researchPoints": 15000,
         "researchPower": 625,
+        "resultComponents": [
+            "Cannon4AUTOMk1-Full-Aslt"
+        ],
         "results": [
             {
                 "class": "Weapon",
@@ -9631,7 +9614,8 @@
         "msgName": "RES_MG3MK1",
         "name": "Twin Heavy Machinegun",
         "requiredResearch": [
-            "R-Wpn-MG3Mk1"
+            "R-Wpn-MG3Mk1", 
+            "R-Wpn-MG-Damage04"
         ],
         "researchPoints": 4800,
         "researchPower": 265,
@@ -11189,10 +11173,7 @@
         "researchPower": 215,
         "resultComponents": [
             "Rocket-MRL",
-            "Rocket-MRL-VTOL",
-            "Rocket-MRL-Homing",
-            "Rocket-MRL-Homing-Hvy",
-            "Rocket-MRL-Twn"
+            "Rocket-MRL-VTOL"
         ],
         "statID": "Rocket-MRL"
     }, 
@@ -11226,10 +11207,25 @@
         "researchPower": 225,
         "resultComponents": [
             "Rocket-Pod",
-            "Rocket-VTOL-Pod",
-            "Rocket-Pod-Arch"
+            "Rocket-VTOL-Pod"
         ],
         "statID": "Rocket-Pod"
+    }, 
+     "R-Wpn-Rocket05-MiniPod-Arch": {
+        "iconID": "IMAGE_RES_WEAPONTECH",
+        "id": "R-Wpn-Rocket05-MiniPod-Arch",
+        "keyTopic": 1,
+        "msgName": "RES_W_RK_MP1",
+        "name": "Thermal Rockets",
+        "requiredResearch": [
+            "R-Wpn-Rocket-Accuracy01"
+        ],
+        "researchPoints": 4800,
+        "researchPower": 275,
+        "resultComponents": [
+            "Rocket-Pod-Arch"
+        ],
+        "statID": "Rocket-Pod-Arch"
     }, 
      "R-Wpn-Rocket05-MiniPod-EMP": {
         "iconID": "IMAGE_RES_WEAPONTECH",
@@ -11648,10 +11644,24 @@
         "researchPoints": 3400,
         "researchPower": 325,
         "resultComponents": [
-            "Rocket-Pod-Quad",
-            "Rocket-Pod-Arch-Quad"
+            "Rocket-Pod-Quad"
         ],
         "statID": "Rocket-Pod-Quad"
+    }, 
+     "R-Wpn-Rocket-Pod-Quad-Arch": {
+        "iconID": "IMAGE_RES_WEAPONTECH",
+        "id": "R-Wpn-Rocket-Pod-Quad-Arch",
+        "msgName": "RES_W_RK_MP1_QD",
+        "name": "Quad Thermal Rockets",
+        "requiredResearch": [
+            "R-Wpn-Rocket-Pod-Twn-Arch"
+        ],
+        "researchPoints": 3800,
+        "researchPower": 345,
+        "resultComponents": [
+            "Rocket-Pod-Arch-Quad"
+        ],
+        "statID": "Rocket-Pod-Arch-Quad"
     }, 
      "R-Wpn-Rocket-Pod-Twn": {
         "iconID": "IMAGE_RES_WEAPONTECH",
@@ -11664,10 +11674,24 @@
         "researchPoints": 2800,
         "researchPower": 255,
         "resultComponents": [
-            "Rocket-Pod-Twn",
-            "Rocket-Pod-Arch-Twin"
+            "Rocket-Pod-Twn"
         ],
         "statID": "Rocket-Pod-Twn"
+    }, 
+     "R-Wpn-Rocket-Pod-Twn-Arch": {
+        "iconID": "IMAGE_RES_WEAPONTECH",
+        "id": "R-Wpn-Rocket-Pod-Twn-Arch",
+        "msgName": "RES_W_RK_MP1_TW",
+        "name": "Twin Thermal Rockets",
+        "requiredResearch": [
+            "R-Wpn-Rocket05-MiniPod-Arch"
+        ],
+        "researchPoints": 3200,
+        "researchPower": 270,
+        "resultComponents": [
+            "Rocket-Pod-Arch-Twin"
+        ],
+        "statID": "Rocket-Pod-Arch-Twin"
     }, 
      "R-Wpn-Rocket-Range01": {
         "iconID": "IMAGE_RES_WEAPONTECH",
@@ -11689,7 +11713,7 @@
                 "value": 8
             }
         ],
-        "statID": "Rocket-MRL",
+        "statID": "Rocket-MRL-Homing",
         "subgroupIconID": "IMAGE_RES_GRPUPG"
     }, 
      "R-Wpn-Rocket-Range02": {
@@ -11703,6 +11727,9 @@
         ],
         "researchPoints": 8000,
         "researchPower": 420,
+        "resultComponents": [
+            "Rocket-MRL-Homing"
+        ],
         "results": [
             {
                 "class": "Weapon",
@@ -11712,7 +11739,7 @@
                 "value": 9
             }
         ],
-        "statID": "Rocket-MRL",
+        "statID": "Rocket-MRL-Homing",
         "subgroupIconID": "IMAGE_RES_GRPUPG"
     }, 
      "R-Wpn-Rocket-Range03": {
@@ -11726,6 +11753,9 @@
         ],
         "researchPoints": 11000,
         "researchPower": 530,
+        "resultComponents": [
+            "Rocket-MRL-Homing-Hvy"
+        ],
         "results": [
             {
                 "class": "Weapon",
@@ -11735,7 +11765,7 @@
                 "value": 10
             }
         ],
-        "statID": "Rocket-MRL",
+        "statID": "Rocket-MRL-Homing-Hvy",
         "subgroupIconID": "IMAGE_RES_GRPUPG"
     }, 
      "R-Wpn-Rocket-ROF01": {
