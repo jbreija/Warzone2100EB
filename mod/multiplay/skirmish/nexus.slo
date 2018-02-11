@@ -110,7 +110,7 @@ private int				baseX,baseY,minx,miny,maxx,maxy,ebaseX,ebaseY;
 public float			mapSize;
 public	int				numStructs,numIncendrys,numDefStructs,numExtraStructs[TECHS],numWallWeaps,numBaseStruct,numLightCyborgs,numFundamental;
 private	STRUCTURESTAT	structChoice[5];
-public	STRUCTURESTAT	incendrys[11],structs[16],defStructs[35],extraStructs[TECHS][6],wallWeaps[11];
+public	STRUCTURESTAT	incendrys[10],structs[16],defStructs[35],extraStructs[TECHS][6],wallWeaps[11];
 public	STRUCTURESTAT	sensorTower,wall,cornerWall,resLab,powGen,playerHQ,lassat,factory,derrick,gderrick,cybFactory,archAngel,rippleRocket,
 						vtolDefStruct[9],vtolPad,vtolFactory,uplink,baseStruct[8];
 public	STRUCTURESTAT	powModule,facModule,resModule,vtolModule,gTower;

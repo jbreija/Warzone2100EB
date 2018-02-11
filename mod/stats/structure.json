@@ -479,7 +479,7 @@
 		"baseModel": "BLBGEN.PIE",
 		"breadth": 1,
 		"buildPoints": 800,
-		"buildPower": 175,
+		"buildPower": 225,
 		"ecmID": "RepairCentre",
 		"height": 2,
 		"hitpoints": 1000,
@@ -501,7 +501,7 @@
 		"baseModel": "BLBGEN.PIE",
 		"breadth": 1,
 		"buildPoints": 1400,
-		"buildPower": 250,
+		"buildPower": 325,
 		"ecmID": "RepairCentre",
 		"height": 3,
 		"hitpoints": 1000,
@@ -1129,28 +1129,6 @@
 		],
 		"width": 1
 	}, 
-	 "Emplacement-HvIncART-pit": {
-		"armour": 10,
-		"breadth": 1,
-		"buildPoints": 1200,
-		"buildPower": 525,
-		"height": 1,
-		"hitpoints": 400,
-		"id": "Emplacement-HvART-pit",
-		"name": "Incendiary Archangel Missile Emplacement",
-		"resistance": 150,
-		"sensorID": "DefaultSensor1Mk1",
-		"strength": "HARD",
-		"structureModel": [
-			"BlcaNPil3.pie"
-		],
-		"Thermal": 10,
-		"type": "DEFENSE",
-		"weapons": [
-			"Missile-HvyIncArt"
-		],
-		"width": 1
-	}, 
 	 "Emplacement-HvyATrocket": {
 		"armour": 10,
 		"breadth": 1,
@@ -1709,6 +1687,28 @@
 		"height": 3,
 		"hitpoints": 700,
 		"id": "GuardTower6",
+		"name": "Quad Rocket-Pod Tower",
+		"resistance": 150,
+		"sensorID": "TowerSensor",
+		"strength": "MEDIUM",
+		"structureModel": [
+			"blguardn.PIE"
+		],
+		"Thermal": 15,
+		"type": "DEFENSE",
+		"weapons": [
+			"Str-Tow-Quad-Rocket-Pod"
+		],
+		"width": 1
+	}, 
+	 "GuardTower8": {
+		"armour": 15,
+		"breadth": 1,
+		"buildPoints": 1200,
+		"buildPower": 100,
+		"height": 3,
+		"hitpoints": 700,
+		"id": "GuardTower8",
 		"name": "Mini-Rocket Tower",
 		"resistance": 150,
 		"sensorID": "TowerSensor",

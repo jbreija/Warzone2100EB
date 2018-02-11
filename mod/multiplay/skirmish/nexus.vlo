@@ -581,7 +581,7 @@ run
 
 	
 	// incendry emplacements.
-	numIncendrys	int					11
+	numIncendrys	int					10
 	incendrys[0]	STRUCTURESTAT		"Emplacement-MortarPit01"
 	incendrys[1]	STRUCTURESTAT		"Emplacement-MortarPit02"
 	incendrys[2]	STRUCTURESTAT		"Emplacement-MortarPit-Incenediary"
@@ -592,7 +592,6 @@ run
 	incendrys[7]	STRUCTURESTAT		"Emplacement-Howitzer150"
 	incendrys[8]	STRUCTURESTAT		"Emplacement-RotHow"
 	incendrys[9]	STRUCTURESTAT		"Emplacement-HvART-pit"
-	incendrys[10]	STRUCTURESTAT		"Emplacement-HvIncART-pit"
 	
 
 	//anti a.

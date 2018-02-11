@@ -671,7 +671,7 @@
         "msgName": "RES_CYW_H_MOR",
         "name": "Super Incendiary Grenadier",
         "requiredResearch": [
-            "R-Wpn-Mortar-Incenediary", 
+            "R-Wpn-Mortar02-Incenediary", 
             "R-Cyborg-HvyBody"
         ],
         "researchPoints": 5000,
@@ -798,7 +798,7 @@
         "iconID": "IMAGE_RES_CYBORGTECH",
         "id": "R-Cyborg-Hvywpn-Mortar1Mk1-Ram",
         "msgName": "RES_EMP_CANT",
-        "name": "Super Ramjet  Cyborg",
+        "name": "Super Ramjet Cyborg",
         "requiredResearch": [
             "R-Wpn-EMPCannon", 
             "R-Cyborg-HvyBody"
@@ -940,7 +940,7 @@
         "iconID": "IMAGE_RES_CYBORGTECH",
         "id": "R-Cyborg-Hvywpn-MG3",
         "msgName": "RES_EMP_CANT",
-        "name": "Super Machine Gunner",
+        "name": "Super Machine Gunner Cyborg",
         "requiredResearch": [
             "R-Cyborg-HvyBody", 
             "R-Wpn-MG3Mk1"
@@ -1621,21 +1621,6 @@
         ],
         "statID": "Emplacement-Howitzer105"
     }, 
-     "R-Defense-HvyIncArtMissile": {
-        "iconID": "IMAGE_RES_DEFENCE",
-        "id": "R-Defense-HvyIncArtMissile",
-        "msgName": "RES_EMP_HvAMI",
-        "name": "Incendiary Archangel Missile Battery",
-        "requiredResearch": [
-            "R-Wpn-HvIncArtMissile"
-        ],
-        "researchPoints": 14400,
-        "researchPower": 695,
-        "resultStructures": [
-            "Emplacement-HvIncART-pit"
-        ],
-        "statID": "Emplacement-HvART-pit"
-    }, 
      "R-Defense-HvyMor": {
         "iconID": "IMAGE_RES_DEFENCE",
         "id": "R-Defense-HvyMor",
@@ -2145,17 +2130,36 @@
         "iconID": "IMAGE_RES_DEFENCE",
         "id": "R-Defense-Tower06",
         "msgName": "RES_EMP_PODTOW",
-        "name": "Mini-Rocket Tower",
+        "name": "Quad Rocket-Pod Tower",
+        "redStructures": [
+            "GuardTower8"
+        ],
         "requiredResearch": [
             "R-Defense-HardcreteWall", 
             "R-Wpn-Rocket-Pod-Quad"
-        ],
+            ],
         "researchPoints": 1500,
         "researchPower": 95,
         "resultStructures": [
             "GuardTower6"
         ],
         "statID": "GuardTower6"
+    }, 
+     "R-Defense-Tower08": {
+        "iconID": "IMAGE_RES_DEFENCE",
+        "id": "R-Defense-Tower08",
+        "msgName": "RES_EMP_PODTOW",
+        "name": "Mini-Rocket Tower",
+        "requiredResearch": [
+            "R-Defense-HardcreteWall", 
+            "R-Wpn-Rocket05-MiniPod"
+        ],
+        "researchPoints": 1500,
+        "researchPower": 95,
+        "resultStructures": [
+            "GuardTower8"
+        ],
+        "statID": "GuardTower8"
     }, 
      "R-Defense-Wall-RotMg": {
         "iconID": "IMAGE_RES_DEFENCE",
@@ -2185,7 +2189,7 @@
         "requiredResearch": [
             "R-Defense-Pillbox01", 
             "R-Defense-HardcreteWall", 
-            "R-Wpn-MG3Mk1"
+            "R-Wpn-MG3Mk1-Twn"
         ],
         "researchPoints": 1200,
         "researchPower": 155,
@@ -7269,7 +7273,6 @@
      "R-Wpn-Cannon-Mount02": {
         "iconID": "IMAGE_RES_WEAPONTECH",
         "id": "R-Wpn-Cannon-Mount02",
-        "imdName": "TRMCAN.PIE",
         "msgName": "RES_W_CN_MN2",
         "name": "Augmented Cannon Turret Mk2",
         "requiredResearch": [
@@ -7291,12 +7294,12 @@
                 "value": 7
             }
         ],
+        "statID": "Cannon4AUTOMk1-Hvy-Aslt",
         "subgroupIconID": "IMAGE_RES_GRPUPG"
     }, 
      "R-Wpn-Cannon-Mount03": {
         "iconID": "IMAGE_RES_WEAPONTECH",
         "id": "R-Wpn-Cannon-Mount03",
-        "imdName": "TRMMSLAT.PIE",
         "msgName": "RES_W_CN_MN3",
         "name": "Augmented Cannon Turret Mk3",
         "requiredResearch": [
@@ -7317,12 +7320,12 @@
                 "value": 8
             }
         ],
+        "statID": "Cannon4AUTOMk1-Full-Aslt",
         "subgroupIconID": "IMAGE_RES_GRPUPG"
     }, 
      "R-Wpn-Cannon-Mount04": {
         "iconID": "IMAGE_RES_WEAPONTECH",
         "id": "R-Wpn-Cannon-Mount04",
-        "imdName": "TRHGSS2.PIE",
         "msgName": "RES_W_CN_MN4",
         "name": "Heavy Assault Cannon Turret",
         "requiredResearch": [
@@ -9202,26 +9205,6 @@
         ],
         "statID": "Missile-HvyArt"
     }, 
-     "R-Wpn-HvIncArtMissile": {
-        "iconID": "IMAGE_RES_WEAPONTECH",
-        "id": "R-Wpn-HvIncArtMissile",
-        "keyTopic": 1,
-        "msgName": "RES_W_MS_HARTI",
-        "name": "Incendiary Archangel Missile",
-        "redComponents": [
-            "Missile-HvyArt"
-        ],
-        "requiredResearch": [
-            "R-Wpn-HvArtMissile", 
-            "R-Wpn-Flamer-Damage07"
-            ],
-        "researchPoints": 30000,
-        "researchPower": 2000,
-        "resultComponents": [
-            "Missile-HvyIncArt"
-        ],
-        "statID": "Missile-HvyArt"
-    }, 
      "R-Wpn-HvyHowitzer": {
         "iconID": "IMAGE_RES_WEAPONTECH",
         "id": "R-Wpn-HvyHowitzer",
@@ -9243,7 +9226,7 @@
         "iconID": "IMAGE_RES_WEAPONTECH",
         "id": "R-Wpn-HvyHowitzer-Gat",
         "msgName": "RES_W_HH1_GA",
-        "name": "Ground Shaker Gatling",
+        "name": "Ground Shaker Assault",
         "redComponents": [
             "Howitzer150Mk1-Gat"
         ],
@@ -9262,7 +9245,7 @@
         "iconID": "IMAGE_RES_WEAPONTECH",
         "id": "R-Wpn-HvyHowitzer-Gat-Rail",
         "msgName": "RES_W_HH1_GAR",
-        "name": "Ground Shaker Gatling Rail",
+        "name": "Ground Shaker Assault Rail",
         "requiredResearch": [
             "R-Wpn-HvyHowitzer-Gat", 
             "R-Wpn-HvyHowitzer-Rail"
@@ -9456,26 +9439,6 @@
         ],
         "statID": "HeavyLaser-Inc-Aslt"
     }, 
-     "R-Wpn-IncArtMissile": {
-        "iconID": "IMAGE_RES_WEAPONTECH",
-        "id": "R-Wpn-IncArtMissile",
-        "keyTopic": 1,
-        "msgName": "RES_W_MS_MARTI",
-        "name": "Incendiary Seraph Missiles",
-        "redComponents": [
-            "Missile-MdArt"
-        ],
-        "requiredResearch": [
-            "R-Wpn-MdArtMissile", 
-            "R-Wpn-Flamer-Damage07"
-            ],
-        "researchPoints": 16400,
-        "researchPower": 1040,
-        "resultComponents": [
-            "Missile-IncArt"
-        ],
-        "statID": "Missile-MdArt"
-    }, 
      "R-Wpn-Laser01": {
         "iconID": "IMAGE_RES_WEAPONTECH",
         "id": "R-Wpn-Laser01",
@@ -9598,8 +9561,7 @@
         "msgName": "RES_W_LAS2_IA",
         "name": "Pulse Laser Incendiary Assault",
         "requiredResearch": [
-            "R-Wpn-Laser02", 
-            "R-Wpn-Plasmite-Flamer", 
+            "R-Wpn-Laser02-Inc", 
             "R-Wpn-Cannon-Mount03"
         ],
         "researchPoints": 17000,
@@ -9719,8 +9681,7 @@
         "msgName": "RES_MG3MK1",
         "name": "Twin Heavy Machinegun",
         "requiredResearch": [
-            "R-Wpn-MG3Mk1", 
-            "R-Wpn-MG-Damage04"
+            "R-Wpn-MG3Mk1"
         ],
         "researchPoints": 4800,
         "researchPower": 265,
@@ -9863,7 +9824,7 @@
             "MG4ROTARYMk1-Hvy-Inc"
         ],
         "requiredResearch": [
-            "R-Wpn-MG5", 
+            "R-Wpn-MG5-Hvy", 
             "R-Wpn-MG4-Hvy-Inc"
             ],
         "researchPoints": 4800,
@@ -11278,7 +11239,7 @@
         "id": "R-Wpn-PlasmaCannon-Hvy-Aslt",
         "keyTopic": 1,
         "msgName": "RES_W_PLASCAN",
-        "name": "Heavy Plasma Cannon Assault",
+        "name": "Heavy Plasma Assault Cannon ",
         "redComponents": [
             "Laser4-PlasmaCannon"
         ],

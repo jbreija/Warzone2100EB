@@ -15,7 +15,7 @@ const TECH_TWO = [
      "R-Defense-Pillbox06",
      "R-Defense-TankTrap01",
      "R-Defense-Tower01",
-     "R-Defense-Tower06",
+     "R-Defense-Tower08",
      "R-Defense-WallTower01",
      "R-Defense-WallTower02",
      "R-Defense-WallTower03",
