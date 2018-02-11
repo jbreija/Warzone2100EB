@@ -9233,7 +9233,7 @@
             "R-Wpn-HowitzerMk1"
         ],
         "researchPoints": 18000,
-        "researchPower": 1300,
+        "researchPower": 725,
         "resultComponents": [
             "Howitzer150Mk1"
         ],
@@ -9252,7 +9252,7 @@
             "R-Wpn-Cannon5-Hvy-Aslt"
             ],
         "researchPoints": 18000,
-        "researchPower": 1300,
+        "researchPower": 725,
         "resultComponents": [
             "Howitzer150Mk1-Gat"
         ],
@@ -9268,7 +9268,7 @@
             "R-Wpn-HvyHowitzer-Rail"
         ],
         "researchPoints": 18000,
-        "researchPower": 1300,
+        "researchPower": 1055,
         "resultComponents": [
             "Howitzer150Mk1-Gat-Rail"
         ],
@@ -9287,7 +9287,7 @@
             "R-Wpn-Howitzer-Incenediary"
             ],
         "researchPoints": 18000,
-        "researchPower": 1300,
+        "researchPower": 725,
         "resultComponents": [
             "Howitzer150Mk1-Inc"
         ],
@@ -9306,7 +9306,7 @@
             "R-Wpn-Mortar-Range02"
             ],
         "researchPoints": 18000,
-        "researchPower": 1300,
+        "researchPower": 725,
         "resultComponents": [
             "Howitzer150Mk1-Ram-Hvy"
         ],
@@ -9325,7 +9325,7 @@
             "R-Wpn-RailGun02"
             ],
         "researchPoints": 18000,
-        "researchPower": 1300,
+        "researchPower": 1055,
         "resultComponents": [
             "Howitzer150Mk1-Rail"
         ],
@@ -9344,7 +9344,7 @@
             "R-Wpn-HvyHowitzer-Inc"
             ],
         "researchPoints": 18000,
-        "researchPower": 1300,
+        "researchPower": 1155,
         "resultComponents": [
             "Howitzer150Mk1-Rail-Inc"
         ],
@@ -9363,7 +9363,7 @@
             "R-Wpn-Howitzer-Range03"
             ],
         "researchPoints": 18000,
-        "researchPower": 1300,
+        "researchPower": 1255,
         "resultComponents": [
             "Howitzer150Mk1-Rail-Hvy-Ram"
         ],
@@ -9382,7 +9382,7 @@
             "R-Wpn-RailGun02"
             ],
         "researchPoints": 18000,
-        "researchPower": 1300,
+        "researchPower": 1155,
         "resultComponents": [
             "Howitzer150Mk1-Rail-Ram"
         ],
@@ -9811,7 +9811,7 @@
         "resultComponents": [
             "MG4ROTARYMk1-Hvy-Inc"
         ],
-        "statID": "MG4ROTARYMk1-Hvy"
+        "statID": "MG4ROTARYMk1-Hvy-Inc"
     }, 
      "R-Wpn-MG5": {
         "iconID": "IMAGE_RES_WEAPONTECH",
