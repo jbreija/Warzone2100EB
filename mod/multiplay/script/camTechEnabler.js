@@ -210,7 +210,6 @@ const TECH_THREE = [
      "R-Defense-AASite-QuadRotMg",
      "R-Defense-Emplacement-HPVcannon",
      "R-Defense-Howitzer",
-     "R-Defense-HvyHowitzer",
      "R-Defense-HvyMor",
      "R-Defense-IDFRocket",
      "R-Defense-RotMG",

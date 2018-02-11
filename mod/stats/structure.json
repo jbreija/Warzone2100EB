@@ -1499,7 +1499,7 @@
 		"Thermal": 30,
 		"type": "DEFENSE",
 		"weapons": [
-			"Str-Tow-Laser2PULSEMk1"
+			"Laser2PULSEMk1-Med-Aslt"
 		],
 		"width": 1
 	}, 
@@ -1833,12 +1833,12 @@
 		"height": 2,
 		"hitpoints": 600,
 		"id": "P0-AASite-Sunburst",
-		"name": "Sunburst AA Site",
+		"name": "Sunburst AA Tower",
 		"resistance": 150,
-		"sensorID": "NavGunSensor",
+		"sensorID": "TowerSensor",
 		"strength": "MEDIUM",
 		"structureModel": [
-			"Blaamnt1.PIE"
+			"blguardn.PIE"
 		],
 		"Thermal": 10,
 		"type": "DEFENSE",
@@ -2010,7 +2010,7 @@
 		"height": 1,
 		"hitpoints": 1000,
 		"id": "Pillbox-RotMG",
-		"name": "Rotary MG Bunker",
+		"name": "Assault Gun Bunker",
 		"resistance": 150,
 		"sensorID": "BunkerSensor",
 		"strength": "BUNKER",
@@ -2020,7 +2020,7 @@
 		"Thermal": 60,
 		"type": "DEFENSE",
 		"weapons": [
-			"Str-Bun-MG4ROTARYMk1"
+			"MG4ROTARYMk1-Hvy"
 		],
 		"width": 1
 	}, 
@@ -2714,12 +2714,12 @@
 		"height": 3,
 		"hitpoints": 1400,
 		"id": "WallTower-SamHvy",
-		"name": "Vindicator Hardpoint",
+		"name": "Vindicator SAM Tower",
 		"resistance": 150,
-		"sensorID": "HardpointSensor03",
+		"sensorID": "TowerSensor03",
 		"strength": "HARD",
 		"structureModel": [
-			"BLGUARD3.pie"
+			"Blgrdnex.PIE"
 		],
 		"Thermal": 30,
 		"type": "DEFENSE",
@@ -2736,12 +2736,12 @@
 		"height": 2,
 		"hitpoints": 1400,
 		"id": "WallTower-SamSite",
-		"name": "Avenger Hardpoint",
+		"name": "Avenger SAM Tower",
 		"resistance": 150,
-		"sensorID": "HardpointSensor02",
+		"sensorID": "TowerSensor03",
 		"strength": "HARD",
 		"structureModel": [
-			"BLGUARD2.pie"
+			"Blgrdnex.PIE"
 		],
 		"Thermal": 30,
 		"type": "DEFENSE",
@@ -2780,7 +2780,7 @@
 		"height": 2,
 		"hitpoints": 1400,
 		"id": "WallTower01",
-		"name": "Heavy Machinegun Hardpoint",
+		"name": "Twin Heavy Machinegun Hardpoint",
 		"resistance": 150,
 		"sensorID": "HardpointSensor",
 		"strength": "HARD",
@@ -3032,28 +3032,6 @@
 		"type": "HQ",
 		"width": 2
 	}, 
-	 "Bunker-MG4ROTARYMk1-Hvy": {
-		"armour": 20,
-		"breadth": 1,
-		"buildPoints": 513,
-		"buildPower": 103,
-		"height": 1,
-		"hitpoints": 525,
-		"id": "Bunker-MG4ROTARYMk1-Hvy",
-		"name": "Bunker-MG4ROTARYMk1-Hvy",
-		"resistance": 150,
-		"sensorID": "DefaultSensor1Mk1",
-		"strength": "BUNKER",
-		"structureModel": [
-			"blpilbox.pie"
-		],
-		"Thermal": 20,
-		"type": "DEFENSE",
-		"weapons": [
-			"MG4ROTARYMk1-Hvy"
-		],
-		"width": 1
-	}, 
 	 "Bunker-MG3Mk1-Twn": {
 		"armour": 20,
 		"breadth": 1,
@@ -3062,7 +3040,7 @@
 		"height": 1,
 		"hitpoints": 525,
 		"id": "Bunker-MG3Mk1-Twn",
-		"name": "Bunker-MG3Mk1-Twn",
+		"name": "Twin Heavy Machinegun Bunker",
 		"resistance": 150,
 		"sensorID": "DefaultSensor1Mk1",
 		"strength": "BUNKER",
@@ -3899,28 +3877,6 @@
 		],
 		"width": 1
 	}, 
-	 "Empl4-RailGun1Mk1-GatAA": {
-		"armour": 24,
-		"breadth": 1,
-		"buildPoints": 861,
-		"buildPower": 172,
-		"height": 1,
-		"hitpoints": 600,
-		"id": "Empl4-RailGun1Mk1-GatAA",
-		"name": "Empl4-RailGun1Mk1-GatAA",
-		"resistance": 150,
-		"sensorID": "DefaultSensor1Mk1",
-		"strength": "HARD",
-		"structureModel": [
-			"Blaamnt2.PIE"
-		],
-		"Thermal": 24,
-		"type": "DEFENSE",
-		"weapons": [
-			"RailGun1Mk1-GatAA"
-		],
-		"width": 1
-	}, 
 	 "NX-ANTI-SATSite": {
 		"armour": 999,
 		"breadth": 1,
@@ -4463,28 +4419,6 @@
 		],
 		"width": 2
 	}, 
-	 "Tower-MG4ROTARYMk1-Hvy": {
-		"armour": 12,
-		"breadth": 1,
-		"buildPoints": 2100,
-		"buildPower": 225,
-		"height": 4,
-		"hitpoints": 300,
-		"id": "Tower-MG4ROTARYMk1-Hvy",
-		"name": "Tower-MG4ROTARYMk1-Hvy",
-		"resistance": 100,
-		"sensorID": "TowerSensor02",
-		"strength": "MEDIUM",
-		"structureModel": [
-			"BLGUARDR.pie"
-		],
-		"Thermal": 12,
-		"type": "DEFENSE",
-		"weapons": [
-			"MG4ROTARYMk1-Hvy"
-		],
-		"width": 1
-	}, 
 	 "Tower2-Cannon5VulcanMk1-Inc": {
 		"armour": 15,
 		"breadth": 1,
@@ -4573,28 +4507,6 @@
 		],
 		"width": 1
 	}, 
-	 "Tower2-MG4ROTARYMk1-Hvy-Inc": {
-		"armour": 15,
-		"breadth": 1,
-		"buildPoints": 1300,
-		"buildPower": 175,
-		"height": 3,
-		"hitpoints": 378,
-		"id": "Tower2-MG4ROTARYMk1-Hvy-Inc",
-		"name": "Tower2-MG4ROTARYMk1-Hvy-Inc",
-		"resistance": 100,
-		"sensorID": "TowerSensor",
-		"strength": "MEDIUM",
-		"structureModel": [
-			"blguardn.pie"
-		],
-		"Thermal": 15,
-		"type": "DEFENSE",
-		"weapons": [
-			"MG4ROTARYMk1-Hvy-Inc"
-		],
-		"width": 1
-	}, 
 	 "Tower2-Rocket-AT2": {
 		"armour": 15,
 		"breadth": 1,
@@ -4617,7 +4529,7 @@
 		],
 		"width": 1
 	}, 
-	 "Tower2-Rocket-Pod-MRA": {
+	 "GuardTower9": {
 		"armour": 15,
 		"breadth": 1,
 		"buildPoints": 1300,
@@ -4625,7 +4537,7 @@
 		"height": 3,
 		"hitpoints": 378,
 		"id": "Tower2-Rocket-Pod-MRA",
-		"name": "Tower2-Rocket-Pod-MRA",
+		"name": "Quad Rocket-Array Tower",
 		"resistance": 100,
 		"sensorID": "TowerSensor",
 		"strength": "MEDIUM",
@@ -4661,29 +4573,7 @@
 		],
 		"width": 1
 	}, 
-	 "Tower3-RailGun2Mk1-Aslt": {
-		"armour": 15,
-		"breadth": 1,
-		"buildPoints": 2400,
-		"buildPower": 275,
-		"height": 2,
-		"hitpoints": 700,
-		"id": "Tower3-RailGun2Mk1-Aslt",
-		"name": "Tower3-RailGun2Mk1-Aslt",
-		"resistance": 100,
-		"sensorID": "TowerSensor03",
-		"strength": "MEDIUM",
-		"structureModel": [
-			"Blgrdnex.pie"
-		],
-		"Thermal": 30,
-		"type": "DEFENSE",
-		"weapons": [
-			"RailGun2Mk1-Aslt"
-		],
-		"width": 1
-	}, 
-	 "Tower3-Rocket-Pod-Arch": {
+	 "GuardTower10": {
 		"armour": 15,
 		"breadth": 1,
 		"buildPoints": 2400,
@@ -4691,7 +4581,7 @@
 		"height": 2,
 		"hitpoints": 700,
 		"id": "Tower3-Rocket-Pod-Arch",
-		"name": "Tower3-Rocket-Pod-Arch",
+		"name": "Quad Thermal Rocket Tower",
 		"resistance": 100,
 		"sensorID": "TowerSensor",
 		"strength": "MEDIUM",
@@ -4749,28 +4639,6 @@
 		],
 		"width": 1
 	}, 
-	 "WallTower-MG4ROTARYMk1-Hvy": {
-		"armour": 15,
-		"breadth": 1,
-		"buildPoints": 1700,
-		"buildPower": 300,
-		"height": 2,
-		"hitpoints": 1400,
-		"id": "WallTower-MG4ROTARYMk1-Hvy",
-		"name": "WallTower-MG4ROTARYMk1-Hvy",
-		"resistance": 150,
-		"sensorID": "HardpointSensor02",
-		"strength": "HARD",
-		"structureModel": [
-			"BLGUARD2.pie"
-		],
-		"Thermal": 30,
-		"type": "DEFENSE",
-		"weapons": [
-			"MG4ROTARYMk1-Hvy"
-		],
-		"width": 1
-	}, 
 	 "WallTower-MG5TWINROTARY-Hvy": {
 		"armour": 15,
 		"breadth": 1,
@@ -4779,12 +4647,12 @@
 		"height": 2,
 		"hitpoints": 1400,
 		"id": "WallTower-MG5TWINROTARY-Hvy",
-		"name": "WallTower-MG5TWINROTARY-Hvy",
+		"name": "Twin Heavy Assault Gun Bunker",
 		"resistance": 150,
-		"sensorID": "HardpointSensor02",
+		"sensorID": "BunkerSensor",
 		"strength": "HARD",
 		"structureModel": [
-			"BLGUARD2.pie"
+			"BlcaNPil.pie"
 		],
 		"Thermal": 30,
 		"type": "DEFENSE",
@@ -4969,28 +4837,6 @@
 		],
 		"width": 1
 	}, 
-	 "WallTower2-MG4ROTARYMk1-Hvy-Inc": {
-		"armour": 15,
-		"breadth": 1,
-		"buildPoints": 1700,
-		"buildPower": 300,
-		"height": 2,
-		"hitpoints": 1400,
-		"id": "WallTower2-MG4ROTARYMk1-Hvy-Inc",
-		"name": "WallTower2-MG4ROTARYMk1-Hvy-Inc",
-		"resistance": 150,
-		"sensorID": "HardpointSensor02",
-		"strength": "HARD",
-		"structureModel": [
-			"BLGUARD2.pie"
-		],
-		"Thermal": 30,
-		"type": "DEFENSE",
-		"weapons": [
-			"MG4ROTARYMk1-Hvy-Inc"
-		],
-		"width": 1
-	}, 
 	 "WallTower2-MG5TWINROTARY-Hvy-Inc": {
 		"armour": 15,
 		"breadth": 1,
@@ -4999,12 +4845,12 @@
 		"height": 2,
 		"hitpoints": 1400,
 		"id": "WallTower2-MG5TWINROTARY-Hvy-Inc",
-		"name": "WallTower2-MG5TWINROTARY-Hvy-Inc",
+		"name": "Incendiary Twin Heavy Assault Gun Bunker",
 		"resistance": 150,
-		"sensorID": "HardpointSensor02",
+		"sensorID": "BunkerSensor",
 		"strength": "HARD",
 		"structureModel": [
-			"BLGUARD2.pie"
+			"BlcaNPil.pie"
 		],
 		"Thermal": 30,
 		"type": "DEFENSE",
@@ -5032,28 +4878,6 @@
 		"type": "DEFENSE",
 		"weapons": [
 			"Cannon4AUTOMk1-Hvy-Aslt"
-		],
-		"width": 1
-	}, 
-	 "WallTower3-Laser2PULSEMk1-Med": {
-		"armour": 20,
-		"breadth": 1,
-		"buildPoints": 2200,
-		"buildPower": 400,
-		"height": 3,
-		"hitpoints": 952,
-		"id": "WallTower3-Laser2PULSEMk1-Med",
-		"name": "WallTower3-Laser2PULSEMk1-Med",
-		"resistance": 150,
-		"sensorID": "HardpointSensor03",
-		"strength": "HARD",
-		"structureModel": [
-			"BLGUARD3.pie"
-		],
-		"Thermal": 25,
-		"type": "DEFENSE",
-		"weapons": [
-			"Laser2PULSEMk1-Med"
 		],
 		"width": 1
 	}, 
@@ -5233,28 +5057,6 @@
 		],
 		"width": 1
 	}, 
-	 "WallTower3-RailGun2Mk1-Aslt": {
-		"armour": 20,
-		"breadth": 1,
-		"buildPoints": 2200,
-		"buildPower": 400,
-		"height": 3,
-		"hitpoints": 952,
-		"id": "WallTower3-RailGun2Mk1-Aslt",
-		"name": "WallTower3-RailGun2Mk1-Aslt",
-		"resistance": 150,
-		"sensorID": "HardpointSensor03",
-		"strength": "HARD",
-		"structureModel": [
-			"BLGUARD3.pie"
-		],
-		"Thermal": 25,
-		"type": "DEFENSE",
-		"weapons": [
-			"RailGun2Mk1-Aslt"
-		],
-		"width": 1
-	}, 
 	 "WallTower3-RailGun2Mk1-Twn-Inc": {
 		"armour": 20,
 		"breadth": 1,
@@ -5274,28 +5076,6 @@
 		"type": "DEFENSE",
 		"weapons": [
 			"RailGun2Mk1-Twn-Inc"
-		],
-		"width": 1
-	}, 
-	 "WallTower4-PlasmiteFlamer-Rail": {
-		"armour": 25,
-		"breadth": 1,
-		"buildPoints": 2600,
-		"buildPower": 400,
-		"height": 3,
-		"hitpoints": 1200,
-		"id": "WallTower4-PlasmiteFlamer-Rail",
-		"name": "WallTower4-PlasmiteFlamer-Rail",
-		"resistance": 150,
-		"sensorID": "TowerSensor",
-		"strength": "HARD",
-		"structureModel": [
-			"BlcaNPil3.pie"
-		],
-		"Thermal": 32,
-		"type": "DEFENSE",
-		"weapons": [
-			"PlasmiteFlamer-Rail"
 		],
 		"width": 1
 	}, 
@@ -5470,6 +5250,468 @@
 		],
 		"Thermal": 8,
 		"type": "DEFENSE",
+		"width": 1
+	}, 
+	 "WallTower-SamHvy-Arch": {
+		"armour": 20,
+		"breadth": 1,
+		"buildPoints": 2300,
+		"buildPower": 400,
+		"height": 3,
+		"hitpoints": 1400,
+		"id": "WallTower-SamHvy",
+		"name": "Thermal Vindicator SAM Tower",
+		"resistance": 150,
+		"sensorID": "TowerSensor03",
+		"strength": "HARD",
+		"structureModel": [
+			"Blgrdnex.PIE"
+		],
+		"Thermal": 30,
+		"type": "DEFENSE",
+		"weapons": [
+			"Missile-HvySAM-Arch"
+		],
+		"width": 1
+	}, 
+	 "WallTower-SamSite-Arch": {
+		"armour": 15,
+		"breadth": 1,
+		"buildPoints": 1800,
+		"buildPower": 300,
+		"height": 2,
+		"hitpoints": 1400,
+		"id": "WallTower-SamSite",
+		"name": "Thermal Avenger SAM Tower",
+		"resistance": 150,
+		"sensorID": "TowerSensor03",
+		"strength": "HARD",
+		"structureModel": [
+			"Blgrdnex.PIE"
+		],
+		"Thermal": 30,
+		"type": "DEFENSE",
+		"weapons": [
+			"Missile-LtSAM2-Arch"
+		],
+		"width": 1
+	}, 
+	 "P0-AATower-Sunburst-Arch": {
+		"armour": 10,
+		"breadth": 1,
+		"buildPoints": 600,
+		"buildPower": 150,
+		"height": 2,
+		"hitpoints": 600,
+		"id": "P0-AATower-Sunburst-Arch",
+		"name": "Thermal Sunburst AA Tower",
+		"resistance": 150,
+		"sensorID": "TowerSensor",
+		"strength": "MEDIUM",
+		"structureModel": [
+			"blguardn.PIE"
+		],
+		"Thermal": 10,
+		"type": "DEFENSE",
+		"weapons": [
+			"Rocket-Sunburst-Arch"
+		],
+		"width": 1
+	}, 
+	 "Emplacement-Howitzer105Mk1-Ram": {
+		"armour": 10,
+		"breadth": 1,
+		"buildPoints": 450,
+		"buildPower": 275,
+		"height": 1,
+		"hitpoints": 400,
+		"id": "Emplacement-Howitzer105Mk1-Ram",
+		"name": "Howitzer Ramjet Emplacement",
+		"resistance": 150,
+		"sensorID": "EmplacementSensor",
+		"strength": "HARD",
+		"structureModel": [
+			"Blhowmnt.PIE"
+		],
+		"Thermal": 10,
+		"type": "DEFENSE",
+		"weapons": [
+			"Howitzer105Mk1-Ram"
+		],
+		"width": 1
+	}, 
+	 "Emplacement-Howitzer105Mk1-Rail-Ram": {
+		"armour": 10,
+		"breadth": 1,
+		"buildPoints": 450,
+		"buildPower": 275,
+		"height": 1,
+		"hitpoints": 400,
+		"id": "Emplacement-Howitzer105Mk1-Rail-Ram",
+		"name": "Howitzer Rail Ramjet Emplacement",
+		"resistance": 150,
+		"sensorID": "EmplacementSensor",
+		"strength": "HARD",
+		"structureModel": [
+			"Blhowmnt.PIE"
+		],
+		"Thermal": 10,
+		"type": "DEFENSE",
+		"weapons": [
+			"Howitzer105Mk1-Rail-Ram"
+		],
+		"width": 1
+	}, 
+	 "Emplacement-Howitzer105Mk1-Rail-Inc": {
+		"armour": 10,
+		"breadth": 1,
+		"buildPoints": 450,
+		"buildPower": 275,
+		"height": 1,
+		"hitpoints": 400,
+		"id": "Emplacement-Howitzer105Mk1-Rail-Inc",
+		"name": "Incendiary Howitzer Rail Emplacement",
+		"resistance": 150,
+		"sensorID": "EmplacementSensor",
+		"strength": "HARD",
+		"structureModel": [
+			"Blhowmnt.PIE"
+		],
+		"Thermal": 10,
+		"type": "DEFENSE",
+		"weapons": [
+			"Howitzer105Mk1-Rail-Inc"
+		],
+		"width": 1
+	}, 
+	 "Emplacement-Howitzer105Mk1-Rail": {
+		"armour": 10,
+		"breadth": 1,
+		"buildPoints": 450,
+		"buildPower": 275,
+		"height": 1,
+		"hitpoints": 400,
+		"id": "Emplacement-Howitzer105Mk1-Rail",
+		"name": "Howitzer Rail Emplacement",
+		"resistance": 150,
+		"sensorID": "EmplacementSensor",
+		"strength": "HARD",
+		"structureModel": [
+			"Blhowmnt.PIE"
+		],
+		"Thermal": 10,
+		"type": "DEFENSE",
+		"weapons": [
+			"Howitzer105Mk1-Rail"
+		],
+		"width": 1
+	}, 
+	 "Emplacement-Howitzer150Mk1-Ram-Hvy": {
+		"armour": 10,
+		"breadth": 1,
+		"buildPoints": 550,
+		"buildPower": 425,
+		"height": 1,
+		"hitpoints": 400,
+		"id": "Emplacement-Howitzer150Mk1-Ram-Hvy",
+		"name": "Heavy Ground Shaker Ramjet Emplacement",
+		"resistance": 150,
+		"sensorID": "EmplacementSensor",
+		"strength": "HARD",
+		"structureModel": [
+			"Blhowmnt.PIE"
+		],
+		"Thermal": 10,
+		"type": "DEFENSE",
+		"weapons": [
+			"Howitzer150Mk1-Ram-Hvy"
+		],
+		"width": 1
+	}, 
+	 "Emplacement-Howitzer150Mk1-Ram": {
+		"armour": 10,
+		"breadth": 1,
+		"buildPoints": 550,
+		"buildPower": 425,
+		"height": 1,
+		"hitpoints": 400,
+		"id": "Emplacement-Howitzer150Mk1-Ram",
+		"name": "Ground Shaker Ramjet Emplacement",
+		"resistance": 150,
+		"sensorID": "EmplacementSensor",
+		"strength": "HARD",
+		"structureModel": [
+			"Blhowmnt.PIE"
+		],
+		"Thermal": 10,
+		"type": "DEFENSE",
+		"weapons": [
+			"Howitzer150Mk1-Ram"
+		],
+		"width": 1
+	}, 
+	 "Emplacement-Howitzer150Mk1-Rail-Ram": {
+		"armour": 10,
+		"breadth": 1,
+		"buildPoints": 550,
+		"buildPower": 425,
+		"height": 1,
+		"hitpoints": 400,
+		"id": "Emplacement-Howitzer150Mk1-Rail-Ram",
+		"name": "Ground Shaker Rail Ramjet Emplacement",
+		"resistance": 150,
+		"sensorID": "EmplacementSensor",
+		"strength": "HARD",
+		"structureModel": [
+			"Blhowmnt.PIE"
+		],
+		"Thermal": 10,
+		"type": "DEFENSE",
+		"weapons": [
+			"Howitzer150Mk1-Rail-Ram"
+		],
+		"width": 1
+	}, 
+	 "Emplacement-Howitzer150Mk1-Rail-Inc": {
+		"armour": 10,
+		"breadth": 1,
+		"buildPoints": 550,
+		"buildPower": 425,
+		"height": 1,
+		"hitpoints": 400,
+		"id": "Emplacement-Howitzer150Mk1-Rail-Inc",
+		"name": "Incendiary Ground Shaker Rail Emplacement",
+		"resistance": 150,
+		"sensorID": "EmplacementSensor",
+		"strength": "HARD",
+		"structureModel": [
+			"Blhowmnt.PIE"
+		],
+		"Thermal": 10,
+		"type": "DEFENSE",
+		"weapons": [
+			"Howitzer150Mk1-Rail-Inc"
+		],
+		"width": 1
+	}, 
+	 "Emplacement-Howitzer150Mk1-Rail-Hvy-Ram": {
+		"armour": 10,
+		"breadth": 1,
+		"buildPoints": 550,
+		"buildPower": 425,
+		"height": 1,
+		"hitpoints": 400,
+		"id": "Emplacement-Howitzer150Mk1-Rail-Hvy-Ram",
+		"name": "Heavy Ground Shaker Rail Emplacement",
+		"resistance": 150,
+		"sensorID": "EmplacementSensor",
+		"strength": "HARD",
+		"structureModel": [
+			"Blhowmnt.PIE"
+		],
+		"Thermal": 10,
+		"type": "DEFENSE",
+		"weapons": [
+			"Howitzer150Mk1-Rail-Hvy-Ram"
+		],
+		"width": 1
+	}, 
+	 "Emplacement-Howitzer150Mk1-Rail": {
+		"armour": 10,
+		"breadth": 1,
+		"buildPoints": 550,
+		"buildPower": 425,
+		"height": 1,
+		"hitpoints": 400,
+		"id": "Emplacement-Howitzer150Mk1-Rail",
+		"name": "Ground Shaker Rail Emplacement",
+		"resistance": 150,
+		"sensorID": "EmplacementSensor",
+		"strength": "HARD",
+		"structureModel": [
+			"Blhowmnt.PIE"
+		],
+		"Thermal": 10,
+		"type": "DEFENSE",
+		"weapons": [
+			"Howitzer150Mk1-Rail"
+		],
+		"width": 1
+	}, 
+	 "Emplacement-Howitzer150Mk1-Inc": {
+		"armour": 10,
+		"breadth": 1,
+		"buildPoints": 550,
+		"buildPower": 425,
+		"height": 1,
+		"hitpoints": 400,
+		"id": "Emplacement-Howitzer150Mk1-Inc",
+		"name": "Incendiary Ground Shaker Emplacement",
+		"resistance": 150,
+		"sensorID": "EmplacementSensor",
+		"strength": "HARD",
+		"structureModel": [
+			"Blhowmnt.PIE"
+		],
+		"Thermal": 10,
+		"type": "DEFENSE",
+		"weapons": [
+			"Howitzer150Mk1-Inc"
+		],
+		"width": 1
+	}, 
+	 "Emplacement-Howitzer150Mk1-Gat-Rail": {
+		"armour": 10,
+		"breadth": 1,
+		"buildPoints": 550,
+		"buildPower": 425,
+		"height": 1,
+		"hitpoints": 400,
+		"id": "Emplacement-Howitzer150Mk1-Gat-Rail",
+		"name": "Ground Shaker Assault Rail Emplacement",
+		"resistance": 150,
+		"sensorID": "EmplacementSensor",
+		"strength": "HARD",
+		"structureModel": [
+			"Blhowmnt.PIE"
+		],
+		"Thermal": 10,
+		"type": "DEFENSE",
+		"weapons": [
+			"Howitzer150Mk1-Gat-Rail"
+		],
+		"width": 1
+	}, 
+	 "Emplacement-Howitzer150Mk1-Gat": {
+		"armour": 10,
+		"breadth": 1,
+		"buildPoints": 550,
+		"buildPower": 425,
+		"height": 1,
+		"hitpoints": 400,
+		"id": "Emplacement-Howitzer150Mk1-Gat",
+		"name": "Ground Shaker Assault Emplacement",
+		"resistance": 150,
+		"sensorID": "EmplacementSensor",
+		"strength": "HARD",
+		"structureModel": [
+			"Blhowmnt.PIE"
+		],
+		"Thermal": 10,
+		"type": "DEFENSE",
+		"weapons": [
+			"Howitzer150Mk1-Gat"
+		],
+		"width": 1
+	}, 
+	 "Emplacement-Howitzer03-Rot-Ram": {
+		"armour": 10,
+		"breadth": 1,
+		"buildPoints": 650,
+		"buildPower": 450,
+		"height": 1,
+		"hitpoints": 400,
+		"id": "Emplacement-Howitzer03-Rot-Ram",
+		"name": "Hellstorm Ramjet Emplacement",
+		"resistance": 150,
+		"sensorID": "EmplacementSensor",
+		"strength": "HARD",
+		"structureModel": [
+			"BLHOWMNT.PIE"
+		],
+		"Thermal": 10,
+		"type": "DEFENSE",
+		"weapons": [
+			"Howitzer03-Rot-Ram"
+		],
+		"width": 1
+	}, 
+	 "Emplacement-Howitzer03-Rot-Rail-Ram": {
+		"armour": 10,
+		"breadth": 1,
+		"buildPoints": 650,
+		"buildPower": 450,
+		"height": 1,
+		"hitpoints": 400,
+		"id": "Emplacement-Howitzer03-Rot-Rail-Ram",
+		"name": "Hellstorm Rail Ramjet Emplacement",
+		"resistance": 150,
+		"sensorID": "EmplacementSensor",
+		"strength": "HARD",
+		"structureModel": [
+			"BLHOWMNT.PIE"
+		],
+		"Thermal": 10,
+		"type": "DEFENSE",
+		"weapons": [
+			"Howitzer03-Rot-Rail-Ram"
+		],
+		"width": 1
+	}, 
+	 "Emplacement-Howitzer03-Rot-Rail-Inc": {
+		"armour": 10,
+		"breadth": 1,
+		"buildPoints": 650,
+		"buildPower": 450,
+		"height": 1,
+		"hitpoints": 400,
+		"id": "Emplacement-Howitzer03-Rot-Rail-Inc",
+		"name": "Incendiary Hellstorm Rail Emplacement",
+		"resistance": 150,
+		"sensorID": "EmplacementSensor",
+		"strength": "HARD",
+		"structureModel": [
+			"BLHOWMNT.PIE"
+		],
+		"Thermal": 10,
+		"type": "DEFENSE",
+		"weapons": [
+			"Howitzer03-Rot-Rail-Inc"
+		],
+		"width": 1
+	}, 
+	 "Emplacement-Howitzer03-Rot-Rail": {
+		"armour": 10,
+		"breadth": 1,
+		"buildPoints": 650,
+		"buildPower": 450,
+		"height": 1,
+		"hitpoints": 400,
+		"id": "Emplacement-Howitzer03-Rot-Rail",
+		"name": "Hellstorm Rail Emplacement",
+		"resistance": 150,
+		"sensorID": "EmplacementSensor",
+		"strength": "HARD",
+		"structureModel": [
+			"BLHOWMNT.PIE"
+		],
+		"Thermal": 10,
+		"type": "DEFENSE",
+		"weapons": [
+			"Howitzer03-Rot-Rail"
+		],
+		"width": 1
+	}, 
+	 "Emplacement-Howitzer03-Rot-Inc": {
+		"armour": 10,
+		"breadth": 1,
+		"buildPoints": 650,
+		"buildPower": 450,
+		"height": 1,
+		"hitpoints": 400,
+		"id": "Emplacement-Howitzer03-Rot-Inc",
+		"name": "Incendiary Hellstorm Emplacement",
+		"resistance": 150,
+		"sensorID": "EmplacementSensor",
+		"strength": "HARD",
+		"structureModel": [
+			"BLHOWMNT.PIE"
+		],
+		"Thermal": 10,
+		"type": "DEFENSE",
+		"weapons": [
+			"Howitzer03-Rot-Inc"
+		],
 		"width": 1
 	}
 }
