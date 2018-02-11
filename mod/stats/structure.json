@@ -1041,25 +1041,47 @@
 		],
 		"width": 1
 	}, 
-	 "Emplacement-HvART-pit": {
+	 "Emplacement-Cannon4AUTOMk1-Full-Aslt": {
 		"armour": 10,
 		"breadth": 1,
 		"buildPoints": 1200,
 		"buildPower": 525,
 		"height": 1,
 		"hitpoints": 400,
-		"id": "Emplacement-HvART-pit",
-		"name": "Archangel Missile Emplacement",
+		"id": "Emplacement-Cannon4AUTOMk1-Full-Aslt",
+		"name": "Full Assault Cannon",
 		"resistance": 150,
 		"sensorID": "EmplacementSensor",
 		"strength": "HARD",
 		"structureModel": [
-			"BlcaNPil3.pie"
+			"Blaamnt2ha.PIE"
 		],
 		"Thermal": 10,
 		"type": "DEFENSE",
 		"weapons": [
-			"Str-Emp-Missile-HvyArt"
+			"Cannon4AUTOMk1-Full-Aslt"
+		],
+		"width": 1
+	}, 
+	 "Emplacement-Cannon4AUTOMk1-Hvy-Aslt": {
+		"armour": 10,
+		"breadth": 1,
+		"buildPoints": 1200,
+		"buildPower": 525,
+		"height": 1,
+		"hitpoints": 400,
+		"id": "Emplacement-Cannon4AUTOMk1-Hvy-Aslt",
+		"name": "Heavy Assault Cannon",
+		"resistance": 150,
+		"sensorID": "EmplacementSensor",
+		"strength": "HARD",
+		"structureModel": [
+			"Blaamnt2ha.PIE"
+		],
+		"Thermal": 10,
+		"type": "DEFENSE",
+		"weapons": [
+			"Cannon4AUTOMk1-Hvy-Aslt"
 		],
 		"width": 1
 	}, 
@@ -1085,47 +1107,25 @@
 		],
 		"width": 1
 	}, 
-	 "Emplacement-Cannon4AUTOMk1-Hvy-Aslt": {
+	 "Emplacement-HvART-pit": {
 		"armour": 10,
 		"breadth": 1,
 		"buildPoints": 1200,
 		"buildPower": 525,
 		"height": 1,
 		"hitpoints": 400,
-		"id": "Emplacement-Cannon4AUTOMk1-Hvy-Aslt",
-		"name": "Heavy Assault Cannon",
+		"id": "Emplacement-HvART-pit",
+		"name": "Archangel Missile Emplacement",
 		"resistance": 150,
 		"sensorID": "EmplacementSensor",
 		"strength": "HARD",
 		"structureModel": [
-			"Blaamnt2.PIE"
+			"BlcaNPil3.pie"
 		],
 		"Thermal": 10,
 		"type": "DEFENSE",
 		"weapons": [
-			"Cannon4AUTOMk1-Hvy-Aslt"
-		],
-		"width": 1
-	}, 
-	 "Emplacement-Cannon4AUTOMk1-Full-Aslt": {
-		"armour": 10,
-		"breadth": 1,
-		"buildPoints": 1200,
-		"buildPower": 525,
-		"height": 1,
-		"hitpoints": 400,
-		"id": "Emplacement-Cannon4AUTOMk1-Full-Aslt",
-		"name": "Full Assault Cannon",
-		"resistance": 150,
-		"sensorID": "EmplacementSensor",
-		"strength": "HARD",
-		"structureModel": [
-			"Blaamnt2.PIE"
-		],
-		"Thermal": 10,
-		"type": "DEFENSE",
-		"weapons": [
-			"Cannon4AUTOMk1-Full-Aslt"
+			"Str-Emp-Missile-HvyArt"
 		],
 		"width": 1
 	}, 
@@ -2895,7 +2895,7 @@
 		"sensorID": "HardpointSensor",
 		"strength": "HARD",
 		"structureModel": [
-			"BLGUARD2.pie"
+			"BLGUARD1.pie"
 		],
 		"Thermal": 30,
 		"type": "DEFENSE",
@@ -3701,28 +3701,6 @@
 		],
 		"width": 1
 	}, 
-	 "Empl3-RailGun1Mk1-GatAALgt": {
-		"armour": 19,
-		"breadth": 1,
-		"buildPoints": 502,
-		"buildPower": 100,
-		"height": 1,
-		"hitpoints": 476,
-		"id": "Empl3-RailGun1Mk1-GatAALgt",
-		"name": "AA Long Range Railgun Gatling Emplacement",
-		"resistance": 150,
-		"sensorID": "DefaultSensor1Mk1",
-		"strength": "HARD",
-		"structureModel": [
-			"Blaamnt2.PIE"
-		],
-		"Thermal": 19,
-		"type": "DEFENSE",
-		"weapons": [
-			"RailGun1Mk1-GatAALgt"
-		],
-		"width": 1
-	}, 
 	 "Empl4-Mortar1Mk1-Rail": {
 		"armour": 24,
 		"breadth": 1,
@@ -3885,7 +3863,7 @@
 		"height": 1,
 		"hitpoints": 600,
 		"id": "Empl4-Mortar3ROTARYMk1-Rail",
-		"name": "Empl4-Mortar3ROTARYMk1-Rail",
+		"name": "Pepperpot Rail Pit",
 		"resistance": 100,
 		"sensorID": "DefaultSensor1Mk1",
 		"strength": "HARD",
@@ -3907,7 +3885,7 @@
 		"height": 1,
 		"hitpoints": 600,
 		"id": "Empl4-Mortar3ROTARYMk1-Rail-Inc",
-		"name": "Empl4-Mortar3ROTARYMk1-Rail-Inc",
+		"name": "Pepperpot Incendiary Rail Pit",
 		"resistance": 100,
 		"sensorID": "DefaultSensor1Mk1",
 		"strength": "HARD",
@@ -4679,29 +4657,7 @@
 		"Thermal": 15,
 		"type": "DEFENSE",
 		"weapons": [
-			"Rocket-Pod-MRA"
-		],
-		"width": 1
-	}, 
-	 "Tower3-MG4ROTARYMk1-HvyGss": {
-		"armour": 15,
-		"breadth": 1,
-		"buildPoints": 2400,
-		"buildPower": 275,
-		"height": 2,
-		"hitpoints": 700,
-		"id": "Tower3-MG4ROTARYMk1-HvyGss",
-		"name": "Tower3-MG4ROTARYMk1-HvyGss",
-		"resistance": 100,
-		"sensorID": "TowerSensor",
-		"strength": "MEDIUM",
-		"structureModel": [
-			"Blgrdnex.pie"
-		],
-		"Thermal": 30,
-		"type": "DEFENSE",
-		"weapons": [
-			"MG4ROTARYMk1-HvyGss"
+			"Rocket-Pod-MRA-Quad"
 		],
 		"width": 1
 	}, 
@@ -4881,20 +4837,20 @@
 		],
 		"width": 1
 	}, 
-	 "WallTower-RailGun3Mk1-Aslt": {
+	 "Emplacement-RailGun3Mk1-Aslt": {
 		"armour": 20,
 		"breadth": 1,
 		"buildPoints": 2200,
 		"buildPower": 400,
 		"height": 3,
 		"hitpoints": 600,
-		"id": "WallTower-RailGun3Mk1-Aslt",
-		"name": "WallTower-RailGun3Mk1-Aslt",
+		"id": "Emplacement-RailGun3Mk1-Aslt",
+		"name": "Emplacement-RailGun3Mk1-Aslt",
 		"resistance": 150,
-		"sensorID": "TowerSensor",
+		"sensorID": "EmplacementSensor",
 		"strength": "HARD",
 		"structureModel": [
-			"BLGUARD3.pie"
+			"Blaamnt2ha.PIE"
 		],
 		"Thermal": 16,
 		"type": "DEFENSE",
@@ -5013,28 +4969,6 @@
 		],
 		"width": 1
 	}, 
-	 "WallTower2-Laser3BEAMMk1-Gat": {
-		"armour": 15,
-		"breadth": 1,
-		"buildPoints": 1700,
-		"buildPower": 300,
-		"height": 2,
-		"hitpoints": 1400,
-		"id": "WallTower2-Laser3BEAMMk1-Gat",
-		"name": "WallTower2-Laser3BEAMMk1-Gat",
-		"resistance": 150,
-		"sensorID": "TowerSensor",
-		"strength": "HARD",
-		"structureModel": [
-			"BLGUARD2.pie"
-		],
-		"Thermal": 30,
-		"type": "DEFENSE",
-		"weapons": [
-			"Laser3BEAMMk1-Gat"
-		],
-		"width": 1
-	}, 
 	 "WallTower2-Laser2PULSEMk1-Gat": {
 		"armour": 15,
 		"breadth": 1,
@@ -5054,28 +4988,6 @@
 		"type": "DEFENSE",
 		"weapons": [
 			"Laser2PULSEMk1-Gat"
-		],
-		"width": 1
-	}, 
-	 "WallTower2-Laser3BEAMMk1-Inc": {
-		"armour": 15,
-		"breadth": 1,
-		"buildPoints": 1700,
-		"buildPower": 300,
-		"height": 2,
-		"hitpoints": 1400,
-		"id": "WallTower2-Laser3BEAMMk1-Inc",
-		"name": "WallTower2-Laser3BEAMMk1-Inc",
-		"resistance": 150,
-		"sensorID": "TowerSensor",
-		"strength": "HARD",
-		"structureModel": [
-			"BLGUARD2.pie"
-		],
-		"Thermal": 30,
-		"type": "DEFENSE",
-		"weapons": [
-			"Laser3BEAMMk1-Inc"
 		],
 		"width": 1
 	}, 
@@ -5145,42 +5057,20 @@
 		],
 		"width": 1
 	}, 
-	 "WallTower2-RailGun3Mk1-Aslt": {
-		"armour": 15,
-		"breadth": 1,
-		"buildPoints": 1700,
-		"buildPower": 300,
-		"height": 2,
-		"hitpoints": 1400,
-		"id": "WallTower2-RailGun3Mk1-Aslt",
-		"name": "WallTower2-RailGun3Mk1-Aslt",
-		"resistance": 150,
-		"sensorID": "TowerSensor",
-		"strength": "HARD",
-		"structureModel": [
-			"BLGUARD2.pie"
-		],
-		"Thermal": 30,
-		"type": "DEFENSE",
-		"weapons": [
-			"RailGun3Mk1-Aslt"
-		],
-		"width": 1
-	}, 
-	 "WallTower3-Cannon4AUTOMk1-Hvy-Aslt": {
+	 "Emplacement-Cannon4AUTOMk1-Hvy-Aslt": {
 		"armour": 20,
 		"breadth": 1,
 		"buildPoints": 2200,
 		"buildPower": 400,
 		"height": 3,
 		"hitpoints": 952,
-		"id": "WallTower3-Cannon4AUTOMk1-Hvy-Aslt",
-		"name": "WallTower3-Cannon4AUTOMk1-Hvy-Aslt",
+		"id": "Emplacement-Cannon4AUTOMk1-Hvy-Aslt",
+		"name": "Emplacement-Cannon4AUTOMk1-Hvy-Aslt",
 		"resistance": 150,
-		"sensorID": "TowerSensor",
+		"sensorID": "EmplacementSensor",
 		"strength": "HARD",
 		"structureModel": [
-			"BLGUARD3.pie"
+			"Blaamnt2ha.PIE"
 		],
 		"Thermal": 25,
 		"type": "DEFENSE",
@@ -5321,28 +5211,6 @@
 		],
 		"width": 1
 	}, 
-	 "WallTower3-RailGun1Mk1-Gat": {
-		"armour": 20,
-		"breadth": 1,
-		"buildPoints": 2200,
-		"buildPower": 400,
-		"height": 3,
-		"hitpoints": 952,
-		"id": "WallTower3-RailGun1Mk1-Gat",
-		"name": "WallTower3-RailGun1Mk1-Gat",
-		"resistance": 150,
-		"sensorID": "TowerSensor",
-		"strength": "HARD",
-		"structureModel": [
-			"BLGUARD3.pie"
-		],
-		"Thermal": 25,
-		"type": "DEFENSE",
-		"weapons": [
-			"RailGun1Mk1-Gat"
-		],
-		"width": 1
-	}, 
 	 "WallTower3-RailGun1Mk1-GatAA": {
 		"armour": 25,
 		"breadth": 1,
@@ -5362,28 +5230,6 @@
 		"type": "DEFENSE",
 		"weapons": [
 			"RailGun1Mk1-GatAA"
-		],
-		"width": 1
-	}, 
-	 "WallTower3-RailGun1Mk1-GatAALgt": {
-		"armour": 25,
-		"breadth": 1,
-		"buildPoints": 2600,
-		"buildPower": 400,
-		"height": 3,
-		"hitpoints": 952,
-		"id": "WallTower3-RailGun1Mk1-GatAALgt",
-		"name": "WallTower3-RailGun1Mk1-GatAALgt",
-		"resistance": 150,
-		"sensorID": "TowerSensor",
-		"strength": "HARD",
-		"structureModel": [
-			"BLGUARD4.pie"
-		],
-		"Thermal": 25,
-		"type": "DEFENSE",
-		"weapons": [
-			"RailGun1Mk1-GatAALgt"
 		],
 		"width": 1
 	}, 
@@ -5414,7 +5260,6 @@
 		"breadth": 1,
 		"buildPoints": 2200,
 		"buildPower": 400,
-		"ecmID": "ECMHardpoint",
 		"height": 3,
 		"hitpoints": 952,
 		"id": "WallTower3-Railgun-Lgt",
@@ -5489,7 +5334,7 @@
 		"sensorID": "TowerSensor",
 		"strength": "HARD",
 		"structureModel": [
-			"BLGUARD4.PIE"
+			"BlcaNPil3.pie"
 		],
 		"Thermal": 32,
 		"type": "DEFENSE",
@@ -5498,47 +5343,25 @@
 		],
 		"width": 1
 	}, 
-	 "WallTower4-Laser4-PlasmaCannon-Hvy-Aslt": {
+	 "Emplacement-Laser4-PlasmaCannon-Hvy-Aslt": {
 		"armour": 25,
 		"breadth": 1,
 		"buildPoints": 2600,
 		"buildPower": 400,
 		"height": 3,
 		"hitpoints": 1200,
-		"id": "WallTower4-Laser4-PlasmaCannon-Hvy-Aslt",
-		"name": "WallTower4-Laser4-PlasmaCannon-Hvy-Aslt",
+		"id": "Emplacement-Laser4-PlasmaCannon-Hvy-Aslt",
+		"name": "Emplacement-Laser4-PlasmaCannon-Hvy-Aslt",
 		"resistance": 150,
-		"sensorID": "TowerSensor",
+		"sensorID": "EmplacementSensor",
 		"strength": "HARD",
 		"structureModel": [
-			"BLGUARD4.pie"
+			"Blaamnt2ha.PIE"
 		],
 		"Thermal": 32,
 		"type": "DEFENSE",
 		"weapons": [
 			"Laser4-PlasmaCannon-Hvy-Aslt"
-		],
-		"width": 1
-	}, 
-	 "WallTower4-RailGun1Mk1-Gat": {
-		"armour": 25,
-		"breadth": 1,
-		"buildPoints": 2600,
-		"buildPower": 400,
-		"height": 3,
-		"hitpoints": 1200,
-		"id": "WallTower4-RailGun1Mk1-Gat",
-		"name": "WallTower4-RailGun1Mk1-Gat",
-		"resistance": 150,
-		"sensorID": "TowerSensor",
-		"strength": "HARD",
-		"structureModel": [
-			"BLGUARD4.pie"
-		],
-		"Thermal": 32,
-		"type": "DEFENSE",
-		"weapons": [
-			"RailGun1Mk1-Gat"
 		],
 		"width": 1
 	}, 
@@ -5564,25 +5387,113 @@
 		],
 		"width": 1
 	}, 
-	 "WallTower4-RailGun1Mk1-GatAT": {
+	 "Emplacement-RailGun1Mk1-GatAT": {
 		"armour": 25,
 		"breadth": 1,
 		"buildPoints": 2600,
 		"buildPower": 400,
 		"height": 3,
 		"hitpoints": 1200,
-		"id": "WallTower4-RailGun1Mk1-GatAT",
-		"name": "WallTower4-RailGun1Mk1-GatAT",
+		"id": "Emplacement-RailGun1Mk1-GatAT",
+		"name": "Emplacement-RailGun1Mk1-GatAT",
 		"resistance": 150,
-		"sensorID": "TowerSensor",
+		"sensorID": "EmplacementSensor",
 		"strength": "HARD",
 		"structureModel": [
-			"BLGUARD4.pie"
+			"Blaamnt2ha.PIE"
 		],
 		"Thermal": 32,
 		"type": "DEFENSE",
 		"weapons": [
 			"RailGun1Mk1-GatAT"
+		],
+		"width": 1
+	}, 
+	 "Emplacement-Cannon5VulcanMk1-Hvy": {
+		"armour": 25,
+		"breadth": 1,
+		"buildPoints": 2600,
+		"buildPower": 400,
+		"height": 3,
+		"hitpoints": 1200,
+		"id": "Emplacement-Cannon5VulcanMk1-Hvy",
+		"name": "Emplacement-Cannon5VulcanMk1-Hvy",
+		"resistance": 150,
+		"sensorID": "EmplacementSensor",
+		"strength": "HARD",
+		"structureModel": [
+			"Blaamnt2ha.PIE"
+		],
+		"Thermal": 32,
+		"type": "DEFENSE",
+		"weapons": [
+			"Cannon5VulcanMk1-Hvy"
+		],
+		"width": 1
+	}, 
+	 "Emplacement-Laser4-PlasmaCannon-Hvy-Lsr-Aslt": {
+		"armour": 25,
+		"breadth": 1,
+		"buildPoints": 2600,
+		"buildPower": 400,
+		"height": 3,
+		"hitpoints": 1200,
+		"id": "Emplacement-Laser4-PlasmaCannon-Hvy-Lsr-Aslt",
+		"name": "Emplacement-Laser4-PlasmaCannon-Hvy-Lsr-Aslt",
+		"resistance": 150,
+		"sensorID": "EmplacementSensor",
+		"strength": "HARD",
+		"structureModel": [
+			"Blaamnt2ha.PIE"
+		],
+		"Thermal": 32,
+		"type": "DEFENSE",
+		"weapons": [
+			"Laser4-PlasmaCannon-Hvy-Lsr-Aslt"
+		],
+		"width": 1
+	}, 
+	 "Emplacement-RailGun3Mk1-Hvy": {
+		"armour": 25,
+		"breadth": 1,
+		"buildPoints": 2600,
+		"buildPower": 400,
+		"height": 3,
+		"hitpoints": 1200,
+		"id": "Emplacement-RailGun3Mk1-Hvy",
+		"name": "Emplacement-RailGun3Mk1-Hvy",
+		"resistance": 150,
+		"sensorID": "EmplacementSensor",
+		"strength": "HARD",
+		"structureModel": [
+			"Blaamnt2ha.PIE"
+		],
+		"Thermal": 32,
+		"type": "DEFENSE",
+		"weapons": [
+			"RailGun3Mk1-Hvy"
+		],
+		"width": 1
+	}, 
+	 "Emplacement-Rocket-Arch-Hvy-Aslt-Gat": {
+		"armour": 25,
+		"breadth": 1,
+		"buildPoints": 2600,
+		"buildPower": 400,
+		"height": 3,
+		"hitpoints": 1200,
+		"id": "Emplacement-Rocket-Arch-Hvy-Aslt-Gat",
+		"name": "Emplacement-Rocket-Arch-Hvy-Aslt-Gat",
+		"resistance": 150,
+		"sensorID": "EmplacementSensor",
+		"strength": "HARD",
+		"structureModel": [
+			"Blaamnt2ha.PIE"
+		],
+		"Thermal": 32,
+		"type": "DEFENSE",
+		"weapons": [
+			"Rocket-Arch-Hvy-Aslt-Gat"
 		],
 		"width": 1
 	}, 
@@ -5603,28 +5514,6 @@
 		],
 		"Thermal": 8,
 		"type": "DEFENSE",
-		"width": 1
-	}, 
-	 "Plasteel-RailGun3Mk1-Aslt": {
-		"armour": 20,
-		"breadth": 1,
-		"buildPoints": 2200,
-		"buildPower": 400,
-		"height": 3,
-		"hitpoints": 600,
-		"id": "Plasteel-RailGun3Mk1-Aslt",
-		"name": "Plasteel-RailGun3Mk1-Aslt",
-		"resistance": 150,
-		"sensorID": "TowerSensor",
-		"strength": "HARD",
-		"structureModel": [
-			"BLGUARD1ar.pie"
-		],
-		"Thermal": 16,
-		"type": "DEFENSE",
-		"weapons": [
-			"RailGun3Mk1-Aslt"
-		],
 		"width": 1
 	}
 }
