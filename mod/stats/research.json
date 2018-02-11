@@ -467,15 +467,27 @@
         ],
         "researchPoints": 16000,
         "researchPower": 765,
-        "resultStructures": [
-            "A0CyborgFactoryMech"        
-        ],
-            "resultComponents": [
+        "resultComponents": [
             "CyborgMecha",
             "MechLegs"
         ]
     }, 
-     "R-Cyborg-MechaCannon": {
+     "R-Struc-Factory-Cyborg-Mech": {
+        "iconID": "IMAGE_RES_STRUCTURETECH",
+        "id": "R-Struc-Factory-Cyborg-Mech",
+        "imdName": "blcfact1ha.pie",
+        "msgName": "RES_ST_FCY1",
+        "name": "Mech Cyborg Factory",
+        "requiredResearch": [
+            "R-Cyborg-MechaBody"
+        ],
+        "researchPoints": 10000,
+        "researchPower": 525,
+        "resultStructures": [
+            "A0CyborgFactoryMech"
+            ]
+    },
+        "R-Cyborg-MechaCannon": {
         "iconID": "IMAGE_RES_CYBORGTECH",
         "id": "R-Cyborg-MechaCannon",
         "keyTopic": 1,
@@ -939,7 +951,7 @@
             "Cyb-Hvywpn-MG3-AR",
             "Cyb-Hvywpn-MG3"
         ],
-        "statID": "Cyb-Hvywpn-MG3"
+        "statID": "MG3Mk1"
     }, 
      "R-Cyborg-Hvywpn-MG4": {
         "iconID": "IMAGE_RES_CYBORGTECH",
@@ -2136,7 +2148,7 @@
         "name": "Mini-Rocket Tower",
         "requiredResearch": [
             "R-Defense-HardcreteWall", 
-            "R-Wpn-Rocket05-MiniPod"
+            "R-Wpn-Rocket-Pod-Quad"
         ],
         "researchPoints": 1500,
         "researchPower": 95,
@@ -2310,7 +2322,7 @@
         "iconID": "IMAGE_RES_DEFENCE",
         "id": "R-Defense-WallTower-HvyA-Trocket",
         "msgName": "RES_WT12_HAT",
-        "name": "Tank Killer Hardpoint",
+        "name": "Tank Killer Tower",
         "redStructures": [
             "WallTower06"
         ],
@@ -6390,7 +6402,7 @@
             "Bomb4-VTOL-HvyINC",
             "Bomb4-VTOL-HvyINC-Mass"
         ],
-        "statID": "Bomb4-VTOL-HvyINC-Mass"
+        "statID": "Bomb4-VTOL-HvyINC"
     }, 
      "R-Wpn-Bomb05": {
         "iconID": "IMAGE_RES_WEAPONTECH",
@@ -8543,7 +8555,8 @@
         ],
         "requiredResearch": [
             "R-Wpn-Howitzer03-Rot", 
-            "R-Wpn-Howitzer-Incenediary"
+            "R-Wpn-Howitzer-Incenediary", 
+            "R-Wpn-Mortar03-Incenediary"
             ],
         "researchPoints": 18000,
         "researchPower": 1300,
@@ -8616,7 +8629,8 @@
         "name": "Hellstorm Ramjet",
         "requiredResearch": [
             "R-Wpn-Howitzer03-Rot", 
-            "R-Wpn-Howitzer-Range01"
+            "R-Wpn-Howitzer-Range01", 
+            "R-Wpn-Mortar-Range03"
         ],
         "researchPoints": 18000,
         "researchPower": 1300,
@@ -8919,7 +8933,8 @@
         "requiredResearch": [
             "R-Wpn-Flamer-Damage06", 
             "R-Wpn-HowitzerMk1", 
-            "R-Wpn-Mortar-Incenediary"
+            "R-Wpn-Mortar-Incenediary", 
+            "R-Wpn-Mortar02-Incenediary"
         ],
         "researchPoints": 10000,
         "researchPower": 720,
@@ -9287,7 +9302,8 @@
             "Howitzer105Mk1-Ram"
         ],
         "requiredResearch": [
-            "R-Wpn-Howitzer-Range02"
+            "R-Wpn-Howitzer-Range03", 
+            "R-Wpn-Mortar-Range02"
             ],
         "researchPoints": 18000,
         "researchPower": 1300,
@@ -9324,7 +9340,8 @@
             "Howitzer150Mk1-Inc"
         ],
         "requiredResearch": [
-            "R-Wpn-HvyHowitzer"
+            "R-Wpn-HvyHowitzer", 
+            "R-Wpn-HvyHowitzer-Inc"
             ],
         "researchPoints": 18000,
         "researchPower": 1300,
@@ -9634,7 +9651,8 @@
         "name": "Seraph Missile Array",
         "requiredResearch": [
             "R-Wpn-Missile2A-T", 
-            "R-Wpn-Rocket02-MRL"
+            "R-Wpn-Rocket05-MiniPod-Arch", 
+            "R-Wpn-Rocket-Range03"
         ],
         "researchPoints": 14400,
         "researchPower": 1040,
@@ -12145,7 +12163,8 @@
         "msgName": "RES_W_RK_MR_QD",
         "name": "Quad Rocket Array",
         "requiredResearch": [
-            "R-Wpn-Rocket02-MRL"
+            "R-Wpn-Rocket02-MRL", 
+            "R-Wpn-Rocket-Pod-MRA"
         ],
         "researchPoints": 3200,
         "researchPower": 225,
