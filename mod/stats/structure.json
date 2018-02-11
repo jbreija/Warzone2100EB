@@ -1469,7 +1469,7 @@
 		"id": "GuardTower-ATMiss",
 		"name": "Quad Scourge Missile Tower",
 		"resistance": 150,
-		"sensorID": "TowerSensor",
+		"sensorID": "TowerSensor03",
 		"strength": "MEDIUM",
 		"structureModel": [
 			"Blgrdnex.PIE"
@@ -1491,7 +1491,7 @@
 		"id": "GuardTower-BeamLas",
 		"name": "Pulse Laser Tower",
 		"resistance": 150,
-		"sensorID": "TowerSensor",
+		"sensorID": "TowerSensor03",
 		"strength": "MEDIUM",
 		"structureModel": [
 			"Blgrdnex.PIE"
@@ -1513,7 +1513,7 @@
 		"id": "GuardTower-Rail1",
 		"name": "Needle Gun Tower",
 		"resistance": 150,
-		"sensorID": "TowerSensor",
+		"sensorID": "TowerSensor03",
 		"strength": "MEDIUM",
 		"structureModel": [
 			"Blgrdnex.PIE"
@@ -1535,7 +1535,7 @@
 		"id": "GuardTower-RotMg",
 		"name": "Assault Gun Tower",
 		"resistance": 150,
-		"sensorID": "TowerSensor",
+		"sensorID": "TowerSensor02",
 		"strength": "MEDIUM",
 		"structureModel": [
 			"blguardr.pie"
@@ -2412,7 +2412,7 @@
 		"id": "Tower-VulcanCan",
 		"name": "Assault Cannon Guard Tower",
 		"resistance": 150,
-		"sensorID": "TowerSensor",
+		"sensorID": "TowerSensor02",
 		"strength": "MEDIUM",
 		"structureModel": [
 			"BLGUARDR.PIE"
@@ -2452,7 +2452,7 @@
 		"id": "Wall-RotMg",
 		"name": "Assault Gun Hardpoint",
 		"resistance": 150,
-		"sensorID": "HardpointSensor",
+		"sensorID": "HardpointSensor02",
 		"strength": "HARD",
 		"structureModel": [
 			"BLGUARD2.pie"
@@ -2474,7 +2474,7 @@
 		"id": "Wall-VulcanCan",
 		"name": "Assault Cannon Hardpoint",
 		"resistance": 150,
-		"sensorID": "HardpointSensor",
+		"sensorID": "HardpointSensor02",
 		"strength": "HARD",
 		"structureModel": [
 			"BLGUARD2.pie"
@@ -2496,7 +2496,7 @@
 		"id": "WallTower-Atmiss",
 		"name": "Scourge Missile Hardpoint",
 		"resistance": 150,
-		"sensorID": "HardpointSensor",
+		"sensorID": "HardpointSensor03",
 		"strength": "HARD",
 		"structureModel": [
 			"BLGUARD3.pie"
@@ -2518,7 +2518,7 @@
 		"id": "WallTower-DoubleAAGun",
 		"name": "AA Flak Cannon Hardpoint",
 		"resistance": 150,
-		"sensorID": "HardpointSensor",
+		"sensorID": "HardpointSensor02",
 		"strength": "HARD",
 		"structureModel": [
 			"BLGUARD2.pie"
@@ -2540,7 +2540,7 @@
 		"id": "WallTower-EMP",
 		"name": "EMP Cannon Tower",
 		"resistance": 150,
-		"sensorID": "DefaultSensor1Mk1",
+		"sensorID": "HardpointSensor03",
 		"strength": "HARD",
 		"structureModel": [
 			"BLGUARD3.pie"
@@ -2562,7 +2562,7 @@
 		"id": "WallTower-HPVcannon",
 		"name": "Hyper Velocity Cannon Hardpoint",
 		"resistance": 150,
-		"sensorID": "HardpointSensor",
+		"sensorID": "HardpointSensor02",
 		"strength": "HARD",
 		"structureModel": [
 			"BLGUARD2.pie"
@@ -2584,7 +2584,7 @@
 		"id": "WallTower-HvATrocket",
 		"name": "Supercrete Tank Killer Tower",
 		"resistance": 150,
-		"sensorID": "HardpointSensor",
+		"sensorID": "TowerSensor02",
 		"strength": "HARD",
 		"structureModel": [
 			"blguardr.pie"
@@ -2628,7 +2628,7 @@
 		"id": "WallTower-PulseLas",
 		"name": "Pulse Laser Hardpoint",
 		"resistance": 150,
-		"sensorID": "HardpointSensor",
+		"sensorID": "HardpointSensor03",
 		"strength": "HARD",
 		"structureModel": [
 			"BLGUARD3.pie"
@@ -2650,7 +2650,7 @@
 		"id": "WallTower-QuadRotAAGun",
 		"name": "Whirlwind Hardpoint",
 		"resistance": 150,
-		"sensorID": "HardpointSensor",
+		"sensorID": "HardpointSensor02",
 		"strength": "HARD",
 		"structureModel": [
 			"BLGUARD2.pie"
@@ -2672,7 +2672,7 @@
 		"id": "WallTower-Rail2",
 		"name": "Rail Gun Hardpoint",
 		"resistance": 150,
-		"sensorID": "HardpointSensor",
+		"sensorID": "HardpointSensor03",
 		"strength": "HARD",
 		"structureModel": [
 			"BLGUARD3.pie"
@@ -2694,7 +2694,7 @@
 		"id": "WallTower-Rail3",
 		"name": "Gauss Cannon Hardpoint",
 		"resistance": 150,
-		"sensorID": "HardpointSensor",
+		"sensorID": "HardpointSensor03",
 		"strength": "HARD",
 		"structureModel": [
 			"BLGUARD3.pie"
@@ -2716,7 +2716,7 @@
 		"id": "WallTower-SamHvy",
 		"name": "Vindicator Hardpoint",
 		"resistance": 150,
-		"sensorID": "HardpointSensor",
+		"sensorID": "HardpointSensor03",
 		"strength": "HARD",
 		"structureModel": [
 			"BLGUARD3.pie"
@@ -2738,7 +2738,7 @@
 		"id": "WallTower-SamSite",
 		"name": "Avenger Hardpoint",
 		"resistance": 150,
-		"sensorID": "HardpointSensor",
+		"sensorID": "HardpointSensor02",
 		"strength": "HARD",
 		"structureModel": [
 			"BLGUARD2.pie"
@@ -2760,7 +2760,7 @@
 		"id": "WallTower-TwinAssaultGun",
 		"name": "Twin Assault Gun Hardpoint",
 		"resistance": 150,
-		"sensorID": "HardpointSensor",
+		"sensorID": "HardpointSensor03",
 		"strength": "HARD",
 		"structureModel": [
 			"BLGUARD3.pie"
@@ -2826,7 +2826,7 @@
 		"id": "WallTower03",
 		"name": "Medium Cannon Hardpoint",
 		"resistance": 150,
-		"sensorID": "HardpointSensor",
+		"sensorID": "HardpointSensor02",
 		"strength": "HARD",
 		"structureModel": [
 			"BLGUARD2.pie"
@@ -2848,7 +2848,7 @@
 		"id": "WallTower04",
 		"name": "Heavy Cannon Hardpoint",
 		"resistance": 150,
-		"sensorID": "HardpointSensor",
+		"sensorID": "HardpointSensor02",
 		"strength": "HARD",
 		"structureModel": [
 			"BLGUARD2.pie"
@@ -4473,7 +4473,7 @@
 		"id": "Tower-MG4ROTARYMk1-Hvy",
 		"name": "Tower-MG4ROTARYMk1-Hvy",
 		"resistance": 100,
-		"sensorID": "TowerSensor",
+		"sensorID": "TowerSensor02",
 		"strength": "MEDIUM",
 		"structureModel": [
 			"BLGUARDR.pie"
@@ -4583,7 +4583,7 @@
 		"id": "Tower2-Laser3BEAMMk1-Gat",
 		"name": "Flashlight Tower",
 		"resistance": 100,
-		"sensorID": "TowerSensor",
+		"sensorID": "TowerSensor03",
 		"strength": "MEDIUM",
 		"structureModel": [
 			"Blgrdnex.PIE"
@@ -4671,7 +4671,7 @@
 		"id": "Tower3-Railgun-Med",
 		"name": "Tower3-Railgun-Med",
 		"resistance": 100,
-		"sensorID": "TowerSensor",
+		"sensorID": "TowerSensor03",
 		"strength": "MEDIUM",
 		"structureModel": [
 			"Blgrdnex.pie"
@@ -4693,7 +4693,7 @@
 		"id": "Tower3-RailGun2Mk1-Aslt",
 		"name": "Tower3-RailGun2Mk1-Aslt",
 		"resistance": 100,
-		"sensorID": "TowerSensor",
+		"sensorID": "TowerSensor03",
 		"strength": "MEDIUM",
 		"structureModel": [
 			"Blgrdnex.pie"
@@ -4737,7 +4737,7 @@
 		"id": "WallTower-Cannon-TwinAslt",
 		"name": "WallTower-Cannon-TwinAslt",
 		"resistance": 150,
-		"sensorID": "TowerSensor",
+		"sensorID": "HardpointSensor02",
 		"strength": "HARD",
 		"structureModel": [
 			"BLGUARD2.pie"
@@ -4759,7 +4759,7 @@
 		"id": "WallTower-AAGunLaser-Lng",
 		"name": "WallTower-AAGunLaser-Lng",
 		"resistance": 150,
-		"sensorID": "TowerSensor",
+		"sensorID": "HardpointSensor02",
 		"strength": "HARD",
 		"structureModel": [
 			"BLGUARD2.pie"
@@ -4781,7 +4781,7 @@
 		"id": "WallTower-MG4ROTARYMk1-Hvy",
 		"name": "WallTower-MG4ROTARYMk1-Hvy",
 		"resistance": 150,
-		"sensorID": "TowerSensor",
+		"sensorID": "HardpointSensor02",
 		"strength": "HARD",
 		"structureModel": [
 			"BLGUARD2.pie"
@@ -4803,7 +4803,7 @@
 		"id": "WallTower-MG5TWINROTARY-Hvy",
 		"name": "WallTower-MG5TWINROTARY-Hvy",
 		"resistance": 150,
-		"sensorID": "TowerSensor",
+		"sensorID": "HardpointSensor02",
 		"strength": "HARD",
 		"structureModel": [
 			"BLGUARD2.pie"
@@ -4825,7 +4825,7 @@
 		"id": "WallTower-MG3Mk1-Twn",
 		"name": "WallTower-MG3Mk1-Twn",
 		"resistance": 150,
-		"sensorID": "TowerSensor",
+		"sensorID": "HardpointSensor",
 		"strength": "HARD",
 		"structureModel": [
 			"BLGUARD1.pie"
@@ -4869,7 +4869,7 @@
 		"id": "WallTower2-Cannon5VulcanMk1-Gat",
 		"name": "WallTower2-Cannon5VulcanMk1-Gat",
 		"resistance": 150,
-		"sensorID": "TowerSensor",
+		"sensorID": "HardpointSensor02",
 		"strength": "HARD",
 		"structureModel": [
 			"BLGUARD2.pie"
@@ -4891,7 +4891,7 @@
 		"id": "WallTower2-Cannon5VulcanMk1-Inc",
 		"name": "WallTower2-Cannon5VulcanMk1-Inc",
 		"resistance": 150,
-		"sensorID": "TowerSensor",
+		"sensorID": "HardpointSensor02",
 		"strength": "HARD",
 		"structureModel": [
 			"BLGUARD2.pie"
@@ -4913,7 +4913,7 @@
 		"id": "WallTower2-Cannon4AUTOMk1-Hvy-Inc",
 		"name": "WallTower2-Cannon4AUTOMk1-Hvy-Inc",
 		"resistance": 150,
-		"sensorID": "TowerSensor",
+		"sensorID": "HardpointSensor02",
 		"strength": "HARD",
 		"structureModel": [
 			"BLGUARD2.pie"
@@ -4935,7 +4935,7 @@
 		"id": "WallTower2-Cannon4AUTOMk1-Inc",
 		"name": "WallTower2-Cannon4AUTOMk1-Inc",
 		"resistance": 150,
-		"sensorID": "TowerSensor",
+		"sensorID": "HardpointSensor02",
 		"strength": "HARD",
 		"structureModel": [
 			"BLGUARD2.pie"
@@ -4957,7 +4957,7 @@
 		"id": "WallTower2-MG3Mk1-Aslt",
 		"name": "WallTower2-MG3Mk1-Aslt",
 		"resistance": 150,
-		"sensorID": "TowerSensor",
+		"sensorID": "HardpointSensor02",
 		"strength": "HARD",
 		"structureModel": [
 			"BLGUARD2.pie"
@@ -4979,7 +4979,7 @@
 		"id": "WallTower2-Laser2PULSEMk1-Gat",
 		"name": "WallTower2-Laser2PULSEMk1-Gat",
 		"resistance": 150,
-		"sensorID": "TowerSensor",
+		"sensorID": "HardpointSensor02",
 		"strength": "HARD",
 		"structureModel": [
 			"BLGUARD2.pie"
@@ -5001,7 +5001,7 @@
 		"id": "WallTower2-Laser2PULSEMk1-Inc-Aslt",
 		"name": "WallTower2-Laser2PULSEMk1-Inc-Aslt",
 		"resistance": 150,
-		"sensorID": "TowerSensor",
+		"sensorID": "HardpointSensor02",
 		"strength": "HARD",
 		"structureModel": [
 			"BLGUARD2.pie"
@@ -5023,7 +5023,7 @@
 		"id": "WallTower2-MG4ROTARYMk1-Hvy-Inc",
 		"name": "WallTower2-MG4ROTARYMk1-Hvy-Inc",
 		"resistance": 150,
-		"sensorID": "TowerSensor",
+		"sensorID": "HardpointSensor02",
 		"strength": "HARD",
 		"structureModel": [
 			"BLGUARD2.pie"
@@ -5045,7 +5045,7 @@
 		"id": "WallTower2-MG5TWINROTARY-Hvy-Inc",
 		"name": "WallTower2-MG5TWINROTARY-Hvy-Inc",
 		"resistance": 150,
-		"sensorID": "TowerSensor",
+		"sensorID": "HardpointSensor02",
 		"strength": "HARD",
 		"structureModel": [
 			"BLGUARD2.pie"
@@ -5089,7 +5089,7 @@
 		"id": "WallTower3-Laser2PULSEMk1-Med",
 		"name": "WallTower3-Laser2PULSEMk1-Med",
 		"resistance": 150,
-		"sensorID": "TowerSensor",
+		"sensorID": "HardpointSensor03",
 		"strength": "HARD",
 		"structureModel": [
 			"BLGUARD3.pie"
@@ -5111,7 +5111,7 @@
 		"id": "WallTower3-HeavyLaser-Gat",
 		"name": "WallTower3-HeavyLaser-Gat",
 		"resistance": 150,
-		"sensorID": "TowerSensor",
+		"sensorID": "HardpointSensor03",
 		"strength": "HARD",
 		"structureModel": [
 			"BLGUARD3.pie"
@@ -5133,7 +5133,7 @@
 		"id": "WallTower3-Laser2PULSEMk1-Inc",
 		"name": "WallTower3-Laser2PULSEMk1-Inc",
 		"resistance": 150,
-		"sensorID": "TowerSensor",
+		"sensorID": "HardpointSensor03",
 		"strength": "HARD",
 		"structureModel": [
 			"BLGUARD3.pie"
@@ -5155,7 +5155,7 @@
 		"id": "WallTower3-HeavyLaser-Inc-Aslt",
 		"name": "WallTower3-HeavyLaser-Inc-Aslt",
 		"resistance": 150,
-		"sensorID": "TowerSensor",
+		"sensorID": "HardpointSensor03",
 		"strength": "HARD",
 		"structureModel": [
 			"BLGUARD3.pie"
@@ -5177,7 +5177,7 @@
 		"id": "WallTower3-Cannon6TwinAslt-Rail",
 		"name": "WallTower3-Cannon6TwinAslt-Rail",
 		"resistance": 150,
-		"sensorID": "TowerSensor",
+		"sensorID": "HardpointSensor03",
 		"strength": "HARD",
 		"structureModel": [
 			"BLGUARD3.pie"
@@ -5199,7 +5199,7 @@
 		"id": "WallTower3-Railgun-Flak",
 		"name": "WallTower3-Railgun-Flak",
 		"resistance": 150,
-		"sensorID": "TowerSensor",
+		"sensorID": "HardpointSensor03",
 		"strength": "HARD",
 		"structureModel": [
 			"BLGUARD3.pie"
@@ -5221,7 +5221,7 @@
 		"id": "WallTower3-RailGun1Mk1-GatAA",
 		"name": "WallTower3-RailGun1Mk1-GatAA",
 		"resistance": 150,
-		"sensorID": "TowerSensor",
+		"sensorID": "HardpointSensor03",
 		"strength": "HARD",
 		"structureModel": [
 			"BLGUARD4.pie"
@@ -5243,7 +5243,7 @@
 		"id": "WallTower3-RailGun1Mk1-Gat-Twn",
 		"name": "WallTower3-RailGun1Mk1-Gat-Twn",
 		"resistance": 150,
-		"sensorID": "TowerSensor",
+		"sensorID": "HardpointSensor03",
 		"strength": "HARD",
 		"structureModel": [
 			"BLGUARD3.pie"
@@ -5265,7 +5265,7 @@
 		"id": "WallTower3-Railgun-Lgt",
 		"name": "WallTower3-Railgun-Lgt",
 		"resistance": 150,
-		"sensorID": "TowerSensor",
+		"sensorID": "HardpointSensor03",
 		"strength": "HARD",
 		"structureModel": [
 			"BLGUARD3.pie"
@@ -5287,7 +5287,7 @@
 		"id": "WallTower3-RailGun2Mk1-Aslt",
 		"name": "WallTower3-RailGun2Mk1-Aslt",
 		"resistance": 150,
-		"sensorID": "TowerSensor",
+		"sensorID": "HardpointSensor03",
 		"strength": "HARD",
 		"structureModel": [
 			"BLGUARD3.pie"
@@ -5309,7 +5309,7 @@
 		"id": "WallTower3-RailGun2Mk1-Twn-Inc",
 		"name": "WallTower3-RailGun2Mk1-Twn-Inc",
 		"resistance": 150,
-		"sensorID": "TowerSensor",
+		"sensorID": "HardpointSensor03",
 		"strength": "HARD",
 		"structureModel": [
 			"BLGUARD3.pie"
@@ -5375,7 +5375,7 @@
 		"id": "WallTower4-RailGun1Mk1-GatAA",
 		"name": "WallTower4-RailGun1Mk1-GatAA",
 		"resistance": 150,
-		"sensorID": "TowerSensor",
+		"sensorID": "HardpointSensor03",
 		"strength": "HARD",
 		"structureModel": [
 			"BLGUARD4.pie"
@@ -5507,7 +5507,7 @@
 		"id": "WindFarm",
 		"name": "WindFarm",
 		"resistance": 100,
-		"sensorID": "WindTurbine",
+		"sensorID": "DefaultSensor1Mk1",
 		"strength": "MEDIUM",
 		"structureModel": [
 			"blwindbase.pie"

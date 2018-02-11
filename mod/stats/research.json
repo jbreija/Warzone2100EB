@@ -1814,7 +1814,7 @@
         "name": "Lancer Tower",
         "requiredResearch": [
             "R-Defense-HardcreteWall", 
-            "R-Wpn-Rocket01-LtAT"
+            "R-Wpn-Rocket01-LtAT-Quad"
         ],
         "researchPoints": 1500,
         "researchPower": 95,
@@ -7250,8 +7250,8 @@
         "msgName": "RES_W_CN_MN1",
         "name": "Augmented Cannon Turret",
         "requiredResearch": [
-            "R-Wpn-Cannon6TwinAslt", 
-            "R-Wpn-Cannon-ROF04"
+            "R-Wpn-Cannon-Damage04", 
+            "R-Wpn-Cannon2Mk1"
         ],
         "researchPoints": 5000,
         "researchPower": 250,
@@ -7333,7 +7333,21 @@
             "R-Wpn-Cannon3Mk1"
         ],
         "researchPoints": 12200,
-        "researchPower": 600
+        "researchPower": 600,
+        "resultComponents": [
+            "Cannon5VulcanMk1-Hvy"
+        ],
+        "results": [
+            {
+                "class": "Weapon",
+                "filterParameter": "ImpactClass",
+                "filterValue": "CANNON",
+                "parameter": "MaxRange",
+                "value": 9
+            }
+        ],
+        "statID": "Cannon5VulcanMk1-Hvy",
+        "subgroupIconID": "IMAGE_RES_GRPUPG"
     }, 
      "R-Wpn-Cannon-ROF01": {
         "iconID": "IMAGE_RES_WEAPONTECH",
@@ -10568,7 +10582,8 @@
         ],
         "requiredResearch": [
             "R-Wpn-RailGun01", 
-            "R-Wpn-Mortar02Hvy"
+            "R-Wpn-Mortar02Hvy", 
+            "R-Wpn-Mortar01Lt-Rail"
             ],
         "researchPoints": 8000,
         "researchPower": 615,
@@ -10628,7 +10643,8 @@
         ],
         "requiredResearch": [
             "R-Wpn-RailGun01", 
-            "R-Wpn-Mortar3"
+            "R-Wpn-Mortar3", 
+            "R-Wpn-Mortar01Lt-Rail"
             ],
         "researchPoints": 8000,
         "researchPower": 615,
@@ -11049,7 +11065,7 @@
         "name": "Mortar Ramjet",
         "requiredResearch": [
             "R-Struc-Research-Module", 
-            "R-Wpn-Mortar-Acc01"
+            "R-Wpn-Mortar02Hvy"
         ],
         "researchPoints": 4500,
         "researchPower": 265,

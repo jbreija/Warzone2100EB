@@ -77,30 +77,6 @@
 		"range": 2048,
 		"type": "STANDARD"
 	}, 
-	 "HardpointSensor": {
-		"id": "HardpointSensor",
-		"location": "DEFAULT",
-		"name": "*Hardpoint Sensor*",
-		"power": 500,
-		"range": 1280,
-		"type": "STANDARD"
-	}, 
-	 "BunkerSensor": {
-		"id": "BunkerSensor",
-		"location": "DEFAULT",
-		"name": "*Bunker Sensor*",
-		"power": 500,
-		"range": 1088,
-		"type": "STANDARD"
-	}, 
-	 "EmplacementSensor": {
-		"id": "EmplacementSensor",
-		"location": "DEFAULT",
-		"name": "*Emplacement Sensor*",
-		"power": 500,
-		"range": 1152,
-		"type": "STANDARD"
-	}, 
 	 "RadarDetector": {
 		"buildPoints": 100,
 		"buildPower": 20,
@@ -289,6 +265,78 @@
 		"range": 1408,
 		"type": "STANDARD"
 	}, 
+	 "TowerSensor02": {
+		"id": "TowerSensor",
+		"location": "DEFAULT",
+		"name": "*Tower Sensor02*",
+		"power": 500,
+		"range": 1600,
+		"type": "STANDARD"
+	}, 
+	 "TowerSensor03": {
+		"id": "TowerSensor",
+		"location": "DEFAULT",
+		"name": "*Tower Sensor03*",
+		"power": 500,
+		"range": 1856,
+		"type": "STANDARD"
+	}, 
+	 "TowerSensor04": {
+		"id": "TowerSensor",
+		"location": "DEFAULT",
+		"name": "*Tower Sensor04*",
+		"power": 500,
+		"range": 2176,
+		"type": "STANDARD"
+	}, 
+	 "HardpointSensor": {
+		"id": "HardpointSensor",
+		"location": "DEFAULT",
+		"name": "*Hardpoint Sensor*",
+		"power": 500,
+		"range": 1152,
+		"type": "STANDARD"
+	}, 
+	 "HardpointSensor02": {
+		"id": "HardpointSensor02",
+		"location": "DEFAULT",
+		"name": "*Hardpoint Sensor02*",
+		"power": 500,
+		"range": 1280,
+		"type": "STANDARD"
+	}, 
+	 "HardpointSensor03": {
+		"id": "HardpointSensor03",
+		"location": "DEFAULT",
+		"name": "*Hardpoint Sensor03*",
+		"power": 500,
+		"range": 1408,
+		"type": "STANDARD"
+	}, 
+	 "HardpointSensor04": {
+		"id": "HardpointSensor04",
+		"location": "DEFAULT",
+		"name": "*Hardpoint Sensor04*",
+		"power": 500,
+		"range": 1664,
+		"type": "STANDARD"
+	}, 
+	 "BunkerSensor": {
+		"id": "BunkerSensor",
+		"location": "DEFAULT",
+		"name": "*Bunker Sensor*",
+		"power": 500,
+		"range": 1088,
+		"type": "STANDARD"
+	}, 
+	 "EmplacementSensor": {
+		"id": "EmplacementSensor",
+		"location": "DEFAULT",
+		"name": "*Emplacement Sensor*",
+		"power": 500,
+		"range": 1152,
+		"type": "STANDARD"
+	}, 
 	 "UplinkSensor": {
 		"buildPoints": 1,
 		"buildPower": 1,
@@ -327,17 +375,5 @@
 		"sensorModel": "RADARSENSORHVY.PIE",
 		"type": "RADAR DETECTOR",
 		"weight": 7999
-	}, 
-	 "WindTurbine": {
-		"buildPoints": 1,
-		"buildPower": 1,
-		"id": "WindTurbine",
-		"location": "TURRET",
-		"name": "WindTurbine",
-		"power": 100,
-		"range": 512,
-		"sensorModel": "windturbine.PIE",
-		"type": "STANDARD",
-		"weight": 2000
 	}
 }

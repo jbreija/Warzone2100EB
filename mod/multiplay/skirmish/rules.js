@@ -197,7 +197,7 @@ function eventGameInit()
 		"R-Wpn-Rocket05-MiniPod",
 		"R-Wpn-MG-Damage01",
 		"R-Defense-WallTower01",
-		"R-Defense-Tower06",
+		"R-Defense-Tower08",
 		"R-Wpn-Rocket-Damage01",	
 		"R-Sys-MobileRepairTurretHvy", 
 		"R-Vehicle-Body04", 
