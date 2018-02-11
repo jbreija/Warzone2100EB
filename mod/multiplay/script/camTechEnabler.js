@@ -258,10 +258,7 @@ const TECH_THREE = [
      "R-Wpn-Flamer-ROF02",
      "R-Wpn-Howitzer-Accuracy01",
      "R-Wpn-Howitzer-Damage01",
-     "R-Wpn-Howitzer-Damage02",
      "R-Wpn-HowitzerMk1",
-     "R-Wpn-Howitzer-ROF01",
-     "R-Wpn-Howitzer-ROF02",
      "R-Wpn-MG-ROF02",
      "R-Wpn-Mortar3",
      "R-Wpn-Mortar-Damage04",
@@ -304,7 +301,6 @@ const TECH_THREE = [
      "R-Wpn-Flamer-Damage06",
      "R-Wpn-Flamer-ROF03",
      "R-Wpn-Howitzer-Accuracy02",
-     "R-Wpn-Howitzer-ROF03",
      "R-Wpn-MG4",
      "R-Wpn-MG-ROF03",
      "R-Wpn-Mortar-Acc02",
@@ -390,6 +386,9 @@ const TECH_THREE = [
 	"R-Cyborg-Hvywpn-MG3",
 	"R-Wpn-MG4-Hvy",
 	"R-SuperTransport",
+	"R-Wpn-Cannon-Mount01",
+	"R-Wpn-MG4-Hvy-Inc",
+	"R-Wpn-Cannon5-Inc",
 ];
 
 //Automatically research these items for the player.

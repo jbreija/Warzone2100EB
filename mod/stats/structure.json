@@ -4507,28 +4507,6 @@
 		],
 		"width": 1
 	}, 
-	 "Tower2-Cannon4AUTOMk1-Inc": {
-		"armour": 15,
-		"breadth": 1,
-		"buildPoints": 1300,
-		"buildPower": 175,
-		"height": 3,
-		"hitpoints": 378,
-		"id": "Tower2-Cannon4AUTOMk1-Inc",
-		"name": "Tower2-Cannon4AUTOMk1-Inc",
-		"resistance": 150,
-		"sensorID": "TowerSensor",
-		"strength": "MEDIUM",
-		"structureModel": [
-			"blguardn.PIE"
-		],
-		"Thermal": 15,
-		"type": "DEFENSE",
-		"weapons": [
-			"Cannon4AUTOMk1-Inc-Aslt"
-		],
-		"width": 1
-	}, 
 	 "Tower2-MG3Mk1-Aslt": {
 		"armour": 15,
 		"breadth": 1,
@@ -4922,28 +4900,6 @@
 		"type": "DEFENSE",
 		"weapons": [
 			"Cannon4AUTOMk1-Hvy-Inc"
-		],
-		"width": 1
-	}, 
-	 "WallTower2-Cannon4AUTOMk1-Inc": {
-		"armour": 15,
-		"breadth": 1,
-		"buildPoints": 1700,
-		"buildPower": 300,
-		"height": 2,
-		"hitpoints": 1400,
-		"id": "WallTower2-Cannon4AUTOMk1-Inc",
-		"name": "WallTower2-Cannon4AUTOMk1-Inc",
-		"resistance": 150,
-		"sensorID": "HardpointSensor02",
-		"strength": "HARD",
-		"structureModel": [
-			"BLGUARD2.pie"
-		],
-		"Thermal": 30,
-		"type": "DEFENSE",
-		"weapons": [
-			"Cannon4AUTOMk1-Inc-Aslt"
 		],
 		"width": 1
 	}, 

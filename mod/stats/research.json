@@ -1577,7 +1577,7 @@
         "msgName": "RES_EMP_HVATR",
         "name": "Tank Killer Emplacement",
         "requiredResearch": [
-            "R-Wpn-Rocket07-Tank-Killer"
+            "R-Wpn-Rocket07-Tank-Killer-Quad"
         ],
         "researchPoints": 4800,
         "researchPower": 275,
@@ -2331,7 +2331,7 @@
             "WallTower06"
         ],
         "requiredResearch": [
-            "R-Wpn-Rocket07-Tank-Killer", 
+            "R-Wpn-Rocket07-Tank-Killer-Quad", 
             "R-Defense-WallUpgrade04"
             ],
         "researchPoints": 4800,
@@ -6882,7 +6882,6 @@
         "researchPower": 530,
         "resultComponents": [
             "Cannon5VulcanMk1-Inc",
-            "Cannon4AUTOMk1-Inc-Aslt",
             "Cannon4AUTOMk1-Inc"
         ],
         "statID": "Cannon5VulcanMk1-Inc"
@@ -9162,8 +9161,7 @@
         "msgName": "RES_W_HOWRF3",
         "name": "Howitzer Autoloader Mk3",
         "requiredResearch": [
-            "R-Wpn-Howitzer-ROF02", 
-            "R-Wpn-Howitzer03-Rot"
+            "R-Wpn-Howitzer-ROF02"
         ],
         "researchPoints": 18000,
         "researchPower": 865,
