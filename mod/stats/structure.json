@@ -3924,12 +3924,12 @@
 		"name": "Super-EMP-Fort",
 		"resistance": 100,
 		"sensorID": "FortressSensor",
-		"strength": "SOFT",
+		"strength": "HARD",
 		"structureModel": [
 			"STWPFCAN.PIE"
 		],
 		"Thermal": 50,
-		"type": "GENERIC",
+		"type": "DEFENSE",
 		"weapons": [
 			"EMPSuper"
 		],
@@ -3946,12 +3946,12 @@
 		"name": "Super-FlamerPlasma-Fort",
 		"resistance": 100,
 		"sensorID": "FortressSensor",
-		"strength": "SOFT",
+		"strength": "HARD",
 		"structureModel": [
 			"STWPFCAN.PIE"
 		],
 		"Thermal": 50,
-		"type": "GENERIC",
+		"type": "DEFENSE",
 		"weapons": [
 			"FlamerPlasmaSuper"
 		],
@@ -4056,12 +4056,12 @@
 		"name": "Super-Laser-Fort",
 		"resistance": 100,
 		"sensorID": "FortressSensor",
-		"strength": "SOFT",
+		"strength": "HARD",
 		"structureModel": [
 			"STWPFCAN.PIE"
 		],
 		"Thermal": 50,
-		"type": "GENERIC",
+		"type": "DEFENSE",
 		"weapons": [
 			"LaserSuper"
 		],
@@ -4078,12 +4078,12 @@
 		"name": "Super-Laser2-Fort",
 		"resistance": 100,
 		"sensorID": "FortressSensor",
-		"strength": "SOFT",
+		"strength": "HARD",
 		"structureModel": [
 			"STWPFCAN.PIE"
 		],
 		"Thermal": 50,
-		"type": "GENERIC",
+		"type": "DEFENSE",
 		"weapons": [
 			"LaserSuper2"
 		],
@@ -4100,12 +4100,12 @@
 		"name": "Super-LaserPlasma-Fort",
 		"resistance": 100,
 		"sensorID": "FortressSensor",
-		"strength": "SOFT",
+		"strength": "HARD",
 		"structureModel": [
 			"STWPFCAN.PIE"
 		],
 		"Thermal": 50,
-		"type": "GENERIC",
+		"type": "DEFENSE",
 		"weapons": [
 			"LaserPlasmaSuper"
 		],
@@ -4122,12 +4122,12 @@
 		"name": "Super-MG-Fort",
 		"resistance": 100,
 		"sensorID": "FortressSensor",
-		"strength": "SOFT",
+		"strength": "HARD",
 		"structureModel": [
 			"STWPFCAN.PIE"
 		],
 		"Thermal": 50,
-		"type": "GENERIC",
+		"type": "DEFENSE",
 		"weapons": [
 			"MGSuper"
 		],
@@ -4232,12 +4232,12 @@
 		"name": "Super-NEXUS-Fort",
 		"resistance": 100,
 		"sensorID": "FortressSensor",
-		"strength": "SOFT",
+		"strength": "HARD",
 		"structureModel": [
 			"STWPFCAN.PIE"
 		],
 		"Thermal": 50,
-		"type": "GENERIC",
+		"type": "DEFENSE",
 		"weapons": [
 			"SpyTurretSuper"
 		],
