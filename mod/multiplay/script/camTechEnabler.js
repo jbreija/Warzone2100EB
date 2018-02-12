@@ -95,6 +95,8 @@ const TECH_TWO = [
 	 "R-Wpn-MG3Mk1-Twn",
 	 "R-Vehicle-Prop-Helicopter",
 	 "R-Wpn-Rocket-Pod-Twn",
+	 "R-Defense-Tower09",
+	 "R-Defense-Tower10",
 ];
 
 const TECH_THREE = [

@@ -2907,7 +2907,7 @@
 	 "X-Super-Cannon": {
 		"armour": 20,
 		"breadth": 2,
-		"buildPoints": 4000,
+		"buildPoints": 5200,
 		"buildPower": 900,
 		"height": 3,
 		"hitpoints": 4200,
@@ -3914,12 +3914,12 @@
 		"width": 1
 	}, 
 	 "Super-EMP-Fort": {
-		"armour": 38,
+		"armour": 20,
 		"breadth": 2,
-		"buildPoints": 6145,
-		"buildPower": 1229,
+		"buildPoints": 5200,
+		"buildPower": 1600,
 		"height": 2,
-		"hitpoints": 3334,
+		"hitpoints": 4200,
 		"id": "Super-EMP-Fort",
 		"name": "Super-EMP-Fort",
 		"resistance": 100,
@@ -3928,7 +3928,7 @@
 		"structureModel": [
 			"STWPFCAN.PIE"
 		],
-		"Thermal": 38,
+		"Thermal": 50,
 		"type": "GENERIC",
 		"weapons": [
 			"EMPSuper"
@@ -3936,10 +3936,10 @@
 		"width": 2
 	}, 
 	 "Super-FlamerPlasma-Fort": {
-		"armour": 48,
+		"armour": 20,
 		"breadth": 2,
-		"buildPoints": 7327,
-		"buildPower": 1465,
+		"buildPoints": 5200,
+		"buildPower": 1600,
 		"height": 2,
 		"hitpoints": 4200,
 		"id": "Super-FlamerPlasma-Fort",
@@ -3950,64 +3950,20 @@
 		"structureModel": [
 			"STWPFCAN.PIE"
 		],
-		"Thermal": 48,
+		"Thermal": 50,
 		"type": "GENERIC",
 		"weapons": [
 			"FlamerPlasmaSuper"
 		],
 		"width": 2
 	}, 
-	 "Super-Howitzer-Empl": {
-		"armour": 25,
-		"breadth": 2,
-		"buildPoints": 3669,
-		"buildPower": 734,
-		"height": 1,
-		"hitpoints": 1512,
-		"id": "Super-Howitzer-Empl",
-		"name": "Super-Howitzer-Empl",
-		"resistance": 100,
-		"sensorID": "FortressSensor",
-		"strength": "HARD",
-		"structureModel": [
-			"stsupempl.pie"
-		],
-		"Thermal": 25,
-		"type": "DEFENSE",
-		"weapons": [
-			"HowitzerSuper"
-		],
-		"width": 2
-	}, 
-	 "Super-Howitzer105Mk1-Rail-Empl": {
-		"armour": 40,
-		"breadth": 2,
-		"buildPoints": 5359,
-		"buildPower": 1072,
-		"height": 1,
-		"hitpoints": 2400,
-		"id": "Super-Howitzer105Mk1-Rail-Empl",
-		"name": "Super-Howitzer105Mk1-Rail-Empl",
-		"resistance": 100,
-		"sensorID": "FortressSensor",
-		"strength": "HARD",
-		"structureModel": [
-			"stsupempl.pie"
-		],
-		"Thermal": 40,
-		"type": "DEFENSE",
-		"weapons": [
-			"Howitzer105Mk1-RailSuper"
-		],
-		"width": 2
-	}, 
 	 "Super-Howitzer105Mk1-RailPlas-Empl": {
 		"armour": 40,
 		"breadth": 2,
-		"buildPoints": 5359,
-		"buildPower": 1072,
+		"buildPoints": 3400,
+		"buildPower": 1100,
 		"height": 1,
-		"hitpoints": 2400,
+		"hitpoints": 1200,
 		"id": "Super-Howitzer105Mk1-RailPlas-Empl",
 		"name": "Super-Howitzer105Mk1-RailPlas-Empl",
 		"resistance": 100,
@@ -4026,10 +3982,10 @@
 	 "Super-Howitzer105Mk1-Rail-Ram-Empl": {
 		"armour": 40,
 		"breadth": 2,
-		"buildPoints": 5359,
-		"buildPower": 1072,
+		"buildPoints": 3400,
+		"buildPower": 1100,
 		"height": 1,
-		"hitpoints": 2400,
+		"hitpoints": 1200,
 		"id": "Super-Howitzer105Mk1-Rail-Ram-Empl",
 		"name": "Super-Howitzer105Mk1-Rail-Ram-Empl",
 		"resistance": 100,
@@ -4048,10 +4004,10 @@
 	 "Super-HowitzerPlas-Empl": {
 		"armour": 32,
 		"breadth": 2,
-		"buildPoints": 4058,
-		"buildPower": 812,
+		"buildPoints": 2700,
+		"buildPower": 900,
 		"height": 1,
-		"hitpoints": 1905,
+		"hitpoints": 1200,
 		"id": "Super-HowitzerPlas-Empl",
 		"name": "Super-HowitzerPlas-Empl",
 		"resistance": 100,
@@ -4070,10 +4026,10 @@
 	 "Super-Howitzer105Mk1-Ram-Empl": {
 		"armour": 32,
 		"breadth": 2,
-		"buildPoints": 4058,
-		"buildPower": 812,
+		"buildPoints": 2700,
+		"buildPower": 900,
 		"height": 1,
-		"hitpoints": 1905,
+		"hitpoints": 1200,
 		"id": "Super-Howitzer105Mk1-Ram-Empl",
 		"name": "Super-Howitzer105Mk1-Ram-Empl",
 		"resistance": 100,
@@ -4090,12 +4046,12 @@
 		"width": 2
 	}, 
 	 "Super-Laser-Fort": {
-		"armour": 30,
+		"armour": 20,
 		"breadth": 2,
-		"buildPoints": 4652,
-		"buildPower": 930,
+		"buildPoints": 5200,
+		"buildPower": 1600,
 		"height": 2,
-		"hitpoints": 2646,
+		"hitpoints": 4200,
 		"id": "Super-Laser-Fort",
 		"name": "Super-Laser-Fort",
 		"resistance": 100,
@@ -4104,7 +4060,7 @@
 		"structureModel": [
 			"STWPFCAN.PIE"
 		],
-		"Thermal": 30,
+		"Thermal": 50,
 		"type": "GENERIC",
 		"weapons": [
 			"LaserSuper"
@@ -4112,12 +4068,12 @@
 		"width": 2
 	}, 
 	 "Super-Laser2-Fort": {
-		"armour": 38,
+		"armour": 20,
 		"breadth": 2,
-		"buildPoints": 6145,
-		"buildPower": 1229,
+		"buildPoints": 5200,
+		"buildPower": 1600,
 		"height": 2,
-		"hitpoints": 3334,
+		"hitpoints": 4200,
 		"id": "Super-Laser2-Fort",
 		"name": "Super-Laser2-Fort",
 		"resistance": 100,
@@ -4126,7 +4082,7 @@
 		"structureModel": [
 			"STWPFCAN.PIE"
 		],
-		"Thermal": 38,
+		"Thermal": 50,
 		"type": "GENERIC",
 		"weapons": [
 			"LaserSuper2"
@@ -4134,10 +4090,10 @@
 		"width": 2
 	}, 
 	 "Super-LaserPlasma-Fort": {
-		"armour": 48,
+		"armour": 20,
 		"breadth": 2,
-		"buildPoints": 7327,
-		"buildPower": 1465,
+		"buildPoints": 5200,
+		"buildPower": 1600,
 		"height": 2,
 		"hitpoints": 4200,
 		"id": "Super-LaserPlasma-Fort",
@@ -4148,7 +4104,7 @@
 		"structureModel": [
 			"STWPFCAN.PIE"
 		],
-		"Thermal": 48,
+		"Thermal": 50,
 		"type": "GENERIC",
 		"weapons": [
 			"LaserPlasmaSuper"
@@ -4156,12 +4112,12 @@
 		"width": 2
 	}, 
 	 "Super-MG-Fort": {
-		"armour": 30,
+		"armour": 20,
 		"breadth": 2,
-		"buildPoints": 4652,
-		"buildPower": 930,
+		"buildPoints": 5200,
+		"buildPower": 1000,
 		"height": 2,
-		"hitpoints": 2646,
+		"hitpoints": 4200,
 		"id": "Super-MG-Fort",
 		"name": "Super-MG-Fort",
 		"resistance": 100,
@@ -4170,42 +4126,20 @@
 		"structureModel": [
 			"STWPFCAN.PIE"
 		],
-		"Thermal": 30,
+		"Thermal": 50,
 		"type": "GENERIC",
 		"weapons": [
 			"MGSuper"
 		],
 		"width": 2
 	}, 
-	 "Super-MortarGauss-Empl": {
-		"armour": 40,
-		"breadth": 2,
-		"buildPoints": 4571,
-		"buildPower": 914,
-		"height": 1,
-		"hitpoints": 2400,
-		"id": "Super-MortarGauss-Empl",
-		"name": "Super-MortarGauss-Empl",
-		"resistance": 100,
-		"sensorID": "FortressSensor",
-		"strength": "HARD",
-		"structureModel": [
-			"stsupempl.pie"
-		],
-		"Thermal": 40,
-		"type": "DEFENSE",
-		"weapons": [
-			"MortarGaussSuper"
-		],
-		"width": 2
-	}, 
 	 "Super-MortarGaussPlas-Empl": {
 		"armour": 40,
 		"breadth": 2,
-		"buildPoints": 4571,
-		"buildPower": 914,
+		"buildPoints": 3000,
+		"buildPower": 1000,
 		"height": 1,
-		"hitpoints": 2400,
+		"hitpoints": 1200,
 		"id": "Super-MortarGaussPlas-Empl",
 		"name": "Super-MortarGaussPlas-Empl",
 		"resistance": 100,
@@ -4224,10 +4158,10 @@
 	 "Super-MortarGaussRamjet-Empl": {
 		"armour": 40,
 		"breadth": 2,
-		"buildPoints": 4571,
-		"buildPower": 914,
+		"buildPoints": 3000,
+		"buildPower": 1000,
 		"height": 1,
-		"hitpoints": 2400,
+		"hitpoints": 1200,
 		"id": "Super-MortarGaussRamjet-Empl",
 		"name": "Super-MortarGaussRamjet-Empl",
 		"resistance": 100,
@@ -4246,10 +4180,10 @@
 	 "Super-MortarPlas-Empl": {
 		"armour": 32,
 		"breadth": 2,
-		"buildPoints": 3461,
-		"buildPower": 692,
+		"buildPoints": 2400,
+		"buildPower": 800,
 		"height": 1,
-		"hitpoints": 1905,
+		"hitpoints": 1200,
 		"id": "Super-MortarPlas-Empl",
 		"name": "Super-MortarPlas-Empl",
 		"resistance": 100,
@@ -4268,10 +4202,10 @@
 	 "Super-MortarRamjet-Empl": {
 		"armour": 32,
 		"breadth": 2,
-		"buildPoints": 3461,
-		"buildPower": 692,
+		"buildPoints": 2400,
+		"buildPower": 800,
 		"height": 1,
-		"hitpoints": 1905,
+		"hitpoints": 1200,
 		"id": "Super-MortarRamjet-Empl",
 		"name": "Super-MortarRamjet-Empl",
 		"resistance": 100,
@@ -4288,12 +4222,12 @@
 		"width": 2
 	}, 
 	 "Super-NEXUS-Fort": {
-		"armour": 38,
+		"armour": 20,
 		"breadth": 2,
-		"buildPoints": 6933,
-		"buildPower": 1387,
+		"buildPoints": 5200,
+		"buildPower": 1800,
 		"height": 2,
-		"hitpoints": 3334,
+		"hitpoints": 4200,
 		"id": "Super-NEXUS-Fort",
 		"name": "Super-NEXUS-Fort",
 		"resistance": 100,
@@ -4302,120 +4236,10 @@
 		"structureModel": [
 			"STWPFCAN.PIE"
 		],
-		"Thermal": 38,
+		"Thermal": 50,
 		"type": "GENERIC",
 		"weapons": [
 			"SpyTurretSuper"
-		],
-		"width": 2
-	}, 
-	 "Super-PlasCannon-Fort": {
-		"armour": 38,
-		"breadth": 2,
-		"buildPoints": 5548,
-		"buildPower": 1110,
-		"height": 2,
-		"hitpoints": 3334,
-		"id": "Super-PlasCannon-Fort",
-		"name": "Super-PlasCannon-Fort",
-		"resistance": 100,
-		"sensorID": "FortressSensor",
-		"strength": "SOFT",
-		"structureModel": [
-			"STWPFCAN.PIE"
-		],
-		"Thermal": 38,
-		"type": "GENERIC",
-		"weapons": [
-			"CannonPlasSuper"
-		],
-		"width": 2
-	}, 
-	 "Super-Railgun-Fort": {
-		"armour": 38,
-		"breadth": 2,
-		"buildPoints": 6145,
-		"buildPower": 1229,
-		"height": 2,
-		"hitpoints": 3334,
-		"id": "Super-Railgun-Fort",
-		"name": "Super-Railgun-Fort",
-		"resistance": 100,
-		"sensorID": "FortressSensor",
-		"strength": "SOFT",
-		"structureModel": [
-			"STWPFCAN.PIE"
-		],
-		"Thermal": 38,
-		"type": "GENERIC",
-		"weapons": [
-			"RailgunSuper"
-		],
-		"width": 2
-	}, 
-	 "Super-Railgungatling-Fort": {
-		"armour": 38,
-		"breadth": 2,
-		"buildPoints": 6145,
-		"buildPower": 1229,
-		"height": 2,
-		"hitpoints": 3334,
-		"id": "Super-Railgungatling-Fort",
-		"name": "Super-Railgungatling-Fort",
-		"resistance": 100,
-		"sensorID": "FortressSensor",
-		"strength": "SOFT",
-		"structureModel": [
-			"STWPFCAN.PIE"
-		],
-		"Thermal": 38,
-		"type": "GENERIC",
-		"weapons": [
-			"RailgungatlingSuper"
-		],
-		"width": 2
-	}, 
-	 "Super-Railgungatling-Fort2": {
-		"armour": 48,
-		"breadth": 2,
-		"buildPoints": 7327,
-		"buildPower": 1465,
-		"height": 2,
-		"hitpoints": 4200,
-		"id": "Super-Railgungatling-Fort2",
-		"name": "Super-Railgungatling-Fort2",
-		"resistance": 100,
-		"sensorID": "FortressSensor",
-		"strength": "SOFT",
-		"structureModel": [
-			"STWPFCAN.PIE"
-		],
-		"Thermal": 48,
-		"type": "GENERIC",
-		"weapons": [
-			"RailgungatlingSuper"
-		],
-		"width": 2
-	}, 
-	 "Super-RotCannon-Fort": {
-		"armour": 30,
-		"breadth": 2,
-		"buildPoints": 4652,
-		"buildPower": 930,
-		"height": 2,
-		"hitpoints": 2646,
-		"id": "Super-RotCannon-Fort",
-		"name": "Super-RotCannon-Fort",
-		"resistance": 100,
-		"sensorID": "FortressSensor",
-		"strength": "SOFT",
-		"structureModel": [
-			"STWPFCAN.PIE"
-		],
-		"Thermal": 30,
-		"type": "GENERIC",
-		"weapons": [
-			"CannonRotSuper"
 		],
 		"width": 2
 	}, 

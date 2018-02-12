@@ -1540,9 +1540,13 @@
         "id": "R-Defense-Howitzer-Ram",
         "msgName": "RES_EMP_HOW",
         "name": "Howitzer Ramjet Emplacement",
-        "requiredResearch": [
-            "R-Defense-Howitzer"
+        "redStructures": [
+            "Empl3-Mortar2Mk1-Ram"
         ],
+        "requiredResearch": [
+            "R-Defense-Howitzer", 
+            "R-Wpn-Howitzer-Range01"
+            ],
         "researchPoints": 4800,
         "researchPower": 275,
         "resultStructures": [
@@ -1555,10 +1559,13 @@
         "id": "R-Defense-Howitzer-Rail-Ram",
         "msgName": "RES_EMP_HOW",
         "name": "Howitzer Rail Ramjet Emplacement",
+        "redStructures": [
+            "Emplacement-Howitzer105Mk1-Ram"
+        ],
         "requiredResearch": [
             "R-Defense-Howitzer-Rail", 
             "R-Wpn-HowitzerMk1-Rail-Ram"
-        ],
+            ],
         "researchPoints": 4800,
         "researchPower": 275,
         "resultStructures": [
@@ -1571,10 +1578,13 @@
         "id": "R-Defense-Howitzer-Rail-Inc",
         "msgName": "RES_EMP_HOW",
         "name": "Incendiary Howitzer Rail Emplacement",
+        "redStructures": [
+            "Emplacement-Howitzer105Mk1-Rail"
+        ],
         "requiredResearch": [
             "R-Defense-Howitzer-Rail", 
             "R-Wpn-HowitzerMk1-Rail-Inc"
-        ],
+            ],
         "researchPoints": 4800,
         "researchPower": 275,
         "resultStructures": [
@@ -1587,10 +1597,13 @@
         "id": "R-Defense-Howitzer-Rail",
         "msgName": "RES_EMP_HOW",
         "name": "Howitzer Rail Emplacement",
+        "redStructures": [
+            "Emplacement-Howitzer105"
+        ],
         "requiredResearch": [
             "R-Defense-Howitzer", 
             "R-Wpn-HowitzerMk1-Rail"
-        ],
+            ],
         "researchPoints": 4800,
         "researchPower": 275,
         "resultStructures": [
@@ -1603,11 +1616,14 @@
         "id": "R-Defense-Howitzer-Incenediary",
         "msgName": "RES_EMP_INH",
         "name": "Incendiary Howitzer Emplacement",
+        "redStructures": [
+            "Emplacement-MortarPit-Incenediary"
+        ],
         "requiredResearch": [
             "R-Defense-Howitzer", 
             "R-Wpn-Howitzer-Incenediary", 
             "R-Defense-HvyMor-Inc"
-        ],
+            ],
         "researchPoints": 4800,
         "researchPower": 275,
         "resultStructures": [
@@ -1674,10 +1690,13 @@
         "id": "R-Defense-HvyHowitzer",
         "msgName": "RES_EMP_HvHOW",
         "name": "Ground Shaker Emplacement",
+        "redStructures": [
+            "Emplacement-MortarPit02"
+        ],
         "requiredResearch": [
             "R-Defense-Howitzer", 
             "R-Wpn-HvyHowitzer"
-        ],
+            ],
         "researchPoints": 6000,
         "researchPower": 330,
         "resultStructures": [
@@ -1690,9 +1709,12 @@
         "id": "R-Defense-HvyHowitzer-Ram-Hvy",
         "msgName": "RES_EMP_HvHOW",
         "name": "Ground Shaker Heavy Ramjet Emplacement",
+        "redStructures": [
+            "Emplacement-Howitzer150Mk1-Ram"
+        ],
         "requiredResearch": [
             "R-Defense-HvyHowitzer-Ram"
-        ],
+            ],
         "researchPoints": 6000,
         "researchPower": 330,
         "resultStructures": [
@@ -1705,10 +1727,14 @@
         "id": "R-Defense-HvyHowitzer-Ram",
         "msgName": "RES_EMP_HvHOW",
         "name": "Ground Shaker Ramjet Emplacement",
+        "redStructures": [
+            "Emplacement-Howitzer105Mk1-Ram"
+        ],
         "requiredResearch": [
             "R-Defense-HvyHowitzer", 
-            "R-Wpn-Howitzer-Range02"
-        ],
+            "R-Wpn-Howitzer-Range02", 
+            "R-Defense-Howitzer-Ram"
+            ],
         "researchPoints": 6000,
         "researchPower": 330,
         "resultStructures": [
@@ -1721,10 +1747,13 @@
         "id": "R-Defense-HvyHowitzer-Rail-Ram",
         "msgName": "RES_EMP_HvHOW",
         "name": "Ground Shaker Rail Ramjet Emplacement",
+        "redStructures": [
+            "Emplacement-Howitzer150Mk1-Ram-Hvy"
+        ],
         "requiredResearch": [
             "R-Defense-HvyHowitzer-Ram", 
             "R-Defense-HvyHowitzer-Rail"
-        ],
+            ],
         "researchPoints": 6000,
         "researchPower": 330,
         "resultStructures": [
@@ -1737,10 +1766,13 @@
         "id": "R-Defense-HvyHowitzer-Rail-Inc",
         "msgName": "RES_EMP_HvHOW",
         "name": "Incendiary Ground Shaker Rail Emplacement",
+        "redStructures": [
+            "Emplacement-Howitzer150Mk1-Inc"
+        ],
         "requiredResearch": [
             "R-Defense-HvyHowitzer-Rail", 
             "R-Defense-HvyHowitzer-Inc"
-        ],
+            ],
         "researchPoints": 6000,
         "researchPower": 330,
         "resultStructures": [
@@ -1753,9 +1785,12 @@
         "id": "R-Defense-HvyHowitzer-Rail-Hvy-Ram",
         "msgName": "RES_EMP_HvHOW",
         "name": "Ground Shaker Heavy Rail Ramjet Emplacement",
+        "redStructures": [
+            "Emplacement-Howitzer150Mk1-Rail-Ram"
+        ],
         "requiredResearch": [
             "R-Defense-HvyHowitzer-Rail-Ram"
-        ],
+            ],
         "researchPoints": 6000,
         "researchPower": 330,
         "resultStructures": [
@@ -1768,10 +1803,13 @@
         "id": "R-Defense-HvyHowitzer-Rail",
         "msgName": "RES_EMP_HvHOW",
         "name": "Ground Shaker Rail Emplacement",
+        "redStructures": [
+            "Emplacement-Howitzer150"
+        ],
         "requiredResearch": [
             "R-Defense-HvyHowitzer", 
             "R-Wpn-HowitzerMk1-Rail"
-        ],
+            ],
         "researchPoints": 6000,
         "researchPower": 330,
         "resultStructures": [
@@ -1784,10 +1822,13 @@
         "id": "R-Defense-HvyHowitzer-Inc",
         "msgName": "RES_EMP_HvHOW",
         "name": "Incendiary Ground Shaker Emplacement",
+        "redStructures": [
+            "Empl3-Mortar2Mk1-Inc"
+        ],
         "requiredResearch": [
             "R-Defense-HvyHowitzer", 
             "R-Wpn-HvyHowitzer-Inc"
-        ],
+            ],
         "researchPoints": 6000,
         "researchPower": 330,
         "resultStructures": [
@@ -1846,15 +1887,37 @@
         ],
         "statID": "Emplacement-MortarPit01"
     }, 
+     "R-Defense-HvyMor-Ram": {
+        "iconID": "IMAGE_RES_DEFENCE",
+        "id": "R-Defense-HvyMor",
+        "msgName": "RES_EMP_HvyMor",
+        "name": "Bombard Ramjet Pit",
+        "redStructures": [
+            "Empl3-Mortar1Mk1-Ram"
+        ],
+        "requiredResearch": [
+            "R-Defense-MortarPit", 
+            "R-Wpn-Mortar-Range02"
+            ],
+        "researchPoints": 3600,
+        "researchPower": 215,
+        "resultStructures": [
+            "Empl3-Mortar2Mk1-Ram"
+        ],
+        "statID": "Empl3-Mortar2Mk1-Ram"
+    }, 
      "R-Defense-HvyMor-Inc": {
         "iconID": "IMAGE_RES_DEFENCE",
         "id": "R-Defense-HvyMor-Inc",
         "msgName": "RES_EMP_HvyMor",
         "name": "Incendiary Bombard Pit",
+        "redStructures": [
+            "Emplacement-MortarPit-Incenediary"
+        ],
         "requiredResearch": [
             "R-Defense-HvyMor", 
             "R-Wpn-Mortar02-Incenediary"
-        ],
+            ],
         "researchPoints": 3600,
         "researchPower": 215,
         "resultStructures": [
@@ -1867,10 +1930,13 @@
         "id": "R-Defense-HvyMor-Rail",
         "msgName": "RES_EMP_HvyMor",
         "name": "Bombard Rail Pit",
+        "redStructures": [
+            "Emplacement-MortarPit02"
+        ],
         "requiredResearch": [
             "R-Defense-MortarPit", 
             "R-Wpn-Mortar02Hvy-Rail"
-        ],
+            ],
         "researchPoints": 3600,
         "researchPower": 215,
         "resultStructures": [
@@ -1902,9 +1968,13 @@
         "id": "R-Defense-HvyMor-Rail-Ram",
         "msgName": "RES_EMP_HvyMor",
         "name": "Bombard Rail Ramjet Pit",
-        "requiredResearch": [
-            "R-Defense-HvyMor-Rail"
+        "redStructures": [
+            "Empl3-Mortar2Mk1-Ram"
         ],
+        "requiredResearch": [
+            "R-Defense-HvyMor-Rail", 
+            "R-Defense-HvyMor-Ram"
+            ],
         "researchPoints": 3600,
         "researchPower": 215,
         "resultStructures": [
@@ -1936,7 +2006,7 @@
         "requiredResearch": [
             "R-Wpn-RailGun03", 
             "R-Wpn-Rail-ROF03", 
-            "R-Defense-WallUpgrade10"
+            "R-Defense-WallUpgrade06"
         ],
         "researchPoints": 14000,
         "researchPower": 675,
@@ -1944,6 +2014,265 @@
             "X-Super-MassDriver"
         ],
         "statID": "X-Super-MassDriver"
+    }, 
+     "R-Defense-Super-EMP-Fort": {
+        "iconID": "IMAGE_RES_DEFENCE",
+        "id": "R-Defense-Super-EMP-Fort",
+        "msgName": "RES_EMP_MD",
+        "name": "EMP Fortress",
+        "requiredResearch": [
+            "R-Wpn-EMPCannon", 
+            "R-Defense-WallUpgrade06"
+        ],
+        "researchPoints": 14000,
+        "researchPower": 675,
+        "resultStructures": [
+            "Super-EMP-Fort"
+        ],
+        "statID": "Super-EMP-Fort"
+    }, 
+     "R-Defense-Super-FlamerPlasma-Fort": {
+        "iconID": "IMAGE_RES_DEFENCE",
+        "id": "R-Defense-Super-FlamerPlasma-Fort",
+        "msgName": "RES_EMP_MD",
+        "name": "Plasmite Rail Fortress",
+        "requiredResearch": [
+            "R-Wpn-Flame3-Rail", 
+            "R-Defense-WallUpgrade06"
+        ],
+        "researchPoints": 14000,
+        "researchPower": 675,
+        "resultStructures": [
+            "Super-FlamerPlasma-Fort"
+        ],
+        "statID": "Super-FlamerPlasma-Fort"
+    }, 
+     "R-Defense-Super-Laser-Fort": {
+        "iconID": "IMAGE_RES_DEFENCE",
+        "id": "R-Defense-Super-Laser-Fort",
+        "msgName": "RES_EMP_MD",
+        "name": "Flashlight Fortress",
+        "requiredResearch": [
+            "R-Wpn-Laser01", 
+            "R-Defense-WallUpgrade06"
+        ],
+        "researchPoints": 14000,
+        "researchPower": 675,
+        "resultStructures": [
+            "Super-Laser-Fort"
+        ],
+        "statID": "Super-Laser-Fort"
+    }, 
+     "R-Defense-Super-Laser2-Fort": {
+        "iconID": "IMAGE_RES_DEFENCE",
+        "id": "R-Defense-Super-Laser2-Fort",
+        "msgName": "RES_EMP_MD",
+        "name": "Laser Fortress",
+        "requiredResearch": [
+            "R-Wpn-RailGun03", 
+            "R-Wpn-Rail-ROF03", 
+            "R-Defense-WallUpgrade06"
+        ],
+        "researchPoints": 14000,
+        "researchPower": 675,
+        "resultStructures": [
+            "Super-Laser2-Fort"
+        ],
+        "statID": "Super-Laser2-Fort"
+    }, 
+     "R-Defense-Super-LaserPlasma-Fort": {
+        "iconID": "IMAGE_RES_DEFENCE",
+        "id": "R-Defense-Super-LaserPlasma-Fort",
+        "msgName": "RES_EMP_MD",
+        "name": "Plasma Cannon Fortress",
+        "requiredResearch": [
+            "R-Wpn-PlasmaCannon", 
+            "R-Defense-WallUpgrade06"
+        ],
+        "researchPoints": 14000,
+        "researchPower": 675,
+        "resultStructures": [
+            "Super-LaserPlasma-Fort"
+        ],
+        "statID": "Super-LaserPlasma-Fort"
+    }, 
+     "R-Defense-Super-MG-Fort": {
+        "iconID": "IMAGE_RES_DEFENCE",
+        "id": "R-Defense-Super-MG-Fort",
+        "msgName": "RES_EMP_MD",
+        "name": "Machinegun Fortress",
+        "requiredResearch": [
+            "R-Wpn-MG5", 
+            "R-Defense-WallUpgrade06"
+        ],
+        "researchPoints": 14000,
+        "researchPower": 675,
+        "resultStructures": [
+            "Super-MG-Fort"
+        ],
+        "statID": "Super-MG-Fort"
+    }, 
+     "R-Defense-Super-NEXUS-Fort": {
+        "iconID": "IMAGE_RES_DEFENCE",
+        "id": "R-Defense-Super-NEXUS-Fort",
+        "msgName": "RES_EMP_MD",
+        "name": "Nexus Link Fortress",
+        "requiredResearch": [
+            "R-Sys-SpyTurret", 
+            "R-Defense-WallUpgrade06"
+        ],
+        "researchPoints": 14000,
+        "researchPower": 675,
+        "resultStructures": [
+            "Super-NEXUS-Fort"
+        ],
+        "statID": "Super-NEXUS-Fort"
+    }, 
+     "R-Defense-SuperRamjetMortar": {
+        "iconID": "IMAGE_RES_DEFENCE",
+        "id": "R-Defense-SuperRamjetMortar",
+        "msgName": "RES_EMP_MD",
+        "name": "Super Ramjet Mortar",
+        "requiredResearch": [
+            "R-Wpn-Mortar02Hvy-Ram", 
+            "R-Defense-WallUpgrade05"
+        ],
+        "researchPoints": 14000,
+        "researchPower": 675,
+        "resultStructures": [
+            "Super-MortarRamjet-Empl"
+        ],
+        "statID": "Super-MortarRamjet-Empl"
+    }, 
+     "R-Defense-SuperRamjetHowitzer": {
+        "iconID": "IMAGE_RES_DEFENCE",
+        "id": "R-Defense-SuperRamjetHowitzer",
+        "msgName": "RES_EMP_MD",
+        "name": "Super Ramjet Howitzer",
+        "redStructures": [
+            "Super-MortarRamjet-Empl"
+        ],
+        "requiredResearch": [
+            "R-Wpn-Howitzer-Range02", 
+            "R-Defense-WallUpgrade05"
+            ],
+        "researchPoints": 14000,
+        "researchPower": 675,
+        "resultStructures": [
+            "Super-Howitzer105Mk1-Ram-Empl"
+        ],
+        "statID": "Super-Howitzer105Mk1-Ram-Empl"
+    }, 
+     "R-Defense-SuperRailMortar": {
+        "iconID": "IMAGE_RES_DEFENCE",
+        "id": "R-Defense-SuperRailMortar",
+        "msgName": "RES_EMP_MD",
+        "name": "Super Rail Mortar",
+        "redStructures": [
+            "Super-Howitzer105Mk1-Ram-Empl"
+        ],
+        "requiredResearch": [
+            "R-Wpn-Mortar01Lt-Rail", 
+            "R-Defense-WallUpgrade05"
+            ],
+        "researchPoints": 14000,
+        "researchPower": 675,
+        "resultStructures": [
+            "Super-MortarGaussRamjet-Empl"
+        ],
+        "statID": "Super-MortarGaussRamjet-Empl"
+    }, 
+     "R-Defense-SuperRailHowitzer": {
+        "iconID": "IMAGE_RES_DEFENCE",
+        "id": "R-Defense-SuperRailHowitzer",
+        "msgName": "RES_EMP_MD",
+        "name": "Super Rail Howitzer",
+        "redStructures": [
+            "Super-MortarGaussRamjet-Empl"
+        ],
+        "requiredResearch": [
+            "R-Wpn-HvyHowitzer-Rail", 
+            "R-Defense-WallUpgrade05"
+            ],
+        "researchPoints": 14000,
+        "researchPower": 675,
+        "resultStructures": [
+            "Super-Howitzer105Mk1-Rail-Ram-Empl"
+        ],
+        "statID": "Super-Howitzer105Mk1-Rail-Ram-Empl"
+    }, 
+     "R-Defense-SuperIncMortar": {
+        "iconID": "IMAGE_RES_DEFENCE",
+        "id": "R-Defense-SuperIncMortar",
+        "msgName": "RES_EMP_MD",
+        "name": "Super Incendiary Mortar",
+        "requiredResearch": [
+            "R-Wpn-Mortar-Incenediary", 
+            "R-Defense-WallUpgrade05"
+        ],
+        "researchPoints": 14000,
+        "researchPower": 675,
+        "resultStructures": [
+            "Super-MortarPlas-Empl"
+        ],
+        "statID": "Super-MortarPlas-Empl"
+    }, 
+     "R-Defense-SuperIncHowitzer": {
+        "iconID": "IMAGE_RES_DEFENCE",
+        "id": "R-Defense-SuperIncHowitzer",
+        "msgName": "RES_EMP_MD",
+        "name": "Super Incendiary Howitzer",
+        "redStructures": [
+            "Super-MortarPlas-Empl"
+        ],
+        "requiredResearch": [
+            "R-Wpn-Howitzer-Incenediary", 
+            "R-Defense-WallUpgrade05"
+            ],
+        "researchPoints": 14000,
+        "researchPower": 675,
+        "resultStructures": [
+            "Super-HowitzerPlas-Empl"
+        ],
+        "statID": "Super-HowitzerPlas-Empl"
+    }, 
+     "R-Defense-SuperIncRailMortar": {
+        "iconID": "IMAGE_RES_DEFENCE",
+        "id": "R-Defense-SuperIncRailMortar",
+        "msgName": "RES_EMP_MD",
+        "name": "Super Incendiary Rail Mortar",
+        "redStructures": [
+            "Super-HowitzerPlas-Empl"
+        ],
+        "requiredResearch": [
+            "R-Wpn-Mortar01Lt-Rail-Inc", 
+            "R-Defense-WallUpgrade05"
+            ],
+        "researchPoints": 14000,
+        "researchPower": 675,
+        "resultStructures": [
+            "Super-MortarGaussPlas-Empl"
+        ],
+        "statID": "Super-MortarGaussPlas-Empl"
+    }, 
+     "R-Defense-SuperIncRailHowitzer": {
+        "iconID": "IMAGE_RES_DEFENCE",
+        "id": "R-Defense-SuperIncRailHowitzer",
+        "msgName": "RES_EMP_MD",
+        "name": "Super Incendiary Rail Howitzer",
+        "redStructures": [
+            "Super-MortarGaussPlas-Empl"
+        ],
+        "requiredResearch": [
+            "R-Wpn-HvyHowitzer-Inc", 
+            "R-Defense-WallUpgrade05"
+            ],
+        "researchPoints": 14000,
+        "researchPower": 675,
+        "resultStructures": [
+            "Super-Howitzer105Mk1-RailPlas-Empl"
+        ],
+        "statID": "Super-Howitzer105Mk1-RailPlas-Empl"
     }, 
      "R-Defense-MdArtMissile": {
         "iconID": "IMAGE_RES_DEFENCE",
@@ -1979,6 +2308,22 @@
         ],
         "statID": "Emplacement-MortarPit01"
     }, 
+     "R-Defense-MortarPit-Ram": {
+        "iconID": "IMAGE_RES_DEFENCE",
+        "id": "R-Defense-MortarPit-Ram",
+        "msgName": "RES_EMP_Mpit",
+        "name": "Mortar Ramjet Pit",
+        "requiredResearch": [
+            "R-Defense-MortarPit", 
+            "R-Wpn-Mortar-Range01"
+        ],
+        "researchPoints": 1200,
+        "researchPower": 70,
+        "resultStructures": [
+            "Empl3-Mortar1Mk1-Ram"
+        ],
+        "statID": "Empl3-Mortar1Mk1-Ram"
+    }, 
      "R-Defense-MortarPit-Rail": {
         "iconID": "IMAGE_RES_DEFENCE",
         "id": "R-Defense-MortarPit-Rail",
@@ -1989,7 +2334,7 @@
         ],
         "requiredResearch": [
             "R-Defense-MortarPit", 
-            "R-Wpn-RailGun01"
+            "R-Wpn-Mortar01Lt-Rail"
             ],
         "researchPoints": 1200,
         "researchPower": 70,
@@ -2022,10 +2367,13 @@
         "id": "R-Defense-MortarPit-Rail-Ram",
         "msgName": "RES_EMP_Mpit",
         "name": "Mortar Rail Ramjet Pit",
+        "redStructures": [
+            "Empl3-Mortar1Mk1-Ram"
+        ],
         "requiredResearch": [
             "R-Defense-MortarPit-Rail", 
             "R-Wpn-Mortar-Range03"
-        ],
+            ],
         "researchPoints": 1200,
         "researchPower": 70,
         "resultStructures": [
@@ -2632,6 +2980,38 @@
             "GuardTower8"
         ],
         "statID": "GuardTower8"
+    }, 
+     "R-Defense-Tower09": {
+        "iconID": "IMAGE_RES_DEFENCE",
+        "id": "R-Defense-Tower09",
+        "msgName": "RES_EMP_PODTOW",
+        "name": "Quad Rocket-Array Tower",
+        "requiredResearch": [
+            "R-Defense-HardcreteWall", 
+            "R-Wpn-Rocket-Pod-MRA-Quad"
+        ],
+        "researchPoints": 1500,
+        "researchPower": 95,
+        "resultStructures": [
+            "GuardTower9"
+        ],
+        "statID": "GuardTower9"
+    }, 
+     "R-Defense-Tower10": {
+        "iconID": "IMAGE_RES_DEFENCE",
+        "id": "R-Defense-Tower10",
+        "msgName": "RES_EMP_PODTOW",
+        "name": "Quad Thermal Rocket-Pod Tower",
+        "requiredResearch": [
+            "R-Defense-HardcreteWall", 
+            "R-Wpn-Rocket-Pod-Quad-Arch"
+        ],
+        "researchPoints": 1500,
+        "researchPower": 95,
+        "resultStructures": [
+            "GuardTower10"
+        ],
+        "statID": "GuardTower10"
     }, 
      "R-Defense-Wall-RotMg": {
         "iconID": "IMAGE_RES_DEFENCE",
@@ -9724,7 +10104,7 @@
         "iconID": "IMAGE_RES_WEAPONTECH",
         "id": "R-Wpn-HvyHowitzer-Inc",
         "msgName": "RES_W_HH1_I",
-        "name": "Ground Shaker Incendiary",
+        "name": "Incendiary Ground Shaker",
         "redComponents": [
             "Howitzer-Incenediary"
         ],
@@ -9781,7 +10161,7 @@
         "iconID": "IMAGE_RES_WEAPONTECH",
         "id": "R-Wpn-HvyHowitzer-Rail-Inc",
         "msgName": "RES_W_HH1_RHI",
-        "name": "Ground Shaker Incendiary Rail",
+        "name": "Incendiary Ground Shaker Rail",
         "redComponents": [
             "Howitzer150Mk1-Inc"
         ],
