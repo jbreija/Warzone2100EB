@@ -15,7 +15,7 @@
 		"model": "cy_rep.pie",
 		"mountModel": "cybody.pie",
 		"name": "Repair Cyborg",
-		"repairPoints": 35,
+		"repairPoints": 32,
 		"time": 7
 	}, 
 	 "CyborgRepairNAS": {
@@ -27,7 +27,7 @@
 		"model": "cy_rep.pie",
 		"mountModel": "cybodyar.pie",
 		"name": "NASDA Repair Cyborg",
-		"repairPoints": 35,
+		"repairPoints": 37,
 		"time": 7
 	}, 
 	 "HeavyRepair": {
@@ -53,7 +53,7 @@
 		"model": "GNMREPAR.PIE",
 		"mountModel": "TRMECM1.PIE",
 		"name": "Repair Turret",
-		"repairPoints": 55,
+		"repairPoints": 50,
 		"time": 7
 	}, 
 	 "LightRepairNAS": {
@@ -66,7 +66,7 @@
 		"model": "GNMREPARAR.PIE",
 		"mountModel": "TRMECM1AR.PIE",
 		"name": "NASDA Repair Turret",
-		"repairPoints": 55,
+		"repairPoints": 60,
 		"time": 7
 	}, 
 	 "NEXUSrepair": {

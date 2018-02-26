@@ -182,22 +182,6 @@
 		"type": "INDIRECT CB",
 		"weight": 500
 	}, 
-	 "Sys-NXLinkTurret01": {
-		"buildPoints": 100,
-		"buildPower": 20,
-		"designable": 1,
-		"hitpoints": 200,
-		"id": "Sys-NXLinkTurret01",
-		"droidType": "DROID_SENSOR",
-		"location": "TURRET",
-		"mountModel": "TRMSNSR2.PIE",
-		"name": "Nexus Link",
-		"power": 1000,
-		"range": 2048,
-		"sensorModel": "GNMECM2.PIE",
-		"type": "STANDARD",
-		"weight": 100
-	}, 
 	 "Sys-VTOLCBTower01": {
 		"buildPoints": 250,
 		"buildPower": 250,
@@ -369,7 +353,7 @@
 		"id": "RadarDetectorHvy",
 		"location": "TURRET",
 		"mountModel": "TRHSNSR3.PIE",
-		"name": "RadarDetectorHvy",
+		"name": "Large Radar Detector",
 		"power": 500,
 		"range": 1920,
 		"sensorModel": "RADARSENSORHVY.PIE",

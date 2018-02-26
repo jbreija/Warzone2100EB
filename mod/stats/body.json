@@ -1956,10 +1956,10 @@
 		"id": "B1BaBaPerson02",
 		"model": "EXBLOKE2.PIE",
 		"name": "*B1BaBaPerson02",
-		"powerOutput": 750,
+		"powerOutput": 55,
 		"size": "LIGHT",
 		"weaponSlots": 1,
-		"weight": 499
+		"weight": 50
 	}, 
 	 "Body15LGT": {
 		"armourHeat": 36,

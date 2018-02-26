@@ -92,7 +92,7 @@
 		"droidType": "DROID_CONSTRUCT",
 		"designable": 1,
 		"id": "Spade1Hvy",
-		"name": "Heavy Truck",
+		"name": "Dump Truck",
 		"sensorModel": "TRLCON2.PIE",
 		"weight": 5400
 	}

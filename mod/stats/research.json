@@ -1391,7 +1391,7 @@
         "iconID": "IMAGE_RES_DEFENCE",
         "id": "R-Defense-EMPCannon",
         "msgName": "RES_DEF_EMP",
-        "name": "EMP Cannon Tower",
+        "name": "EMP Cannon Hardpoint",
         "requiredResearch": [
             "R-Wpn-EMPCannon"
         ],
@@ -2134,7 +2134,7 @@
         "msgName": "RES_EMP_MD",
         "name": "Super Ramjet Mortar",
         "requiredResearch": [
-            "R-Wpn-Mortar02Hvy-Ram", 
+            "R-Wpn-Mortar-Range02", 
             "R-Defense-WallUpgrade05"
         ],
         "researchPoints": 14000,
@@ -3313,6 +3313,482 @@
             "WallTower-TwinAssaultGun"
         ],
         "statID": "WallTower-TwinAssaultGun"
+    }, 
+     "R-Defense-ECM1PylonMk2": {
+        "iconID": "IMAGE_RES_DEFENCE",
+        "id": "R-Defense-ECM1PylonMk2",
+        "msgName": "RES_WT_TWINAGHP",
+        "name": "Supercrete Jammer Tower",
+        "requiredResearch": [
+            "R-Sys-ECM-Upgrade01", 
+            "R-Defense-WallUpgrade04"
+        ],
+        "resultStructures": [
+            "ECM1PylonMk2"
+        ],
+        "statID": "ECM1PylonMk2"
+    }, 
+     "R-Defense-ECM1PylonMk3": {
+        "iconID": "IMAGE_RES_DEFENCE",
+        "id": "R-Defense-ECM1PylonMk3",
+        "msgName": "RES_WT_TWINAGHP",
+        "name": "Plascrete Jammer Tower",
+        "requiredResearch": [
+            "R-Sys-ECM-Upgrade01", 
+            "R-Defense-WallUpgrade07"
+        ],
+        "resultStructures": [
+            "ECM1PylonMk3"
+        ],
+        "statID": "ECM1PylonMk3"
+    }, 
+     "R-Defense-ECM1PylonMk4": {
+        "iconID": "IMAGE_RES_DEFENCE",
+        "id": "R-Defense-ECM1PylonMk4",
+        "msgName": "RES_WT_TWINAGHP",
+        "name": "Jammer Sky Tower",
+        "requiredResearch": [
+            "R-Sys-ECM-Upgrade01", 
+            "R-Defense-WallUpgrade10"
+        ],
+        "resultStructures": [
+            "ECM1PylonMk4"
+        ],
+        "statID": "ECM1PylonMk4"
+    }, 
+     "R-Defense-Plasteel-Atmiss": {
+        "iconID": "IMAGE_RES_DEFENCE",
+        "id": "R-Defense-Atmiss",
+        "msgName": "RES_WT_TWINAGHP",
+        "name": "Plasteel Scourge Missile",
+        "requiredResearch": [
+            "R-Wpn-Missile2A-T", 
+            "R-Defense-WallUpgrade10"
+        ],
+        "resultStructures": [
+            "Plasteel-Atmiss"
+        ],
+        "statID": "Plasteel-Atmiss"
+    }, 
+     "R-Defense-Plasteel-Cannon6TwinAslt-Rail": {
+        "iconID": "IMAGE_RES_DEFENCE",
+        "id": "R-Defense-Cannon6TwinAslt-Rail",
+        "msgName": "RES_WT_TWINAGHP",
+        "name": "Plasteel Twin Assault Rail",
+        "requiredResearch": [
+            "R-Defense-Cannon6TwinAslt-Rail", 
+            "R-Defense-WallUpgrade10"
+        ],
+        "resultStructures": [
+            "Plasteel-Cannon6TwinAslt-Rail"
+        ],
+        "statID": "Plasteel-Cannon6TwinAslt-Rail"
+    }, 
+     "R-Defense-Plasteel-EMP": {
+        "iconID": "IMAGE_RES_DEFENCE",
+        "id": "R-Defense-EMP",
+        "msgName": "RES_WT_TWINAGHP",
+        "name": "Plasteel EMP Cannon Tower",
+        "requiredResearch": [
+            "R-Defense-EMPCannon", 
+            "R-Defense-WallUpgrade10"
+        ],
+        "resultStructures": [
+            "Plasteel-EMP"
+        ],
+        "statID": "Plasteel-EMP"
+    }, 
+     "R-Defense-Plasteel-HeavyLaser-Gat": {
+        "iconID": "IMAGE_RES_DEFENCE",
+        "id": "R-Defense-HeavyLaser-Gat",
+        "msgName": "RES_WT_TWINAGHP",
+        "name": "Plasteel Heavy Laser Gatling",
+        "requiredResearch": [
+            "R-Defense-HeavyLaser-Gat", 
+            "R-Defense-WallUpgrade10"
+        ],
+        "resultStructures": [
+            "Plasteel-HeavyLaser-Gat"
+        ],
+        "statID": "Plasteel-HeavyLaser-Gat"
+    }, 
+     "R-Defense-Plasteel-HeavyLaser-Inc-Aslt": {
+        "iconID": "IMAGE_RES_DEFENCE",
+        "id": "R-Defense-HeavyLaser-Inc-Aslt",
+        "msgName": "RES_WT_TWINAGHP",
+        "name": "Plasteel Heavy Laser Incendiary Assault",
+        "requiredResearch": [
+            "R-Defense-HeavyLaser-Inc-Aslt", 
+            "R-Defense-WallUpgrade10"
+        ],
+        "resultStructures": [
+            "Plasteel-HeavyLaser-Inc-Aslt"
+        ],
+        "statID": "Plasteel-HeavyLaser-Inc-Aslt"
+    }, 
+     "R-Defense-Plasteel-Laser2PULSEMk1-Inc": {
+        "iconID": "IMAGE_RES_DEFENCE",
+        "id": "R-Defense-Laser2PULSEMk1-Inc",
+        "msgName": "RES_WT_TWINAGHP",
+        "name": "Plasteel Incendiary Pulse Laser",
+        "requiredResearch": [
+            "R-Defense-Laser2PULSEMk1-Inc", 
+            "R-Defense-WallUpgrade10"
+        ],
+        "resultStructures": [
+            "Plasteel-Laser2PULSEMk1-Inc"
+        ],
+        "statID": "Plasteel-Laser2PULSEMk1-Inc"
+    }, 
+     "R-Defense-Plasteel-PulseLas": {
+        "iconID": "IMAGE_RES_DEFENCE",
+        "id": "R-Defense-PulseLas",
+        "msgName": "RES_WT_TWINAGHP",
+        "name": "Plasteel Pulse Laser",
+        "requiredResearch": [
+            "R-Defense-WallTower-PulseLas", 
+            "R-Defense-WallUpgrade10"
+        ],
+        "resultStructures": [
+            "Plasteel-PulseLas"
+        ],
+        "statID": "Plasteel-PulseLas"
+    }, 
+     "R-Defense-Plasteel-Rail2": {
+        "iconID": "IMAGE_RES_DEFENCE",
+        "id": "R-Defense-Rail2",
+        "msgName": "RES_WT_TWINAGHP",
+        "name": "Plasteel Rail Gun",
+        "requiredResearch": [
+            "R-Defense-WallTower-Rail2", 
+            "R-Defense-WallUpgrade10"
+        ],
+        "resultStructures": [
+            "Plasteel-Rail2"
+        ],
+        "statID": "Plasteel-Rail2"
+    }, 
+     "R-Defense-Plasteel-Rail3": {
+        "iconID": "IMAGE_RES_DEFENCE",
+        "id": "R-Defense-Rail3",
+        "msgName": "RES_WT_TWINAGHP",
+        "name": "Plasteel Gauss Cannon",
+        "requiredResearch": [
+            "R-Defense-WallTower-Rail3", 
+            "R-Defense-WallUpgrade10"
+        ],
+        "resultStructures": [
+            "Plasteel-Rail3"
+        ],
+        "statID": "Plasteel-Rail3"
+    }, 
+     "R-Defense-Plasteel-RailGun1Mk1-Gat-Twn": {
+        "iconID": "IMAGE_RES_DEFENCE",
+        "id": "R-Defense-RailGun1Mk1-Gat-Twn",
+        "msgName": "RES_WT_TWINAGHP",
+        "name": "Plasteel Needle Gun Twin Gatling",
+        "requiredResearch": [
+            "R-Defense-RailGun1Mk1-Gat-Twn", 
+            "R-Defense-WallUpgrade10"
+        ],
+        "resultStructures": [
+            "Plasteel-RailGun1Mk1-Gat-Twn"
+        ],
+        "statID": "Plasteel-RailGun1Mk1-Gat-Twn"
+    }, 
+     "R-Defense-Plasteel-RailGun2Mk1-Twn-Inc": {
+        "iconID": "IMAGE_RES_DEFENCE",
+        "id": "R-Defense-RailGun2Mk1-Twn-Inc",
+        "msgName": "RES_WT_TWINAGHP",
+        "name": "Plasteel Twin Rail Gun Incendiary",
+        "requiredResearch": [
+            "R-Defense-RailGun2Mk1-Twn-Inc", 
+            "R-Defense-WallUpgrade10"
+        ],
+        "resultStructures": [
+            "Plasteel-RailGun2Mk1-Twn-Inc"
+        ],
+        "statID": "Plasteel-RailGun2Mk1-Twn-Inc"
+    }, 
+     "R-Defense-Plasteel-Railgun-Flak": {
+        "iconID": "IMAGE_RES_DEFENCE",
+        "id": "R-Defense-Railgun-Flak",
+        "msgName": "RES_WT_TWINAGHP",
+        "name": "Plasteel Railgun Flak",
+        "requiredResearch": [
+            "R-Defense-Railgun-Flak", 
+            "R-Defense-WallUpgrade10"
+        ],
+        "resultStructures": [
+            "Plasteel-Railgun-Flak"
+        ],
+        "statID": "Plasteel-Railgun-Flak"
+    }, 
+     "R-Defense-Plasteel-TwinAssaultGun": {
+        "iconID": "IMAGE_RES_DEFENCE",
+        "id": "R-Defense-TwinAssaultGun",
+        "msgName": "RES_WT_TWINAGHP",
+        "name": "Plasteel Twin Assault Gun",
+        "requiredResearch": [
+            "R-Defense-WallTower-TwinAGun", 
+            "R-Defense-WallUpgrade10"
+        ],
+        "resultStructures": [
+            "Plasteel-TwinAssaultGun"
+        ],
+        "statID": "Plasteel-TwinAssaultGun"
+    }, 
+     "R-Defense-CB-Tower02": {
+        "iconID": "IMAGE_RES_DEFENCE",
+        "id": "R-Defense-CB-Tower02",
+        "msgName": "RES_WT_TWINAGHP",
+        "name": "CB Plascrete Tower",
+        "requiredResearch": [
+            "R-Sys-CBSensor-Tower01", 
+            "R-Defense-WallUpgrade07"
+        ],
+        "resultStructures": [
+            "Sys-CB-Tower02"
+        ],
+        "statID": "Sys-CB-Tower02"
+    }, 
+     "R-Defense-CB-Tower03": {
+        "iconID": "IMAGE_RES_DEFENCE",
+        "id": "R-Defense-CB-Tower03",
+        "msgName": "RES_WT_TWINAGHP",
+        "name": "CB Sky Tower",
+        "requiredResearch": [
+            "R-Defense-CB-Tower02", 
+            "R-Defense-WallUpgrade10"
+        ],
+        "resultStructures": [
+            "Sys-CB-Tower03"
+        ],
+        "statID": "Sys-CB-Tower03"
+    }, 
+     "R-Defense-SensoTower04": {
+        "iconID": "IMAGE_RES_DEFENCE",
+        "id": "R-Defense-SensoTower04",
+        "msgName": "RES_WT_TWINAGHP",
+        "name": "Supercrete Sensor Tower",
+        "requiredResearch": [
+            "R-Sys-Sensor-Tower02", 
+            "R-Defense-WallUpgrade04"
+        ],
+        "resultStructures": [
+            "Sys-SensoTower04"
+        ],
+        "statID": "Sys-SensoTower04"
+    }, 
+     "R-Defense-SensoTower05": {
+        "iconID": "IMAGE_RES_DEFENCE",
+        "id": "R-Defense-SensoTower05",
+        "msgName": "RES_WT_TWINAGHP",
+        "name": "Plascrete Sensor Tower",
+        "requiredResearch": [
+            "R-Defense-SensoTower04", 
+            "R-Defense-WallUpgrade07"
+        ],
+        "resultStructures": [
+            "Sys-SensoTower05"
+        ],
+        "statID": "Sys-SensoTower05"
+    }, 
+     "R-Defense-Laser3BEAMMk1-Gat": {
+        "iconID": "IMAGE_RES_DEFENCE",
+        "id": "R-Defense-Laser3BEAMMk1-Gat",
+        "msgName": "RES_WT_TWINAGHP",
+        "name": "Flashlight Tower",
+        "requiredResearch": [
+            "R-Wpn-Laser01", 
+            "R-Defense-WallUpgrade07"
+        ],
+        "resultStructures": [
+            "Tower2-Laser3BEAMMk1-Gat"
+        ],
+        "statID": "Tower2-Laser3BEAMMk1-Gat"
+    }, 
+     "R-Defense-MG3Mk1-Aslt": {
+        "iconID": "IMAGE_RES_DEFENCE",
+        "id": "R-Defense-MG3Mk1-Aslt",
+        "msgName": "RES_WT_TWINAGHP",
+        "name": "Heavy Machinegun Assault Tower",
+        "requiredResearch": [
+            "R-Wpn-MG3Mk1-Aslt", 
+            "R-Defense-WallUpgrade01"
+        ],
+        "resultStructures": [
+            "Tower2-MG3Mk1-Aslt"
+        ],
+        "statID": "Tower2-MG3Mk1-Aslt"
+    }, 
+     "R-Defense-Cannon4AUTOMk1-Hvy-Inc": {
+        "iconID": "IMAGE_RES_DEFENCE",
+        "id": "R-Defense-Cannon4AUTOMk1-Hvy-Inc",
+        "msgName": "RES_WT_TWINAGHP",
+        "name": "Heavy Incendiary HPV Hardpoint",
+        "requiredResearch": [
+            "R-Wpn-Cannon4AMk1-Hvy-Inc", 
+            "R-Defense-WallUpgrade04"
+        ],
+        "resultStructures": [
+            "WallTower2-Cannon4AUTOMk1-Hvy-Inc"
+        ],
+        "statID": "WallTower2-Cannon4AUTOMk1-Hvy-Inc"
+    }, 
+     "R-Defense-Cannon6TwinAslt-Rail": {
+        "iconID": "IMAGE_RES_DEFENCE",
+        "id": "R-Defense-Cannon6TwinAslt-Rail",
+        "msgName": "RES_WT_TWINAGHP",
+        "name": "Twin Assault Rail Hardpoint",
+        "requiredResearch": [
+            "R-Wpn-Cannon6TwinAslt-Rail", 
+            "R-Defense-WallUpgrade07"
+        ],
+        "resultStructures": [
+            "WallTower3-Cannon6TwinAslt-Rail"
+        ],
+        "statID": "WallTower3-Cannon6TwinAslt-Rail"
+    }, 
+     "R-Defense-HeavyLaser-Gat": {
+        "iconID": "IMAGE_RES_DEFENCE",
+        "id": "R-Defense-HeavyLaser-Gat",
+        "msgName": "RES_WT_TWINAGHP",
+        "name": "Heavy Laser Gatling Hardpoint",
+        "requiredResearch": [
+            "R-Wpn-HvyLaser-Gat", 
+            "R-Defense-WallUpgrade07"
+        ],
+        "resultStructures": [
+            "WallTower3-HeavyLaser-Gat"
+        ],
+        "statID": "WallTower3-HeavyLaser-Gat"
+    }, 
+     "R-Defense-HeavyLaser-Inc-Aslt": {
+        "iconID": "IMAGE_RES_DEFENCE",
+        "id": "R-Defense-HeavyLaser-Inc-Aslt",
+        "msgName": "RES_WT_TWINAGHP",
+        "name": "Heavy Laser Incendiary Assault Hardpoint",
+        "requiredResearch": [
+            "R-Wpn-HvyLaser-Inc-Aslt", 
+            "R-Defense-WallUpgrade07"
+        ],
+        "resultStructures": [
+            "WallTower3-HeavyLaser-Inc-Aslt"
+        ],
+        "statID": "WallTower3-HeavyLaser-Inc-Aslt"
+    }, 
+     "R-Defense-Laser2PULSEMk1-Inc": {
+        "iconID": "IMAGE_RES_DEFENCE",
+        "id": "R-Defense-Laser2PULSEMk1-Inc",
+        "msgName": "RES_WT_TWINAGHP",
+        "name": "Incendiary Pulse Laser Hardpoint",
+        "requiredResearch": [
+            "R-Wpn-Laser02-Inc", 
+            "R-Defense-WallUpgrade07"
+        ],
+        "resultStructures": [
+            "WallTower3-Laser2PULSEMk1-Inc"
+        ],
+        "statID": "WallTower3-Laser2PULSEMk1-Inc"
+    }, 
+     "R-Defense-RailGun1Mk1-GatAA": {
+        "iconID": "IMAGE_RES_DEFENCE",
+        "id": "R-Defense-RailGun1Mk1-GatAA",
+        "msgName": "RES_WT_TWINAGHP",
+        "name": "Reinforced Railgun Flak Hardpoint",
+        "requiredResearch": [
+            "R-Wpn-AAGun08", 
+            "R-Defense-WallUpgrade07"
+        ],
+        "resultStructures": [
+            "WallTower3-RailGun1Mk1-GatAA"
+        ],
+        "statID": "WallTower3-RailGun1Mk1-GatAA"
+    }, 
+     "R-Defense-RailGun1Mk1-Gat-Twn": {
+        "iconID": "IMAGE_RES_DEFENCE",
+        "id": "R-Defense-RailGun1Mk1-Gat-Twn",
+        "msgName": "RES_WT_TWINAGHP",
+        "name": "Needle Gun Twin Gatling Hardpoint",
+        "requiredResearch": [
+            "R-Wpn-RailGun04", 
+            "R-Defense-WallUpgrade07"
+        ],
+        "resultStructures": [
+            "WallTower3-RailGun1Mk1-Gat-Twn"
+        ],
+        "statID": "WallTower3-RailGun1Mk1-Gat-Twn"
+    }, 
+     "R-Defense-RailGun2Mk1-Twn-Inc": {
+        "iconID": "IMAGE_RES_DEFENCE",
+        "id": "R-Defense-RailGun2Mk1-Twn-Inc",
+        "msgName": "RES_WT_TWINAGHP",
+        "name": "Twin Rail Gun Incendiary Hardpoint",
+        "requiredResearch": [
+            "R-Wpn-RailGun08", 
+            "R-Defense-WallUpgrade07"
+        ],
+        "resultStructures": [
+            "WallTower3-RailGun2Mk1-Twn-Inc"
+        ],
+        "statID": "WallTower3-RailGun2Mk1-Twn-Inc"
+    }, 
+     "R-Defense-Railgun-Flak": {
+        "iconID": "IMAGE_RES_DEFENCE",
+        "id": "R-Defense-Railgun-Flak",
+        "msgName": "RES_WT_TWINAGHP",
+        "name": "Railgun Flak Hardpoint",
+        "requiredResearch": [
+            "R-Wpn-AAGun08", 
+            "R-Defense-WallUpgrade07"
+        ],
+        "resultStructures": [
+            "WallTower3-Railgun-Flak"
+        ],
+        "statID": "WallTower3-Railgun-Flak"
+    }, 
+     "R-Defense-AAGunLaser-Lng": {
+        "iconID": "IMAGE_RES_DEFENCE",
+        "id": "R-Defense-AAGunLaser-Lng",
+        "msgName": "RES_WT_TWINAGHP",
+        "name": "Stormbringer Flak AA Hardpoint",
+        "requiredResearch": [
+            "R-Wpn-AALaser", 
+            "R-Defense-WallUpgrade07"
+        ],
+        "resultStructures": [
+            "WallTower-AAGunLaser-Lng"
+        ],
+        "statID": "WallTower-AAGunLaser-Lng"
+    }, 
+     "R-Defense-SamHvy-Arch": {
+        "iconID": "IMAGE_RES_DEFENCE",
+        "id": "R-Defense-SamHvy-Arch",
+        "msgName": "RES_WT_TWINAGHP",
+        "name": "Thermal Vindicator SAM Tower",
+        "requiredResearch": [
+            "R-Wpn-Missile-HvSAM-Arch", 
+            "R-Defense-WallUpgrade07"
+        ],
+        "resultStructures": [
+            "WallTower-SamHvy-Arch"
+        ],
+        "statID": "WallTower-SamHvy-Arch"
+    }, 
+     "R-Defense-SamSite-Arch": {
+        "iconID": "IMAGE_RES_DEFENCE",
+        "id": "R-Defense-SamSite-Arch",
+        "msgName": "RES_WT_TWINAGHP",
+        "name": "Thermal Avenger SAM Tower",
+        "requiredResearch": [
+            "R-Wpn-Missile-LtSAM2-Arch", 
+            "R-Defense-WallUpgrade07"
+        ],
+        "resultStructures": [
+            "WallTower-SamSite-Arch"
+        ],
+        "statID": "WallTower-SamSite-Arch"
     }, 
      "R-Defense-WallUpgrade01": {
         "iconID": "IMAGE_RES_DEFENCE",
@@ -6800,6 +7276,70 @@
         ],
         "statID": "QuadRotAAGun"
     }, 
+     "R-Wpn-AAGun05": {
+        "iconID": "IMAGE_RES_WEAPONTECH",
+        "id": "R-Wpn-AAGun05",
+        "msgName": "RES_W_AA4",
+        "name": "HEI Hurricane AA Turret",
+        "requiredResearch": [
+            "R-Wpn-AAGun03", 
+            "R-Wpn-Mortar02Hvy"
+        ],
+        "researchPoints": 6600,
+        "researchPower": 480,
+        "resultComponents": [
+            "QuadMg1AAGun-Scav"
+        ],
+        "statID": "QuadMg1AAGun-Scav"
+    }, 
+     "R-Wpn-AAGun06": {
+        "iconID": "IMAGE_RES_WEAPONTECH",
+        "id": "R-Wpn-AAGun06",
+        "msgName": "RES_W_AA4",
+        "name": "HEI Whirlwind AA Turret",
+        "requiredResearch": [
+            "R-Wpn-AAGun04", 
+            "R-Wpn-Mortar-Damage04", 
+            "R-Wpn-AAGun05"
+        ],
+        "researchPoints": 10400,
+        "researchPower": 605,
+        "resultComponents": [
+            "QuadRotAAGun-Scav"
+        ],
+        "statID": "QuadRotAAGun-Scav"
+    }, 
+     "R-Wpn-AAGun07": {
+        "iconID": "IMAGE_RES_WEAPONTECH",
+        "id": "R-Wpn-AAGun07",
+        "msgName": "RES_W_AA4",
+        "name": "Needle Gun AA Turret",
+        "requiredResearch": [
+            "R-Wpn-MG4", 
+            "R-Wpn-AAGun-Damage02"
+        ],
+        "researchPoints": 10400,
+        "researchPower": 605,
+        "resultComponents": [
+            "RailGun1Mk1-GatAA"
+        ],
+        "statID": "RailGun1Mk1-GatAA"
+    }, 
+     "R-Wpn-AAGun08": {
+        "iconID": "IMAGE_RES_WEAPONTECH",
+        "id": "R-Wpn-AAGun08",
+        "msgName": "RES_W_AA4",
+        "name": "Railgun Flak AA Turret",
+        "requiredResearch": [
+            "R-Wpn-AAGun07"
+        ],
+        "researchPoints": 10400,
+        "researchPower": 605,
+        "resultComponents": [
+            "Railgun-Flak"
+        ],
+        "statID": "Railgun-Flak"
+    }, 
      "R-Wpn-AAGun-Accuracy01": {
         "iconID": "IMAGE_RES_WEAPONTECH",
         "id": "R-Wpn-AAGun-Accuracy01",
@@ -7190,7 +7730,6 @@
         "researchPower": 1040,
         "resultComponents": [
             "AAGunLaser",
-            "AAGunLaser-VTOL",
             "AAGunLaser-Lng"
         ],
         "statID": "AAGunLaser"
@@ -8172,32 +8711,6 @@
             }
         ],
         "statID": "Cannon4AUTOMk1-Full-Aslt",
-        "subgroupIconID": "IMAGE_RES_GRPUPG"
-    }, 
-     "R-Wpn-Cannon-Mount04": {
-        "iconID": "IMAGE_RES_WEAPONTECH",
-        "id": "R-Wpn-Cannon-Mount04",
-        "msgName": "RES_W_CN_MN4",
-        "name": "Heavy Assault Cannon Turret",
-        "requiredResearch": [
-            "R-Wpn-Cannon-Mount03", 
-            "R-Wpn-Cannon3Mk1"
-        ],
-        "researchPoints": 12200,
-        "researchPower": 600,
-        "resultComponents": [
-            "Cannon5VulcanMk1-Hvy"
-        ],
-        "results": [
-            {
-                "class": "Weapon",
-                "filterParameter": "ImpactClass",
-                "filterValue": "CANNON",
-                "parameter": "MaxRange",
-                "value": 9
-            }
-        ],
-        "statID": "Cannon5VulcanMk1-Hvy",
         "subgroupIconID": "IMAGE_RES_GRPUPG"
     }, 
      "R-Wpn-Cannon-ROF01": {
@@ -10256,7 +10769,7 @@
         "name": "Heavy Laser Gatling",
         "requiredResearch": [
             "R-Wpn-Laser02", 
-            "R-Wpn-Cannon-Mount04"
+            "R-Wpn-Cannon-Mount03"
         ],
         "researchPoints": 25000,
         "researchPower": 1250,
@@ -10420,7 +10933,7 @@
         "name": "Medium Laser Assault",
         "requiredResearch": [
             "R-Wpn-Laser02", 
-            "R-Wpn-Cannon-Mount04"
+            "R-Wpn-Cannon-Mount03"
         ],
         "researchPoints": 17000,
         "researchPower": 820,
@@ -10461,9 +10974,26 @@
         "researchPoints": 14400,
         "researchPower": 1040,
         "resultComponents": [
-            "Missile-MdArt"
+            "Missile-MdArt",
+            "Rocket-VTOL-TopAtkPlasHvy"
         ],
         "statID": "Missile-MdArt"
+    }, 
+     "R-Wpn-MdArtMissile-Hvy": {
+        "iconID": "IMAGE_RES_WEAPONTECH",
+        "id": "R-Wpn-MdArtMissile-Hvy",
+        "keyTopic": 1,
+        "msgName": "RES_W_MS_MART",
+        "name": "Full Seraph Missile Array",
+        "requiredResearch": [
+            "R-Wpn-MdArtMissile"
+        ],
+        "researchPoints": 9200,
+        "researchPower": 560,
+        "resultComponents": [
+            "Missile-MdArt-Hvy"
+        ],
+        "statID": "Missile-MdArt-Hvy"
     }, 
      "R-Wpn-MG1Mk1": {
         "iconID": "IMAGE_RES_WEAPONTECH",
@@ -10612,7 +11142,8 @@
         "researchPoints": 4800,
         "researchPower": 265,
         "resultComponents": [
-            "MG4ROTARYMk1-Hvy-Inc"
+            "MG4ROTARYMk1-Hvy-Inc",
+            "MG4ROTARYMk1-Hvy-Inc-VTOL"
         ],
         "statID": "MG4ROTARYMk1-Hvy-Inc"
     }, 
@@ -12289,8 +12820,7 @@
         "researchPower": 1040,
         "resultComponents": [
             "RailGun2-VTOL",
-            "RailGun2Mk1",
-            "RailGun2Mk1-Twn-Inc"
+            "RailGun2Mk1"
         ],
         "statID": "RailGun2Mk1"
     }, 
@@ -12323,9 +12853,91 @@
         "researchPoints": 25000,
         "researchPower": 2250,
         "resultComponents": [
-            "RailGun1Mk1-GatAT"
+            "RailGun2Mk1-GatAT"
         ],
-        "statID": "RailGun1Mk1-GatAT"
+        "statID": "RailGun2Mk1-GatAT"
+    }, 
+     "R-Wpn-RailGun04": {
+        "iconID": "IMAGE_RES_WEAPONTECH",
+        "id": "R-Wpn-RailGun04",
+        "keyTopic": 1,
+        "msgName": "RES_W_RAIL3",
+        "name": "Needle Gun Twin Gatling",
+        "requiredResearch": [
+            "R-Wpn-Rail-Damage01"
+        ],
+        "researchPoints": 14400,
+        "researchPower": 625,
+        "resultComponents": [
+            "RailGun1Mk1-Gat-Twn"
+        ],
+        "statID": "RailGun1Mk1-Gat-Twn"
+    }, 
+     "R-Wpn-RailGun05": {
+        "iconID": "IMAGE_RES_WEAPONTECH",
+        "id": "R-Wpn-RailGun05",
+        "keyTopic": 1,
+        "msgName": "RES_W_RAIL3",
+        "name": "Gauss Cannon Assault",
+        "requiredResearch": [
+            "R-Wpn-RailGun03"
+        ],
+        "researchPoints": 25000,
+        "researchPower": 2250,
+        "resultComponents": [
+            "RailGun3Mk1-Aslt"
+        ],
+        "statID": "RailGun3Mk1-Aslt"
+    }, 
+     "R-Wpn-RailGun06": {
+        "iconID": "IMAGE_RES_WEAPONTECH",
+        "id": "R-Wpn-RailGun06",
+        "keyTopic": 1,
+        "msgName": "RES_W_RAIL3",
+        "name": "Heavy Gauss Cannon",
+        "requiredResearch": [
+            "R-Wpn-RailGun03"
+        ],
+        "researchPoints": 25000,
+        "researchPower": 2250,
+        "resultComponents": [
+            "RailGun3Mk1-Hvy"
+        ],
+        "statID": "RailGun3Mk1-Hvy"
+    }, 
+     "R-Wpn-RailGun07": {
+        "iconID": "IMAGE_RES_WEAPONTECH",
+        "id": "R-Wpn-RailGun07",
+        "keyTopic": 1,
+        "msgName": "RES_W_RAIL3",
+        "name": "Incendiary Assault Railgun",
+        "requiredResearch": [
+            "R-Wpn-RailGun02", 
+            "R-Wpn-Flame2"
+        ],
+        "researchPoints": 25000,
+        "researchPower": 2250,
+        "resultComponents": [
+            "Railgun-Aslt",
+            "Railgun-Aslt-VTOL"
+        ],
+        "statID": "Railgun-Aslt"
+    }, 
+     "R-Wpn-RailGun08": {
+        "iconID": "IMAGE_RES_WEAPONTECH",
+        "id": "R-Wpn-RailGun08",
+        "keyTopic": 1,
+        "msgName": "RES_W_RAIL3",
+        "name": "Incendiary Twin Assault Rail",
+        "requiredResearch": [
+            "R-Wpn-RailGun07"
+        ],
+        "researchPoints": 25000,
+        "researchPower": 2250,
+        "resultComponents": [
+            "RailGun2Mk1-Twn-Inc"
+        ],
+        "statID": "RailGun2Mk1-Twn-Inc"
     }, 
      "R-Wpn-Rail-Range01": {
         "iconID": "IMAGE_RES_WEAPONTECH",
@@ -12529,6 +13141,23 @@
         ],
         "statID": "Rocket-BB"
     }, 
+     "R-Wpn-Rocket03-HvAT-Arch": {
+        "iconID": "IMAGE_RES_WEAPONTECH",
+        "id": "R-Wpn-Rocket03-HvAT-Arch",
+        "msgName": "RES_W_RK_HVAT1",
+        "name": "Thermal Bunker Buster Rocket",
+        "requiredResearch": [
+            "R-Wpn-Rocket03-HvAT", 
+            "R-Wpn-Rocket05-MiniPod-Arch"
+        ],
+        "researchPoints": 4800,
+        "researchPower": 395,
+        "resultComponents": [
+            "Rocket-BB-Arch",
+            "Rocket-VTOL-BB2"
+        ],
+        "statID": "Rocket-BB-Arch"
+    }, 
      "R-Wpn-Rocket05-MiniPod": {
         "iconID": "IMAGE_RES_WEAPONTECH",
         "id": "R-Wpn-Rocket05-MiniPod",
@@ -12558,9 +13187,28 @@
         "researchPoints": 4800,
         "researchPower": 275,
         "resultComponents": [
-            "Rocket-Pod-Arch"
+            "Rocket-Pod-Arch",
+            "Rocket-VTOL-Pod3"
         ],
         "statID": "Rocket-Pod-Arch"
+    }, 
+     "R-Wpn-Rocket-Arch-Hvy-Aslt-Gat": {
+        "iconID": "IMAGE_RES_WEAPONTECH",
+        "id": "R-Wpn-Rocket-Arch-Hvy-Aslt-Gat",
+        "keyTopic": 1,
+        "msgName": "RES_W_RK_MP1",
+        "name": "Thermal Rocket Gatling",
+        "requiredResearch": [
+            "R-Wpn-Rocket-ROF03", 
+            "R-Wpn-Rocket-Pod-Quad-Arch", 
+            "R-Wpn-MG4"
+        ],
+        "researchPoints": 4800,
+        "researchPower": 275,
+        "resultComponents": [
+            "Rocket-Arch-Hvy-Aslt-Gat"
+        ],
+        "statID": "Rocket-Arch-Hvy-Aslt-Gat"
     }, 
      "R-Wpn-Rocket05-MiniPod-EMP": {
         "iconID": "IMAGE_RES_WEAPONTECH",
@@ -13096,7 +13744,8 @@
         "researchPoints": 11000,
         "researchPower": 530,
         "resultComponents": [
-            "Rocket-MRL-Homing-Hvy"
+            "Rocket-MRL-Homing-Hvy",
+            "Rocket-VTOL-TopAttackHvy"
         ],
         "results": [
             {
@@ -13255,6 +13904,7 @@
         "resultComponents": [
             "Cyb-Wpn-Rocket-Sunburst-ARch-AR",
             "Cyb-Wpn-Rocket-Sunburst-Arch",
+            "Rocket-VTOL-Cherub",
             "Rocket-Sunburst-Arch"
         ],
         "statID": "Rocket-Sunburst-Arch"

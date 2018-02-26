@@ -102,8 +102,6 @@ const defenses = [
 ];
 
 const templates = [
-	["B1BaBaPerson02","BaBaMG"],
-	["B1BaBaPerson02","BaBaMG"],
 	["B4body-sml-trike01-AR","bTrikeMG"],
 	["B4body-sml-trike01-AR","bTrikeMG"],
 	["B4body-sml-trike01-AR","bTrikeMG"],
