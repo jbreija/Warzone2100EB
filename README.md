@@ -21,3 +21,8 @@ http://forums.wz2100.net/viewtopic.php?f=49&t=12380
 
 Warzone 2100 Development Forum: (General Contributors)
 http://forums.wz2100.net/viewforum.php?f=6
+
+![alt text](https://s8.postimg.cc/enfabzcb9/nasda.png)
+![alt text](https://s8.postimg.cc/5fn1vcpud/mech_AI.png)
+![alt text](https://s8.postimg.cc/w0pkr2545/struct_menu.png)
+![alt text](https://s8.postimg.cc/b2jet4i5x/height.png)
