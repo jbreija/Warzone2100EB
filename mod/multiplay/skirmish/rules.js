@@ -14,13 +14,31 @@ include("multiplay/script/weather.js");
 var lastHitTime = 0;
 var cheatmode = false;
 var maxOilDrums = 0;
-var mainReticule = true;
-var allowDesign = false;
+var mainReticule = false;
 
-function setMainReticule()
+const CREATE_LIKE_EVENT = 0;
+const DESTROY_LIKE_EVENT = 1;
+const TRANSFER_LIKE_EVENT = 2;
+
+function reticuleManufactureCheck()
 {
-	setReticuleButton(0, _("Close"), "image_cancel_up.png", "image_cancel_down.png");
-	if (countStruct("A0LightFactory") + countStruct("A0CyborgFactory") + countStruct("A0VTolFactory1") > 0)
+	var structureComplete = false;
+	var facs = ["A0LightFactory", "A0CyborgFactory", "A0VTolFactory1"];
+
+	for (var i = 0, len = facs.length; i < len; ++i)
+	{
+		var onMapFacs = enumStruct(selectedPlayer, facs[i]);
+		for (var j = 0, len2 = onMapFacs.length; j < len2; ++j)
+		{
+			if (onMapFacs[j].status === BUILT)
+			{
+				structureComplete = true;
+				break;
+			}
+		}
+	}
+
+	if (structureComplete === true)
 	{
 		setReticuleButton(1, _("Manufacture (F1)"), "image_manufacture_up.png", "image_manufacture_down.png");
 	}
@@ -28,7 +46,23 @@ function setMainReticule()
 	{
 		setReticuleButton(1, _("Manufacture - build factory first"), "", "");
 	}
-	if (countStruct("A0ResearchFacility") > 0)
+}
+
+function reticuleResearchCheck()
+{
+	var structureComplete = false;
+	var onMapResLabs = enumStruct(selectedPlayer, "A0ResearchFacility");
+
+	for (var i = 0, len = onMapResLabs.length; i < len; ++i)
+	{
+		if (onMapResLabs[i].status === BUILT)
+		{
+			structureComplete = true;
+			break;
+		}
+	}
+
+	if (structureComplete === true)
 	{
 		setReticuleButton(2, _("Research (F2)"), "image_research_up.png", "image_research_down.png");
 	}
@@ -36,7 +70,11 @@ function setMainReticule()
 	{
 		setReticuleButton(2, _("Research - build research facility first"), "", "");
 	}
-	if (countDroid(DROID_CONSTRUCT, selectedPlayer) > 0)
+}
+
+function reticuleBuildCheck()
+{
+	if (enumDroid(selectedPlayer, DROID_CONSTRUCT).length > 0)
 	{
 		setReticuleButton(3, _("Build (F3)"), "image_build_up.png", "image_build_down.png");
 	}
@@ -44,16 +82,39 @@ function setMainReticule()
 	{
 		setReticuleButton(3, _("Build - manufacture constructor droids first"), "", "");
 	}
-	if (allowDesign == true)
+}
+
+function reticuleDesignCheck()
+{
+	var structureComplete = false;
+	var onMapHQ = enumStruct(selectedPlayer, "A0CommandCentre");
+
+	for (var i = 0, len = onMapHQ.length; i < len; ++i)
+	{
+		if (onMapHQ[i].status === BUILT)
+		{
+			structureComplete = true;
+			break;
+		}
+	}
+
+	if (structureComplete === true)
 	{
 		setReticuleButton(4, _("Design (F4)"), "image_design_up.png", "image_design_down.png");
+		setMiniMap(true);
+		setDesign(true);
 	}
 	else
 	{
 		setReticuleButton(4, _("Design - construct HQ first"), "", "");
+		setMiniMap(false);
+		setDesign(false);
 	}
-	setReticuleButton(5, _("Intelligence Display (F5)"), "image_intelmap_up.png", "image_intelmap_down.png");
-	if (countDroid(DROID_COMMAND, selectedPlayer) > 0)
+}
+
+function reticuleCommandCheck()
+{
+	if (enumDroid(selectedPlayer, DROID_COMMAND).length > 0)
 	{
 		setReticuleButton(6, _("Commanders (F6)"), "image_commanddroid_up.png", "image_commanddroid_down.png");
 	}
@@ -61,7 +122,49 @@ function setMainReticule()
 	{
 		setReticuleButton(6, _("Commanders - manufacture commanders first"), "", "");
 	}
-	mainReticule = true; // main reticule window is open
+}
+
+function setMainReticule()
+{
+	setReticuleButton(0, _("Close"), "image_cancel_up.png", "image_cancel_down.png");
+	reticuleManufactureCheck();
+	reticuleResearchCheck();
+	reticuleBuildCheck();
+	reticuleDesignCheck();
+	setReticuleButton(5, _("Intelligence Display (F5)"), "image_intelmap_up.png", "image_intelmap_down.png");
+	reticuleCommandCheck();
+}
+
+function reticuleUpdate(obj, eventType)
+{
+	var update_reticule = false;
+
+	if (eventType === TRANSFER_LIKE_EVENT)
+	{
+		update_reticule = true;
+	}
+	else if (obj.player === selectedPlayer && obj.type === STRUCTURE)
+	{
+		if (obj.stattype === HQ || obj.stattype === RESEARCH_LAB || obj.stattype === CYBORG_FACTORY ||
+			obj.stattype === VTOL_FACTORY || obj.stattype === FACTORY || obj.stattype === COMMAND_CONTROL)
+		{
+			update_reticule = true;
+		}
+	}
+	else if (obj.player === selectedPlayer && obj.type === DROID)
+	{
+		if (obj.droidType === DROID_CONSTRUCT || obj.droidType === DROID_COMMAND)
+		{
+			update_reticule = true;
+		}
+	}
+
+	if (mainReticule && update_reticule)
+	{
+		//Wait a tick for the counts to update
+		const TICK_TIME = 100;
+		queue("setMainReticule", TICK_TIME);
+	}
 }
 
 function setupGame()
@@ -83,8 +186,13 @@ function setupGame()
 	{
 		setSky("texpages/page-25-sky-urban.png", 0.5, 10000.0);
 	}
+	// Disabled by default
+	setMiniMap(false);
+	setDesign(false);
+
 	setMainReticule();
 	showInterface();
+	mainReticule = true;
 	hackPlayIngameAudio();
 }
 
@@ -104,9 +212,21 @@ function eventGameInit()
 		queue("placeOilDrum", 10000 * i);
 	}
 
-
 	hackNetOff();
-	
+	makeComponentAvailable("B4body-sml-trike01", scavengerPlayer);
+	makeComponentAvailable("B3body-sml-buggy01", scavengerPlayer);
+	makeComponentAvailable("B2JeepBody", scavengerPlayer);
+	makeComponentAvailable("BusBody", scavengerPlayer);
+	makeComponentAvailable("FireBody", scavengerPlayer);
+	makeComponentAvailable("B1BaBaPerson01", scavengerPlayer);
+	makeComponentAvailable("BaBaProp", scavengerPlayer);
+	makeComponentAvailable("BaBaLegs", scavengerPlayer);
+	makeComponentAvailable("bTrikeMG", scavengerPlayer);
+	makeComponentAvailable("BuggyMG", scavengerPlayer);
+	makeComponentAvailable("BJeepMG", scavengerPlayer);
+	makeComponentAvailable("BusCannon", scavengerPlayer);
+	makeComponentAvailable("BabaFlame", scavengerPlayer);
+	makeComponentAvailable("BaBaMG", scavengerPlayer);
 	for (var playnum = 0; playnum < maxPlayers; playnum++)
 	{
 		if (powerType == 0)
@@ -137,7 +257,7 @@ function eventGameInit()
 		enableStructure("A0ResourceExtractor", playnum);
 		enableStructure("A0PowerGenerator", playnum);
 		enableStructure("A0ResearchFacility", playnum);
-		
+
 		setStructureLimits("A0LightFactory", 5, playnum);	// set structure limits
 		setStructureLimits("A0PowerGenerator", 10, playnum);
 		setStructureLimits("A0ResearchFacility", 5, playnum);
@@ -156,7 +276,7 @@ function eventGameInit()
 	}
 	applyLimitSet();	// set limit options
 
-	const numCleanTech = 7;	// do x for clean	
+	const numCleanTech = 7;	// do x for clean
 	const numBaseTech = 20; // do x for base
 	var techlist = new Array(
 		"R-Vehicle-Prop-Wheels",
@@ -274,22 +394,10 @@ function eventGameInit()
 		grantTech(TECH_THREE);
 	}
 
-	// Disabled by default
-	setMiniMap(false);
-	setDesign(false);
-	allowDesign = false;
 	// This is the only template that should be enabled before design is allowed
 	enableTemplate("ConstructionDroid");
 	enableTemplate("Cyb-ComEng");
 	enableTemplate("TruckNAS");
-
-	
-	var structlist = enumStruct(selectedPlayer, HQ);
-	for (var i = 0; i < structlist.length; i++)
-	{
-		// Simulate build events to enable minimap/unit design when an HQ exists
-		eventStructureBuilt(structlist[i]);
-	}
 
 	hackNetOn();
 	setTimer("checkEndConditions", 3000);
@@ -383,73 +491,41 @@ function eventAttacked(victimObj, attackerObj)
 
 function eventDroidBuilt(droid, structure)
 {
-	var update_reticule = false;
-
-	if (droid.player == selectedPlayer && droid.type == DROID
-	    && (droid.droidType == DROID_CONSTRUCT || droid.droidType == DROID_COMMAND))
+	if (droid.player === selectedPlayer)
 	{
-		update_reticule = true;
-	}
-
-	if (mainReticule && update_reticule)
-	{
-		setMainReticule();
+		reticuleUpdate(droid, CREATE_LIKE_EVENT);
 	}
 }
 
-function eventStructureBuilt(struct)
+function eventStructureBuilt(struct, droid)
 {
-	var update_reticule = false;
-
-	if (struct.player == selectedPlayer && struct.type == STRUCTURE && struct.stattype == HQ)
+	if (struct.player === selectedPlayer)
 	{
-		setMiniMap(true); // show minimap
-		setDesign(true); // permit designs
-		allowDesign = true;
-		update_reticule = true;
+		reticuleUpdate(struct, CREATE_LIKE_EVENT);
 	}
+}
 
-	if (struct.player == selectedPlayer && struct.type == STRUCTURE
-	    && (struct.stattype == RESEARCH_LAB || struct.stattype == CYBORG_FACTORY
-	        || struct.stattype == VTOL_FACTORY || struct.stattype == FACTORY))
+function eventStructureDemolish(struct, droid)
+{
+	if (struct.player === selectedPlayer)
 	{
-		update_reticule = true;
-	}
-
-	if (mainReticule && update_reticule)
-	{
-		setMainReticule();
+		reticuleUpdate(struct, DESTROY_LIKE_EVENT);
 	}
 }
 
 function eventDestroyed(victim)
 {
-	var update_reticule = false;
-
-	if (victim.player == selectedPlayer && victim.type == STRUCTURE && victim.stattype == HQ && !enumStruct(selectedPlayer, HQ).length)
+	if (victim.player === selectedPlayer)
 	{
-		setMiniMap(false); // hide minimap if HQ is destroyed and no other HQs are present
-		setDesign(false); // and disallow design
-		allowDesign = false;
-		update_reticule = true;
+		reticuleUpdate(victim, DESTROY_LIKE_EVENT);
 	}
+}
 
-	if (victim.player == selectedPlayer && victim.type == STRUCTURE
-	    && (victim.stattype == RESEARCH_LAB || victim.stattype == CYBORG_FACTORY
-	        || victim.stattype == VTOL_FACTORY || victim.stattype == FACTORY))
+function eventObjectTransfer(obj, from)
+{
+	if (obj.player === selectedPlayer || from === selectedPlayer)
 	{
-		update_reticule = true;
-	}
-
-	if (victim.player == selectedPlayer && victim.type == DROID
-	    && (victim.droidType == DROID_CONSTRUCT || victim.droidType == DROID_COMMAND))
-	{
-		update_reticule = true;
-	}
-
-	if (mainReticule && update_reticule)
-	{
-		setMainReticule();
+		reticuleUpdate(obj, TRANSFER_LIKE_EVENT);
 	}
 }
 
@@ -473,12 +549,12 @@ function eventResearched(research, structure, player)
 			}
 			if (Stats[ctype][cname][parameter] instanceof Array)
 			{
-				var dst = Upgrades[player][ctype][cname][parameter].slice()
+				var dst = Upgrades[player][ctype][cname][parameter].slice();
 				for (var x = 0; x < dst.length; x++)
 				{
 					dst[x] += Math.ceil(Stats[ctype][cname][parameter][x] * v['value'] / 100);
 				}
-				Upgrades[player][ctype][cname][parameter] = dst
+				Upgrades[player][ctype][cname][parameter] = dst;
 				//debug("    upgraded to " + dst);
 			}
 			else if (Stats[ctype][cname][parameter] > 0) // only applies if stat has above zero value already

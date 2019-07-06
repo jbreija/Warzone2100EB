@@ -218,7 +218,7 @@ trigger everySec					(every, 10); // for example, a value of 130 = 13 seconds
 trigger chainloadTr				(wait, 1);
 trigger slowloadTr				(wait, 13);
 trigger delayedloadTr				(wait, 35);
-trigger announcementTr				(wait, 100);
+//trigger announcementTr				(wait, 100);
 
 // BASE BUILD TRIGGERS
 trigger basedetailsTr				(every, 300	);
@@ -302,7 +302,7 @@ event	rebuildStructureEv;
 event	doResearch;
 event	buildDerrick;
 event	findEnemy;
-event	announceResearch;
+//event	announceResearch;
 event	factoryEvent;
 event   basedetails;
 event   droidOrders;
@@ -312,7 +312,15 @@ event 	repairDroids;
 event 	newfortify;
 event 	incendry;
 event	enemyNearBase;
-event	beaconEv;
+event	buildReCenters;
+event	buildCyFactory;
+event	remainingEnemy;
+event	upgradeStructures;
+event	spendPower;
+event	repairGrp;
+event	buildFactory;
+event	buildVTOLFactory;
+event	sensorDroids;
 
 /* Function prototypes */
 function bool haveBeacon(int _player);
@@ -356,8 +364,6 @@ function void buildBaseStruct(STRUCTURESTAT _structure);
 function int countStruct(STRUCTURESTAT _structure);
 function bool upgradeStruct(DROID _truck, int _maxBuilders, STRUCTURESTAT _struct);
 function void finishStruct(STRUCTURESTAT _structure);
-
-
 function int numBuildSameBuilding(STRUCTURESTAT _checkStat, int _x, int _y);
 function int totalVtols();
 function bool needTank();
@@ -365,15 +371,14 @@ function void setTechBranch(int _tech);
 function DROID closestIdleTruck(int _x, int _y);
 function void buildOnExactLocation(DROID _truck, int _x, int _y, STRUCTURESTAT _stat);
 function void rebuildStructures();
-
 function int numGroupSameOrder(GROUP _group, int _orderIndex);
-
 function int numStructBusyByType(STRUCTURESTAT _busyStructType);
 function bool aiResponsibleForPlayer(int _player);
 function void reassignAI();
 function void shutDownAI();
 function bool buildUnit(TEMPLATE _tankTemplate, STRUCTURE _factory, STRUCTURESTAT _factoryType, bool _bIdleOnly);
 function STRUCTURE findIdleStructure(STRUCTURESTAT _structType, bool _bIdleOnly);
+function void buildAA();
 #endregion triggers
 
 /////////////////////////////////////////////////////////////////////
@@ -448,7 +453,7 @@ event initialisedEvent(CALL_GAMEINIT)
 }
 
 // check whether we have at least one structure of that type
-function bool haveStructure(STRUCTURESTAT type) 
+function bool haveStructure(STRUCTURESTAT type)
 {
 	return getStructure(type, me) != NULLOBJECT;
 }
@@ -1215,7 +1220,7 @@ event buildDerrick(buildDerrickTr)
 	local FEATURE	_oil, _closestOil,_truckRush;
 	local int	_bestDist, _newDist,_furthestDist, _count,_numOil,_numEnemy, _closestOilDist, _closestDistAlly;
 	local DROID	_search;
-	local float mapSize;
+	local float _mapSize;
 	local	STRUCTURE		_structure;
 
 	// what if we can't waste power on building derricks because we don't have a gen yet?
@@ -1242,8 +1247,8 @@ event buildDerrick(buildDerrickTr)
 	numDerricks = countStruct(derrick) + countStruct(gderrick);
 			
 	_truckRush = NULLOBJECT;
-	mapSize = (float)((mapWidth + mapHeight) / 2);
-	if(mapSize < 120.0 and gameTime < 3600 and numDerricks > 3)
+	_mapSize = (float)((mapWidth + mapHeight) / 2);
+	if(_mapSize < 120.0 and gameTime < 3600 and numDerricks > 3)
 	{
 		_count = 0;
 		while(_count < MAX_PLAYERS)
@@ -1397,43 +1402,43 @@ event buildDerrick(buildDerrickTr)
 }
 
 
-event announceResearch(inactive)
-{
-
-	if(curTech == branchFlameVtolLaser)
-	{
-		messagePlayer(ALL_ALLIES, "I'm researching Flamers then VTOL and lasers if the game is long.", MAX_PROBABILITY);
-	}
-	else if(curTech == branchCannonMGMortar)
-	{
-		messagePlayer(ALL_ALLIES, "I'm researching Cannons, MG's and mortars. Grenadiers for cyborgs.", MAX_PROBABILITY);
-	}
-	else if(curTech == branchRocketMGMortar)
-	{
-		messagePlayer(ALL_ALLIES, "I'm researching Rocket MG's and mortars.  Grenadiers for cyborgs.", MAX_PROBABILITY);
-	}
-	else if(curTech == branchRocket)
-	{
-		messagePlayer(ALL_ALLIES, "I think I'll use rockets + MG", MAX_PROBABILITY);
-	}
-	else if(curTech ==  branchMG)
-	{
-		messagePlayer(ALL_ALLIES, "I'm researching all MG's", MAX_PROBABILITY);
-	}
-	else if(curTech == branchFlamer)
-	{
-		messagePlayer(ALL_ALLIES, "I'm going all flamers", MAX_PROBABILITY);
-	}
-	else if(curTech == branchCannon)
-	{
-		messagePlayer(ALL_ALLIES, "I'm using cannons this game", MAX_PROBABILITY);
-	}
-	else if(curTech == branchArtillery)
-	{
-		messagePlayer(ALL_ALLIES, "I'm researching Mortars and Artillery Research", MAX_PROBABILITY);	
-	}
-	setEventTrigger(announceResearch,	inactive);
-}
+//event announceResearch(inactive)
+//{
+//
+//	if(curTech == branchFlameVtolLaser)
+//	{
+//		messagePlayer(ALL_ALLIES, "I'm researching Flamers then VTOL and lasers if the game is long.", MAX_PROBABILITY);
+//	}
+//	else if(curTech == branchCannonMGMortar)
+//	{
+//		messagePlayer(ALL_ALLIES, "I'm researching Cannons, MG's and mortars. Grenadiers for cyborgs.", MAX_PROBABILITY);
+//	}
+//	else if(curTech == branchRocketMGMortar)
+//	{
+//		messagePlayer(ALL_ALLIES, "I'm researching Rocket MG's and mortars.  Grenadiers for cyborgs.", MAX_PROBABILITY);
+//	}
+//	else if(curTech == branchRocket)
+//	{
+//		messagePlayer(ALL_ALLIES, "I think I'll use rockets + MG", MAX_PROBABILITY);
+//	}
+//	else if(curTech ==  branchMG)
+//	{
+//		messagePlayer(ALL_ALLIES, "I'm researching all MG's", MAX_PROBABILITY);
+//	}
+//	else if(curTech == branchFlamer)
+//	{
+//		messagePlayer(ALL_ALLIES, "I'm going all flamers", MAX_PROBABILITY);
+//	}
+//	else if(curTech == branchCannon)
+//	{
+//		messagePlayer(ALL_ALLIES, "I'm using cannons this game", MAX_PROBABILITY);
+//	}
+//	else if(curTech == branchArtillery)
+//	{
+//		messagePlayer(ALL_ALLIES, "I'm researching Mortars and Artillery Research", MAX_PROBABILITY);	
+//	}
+//	setEventTrigger(announceResearch,	inactive);
+//}
 
 /////////////////////////////////////////////////////////////////////
 // if idle and derrick in range and no defense then build defense, else ret to base .
@@ -2815,7 +2820,7 @@ function STRUCTURE findIdleStructure(STRUCTURESTAT _structType, bool _bIdleOnly)
 // build repair droids.
 event repairDroids(repairDroidsTr)
 {
-	local INT _rnd;
+	local int _rnd;
 	local bool _choseFactory;
 	
 	
@@ -4191,9 +4196,10 @@ function void shutDownAI()
 	setEventTrigger(structureDestroyed,inactive);
 	setEventTrigger(rebuildStructureEv,inactive);
 	setEventTrigger(startLevel, inactive);
-	setEventTrigger(arrived, inactive);
+//	setEventTrigger(arrived, inactive);
 	setEventTrigger(checkResearch, inactive);
-	setEventTrigger(announceResearch,	inactive);
+//	setEventTrigger(announceResearch,	inactive);
+	setEventTrigger(spendPower,	inactive);
 }
 
 function void reassignAI()

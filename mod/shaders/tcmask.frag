@@ -1,4 +1,6 @@
-#version 120
+// Version directive is set by Warzone when loading the shader
+// (This shader supports GLSL 1.20 - 1.50 core.)
+
 //#pragma debug(on)
 
 uniform sampler2D Texture; // diffuse
@@ -24,9 +26,21 @@ uniform float fogEnd;
 uniform float fogStart;
 uniform vec4 fogColor;
 
+#if (!defined(GL_ES) && (__VERSION__ >= 130)) || (defined(GL_ES) && (__VERSION__ >= 300))
+in float vertexDistance;
+in vec3 normal, lightDir, eyeVec, specEye;
+in vec2 texCoord;
+#else
 varying float vertexDistance;
 varying vec3 normal, lightDir, eyeVec, specEye;
 varying vec2 texCoord;
+#endif
+
+#if (!defined(GL_ES) && (__VERSION__ >= 130)) || (defined(GL_ES) && (__VERSION__ >= 300))
+out vec4 FragColor;
+#else
+// Uses gl_FragColor
+#endif
 
 void main()
 {
@@ -48,12 +62,17 @@ void main()
 		light += diffuse * lambertTerm;
 		vec3 E = normalize(specEye);
 		vec3 R = reflect(-L, N);
-		float s = pow(max(dot(R, -E), 0.0), 10.0); // 10 is an arbitrary value for now
+		float s = pow(max(dot(R, E), 0.0), 10.0); // 10 is an arbitrary value for now
 		specularLight += specular * s;
 	}
 
-
-	vec4 texColour = texture2D(Texture, texCoord);
+	// Get color from texture unit 0, merge with lighting
+	#if (!defined(GL_ES) && (__VERSION__ >= 130)) || (defined(GL_ES) && (__VERSION__ >= 300))
+	vec4 texColour = texture(Texture, texCoord) * light;
+	#else
+	vec4 texColour = texture2D(Texture, texCoord) * light;
+	#endif
+	
 	vec4 specularcolour = vec4(0.0, 0.0, 0.0, 1.0);
 	if (normalmap == 1)
 	{
@@ -69,7 +88,11 @@ void main()
 	if (tcmask == 1)
 	{
 		// Get tcmask information from texture unit 1
+		#if (!defined(GL_ES) && (__VERSION__ >= 130)) || (defined(GL_ES) && (__VERSION__ >= 300))
+		vec4 mask = texture(TextureTcmask, texCoord);
+		#else
 		vec4 mask = texture2D(TextureTcmask, texCoord);
+		#endif
 
 		// Apply color using grain merge with tcmask
 		fragColour = (texColour + (teamcolour - 0.5) * mask.a) * colour;
@@ -79,10 +102,10 @@ void main()
 		fragColour = texColour * colour;
 	}
 	fragColour = fragColour * light + specularcolour * specularLight;
-
+	
 	if (ecmEffect)
 	{
-		fragColour.a = 0.45 + 0.225 * graphicsCycle;
+		fragColour.a = 0.66 + 0.66 * graphicsCycle;
 	}
 
 	if (fogEnabled > 0)
@@ -100,5 +123,9 @@ void main()
 		discard;
 	}
 
+	#if (!defined(GL_ES) && (__VERSION__ >= 130)) || (defined(GL_ES) && (__VERSION__ >= 300))
+	FragColor = fragColour;
+	#else
 	gl_FragColor = fragColour;
+	#endif
 }

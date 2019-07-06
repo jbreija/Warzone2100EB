@@ -1,158 +1,14 @@
 {
-	 "sand": {
-		"id": 0,
-		"comment": "Sand",
-		"speedFactor": {
-			"wheeled": 140,
-			"tracked": 110,
-			"legged": 100,
-			"hover": 150,
-			"lift": 250,
-			"propellor": 100,
-			"half-tracked": 125
-		}
-	}, 
-	 "sandybrush": {
-		"id": 1,
-		"comment": "Sandy Brush",
-		"speedFactor": {
-			"wheeled": 140,
-			"tracked": 115,
-			"legged": 100,
-			"hover": 140,
-			"lift": 250,
-			"propellor": 100,
-			"half-tracked": 130
-		}
-	}, 
-	 "greenmud": {
-		"id": 2,
-		"comment": "Green Mud",
-		"speedFactor": {
-			"wheeled": 135,
-			"tracked": 120,
-			"legged": 100,
-			"hover": 150,
-			"lift": 250,
-			"propellor": 100,
-			"half-tracked": 135
-		}
-	}, 
-	 "bakedearth": {
-		"id": 3,
-		"comment": "Baked Earth",
-		"speedFactor": {
-			"wheeled": 150,
-			"tracked": 120,
-			"legged": 100,
-			"hover": 150,
-			"lift": 250,
-			"propellor": 100,
-			"half-tracked": 135
-		}
-	}, 
-	 "redbrush": {
-		"id": 4,
-		"comment": "Red Brush",
-		"speedFactor": {
-			"wheeled": 140,
-			"tracked": 115,
-			"legged": 100,
-			"hover": 140,
-			"lift": 250,
-			"propellor": 100,
-			"half-tracked": 130
-		}
-	}, 
-	 "pinkrock": {
-		"id": 5,
-		"comment": "Pink Rock",
-		"speedFactor": {
-			"wheeled": 150,
-			"tracked": 110,
-			"legged": 100,
-			"hover": 120,
-			"lift": 250,
-			"propellor": 100,
-			"half-tracked": 135
-		}
-	}, 
-	 "road": {
-		"id": 6,
-		"comment": "Road",
-		"speedFactor": {
-			"wheeled": 150,
-			"tracked": 120,
-			"legged": 100,
-			"hover": 150,
-			"lift": 250,
-			"propellor": 100,
-			"half-tracked": 135
-		}
-	}, 
-	 "water": {
-		"id": 7,
-		"comment": "Water",
-		"speedFactor": {
-			"wheeled": 60,
-			"tracked": 60,
-			"legged": 60,
-			"hover": 120,
-			"lift": 250,
-			"propellor": 100,
-			"half-tracked": 60
-		}
-	}, 
-	 "cliff_face": {
-		"id": 8,
-		"comment": "Cliff Face",
-		"speedFactor": {
-			"wheeled": 60,
-			"tracked": 60,
-			"legged": 60,
-			"hover": 80,
-			"lift": 250,
-			"propellor": 100,
-			"half-tracked": 60
-		}
-	}, 
-	 "rubble": {
-		"id": 9,
-		"comment": "Rubble",
-		"speedFactor": {
-			"wheeled": 140,
-			"tracked": 120,
-			"legged": 100,
-			"hover": 120,
-			"lift": 250,
-			"propellor": 100,
-			"half-tracked": 135
-		}
-	}, 
-	 "sheetice": {
-		"id": 10,
-		"comment": "Sheet Ice",
-		"speedFactor": {
-			"wheeled": 150,
-			"tracked": 120,
-			"legged": 100,
-			"hover": 150,
-			"lift": 250,
-			"propellor": 100,
-			"half-tracked": 130
-		}
-	}, 
-	 "slush": {
-		"id": 11,
-		"comment": "Slush",
-		"speedFactor": {
-			"wheeled": 135,
-			"tracked": 120,
-			"legged": 100,
-			"hover": 150,
-			"lift": 250,
-			"propellor": 100,
-			"half-tracked": 130
-		}
-	}
-}
+	 "sand": {		"id": 0,		"comment": "Sand",		"speedFactor": {			"wheeled": 140,			"tracked": 110,			"legged": 100,			"hover": 150,			"lift": 250,			"propellor": 100,			"half-tracked": 125		}	}, 
+	 "sandybrush": {		"id": 1,		"comment": "Sandy Brush",		"speedFactor": {			"wheeled": 140,			"tracked": 115,			"legged": 100,			"hover": 140,			"lift": 250,			"propellor": 100,			"half-tracked": 130		}	}, 
+	 "greenmud": {		"id": 2,		"comment": "Green Mud",		"speedFactor": {			"wheeled": 135,			"tracked": 120,			"legged": 100,			"hover": 150,			"lift": 250,			"propellor": 100,			"half-tracked": 135		}	}, 
+	 "bakedearth": {		"id": 3,		"comment": "Baked Earth",		"speedFactor": {			"wheeled": 150,			"tracked": 120,			"legged": 100,			"hover": 150,			"lift": 250,			"propellor": 100,			"half-tracked": 135		}	}, 
+	 "redbrush": {		"id": 4,		"comment": "Red Brush",		"speedFactor": {			"wheeled": 140,			"tracked": 115,			"legged": 100,			"hover": 140,			"lift": 250,			"propellor": 100,			"half-tracked": 130		}	}, 
+	 "pinkrock": {		"id": 5,		"comment": "Pink Rock",		"speedFactor": {			"wheeled": 150,			"tracked": 110,			"legged": 100,			"hover": 120,			"lift": 250,			"propellor": 100,			"half-tracked": 135		}	}, 
+	 "road": {		"id": 6,		"comment": "Road",		"speedFactor": {			"wheeled": 150,			"tracked": 120,			"legged": 100,			"hover": 150,			"lift": 250,			"propellor": 100,			"half-tracked": 135		}	}, 
+	 "water": {		"id": 7,		"comment": "Water",		"speedFactor": {			"wheeled": 60,			"tracked": 60,			"legged": 60,			"hover": 120,			"lift": 250,			"propellor": 100,			"half-tracked": 60		}	}, 
+	 "cliff_face": {		"id": 8,		"comment": "Cliff Face",		"speedFactor": {			"wheeled": 60,			"tracked": 60,			"legged": 60,			"hover": 80,			"lift": 250,			"propellor": 100,			"half-tracked": 60		}	}, 
+	 "rubble": {		"id": 9,		"comment": "Rubble",		"speedFactor": {			"wheeled": 140,			"tracked": 120,			"legged": 100,			"hover": 120,			"lift": 250,			"propellor": 100,			"half-tracked": 135		}	}, 
+	 "sheetice": {		"id": 10,		"comment": "Sheet Ice",		"speedFactor": {			"wheeled": 150,			"tracked": 120,			"legged": 100,			"hover": 150,			"lift": 250,			"propellor": 100,			"half-tracked": 130		}	}, 
+	 "slush": {		"id": 11,		"comment": "Slush",		"speedFactor": {			"wheeled": 135,			"tracked": 120,			"legged": 100,			"hover": 150,			"lift": 250,			"propellor": 100,			"half-tracked": 130		}
+	}}

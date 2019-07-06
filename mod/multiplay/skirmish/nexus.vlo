@@ -383,7 +383,7 @@ run
 
 
 	
-	techCount[5]	int					61
+	techCount[5]	int					63
 	maxIdleRes[5]	int					0
 	
 	tech[5][0]	RESEARCHSTAT	"R-Defense-Tower01"
