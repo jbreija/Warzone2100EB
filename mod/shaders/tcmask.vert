@@ -39,9 +39,10 @@ void main()
 	texCoord = vertexTexCoord;
 
 	// Lighting -- we pass these to the fragment shader
-	normal = (NormalMatrix * vec4(vertexNormal, 0.0)).xyz;
+	// Instead of transforming the normal, we inverse transform the light.
+	normal = vertexNormal;
 	mat3 invNorMatrix = mat3(transpose(NormalMatrix));
-	lightDir = lightPosition.xyz - vVertex;
+	lightDir = invNorMatrix * (lightPosition.xyz);
 	eyeVec = -vVertex;
 	specEye = invNorMatrix * eyeVec;
 

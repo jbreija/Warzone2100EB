@@ -48,7 +48,7 @@ void main()
 	vec4 specularLight = vec4(0.0, 0.0, 0.0, 1.0);
 	vec3 N = normalize(normal);
 	vec3 L = normalize(lightDir);
-	if (normalmap == 1)
+	if (normalmap == 1) //replace vertex normal with object space normal from texture
 	{
 		vec3 bump = texture2D(TextureNormal, texCoord).xyz;
 		
@@ -62,7 +62,7 @@ void main()
 		light += diffuse * lambertTerm;
 		vec3 E = normalize(specEye);
 		vec3 R = reflect(-L, N);
-		float s = pow(max(dot(R, E), 0.0), 10.0); // 10 is an arbitrary value for now
+		float s = pow(max(dot(R, -E), 0.0), 10.0); // 10 is an arbitrary value for now
 		specularLight += specular * s;
 	}
 
@@ -72,17 +72,21 @@ void main()
 	#else
 	vec4 texColour = texture2D(Texture, texCoord) * light;
 	#endif
-	
 	vec4 specularcolour = vec4(0.0, 0.0, 0.0, 1.0);
 	if (normalmap == 1)
 	{
 		// use diffuse colour and multiply with spec factor from normalmap alpha channel
+		#if (!defined(GL_ES) && (__VERSION__ >= 130)) || (defined(GL_ES) && (__VERSION__ >= 300))
+		specularcolour = 1.6 * vec4(normalize(texColour.rgb), texColour.a) * texture(TextureNormal, texCoord).a;
+		#else
 		specularcolour = 1.6 * vec4(normalize(texColour.rgb), texColour.a) * texture2D(TextureNormal, texCoord).a;
+		#endif
 	}
 	else
 	{
 		specularcolour = 0.8 * texColour;
 	}
+
 
 	vec4 fragColour;
 	if (tcmask == 1)
@@ -102,7 +106,6 @@ void main()
 		fragColour = texColour * colour;
 	}
 	fragColour = fragColour * light + specularcolour * specularLight;
-	
 	if (ecmEffect)
 	{
 		fragColour.a = 0.66 + 0.66 * graphicsCycle;

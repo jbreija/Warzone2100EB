@@ -254,7 +254,7 @@ function addDroidToSomeGroup(droid)
 
 		case DROID_PERSON:
 		{
-			groupAddDroid(base.defendGroup, droid);
+			groupAddDroid(base.attackGroup, droid);
 		}
 		break;
 	}
