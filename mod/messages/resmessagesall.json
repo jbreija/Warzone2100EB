@@ -2099,6 +2099,98 @@
 			"Gas turbine boosts power output",
 			"Power output +50%",
 			"All power generators upgraded automatically"		]	}, 
+	 "RES_CY_HYLEG": {		"id": "RES_CY_HYLEG",		"imdName": "MICAPSUL.pie",		"sequenceName": "res_pow.ogg",		"text": [			"Improved Power Generator Performance",
+			"Gas turbine boosts power output",
+			"Power output +50%",
+			"All power generators upgraded automatically"		]	}, 
+	 "RES_CY_MECCA": {		"id": "RES_CY_MECCA",		"imdName": "MICAPSUL.pie",		"sequenceName": "res_pow.ogg",		"text": [			"Improved Power Generator Performance",
+			"Gas turbine boosts power output",
+			"Power output +50%",
+			"All power generators upgraded automatically"		]	}, 
+	 "RES_CY_MECFL": {		"id": "RES_CY_MECFL",		"imdName": "MICAPSUL.pie",		"sequenceName": "res_pow.ogg",		"text": [			"Improved Power Generator Performance",
+			"Gas turbine boosts power output",
+			"Power output +50%",
+			"All power generators upgraded automatically"		]	}, 
+	 "RES_CY_MECLA": {		"id": "RES_CY_MECLA",		"imdName": "MICAPSUL.pie",		"sequenceName": "res_pow.ogg",		"text": [			"Improved Power Generator Performance",
+			"Gas turbine boosts power output",
+			"Power output +50%",
+			"All power generators upgraded automatically"		]	}, 
+	 "RES_CY_MECMG": {		"id": "RES_CY_MECMG",		"imdName": "MICAPSUL.pie",		"sequenceName": "res_pow.ogg",		"text": [			"Improved Power Generator Performance",
+			"Gas turbine boosts power output",
+			"Power output +50%",
+			"All power generators upgraded automatically"		]	}, 
+	 "RES_CY_MECMI": {		"id": "RES_CY_MECMI",		"imdName": "MICAPSUL.pie",		"sequenceName": "res_pow.ogg",		"text": [			"Improved Power Generator Performance",
+			"Gas turbine boosts power output",
+			"Power output +50%",
+			"All power generators upgraded automatically"		]	}, 
+	 "RES_CY_MECRA": {		"id": "RES_CY_MECRA",		"imdName": "MICAPSUL.pie",		"sequenceName": "res_pow.ogg",		"text": [			"Improved Power Generator Performance",
+			"Gas turbine boosts power output",
+			"Power output +50%",
+			"All power generators upgraded automatically"		]	}, 
+	 "RES_CY_MECRO": {		"id": "RES_CY_MECRO",		"imdName": "MICAPSUL.pie",		"sequenceName": "res_pow.ogg",		"text": [			"Improved Power Generator Performance",
+			"Gas turbine boosts power output",
+			"Power output +50%",
+			"All power generators upgraded automatically"		]	}, 
+	 "RES_CYW_H_AG": {		"id": "RES_CYW_H_AG",		"imdName": "MICAPSUL.pie",		"sequenceName": "res_pow.ogg",		"text": [			"Improved Power Generator Performance",
+			"Gas turbine boosts power output",
+			"Power output +50%",
+			"All power generators upgraded automatically"		]	}, 
+	 "RES_CYW_H_ARC": {		"id": "RES_CYW_H_ARC",		"imdName": "MICAPSUL.pie",		"sequenceName": "res_pow.ogg",		"text": [			"Improved Power Generator Performance",
+			"Gas turbine boosts power output",
+			"Power output +50%",
+			"All power generators upgraded automatically"		]	}, 
+	 "RES_CYW_H_EMP": {		"id": "RES_CYW_H_EMP",		"imdName": "MICAPSUL.pie",		"sequenceName": "res_pow.ogg",		"text": [			"Improved Power Generator Performance",
+			"Gas turbine boosts power output",
+			"Power output +50%",
+			"All power generators upgraded automatically"		]	}, 
+	 "RES_CYW_H_FL": {		"id": "RES_CYW_H_FL",		"imdName": "MICAPSUL.pie",		"sequenceName": "res_pow.ogg",		"text": [			"Improved Power Generator Performance",
+			"Gas turbine boosts power output",
+			"Power output +50%",
+			"All power generators upgraded automatically"		]	}, 
+	 "RES_CYW_H_GR": {		"id": "RES_CYW_H_GR",		"imdName": "MICAPSUL.pie",		"sequenceName": "res_pow.ogg",		"text": [			"Improved Power Generator Performance",
+			"Gas turbine boosts power output",
+			"Power output +50%",
+			"All power generators upgraded automatically"		]	}, 
+	 "RES_CYW_H_LA": {		"id": "RES_CYW_H_LA",		"imdName": "MICAPSUL.pie",		"sequenceName": "res_pow.ogg",		"text": [			"Improved Power Generator Performance",
+			"Gas turbine boosts power output",
+			"Power output +50%",
+			"All power generators upgraded automatically"		]	}, 
+	 "RES_CYW_H_MG": {		"id": "RES_CYW_H_MG",		"imdName": "MICAPSUL.pie",		"sequenceName": "res_pow.ogg",		"text": [			"Improved Power Generator Performance",
+			"Gas turbine boosts power output",
+			"Power output +50%",
+			"All power generators upgraded automatically"		]	}, 
+	 "RES_CYW_H_NX": {		"id": "RES_CYW_H_NX",		"imdName": "MICAPSUL.pie",		"sequenceName": "res_pow.ogg",		"text": [			"Improved Power Generator Performance",
+			"Gas turbine boosts power output",
+			"Power output +50%",
+			"All power generators upgraded automatically"		]	}, 
+	 "RES_CYW_H_RA": {		"id": "RES_CYW_H_RA",		"imdName": "MICAPSUL.pie",		"sequenceName": "res_pow.ogg",		"text": [			"Improved Power Generator Performance",
+			"Gas turbine boosts power output",
+			"Power output +50%",
+			"All power generators upgraded automatically"		]	}, 
+	 "RES_CYW_H_RI": {		"id": "RES_CYW_H_RI",		"imdName": "MICAPSUL.pie",		"sequenceName": "res_pow.ogg",		"text": [			"Improved Power Generator Performance",
+			"Gas turbine boosts power output",
+			"Power output +50%",
+			"All power generators upgraded automatically"		]	}, 
+	 "RES_CYW_H_RO": {		"id": "RES_CYW_H_RO",		"imdName": "MICAPSUL.pie",		"sequenceName": "res_pow.ogg",		"text": [			"Improved Power Generator Performance",
+			"Gas turbine boosts power output",
+			"Power output +50%",
+			"All power generators upgraded automatically"		]	}, 
+	 "RES_CYW_H_TF": {		"id": "RES_CYW_H_TF",		"imdName": "MICAPSUL.pie",		"sequenceName": "res_pow.ogg",		"text": [			"Improved Power Generator Performance",
+			"Gas turbine boosts power output",
+			"Power output +50%",
+			"All power generators upgraded automatically"		]	}, 
+	 "RES_CYW_H_SU": {		"id": "RES_CYW_H_SU",		"imdName": "MICAPSUL.pie",		"sequenceName": "res_pow.ogg",		"text": [			"Improved Power Generator Performance",
+			"Gas turbine boosts power output",
+			"Power output +50%",
+			"All power generators upgraded automatically"		]	}, 
+	 "RES_EMP_NDTOW": {		"id": "RES_EMP_NDTOW",		"imdName": "MICAPSUL.pie",		"sequenceName": "res_pow.ogg",		"text": [			"Improved Power Generator Performance",
+			"Gas turbine boosts power output",
+			"Power output +50%",
+			"All power generators upgraded automatically"		]	}, 
+	 "RES_ST_MECHF": {		"id": "RES_ST_MECHF",		"imdName": "MICAPSUL.pie",		"sequenceName": "res_pow.ogg",		"text": [			"Improved Power Generator Performance",
+			"Gas turbine boosts power output",
+			"Power output +50%",
+			"All power generators upgraded automatically"		]	}, 
 	 "RES_W_LAS2_MA": {		"id": "RES_W_LAS2_MA",		"imdName": "MICAPSUL.pie",		"sequenceName": "res_pow.ogg",		"text": [			"Improved Power Generator Performance",
 			"Gas turbine boosts power output",
 			"Power output +50%",

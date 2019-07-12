@@ -1,6 +1,6 @@
 PIE 3
 TYPE 10200
-TEXTURE 0 page-211_research.png 0 0
+TEXTURE 0 page-211_research.png 512 512
 NORMALMAP 0 page-211_normalmap.png
 LEVELS 1
 LEVEL 1

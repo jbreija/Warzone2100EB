@@ -269,7 +269,7 @@ function eventGameInit()
 		setStructureLimits("A0VTolFactory1", 5, playnum);
 		setStructureLimits("A0DedicatedResearchFacility", 5, playnum);
 		setStructureLimits("A0RoboticFactory", 5, playnum);
-		setStructureLimits("A0GasPowerGenerator", 4, playnum);
+		setStructureLimits("A0VapPowerGenerator", 4, playnum);
 		setStructureLimits("A0RepairCentre3", 3, playnum);
 		setStructureLimits("A0RepairCentre4", 3, playnum);
 		setStructureLimits("A0RepairCentre4", 3, playnum);

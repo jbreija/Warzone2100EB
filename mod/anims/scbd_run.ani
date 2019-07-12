@@ -1,6 +1,6 @@
 /* header format: anim3d [filename] [frames][framerate] [num objects]            */
 /* anim line: [frame] [x] [y] [z] [xrot] [yrot] [zrot][xscale] [yscale] [zscale] */
-ANIM3DFRAMES "scbd_run.pie" 6 7
+ANIM3DFRAMES "scbd_runar.pie" 6 7
 {
 	  0	0 0 0 0 0 0 1000 1000 1000
 	  1	0 0 0 0 0 0 1000 1000 1000

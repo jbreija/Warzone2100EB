@@ -281,9 +281,12 @@ function buildStructure(droid, stat)
 	if ((droid.order != DORDER_BUILD) && isStructureAvailable(stat, me))
 	{
 		var loc = pickStructLocation(droid, stat, droid.x, droid.y, 0);
-		if(isDefined(loc) && orderDroidBuild(droid, DORDER_BUILD, stat, loc.x, loc.y))
+		if(isDefined(loc))
 		{
-			return true;
+			if(orderDroidBuild(droid, DORDER_BUILD, stat, loc.x, loc.y));
+			{
+				return true;
+			}
 		}
 	}
 
@@ -326,7 +329,7 @@ function buildThingsWithDroid(droid)
 				buildStructure(droid, gen);
 		break;
 		case 2:
-			if ((4*countStruct(vtolfac)) < countStruct(factory) && (gameTime > 150000))
+			if ((4*countStruct(vtolfac)) < countStruct(factory) && (gameTime > 1800))
 				buildStructure(droid, vtolfac);
 		break;
 		case 3:
@@ -335,7 +338,7 @@ function buildThingsWithDroid(droid)
 				orderDroidBuild(droid, DORDER_BUILD, derrick, result.x, result.y);
 		break;
 		case 4:
-			if ((playerPower(me) > 60) && (countStruct(repair) < 5) && (gameTime > 200000))
+			if ((playerPower(me) > 60) && (countStruct(repair) < 5) && (gameTime > 6000))
 			{
 				buildStructure(droid, repair);
 			}
@@ -516,37 +519,41 @@ function produceThings()
 function checkAndRepair(droid)
 {
 	const MIN_HEALTH = 55;
-
-	if (!(isHeli(droid) || (droid.order == DORDER_BUILD)))
+	if (droid != null)
 	{
-		if (droid.health < MIN_HEALTH)
+		if (!(isHeli(droid) || (droid.order == DORDER_BUILD)))
 		{
-			return orderDroid(droid, DORDER_RTR);
+			if (droid.health < MIN_HEALTH)
+			{
+				return orderDroid(droid, DORDER_RTR);
+			}
 		}
 	}
-
 	return false;
 }
 
 function attackWithDroid(droid, target, force)
 {
-	if(checkAndRepair(droid))
+	if (droid != null)
 	{
-		return;
-	}
-
-	if (droid.droidType === DROID_WEAPON)
-	{
-		if ((droid.order !== DORDER_ATTACK) || force)
+		if(checkAndRepair(droid))
 		{
-			orderDroidObj(droid, DORDER_ATTACK, target);
+			return;
 		}
-	}
-	else if(droid.droidType === DROID_SENSOR)
-	{
-		if ((droid.order !== DORDER_OBSERVE) || force)
+
+		if (droid.droidType === DROID_WEAPON)
 		{
-			orderDroidObj(droid, DORDER_OBSERVE, target);
+			if ((droid.order !== DORDER_ATTACK) || force)
+			{
+				orderDroidObj(droid, DORDER_ATTACK, target);
+			}
+		}
+		else if(droid.droidType === DROID_SENSOR)
+		{
+			if ((droid.order !== DORDER_OBSERVE) || force)
+			{
+				orderDroidObj(droid, DORDER_OBSERVE, target);
+			}
 		}
 	}
 }
@@ -965,9 +972,9 @@ function eventStartLevel()
 	queue("researchStuff", 1200000); // 20 minutes
 
 	produceThings();
-	setTimer("produceThings", 600);
-	setTimer("retreat", 600);
-	setTimer("buildThings", 500);
-	setTimer("groundAttackStuff", 2000);
-	setTimer("helicopterAttack", 3000);
+	setTimer("produceThings", 100);
+	setTimer("retreat", 300);
+	setTimer("buildThings", 200);
+	setTimer("groundAttackStuff", 1200);
+	setTimer("helicopterAttack", 1200);
 }
