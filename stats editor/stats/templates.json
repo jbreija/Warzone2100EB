@@ -1,5 +1,5 @@
 {
-	 "ConstructionDroid": {		"available": 1,		"body": "Body1REC",		"construct": "Spade1Mk1",		"id": "ConstructionDroid",		"name": "Truck",		"propulsion": "wheeled01",		"type": "DROID"	}, 
+	 "ConstructionDroid": {		"available": 1,		"body": "Body1REC",		"construct": "Spade1Mk1",		"id": "ConstructionDroid",		"name": "Truck",		"propulsion": "wheeled01",		"type": "CONSTRUCT"	}, 
 	 "A-Cobra-Hover-HMG": {		"body": "Body5REC",		"id": "A-Cobra-Hover-HMG",		"name": "Heavy Machinegun Cobra Hover",		"propulsion": "hover01",		"type": "DROID",		"weapons": [			"MG3Mk1"
 			]	},		"A-Cobra-Hover-MC": {		"body": "Body5REC",		"id": "A-Cobra-Hover-MC",		"name": "Medium Cannon Cobra Hover",		"propulsion": "hover01",		"type": "DROID",		"weapons": [			"Cannon2A-TMk1"
 			]	},		"A-Cobra-Wheels-HMG": {		"body": "Body5REC",		"id": "A-Cobra-Wheels-HMG",		"name": "Heavy Machinegun Cobra Wheels",		"propulsion": "wheeled01",		"type": "DROID",		"weapons": [			"MG3Mk1"
@@ -60,7 +60,7 @@
 	 "CobraSpadeTracks": {		"body": "Body5REC",		"construct": "Spade1Mk1",		"id": "CobraSpadeTracks",		"name": "Cobra Truck",		"propulsion": "tracked01",		"type": "DROID"	}, 
 	 "CobraTrkLancer": {		"body": "Body5REC",		"id": "CobraTrkLancer",		"name": "Lancer Cobra Tracks",		"propulsion": "tracked01",		"type": "DROID",		"weapons": [			"Rocket-LtA-T"
 			]	},		"ConstructorDroid": {		"body": "Body1REC",		"construct": "Spade1Mk1",		"id": "ConstructorDroid",		"name": "Truck",		"propulsion": "wheeled01",		"type": "DROID"	}, 
-	 "TruckNAS": {		"available": 1,		"body": "Body11REC",		"construct": "Spade1Mk1NAS",		"id": "TruckNAS",		"name": "NASDA Truck",		"propulsion": "wheeled01NAS",		"type": "DROID"	}, 
+	 "TruckNAS": {		"available": 1,		"body": "Body11REC",		"construct": "Spade1Mk1NAS",		"id": "TruckNAS",		"name": "NASDA Truck",		"propulsion": "wheeled01NAS",		"type": "CONSTRUCT"	}, 
 	 "Cyb-Hvy-A-T": {		"available": 1,		"body": "CyborgHeavyNAS",		"id": "Cyb-Hvy-A-T",		"name": "Super Scourge Cyborg",		"propulsion": "CyborgLegsNAS",		"type": "CYBORG_SUPER",		"weapons": [			"Cyb-Hvywpn-A-T"
 			]	},		"Cyb-Hvy-Acannon": {		"available": 1,		"body": "CyborgHeavyNAS",		"id": "Cyb-Hvy-Acannon",		"name": "Super Auto-Cannon Cyborg",		"propulsion": "CyborgLegsNAS",		"type": "CYBORG_SUPER",		"weapons": [			"Cyb-Hvywpn-Acannon"
 			]	},		"Cyb-Hvy-HPV": {		"available": 1,		"body": "CyborgHeavyNAS",		"id": "Cyb-Hvy-HPV",		"name": "Super HPV Cyborg",		"propulsion": "CyborgLegsNAS",		"type": "CYBORG_SUPER",		"weapons": [			"Cyb-Hvywpn-HPV"
