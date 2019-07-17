@@ -56,9 +56,9 @@ function reticuleResearchCheck()
 	for (var i = 0, len = labs.length; i < len; ++i)
 	{
 		var onMapResLabs = enumStruct(selectedPlayer, labs[i]);
-		for (var i = 0, len = onMapResLabs.length; i < len; ++i)
+		for (var j = 0, len = onMapResLabs.length; j < len; ++j)
 		{
-			if (onMapResLabs[i].status === BUILT)
+			if (onMapResLabs[j].status === BUILT)
 			{
 				structureComplete = true;
 				break;
@@ -95,9 +95,9 @@ function reticuleDesignCheck()
 	for (var i = 0, len = HQS.length; i < len; ++i)
 	{
 		var onMapHQ = enumStruct(selectedPlayer, HQS[i]);
-		for (var i = 0, len = onMapHQ.length; i < len; ++i)
+		for (var j = 0, len = onMapHQ.length; j < len; ++j)
 		{
-			if (onMapHQ[i].status === BUILT)
+			if (onMapHQ[j].status === BUILT)
 			{
 				structureComplete = true;
 				break;
