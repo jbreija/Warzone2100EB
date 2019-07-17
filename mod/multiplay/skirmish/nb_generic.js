@@ -137,20 +137,27 @@ function buildOrder() {
 		if (buildMinimum(structures.factories, 1)) return true;
 		if (buildMinimum(structures.gens, 1)) return true;
 		if (buildMinimumDerricks(2)) return true;
-		if (buildMinimum(structures.labs, 2)) return true;
-		if (buildMinimum(structures.factories, 2)) return true;
+		if (buildMinimum(structures.labs, 1)) return true;
+		if (buildMinimumDerricks(4)) return true;
+		if (buildMinimum(structures.gens, 2)) return true;
 		if (buildMinimum(structures.hqs, 1)) return true;
 		if (buildMinimumDerricks(6)) return true;
-		if (buildMinimum(structures.gens, 2)) return true;
+		if (buildMinimum(structures.labs, 2)) return true;
+		if (buildMinimum(structures.factories, 2)) return true;
+		if (buildMinimumDerricks(8)) return true;
 	} else {
 		if (buildMinimum(structures.factories, 1)) return true;
 		if (buildMinimum(structures.gens, 1)) return true;
 		if (buildMinimumDerricks(2)) return true;
-		if (buildMinimum(structures.labs, 2)) return true;
-		if (buildMinimum(structures.factories, 2)) return true;
+		if (buildMinimum(structures.labs, 1)) return true;
+		if (buildMinimumDerricks(4)) return true;
+		if (buildMinimum(structures.gens, 2)) return true;
 		if (buildMinimum(structures.hqs, 1)) return true;
 		if (buildMinimumDerricks(6)) return true;
-		if (buildMinimum(structures.gens, 2)) return true;
+		if (buildMinimum(structures.labs, 2)) return true;
+		if (buildMinimum(structures.factories, 2)) return true;
+		if (buildMinimumDerricks(8)) return true;
+
 	}
 	return captureSomeOil();
 }
