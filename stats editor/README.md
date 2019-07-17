@@ -21,3 +21,4 @@ The first column in every sheet is used to preserve order for exporting to .json
 ![alt text](https://github.com/jbreija/Warzone2100EB/blob/master/stats%20editor/stats%20editor%204.png)
 ![alt text](https://github.com/jbreija/Warzone2100EB/blob/master/stats%20editor/stats%20editor2.png)
 ![alt text](https://github.com/jbreija/Warzone2100EB/blob/master/stats%20editor/stats%20editor3.png)
+![alt text](https://github.com/jbreija/Warzone2100EB/blob/master/stats%20editor/stats%20editor%205.png)
