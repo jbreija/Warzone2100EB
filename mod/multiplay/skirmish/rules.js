@@ -23,7 +23,7 @@ const TRANSFER_LIKE_EVENT = 2;
 function reticuleManufactureCheck()
 {
 	var structureComplete = false;
-	var facs = ["A0LightFactory", "A0CyborgFactory", "A0VTolFactory1"];
+	var facs = ["A0LightFactory", "A0CyborgFactory", "A0VTolFactory1", "A0RoboticFactory", "A0LargeVTolFactory1", "A0LargeFactory1"];
 
 	for (var i = 0, len = facs.length; i < len; ++i)
 	{
@@ -51,17 +51,20 @@ function reticuleManufactureCheck()
 function reticuleResearchCheck()
 {
 	var structureComplete = false;
-	var onMapResLabs = enumStruct(selectedPlayer, "A0ResearchFacility");
+	var labs = ["A0ResearchFacility", "A0DedicatedResearchFacility"];
 
-	for (var i = 0, len = onMapResLabs.length; i < len; ++i)
+	for (var i = 0, len = labs.length; i < len; ++i)
 	{
-		if (onMapResLabs[i].status === BUILT)
+		var onMapResLabs = enumStruct(selectedPlayer, labs[i]);
+		for (var i = 0, len = onMapResLabs.length; i < len; ++i)
 		{
-			structureComplete = true;
-			break;
+			if (onMapResLabs[i].status === BUILT)
+			{
+				structureComplete = true;
+				break;
+			}
 		}
 	}
-
 	if (structureComplete === true)
 	{
 		setReticuleButton(2, _("Research (F2)"), "image_research_up.png", "image_research_down.png");
@@ -87,17 +90,20 @@ function reticuleBuildCheck()
 function reticuleDesignCheck()
 {
 	var structureComplete = false;
-	var onMapHQ = enumStruct(selectedPlayer, "A0CommandCentre");
+	var HQS = ["A0CommandCentre", "A0CommandCentreAR"];
 
-	for (var i = 0, len = onMapHQ.length; i < len; ++i)
+	for (var i = 0, len = HQS.length; i < len; ++i)
 	{
-		if (onMapHQ[i].status === BUILT)
+		var onMapHQ = enumStruct(selectedPlayer, HQS[i]);
+		for (var i = 0, len = onMapHQ.length; i < len; ++i)
 		{
-			structureComplete = true;
-			break;
+			if (onMapHQ[i].status === BUILT)
+			{
+				structureComplete = true;
+				break;
+			}
 		}
-	}
-
+	}	
 	if (structureComplete === true)
 	{
 		setReticuleButton(4, _("Design (F4)"), "image_design_up.png", "image_design_down.png");
@@ -108,7 +114,6 @@ function reticuleDesignCheck()
 	{
 		setReticuleButton(4, _("Design - construct HQ first"), "", "");
 		setMiniMap(false);
-		setDesign(false);
 	}
 }
 
@@ -329,12 +334,9 @@ function eventGameInit()
 		enableResearch("R-Wpn-MG1Mk1", playnum);
 		enableResearch("R-Sys-Engineering01", playnum);
 		enableResearch("R-Vehicle-Engine01", playnum);
-		
-		// enable cyborgs components that can't be enabled with research
-		makeComponentAvailable("CyborgSpade", playnum);
-		makeComponentAvailable("CyborgRepair", playnum);
-		makeComponentAvailable("Spade1Mk1NAS", playnum);
-		
+
+		enableTemplate("TruckNAS", playnum);
+		enableTemplate("ConstructionDroid", playnum);
 		if (baseType == CAMP_CLEAN)
 		{
 			setPower(2000, playnum);
@@ -393,11 +395,6 @@ function eventGameInit()
 	{
 		grantTech(TECH_THREE);
 	}
-
-	// This is the only template that should be enabled before design is allowed
-	enableTemplate("ConstructionDroid");
-	enableTemplate("Cyb-ComEng");
-	enableTemplate("TruckNAS");
 
 	hackNetOn();
 	setTimer("checkEndConditions", 3000);

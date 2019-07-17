@@ -200,6 +200,7 @@ const propulsionStats = [
 	{ res: "R-Vehicle-Prop-Halftracks", stat: "HalfTrackNAS", usage: PROPULSIONUSAGE.GROUND },
 	{ res: "R-Vehicle-Prop-Tracks", stat: "tracked01NAS", usage: PROPULSIONUSAGE.GROUND },
 	{ res: "R-Vehicle-Prop-Hover", stat: "hover01NAS", usage: PROPULSIONUSAGE.HOVER },
+	{ res: "R-Vehicle-Prop-Helicopter", stat: "Helicopter", usage: PROPULSIONUSAGE.VTOL },
 ];
 
 
