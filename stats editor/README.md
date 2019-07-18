@@ -1,6 +1,6 @@
 # Warzone2100 Stats Editor
 
-![alt text](https://github.com/jbreija/Warzone2100EB/blob/master/stats%20editor/stats%20editor.png)
+![alt text](https://github.com/jbreija/Warzone2100EB/blob/master/screenshots/stats%20editor.png)
 
 The stats editor allows editing and exporting the Warzone 2100 stats .json files into Excel
 
@@ -18,7 +18,7 @@ Over the years, after inserting many rows and columns the conditional formatting
 The first column in every sheet is used to preserve order for exporting to .json. If you want to add a new row, you have to add a new number and increment all other rows after or use decimal places.
 
 
-![alt text](https://github.com/jbreija/Warzone2100EB/blob/master/stats%20editor/stats%20editor%204.png)
-![alt text](https://github.com/jbreija/Warzone2100EB/blob/master/stats%20editor/stats%20editor2.png)
-![alt text](https://github.com/jbreija/Warzone2100EB/blob/master/stats%20editor/stats%20editor3.png)
-![alt text](https://github.com/jbreija/Warzone2100EB/blob/master/stats%20editor/stats%20editor%205.png)
+![alt text](https://github.com/jbreija/Warzone2100EB/blob/master/screenshots/stats%20editor%204.png)
+![alt text](https://github.com/jbreija/Warzone2100EB/blob/master/screenshots/stats%20editor2.png)
+![alt text](https://github.com/jbreija/Warzone2100EB/blob/master/screenshots/stats%20editor3.png)
+![alt text](https://github.com/jbreija/Warzone2100EB/blob/master/screenshots/stats%20editor%205.png)
