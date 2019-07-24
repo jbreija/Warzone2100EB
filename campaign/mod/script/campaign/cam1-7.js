@@ -328,4 +328,15 @@ function eventStartLevel()
 
 	hackAddMessage("C1-7_OBJ1", PROX_MSG, CAM_HUMAN_PLAYER, true); //Canyon
 	queue("getArtifact", camChangeOnDiff(camMinutesToMilliseconds(1.5)));
+	ultScav_eventStartLevel(
+		1, 	// vtols on or off
+		15, // build defense every x seconds
+		20, // build cranes every x seconds
+		30, // build droids every x seconds
+		10, // max factories
+		10, // max vtol factories
+		5, // min number of cranes
+		1, // min number of sensor droids
+		120, // attack every x seconds
+		0); // used for cam1a only 0 or 1
 }

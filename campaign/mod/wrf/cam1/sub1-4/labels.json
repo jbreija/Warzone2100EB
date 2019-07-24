@@ -161,14 +161,14 @@
 		"type": 1
 	},
 	"object_6": {
-		"label": "NPMedCanTower",
-		"id": 609,
+		"label": "ThermalScorpion",
+		"id": 634,
 		"player": 1,
-		"type": 1
+		"type": 0
 	},
 	"object_7": {
-		"label": "NPMedCanTower2",
-		"id": 609,
+		"label": "MedCannonHardpoint",
+		"id": 607,
 		"player": 1,
 		"type": 1
 	},

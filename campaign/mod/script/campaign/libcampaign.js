@@ -2806,7 +2806,7 @@ function camNextLevel(nextLevel)
 		var bonusTime = getMissionTime();
 		if (difficulty === EASY || difficulty === MEDIUM)
 		{
-			bonusTime = Math.floor(bonusTime * 0.075);
+			bonusTime = Math.floor(bonusTime * 0.15);
 		}
 		if (bonusTime > 0)
 		{
@@ -3311,7 +3311,7 @@ function __camSpawnVtols()
 		return;
 	}
 
-	var amount = 5 + camRand(2);
+	var amount = 10 + camRand(30);
 	var droids = [];
 	var i = 0;
 	var pos;
@@ -4249,5 +4249,787 @@ function cam_eventObjectTransfer(obj, from)
 function cam_eventVideoDone()
 {
 	__camEnqueueVideos(); //Play any remaining videos automatically.
+}
+
+
+// Beginning of Ultimate Scavengers import
+const ultScav_MIN_ATTACKERS = 12;
+const ultScav_MIN_NEXUS = 4;
+const ultScav_MAX_DEFENDERS = 8;
+const ultScav_MAX_GLOBAL_DEFENDERS = 25;
+const ultScav_PLAYER_NUM = 7;
+var ultScav_VTOL_FLAG;
+var ultScav_MAX_FACTORIES;
+var ultScav_MAX_VTOL_FACTORIES;
+var ultScav_MIN_CRANES;
+var ultScav_MIN_SENSORS; 
+
+var ultScav_currentEnemy;
+var ultScav_lastChangedEnemyTime;
+
+var ultScav_globalDefendGroup; 
+var ultScav_needToPickGroup;
+var ultScav_baseInfo = [];
+
+const ultScav_derrick = "A0ResourceExtractor";
+const ultScav_factory = "A0BaBaFactory";
+const ultScav_vtolfac = "A0BaBaVtolFactory";
+const ultScav_gen = "A0BaBaPowerGenerator";
+const ultScav_oilres = "OilResource";
+const ultScav_repair = "ScavRepairCentre";
+const ultScav_vtolpad = "A0BaBaVtolPad";
+
+var ultScav_defenses = {
+	MGbunker: "A0BaBaBunker",
+	CanTow: "A0CannonTower",
+	FlameTow: "A0BaBaFlameTower",
+	MGTow: "bbaatow",
+	RocketPit: "A0BaBaRocketPit",
+	LancerPit: "A0BaBaRocketPitAT",
+	MortarPit: "A0BaBaMortarPit",
+}
+
+var ultScav_templates = {
+	bloke: { body: "B1BaBaPerson01", prop: "BaBaLegs", weap: "BabaMG" },
+	trike: { body: "B4body-sml-trike01", prop: "BaBaProp", weap: "BabaTrikeMG" },
+	buggy: { body: "B3body-sml-buggy01", prop: "BaBaProp", weap: "BabaBuggyMG" },
+	bjeep: { body: "B2JeepBody", prop: "BaBaProp", weap: "BabaJeepMG" },
+
+	// SUB_1_2
+	rbjeep: { body: "B2RKJeepBody", prop: "BaBaProp", weap: "BabaRocket" },
+	rbuggy: { body: "B3bodyRKbuggy01", prop: "BaBaProp", weap: "BabaRocket" },
+}
+
+const ultScav_vtoltemplates = {
+	ScavengerChopper: { body: "ScavengerChopper", prop: "Helicopter", weap: "MG1-VTOL" },
+	HeavyChopper: { body: "HeavyChopper", prop: "Helicopter", weap: "Rocket-VTOL-Pod" },
+}
+
+const ultScav_cranes = {
+	Crane1: { body: "B2crane1", prop: "BaBaLegs", weap: "scavCrane1" },
+	Crane2: { body: "B2crane1", prop: "BaBaProp", weap: "scavCrane2" },
+	Crane3: { body: "B2crane2", prop: "BaBaProp", weap: "scavCrane1" },
+	Crane4: { body: "B2crane2", prop: "BaBaProp", weap: "scavCrane2" },
+}
+
+var ultScav_sensors = {
+	scavsensor: { body: "BusBody-AR", prop: "BaBaProp", weap: "BaBaSensor" },
+}
+
+// unit limit constant
+function ultScav_atLimits()
+{
+	return enumDroid(ultScav_PLAYER_NUM).length > 199;
+}
+
+// random integer between 0 and max-1 (for convenience)
+function ultScav_random(max)
+{
+	return (max <= 0) ? 0 : Math.floor(Math.random() * max);
+}
+
+// Returns true if something is defined
+function ultScav_isDefined(data)
+{
+	return typeof(data) !== "undefined";
+}
+
+function ultScav_log(message)
+{
+	dump(gameTime + " : " + message);
+}
+
+function ultScav_logObj(obj, message)
+{
+	dump(gameTime + " [" + obj.name + " id=" + obj.id + "] > " + message);
+}
+
+function ultScav_isHeli(droid)
+{
+	return droid.propulsion === "Helicopter";
+}
+
+// Make sure a unit does not try to go off map
+function ultScav_mapLimits(x, y, num1, num2, xOffset, yOffset)
+{
+	var coordinates = [];
+	var xPos = x + xOffset + ultScav_random(num1) - num2;
+	var yPos = y + yOffset + ultScav_random(num1) - num2;
+
+	if(xPos < 2)
+	xPos = 2;
+	if(yPos < 2)
+	yPos = 2;
+	if(xPos >= mapWidth - 2)
+	xPos = mapWidth - 3;
+	if(yPos >= mapHeight - 2)
+	yPos = mapHeight - 3;
+
+	return {"x": xPos, "y": yPos};
+}
+
+//Return a closeby enemy object. Will be undefined if none.
+function ultScav_rangeStep(obj, visibility)
+{
+	const STEP = 1000;
+	var target;
+
+	for(var i = 0; i <= 30000; i += STEP)
+	{
+		var temp = enumRange(obj.x, obj.y, i, ultScav_currentEnemy, visibility);
+		if(ultScav_isDefined(temp[0]))
+		{
+			target = temp[0];
+			break;
+		}
+	}
+
+	return target;
+}
+
+function ultScav_constructbaseInfo(x, y)
+{
+	this.x = x;
+	this.y = y;
+	this.defendGroup = newGroup(); // tanks to defend the base
+	this.nexusGroup = newGroup(); // tanks to capture the enemy
+	this.builderGroup = newGroup(); // trucks to build base structures and ultScav_defenses
+	this.attackGroup = newGroup(); // tanks to attack nearby things
+	this.ultScav_factoryNumber = ultScav_baseInfo.length;
+}
+
+function ultScav_findNearest(list, x, y, flag)
+{
+	var minDist = Infinity, minIdx;
+	for (var i = 0, l = list.length; i < l; ++i)
+	{
+		var d = distBetweenTwoPoints(list[i].x, list[i].y, x, y);
+		if (d < minDist)
+		{
+			minDist = d;
+			minIdx = i;
+		}
+	}
+	return (flag === true) ? list[minIdx] : minIdx;
+}
+
+function ultScav_reviseGroups()
+{
+	var list = enumGroup(ultScav_needToPickGroup);
+	for (var i = 0, l = list.length; i < l; ++i)
+	{
+		var droid = list[i];
+		ultScav_addDroidToSomeGroup(droid);
+		var coords = ultScav_mapLimits(droid.x, droid.y, 15, 7, 0, 0);
+		orderDroidLoc(droid, DORDER_SCOUT, coords.x, coords.y);
+	}
+}
+
+function ultScav_addDroidToSomeGroup(droid)
+{
+	var base = ultScav_findNearest(ultScav_baseInfo, droid.x, droid.y, true);
+
+	switch(droid.droidType)
+	{
+		case DROID_CONSTRUCT:
+		{
+			groupAddDroid(base.builderGroup, droid);
+			break;
+		}
+		case DROID_WEAPON:
+		{
+			if (droid.name.indexOf("Nexus") > -1)
+			{
+
+				if(groupSize(base.nexusGroup) < (2 * ultScav_MIN_NEXUS))
+				groupAddDroid(base.nexusGroup, droid);
+				else {
+					var rBase = ultScav_random(ultScav_baseInfo.length);
+					groupAddDroid(ultScav_baseInfo[rBase].nexusGroup, droid);
+				}
+				break;
+			}
+
+			if (groupSize(ultScav_globalDefendGroup) < ultScav_MAX_GLOBAL_DEFENDERS)
+			{
+				groupAddDroid(ultScav_globalDefendGroup, droid);
+				break;
+			}
+
+			if(groupSize(base.attackGroup) < ultScav_MIN_ATTACKERS)
+			{
+				groupAddDroid(base.attackGroup, droid);
+				break;
+			}
+
+			if (groupSize(base.defendGroup) < ultScav_MAX_DEFENDERS)
+			{
+				groupAddDroid(base.defendGroup, droid);
+			}
+			else
+			{
+				var rBase = ultScav_random(ultScav_baseInfo.length);
+				groupAddDroid(ultScav_baseInfo[rBase].attackGroup, droid);
+			}
+		}
+		break;
+		case DROID_SENSOR:
+		{
+			groupAddDroid(base.attackGroup, droid);
+		}
+		break;
+
+		case DROID_PERSON:
+		{
+			groupAddDroid(base.attackGroup, droid);
+		}
+		break;
+	}
+}
+
+function ultScav_groupOfTank(droid)
+{
+	for (var i = 0, b = ultScav_baseInfo.length; i < b; ++i)
+	{
+		if (droid.group == ultScav_baseInfo[i].attackGroup)
+		{
+			return ultScav_baseInfo[i].attackGroup;
+		}
+
+		if (droid.group == ultScav_baseInfo[i].nexusGroup)
+		{
+			return ultScav_baseInfo[i].nexusGroup;
+		}
+	}
+}
+
+function ultScav_buildStructure(droid, stat)
+{
+	if ((droid.order != DORDER_BUILD))
+	{
+		
+		var loc = pickStructLocation(droid, stat, droid.x, droid.y, 0);
+		if(ultScav_isDefined(loc))
+		{
+			if(orderDroidBuild(droid, DORDER_BUILD, stat, loc.x, loc.y));
+			{
+				return true;
+			}
+		}
+	}
+
+	return false;
+}
+function ultScav_randomAttrib(obj)
+{
+	var keys = Object.keys(obj)
+	return obj[keys[ keys.length * Math.random() << 0]];
+}
+function ultScav_buildTower(droid)
+{
+	var random_defense = ultScav_randomAttrib(ultScav_defenses);
+	return ultScav_buildStructure(droid, random_defense);
+}
+
+function ultScav_establishBase(droid)
+{
+	var base = ultScav_findNearest(ultScav_baseInfo, droid.x, droid.y, true);
+	var dist = distBetweenTwoPoints(base.x, base.y, droid.x, droid.y);
+
+	//dist makes sure that factories are not built too close to eachother
+	if ((dist > 8) && ultScav_buildStructure(droid, ultScav_factory))
+	{
+		var n = ultScav_baseInfo.length;
+		ultScav_baseInfo[n] = new ultScav_constructbaseInfo(droid.x, droid.y);
+		groupAddDroid(ultScav_baseInfo[n].builderGroup, droid);
+		return true;
+	}
+	return false;
+}
+
+function ultScav_findTruck()
+{
+	var list = enumDroid(ultScav_PLAYER_NUM, DROID_CONSTRUCT).filter(function(dr) {
+		return (dr.order !== DORDER_BUILD);
+	});
+	return list;
+}
+
+function ultScav_buildOils()
+{
+	var list = ultScav_findTruck();
+	for (var i = 0, d = list.length; i < d; ++i)
+	{
+		var droid = list[i];
+		if (!ultScav_checkAndrepair(droid))
+		{
+			var result = ultScav_findNearest(enumFeature(ALL_PLAYERS, ultScav_oilres), droid.x, droid.y, true);
+			if (ultScav_isDefined(result))
+				orderDroidBuild(droid, DORDER_BUILD, ultScav_derrick, result.x, result.y);
+		}
+	}
+}
+
+function ultScav_buildThings()
+{
+	var list = ultScav_findTruck();
+
+	for (var i = 0, d = list.length; i < d; ++i)
+	{
+		var droid = list[i];
+		if (!ultScav_checkAndrepair(droid))
+		{
+			if ((countStruct(ultScav_derrick) - (countStruct(ultScav_gen) * 4)) > 0)
+				ultScav_buildStructure(droid, ultScav_gen);
+			if ((countStruct(ultScav_factory) < ultScav_MAX_FACTORIES) && ((5 * countStruct(ultScav_factory)) < countStruct(ultScav_derrick)) || (playerPower(ultScav_PLAYER_NUM) > 500))
+				ultScav_establishBase(droid);
+			if ((playerPower(ultScav_PLAYER_NUM) > 60) && (enumStruct(ultScav_PLAYER_NUM, ultScav_repair).filter(function(s) { return (s.status === BUILT); }) < 2))
+			{
+				ultScav_buildStructure(droid, ultScav_repair);
+			}
+			if (playerPower(ultScav_PLAYER_NUM) > 150 && gameTime > camSecondsToMilliseconds(30))
+				ultScav_buildTower(droid);
+		}
+	}
+}
+
+function ultScav_buildVTOLs(droid)
+{
+	var list = ultScav_findTruck();
+	for (var i = 0, d = list.length; i < d; ++i)
+	{
+		var droid = list[i];
+		if (!ultScav_checkAndrepair(droid))
+		{
+			if (ultScav_countHelicopters() > 2 * countStruct(ultScav_vtolpad))
+			ultScav_buildStructure(droid, ultScav_vtolpad);
+
+			if (countStruct(ultScav_vtolfac) < ultScav_MAX_VTOL_FACTORIES)
+			ultScav_buildStructure(droid, ultScav_vtolfac);
+		}
+	}
+}
+
+function ultScav_buildOilTowers()
+{
+	var list = ultScav_findTruck();
+
+	for (var i = 0, d = list.length; i < d; ++i)
+	{
+		var droid = list[i];
+		if (!ultScav_checkAndrepair(droid))
+		{
+			var dlist = enumStruct(0, ultScav_derrick);
+			if (dlist !== undefined && dlist.length > 0) {
+					// array empty or does not exist
+				
+				for (var r = 0; r < dlist.length; ++r)
+				{
+					var enemy_ultScav_derrick = dlist[r];
+					if(distBetweenTwoPoints(droid.x, droid.y, enemy_ultScav_derrick.x, enemy_ultScav_derrick.y) < 8)
+					{
+						ultScav_buildTower(droid);
+					}
+				}
+			}
+		}
+	}
+}
+
+function ultScav_produceCrane(fac)
+{
+	if(countDroid(DROID_CONSTRUCT, ultScav_PLAYER_NUM) > ultScav_MIN_CRANES)
+	{
+		return false;
+	}
+
+	var crane_list = []
+	for(var key in ultScav_cranes) {
+		crane_list.push(key);
+	}
+	var random_template = crane_list[Math.floor(Math.random()*crane_list.length)];
+	__camBuildDroid(ultScav_cranes[random_template], fac);
+}
+
+function ultScav_buildCranes()
+{
+	if (countDroid(DROID_CONSTRUCT, ultScav_PLAYER_NUM) < ultScav_MIN_CRANES || !ultScav_random(10))
+	{
+		var list = enumStruct(ultScav_PLAYER_NUM, ultScav_factory);
+		for (var i = 0, f = list.length; i < f; ++i)
+		{
+			var fac = list[i];
+	
+			if (ultScav_structureReady(fac))
+			{
+				ultScav_produceCrane(fac);
+			}
+		}
+	}
+}
+
+function ultScav_produceDroid(fac)
+{
+	var weapons = [];
+		if (!ultScav_random(10))
+		{
+				if (countDroid(DROID_SENSOR, ultScav_PLAYER_NUM) < ultScav_MIN_SENSORS)
+				{
+					__camBuildDroid(ultScav_sensors.scavsensor, fac);
+				}
+		}
+		else
+		{
+			var template_list = []
+			for(var key in ultScav_templates) {
+				template_list.push(key);
+			}
+			var random_template = template_list[Math.floor(Math.random()*template_list.length)];
+			__camBuildDroid(ultScav_templates[random_template], fac);
+		}
+}
+
+function ultScav_produceHelicopter(fac)
+{
+	var template_list = []
+	for(var key in ultScav_vtoltemplates) {
+		template_list.push(key);
+	}
+	var random_template = template_list[Math.floor(Math.random()*template_list.length)];
+	__camBuildDroid(ultScav_vtoltemplates[random_template], fac);
+
+}
+
+function ultScav_structureReady(struct)
+{
+	return (structureIdle(struct) && struct.status === BUILT);
+}
+
+function ultScav_produceThings()
+{
+	if (ultScav_atLimits())
+	{
+		return;
+	}
+
+	var list = enumStruct(ultScav_PLAYER_NUM, ultScav_factory);
+	for (var i = 0, f = list.length; i < f; ++i)
+	{
+		var fac = list[i];
+
+		if (ultScav_structureReady(fac))
+		{
+			ultScav_produceDroid(fac);
+		}
+	}
+	if (ultScav_VTOL_FLAG == 1)
+	{
+		list = enumStruct(ultScav_PLAYER_NUM, ultScav_vtolfac);
+		for (var i = 0, f = list.length; i < f; ++i)
+		{
+			var fac = list[i];
+
+			if (ultScav_structureReady(fac))
+			{
+				ultScav_produceHelicopter(fac);
+			}
+		}
+	}
+}
+
+function ultScav_checkAndrepair(droid)
+{
+	const MIN_HEALTH = 55;
+	if (droid != null)
+	{
+		if (!(ultScav_isHeli(droid) || (droid.order == DORDER_BUILD)))
+		{
+			if (droid.health < MIN_HEALTH)
+			{
+				return orderDroid(droid, DORDER_RTR);
+			}
+		}
+	}
+	return false;
+}
+
+function ultScav_attackWithDroid(droid, target, force)
+{
+	if (droid != null)
+	{
+		if(ultScav_checkAndrepair(droid))
+		{
+			return;
+		}
+
+		if (droid.droidType === DROID_WEAPON)
+		{
+			if ((droid.order !== DORDER_ATTACK) || force)
+			{
+				orderDroidObj(droid, DORDER_ATTACK, target);
+			}
+		}
+		else if(droid.droidType === DROID_SENSOR)
+		{
+			if ((droid.order !== DORDER_OBSERVE) || force)
+			{
+				orderDroidObj(droid, DORDER_OBSERVE, target);
+			}
+		}
+	}
+}
+
+function ultScav_helicopterArmed(obj, percent)
+{
+	for (var i = 0; i < obj.weapons.length; ++i)
+	{
+		if (obj.weapons[i].armed >= percent)
+		{
+			return true;
+		}
+	}
+
+	return false;
+}
+
+
+function ultScav_helicopterReady(droid)
+{
+	const ARMED_PERCENT = 1;
+
+	if ((droid.order === DORDER_ATTACK) || (droid.order === DORDER_REARM))
+	{
+		return false;
+	}
+
+	if (ultScav_helicopterArmed(droid, ARMED_PERCENT))
+	{
+		return true;
+	}
+
+	if (droid.order !== DORDER_REARM)
+	{
+		orderDroid(droid, DORDER_REARM);
+	}
+
+	return false;
+}
+
+//Helicopters can only attack things that the scavengers have seen
+function ultScav_helicopterAttack()
+{
+	var list = ultScav_findFreeHelicopters();
+
+	if (!ultScav_isDefined(list[0]))
+	{
+		return;
+	}
+
+	var target = rangeStep(ultScav_baseInfo[ultScav_random(ultScav_baseInfo.length)], true);
+
+	for (var i = 0, l = list.length; i < l; ++i)
+	{
+		var droid = list[i];
+		var coords = [];
+
+		if(ultScav_isDefined(target))
+		{
+			coords = ultScav_mapLimits(target.x, target.y, 5, 2, 0, 0);
+		}
+		else
+		{
+			var xOff = ultScav_random(2);
+			var yOff = ultScav_random(2);
+			xOff = (!xOff) ? -ultScav_random(10) : ultScav_random(10);
+			yOff = (!yOff) ? -ultScav_random(10) : ultScav_random(10);
+			coords = ultScav_mapLimits(droid.x, droid.y, 5, 2, xOff, yOff);
+		}
+
+		orderDroidLoc(droid, DORDER_SCOUT, coords.x, coords.y);
+	}
+}
+
+function ultScav_countHelicopters()
+{
+	var helis = enumDroid(ultScav_PLAYER_NUM).filter(function(object) {
+		return ultScav_isHeli(object);
+	});
+
+	return helis.length;
+}
+
+function ultScav_findFreeHelicopters(count)
+{
+	return enumDroid(ultScav_PLAYER_NUM).filter(function(object) {
+		return (ultScav_isHeli(object) && ultScav_helicopterReady(object));
+	});
+}
+
+function ultScav_groundAttackStuff()
+{
+	if(!ultScav_baseInfo.length)
+	{
+		return;
+	}
+
+
+	var target = ultScav_rangeStep(ultScav_baseInfo[ultScav_random(ultScav_baseInfo.length)], false);
+
+	if(ultScav_isDefined(target))
+	{
+		for (var i = 0, l = ultScav_baseInfo.length; i < l; ++i)
+		{
+			var base = ultScav_baseInfo[i];
+			var attackDroids = enumGroup(base.attackGroup);
+			if(ultScav_isDefined(target) && (attackDroids.length > ultScav_MIN_ATTACKERS))
+			{
+				ultScav_attackWithDroid(attackDroids[i], target, false);
+			}
+		}
+
+		for (var i = 0, l = ultScav_baseInfo.length; i < l; ++i)
+		{
+			var base = ultScav_baseInfo[i];
+			var nexusDroids = enumGroup(base.nexusGroup);
+			if(ultScav_isDefined(target) && (nexusDroids.length > ultScav_MIN_NEXUS))
+			{
+				ultScav_attackWithDroid(nexusDroids[i], target, true);
+			}
+		}
+	}
+}
+
+function eventStructureBuilt(structure, droid)
+{
+	if (structure.stattype == ultScav_factory)
+	{
+		if (!ultScav_produceCrane(structure))
+		{
+			ultScav_produceDroid(structure);
+		}
+	}
+	else if (structure.stattype == ultScav_vtolfac)
+	{
+		ultScav_produceHelicopter(structure);
+	}
+}
+
+function ultScav_retreat()
+{
+	var list = enumDroid(ultScav_PLAYER_NUM) 
+	for (var i = 0; i < list.length; ++i)
+	{
+		var droid = list[i];
+		if (!isVTOL(droid))
+		{
+			if (droid.health < 80)
+			{
+				orderDroid(droid, DORDER_RTR);
+			}
+		}
+	}
+}
+
+function ultScav_eventStartLevel(vtol_flag, build_defense, build_cranes, build_droids, max_factories, max_vtol_factories, min_cranes, min_sensors, attack_period, cam1a)
+{
+
+	if (difficulty === INSANE)
+	{
+		build_defense = build_defense * .25;
+		build_cranes = build_cranes * .25;
+		build_droids = build_droids * .25;
+		attack_period = attack_period * .25;
+		max_factories = max_factories * 2;
+		max_vtol_factories = max_vtol_factories * 2;
+	}
+	else if (difficulty === HARD)
+	{
+		build_defense = build_defense * .75;
+		build_cranes = build_cranes * .75;
+		build_droids = build_droids * .75;
+		attack_period = attack_period * .75;
+		max_factories = max_factories * 1.5;
+		max_vtol_factories = max_vtol_factories * 1.5;
+	}
+	else if (difficulty === MEDIUM)
+	{
+		build_defense = build_defense * 1;
+		build_cranes = build_cranes * 1;
+		build_droids = build_droids * 1;
+		attack_period = attack_period * 1;
+		max_factories = max_factories * 1;
+		max_vtol_factories = max_vtol_factories * 1;
+	}
+	else
+	{
+		build_defense = build_defense * 1.5;
+		build_cranes = build_cranes * 1.5;
+		build_droids = build_droids * 1.5;
+		attack_period = attack_period * 1.5;
+		max_factories = max_factories * 1;
+		max_vtol_factories = max_vtol_factories * 1;
+	}
+
+	var list = enumStruct(ultScav_PLAYER_NUM, ultScav_factory);
+	for (var i = 0, l = list.length; i < l; ++i)
+	{
+		var fac = list[i];
+		ultScav_baseInfo[i] = new ultScav_constructbaseInfo(fac.x, fac.y);
+	}
+
+	ultScav_VTOL_FLAG = vtol_flag;
+	ultScav_MAX_FACTORIES = max_factories;
+	ultScav_MAX_VTOL_FACTORIES = max_vtol_factories;
+	ultScav_MIN_CRANES = min_cranes;
+	ultScav_MIN_SENSORS = min_sensors;
+
+	ultScav_currentEnemy = 0;
+	ultScav_lastChangedEnemyTime = 0;
+
+	//list = enumDroid(ultScav_PLAYER_NUM);
+	//for (var i = 0, l = list.length; i < l; ++i)
+	//{
+	//	ultScav_addDroidToSomeGroup(list[i]);
+	//}
+
+	ultScav_globalDefendGroup = newGroup();
+	ultScav_needToPickGroup = newGroup();
+	
+	if (cam1a === 1)
+	{
+		delete ultScav_templates.rbjeep;
+		delete ultScav_templates.rbuggy;
+		delete ultScav_defenses.RocketPit;
+		delete ultScav_defenses.LancerPit;
+		delete ultScav_defenses.MortarPit;
+	}
+
+	for (var k in ultScav_defenses) {
+		if (ultScav_defenses.hasOwnProperty(k)) {
+			enableStructure(ultScav_defenses[k], ultScav_PLAYER_NUM);
+		}
+	}
+
+	enableStructure("A0BaBaPowerGenerator", ultScav_PLAYER_NUM);
+	enableStructure("A0BaBaFactory", ultScav_PLAYER_NUM);
+	enableStructure("A0ResourceExtractor", ultScav_PLAYER_NUM);
+	enableStructure("A0BaBaVtolPad", ultScav_PLAYER_NUM);
+	enableStructure("ScavRepairCentre", ultScav_PLAYER_NUM);
+	enableStructure("A0BaBaVtolFactory", ultScav_PLAYER_NUM);
+	enableComponent("BaBaSensor", ultScav_PLAYER_NUM)
+	
+	ultScav_buildCranes();
+	setTimer("ultScav_buildOils", camSecondsToMilliseconds(40));
+	setTimer("ultScav_produceThings", camSecondsToMilliseconds(build_droids));
+	setTimer("ultScav_retreat", camSecondsToMilliseconds(50));
+	setTimer("ultScav_buildThings", camSecondsToMilliseconds(build_defense));
+	setTimer("ultScav_buildOilTowers", camSecondsToMilliseconds(45));
+	if (ultScav_VTOL_FLAG == 1)
+	{
+		setTimer("ultScav_buildVTOLs", camSecondsToMilliseconds(25));
+	}
+	setTimer("ultScav_groundAttackStuff", camSecondsToMilliseconds(attack_period));
+	setTimer("ultScav_helicopterAttack", camSecondsToMilliseconds(700));
+	setTimer("ultScav_buildCranes", camSecondsToMilliseconds(build_cranes));
 }
 

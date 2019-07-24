@@ -79,6 +79,11 @@
 		"pos1": [9344, 9344],
 		"pos2": [11520, 10880]
 	},
+	"area_7": {
+		"label": "mediumGroup",
+		"pos1": [13400, 11200],
+		"pos2": [14400, 12000]
+	},
 
 	"object_0": {
 		"label": "COCommandCenter",

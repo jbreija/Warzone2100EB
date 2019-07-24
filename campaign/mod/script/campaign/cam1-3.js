@@ -207,6 +207,9 @@ function eventStartLevel()
 		"NPFactory": { tech: "R-Struc-Factory-Module" },
 		"NPHQ": { tech: "R-Defense-HardcreteWall" },
 		"NPCRC": { tech: "R-Struc-CommandRelay" },
+		"NPRepair": { tech: "R-Struc-RepairFacility" },
+		"TwinHvyMG": { tech: "R-Wpn-MG3Mk1-Twn" },
+		"JammerDroid": { tech: "R-Sys-ECM-Upgrade01" },
 	});
 
 	camSetFactories({
@@ -242,4 +245,15 @@ function eventStartLevel()
 
 	queue("playNPWarningMessage", camSecondsToMilliseconds(3));
 	queue("sendScouts", camSecondsToMilliseconds(60));
+	ultScav_eventStartLevel(
+		0, 	// vtols on or off
+		45, // build defense every x seconds
+		35, // build cranes every x seconds
+		10, // build droids every x seconds
+		10, // max factories
+		10, // max vtol factories
+		2, // min number of cranes
+		3, // min number of sensor droids
+		240, // attack every x seconds
+		0); // used for cam1a only 0 or 1
 }

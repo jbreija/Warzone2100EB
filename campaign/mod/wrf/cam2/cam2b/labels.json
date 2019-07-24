@@ -128,7 +128,7 @@
 	},
 	"area_6": {
 		"label": "centralBaseGroup",
-		"pos1": [11456, 7232],
+		"pos1": [11456, 6700],
 		"pos2": [12992, 8256]
 	},
 	"area_7": {
@@ -147,7 +147,11 @@
 		"pos1": [14464, 14464],
 		"pos2": [15360, 15360]
 	},
-
+	"area_10": {
+		"label": "cyborgBaseGroup",
+		"pos1": [13500, 5500],
+		"pos2": [14200, 7100]
+	},
 	"object_0": {
 		"label": "COHeavyFacL-b1",
 		"id": 4513,

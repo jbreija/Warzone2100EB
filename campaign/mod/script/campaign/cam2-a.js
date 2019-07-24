@@ -148,12 +148,17 @@ function mapEdgeDroids()
 function vtolAttack()
 {
 	var list = [cTempl.colcbv];
-	camSetVtolData(THE_COLLECTIVE, "vtolAppearPos", "vtolRemoveZone", list, camChangeOnDiff(camMinutesToMilliseconds(3)), "COCommandCenter");
+	camSetVtolData(THE_COLLECTIVE, "vtolAppearPos", "vtolRemoveZone", list, camChangeOnDiff(camMinutesToMilliseconds(1.5)), "COCommandCenter");
 }
 
 function groupPatrol()
 {
 	camManageGroup(camMakeGroup("edgeGroup"), CAM_ORDER_ATTACK, {
+		regroup: true,
+		count: -1,
+	});
+
+	camManageGroup(camMakeGroup("mediumGroup"), CAM_ORDER_ATTACK, {
 		regroup: true,
 		count: -1,
 	});
@@ -289,6 +294,11 @@ function eventGameLoaded()
 	{
 		setReinforcementTime(LZ_COMPROMISED_TIME);
 	}
+}
+
+function eventGameInit()
+{
+	completeResearch("R-Sys-Sensor-Upgrade00", 0);
 }
 
 function eventStartLevel()

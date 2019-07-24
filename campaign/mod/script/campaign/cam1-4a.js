@@ -163,6 +163,8 @@ function eventStartLevel()
 		"NPCommandCenter": { tech: "R-Vehicle-Metals01" },
 		"NPResearchFacility": { tech: "R-Vehicle-Body04" },
 		"MediumNPFactory": { tech: "R-Wpn-Rocket02-MRL" },
+		"ThermalScorpion": { tech: "R-Vehicle-Armor-Heat01" },
+		"MedCannonHardpoint": { tech: "R-Wpn-Cannon2Mk1" },
 	});
 
 	camSetFactories({
@@ -209,4 +211,15 @@ function eventStartLevel()
 	camManageTrucks(NEW_PARADIGM);
 
 	queue("enableSouthScavFactory", camChangeOnDiff(camSecondsToMilliseconds(10)));
+	ultScav_eventStartLevel(
+		1, 	// vtols on or off
+		15, // build defense every x seconds
+		20, // build cranes every x seconds
+		30, // build droids every x seconds
+		10, // max factories
+		10, // max vtol factories
+		5, // min number of cranes
+		1, // min number of sensor droids
+		120, // attack every x seconds
+		0); // used for cam1a only 0 or 1
 }

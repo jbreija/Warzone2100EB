@@ -143,11 +143,22 @@
 	},
 	"object_6": {
 		"label": "TwinHvyMG",
-		"id": 658,
+		"id": 668,
 		"player": 1,
 		"type": 1
 	},
-
+	"object_7": {
+		"label": "NPRepair",
+		"id": 631,
+		"player": 1,
+		"type": 1
+	},
+	"object_8": {
+		"label": "JammerDroid",
+		"id": 671,
+		"player": 1,
+		"type": 0
+	},
 	"radius_0": {
 		"label": "RemoveBeacon",
 		"subscriber": 0,

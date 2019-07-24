@@ -163,4 +163,15 @@ function eventStartLevel()
 	camNeverGroupDroid(NPScout);
 	var pos = getObject("NPSensorWatch");
 	orderDroidLoc(NPScout, DORDER_MOVE, pos.x, pos.y);
+	ultScav_eventStartLevel(
+		0, 	// vtols on or off
+		30, // build defense every x seconds
+		25, // build cranes every x seconds
+		30, // build droids every x seconds
+		8, // max factories
+		0, // max vtol factories
+		3, // min number of cranes
+		2, // min number of sensor droids
+		120, // attack every x seconds
+		0); // used for cam1a only 0 or 1
 }

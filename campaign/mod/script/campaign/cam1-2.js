@@ -51,6 +51,16 @@ function enableWestFactory()
 	});
 }
 
+function vtolPatrol()
+{
+	camManageGroup(camMakeGroup("HelicopterGroup"), CAM_ORDER_PATROL, {
+		pos: [
+			camMakePos("waypoint1"),
+			camMakePos("waypoint2")
+		]
+	});
+}
+
 function eventStartLevel()
 {
 	camSetStandardWinLossConditions(CAM_VICTORY_OFFWORLD, "SUB_1_3S", {
@@ -93,8 +103,9 @@ function eventStartLevel()
 	camSetArtifacts({
 		"ScavLab": { tech: "R-Wpn-Mortar01Lt" },
 		"NorthFactory": { tech: "R-Vehicle-Prop-Halftracks" },
+		"ScavAA": { tech: "R-Wpn-AAGun05" },
 	});
-
+	
 	camSetFactories({
 		"NorthFactory": {
 			assembly: "NorthAssembly",
@@ -130,6 +141,17 @@ function eventStartLevel()
 			templates: [ cTempl.trike, cTempl.bloke, cTempl.buggy, cTempl.bjeep ]
 		},
 	});
-
+	setTimer("vtolPatrol", camSecondsToMilliseconds(120));
 	queue("enableWestFactory", camSecondsToMilliseconds(30));
+	ultScav_eventStartLevel(
+		1, 	// vtols on or off
+		15, // build defense every x seconds
+		20, // build cranes every x seconds
+		30, // build droids every x seconds
+		10, // max factories
+		10, // max vtol factories
+		5, // min number of cranes
+		3, // min number of sensor droids
+		240, // attack every x seconds
+		0); // used for cam1a only 0 or 1
 }

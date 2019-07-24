@@ -129,6 +129,11 @@ function enableBaseStructures()
 	}
 }
 
+function eventGameInit()
+{
+	completeResearch("R-Sys-Sensor-Upgrade00", 0);
+}
+
 function eventStartLevel()
 {
 	const PLAYER_POWER = 1300;
@@ -136,6 +141,7 @@ function eventStartLevel()
 	var lz = getObject("landingZone");
 
 	camSetStandardWinLossConditions(CAM_VICTORY_STANDARD, "CAM_1B");
+
 
 	centreView(startpos.x, startpos.y);
 	setNoGoArea(lz.x, lz.y, lz.x2, lz.y2, CAM_HUMAN_PLAYER);
@@ -159,6 +165,7 @@ function eventStartLevel()
 	enableResearch("R-Wpn-MG1Mk1", 0);
 	camCompleteRequiredResearch(PLAYER_RES, CAM_HUMAN_PLAYER);
 	camCompleteRequiredResearch(PLAYER_RES, 7);
+
 	// Give player briefing.
 	hackAddMessage("CMB1_MSG", CAMP_MSG, CAM_HUMAN_PLAYER, false);
 	if (difficulty === HARD)
@@ -238,4 +245,15 @@ function eventStartLevel()
 			templates: [ cTempl.bjeep, cTempl.bloke, cTempl.trike, cTempl.bloke ]
 		},
 	});
+	ultScav_eventStartLevel(
+		0, 	// vtols on or off
+		30, // build defense every x seconds
+		15, // build cranes every x seconds
+		35, // build droids every x seconds
+		8, // max factories
+		0, // max vtol factories
+		3, // min number of cranes
+		0, // min number of sensor droids
+		300, // attack every x seconds
+		1); // used for cam1a only 0 or 1
 }

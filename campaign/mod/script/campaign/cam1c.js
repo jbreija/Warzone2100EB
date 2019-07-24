@@ -300,7 +300,8 @@ function eventStartLevel()
 		"ScavSouthFactory": { tech: "R-Wpn-Rocket05-MiniPod" },
 		"NPResearchFacility": { tech: "R-Struc-Research-Module" },
 		"NPCentralFactory": { tech: "R-Vehicle-Prop-Tracks" },
-		"NPNorthFactory": { tech: "R-Vehicle-Engine01" },
+		"NPNorthFactory": { tech: "R-Struc-Factory-Upgrade01" },
+		"NPPowGenerator": { tech: "R-Vehicle-Engine02" },
 	});
 
 	camSetFactories({
@@ -363,4 +364,15 @@ function eventStartLevel()
 	queue("sendTankScoutForce", camSecondsToMilliseconds(30));
 	queue("sendTankForce", camSecondsToMilliseconds(100)); // in wzcam it moves back and then forward
 	queue("enableNPFactory", camMinutesToMilliseconds(5));
+	ultScav_eventStartLevel(
+		1, 	// vtols on or off
+		15, // build defense every x seconds
+		20, // build cranes every x seconds
+		30, // build droids every x seconds
+		10, // max factories
+		10, // max vtol factories
+		5, // min number of cranes
+		1, // min number of sensor droids
+		120, // attack every x seconds
+		0); // used for cam1a only 0 or 1
 }

@@ -80,6 +80,11 @@ function ambushPlayer()
 		regroup: false,
 		repair: 67
 	});
+	camManageGroup(camMakeGroup("cyborgBaseGroup"), CAM_ORDER_ATTACK, {
+		count: -1,
+		regroup: false,
+		repair: 67
+	});
 }
 
 function vtolAttack()

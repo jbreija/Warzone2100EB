@@ -737,7 +737,7 @@
 	 "TwinAG-HvyHPython-Tracks": {		"body": "Body27SUP",		"id": "TwinAG-HvyHPython-Tracks",		"name": "Twin Assault Gun HvyHPython Tracks",		"propulsion": "tracked01",		"type": "DROID",		"weapons": [			"MG5TWINROTARY",
 			"MG5TWINROTARY"		]	}, 
 	 "ScavengerHelicopter": {		"body": "ScavengerChopper",		"id": "ScavengerHelicopter",		"name": "ScavengerHelicopter",		"propulsion": "Helicopter",		"type": "DROID",		"weapons": [			"MG1-VTOL"
-			]	},		"ScavengerHelicopter2": {		"body": "HeavyChopper",		"id": "ScavengerHelicopter2",		"name": "2ScavengerHelicopter",		"propulsion": "Helicopter",		"type": "DROID",		"weapons": [			"Rocket-VTOL-Pod"
+			]	},		"ScavengerHelicopter2": {		"body": "HeavyChopper",		"id": "ScavengerHelicopter2",		"name": "ScavHelicopter",		"propulsion": "Helicopter",		"type": "DROID",		"weapons": [			"Rocket-VTOL-Pod"
 			]	},		"Cyb-ComEng": {		"available": "true",		"body": "CyborgLightNAS",		"construct": "CyborgSpade",		"id": "Cyb-ComEng",		"name": "Combat Engineer",		"propulsion": "CyborgLegsNAS",		"type": "CYBORG_CONSTRUCT"	}, 
 	 "Cyb-Gren": {		"available": "true",		"body": "CyborgLightNAS",		"id": "Cyb-Gren",		"name": "Grenadier",		"propulsion": "CyborgLegsNAS",		"type": "CYBORG",		"weapons": [			"Cyb-Wpn-Grenade"
 			]	},		"Cyb-Laser1-GROUND": {		"available": "true",		"body": "CyborgLightNAS",		"id": "Cyb-Laser1-GROUND",		"name": "Flashlight Gunner",		"propulsion": "CyborgLegsNAS",		"type": "CYBORG",		"weapons": [			"Cyb-Wpn-Laser"
@@ -781,10 +781,10 @@
 			]	},		"ScavIcevanBody-BabaFlame": {		"body": "ScavIcevanBody",		"id": "ScavIcevanBody-BabaFlame",		"name": "ScavIcevanBody-BabaFlame",		"propulsion": "BaBaProp",		"type": "DROID",		"weapons": [			"BabaFlame"
 			]	},		"ScavNEXUStrack-ScavNEXUSlink": {		"body": "ScavNEXUStrack",		"id": "ScavNEXUStrack-ScavNEXUSlink",		"name": "ScavNEXUStrack-ScavNEXUSlink",		"propulsion": "BaBaProp",		"type": "DROID",		"weapons": [			"ScavNEXUSlink"
 			]	},		"ScavSensor": {		"body": "BusBody-AR",		"id": "ScavSensor",		"name": "ScavSensor",		"propulsion": "BaBaProp",		"sensor": "BaBaSensor",		"type": "DROID"	}, 
-	 "Crane": {		"body": "B2crane2",		"construct": "scavCrane1",		"id": "Crane",		"name": "Crane1",		"propulsion": "BaBaProp",		"type": "CONSTRUCT"	}, 
-	 "Crane": {		"body": "B2crane2",		"construct": "scavCrane2",		"id": "Crane",		"name": "Crane2",		"propulsion": "BaBaProp",		"type": "CONSTRUCT"	}, 
-	 "Crane": {		"body": "B2crane1",		"construct": "scavCrane2",		"id": "Crane",		"name": "Crane3",		"propulsion": "BaBaProp",		"type": "CONSTRUCT"	}, 
-	 "Crane": {		"body": "B2crane1",		"construct": "scavCrane1",		"id": "Crane",		"name": "Crane4",		"propulsion": "BaBaProp",		"type": "CONSTRUCT"	}, 
+	 "Crane1": {		"body": "B2crane2",		"construct": "scavCrane1",		"id": "Crane1",		"name": "Crane1",		"propulsion": "BaBaProp",		"type": "CONSTRUCT"	}, 
+	 "Crane2": {		"body": "B2crane2",		"construct": "scavCrane2",		"id": "Crane2",		"name": "Crane2",		"propulsion": "BaBaProp",		"type": "CONSTRUCT"	}, 
+	 "Crane3": {		"body": "B2crane1",		"construct": "scavCrane2",		"id": "Crane3",		"name": "Crane3",		"propulsion": "BaBaProp",		"type": "CONSTRUCT"	}, 
+	 "Crane4": {		"body": "B2crane1",		"construct": "scavCrane1",		"id": "Crane4",		"name": "Crane4",		"propulsion": "BaBaProp",		"type": "CONSTRUCT"	}, 
 	 "Mech1": {		"available": "true",		"body": "CyborgMecha",		"id": "Mech1",		"name": "Mech1",		"propulsion": "MechLegs",		"type": "CYBORG",		"weapons": [			"Cyb-Cannon-Mech"
 			]	},		"Mech2": {		"available": "true",		"body": "CyborgMecha",		"id": "Mech2",		"name": "Mech2",		"propulsion": "MechLegs",		"type": "CYBORG",		"weapons": [			"Cyb-Flamer01-Mech"
 			]	},		"Mech3": {		"available": "true",		"body": "CyborgMecha",		"id": "Mech3",		"name": "Mech3",		"propulsion": "MechLegs",		"type": "CYBORG",		"weapons": [			"Cyb-Rocket-Mech"
@@ -802,7 +802,7 @@
 			]	},		"SuperTransportNAS": {		"available": "true",		"body": "SuperTransportNAS",		"id": "SuperTransportNAS",		"name": "Super NASDA Transport ",		"propulsion": "V-Tol",		"type": "SUPERTRANSPORTER"	}, 
 	 "TransporterNAS": {		"available": "true",		"body": "TransporterNAS",		"id": "TransporterNAS",		"name": "NASDA Cyborg Transport",		"propulsion": "V-Tol",		"type": "TRANSPORTER"	}, 
 	 "Mech7": {		"available": "true",		"body": "CyborgMecha",		"id": "Mech7",		"name": "Mech7",		"propulsion": "MechLegs",		"type": "CYBORG",		"weapons": [			"Cyb-Rail1-Mech"
-			]	},		"ViperLtMGWheels": {		"body": "Body1REC",		"id": "ViperMG01Wheels",		"name": "Machinegun Viper Wheels",		"propulsion": "wheeled01",		"type": "DROID",		"weapons": [			"MG1Mk1"
+			]	},		"ViperLtMGWheels": {		"body": "Body1REC",		"id": "ViperLtMGWheels",		"name": "Machinegun Viper Wheels",		"propulsion": "wheeled01",		"type": "DROID",		"weapons": [			"MG1Mk1"
 			]	},		"NP-L-Sensor-Wheels": {		"body": "Body4ABT",		"id": "NP-L-Sensor-Wheels",		"name": "*NP-L-Sensor-Wheels*",		"propulsion": "wheeled01",		"sensor": "SensorTurret1Mk1",		"type": "DROID"	}, 
 	 "ASPOTTER": {		"body": "Body1REC",		"id": "ASPOTTER",		"name": "*SPOTTER*",		"propulsion": "tracked03",		"type": "DROID",		"weapons": [			"QuadMg1AAGun"
 			]	},		"ATESTVEHICLE": {		"body": "Body5REC",		"id": "ATESTVEHICLE",		"name": "*TEST VEHICLE*",		"propulsion": "V-Tol",		"type": "DROID",		"weapons": [			"Bomb2-VTOL-HvHE"
@@ -909,5 +909,7 @@
 			]	},		"SuperTank": {		"body": "Superbody",		"id": "SuperTank",		"name": "*Kev's Super Tank*",		"propulsion": "hover01",		"type": "DROID",		"weapons": [			"Superweapon"
 			]	},		"SuperTank2": {		"body": "Superbody",		"id": "SuperTank2",		"name": "*Alex's Killa*",		"propulsion": "hover01",		"type": "DROID",		"weapons": [			"Superweapon2"
 			]	},		"ViperMG02Wheels": {		"body": "Body1REC",		"id": "ViperMG02Wheels",		"name": "Twin Machinegun Viper Wheels",		"propulsion": "wheeled01",		"type": "DROID",		"weapons": [			"MG2Mk1"
-		]
+			]	},		"NP-L-RocketPod-Wheels-arch": {		"body": "Body45ABT",		"id": "NP-L-RocketPod-Wheels-arch",		"name": "*NP-L-RocketPod-Wheels-Arch*",		"propulsion": "wheeled01NAS",		"type": "DROID",		"weapons": [			"Rocket-Pod-Arch"
+			]	},		"NP-S-RocketPod-Wheels-arch": {		"body": "Body88MBT",		"id": "NP-S-RocketPod-Wheels-arch",		"name": "*NP-S-RocketPod-Wheels-Arch*",		"propulsion": "HalfTrackNAS",		"type": "DROID",		"weapons": [			"Rocket-Pod-Arch"
+			]	},		"NP-L-Jammer-Wheels": {		"body": "Body45ABT",		"ecm": "ECM1TurretMk1",		"id": "NP-L-Jammer-Wheels",		"name": "*NP-L-Jammer-Wheels*",		"propulsion": "wheeled01NAS",		"type": "DROID"
 	}}

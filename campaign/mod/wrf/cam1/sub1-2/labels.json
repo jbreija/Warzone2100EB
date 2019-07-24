@@ -27,7 +27,14 @@
 		"label": "ScavLabPos",
 		"pos": [2752, 3904]
 	},
-
+	"position_7": {
+		"label": "waypoint1",
+		"pos": [6100, 2000]
+	},
+	"position_8": {
+		"label": "waypoint2",
+		"pos": [5000, 6100]
+	},
 	"area_0": {
 		"label": "LandingZone",
 		"pos1": [6656, 6912],
@@ -63,6 +70,11 @@
 		"pos1": [1792, 3072],
 		"pos2": [3328, 4352]
 	},
+	"area_7": {
+		"label": "HelicopterGroup",
+		"pos1": [6600, 600],
+		"pos2": [7000, 1400]
+	},
 
 	"object_0": {
 		"label": "NorthFactory",
@@ -79,6 +91,12 @@
 	"object_2": {
 		"label": "ScavLab",
 		"id": 340,
+		"player": 7,
+		"type": 1
+	},
+	"object_3": {
+		"label": "ScavAA",
+		"id": 386,
 		"player": 7,
 		"type": 1
 	},
