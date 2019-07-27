@@ -31,3 +31,14 @@ http://forums.wz2100.net/viewforum.php?f=6
 * Improved many of the non-useful turrets such as nexus link, bunker buster, non-bomb VTOL's, commanders
 * Added more power into the game with slightly faster production and more expensive research
 * Added approximately 80 new weapon turrets. Items named "augmented" or "stabilized" have increased range. 
+
+
+### Installation
+
+Place EB-Mod.wz in the global mod folder and start Warzone2100 with the command line parameter --mod=EB-Mod.wz
+
+See Warzone 2100 command line parameters for additional help
+http://developer.wz2100.net/wiki/CommandLineOptions
+
+The global mods folder for Windows can be located at:
+C:\Users\UserName\AppData\Roaming\Warzone 2100 Project\Warzone 2100 master\mods\global

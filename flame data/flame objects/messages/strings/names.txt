@@ -1,0 +1,2298 @@
+A0ADemolishStructure	_("Demolish Structure")
+A0BaBaBunker	_("Scavenger Bunker")
+A0BabaCornerWall	_("Scavenger CornerWall")
+A0BaBaFactory	_("Scavenger Factory")
+A0BaBaFlameTow	"*A0BaBaFlameTow*"
+A0BaBaFlameTower	_("Scavenger Flame Tower")
+A0BaBaFlameTowerEnd	_("Scavenger Flame Tower End")
+A0BaBaGunTower	_("Scavenger Gun Tower")
+A0BaBaGunTowerEND	"*Scavenger End Tower*"
+A0BaBaHorizontalWall	_("Scavenger Horizontal Wall")
+A0BaBaMortarPit	"*BaBaMortarPit*"
+A0BaBaPowerGenerator	_("Scavenger Power Generator")
+A0BaBaRocketPit	_("Scavenger Rocket Pit")
+A0BaBaRocketPitAT	_("Scavenger AT-Rocket Pit")
+A0BaBaVtolFactory	"Scavenger Chopper Factory"
+A0BaBaVtolPad	"VTOL BaBa Rearming Pad"
+A0CannonTower	_("Cannon Tower")
+A0ComDroidControl	_("Command Relay Center")
+A0CommandCentre	_("Command Center")
+A0CommandCentreAR	 "Fortified Command Center"
+A0CommandCentreCO	_("Collective Command Center")
+A0CommandCentreNE	"*CommandCenterNE*"
+A0CommandCentreNP	_("New Paradigm Command Center")
+A0CyborgFactory	_("Cyborg Factory")
+A0CyborgFactoryMech	"Mech Cyborg Factory"
+A0DedicatedResearchFacility	"Dedicated Research Complex"
+A0FacMod1	_("Factory Module")
+A0HardcreteMk1CWall	_("Hardcrete Corner Wall")
+A0HardcreteMk1Gate	_("Hardcrete Gate")
+A0HardcreteMk1GateHar	"Hardcrete Gate"
+A0HardcreteMk1Wall	_("Hardcrete Wall")
+A0LargeFacMod1	"Factory Module"
+A0LargeFactory1	"Advanced Factory"
+A0LargeVTolFactory1	"Advanced VTOL Factory"
+A0LasSatCommand	_("Laser Satellite Command Post")
+A0LightFactory	_("Factory")
+A0Plascrete	"Plascrete Wall"
+A0PlascreteC	"Plascrete Corner Wall"
+A0PlascreteR	"Reinforced Plascrete Wall"
+A0PlascreteRC	"Reinforced Plascrete Corner Wall"
+A0Plasteel	"Plasteel Wall"
+A0PlasteelC	"Plasteel Corner Wall"
+A0PlasteelG	"Plasteel Gate"
+A0PowerGenerator	_("Power Generator")
+A0PowMod1	_("Power Module")
+A0PowMod2	"Power Module"
+A0RepairCentre	_("Repair Center")
+A0RepairCentre2	_("Repair Center")
+A0RepairCentre3	_("Repair Facility")
+A0RepairCentre4	"Robotic Repair Facility"
+A0ResearchFacility	_("Research Facility")
+A0ResearchModule1	_("Research Module")
+A0ResearchModule2	"Research Module"
+A0ResourceExtractor	_("Oil Derrick")
+A0ResourceExtractorMG	"Guarded Oil Derrick"
+A0ResourceExtractorScav	"Scavenger Derrick"
+A0RoboticFactory	"Robotic Factory"
+A0Sat-linkCentre	_("Satellite Uplink Center")
+A0Supercrete	"Supercrete Wall"
+A0SupercreteC	"Supercrete Corner Wall"
+A0TankTrap	_("Tank Traps")
+A0TankTrap2	_("Dragon's Teeth")
+A0VapPowerGenerator	"Vapor Power Generator"
+A0VTolFactory1	_("VTOL Factory")
+A0VtolPad	_("VTOL Rearming Pad")
+AAGun1Mk1	_("Tornado Flak Turret")
+AAGun2Mk1	_("AA Flak Cannon")
+AAGun2Mk1-VTOL	_("VTOL Flak Cannon")
+AAGunLaser	_("Stormbringer AA Laser")
+AASite-QuadBof	_("AA Flak Cannon Emplacement")
+AASite-QuadMg1	_("Hurricane AA Site")
+AASite-QuadRotMg	_("Whirlwind AA Site")
+AASite-TwinBof	_("Tornado AA Site")
+A-Cobra-Hover-HMG	_("Heavy Machinegun Cobra Hover")
+A-Cobra-Hover-MC	_("Medium Cannon Cobra Hover")
+A-Cobra-Trk-HMG	_("Heavy Machinegun Cobra Tracks")
+A-Cobra-Wheels-HMG	_("Heavy Machinegun Cobra Wheels")
+ADVANCEDRESEARCH	_("ADVANCED RESEARCH")
+Advmaterialslab	 "Advancedmaterialslab"
+Aerodynamicslab	 "Aerodynamicslab"
+AG-Retaliation-H	"Assault Gun Retaliation Hover"
+A-HCobra-Hover-HMG	"Heavy Machinegun HCobra Hover"
+A-HCobra-Hover-MC	"Medium Cannon HCobra Hover"
+A-HCobra-Wheels-HMG	"Heavy Machinegun HCobra Wheels"
+A-HPython-HalfTrk-Lancer	"Lancer HPython Half-tracks"
+A-HPython-Hover-HC	"Heavy Cannon HPython Hover"
+A-HPython-Hover-MC	"Medium Cannon HPython Hover"
+A-HPython-Trk-Lancer	"Lancer HPython Tracks"
+A-HViper-Trk-MG	"Machinegun HViper Tracks"
+A-HViper-Trk-TMG	"Twin Machinegun HViper Tracks"
+A-HViper-Wheels-HMG	"Heavy Machinegun HViper Wheels"
+A-HViper-Wheels-TMG	"Twin Machinegun HViper Wheels"
+A-HvyHPython-Pepperpot-Track	"HvyHPython Pepperpot Track"
+A-HvyHPython-Trk-Lancer	"Lancer HvyHPython Tracks"
+A-HvyHPython-Trk-Pulse	"Pulse Laser HvyHPython Tracks"
+A-HvyHPython-Trk-Rail	"Rail Gun HvyHPython Tracks"
+A-HvyLeopard-Pepperpot-Track	"HvyLeopard Pepperpot Track"
+A-HvyLeopard-Trk-Lancer	"Lancer HvyLeopard Tracks"
+A-HvyLeopard-Trk-Pulse	"Pulse Laser HvyLeopard Tracks"
+A-HvyLeopard-Trk-Rail	"Rail Gun HvyLeopard Tracks"
+A-HvyMantisHeat-Pepperpot-Track	"HvyMantisHeat Pepperpot Track"
+A-HvyMantisHeat-Trk-Lancer	"Lancer HvyMantisHeat Tracks"
+A-HvyMantisHeat-Trk-Pulse	"Pulse Laser HvyMantisHeat Tracks"
+A-HvyMantisHeat-Trk-Rail	"Rail Gun HvyMantisHeat Tracks"
+A-HvyMantis-Pepperpot-Track	"HvyMantis Pepperpot Track"
+A-HvyMantis-Trk-Lancer	"Lancer HvyMantis Tracks"
+A-HvyMantis-Trk-Pulse	"Pulse Laser HvyMantis Tracks"
+A-HvyMantis-Trk-Rail	"Rail Gun HvyMantis Tracks"
+A-HvyPython-Trk-Lancer	"Lancer HvyPython Tracks"
+AirTrafficControl	"*AirTrafficControl*"
+A-Mantis-Heat-Pepperpot-Track	"Thermal Mantis Pepperpot Track"
+A-Mantis-Heat-Trk-Lancer	"Lancer Thermal Mantis Tracks"
+A-Mantis-Heat-Trk-Pulse	"Pulse Laser Thermal Mantis Tracks"
+A-Mantis-Heat-Trk-Rail	"Rail Gun Thermal Mantis Tracks"
+A-Mantis-Pepperpot-Track	"Mantis Pepperpot Track"
+A-Mantis-Trk-Lancer	_("Lancer Mantis Tracks")
+A-Mantis-Trk-Pulse	_("Pulse Laser Mantis Tracks")
+A-Mantis-Trk-Rail	_("Rail Gun Mantis Tracks")
+A-Python-HalfTrk-Lancer	"Lancer Python Half-tracks"
+A-Python-Hover-HC	_("Heavy Cannon Python Hover")
+A-Python-Hover-MC	_("Medium Cannon Python Hover")
+A-Python-Trk-HC	_("Heavy Cannon Python Tracks")
+A-Python-Trk-Lancer	_("Lancer Python Tracks")
+A-Rep-Cobra-Trk	_("Repair Turret Cobra Tracks")
+A-Rep-HCobra-Trk	"Repair Turret HCobra Tracks"
+A-Rep-Mantis-Heat-Trk	"Repair Turret Thermal Mantis Tracks"
+A-Rep-Mantis-Trk	_("Repair Turret Mantis Tracks")
+A-Retrib-Trk-Needle	_("Needle Gun Retribution Tracks")
+arizonabush1	"*ArizonaBush1*"
+arizonabush2	"*ArizonaBush2*"
+arizonabush3	"*ArizonaBush3*"
+arizonabush4	"*ArizonaBush4*"
+arizonatree1	"*ArizonaTree1*"
+arizonatree2	"*ArizonaTree2*"
+arizonatree3	"*ArizonaTree3*"
+arizonatree4	"*ArizonaTree4*"
+arizonatree5	"*ArizonaTree5*"
+arizonatree6	"*ArizonaTree6*"
+A-Scorp-Heat-Hover-MC	"Medium Cannon Thermal Scorpion Hover"
+A-Scorp-Heat-Trk-MC	"Medium Cannon Thermal Scorpion Tracks"
+A-Scorp-Hover-MC	_("Medium Cannon Scorpion Hover")
+A-Scorp-Trk-MC	_("Medium Cannon Scorpion Tracks")
+ASPOTTER	"*SPOTTER*"
+ATESTVEHICLE	"*TEST VEHICLE*"
+ATESTVTOL	"*TEST VTOL*"
+A-Tiger-Trk-HC	_("Heavy Cannon Tiger Tracks")
+A-Tiger-Trk-Needle	_("Needle Gun Tiger Tracks")
+A-Tiger-Trk-TwinAssaultGun	"Twin Assault Gun Tiger Tracks"
+AutoRepair	"Auto Repair"
+A-Veng-Trk-Guass	_("Vengeance Tracks Gauss Cannon")
+A-Veng-Trk-HeavyLaser	"Heavy Laser Vengeance Tracks"
+A-Veng-Trk-Needle	_("Needle Gun Vengeance Tracks")
+A-Veng-Trk-Rail	_("Vengeance Tracks Rail Gun")
+A-Veng-Trk-Scourge	_("Vengeance Tracks Gauss Scourge")
+A-Veng-Trk-Stormbringer	"Stormbringer Vengeance Tracks"
+A-Veng-Trk-TK	_("Tank Killer Vengeance Tracks")
+A-Viper-Trk-HMG	_("Heavy Machinegun Viper Tracks")
+A-Viper-Trk-MG	_("Machinegun Viper Tracks")
+A-Viper-Trk-TMG	_("Twin Machinegun Viper Tracks")
+A-Viper-Wheels-HMG	_("Heavy Machinegun Viper Wheels")
+A-Viper-Wheels-MG	_("Machinegun Viper Wheels")
+A-Viper-Wheels-TMG	_("Twin Machinegun Viper Wheels")
+AVTOLSPOTTER	"*VTOL SPOTTER*"
+B1BaBaPerson01	"*BaBa Body*"
+B1BaBaPerson02	"B1BaBaPerson02"
+B2crane1	"crane2"
+B2crane2	"crane1"
+B2JeepBody	"*Jeep Body*"
+B2JeepBody-AR	"Baba Jeep Body AR"
+B2JeepBody-BJeepMG	"B2JeepBody-BJeepMG"
+B2RKJeepBody	"*Rocket Jeep Body*"
+B2RKJeepBody-AR	"Baba Jeep Body AR"
+B2RKJeepBody-BabaRocket	"B2RKJeepBody-BabaRocket"
+B2tractor	"tractor"
+B2tractor-BabaFlame	"B2tractor-BabaFlame"
+B3bodyRKbuggy01	"*Rocket Buggy Body*"
+B3bodyRKbuggy01-AR	"Rocket Buggy Body AR"
+B3bodyRKbuggy01-BabaRocket	"B3bodyRKbuggy01-BabaRocket"
+B3body-sml-buggy01	"*Buggy Body*"
+B3body-sml-buggy01-AR	"Buggy Body AR"
+B3body-sml-buggy01-BuggyMG	"B3body-sml-buggy01-BuggyMG"
+B4body-sml-trike01	"*Trike Body*"
+B4body-sml-trike01-AR	"Trike Body AR"
+B4body-sml-trike01-bTrikeMG	"B4body-sml-trike01-bTrikeMG"
+BabaBusCan	_("School Bus")
+BabaBusCan-AR	"School Bus-AR"
+BaBaCannon	"*BaBa Cannon*"
+BaBaCivilian	_("Civilian")
+BabaCornerWall	"*Babacrnwall*"
+BabaFireCan	_("Cannon Fire Truck")
+BabaFireTruck	_("Fire Truck")
+BabaFlame	"*Flamer*"
+BaBaHorizontalWall	"*Babahrzwall*"
+BabaJeep	_("Jeep")
+BabaJeep-AR	"Jeep-AR"
+BaBaLegs	"BaBaLegs"
+BaBaMG	"*BaBa MG*"
+BaBaPeople	_("Scavenger")
+BabaPickUp	_("Pick-Up Truck")
+BabaPitRocket	"*Baba Rocket Pit Launcher*"
+BabaPitRocketAT	"*AT Rocket Pit*"
+BaBaProp	"BaBaProp"
+BabaRKJeep	_("Rocket Jeep")
+BabaRKJeep-AR	"Rocket Jeep-AR"
+BabaRocket	"*BabaRocket*"
+BaBaSensor	"*BaBa Default Sensor*"
+BarbarianBuggy	_("Buggy")
+BarbarianBuggy-AR	"Buggy-AR"
+BarbarianRKBuggy	_("Rocket Buggy")
+BarbarianRKBuggy-AR	"Rocket Buggy-AR"
+BarbarianTrike	_("Trike")
+BarbarianTrike-AR	"Trike-AR"
+BarbHUT	_("Hut")
+BarbTechRuin	_("Ruined Factory")
+BarbWarehouse1	_("Warehouse")
+BarbWarehouse2	"*Warehouse2*"
+BarbWarehouse3	"*Warehouse3*"
+barrier	"*Barrier*"
+bbaatow	"Scavenger MG tower"
+bigcooltowr	 "*LargeCoolingTower*"
+BJeepMG	"*Jeep MG*"
+BlueCar	"*Blue Car*"
+Body10MBT	_("Vengeance")
+Body111ABT	"NASDA Python"
+Body11ABT	_("Python")
+Body11REC	"NASDA Viper"
+Body121SUP	"NASDA Mantis"
+Body12SUP	_("Mantis")
+Body13SUP	_("Wyvern")
+Body14SUP	_("Dragon")
+Body15LGT	"Leopard Superior Alloys"
+Body16MED	"Panther Superior Alloys"
+Body17LGT	"Bug Thermal Alloys"
+Body18MED	"Scorpion Thermal Alloys"
+Body19HVY	"Mantis Thermal Alloys"
+Body1REC	_("Viper")
+Body20LGT	"Viper Hardened Alloys"
+Body211SUP	"NASDA Leopard"
+Body21MED	"Cobra Hardened Alloys"
+Body22HVY	"Python Hardened Alloys"
+Body23SUP	"Super Heavy Python"
+Body24SUP	"Super Heavy Mantis"
+Body25SUP	"Super Heavy Leopard"
+Body26SUP	"Super Heavy Thermal Mantis"
+Body27SUP	"Super Heavy Hardened Python"
+Body28SUP	"Super Heavy Retribution"
+Body2SUP	_("Leopard")
+Body3MBT	_("Retaliation")
+Body45ABT	"NASDA Bug"
+Body4ABT	_("Bug")
+Body51REC	"NASDA Cobra"
+Body5REC	_("Cobra")
+Body61SUPP	"NASDA Panther"
+Body6SUPP	_("Panther")
+Body7ABT	_("Retribution")
+Body88MBT	"NASDA Scorpion"
+Body8MBT	_("Scorpion")
+Body91REC	"NASDA Tiger"
+Body9REC	_("Tiger")
+Bomb1-VTOL-LtHE	_("VTOL Cluster Bomb Bay")
+Bomb2-VTOL-HvHE	_("VTOL Heap Bomb Bay")
+Bomb3-VTOL-LtINC	_("VTOL Phosphor Bomb Bay")
+Bomb4-VTOL-HvyINC	_("VTOL Thermite Bomb Bay")
+Bomb5-VTOL-Plasmite	_("VTOL Plasmite Bomb Bay")
+Bomb6-VTOL-EMP	_("VTOL EMP Missile Launcher")
+Boulder1	"*Boulder 1*"
+Boulder2	"*Boulder 2*"
+Boulder3	"*Boulder 3*"
+bridge	_("Bridge")
+bridge1	"*Bridge 1*"
+bridge5	"*Bridge 5*"
+bridgeend	 "*BridgeEnd*"
+bridgefull	 "*FullBridge*"
+bridgemiddle	"*BridgeMiddle*"
+BTowerMG	"*Tower MG*"
+bTrikeMG	"*Trike MG*"
+BuggyMG	"*Buggy MG*"
+Bug-HalfTrack-HeavyMG	"Heavy MG Bug Half-Track"
+Bug-HalfTrack-LightCannon	"Light Cannon Bug Half-Track"
+Bug-HalfTracks-MiniRocket	"Mini-Rocket Bug Half-tracks"
+Bug-Heat-HalfTrack-HeavyMG	"Heavy MG Thermal Bug Half-Track"
+Bug-Heat-HalfTrack-LightCannon	"Light Cannon Thermal Bug Half-Track"
+Bug-Heat-HalfTracks-MiniRocket	"Mini-Rocket Thermal Bug Half-tracks"
+Bug-Heat-Helicopter-HvyMG	"Thermal Bug Helicopter HMG"
+Bug-Heat-Wheel-HeavyMG	"Heavy MG Thermal Bug Wheels"
+Bug-Heat-Wheel-LightCannon	"Light Cannon Thermal Bug Wheels"
+Bug-Heat-Wheel-MiniRocket	"Mini-Rocket Thermal Bug Wheels"
+Bug-Helicopter-HvyMG	"Bug Helicopter HMG"
+Bug-Wheel-HeavyMG	"Heavy MG Bug Wheels"
+Bug-Wheel-LightCannon	"Light Cannon Bug Wheels"
+Bug-Wheel-MiniRocket	"Mini-Rocket Bug Wheels"
+building1	"*Building 1*"
+building10	"*Building 10*"
+building11	"*Building 11*"
+building12	"*Building 12*"
+building2	"*Building 2*"
+building3	"*Building 3*"
+building4	"*Building 4*"
+building5	"*Building 5*"
+building6	"*Building 6*"
+building7	"*Building 7*"
+building8	"*Building 8*"
+Bunker3-HeavyLaser-Gat	"Heavy Rotary Laser Emplacement"
+Bunker3-Laser2PULSEMk1-Inc	"Incendiary Pulse Laser Bunker"
+Bunker3-RailGun2Mk1-Twn-Inc	"Twin Rail Emplacement"
+Bunker3-Railgun-Hvy	"Heavy Railgun Emplacement"
+Bunker4-PlasmiteFlamer-Rail	"Heavy Plasmite Rail Bunker"
+Bunker-MG3Mk1-Twn	"Twin Heavy Machinegun Bunker"
+BusBody	"*School Bus Body*"
+BusBody-AR	"School Bus Body AR"
+BusBody-BabaPitRocketAT	"BusBody-BabaPitRocketAT"
+BusBody-BabaPitRocketAT-AR	"BusBody-BabaPitRocketAT-AR"
+BusBody-BusCannon	"BusBody-BusCannon"
+BusCannon	"*BusCannon*"
+CAM1DEFENSES	_("CAM1 DEFENSES")
+CAM1RESEARCH	_("CAM1 RESEARCH")
+CAM1STRUCTURES	_("CAM1 STRUCTURES")
+CAM1SYSTEMS	_("CAM1 SYSTEMS")
+CAM1VEHICLES	_("CAM1 VEHICLES")
+CAM1WEAPONS	_("CAM1 WEAPONS")
+CAM2CYBORGS	_("CAM2 CYBORGS")
+CAM2DEFENSES	_("CAM2 DEFENSES")
+CAM2RESEARCH	_("CAM2 RESEARCH")
+CAM2STRUCTURES	_("CAM2 STRUCTURES")
+CAM2SYSTEMS	_("CAM2 SYSTEMS")
+CAM2VEHICLES	_("CAM2 VEHICLES")
+CAM2WEAPONS	_("CAM2 WEAPONS")
+CAM3RESEARCH	_("CAM3 RESEARCH")
+Cannon1Mk1	_("Light Cannon")
+Cannon1-VTOL	_("VTOL Cannon")
+Cannon2A-TMk1	_("Medium Cannon")
+Cannon375mmMk1	_("Heavy Cannon")
+Cannon4AUTOMk1	_("Hyper Velocity Cannon")
+Cannon4AUTO-VTOL	_("VTOL Hyper Velocity Cannon")
+Cannon5VulcanMk1	_("Assault Cannon")
+Cannon5Vulcan-VTOL	_("VTOL Assault Cannon")
+Cannon6TwinAslt	_("Twin Assault Cannon")
+CannonSuper	_("Cannon Fortress")
+CCSensor	"*CC Sensor*"
+Chevy	"*Chevy*"
+CO-AASite-SAM1	"*CO-AASite-SAM1*"
+CobraBBTracks	_("Bunker Buster Cobra Tracks")
+CobraComHalftrack	_("Command Turret Cobra Half-tracks")
+CobraFlameHalfTracks	"Flamer Cobra Half-Tracks"
+CobraFlameHover	"Flamer Cobra Hover"
+CobraFlameTracks	_("Flamer Cobra Tracks")
+Cobra-Helicopter-HvyMG	"Cobra Helicopter HMG"
+Cobra-Helicopter-LightCannon	"Cobra Helicopter Light Cannon"
+Cobra-Helicopter-MRL	"Cobra Helicopter Mini Rocket Array"
+Cobra-Helicopter-Phosphor	"Cobra Helicopter Phosphor"
+Cobra-Helicopter-RocketPod	"Cobra Helicopter Mini-Rocket"
+Cobra-Helicopter-Thermite	"Cobra Helicopter Thermite"
+CobraHMGHalfTrack	_("Heavy Machinegun Cobra Half-tracks")
+CobraHMGTracks	_("Heavy Machinegun Cobra Tracks")
+Cobra-Hover-HC	_("Heavy Cannon Cobra Hover")
+CobraHoverTruck	_("Truck Cobra Hover")
+CobraHRepairHalfTrack	"Heavy Repair Cobra HalfTrack"
+CobraHRepairHover	_("Heavy Repair Turret Cobra Hover")
+CobraHvyCnTrks	_("Heavy Cannon Cobra Tracks")
+CobraHvyMortarHalftrack	_("Bombard Cobra Half-tracks")
+CobraHvyMortarTrack	"Bombard Cobra Tracks"
+CobraInfernoHover	_("Inferno Cobra Hover")
+CobraInfernoHTracks	_("Inferno Cobra Half-Tracks")
+CobraLtA-Thalftrack	_("Lancer Cobra Half-tracks")
+CobraLtCnTrks	_("Light Cannon Cobra Tracks")
+CobraMedCnHTrks	_("Medium Cannon Cobra Half Track")
+CobraMedCnTrks	_("Medium Cannon Cobra Tracks")
+CobraMortarHalfTrack	_("Mortar Cobra Half-tracks")
+CobraMRLHalftrack	_("Mini-Rocket Array Cobra Half-tracks")
+CobraMRLTracks	_("Mini-Rocket Array Cobra Tracks")
+CobraPODHTracks	_("Mini-Rocket Cobra Half-Tracks")
+CobraPODTracks	_("Mini-Rocket Cobra Tracks")
+CobraSensorHalftrack	_("Sensor Turret Cobra Half-tracks")
+CobraSpadeTracks	_("Cobra Truck")
+Cobra-Trk-Com	_("Command Turret Cobra Tracks")
+CobraTrkLancer	_("Lancer Cobra Tracks")
+Cobra-VTOL-Cluster	"Cobra VTOL Cluster"
+Cobra-VTOL-Phosphor	"Cobra VTOL Phosphor"
+CO-Emp-How105-Pit	"*CO-Emp-How105-Pit*"
+CO-Emp-Mortar2-Pit	"*CO-Emp-Mortar2-Pit*"
+CO-Emp-RotMortar-Pit	"*CO-Emp-RotMortar-Pit*"
+CO-H-AA2-HalfTrack	"*CO-H-AA2-HalfTrack*"
+CO-H-COM-H	"*CO-H-COM-H*"
+CO-H-Command-Track	"*CO-H-Command-Track*"
+CO-H-How105-Tracks	"*CO-H-How105-Tracks*"
+CO-H-How150-Tracks	"*CO-H-How150-Tracks*"
+CO-H-HPVCannon-Tracks	"*CO-H-HPVCannon-Tracks*"
+CO-H-HvyCan-Tracks	"*CO-H-HvyCan-Tracks*"
+CO-H-QuadBofAA-T	"*CO-H-QuadBofAA-T*"
+CO-H-QuadRotAA-Halftrack	"*CO-H-QuadRotAA-Halftrack*"
+CO-H-QuadRotAA-T	"*CO-H-QuadRotAA-T*"
+CO-H-Rkt-BB-T	"*CO-H-Rkt-BB-T*"
+CO-H-Rocket-BB-Halftrack	"*CO-H-BB-Halftrack*"
+CO-H-RotCan-Track	"*CO-H-RotCan-Track*"
+CO-H-RotHow-Track	"*CO-H-RotHow-Track*"
+CO-L-Bomb1-VTOL	"*CO-L-Bomb1-VTOL*"
+CO-L-HMG-Wheels	"*CO-L-HMG-Wheels*"
+CollectiveCWall	_("Collective Corner Wall")
+CollectiveWall	_("Collective Wall")
+CO-L-MG2-VTOL	"*CO-L-MG2-VTOL*"
+CO-L-POD-Wheels	"*CO-L-POD-Wheels*"
+CO-L-Rocket-BB-Hover	"*CO-L-Rocket-BB-Hover*"
+CO-L-Rocket-LtA-T-Hover	"*CO-L-Rocket-LtA-T-Hover*"
+CO-L-Rocket-LtA-T-VTOL	"*CO-L-LtATRkt-VTOL*"
+CO-L-Rocket-VTOL-Pod-VTOL	"*CO-L-POD-VTOL*"
+CO-L-RotMG-HalfTrack	"*CO-L-RotMG-HalfTrack*"
+CO-L-RotMg-Hover	"*CO-L-RotMg-Hover*"
+CO-L-RotMG-VTOL	"*CO-L-RotMG-VTOL*"
+CO-L-RotMG-Wheels	"*CO-S-RotMG-Wheels*"
+CO-M-AA1-HalfTrack	"*CO-M-AA1-HalfTrack*"
+CO-M-Bomb1-VTOL	"*CO-M-Bomb1-VTOL*"
+CO-M-Bomb2-VTOL	"*CO-M-Bomb2-VTOL*"
+CO-M-CBS-Halftrack	"*CO-M-CBS-Halftrack*"
+CO-M-CBS-T	"*CO-M-CBS-T*"
+CO-M-Command-Track	"*CO-M-Command-Track*"
+CO-M-Con-Htrack	"*CO-M-Con-Htrack*"
+CO-M-Con-T	"*CO-M-Con-T*"
+CO-M-HMG-T	"*CO-M-HMG-T*"
+CO-M-HPVCannon-Tracks	"*CO-M-HPVCannon-Tracks*"
+CO-M-HVAT-Hover	"*CCO-M-HVAT-Hover*"
+CO-M-HVAT-V	"*CO-M-HVAT-V*"
+CO-M-HvFlame-Track 	"*CO-M-HvFlame-Track*"
+CO-M-HvMortar-Halftrack	"*CO-M-HvMortar-Halftrack*"
+CO-M-HvMortar-T	"*CO-M-HvMortar-T*"
+CO-M-LTAT-Hover	"*CCO-M-LTAT-Hover*"
+CommandBrain01	_("Command Turret")
+CommandTurret1	_("Command Turret")
+CommandTurret2	_("Command Turret II")
+CommandTurret3	_("Command Turret III")
+CommandTurret4	_("Command Turret IV")
+CO-M-MedCan-Tracks	"*CO-M-MedCan-Tracks*"
+CO-M-Mortar1-Halftrack	"*CO-M-Mortar1-Halftrack*"
+CO-M-MRL-Halftrack	"*CO-M-MRL-Halftrack*"
+CO-M-QuadMG1AA-Halftrack	"*CO-M-QuadMG1AA-Halftrack*"
+CO-M-Repair-HalfTrack	"*CO-M-Repair-HalfTrack*"
+CO-M-Repair-T	"*CO-M-Repair-T*"
+CO-M-Rocket-BB-Halftrack	"*CO-M-Rocket-BB-Halftrack*"
+CO-M-Rocket-BB-T	"*CO-M-Rocket-BB-T*"
+CO-M-Rocket-HvyA-T-Track	"*CO-M-Rocket-HvyA-T-Track*"
+CO-M-Rocket-LtA-T-Halftrack	"*CO-M-Rocket-LtA-T-Halftrack*"
+CO-M-Rocket-LtA-T-T	"*CO-M-Rocket-LtA-T-T*"
+CO-M-ROTMG-T	"*CO-M-ROTMG-T*"
+CO-M-RotMortar-Halftrack	"*CO-M-RotMortar-Halftrack*"
+CO-M-RotMortar-T	"*CO-M-RotMortar-T*"
+CO-M-RR-HT	"*CO-M-RR-HT*"
+CO-M-Sensor-Half-Track	"*CO-M-Sensor-Half-Track*"
+CO-M-Sensor-T	"*CO-M-Sensor-T*"
+CO-M-Vstrike-Halftrack	"*CO-M-Vstrike-Halftrack*"
+CO-M-Vstrike-T	"*CO-M-Vstrike-T*"
+CO-M-VTOLCBS-Halftrack	"*CO-M-VTOLCBS-Halftrack*"
+CO-M-VTOLCBS-T	"*CO-M-VTOLCBS-T*"
+Construct	"*TEST - Construct*"
+ConstructionBrain	"*TEST - ConstructionBrain*"
+ConstructionDroid	_("Truck")
+ConstructionDroidNP	"*NP - Scorpion Constructor*"
+ConstructorDroid	_("Truck")
+CoolingTower	"*CoolingTower*"
+CO-Tower-HvATRkt	"*CO-Tower-HvATRkt*"
+CO-Tower-HVCan	"*CO-Tower-HVCan*"
+CO-Tower-HvFlame	"*CO-Tower-HvFlame*"
+CO-Tower-LtATRkt	"*CO-Tower-LtATRkt*"
+CO-Tower-MdCan	"*CO-Tower-MdCan*"
+CO-Tower-MG3	"*CO-Tower-MG3*"
+CO-Tower-RotMG	"*CO-Tower-RotMG*"
+CO-WallTower-HvCan	"*CO-WallTower-HvCan*"
+CO-WallTower-RotCan	"*CO-WallTower-RotCan*"
+Crane	"*Crane*"
+Crane1	"Crane1"
+Crane2	"Crane2"
+Crane3	"Crane3"
+Crane4	"Crane4"
+Crate	_("Artifact")
+Cyb-Atmiss-GROUND	_("Scourge")
+Cyb-BB-Rkt-GROUND	_("Bunker Blaster")
+Cyb-Bod-Atmiss	"*Cyb-Bod-Atmiss*"
+Cyb-Bod-BB-Rkt	"*Cyb-Bod-BB-Rkt*"
+Cyb-Bod-ComEng	"*Combat Engineer*"
+Cyb-Bod-Grenade	"*Grenadier Body*"
+Cyb-Bod-Las1	"*Cyb-Bod-Las1*"
+Cyb-Bod-Mechanic	"*Cyborg Mechanic*"
+Cyb-Bod-Rail1	"*Cyb-Bod-Rail1*"
+Cyb-Bod-Thermite	"*Thermite Body*"
+Cyb-Cannon-GROUND	_("Heavy Gunner")
+Cyb-Chain-GROUND	_("Machinegunner")
+Cyb-ComEng	_("Combat Engineer")
+Cyb-CybChnGun-JUMP	"*Cyb-CybChnGun-JUMP*"
+CybFlamer01CGrd	"*Cyborg Flamer*"
+Cyb-Flamer-GROUND	_("Cyborg Flamer")
+Cyb-Gren	_("Grenadier")
+Cyb-Hvy-Acannon	_("Super Auto-Cannon Cyborg")
+Cyb-Hvy-A-T	_("Super Scourge Cyborg")
+Cyb-Hvybod-Acannon	_("Super Auto-Cannon Cyborg")
+Cyb-Hvybod-A-T	_("Super Scourge Cyborg")
+Cyb-Hvybod-HPV	_("Super HPV Cyborg")
+Cyb-Hvybod-Mcannon	_("Super Heavy-Gunner")
+Cyb-Hvybod-PulseLsr	_("Super Pulse Laser Cyborg")
+Cyb-Hvybod-RailGunner	_("Super Rail-Gunner")
+Cyb-Hvybod-TK	_("Super Tank-Killer Cyborg")
+Cyb-Hvy-HPV	_("Super HPV Cyborg")
+Cyb-Hvy-IncMortar	"Super Incendiary Grenadier"
+Cyb-Hvy-Mcannon	_("Super Heavy-Gunner")
+Cyb-Hvy-PulseLsr	_("Super Pulse Laser Cyborg")
+Cyb-Hvy-RailGunner	_("Super Rail-Gunner")
+Cyb-Hvy-TK	_("Super Tank-Killer Cyborg")
+Cyb-Hvywpn-Acannon	_("Super Auto-Cannon Cyborg")
+Cyb-Hvywpn-A-T	_("Super Scourge Cyborg")
+Cyb-Hvywpn-EMP	"Cyb-Hvywpn-EMP"
+Cyb-Hvywpn-Flamer2	"Cyb-Hvywpn-Flamer2"
+Cyb-Hvywpn-Flamer3	"Cyb-Hvywpn-Flamer3"
+Cyb-Hvywpn-HPV	_("Super HPV Cyborg")
+Cyb-Hvywpn-Mcannon	_("Super Heavy-Gunner")
+Cyb-Hvywpn-MG3	"Cyb-Hvywpn-MG3"
+Cyb-Hvywpn-MG4	"Cyb-Hvywpn-MG4"
+Cyb-Hvywpn-Missile-MdArt	"Cyb-Hvywpn-Missile-MdArt"
+Cyb-Hvywpn-Mortar1Mk1-Ram	"Cyb-Hvywpn-Mortar1Mk1-Ram"
+Cyb-Hvywpn-PulseLsr	_("Super Pulse Laser Cyborg")
+Cyb-Hvywpn-RailGunner	_("Super Rail-Gunner")
+Cyb-Hvywpn-Rocket-LtA-T	"Cyb-Hvywpn-Rocket-LtA-T"
+Cyb-Hvywpn-Rocket-MRL	"Cyb-Hvywpn-Rocket-MRL"
+Cyb-Hvywpn-Rocket-Pod	"Cyb-Hvywpn-Rocket-Pod"
+Cyb-Hvywpn-Rocket-Pod-Arch	"Cyb-Hvywpn-Rocket-Pod-Arch"
+Cyb-Hvywpn-Rocket-Pod-MRA	"Cyb-Hvywpn-Rocket-Pod-MRA"
+Cyb-Hvywpn-Rocket-Sunburst	"Cyb-Hvywpn-Rocket-Sunburst"
+Cyb-Hvywpn-Rocket-Sunburst-Arch	"Cyb-Hvywpn-Rocket-Sunburst-Arch"
+Cyb-Hvywpn-Rocket-TopAttack	"Cyb-Hvywpn-Rocket-TopAttack"
+Cyb-Hvywpn-TK	_("Super Tank-Killer Cyborg")
+Cyb-Laser1-GROUND	_("Flashlight Gunner")
+Cyb-Mechanic	_("Cyborg Mechanic")
+Cyb-NXCybATmiss-GRD	"*Cyb-NXCybATmiss-GRD*"
+Cyb-NXCybATmiss-JUMP	"*Cyb-NXCybATmiss-JUMP*"
+Cyb-NXCybRail1-GRD	"*Cyb-NXCybRail1-GRD*"
+Cyb-NXCybRail1-JUMP	"*Cyb-NXCybRail1-JUMP*"
+CybNXMissJmp	"*CybNXMissJmp*"
+Cyb-NXPulseLas-GRD	"*Cyb-NXPulseLas-GRD*"
+CybNXPulseLasJmp	"*CybNXPulseLasJ*"
+Cyb-NXPulseLas-JUMP	"*Cyb-NXPulseLas-JUMP*"
+CybNXRail1Jmp	"*CybNXRail1Jmp*"
+CyborgCan01Air	"*TEST - Cyborg Cannon01 Air*"
+CyborgCan01Ground	_("Cyborg Cannon")
+CyborgCannon	_("Heavy Gunner")
+CyborgCannon01	"*Cyborg Cannon*"
+CyborgCannon01Grd	_("Heavy Gunner")
+CyborgCannonGrd	"*Cyborg Cannon*"
+CyborgChain01Ground	_("Machinegunner")
+CyborgChain1Ground	"*CyborgChaingun1Ground*"
+CyborgChaingun	_("Machinegunner")
+CyborgFlamer01	_("Flamer")
+CyborgFlamer01Grd	_("Flamer")
+CyborgFlamerGrd	"*Cyborg Flamer*"
+CyborgHeavyBody	"Heavy Cyborg"
+CyborgHeavyNAS	"Heavy Cyborg"
+CyborgLegs	_("Cyborg Propulsion")
+CyborgLegs02	_("Cyborg Propulsion II")
+CyborgLegs03	_("Cyborg Propulsion III")
+CyborgLightBody	"Cyborg Body"
+CyborgLightNAS	"Cyborg Body"
+CyborgMecha	"Mecha Cyborg"
+CyborgRepair	"*Cyborg Mechanic*"
+CyborgRkt01Air	"*TEST - Cyborg Rocket01 Air*"
+CyborgRkt01Ground	_("Lancer")
+CyborgRkt1Ground	"*CyborgRocket1Ground*"
+CyborgRocket	_("Lancer")
+CyborgRotMG	"*CyborgRotMG*"
+CyborgRotMgGround	_("Assault Gunner")
+CyborgSpade	"*Combat Engineer*"
+Cyb-Rail1-GROUND	_("Needle Gunner")
+Cyb-Rocket-GROUND	_("Lancer")
+CybRotMgGrd	"*Cyborg Assault Gun*"
+Cyb-RotMG-GROUND	_("Assault Gunner")
+Cyb-Thermite	_("Thermite Flamer")
+Cyb-Wpn-Atmiss	"*Cyb-Wpn-Atmiss*"
+Cyb-Wpn-BB-Rkt	"*Cyb-Wpn-BB-Rkt*"
+Cyb-Wpn-Cannon-Sniper	"Cyb-Wpn-Cannon-Sniper"
+Cyb-Wpn-Grenade	"*Cyborg Grenade Weapon*"
+Cyb-Wpn-Laser	"*Cyb-Wpn-Laser*"
+Cyb-Wpn-Mortar1Mk1-Rail	"Cyb-Wpn-Mortar1Mk1-Rail"
+Cyb-Wpn-MortarInc	"Cyb-Wpn-MortarInc"
+Cyb-Wpn-Rail1	"*Cyb-Wpn-Rail1*"
+Cyb-Wpn-Rocket-HvyA-T	"Cyb-Wpn-Rocket-HvyA-T"
+Cyb-Wpn-Rocket-Sunburst	"Cyb-Wpn-Rocket-Sunburst"
+Cyb-Wpn-Rocket-Sunburst-Arch	"Cyb-Wpn-Rocket-Sunburst-Arch"
+Cyb-Wpn-SpyTurret01	"Cyb-Wpn-SpyTurret01"
+Cyb-Wpn-Thermite	"*Cybrog Thermite Weapon*"
+DefaultSensor1Mk1	"*Default Sensor*"
+Demolish	_("Demolish")
+DemolishStructure	_("Demolish")
+Dragon-Hover-SeraphGauss	"*SK-Dragon-Hover-SeraphGauss*"
+Dragon-Track-GaussEMP	"*Dragon-Track-GaussEMP*"
+Dragon-Track-GaussGauss	"*Dragon-Track-GaussGauss*"
+Dragon-Track-HellstormGroundshaker	"*Dragon-Track-HellstormGroundshaker*"
+Dragon-Track-HellstormHellstorm	"*Dragon-Track-HellstormHellstorm*"
+Dragon-Track-HvyLaserStormBringer	"*Dragon-Track-HvyLaserStormBringer*"
+Dragon-Track-IncSeraphIncSeraph	"*Dragon-Track-IncSeraphIncSeraph*"
+Dragon-Track-IncSeraphScourge	"*Dragon-Track-IncSeraphScourge*"
+Dragon-Track-ScourgeScourge	"*Dragon-Track-ScourgeScourge*"
+Dragon-Track-SpyTurretSpyTurret	"*Dragon-Track-SpyTurretSpyTurret*"
+ECM1PylonMk1	_("Jammer Tower")
+ECM1PylonMk2	"Supercrete Jammer Tower"
+ECM1PylonMk3	"Plascrete Jammer Tower"
+ECM1PylonMk4	"Jammer Sky Tower"
+ECM1TurretMk1	_("Jammer Turret")
+EMP-Cannon	_("EMP Cannon")
+Empl3-Mortar1Mk1-Ram	"Stabilized Mortar Pit"
+Empl3-Mortar2Mk1-Inc	"Incendiary Bombard Pit"
+Empl3-Mortar2Mk1-Ram	"Stabilized Bombard Pit"
+Empl3-Mortar3ROTARYMk1-Inc	"Incendiary Pepperpot Pit"
+Empl3-Mortar3ROTARYMk1-Ram-Rot	"Stabilized Pepperpot Pit"
+Empl3-PlasmiteFlamer-Hvy	"Heavy Plasmite Bunker"
+Empl3-RailGun1Mk1-GatAA	"AA Railgun Rotary Emplacement"
+Empl3-Railgun-Flak	"AA Railgun Flak Emplacement"
+Empl4-Mortar1Mk1-Rail	"Mortar Rail Pit"
+Empl4-Mortar1Mk1-Rail-Inc	"Incendiary Mortar Rail Pit"
+Empl4-Mortar1Mk1-Rail-Ram	"Stabilized Mortar Rail Pit"
+Empl4-Mortar2Mk1-Rail	"Bombard Rail Pit"
+Empl4-Mortar2Mk1-RailPlas	"Incendiary Bombard Rail Pit"
+Empl4-Mortar2Mk1-Rail-Ram	"Stabilized Bombard Rail Pit"
+Empl4-Mortar3ROTARYMk1-Rail	"Railpot Pit"
+Empl4-Mortar3ROTARYMk1-Rail-Inc	"Incendiary Railpot Pit"
+Empl4-Mortar3ROTARYMk1-Rail-Ram	"Stabilized Railpot Pit"
+Emplacement-Cannon4AUTOMk1-Full-Aslt	"Full Assault Cannon Emplacement"
+Emplacement-Cannon4AUTOMk1-Hvy-Aslt	"Heavy HPV Assault Emplacement"
+Emplacement-Cannon5VulcanMk1-Gat	"Rotary Cannon Bunker"
+Emplacement-Cannon5VulcanMk1-Hvy	"Heavy Assault Cannon Emplacement"
+Emplacement-Cannon5VulcanMk1-Hvy-Aslt	"Heavy Assault Cannon"
+Emplacement-HeavyLaser	_("Heavy Laser Emplacement")
+Emplacement-Howitzer03-Rot-Inc	"Incendiary Hellstorm Emplacement"
+Emplacement-Howitzer03-Rot-Rail	"Railstorm Emplacement"
+Emplacement-Howitzer03-Rot-Rail-Inc	"Incendiary Railstorm Emplacement"
+Emplacement-Howitzer03-Rot-Rail-Ram	"Stabilized Railstorm Emplacement"
+Emplacement-Howitzer03-Rot-Ram	"Stabilized Hellstorm Emplacement"
+Emplacement-Howitzer105	_("Howitzer Emplacement")
+Emplacement-Howitzer105Mk1-Rail	"Howitzer Rail Emplacement"
+Emplacement-Howitzer105Mk1-Rail-Inc	"Incendiary Howitzer Rail Emplacement"
+Emplacement-Howitzer105Mk1-Rail-Ram	"Stabilized Rail Howitzer Emplacement"
+Emplacement-Howitzer105Mk1-Ram	"Stabilized Howitzer Emplacement"
+Emplacement-Howitzer150	_("Ground Shaker Emplacement")
+Emplacement-Howitzer150Mk1-Gat	"Ground Shaker Assault Emplacement"
+Emplacement-Howitzer150Mk1-Gat-Rail	"Ground Shaker Assault Rail Emplacement"
+Emplacement-Howitzer150Mk1-Inc	"Incendiary Ground Shaker Emplacement"
+Emplacement-Howitzer150Mk1-Rail	"Ground Shaker Rail Emplacement"
+Emplacement-Howitzer150Mk1-Rail-Hvy-Ram	"Heavy Ground Shaker Rail Emplacement"
+Emplacement-Howitzer150Mk1-Rail-Inc	"Incendiary Ground Shaker Rail Emplacement"
+Emplacement-Howitzer150Mk1-Rail-Ram	"Stabilized Rail Ground Shaker Emplacement"
+Emplacement-Howitzer150Mk1-Ram	"Stabilized Ground Shaker Emplacement"
+Emplacement-Howitzer150Mk1-Ram-Hvy	"Super Stabilized Ground Shaker Emplacement"
+Emplacement-Howitzer-Incenediary	_("Incendiary Howitzer Emplacement")
+Emplacement-HPVcannon	_("Hyper Velocity Cannon Emplacement")
+Emplacement-HvART-pit	_("Archangel Missile Emplacement")
+Emplacement-HvyATrocket	_("Tank Killer Emplacement")
+Emplacement-Laser4-PlasmaCannon-Hvy-Aslt	"Heavy Plasma Assault Cannon Emplacement"
+Emplacement-Laser4-PlasmaCannon-Hvy-Lsr-Aslt	"Heavy Plasma Launcher Emplacement"
+Emplacement-MdART-pit	_("Seraph Missile Battery")
+Emplacement-MortarEMP	_("EMP Mortar Pit")
+Emplacement-MortarPit01	_("Mortar Pit")
+Emplacement-MortarPit02	_("Bombard Pit")
+Emplacement-MortarPit-Incenediary	_("Incendiary Mortar Pit")
+Emplacement-MRL-pit	_("Mini-Rocket Battery")
+Emplacement-PlasmaCannon	_("Plasma Cannon Emplacement")
+Emplacement-PrisLas	_("Flashlight Emplacement")
+Emplacement-PulseLaser	_("Pulse Laser Emplacement")
+Emplacement-Rail2	_("Railgun Emplacement")
+Emplacement-Rail3	_("Gauss Cannon Emplacement")
+Emplacement-RailGun2Mk1-GatAT	"Rail Gun Rotary Emplacement"
+Emplacement-RailGun3Mk1-Aslt	"Gauss Cannon Assault Emplacement"
+Emplacement-RailGun3Mk1-Hvy	"Heavy Gauss Cannon Emplacement"
+Emplacement-Rocket06-IDF	_("Ripple Rocket Battery")
+Emplacement-Rocket-Arch-Hvy-Aslt-Gat	"Thermal Rocket Rotary Emplacement"
+Emplacement-RotHow	_("Hellstorm Emplacement")
+Emplacement-RotMor	_("Pepperpot Pit")
+FireBody	"*Fire Engine Body*"
+FireBody-AR	"Fire Engine Body AR"
+FireBody-BabaFlame	"FireBody-BabaFlame"
+FireBody-BabaPitRocket	"FireBody-BabaPitRocket"
+FireBody-BabaPitRocketAT	"FireBody-BabaPitRocketAT"
+FireBody-BusCannon	"FireBody-BusCannon"
+Flame1Mk1	_("Flamer")
+Flame2	_("Inferno")
+FortressSensor	"*Fortress Sensor*"
+GuardTower1	_("Machinegun Guard Tower")
+GuardTower10	"Quad Thermal Rocket Tower"
+GuardTower2	_("Twin Machinegun Guard Tower")
+GuardTower3	_("Heavy Machinegun Tower")
+GuardTower4	_("Flamer Guard Tower")
+GuardTower5	_("Lancer Tower")
+GuardTower6	_("Mini-Rocket Tower")
+GuardTower7	"Metal Guard Tower"
+GuardTower8	"Mini-Rocket Tower"
+GuardTower9	"Quad Rocket-Array Tower"
+GuardTower-ATMiss	_("Scourge Missile Tower")
+GuardTower-BeamLas	_("Pulse Laser Tower")
+GuardTower-Rail1	_("Needle Gun Tower")
+GuardTower-RotMg	_("Assault Gun Tower")
+GunsOfNav1	"*GunsOfNavaroneOne*"
+GunsOfNav2	"*GunsOfNavaroneTwo*"
+HalfTrack	_("Half-tracks")
+HalfTrack02	_("Half-tracks II")
+HalfTrack03	_("Half-tracks III")
+HCobraBBTracks	"Bunker Buster HCobra Tracks"
+HCobraComHalftrack	"Command Turret HCobra Half-tracks"
+HCobraFlameHalfTracks	"Flamer HCobra Half-Tracks"
+HCobraFlameHover	"Flamer HCobra Hover"
+HCobraFlameTracks	"Flamer HCobra Tracks"
+HCobra-Helicopter-HvyMG	"HCobra Helicopter HMG"
+HCobra-Helicopter-LightCannon	"HCobra Helicopter Light Cannon"
+HCobra-Helicopter-MRL	"HCobra Helicopter Mini Rocket Array"
+HCobra-Helicopter-Phosphor	"HCobra Helicopter Phosphor"
+HCobra-Helicopter-RocketPod	"HCobra Helicopter Mini-Rocket"
+HCobra-Helicopter-Thermite	"HCobra Helicopter Thermite"
+HCobraHMGHalfTrack	"Heavy Machinegun HCobra Half-tracks"
+HCobraHMGTracks	"Heavy Machinegun HCobra Tracks"
+HCobra-Hover-HC	"Heavy Cannon HCobra Hover"
+HCobraHoverTruck	"Truck HCobra Hover"
+HCobraHRepairHalfTrack	"Heavy Repair HCobra HalfTrack"
+HCobraHRepairHover	"Heavy Repair Turret HCobra Hover"
+HCobraHvyCnTrks	"Heavy Cannon HCobra Tracks"
+HCobraHvyMortarHalftrack	"Bombard HCobra Half-tracks"
+HCobraHvyMortarTrack	"Bombard HCobra Tracks"
+HCobraInfernoHover	"Inferno HCobra Hover"
+HCobraInfernoHTracks	"Inferno HCobra Half-Tracks"
+HCobraLtA-Thalftrack	"Lancer HCobra Half-tracks"
+HCobraLtCnLTrks	"Light Cannon Long HCobra Tracks"
+HCobraLtCnTrks	"Light Cannon HCobra Tracks"
+HCobraMedCnHTrks	"Medium Cannon HCobra Half Track"
+HCobraMedCnTrks	"Medium Cannon HCobra Tracks"
+HCobraMortarHalfTrack	"Mortar HCobra Half-tracks"
+HCobraMRLHalftrack	"Mini-Rocket Array HCobra Half-tracks"
+HCobraMRLTracks	"Mini-Rocket Array HCobra Tracks"
+HCobraPODHTracks	"Mini-Rocket HCobra Half-Tracks"
+HCobraPODTracks	"Mini-Rocket HCobra Tracks"
+HCobraSensorHalftrack	"Sensor Turret HCobra Half-tracks"
+HCobra-Trk-Com	"Command Turret HCobra Tracks"
+HCobraTrkLancer	"Lancer HCobra Tracks"
+HCobra-VTOL-Cluster	"HCobra VTOL Cluster"
+HCobra-VTOL-Phosphor	"HCobra VTOL Phosphor"
+HeavyChopper	"heavychopper"
+HeavyLaser	_("Heavy Laser")
+HeavyLaser-VTOL	_("VTOL Heavy Laser")
+HeavyRepair	_("Heavy Repair Turret")
+Heavywepslab	"Heavyweaponslab"
+hover01	_("Hover")
+hover02	_("Hover II")
+hover03	_("Hover III")
+hoverwreck	"*WreckedHoverProp*"
+Howitzer03-Rot	_("Hellstorm")
+Howitzer03-Rot-Pit	_("Hellstorm Emplacement")
+Howitzer04-Inc-pit	"*Howitzer04-Inc-pit*"
+Howitzer105Mk1	_("Howitzer")
+Howitzer105Mk1-Pit	_("Howitzer Emplacement")
+Howitzer150Mk1	_("Ground Shaker")
+Howitzer150Mk1-Pit	_("Ground Shaker Emplacement")
+Howitzer-Incenediary	_("Incendiary Howitzer")
+HPhytonHoverAssGun	"Assault Gun HPython Hover"
+HPythonComTracks	"Command Turret HPython Tracks"
+HPythonGaussTracks	"Gauss Cannon HPython Tracks"
+HPythonHoverHVC	"Hyper Velocity Cannon HPython Hover"
+HPythonHoverInferno	"Inferno HPython Hover"
+HPythonHPVHalfTrack	"HPV HPython Half Track"
+HPythonHvyCnTrks	"Heavy Cannon HPython Tracks"
+HPythonHvyMortarTrack	"Bombard HPython Tracks"
+HPythonIncMortarTrack	"Incendiary Mortar HPython Tracks"
+HPythonLtCnTrks	"Light Cannon HPython Tracks"
+HPythonMedCanTracks	"Medium Cannon HPython Tracks"
+HPythonPulseTracks	"Pulse Laser HPython Tracks"
+HPythonRotMortarTrack	"Pepperpot HPython Tracks"
+HPythonScourgeTracks	"Scourge HPython Tracks"
+HPythonTKHalfTracks	"Tank Killer HPython HalfTracks"
+HPythonTKTracks	"Tank Killer HPython Tracks"
+H-Scorp-Heat-Trk-HC	"Heavy Cannon Thermal Scorpion Tracks"
+H-Scorp-Heat-Trk-HPV	"HPV Thermal Scorpion Tracks"
+H-Scorp-Heat-Trk-Lancer	"Lancer Thermal Scorpion Tracks"
+H-Scorp-Heat-VTOL-BB	"Bunker Buster Thermal Scorpion VTOL"
+H-Scorp-Heat-VTOL-Lancer	"Lancer Thermal Scorpion VTOL"
+H-Scorp-Trk-HC	_("Heavy Cannon Scorpion Tracks")
+H-Scorp-Trk-HPV	"HPV Scorpion Tracks"
+H-Scorp-Trk-Lancer	_("Lancer Scorpion Tracks")
+H-Scorp-VTOL-BB	_("Bunker Buster Scorpion VTOL")
+H-Scorp-VTOL-Lancer	_("Lancer Scorpion VTOL")
+HViperBBWheels	"Bunker Buster Rockets HViper Wheels"
+HViperFlameHalfTracks	"Flamer HViper Half-Tracks"
+HViperFlameWheels	"Flamer HViper Wheels"
+HViper-Helicopter-HvyMG	"HViper Helicopter HMG"
+HViperHMGHalftrack	"Heavy Machinegun HViper Half-tracks"
+HViperHMGTracks	"Heavy Machinegun HViper Tracks"
+HViperLtA-Twheels	"Lancer HViper Wheels"
+HViperLtCannonHTracks	"Light Cannon HViper Half-tracks"
+HViperLtCannonLHTracks	"Light CannonL HViper Half-tracks"
+HViperLtCannonTracks	"Light Cannon HViper Tracks"
+HViperLtCannonWheels	"Light Cannon HViper Wheels"
+HViperLtMGHalfTracks	"Machinegun HViper Half-Tracks"
+HViperMedCnTrks	"Medium Cannon HViper Tracks"
+HViperMG01Wheels	"Machinegun HViper Wheels"
+HViperMG02Halftrack	"Twin Machinegun HViper Half-tracks"
+HViperMortarHT	"Mortar HViper Halftrack"
+HViperMortarWheels	"Mortar HViper Wheels"
+HViperMRLHalfTracks	"Mini-Rocket Array HViper Half Track"
+HViperMRLWheels	"Mini-Rocket Array HViper Wheels"
+HViperPODArchHalfTracks	"Mini-Rocket Arch HViper Half Track"
+HViperPODHalfTracks	"Mini-Rocket HViper Half Track"
+HViperPODWheels	"Mini-Rocket HViper Wheels"
+HViperRepairHalftrack	"Repair Turret HViper Half-track"
+HViperRepairWheels	"Repair Turret HViper Wheels"
+HViperSensorWheels	"Sensor Turret HViper Wheels"
+HViper-Trk-Com	"Command Turret HViper Tracks"
+HViperTrkLancer	"Lancer HViper Tracks"
+HvyHPythonBBTracks	"Bunker Buster HvyHPython Tracks"
+HvyHPythonPlasmaCTracks	"Plasma Cannon HvyHPython Tracks"
+HvyHPythonScourgeTracks	"Scourge HvyHPython Tracks"
+HvyHPythonTKTracks	"Tank Killer HvyHPython Tracks"
+HvyHPython-Trk-AG	"Assault Gun HvyHPython Tracks"
+HvyHPythonTrkHC	"Heavy Cannon HvyHPython Tracks"
+HvyHPython-Trk-Incendiary-Mortar	"Incendiary Mortar HvyHPython Tracks"
+HvyHPython-Trk-TwinAssaultCannon	"Twin Assault Cannon HvyHPython Tracks"
+HvyLeopardBBTracks	"Bunker Buster HvyLeopard Tracks"
+HvyLeopardPlasmaCTracks	"Plasma Cannon HvyLeopard Tracks"
+HvyLeopardScourgeTracks	"Scourge HvyLeopard Tracks"
+HvyLeopardTKTracks	"Tank Killer HvyLeopard Tracks"
+HvyLeopard-Trk-AG	"Assault Gun HvyLeopard Tracks"
+HvyLeopardTrkHC	"Heavy Cannon HvyLeopard Tracks"
+HvyLeopard-Trk-Incendiary-Mortar	"Incendiary Mortar HvyLeopard Tracks"
+HvyLeopard-Trk-TwinAssaultCannon	"Twin Assault Cannon HvyLeopard Tracks"
+HvyMantisBBTracks	"Bunker Buster HvyMantis Tracks"
+HvyMantisHeatBBTracks	"Bunker Buster HvyMantisHeat Tracks"
+HvyMantisHeatPlasmaCTracks	"Plasma Cannon HvyMantisHeat Tracks"
+HvyMantisHeatScourgeTracks	"Scourge HvyMantisHeat Tracks"
+HvyMantisHeatTKTracks	"Tank Killer HvyMantisHeat Tracks"
+HvyMantisHeat-Trk-AG	"Assault Gun HvyMantisHeat Tracks"
+HvyMantisHeatTrkHC	"Heavy Cannon HvyMantisHeat Tracks"
+HvyMantisHeat-Trk-Incendiary-Mortar	"Incendiary Mortar HvyMantisHeat Tracks"
+HvyMantisHeat-Trk-TwinAssaultCannon	"Twin Assault Cannon HvyMantisHeat Tracks"
+HvyMantisPlasmaCTracks	"Plasma Cannon HvyMantis Tracks"
+HvyMantisScourgeTracks	"Scourge HvyMantis Tracks"
+HvyMantisTKTracks	"Tank Killer HvyMantis Tracks"
+HvyMantis-Trk-AG	"Assault Gun HvyMantis Tracks"
+HvyMantisTrkHC	"Heavy Cannon HvyMantis Tracks"
+HvyMantis-Trk-Incendiary-Mortar	"Incendiary Mortar HvyMantis Tracks"
+HvyMantis-Trk-TwinAssaultCannon	"Twin Assault Cannon HvyMantis Tracks"
+HvyPythonGaussTracks	"Gauss Cannon HvyPython Tracks"
+HvyPythonHvyCnTrks	"Heavy Cannon HvyPython Tracks"
+HvyPythonHvyMortarTrack	"Bombard HvyPython Tracks"
+HvyPythonIncMortarTrack	"Incendiary Mortar HvyPython Tracks"
+HvyPythonMedCanTracks	"Medium Cannon HvyPython Tracks"
+HvyPythonPulseTracks	"Pulse Laser HvyPython Tracks"
+HvyPythonRotMortarTrack	"Pepperpot HvyPython Tracks"
+HvyPythonScourgeTracks	"Scourge HvyPython Tracks"
+HvyPythonTKTracks	"Tank Killer HvyPython Tracks"
+Indirectlab	 "Indirectweaponslab"
+Laser2PULSEMk1	_("Pulse Laser")
+Laser2PULSE-VTOL	_("VTOL Pulse Laser")
+Laser3BEAMMk1	_("Flashlight")
+Laser3BEAM-VTOL	_("VTOL Flashlight")
+Laser4-PlasmaCannon	_("Plasma Cannon")
+Laseropticslab	"Laseropticslab"
+LasSat	_("Laser Satellite Command Post")
+LasSatCommandSensor	"*LasSatCommandSensor*"
+LeopardHoverAssaultCannon	"Assault Cannon Leopard Hover"
+LeopardHoverPulseLas	_("Pulse Laser Leopard Hover")
+LeopardSupHoverAssaultCannon	"*LeopardSupHoverAssaultCannon*"
+LeopardSupHoverPulseLas	"*LeopardSupHoverPulseLas*"
+LightRepair1	_("Repair Turret")
+LogCabin1	"*LogCabin1*"
+LogCabin2	"*LogCabin2*"
+LogCabin3	"*LogCabin3*"
+LogCabin4	"*LogCabin4*"
+LogCabin5	"*LogCabin5*"
+LookOutTower	_("Look-Out Tower")
+MantisBBTracks	_("Bunker Buster Mantis Tracks")
+MantisHeatBBTracks	"Bunker Buster Thermal Mantis Tracks"
+MantisHeatHoverAC	"Assault Cannon Thermal Mantis Hover"
+MantisHeatHoverInferno	"Inferno Thermal Mantis Hover"
+MantisHeatHoverTruck	"Truck Thermal Mantis Hover"
+MantisHeatPlasmaCTracks	"Plasma Cannon Thermal Mantis Tracks"
+MantisHeatScourgeTracks	"Scourge Thermal Mantis Tracks"
+MantisHeatTKTracks	"Tank Killer Thermal Mantis Tracks"
+Mantis-Heat-Trk-AG	"Assault Gun Thermal Mantis Tracks"
+Mantis-Heat-Trk-Com	"Command Turret Thermal Mantis Tracks"
+MantisHeatTrkHC	"Heavy Cannon Thermal Mantis Tracks"
+Mantis-Heat-Trk-Incendiary-Mortar	"Incendiary Mortar Thermal Mantis Tracks"
+Mantis-Heat-Trk-TwinAssaultCannon	"Twin Assault Cannon Thermal Mantis Tracks"
+MantisHoverAC	_("Assault Cannon Mantis Hover")
+MantisHoverInferno	"Inferno Mantis Hover"
+MantisHoverTruck	_("Truck Mantis Hover")
+MantisPlasmaCTracks	"Plasma Cannon Mantis Tracks"
+MantisScourgeTracks	_("Scourge Mantis Tracks")
+MantisTKTracks	_("Tank Killer Mantis Tracks")
+Mantis-Trk-AG	"Assault Gun Mantis Tracks"
+Mantis-Trk-Com	_("Command Turret Mantis Tracks")
+MantisTrkHC	_("Heavy Cannon Mantis Tracks")
+Mantis-Trk-Incendiary-Mortar	"Incendiary Mortar Mantis Tracks"
+Mantis-Trk-TwinAssaultCannon	"Twin Assault Cannon Mantis Tracks"
+MassDriver	_("Mass Driver")
+Mech1	"Mech1"
+Mech2	"Mech2"
+Mech3	"Mech3"
+Mech4	"Mech4"
+Mech5	"Mech5"
+Mech6	"Mech6"
+Mech7	"Mech7"
+Mech8	"Mech8"
+MG1Mk1	_("Machinegun")
+MG1-Pillbox	_("Machinegun Bunker")
+MG1-VTOL	_("VTOL Machinegun")
+MG2Mk1	_("Twin Machinegun")
+MG2-Pillbox	_("Twin Machinegun Bunker")
+MG2-VTOL	_("VTOL Twin Machinegun")
+MG3Mk1	_("Heavy Machinegun")
+MG3-Pillbox	_("Heavy Machinegun Bunker")
+MG3-VTOL	_("VTOL Heavy Machinegun")
+MG4ROTARYMk1	_("Assault Gun")
+MG4ROTARY-Pillbox	"*MG4ROTARY-Pillbox*"
+MG4ROTARY-VTOL	_("VTOL Assault Gun")
+MG5TWINROTARY	_("Twin Assault Gun")
+miruin2	"*miruin*2*"
+Missile-A-T	_("Scourge Missile")
+Missile-HvyArt	_("Archangel Missile")
+Missile-HvyArt-pit	"*Missile-HvyArt-pit*"
+Missile-HvySAM	_("Vindicator SAM")
+Missile-LtSAM	_("Avenger SAM")
+Missile-MdArt	_("Seraph Missile Array")
+Missile-MdArt-pit	"*Seraph Missile-pit*"
+MissileSuper	_("Missile Fortress")
+Missile-VTOL-AT	_("VTOL Scourge Missile")
+Mortar1Mk1	_("Mortar")
+Mortar1Mk1-Pit	_("Mortar Emplacement")
+Mortar2Mk1	_("Bombard")
+Mortar2Mk1-Pit	_("Bombard Emplacement")
+Mortar3ROTARYMk1	_("Pepperpot")
+Mortar3ROTARYMk1-Pit	_("Pepperpot Emplacement")
+MortarEMP	_("EMP Mortar")
+Mortar-Incenediary	_("Incendiary Mortar")
+MP-Cyb-ATmiss-GRD	_("Scourge")
+MP-Cyb-Laser1-GRD	_("Flashlight Gunner")
+MP-Cyb-Needle-GRD	_("Needle Gunner")
+Nanolab	 "Nanolab"
+Naval	_("Naval")
+NavaroneGun	"*NavaroneGun*"
+NavGunSensor	"*Nexus Sensor*"
+NEXUSCWall	_("Nexus Corner Wall")
+NEXUSlink	"*NEXUSlink*"
+NEXUSrepair	"*NEXUSrepair*"
+NEXUSWall	_("Nexus Wall")
+NP-H-HvyCannon-Hover	"*NP-H-HvyCannon-Hover*"
+NP-H-HvyCannon-Tracks	"*NP-H-HvyCannon-Tracks*"
+NP-H-MdCannon-Tracks	"*NP-H-MdCannon-Tracks*"
+NP-L-HMG-Halftrack	"*NP-L-HMG-Half-track*"
+NP-L-LtAT-Halftrack	"*NP-L-LtAT-Half-track*"
+NP-L-LtCannon-Halftrack	"*NP-L-LtCannon-Halftrack*"
+NP-L-MRLS-Halftrack	"*NP-L-MRLS-Half-track*"
+NP-L-RocketPod-Wheels	"*NP-L-RocketPod-Wheels*"
+NP-L-Sensor-Wheels	"*NP-L-Sensor-Wheels*"
+NP-M-BB-Halftrack	"*NP-M-BB-Half-track*"
+NP-M-CBS-Halftrack	"*NP-M-CBS-Halftrack*"
+NP-M-Command-Halftrack	"*NP-M-Command-Half-track*"
+NP-M-Command-Track	"*NP-M-Command-Track*"
+NP-M-CON-HalfTrack	"*NP-M-CON-Half-track*"
+NP-M-CON-Track	"*NP-M-CON-Track*"
+NP-M-HvyMortar-Halftrack	"*NP-M-HvyMortar-Half-track*"
+NP-M-LitCannon-Halftrack	"*NP-M-LtCannon-Half-track*"
+NP-M-LtAT-Hover	"*NP-M-LtAT-Hover*"
+NP-M-LtMortar-Halftrack	"*NP-M-LtMortar-Half-track*"
+NP-M-MdCannon-Halftrack	"*NP-M-MdCannon-Half-track*"
+NP-M-MdCannon-Tracks	"*NP-M-MdCannon-Tracks*"
+NP-M-MG3-Hover	"*NP-M-MG3-Hover*"
+NP-M-Repair-HalfTrack	"*NP-M-Repair-Half-track*"
+NP-M-Sensor-Wheels	"*NP-M-Sensor-Wheels*"
+NuclearReactor	"*NuclearReactor*"
+nukepowstat	 "*NuclearPowerStation*"
+NX-AASite-SAM1	"*NX-AASite-SAM1*"
+NX-AASite-SAM2	"*NX-AASite-SAM2*"
+NX-ANTI-SATSite	_("Missile Silo")
+NX-CruiseSite	_("Missile Silo")
+NX-Cyb-HvMiss-JUMP	"*NX-Cyb-HvMiss-JUMP*"
+NX-CybLasGrnd	"*NX-CybLasGrnd*"
+NX-Cyb-Miss-JUMP	"*NX-Cyb-Miss-JUMP*"
+NX-CyborgChaingun	"*NX-CyborgChaingun*"
+NX-CyborgMiss	"*NX-CyborgMiss*"
+NX-CyborgPulseLas	"*NX-CyborgPulseLas*"
+NX-Cyb-PulseLas-JUMP	"*NX-Cyb-PulseLas-JUMP*"
+NX-Cyb-Rail1	"*NX-Cyb-Rail1*"
+NX-Cyb-Rail1-JUMP	"*NX-Cyb-JUMP*"
+NX-Emp-MedArtMiss-Pit	"*NX-Emp-MedArtMiss-Pit*"
+NX-Emp-MultiArtMiss-Pit	"*NX-Emp-MultiArtMiss-Pit*"
+NX-Emp-Plasma-Pit	"*NX-Emp-Plasma-Pit*"
+NX-H-BeamLas-Hover	"*NX-H-BeamLas-Hover*"
+NX-H-CBS-Hover	"*NX-H-CBS-Hover*"
+NX-H-HvMiss-Hover	"*NX-H-HvMiss-Hover*"
+NX-H-Rail2-VTOL	"*NX-H-Rail2-VTOL*"
+NX-H-Rail3-Hover	"*NX-H-Rail3-Hover*"
+NX-L-Flash-Hover	"*NX-L-Flash-Hover*"
+NX-L-Link-Hov	"*NX-L-Link-Hov*"
+NX-L-Missile-A-T-VTOL	"*NX-L-ASMiss-VTOL*"
+NX-L-Missile-MdArt-Hover	"*NX-L-MdMiss-Hover*"
+NX-L-PulseLas-VTOL	"*NX-L-PulseLas-VTOL*"
+NX-L-Rail1-VTOL	"*NX-L-Rail1-VTOL*"
+NX-L-Repair-Hover	"*NX-L-Repair-Hover*"
+NX-L-Sens-Hov	"*NX-L-Sens-Hov*"
+NX-M-Bomb2-VTOL	"*NX-M-Bomb2-VTOL*"
+NX-M-Bomb4-VTOL	"*NX-M-Bomb4-VTOL*"
+NX-M-Com-Hover	"*NX-M-Com-Track*"
+NX-M-Con-Hover	"*NX-M-Con-Hover*"
+NX-M-HvSam-Hover	"*NX-M-HvSam-Hover*"
+NX-M-Link-Hover	"*NX-M-Link-Hover*"
+NX-M-Missile-A-T-Hover	"*NX-M-ATMiss-Hov*"
+NX-M-PulseLas-Hover	"*NX-M-Laser2-Hover*"
+NX-M-Rail2-Hover	"*NX-M-Rail2-Hover*"
+NX-M-Strike-Hover	"*NX-M-Strike-Hover*"
+NX-M-VTOLCBS-Hover	"*NX-M-VTOLCBS-Hover*"
+NX-Tower-ATMiss	"*NX-Tower-ATMiss*"
+NX-Tower-PulseLas	"*NX-Tower-PulseLas*"
+NX-Tower-Rail1	"*NX-Tower-Rail1*"
+NX-WallTower-BeamLas	"*NX-WallTower-BeamLas*"
+NX-WallTower-Rail2	"*NX-WallTower-Rail2*"
+NX-WallTower-Rail3	"*NX-WallTower-Rail3*"
+OilDrum	_("Oil Drum")
+OilResource	_("Oil Resource")
+OilTower	"*Oil Tower*"
+OldFactory	"*OldFactory*"
+P0-AASite-Laser	_("Stormbringer Emplacement")
+P0-AASite-SAM1	_("Avenger SAM Site")
+P0-AASite-SAM2	_("Vindicator SAM Site")
+P0-AASite-Sunburst	_("Sunburst AA Site")
+P0-AATower-Sunburst-Arch	"Thermal Sunburst AA Tower"
+P0cam3CobCONTrk	_("Truck")
+P0cam3HHPyHvyMGHTrk	"Heavy MG HPython Half-Tracks"
+P0cam3HHPyTHvyMGHTrk	"Twin Heavy MG Heavy HHPython Tracks"
+P0cam3HPyAsltGnTrk	"Assault Gun HPython Tracks"
+P0cam3HPyFlakHT	"AA Flak Cannon HPython Half-tracks"
+P0cam3HPyHPVcanTrk	"Hyper Velocity Cannon HPython Tracks"
+P0cam3HPyHvyMGHTrk	"Twin Heavy MG HPython Half-Tracks"
+P0cam3HPyHvyMGTrk	"Heavy MG HPython Tracks"
+P0cam3HPyTHvyMGHTrk	"Twin Heavy MG Heavy HPython Tracks"
+P0cam3HvyPyAsltGnTrk	"Assault Gun HvyPython Tracks"
+P0cam3HvyPyHPVcanTrk	"Hyper Velocity Cannon HvyPython Tracks"
+P0cam3PyAsltGnTrk	_("Assault Gun Python Tracks")
+P0cam3PyFlakHT	_("AA Flak Cannon Python Half-tracks")
+P0cam3PyHPVcanTrk	_("Hyper Velocity Cannon Python Tracks")
+P0cam3PyHvyATTrk	_("Tank Killer Python Tracks")
+P0cam3PyHvyMGHTrk	"Heavy MG Python Half-Tracks"
+P0cam3PyHvyMGTrk	"Heavy MG Python Tracks"
+P0CobraFlameTracks	_("Flamer Cobra Tracks")
+P0CobraHvyMGHtrack	_("Heavy Machinegun Cobra Half-tracks")
+P0CobraLtATRktHtrack	_("Lancer Cobra Half-tracks")
+P0CobraMedCnTrks	_("Medium Cannon Cobra Tracks")
+P0CobraRepairTrks	_("Repair Cobra Tracks")
+P0CobraSpadeTracks	_("Cobra Truck")
+P0HCobraRepairTrks	"Repair HCobra Tracks"
+P0HPythonComHTracks	"Command Turret HPython Half Tracks"
+P0PythonComHTracks	"Command Turret Python Half Tracks"
+P0PythonComTracks	_("Command Turret Python Tracks")
+P0PythonHvyCnTrks	_("Heavy Cannon Python Tracks")
+P6-L-Bomb1-V	"*Skirmish BOMBVTOL*"
+P6-L-LTAT-V	"*Skirmish ATVTOL*"
+P6-M-QMG1-HT	"*P6-M-QMG1-HT*"
+Panther-Helicopter-Phosphor	"Panther Helicopter Phosphor"
+Panther-Helicopter-Thermite	"Panther Helicopter Thermite"
+PantherHoverPulseLas	_("Pulse Laser Panther Hover")
+Panther-Sup-Helicopter-Phosphor	"Superior Panther Helicopter Phosphor"
+Panther-Sup-Helicopter-Thermite	"Superior Panther Helicopter Thermite"
+PantherSupHoverPulseLas	"Pulse Laser Superior Panther Hover"
+PBomb	_("Proximity Bomb Turret")
+PHhytonHTrackAssGun	"Assault Gun HPython Half Track"
+PhytonHoverAssGun	_("Assault Gun Python Hover")
+PhytonHTrackAssGun	_("Assault Gun Python Half Track")
+Pickup	"*Pickup*"
+PillBox1	_("Machinegun Bunker")
+PillBox2	_("Twin Machinegun Bunker")
+PillBox3	_("Heavy Machinegun Bunker")
+PillBox4	_("Light Cannon Bunker")
+PillBox5	_("Flamer Bunker")
+PillBox6	_("Lancer Bunker")
+PillBox-Cannon6	_("Twin Assault Cannon Bunker")
+PillBox-Rail6	"Incendiary Twin Rail Bunker"
+Pillbox-RotMG	_("Rotary MG Bunker")
+Pipe	"*Pipe*"
+Pipe1	"*Pipe1*"
+Pipe1A	"*PipeFull*"
+Pipe2A	"*PipeEnd*"
+Pipe3A	"*PipeCollapsed*"
+PlasmaHeavy	"*Heavy Plasma Launcher*"
+PlasmiteFlamer	_("Plasmite Flamer")
+Plasmite-flamer-bunker	_("Plasmite Flamer Bunker")
+Plasteel-Atmiss	"Plasteel Scourge Missile"
+Plasteel-Cannon6TwinAslt-Rail	"Plasteel Twin Assault Rail"
+Plasteel-EMP	"Plasteel EMP Cannon"
+Plasteel-HeavyLaser-Gat	"Plasteel Heavy Laser Rotary"
+Plasteel-HeavyLaser-Inc-Aslt	"Plasteel Heavy Laser Incendiary Assault"
+Plasteel-Laser2PULSEMk1-Inc	"Plasteel Incendiary Pulse Laser"
+Plasteel-PulseLas	"Plasteel Pulse Laser"
+Plasteel-Rail2	"Plasteel Rail Gun"
+Plasteel-Rail3	"Plasteel Gauss Cannon"
+Plasteel-RailGun1Mk1-Gat-Twn	"Plasteel Needle Gun Twin Rotary"
+Plasteel-RailGun2Mk1-Twn-Inc	"Plasteel Twin Rail Gun Incendiary"
+Plasteel-Railgun-Flak	"Plasteel Railgun Flak"
+Plasteel-TwinAssaultGun	"Plasteel Twin Assault Gun"
+Powlab	"Powerlab"
+program1	"*TEST - program #1*"
+Pylon	"*Pylon*"
+PythonComTracks	_("Command Turret Python Tracks")
+PythonGaussTracks	_("Gauss Cannon Python Tracks")
+PythonHoverHVC	_("Hyper Velocity Cannon Python Hover")
+PythonHoverInferno	_("Inferno Python Hover")
+PythonHPVHalfTrack	"HPV Python Half Track"
+PythonHvyCnTrks	_("Heavy Cannon Python Tracks")
+PythonHvyMortarTrack	"Bombard Python Tracks"
+PythonIncMortarTrack	"Incendiary Mortar Python Tracks"
+PythonLtCnTrks	_("Light Cannon Python Tracks")
+PythonMedCanTracks	_("Medium Cannon Python Tracks")
+PythonMedCnTrks	_("Medium Cannon Python Tracks")
+PythonPulseTracks	_("Pulse Laser Python Tracks")
+PythonRotMortarTrack	"Pepperpot Python Tracks"
+PythonScourgeTracks	_("Scourge Python Tracks")
+PythonTKHalfTracks	"Tank Killer Python HalfTracks"
+PythonTKTracks	_("Tank Killer Python Tracks")
+QuadMg1AAGun	_("Hurricane AA Turret")
+QuadRotAAGun	_("Whirlwind AA Turret")
+RadarDetector	_("Radar Detector")
+RadarProgram	"*TEST - Radar Program*"
+RailGun1Mk1	_("Needle Gun")
+RailGun1-VTOL	_("VTOL Needle Gun")
+RailGun2Mk1	_("Rail Gun")
+RailGun2-VTOL	_("VTOL Rail Gun")
+RailGun3Mk1	_("Gauss Cannon")
+R-Comp-CommandTurret01	_("Command Turret")
+R-Comp-CommandTurret02	_("Command Turret II")
+R-Comp-CommandTurret03	_("Command Turret III")
+R-Comp-CommandTurret04	_("Command Turret IV")
+R-Comp-MissileCodes01	_("Missile Targeting Codes") 
+R-Comp-MissileCodes02	_("Second Level Missile Targeting Codes")
+R-Comp-MissileCodes03	_("Third Level Missile Firing Codes")
+R-Comp-SynapticLink	_("Synaptic Link")
+R-Cyborg-Armor-Heat01	_("Cyborg Thermal Armor")
+R-Cyborg-Armor-Heat02	_("Cyborg Thermal Armor Mk2")
+R-Cyborg-Armor-Heat03	_("Cyborg Thermal Armor Mk3")
+R-Cyborg-Armor-Heat04	_("Cyborg High Intensity Thermal Armor")
+R-Cyborg-Armor-Heat05	_("Cyborg High Intensity Thermal Armor Mk2")
+R-Cyborg-Armor-Heat06	_("Cyborg High Intensity Thermal Armor Mk3")
+R-Cyborg-Armor-Heat07	_("Cyborg Superdense Thermal Armor")
+R-Cyborg-Armor-Heat08	_("Cyborg Superdense Thermal Armor Mk2")
+R-Cyborg-Armor-Heat09	_("Cyborg Superdense Thermal Armor Mk3")
+R-Cyborg-Hvywpn-Acannon	_("Super Auto-Cannon Cyborg")
+R-Cyborg-Hvywpn-A-T	_("Super Scourge Cyborg")
+R-Cyborg-Hvywpn-HPV	_("Super HPV Cyborg")
+R-Cyborg-Hvywpn-Mcannon	_("Super Heavy-Gunner")
+R-Cyborg-Hvywpn-PulseLsr	_("Super Pulse Laser Cyborg")
+R-Cyborg-Hvywpn-RailGunner	_("Super Rail-Gunner")
+R-Cyborg-Hvywpn-TK	_("Super Tank-Killer Cyborg")
+R-Cyborg-Jump01	_("Cyborg Jump Pack")
+R-Cyborg-Legs01	_("Cyborg Propulsion")
+R-Cyborg-Legs02	_("Cyborg Propulsion II")
+R-Cyborg-Legs03	_("Cyborg Propulsion III")
+R-Cyborg-Metals01	_("Cyborg Composite Alloys")
+R-Cyborg-Metals02	_("Cyborg Composite Alloys Mk2")
+R-Cyborg-Metals03	_("Cyborg Composite Alloys Mk3")
+R-Cyborg-Metals04	_("Cyborg Dense Composite Alloys")
+R-Cyborg-Metals05	_("Cyborg Dense Composite Alloys Mk2")
+R-Cyborg-Metals06	_("Cyborg Dense Composite Alloys Mk3")
+R-Cyborg-Metals07	_("Cyborg Superdense Composite Alloys")
+R-Cyborg-Metals08	_("Cyborg Superdense Composite Alloys Mk2")
+R-Cyborg-Metals09	_("Cyborg Superdense Composite Alloys Mk3")
+R-Cyborg-Sys-ComEng	"*NOT USED Combat Engineer*"
+R-Cyborg-Sys-Mechanic	"*NOT USED Cyborg Mechanic*"
+R-Cyborg-Transport	_("Cyborg Transport")
+R-Cyborg-Wpn-ATMiss-Grd	"*NOT USED Scourge Cyborg*"
+R-Cyborg-Wpn-ATMiss-Jump	_("Jump Scourge")
+R-Cyborg-Wpn-BB	_("Bunker Blaster Cyborg")
+R-Cyborg-Wpn-BB-Jump	_("Jump Bunker Blaster")
+R-Cyborg-Wpn-Cannon	_("Heavy Gunner Cyborg")
+R-Cyborg-Wpn-Cannon-Jump	_("Jump Heavy Gunner")
+R-Cyborg-Wpn-Flamer	_("Flamer Cyborg")
+R-Cyborg-Wpn-Grenade	"*NOT USED Grenadier Cyborg*"
+R-Cyborg-Wpn-Laser1-Grd	"*NOT USED Flashlight Gunner Cyborg*"
+R-Cyborg-Wpn-Laser1-Jump	_("Jump Flashlight Gunner")
+R-Cyborg-Wpn-MG	_("Machinegunner Cyborg")
+R-Cyborg-Wpn-Rail1-Grd	"*NOT USED Needle Gunner Cyborg*"
+R-Cyborg-Wpn-Rail1-Jump	_("Jump Needle Gunner")
+R-Cyborg-Wpn-Rocket	"*NOT USED Lancer Cyborg*"
+R-Cyborg-Wpn-Rocket-Jump	_("Jump Lancer")
+R-Cyborg-Wpn-RotMG-Grd	"*NOT USED Assault Gunner Cyborg*"
+R-Cyborg-Wpn-RotMG-Jump	_("Jump Assault Gunner")
+R-Cyborg-Wpn-Thermite	"*NOT USED Thermite Flamer Cyborg*"
+R-Defense-AA-Laser	_("Stormbringer Emplacement")
+R-Defense-AASite-QuadBof	_("AA Flak Cannon Emplacement")
+R-Defense-AASite-QuadMg1	_("Hurricane AA Site")
+R-Defense-AASite-QuadRotMg	_("Whirlwind AA Site")
+R-Defense-AASite-TwinBof	_("Tornado AA Flak Site")
+R-Defense-Cannon6	_("Twin Assault Cannon Bunker")
+R-Defense-EMPCannon	_("EMP Cannon Tower")
+R-Defense-Emplacement-HPVcannon	_("Hyper Velocity Cannon Emplacement")
+R-Defense-EMPMortar	_("EMP Mortar Pit")
+R-Defense-GuardTower-ATMiss	_("Scourge Missile Tower")
+R-Defense-GuardTower-Rail1	_("Needle Gun Tower")
+R-Defense-HardcreteGate	_("Hardcrete Gate")
+R-Defense-HardcreteWall	_("Hardcrete")
+R-Defense-HardcreteWall-NP	_("NP-Hardcrete")
+R-Defense-HeavyLas	_("Heavy Laser Emplacement")
+R-Defense-Howitzer	_("Howitzer Emplacement")
+R-Defense-Howitzer-Incenediary	_("Incendiary Howitzer Emplacement")
+R-Defense-HvyArtMissile	_("Archangel Missile Battery")
+R-Defense-HvyA-Trocket	_("Tank Killer Emplacement")
+R-Defense-HvyFlamer	_("Inferno Bunker")
+R-Defense-HvyHowitzer	_("Ground Shaker Emplacement")
+R-Defense-HvyMor	_("Bombard Pit")
+R-Defense-IDFRocket	_("Ripple Rocket Battery")
+R-Defense-MassDriver	_("Mass Driver Fortress")
+R-Defense-MdArtMissile	_("Seraph Missile Battery")
+R-Defense-MortarPit	_("Mortar Pit")
+R-Defense-MortarPit-Incenediary	_("Incendiary Mortar Pit")
+R-Defense-MRL	_("Mini-Rocket Battery")
+R-Defense-Pillbox01	_("Machinegun Bunker")
+R-Defense-Pillbox03	_("Heavy Machinegun Bunker")
+R-Defense-Pillbox04	_("Light Cannon Bunker")
+R-Defense-Pillbox05	_("Flamer Bunker")
+R-Defense-Pillbox06	_("Lancer Tower")
+R-Defense-Pillbox-RotMG	"*NOT USED Rotary MG Bunker*"
+R-Defense-PlasmaCannon	_("Plasma Cannon Emplacement")
+R-Defense-PlasmiteFlamer	_("Plasmite Flamer Bunker")
+R-Defense-PrisLas	_("Flashlight Emplacement")
+R-Defense-PulseLas	_("Pulse Laser Tower")
+R-Defense-Rail2	_("Rail Gun Emplacement")
+R-Defense-Rail3	_("Gauss Cannon Emplacement")
+R-Defense-RotCannon	"*NOT USED Assault Cannon Emplacement*"
+R-Defense-RotHow	_("Hellstorm Emplacement")
+R-Defense-RotMG	_("Rotary MG Bunker")
+R-Defense-RotMor	_("Pepperpot Pit")
+R-Defense-SamSite1	_("Avenger SAM Site")
+R-Defense-SamSite2	_("Vindicator SAM Site")
+R-Defense-Sunburst	_("Sunburst AA Site")
+R-Defense-Super-Cannon 	_("Cannon Fortress")
+R-Defense-Super-Missile 	_("Missile Fortress")
+R-Defense-Super-Rocket 	_("Heavy Rocket Bastion")
+R-Defense-TankTrap01	_("Tank Traps")
+R-Defense-TankTrap02	_("Dragon's Teeth")
+R-Defense-Tower01	_("Machinegun Guard Tower")
+R-Defense-Tower03	_("Heavy Machinegun Tower")
+R-Defense-Tower04	_("Flamer Tower")
+R-Defense-Tower05	_("Lancer Tower")
+R-Defense-Tower06	_("Mini-Rocket Tower")
+R-Defense-Wall-RotMg	_("Assault Gun Hardpoint")
+R-Defense-WallTower01	_("Heavy Machinegun Hardpoint")
+R-Defense-WallTower02	_("Light Cannon Hardpoint")
+R-Defense-WallTower03	_("Medium Cannon Hardpoint")
+R-Defense-WallTower04	_("Heavy Cannon Hardpoint")
+R-Defense-WallTower05	_("Flamer Hardpoint")
+R-Defense-WallTower06	_("Lancer Hardpoint")
+R-Defense-WallTower-A-Tmiss	_("Scourge Missile Hardpoint")
+R-Defense-WallTower-DoubleAAgun	_("AA Flak Cannon Hardpoint")
+R-Defense-WallTower-HPVcannon	_("Hyper Velocity Cannon Hardpoint")
+R-Defense-WallTower-HvyA-Trocket	_("Tank Killer Hardpoint")
+R-Defense-WallTower-HvyFlamer	"*NOT USED Inferno Hardpoint*"
+R-Defense-WallTower-PulseLas	_("Pulse Laser Hardpoint")
+R-Defense-WallTower-QuadRotAA	_("Whirlwind Hardpoint")
+R-Defense-WallTower-Rail2	_("Rail Gun Hardpoint")
+R-Defense-WallTower-Rail3	_("Gauss Cannon Hardpoint")
+R-Defense-WallTower-SamHvy	_("Vindicator Hardpoint")
+R-Defense-WallTower-SamSite	_("Avenger Hardpoint")
+R-Defense-WallTower-TwinAGun	_("Twin Assault Gun Hardpoint")
+R-Defense-WallUpgrade01	_("Improved Hardcrete")
+R-Defense-WallUpgrade02	_("Improved Hardcrete Mk2")
+R-Defense-WallUpgrade03	_("Improved Hardcrete Mk3")
+R-Defense-WallUpgrade04	_("Supercrete")
+R-Defense-WallUpgrade05	_("Supercrete Mk2")
+R-Defense-WallUpgrade06	_("Supercrete Mk3")
+R-Defense-WallUpgrade07	_("Plascrete")
+R-Defense-WallUpgrade08	_("Plascrete Mk2")
+R-Defense-WallUpgrade09	_("Plascrete Mk3")
+R-Defense-WallUpgrade10	_("Plasteel")
+R-Defense-WallUpgrade11	_("Plasteel Mk2")
+R-Defense-WallUpgrade12	_("Plasteel Mk3")
+R-Defense-Wall-VulcanCan	_("Assault Cannon Hardpoint")
+R-DefenssLas	_("Flashlight Emplacement")
+RepairCentre	"*Repair Center*"
+Retaliation-Helicopter-HvyLaser	"Retaliation Helicopter HvyLaser"
+Retaliation-Helicopter-Phosphor	"Retaliation Helicopter Phosphor"
+Retaliation-Helicopter-Pulse	"Retaliation Helicopter Pulse"
+Retaliation-Helicopter-Railgun	"Retaliation Helicopter Railgun"
+Retaliation-Helicopter-Scourge	"Retaliation Helicopter Scourge"
+Retaliation-Helicopter-Thermite	"Retaliation Helicopter Thermite"
+RetreHoverFlashLight	_("Flashlight Retribution Hover")
+Retribution-Helicopter-HvyLaser	"Retribution Helicopter HvyLaser"
+Retribution-Helicopter-Phosphor	"Retribution Helicopter Phosphor"
+Retribution-Helicopter-Pulse	"Retribution Helicopter Pulse"
+Retribution-Helicopter-Railgun	"Retribution Helicopter Railgun"
+Retribution-Helicopter-Scourge	"Retribution Helicopter Scourge"
+Retribution-Helicopter-Thermite	"Retribution Helicopter Thermite"
+R-Lab-AdvWarfare	_("Advanced Warfare")
+R-Lab-Chemical	_("Chemical Laboratory")
+R-Lab-Cyborg	_("Cyborg Laboratory")
+R-Lab-Electronics	_("Electronics Laboratory")
+R-Lab-Engineering	_("Engineering Laboratory")
+R-Lab-Robotics	_("Robotics Laboratory")
+Rocket-BB	_("Bunker Buster")
+Rocket-HvyA-T	_("Tank Killer")
+Rocket-IDF	_("Ripple Rockets")
+Rocket-IDF-Emp	"*Rocket-IDF-Emp*"
+Rocket-LtA-T	_("Lancer")
+Rocket-MRL	_("Mini-Rocket Array")
+Rocket-MRL-pit	"*Rocket-MRL-pit*"
+Rocket-Pod	_("Mini-Rocket Pod")
+Rocket-Sunburst	_("Sunburst AA")
+RocketSuper	_("Heavy Rocket Bastion")
+Rocket-VTOL-BB	_("VTOL Bunker Buster")
+Rocket-VTOL-HvyA-T	_("VTOL Tank Killer")
+Rocket-VTOL-LtA-T	_("VTOL Lancer")
+Rocket-VTOL-Pod	_("VTOL Mini-Rocket")
+Rocket-VTOL-Sunburst	_("VTOL Sunburst AA")
+RockPodArchHCobraHTracks	"Rock-Pod-Arch HCobra Half-Tracks"
+RockPodArchQuadHCobraHTracks	"Rock-Pod-Arch-Quad HCobra Half-Tracks"
+RockPodArchTwinHCobraHTracks	"Rock-Pod-Arch-Twin HCobra Half-Tracks"
+RockPodMRAQuadHCobraHTracks	"Rock-Pod-MRA-Quad HCobra Half-Tracks"
+RockPodMRATwinHCobraHTracks	"Rock-Pod-MRA-Twin HCobra Half-Tracks"
+RockPodQuadHCobraHTracks	"Rock-Pod-Quad HCobra Half-Tracks"
+RockPodTwnHCobraHTracks	"Rock-Pod-Twn HCobra Half-Tracks"
+Rotarywepslab	 "Rotaryweaponslab"
+R-Struc-CommandRelay	_("Command Relay Post")
+R-Struc-Factory-Cyborg	_("Cyborg Factory")
+R-Struc-Factory-Cyborg-Upgrade01	"*NOT USED Automated Cyborg Production*"
+R-Struc-Factory-Cyborg-Upgrade02	"*NOT USED Automated Cyborg Production Mk2*"
+R-Struc-Factory-Cyborg-Upgrade03	"*NOT USED Automated Cyborg Production Mk3*"
+R-Struc-Factory-Cyborg-Upgrade04	"*NOT USED Robotic Cyborg Production*"
+R-Struc-Factory-Cyborg-Upgrade05	"*NOT USED Robotic Cyborg Production Mk2*"
+R-Struc-Factory-Cyborg-Upgrade06	"*NOT USED Robotic Cyborg Production Mk3*"
+R-Struc-Factory-Cyborg-Upgrade07	"*NOT USED Advanced Cyborg Production*"
+R-Struc-Factory-Cyborg-Upgrade08	"*NOT USED Advanced Cyborg Production Mk2*"
+R-Struc-Factory-Cyborg-Upgrade09	"*NOT USED Advanced Cyborg Production Mk3*"
+R-Struc-Factory-Module	_("Factory Module")
+R-Struc-Factory-Upgrade01	_("Automated Manufacturing")
+R-Struc-Factory-Upgrade02	"*NOT USED Automated Manufacturing Mk2*"
+R-Struc-Factory-Upgrade03	"*NOT USED Automated Manufacturing Mk3*"
+R-Struc-Factory-Upgrade04	_("Robotic Manufacturing")
+R-Struc-Factory-Upgrade05	"*NOT USED Robotic Manufacturing Mk2*"
+R-Struc-Factory-Upgrade06	"*NOT USED Robotic Manufacturing Mk3*"
+R-Struc-Factory-Upgrade07	_("Advanced Manufacturing")
+R-Struc-Factory-Upgrade08	"*NOT USED Advanced Manufacturing Mk2*"
+R-Struc-Factory-Upgrade09	_("Self-Replicating Manufacturing")
+R-Struc-Factory-Upgrade10	_("Advanced Manufacturing Mk3")
+R-Struc-Materials01	_("Reinforced Base Structure Materials")
+R-Struc-Materials02	_("Reinforced Base Structure Materials Mk2")
+R-Struc-Materials03	_("Reinforced Base Structure Materials Mk3")
+R-Struc-Materials04	_("Hardened Base Structure Materials")
+R-Struc-Materials05	_("Hardened Base Structure Materials Mk2")
+R-Struc-Materials06	_("Hardened Base Structure Materials Mk3")
+R-Struc-Materials07	_("Advanced Base Structure Materials")
+R-Struc-Materials08	_("Advanced Base Structure Materials Mk2")
+R-Struc-Materials09	_("Advanced Base Structure Materials Mk3")
+R-Struc-PowerModuleMk1	_("Power Module")
+R-Struc-Power-Upgrade01	_("Gas Turbine Generator")
+R-Struc-Power-Upgrade01b	_("Gas Turbine Generator Mk2")
+R-Struc-Power-Upgrade01c	_("Gas Turbine Generator Mk3")
+R-Struc-Power-Upgrade02	_("Vapor Turbine Generator")
+R-Struc-Power-Upgrade03	_("Vapor Turbine Generator Mk2")
+R-Struc-Power-Upgrade03a	_("Vapor Turbine Generator Mk3")
+R-Struc-RepairFacility	_("Repair Facility")
+R-Struc-Research-Module	_("Research Module")
+R-Struc-Research-Upgrade01	_("Synaptic Link Data Analysis")
+R-Struc-Research-Upgrade02	_("Synaptic Link Data Analysis Mk2")
+R-Struc-Research-Upgrade03	_("Synaptic Link Data Analysis Mk3")
+R-Struc-Research-Upgrade04	_("Dedicated Synaptic Link Data Analysis")
+R-Struc-Research-Upgrade05	_("Dedicated Synaptic Link Data Analysis Mk2")
+R-Struc-Research-Upgrade06	_("Dedicated Synaptic Link Data Analysis Mk3")
+R-Struc-Research-Upgrade07	_("Neural Synapse Research Brain")
+R-Struc-Research-Upgrade08	_("Neural Synapse Research Brain Mk2")
+R-Struc-Research-Upgrade09	_("Neural Synapse Research Brain Mk3")
+R-Struc-RprFac-Upgrade01	_("Automated Repair Facility")
+R-Struc-RprFac-Upgrade02	"*NOT USED Automated Repair Facility Mk2*"
+R-Struc-RprFac-Upgrade03	"*NOT USED Automated Repair Facility Mk3*"
+R-Struc-RprFac-Upgrade04	_("Robotic Repair Facility")
+R-Struc-RprFac-Upgrade05	"*NOT USED Robotic Repair Facility Mk2*"
+R-Struc-RprFac-Upgrade06	_("Advanced Repair Facility")
+R-Struc-RprFac-Upgrade07	_("Robotic Repair Facility Mk3")
+R-Struc-RprFac-Upgrade08	_("Advanced Repair Facility Mk2")
+R-Struc-RprFac-Upgrade09	_("Advanced Repair Facility Mk3")
+R-Struc-VTOLFactory	_("VTOL Factory")
+R-Struc-VTOLFactory-Upgrade01	"*NOT USED Robotic VTOL Production*"
+R-Struc-VTOLFactory-Upgrade02	"*NOT USED Robotic VTOL Production Mk2*"
+R-Struc-VTOLFactory-Upgrade03	"*NOT USED Robotic VTOL Production Mk3*"
+R-Struc-VTOLFactory-Upgrade04	"*NOT USED Advanced VTOL Production*"
+R-Struc-VTOLFactory-Upgrade05	"*NOT USED Advanced VTOL Production Mk2*"
+R-Struc-VTOLFactory-Upgrade06	"*NOT USED Advanced VTOL Production Mk3*"
+R-Struc-VTOLPad	_("VTOL Rearming Pad")
+R-Struc-VTOLPad-Upgrade01	_("Automated VTOL Rearming")
+R-Struc-VTOLPad-Upgrade02	_("Automated VTOL Rearming Mk2")
+R-Struc-VTOLPad-Upgrade03	_("Automated VTOL Rearming Mk3")
+R-Struc-VTOLPad-Upgrade04	_("Robotic VTOL Rearming")
+R-Struc-VTOLPad-Upgrade05	_("Robotic VTOL Rearming Mk2")
+R-Struc-VTOLPad-Upgrade06	_("Robotic VTOL Rearming Mk3")
+R-Struc-VTOLPad-Upgrade07	_("Robotic VTOL Rearming Mk4")
+R-SuperTransport	_("Super Transport")
+R-Sys-Autorepair-Cyborg	_("Cyborg Self-Repair")
+R-Sys-Autorepair-Cyborg-Upgrade01	_("Automated Cyborg Repair Mk2")
+R-Sys-Autorepair-Cyborg-Upgrade02	_("Automated Cyborg Repair Mk3")
+R-Sys-Autorepair-Def	_("Defenses Self-Repair")
+R-Sys-Autorepair-Def-Upgrade01	_("Automated Defenses Repair Mk2")
+R-Sys-Autorepair-Def-Upgrade02	_("Automated Defenses Repair Mk3")
+R-Sys-Autorepair-General	_("Auto-Repair")
+R-Sys-Autorepair-Struc	_("Base Structure Self-Repair")
+R-Sys-Autorepair-Struc-Upgrade01	_("Automated Base Structure Repair Mk2")
+R-Sys-Autorepair-Struc-Upgrade02	_("Automated Base Structure Repair Mk3")
+R-Sys-Autorepair-Vehicle	_("Vehicle Self-Repair")
+R-Sys-Autorepair-Vehicle-Upgrade01	_("Automated Vehicle Repair Mk2")
+R-Sys-Autorepair-Vehicle-Upgrade02	_("Automated Vehicle Repair Mk3")
+R-Sys-CBSensor-Tower01	_("CB Tower")
+R-Sys-CBSensor-Turret01	_("CB Turret")
+R-Sys-CBSensor-Upgrade01	_("CB Sensor Upgrade")
+R-Sys-CBSensor-Upgrade02	_("CB Sensor Upgrade 2")
+R-Sys-CBSensor-Upgrade03	_("CB Sensor Upgrade 3")
+R-Sys-ECM-Upgrade01	_("Electronic Countermeasures")
+R-Sys-Engineering01	_("Engineering")
+R-Sys-Engineering02	_("Improved Engineering")
+R-Sys-Engineering03	_("Advanced Engineering")
+R-Sys-MobileRepairTurret01	_("Mobile Repair Turret")
+R-Sys-MobileRepairTurret-01	_("Mobile Repair Upgrade")
+R-Sys-MobileRepairTurret02	_("Heavy Repair Turret")
+R-Sys-MobileRepairTurret-02	_("Mobile Repair Upgrade Mk2")
+R-Sys-MobileRepairTurretHvy	_("Heavy Repair Turret")
+R-Sys-NEXUSrepair	"*R-Sys-NEXUSrepair*"
+R-Sys-RadarDetector01	_("Radar Detector")
+R-Sys-Resistance	_("Nexus Intruder Program")
+R-Sys-Resistance-Circuits	_("Nexus Resistance Circuits")
+R-Sys-Resistance-Upgrade01	_("Nexus Resistance Circuits")
+R-Sys-Resistance-Upgrade02	_("Nexus Resistance Circuits Mk2")
+R-Sys-Resistance-Upgrade03	_("Nexus Resistance Circuits Mk3")
+R-Sys-SensorLock	_("Sensor Lock")
+R-Sys-Sensor-SatLink	_("Satellite Uplink Center")
+R-Sys-Sensor-Tower01	_("Sensor Tower")
+R-Sys-Sensor-Tower02	_("Hardened Sensor Tower")
+R-Sys-Sensor-Turret01	_("Sensor Turret")
+R-Sys-Sensor-Upgrade01	_("Sensor Upgrade")
+R-Sys-Sensor-Upgrade02	_("Sensor Upgrade Mk2")
+R-Sys-Sensor-Upgrade03	_("Sensor Upgrade Mk3")
+R-Sys-Sensor-UpLink	_("Satellite Uplink Center")
+R-Sys-Sensor-WS	_("Wide Spectrum Sensor")
+R-Sys-Sensor-WSTower	_("Wide Spectrum Sensor Tower")
+R-Sys-Spade1Mk1	_("Construction Unit")
+R-Sys-SpyTower	_("Nexus Link Tower")
+R-Sys-SpyTurret	_("Nexus Link Turret")
+R-Sys-SpyTurret-Upgrade01	_("Improved Scrambler")
+R-Sys-SpyTurret-Upgrade02	_("Scrambler Turret Mk2")
+R-Sys-VTOLCBS-Tower01	_("VTOL CB Tower")
+R-Sys-VTOLCBS-Turret01	_("VTOL CB Turret")
+R-Sys-VTOLCBS-Upgrade01	_("VTOL CB Upgrade")
+R-Sys-VTOLCBS-Upgrade02	_("VTOL CB Upgrade 2")
+R-Sys-VTOLCBS-Upgrade03	_("VTOL CB Upgrade 3")
+R-Sys-VTOLStrike-Tower01	_("VTOL Strike Tower")
+R-Sys-VTOLStrike-Turret01	_("VTOL Strike Turret")
+R-Sys-VTOLStrike-Upgrade01	_("VTOL Strike Upgrade")
+R-Sys-VTOLStrike-Upgrade02	_("VTOL Strike Upgrade Mk2")
+R-Sys-VTOLStrike-Upgrade03	_("VTOL Strike Upgrade Mk3")
+Ruin1	"*Ruin1*"
+Ruin10	"*Ruin10*"
+Ruin3	"*Ruin3*"
+Ruin4	"*Ruin4*"
+Ruin5	"*Ruin5*"
+Ruin6	 "*Ruin6*"
+Ruin7	 "*Ruin7*"
+Ruin8	 "*Ruin8*"
+Ruin9	 "*Ruin9*"
+R-Vehicle-Armor-Heat01	_("Thermal Armor")
+R-Vehicle-Armor-Heat02	_("Thermal Armor Mk2")
+R-Vehicle-Armor-Heat03	_("Thermal Armor Mk3")
+R-Vehicle-Armor-Heat04	_("High Intensity Thermal Armor")
+R-Vehicle-Armor-Heat05	_("High Intensity Thermal Armor Mk2")
+R-Vehicle-Armor-Heat06	_("High Intensity Thermal Armor Mk3")
+R-Vehicle-Armor-Heat07	_("Vehicle Superdense Thermal Armor")
+R-Vehicle-Armor-Heat08	_("Vehicle Superdense Thermal Armor Mk2")
+R-Vehicle-Armor-Heat09	_("Vehicle Superdense Thermal Armor Mk3")
+R-Vehicle-Body01	_("Light Body - Viper")
+R-Vehicle-Body02	_("Light Body - Leopard")
+R-Vehicle-Body03	_("Light Body - Retaliation")
+R-Vehicle-Body04	_("Light Body - Bug")
+R-Vehicle-Body05	_("Medium Body - Cobra")
+R-Vehicle-Body06	_("Medium Body - Panther")
+R-Vehicle-Body07	_("Medium Body - Retribution")
+R-Vehicle-Body08	_("Medium Body - Scorpion")
+R-Vehicle-Body09	_("Heavy Body - Tiger")
+R-Vehicle-Body10	_("Heavy Body - Vengeance")
+R-Vehicle-Body11	_("Heavy Body - Python")
+R-Vehicle-Body12	_("Heavy Body - Mantis")
+R-Vehicle-Body13	_("Heavy Body - Wyvern")
+R-Vehicle-Body14	_("Multi Turret Body - Dragon")
+R-Vehicle-Engine01	_("Fuel Injection Engine")
+R-Vehicle-Engine02	_("Fuel Injection Engine Mk2")
+R-Vehicle-Engine03	_("Fuel Injection Engine Mk3")
+R-Vehicle-Engine04	_("Turbo-Charged Engine")
+R-Vehicle-Engine05	_("Turbo-Charged Engine Mk2")
+R-Vehicle-Engine06	_("Turbo-Charged Engine Mk3")
+R-Vehicle-Engine07	_("Gas Turbine Engine")
+R-Vehicle-Engine08	_("Gas Turbine Engine Mk2")
+R-Vehicle-Engine09	_("Gas Turbine Engine Mk3")
+R-Vehicle-Metals01	_("Composite Alloys")
+R-Vehicle-Metals02	_("Composite Alloys Mk2")
+R-Vehicle-Metals03	_("Composite Alloys Mk3")
+R-Vehicle-Metals04	_("Dense Composite Alloys")
+R-Vehicle-Metals05	_("Dense Composite Alloys Mk2")
+R-Vehicle-Metals06	_("Dense Composite Alloys Mk3")
+R-Vehicle-Metals07	_("Superdense Composite Alloys")
+R-Vehicle-Metals08	_("Superdense Composite Alloys Mk2")
+R-Vehicle-Metals09	_("Superdense Composite Alloys Mk3")
+R-Vehicle-Prop-Halftracks	_("Half-tracked Propulsion")
+R-Vehicle-Prop-Halftracks02	_("Half-tracked Propulsion II")
+R-Vehicle-Prop-Hover	_("Hover Propulsion")
+R-Vehicle-Prop-Hover02	_("Hover Propulsion II")
+R-Vehicle-Prop-Tracks	_("Tracked Propulsion")
+R-Vehicle-Prop-Tracks02	_("Tracked Propulsion II")
+R-Vehicle-Prop-VTOL	_("VTOL Propulsion")
+R-Vehicle-Prop-VTOL02	_("VTOL Propulsion II")
+R-Vehicle-Prop-Wheels	_("Wheeled Propulsion")
+R-Vehicle-Prop-Wheels02	_("Wheeled Propulsion II")
+R-Wpn-AAGun01	_("Tornado Flak Turret")
+R-Wpn-AAGun02	_("AA Flak Cannon")
+R-Wpn-AAGun03	_("Hurricane AA Turret")
+R-Wpn-AAGun04	_("Whirlwind AA Turret")
+R-Wpn-AAGun-Accuracy01	_("AA Thermal Imaging Sensor")
+R-Wpn-AAGun-Accuracy02	_("AA Target Acquisition Shells")
+R-Wpn-AAGun-Accuracy03	_("AA Target Prediction Computer")
+R-Wpn-AAGun-Damage01	_("AA HE Flak")
+R-Wpn-AAGun-Damage02	_("AA HE Flak Mk2")
+R-Wpn-AAGun-Damage03	_("AA HE Flak Mk3")
+R-Wpn-AAGun-Damage04	_("AA HEAP Flak")
+R-Wpn-AAGun-Damage05	_("AA HEAP Flak Mk2")
+R-Wpn-AAGun-Damage06	_("AA HEAP Flak Mk3")
+R-Wpn-AAGun-ROF01	_("AA Ammunition Hopper")
+R-Wpn-AAGun-ROF02	_("AA Ammunition Hopper Mk2")
+R-Wpn-AAGun-ROF03	_("AA Ammunition Hopper Mk3")
+R-Wpn-AAGun-ROF04	_("AA Chainfeed Loader")
+R-Wpn-AAGun-ROF05	_("AA Chainfeed Loader Mk2")
+R-Wpn-AAGun-ROF06	_("AA Chainfeed Loader Mk3")
+R-Wpn-AALaser	_("Stormbringer AA Laser")
+R-Wpn-Bomb01	_("Cluster Bomb Bay")
+R-Wpn-Bomb02	_("HEAP Bomb Bay")
+R-Wpn-Bomb03	_("Phosphor Bomb Bay")
+R-Wpn-Bomb04	_("Thermite Bomb Bay")
+R-Wpn-Bomb05	_("Plasmite Bomb")
+R-Wpn-Bomb06	_("EMP Missile Launcher")
+R-Wpn-Bomb-Accuracy01	_("HE Bomb Shells")
+R-Wpn-Bomb-Accuracy02	_("Improved Bomb Warhead")
+R-Wpn-Bomb-Accuracy03	_("Advanced Bomb Warhead")
+R-Wpn-Cannon1Mk1	_("Light Cannon")
+R-Wpn-Cannon2Mk1	_("Medium Cannon")
+R-Wpn-Cannon3Mk1	_("Heavy Cannon")
+R-Wpn-Cannon4AMk1	_("Hyper Velocity Cannon")
+R-Wpn-Cannon5	_("Assault Cannon")
+R-Wpn-Cannon6TwinAslt	_("Twin Assault Cannon")
+R-Wpn-Cannon-Accuracy01	_("Cannon Laser Rangefinder")
+R-Wpn-Cannon-Accuracy02	_("Cannon Laser Designator")
+R-Wpn-Cannon-Damage01	_("HEAT Cannon Shells")
+R-Wpn-Cannon-Damage02	_("HEAT Cannon Shells Mk2")
+R-Wpn-Cannon-Damage03	_("HEAT Cannon Shells Mk3")
+R-Wpn-Cannon-Damage04	_("APFSDS Cannon Rounds")
+R-Wpn-Cannon-Damage05	_("APFSDS Cannon Rounds Mk2")
+R-Wpn-Cannon-Damage06	_("APFSDS Cannon Rounds Mk3")
+R-Wpn-Cannon-Damage07	_("HVAPFSDS Cannon Rounds")
+R-Wpn-Cannon-Damage08	_("HVAPFSDS Cannon Rounds Mk2")
+R-Wpn-Cannon-Damage09	_("HVAPFSDS Cannon Rounds Mk3")
+R-Wpn-Cannon-ROF01	_("Cannon Autoloader")
+R-Wpn-Cannon-ROF02	_("Cannon Autoloader Mk2")
+R-Wpn-Cannon-ROF03	_("Cannon Autoloader Mk3")
+R-Wpn-Cannon-ROF04	_("Cannon Rapid Loader")
+R-Wpn-Cannon-ROF05	_("Cannon Rapid Loader Mk2")
+R-Wpn-Cannon-ROF06	_("Cannon Rapid Loader Mk3")
+R-Wpn-EMPCannon	_("EMP Cannon")
+R-Wpn-Energy-Accuracy01	_("Improved Laser Focusing")
+R-Wpn-Energy-Accuracy02	_("Improved Laser Focusing Mk2")
+R-Wpn-Energy-Accuracy03	_("Improved Laser Focusing Mk3")
+R-Wpn-Energy-Damage01	_("Hi-Energy Laser Emitter")
+R-Wpn-Energy-Damage02	_("Hi-Energy Laser Emitter Mk2")
+R-Wpn-Energy-Damage03	_("Hi-Energy Laser Emitter Mk3")
+R-Wpn-Energy-ROF01	_("Thermopole Energizer")
+R-Wpn-Energy-ROF02	_("Thermopole Energizer Mk2")
+R-Wpn-Energy-ROF03	_("Thermopole Energizer Mk3")
+R-Wpn-Flame2	_("Heavy Flamer - Inferno")
+R-Wpn-Flamer01Mk1	_("Flamer")
+R-Wpn-Flamer-Damage01	_("High Temperature Flamer Gel")
+R-Wpn-Flamer-Damage02	_("High Temperature Flamer Gel Mk2")
+R-Wpn-Flamer-Damage03	_("High Temperature Flamer Gel Mk3")
+R-Wpn-Flamer-Damage04	_("Superhot Flamer Gel")
+R-Wpn-Flamer-Damage05	_("Superhot Flamer Gel Mk2")
+R-Wpn-Flamer-Damage06	_("Superhot Flamer Gel Mk3")
+R-Wpn-Flamer-Damage07	_("Superhot Plasmite gel")
+R-Wpn-Flamer-Damage08	_("Superhot Plasmite gel Mk2")
+R-Wpn-Flamer-Damage09	_("Superhot Plasmite gel Mk3")
+R-Wpn-Flamer-ROF01	_("Flamer Autoloader")
+R-Wpn-Flamer-ROF02	_("Flamer Autoloader Mk2")
+R-Wpn-Flamer-ROF03	_("Flamer Autoloader Mk3")
+R-Wpn-Howitzer03-Rot	_("Rotary Howitzer - Hellstorm")
+R-Wpn-Howitzer-Accuracy01	_("Target Acquisition Artillery Shells")
+R-Wpn-Howitzer-Accuracy02	_("Target Acquisition Artillery Shells Mk2")
+R-Wpn-Howitzer-Accuracy03	_("Target Prediction Artillery Shells")
+R-Wpn-Howitzer-Damage01	_("HE Howitzer Shells")
+R-Wpn-Howitzer-Damage02	_("HE Howitzer Shells Mk2")
+R-Wpn-Howitzer-Damage03	_("HE Howitzer Shells Mk3")
+R-Wpn-Howitzer-Damage04	_("HEAP Howitzer Shells")
+R-Wpn-Howitzer-Damage05	_("HEAP Howitzer Shells Mk2")
+R-Wpn-Howitzer-Damage06	_("HEAP Howitzer Shells Mk3")
+R-Wpn-Howitzer-Incenediary	_("Incendiary Howitzer")
+R-Wpn-HowitzerMk1	_("Howitzer")
+R-Wpn-Howitzer-ROF01	_("Howitzer Autoloader")
+R-Wpn-Howitzer-ROF02	_("Howitzer Autoloader Mk2")
+R-Wpn-Howitzer-ROF03	_("Howitzer Autoloader Mk3")
+R-Wpn-Howitzer-ROF04	_("Howitzer Fast Loader")
+R-Wpn-HvArtMissile 	_("Archangel Missile")
+R-Wpn-HvyHowitzer	_("Heavy Howitzer - Ground Shaker")
+R-Wpn-HvyLaser	_("Heavy Laser")
+R-Wpn-Laser01	_("Laser - Flashlight")
+R-Wpn-Laser02	_("Pulse Laser")
+R-Wpn-LasSat	_("Laser Satellite Command Post")
+R-Wpn-MdArtMissile 	_("Seraph Missile Array")
+R-Wpn-MG1Mk1	_("Machinegun")
+R-Wpn-MG2Mk1	_("Twin Machinegun")
+R-Wpn-MG3Mk1	_("Heavy Machinegun")
+R-Wpn-MG4	_("Assault Gun")
+R-Wpn-MG5	_("Twin Assault Gun")
+R-Wpn-MG-Damage01	_("Hardened MG Bullets")
+R-Wpn-MG-Damage02	_("APDSB MG Bullets")
+R-Wpn-MG-Damage03	_("APDSB MG Bullets Mk2")
+R-Wpn-MG-Damage04	_("APDSB MG Bullets Mk3")
+R-Wpn-MG-Damage05	_("Tungsten-Tipped MG Bullets")
+R-Wpn-MG-Damage06	_("Tungsten-Tipped MG Bullets Mk2")
+R-Wpn-MG-Damage07	_("Tungsten-Tipped MG Bullets Mk3")
+R-Wpn-MG-Damage08	_("Depleted Uranium MG Bullets")
+R-Wpn-MG-Damage09	_("Depleted Uranium MG Bullets Mk2")
+R-Wpn-MG-ROF01	_("Chaingun Upgrade")
+R-Wpn-MG-ROF02	_("Rapid Fire Chaingun")
+R-Wpn-MG-ROF03	_("Hyper Fire Chaingun Upgrade")
+R-Wpn-Missile2A-T	_("Scourge Missile")
+R-Wpn-Missile-Accuracy01	_("Target Prediction Missiles")
+R-Wpn-Missile-Accuracy02	_("Search & Destroy Missiles")
+R-Wpn-Missile-Damage01	_("Advanced Missile Warhead")
+R-Wpn-Missile-Damage02	_("Advanced Missile Warhead Mk2")
+R-Wpn-Missile-Damage03	_("Advanced Missile Warhead Mk3")
+R-Wpn-Missile-HvSAM 	_("Vindicator SAM")
+R-Wpn-Missile-LtSAM	_("Avenger SAM")
+R-Wpn-Missile-ROF01	_("Advanced Missile Allocation System")
+R-Wpn-Missile-ROF02	_("Advanced Missile Allocation System Mk2")
+R-Wpn-Missile-ROF03	_("Advanced Missile Allocation System Mk3")
+R-Wpn-MissileSlow-Damage01	_("HEAP Missile Warhead")
+R-Wpn-MissileSlow-Damage02	_("HEAP Missile Warhead Mk2")
+R-Wpn-MissileSlow-Damage03	_("HEAP Missile Warhead Mk3")
+R-Wpn-MissileSlow-ROF01	_("Improved Missile Loading System")
+R-Wpn-Mortar01Lt	_("Mortar")
+R-Wpn-Mortar02Hvy	_("Heavy Mortar - Bombard")
+R-Wpn-Mortar3	_("Rotary Mortar - Pepperpot")
+R-Wpn-Mortar-Acc01	_("Mortar Targeting Computer")
+R-Wpn-Mortar-Acc02	_("Thermal Imaging Mortar Shells")
+R-Wpn-Mortar-Acc03	_("Target Acquisition Mortar Shells")
+R-Wpn-Mortar-Damage01	_("HE Mortar Shells")
+R-Wpn-Mortar-Damage02	_("HE Mortar Shells Mk2")
+R-Wpn-Mortar-Damage03	_("HE Mortar Shells Mk3")
+R-Wpn-Mortar-Damage04	_("HEAP Mortar Shells")
+R-Wpn-Mortar-Damage05	_("HEAP Mortar Shells Mk2")
+R-Wpn-Mortar-Damage06	_("HEAP Mortar Shells Mk3")
+R-Wpn-MortarEMP	_("EMP Mortar")
+R-Wpn-Mortar-Incenediary	_("Incendiary Mortar")
+R-Wpn-Mortar-ROF01	_("Mortar Autoloader")
+R-Wpn-Mortar-ROF02	_("Mortar Autoloader Mk2")
+R-Wpn-Mortar-ROF03	_("Mortar Autoloader Mk3")
+R-Wpn-Mortar-ROF04	_("Mortar Fast Loader")
+R-Wpn-PlasmaCannon	_("Plasma Cannon")
+R-Wpn-Plasmite-Flamer	_("Plasmite Flamer")
+R-Wpn-Rail-Accuracy01	_("Rail Target Prediction Computer")
+R-Wpn-Rail-Damage01	_("Hardened Rail Dart")
+R-Wpn-Rail-Damage02	_("Hardened Rail Dart Mk2")
+R-Wpn-Rail-Damage03	_("Hardened Rail Dart Mk3")
+R-Wpn-RailGun01	_("Needle Gun")
+R-Wpn-RailGun02	_("Rail Gun")
+R-Wpn-RailGun03	_("Gauss Cannon")
+R-Wpn-Rail-ROF01	_("Rail Gun ROF")
+R-Wpn-Rail-ROF02	_("Rail Gun ROF Mk2")
+R-Wpn-Rail-ROF03	_("Rail Gun ROF Mk3")
+R-Wpn-Rocket01-LtAT	_("Lancer AT Rocket")
+R-Wpn-Rocket02-MRL	_("Mini-Rocket Array")
+R-Wpn-Rocket03-HvAT	_("Bunker Buster Rocket")
+R-Wpn-Rocket05-MiniPod	_("Mini-Rocket Pod")
+R-Wpn-Rocket06-IDF	_("Ripple Rockets")
+R-Wpn-Rocket07-Tank-Killer	_("Tank Killer Rocket")
+R-Wpn-Rocket-Accuracy01	_("Stabilized Rockets")
+R-Wpn-Rocket-Accuracy02	_("Improved Rocket Wire Guidance")
+R-Wpn-Rocket-Damage01	_("HE Rockets")
+R-Wpn-Rocket-Damage02	_("HE Rockets Mk2")
+R-Wpn-Rocket-Damage03	_("HE Rockets Mk3")
+R-Wpn-Rocket-Damage04	_("HEAT Rocket Warhead")
+R-Wpn-Rocket-Damage05	_("HEAT Rocket Warhead Mk2")
+R-Wpn-Rocket-Damage06	_("HEAT Rocket Warhead Mk3")
+R-Wpn-Rocket-Damage07	_("HESH Rocket Warhead")
+R-Wpn-Rocket-Damage08	_("HESH Rocket Warhead Mk2")
+R-Wpn-Rocket-Damage09	_("HESH Rocket Warhead Mk3")
+R-Wpn-Rocket-ROF01	_("Rocket Autoloader")
+R-Wpn-Rocket-ROF02	_("Rocket Autoloader Mk2")
+R-Wpn-Rocket-ROF03	_("Rocket Autoloader Mk3")
+R-Wpn-Rocket-ROF04	_("Rapid Fire Mini-Rockets")
+R-Wpn-Rocket-ROF05	_("Rapid Fire Mini-Rockets Mk2")
+R-Wpn-Rocket-ROF06	_("Rapid Fire Mini-Rockets Mk3")
+R-Wpn-RocketSlow-Accuracy01	_("Rocket Laser Designator")
+R-Wpn-RocketSlow-Accuracy02	_("Thermal Imaging Rockets")
+R-Wpn-RocketSlow-Accuracy03	"*NOT USED*"
+R-Wpn-RocketSlow-Damage01	"*NOT USED*"
+R-Wpn-RocketSlow-Damage02	"*NOT USED*"
+R-Wpn-RocketSlow-Damage03	"*NOT USED*"
+R-Wpn-RocketSlow-Damage04	"*NOT USED*"
+R-Wpn-RocketSlow-Damage05	"*NOT USED*"
+R-Wpn-RocketSlow-Damage06	"*NOT USED*"
+R-Wpn-RocketSlow-ROF01	"*NOT USED*"
+R-Wpn-RocketSlow-ROF02	"*NOT USED*"
+R-Wpn-RocketSlow-ROF03	"*NOT USED*"
+R-Wpn-Sunburst	_("Sunburst AA Rocket Array")
+R-Wpn-TUTMG	_("Machinegun Artifact")
+ScavCamperBody	"scavengercamper"
+ScavCamperBody-BabaPitRocket	"ScavCamperBody-BabaPitRocket"
+ScavCamperBody-BusCannon	"ScavCamperBody-BusCannon"
+ScavengerChopper	"scavengechopper"
+ScavengerHelicopter	"ScavengerHelicopter"
+ScavengerHelicopter2	"2ScavengerHelicopter"
+ScavIcevanBody	"scavengericevan"
+ScavIcevanBody-BabaFlame	"ScavIcevanBody-BabaFlame"
+ScavIcevanBody-Mortar1Mk1	"ScavIcevanBody-Mortar1Mk1"
+ScavNEXUSbody	"scavengernexustank"
+ScavNEXUStrack	"scavengernexustrack"
+ScavNEXUStrack-ScavNEXUSlink	"ScavNEXUStrack-ScavNEXUSlink"
+ScavRepairCentre	"Scavenger Repair Center"
+ScavSensor	"ScavSensor"
+ScavTruckBody	"scavengertruck"
+ScavTruckBody-BabaFlame	"ScavTruckBody-BabaFlame"
+ScavTruckBody-BusCannon	"ScavTruckBody-BusCannon"
+ScorpBBTracks	_("Bunker Buster Scorpion Tracks")
+ScorpHeatBBTracks	"Bunker Buster Thermal Scorpion Tracks"
+Scorp-Heat-Helicopter-HvyMG	"Thermal Scorpion Helicopter HMG"
+Scorp-Heat-Helicopter-MRL	"Thermal Scorpion Helicopter Mini Rocket Array"
+ScorpHeatHoverTruck	"Truck Thermal Scorpion Hover"
+ScorpHeatHRepairHover	"Heavy Repair Thermal Scorpion Hover"
+ScorpHeatHTrackHMG	"Heavy Machinegun Thermal Scorpion Half Tracks"
+ScorpHeatRepairTrk	"Repair Thermal Scorpion Tracks"
+Scorp-Heat-Trk-Com	"Command Turret Thermal Scorpion Tracks"
+ScorpHeatTrkHMG	"Heavy Machinegun Thermal Scorpion Tracks"
+Scorp-Heat-Trk-Mortar-Incenediary	"Incendiary Mortar Thermal Scorpion Tracks"
+Scorp-Helicopter-HvyMG	"Scorpion Helicopter HMG"
+Scorp-Helicopter-MRL	"Scorpion Helicopter Mini Rocket Array"
+ScorpHoverTruck	_("Truck Scorpion Hover")
+ScorpHRepairHover	_("Heavy Repair Scorpion Hover")
+ScorpHTrackHMG	_("Heavy Machinegun Scorpion Half Tracks")
+ScorpionBBHalfTracks	"Bunker Buster Scorpion Half-tracks"
+ScorpionHeatBBHalfTracks	"Bunker Buster Thermal Scorpion Half-tracks"
+Scorpion-Heat-Helicopter-Phosphor	"Thermal Scorpion Helicopter Phosphor"
+Scorpion-Heat-Helicopter-Thermite	"Thermal Scorpion Helicopter Thermite"
+ScorpionHeatHvyMortarHalftrack	"Bombard Thermal Scorpion Half-tracks"
+Scorpion-Helicopter-Phosphor	"Scorpion Helicopter Phosphor"
+Scorpion-Helicopter-Thermite	"Scorpion Helicopter Thermite"
+ScorpionHvyMortarHalftrack	"Bombard Scorpion Half-tracks"
+ScorpRepairTrk	_("Repair Scorpion Tracks")
+Scorp-Trk-Com	_("Command Turret Scorpion Tracks")
+ScorpTrkHMG	_("Heavy Machinegun Scorpion Tracks")
+Scorp-Trk-Mortar-Incenediary	"Incendiary Mortar Scorpion Tracks"
+Scourge-Mantis-H	_("Scourge Mantis Hover")
+Scourge-Mantis-Heat-H	"Scourge Thermal Mantis Hover"
+SensorTower1Mk1	_("Sensor Tower")
+SensorTower2Mk1	_("Hardened Sensor Tower")
+SensorTurret1Mk1	_("Sensor Turret")
+Sensor-WideSpec	_("Wide Spectrum Sensor")
+SK-Bug-Heat-Hover-CBSensor	"*SK-Bug-Heat-Hover-CBSensor*"
+SK-Bug-Heat-Hover-HMG	"*SK-Bug-Heat-Hover-HMG*"
+SK-Bug-Heat-Hover-Repair	"*SK-Bug-Heat-Hover-Repair*"
+SK-Bug-Heat-Hover-Sensor	"*SK-Bug-Heat-Hover-Sensor*"
+SK-Bug-Heat-Hover-Truck	"*SK-Bug-Heat-Hover-Truck*"
+SK-Bug-Heat-Hover-VTOLStrike	"*SK-Bug-Heat-Hover-VTOLStrike*"
+SK-Bug-Hover-CBSensor	"*SK-Bug-Hover-CBSensor*"
+SK-Bug-Hover-HMG	"*SK-Bug-Hover-HMG*"
+SK-Bug-Hover-Repair	"*SK-Bug-Hover-Repair*"
+SK-Bug-Hover-Sensor	"*SK-Bug-Hover-Sensor*"
+SK-Bug-Hover-Truck	"*SK-Bug-Hover-Truck*"
+SK-Bug-Hover-VTOLStrike	"*SK-Bug-Hover-VTOLStrike*"
+SK-Bug-VTOL-BB	"*SK-Bug-VTOL-BB*"
+SK-Bug-VTOL-CLBomb	"*SK-Bug-VTOL-CLBomb*"
+Sk-CobraBBHover	_("Bunker Buster Cobra Hover")
+SK-Cobra-HalfTrack-HVC	"*SK-Cobra-HalfTrack-HVC*"
+SK-Cobra-Hover-BB	"*SK-Cobra-Hover-BB*"
+SK-Cobra-Hover-HMG	"*SK-Cobra-Hover-HMG*"
+SK-Cobra-Hover-Lancer	"*SK-Cobra-Hover-Lancer*"
+SK-Cobra-Track-HVC	"*SK-Cobra-Track-HVC*"
+SK-Cobra-Track-TK	"*SK-Cobra-Track-TK*"
+SK-HCobra-HalfTrack-HVC	"*SK-HCobra-HalfTrack-HVC*"
+SK-HCobra-Hover-BB	"*SK-HCobra-Hover-BB*"
+SK-HCobra-Hover-HMG	"*SK-HCobra-Hover-HMG*"
+SK-HCobra-Hover-Lancer	"*SK-HCobra-Hover-Lancer*"
+SK-HCobra-Track-HVC	"*SK-HCobra-Track-HVC*"
+SK-HCobra-Track-TK	"*SK-HCobra-Track-TK*"
+SK-HPython-Hover-Hcannon	"*SK-HPython-Hover-Hcannon*"
+SK-HPython-Hover-Lancer	"*SK-HPython-Hover-Lancer*"
+SK-HPython-Track-Hcannon	"*SK-HPython-Track-Hcannon*"
+SK-HvyPython-Track-Hcannon	"*SK-HvyPython-Track-Hcannon*"
+SK-Leopard-Hover-CBSensor	"*SK-Leopard-Hover-CBSensor*"
+SK-Leopard-Hover-HRepair	"*SK-Leopard-Hover-HRepair*"
+SK-Leopard-Hover-Needle	"*SK-Leopard-Hover-Needle*"
+SK-Leopard-Hover-Repair	"*SK-Leopard-Hover-Repair*"
+SK-Leopard-Hover-Sensor	"*SK-Leopard-Hover-Sensor*"
+SK-Leopard-HTrk-ASGun	"*SK-Leopard-HTrk-ASGun*"
+SK-Leopard-Htrk-Needle	"*SK-Leopard-Htrk-Needle*"
+SK-Leopard-Sup-Hover-CBSensor	"*SK-Leopard-Sup-Hover-CBSensor*"
+SK-Leopard-Sup-Hover-Hrepair	"*SK-Leopard-Sup-Hover-Hrepair*"
+SK-Leopard-Sup-Hover-Needle	"*SK-Leopard-Sup-Hover-Needle*"
+SK-Leopard-Sup-Hover-Repair	"*SK-Leopard-Sup-Hover-Repair*"
+SK-Leopard-Sup-Hover-Sensor	"*SK-Leopard-Sup-Hover-Sensor*"
+SK-Leopard-Sup-HTrk-ASGun	"*SK-Leopard-Sup-HTrk-ASGun*"
+SK-Leopard-Sup-Htrk-Needle	"*SK-Leopard-Sup-Htrk-Needle*"
+SK-Leopard-Sup-Track-Lancer	"*SK-Leopard-Sup-Track-Lancer*"
+SK-Leopard-Sup-VTOL-BB	"*SK-Leopard-Sup-VTOL-BB*"
+SK-Leopard-Sup-VTOL-Cluster	"*SK-Leopard-Sup-VTOL-Cluster*"
+SK-Leopard-Sup-VTOL-HEAP	"*SK-Leopard-Sup-VTOL-HEAP*"
+SK-Leopard-Sup-VTOL-PhosBomb	"*SK-Leopard-Sup-VTOL-PhosBomb*"
+SK-Leopard-Track-Lancer	"*SK-Leopard-Track-Lancer*"
+SK-Leopard-VTOL-BB	"*SK-Leopard-VTOL-BB*"
+SK-Leopard-VTOL-Cluster	"*SK-Leopard-VTOL-Cluster*"
+SK-Leopard-VTOL-HEAP	"*SK-Leopard-VTOL-HEAP*"
+SK-Leopard-VTOL-PhosBomb	"*SK-Leopard-VTOL-PhosBomb*"
+SK-Mantis-Heat-Hover-Hcannon	"*SK-Mantis-Heat-Hover-Hcannon*"
+SK-Mantis-Heat-Hover-HVC	"*SK-Mantis-Heat-Hover-HVC*"
+SK-Mantis-Heat-VTOL-BB	"*SK-Mantis-Heat-VTOL-BB*"
+SK-Mantis-Heat-VTOL-HBB	"Heap Bomb Bay Thermal Mantis VTOL"
+SK-Mantis-Heat-VTOL-PBB	"Phosphor Bomb Bay Thermal Mantis VTOL"
+SK-Mantis-Hover-Hcannon	"*SK-Mantis-Hover-Hcannon*"
+SK-Mantis-Hover-HVC	"*SK-Mantis-Hover-HVC*"
+SK-Mantis-VTOL-BB	"*SK-Mantis-VTOL-BB*"
+SK-Mantis-VTOL-HBB	_("Heap Bomb Bay Mantis VTOL")
+SK-Mantis-VTOL-PBB	_("Phosphor Bomb Bay Mantis VTOL")
+SK-Panther-Hover-HVC	"*SK-Panther-Hover-HVC*"
+SK-Panther-Hover-TK	"*SK-Panther-Hover-TK*"
+SK-Panther-Htrk-ASGun	"*SK-Panther-Htrk-ASGun*"
+SK-Panther-Htrk-BB	"*SK-Panther-Htrk-BB*"
+SK-Panther-Sup-Hover-HVC	"*SK-Panther-Sup-Hover-HVC*"
+SK-Panther-Sup-Hover-TK	"*SK-Panther-Sup-Hover-TK*"
+SK-Panther-Sup-Htrk-ASGun	"*SK-Panther-Sup-Htrk-ASGun*"
+SK-Panther-Sup-Htrk-BB	"*SK-Panther-Sup-Htrk-BB*"
+SK-Panther-Sup-Track-HVC	"*SK-Panther-Sup-Track-HVC*"
+SK-Panther-Sup-Track-RailGun	"*SK-Panther-Sup-Track-RailGun*"
+SK-Panther-Sup-Track-Repair	"*SK-Panther-Sup-Track-Repair*"
+SK-Panther-Sup-Track-TK	"*SK-Panther-Sup-Track-TK*"
+SK-Panther-Sup-VTOL-BB	"*SK-Panther-Sup-VTOL-BB*"
+SK-Panther-Sup-VTOL-HEAP	"*SK-Panther-Sup-VTOL-HEAP*"
+SK-Panther-Sup-VTOL-Phosbomb	"*SK-Panther-Sup-VTOL-Phosbomb*"
+SK-Panther-Sup-VTOL-Thermite	"*SK-Panther-Sup-VTOL-Thermite*"
+SK-Panther-Sup-VTOL-TK	"*SK-Panther-Sup-VTOL-TK*"
+SK-Panther-Track-HVC	"*SK-Panther-Track-HVC*"
+SK-Panther-Track-RailGun	"*SK-Panther-Track-RailGun*"
+SK-Panther-Track-Repair	"*SK-Panther-Track-Repair*"
+SK-Panther-Track-TK	"*SK-Panther-Track-TK*"
+SK-Panther-VTOL-BB	"*SK-Panther-VTOL-BB*"
+SK-Panther-VTOL-HEAP	"*SK-Panther-VTOL-HEAP*"
+SK-Panther-VTOL-Phosbomb	"*SK-Panther-VTOL-Phosbomb*"
+SK-Panther-VTOL-Thermite	"*SK-Panther-VTOL-Thermite*"
+SK-Panther-VTOL-TK	"*SK-Panther-VTOL-TK*"
+SK-Python-Hover-Hcannon	"*SK-Python-Hover-Hcannon*"
+SK-Python-Hover-Lancer	"*SK-Python-Hover-Lancer*"
+SK-Python-Hover-Mcannon	"*SK-Python-Hover-Mcannon*"
+Sk-PythonHvCanTrack	_("Heavy Cannon Python Tracks")
+SK-Python-Track-Hcannon	"*SK-Python-Track-Hcannon*"
+SK-Retal-Hover-CBSensor	"*SK-Retal-Hover-CBSensor*"
+SK-Retal-Hover-HvyRepair	"*SK-Retal-Hover-HvyRepair*"
+SK-Retal-Hover-PlasmiteFlamer	"*SK-Retal-Hover-PlasmiteFlamer*"
+SK-Retal-Hover-Repair	"*SK-Retal-Hover-Repair*"
+SK-Retal-Hover-Sensor	"*SK-Retal-Hover-Sensor*"
+SK-Retal-Hover-WSensor	"*SK-Retal-Hover-WSensor*"
+SK-Retal-Track-Needle	"*SK-Retal-Track-Needle*"
+SK-Retal-VTOL-HEAP	"*SK-Retal-VTOL-HEAP*"
+SK-Retal-VTOL-Phosbomb	"*SK-Retal-VTOL-Phosbomb*"
+SK-Retal-VTOL-Scourge	_("Scourge Retaliation VTOL")
+SK-Retal-VTOL-Thermite	"*SK-Retal-VTOL-Thermite*"
+SK-Retre-Hover-RailGun	"*SK-Retre-Hover-RailGun*"
+SK-Retre-Hover-Scourge	"*SK-Retre-Hover-Scourge*"
+SK-Retre-Htrk-Pepper	"*SK-Retre-Htrk-Pepper*"
+SK-Retre-Track-FlashLight	"*SK-Retre-Track-FlashLight*"
+SK-Retre-Track-PulseLsr	"*SK-Retre-Track-PulseLsr*"
+SK-Retre-Track-RailGun	"*SK-Retre-Track-RailGun*"
+SK-Retre-Track-Scourge	"*SK-Retre-Track-Scourge*"
+SK-Retre-VTOL-EMP	"EMP Retribution VTOL"
+SK-Retre-VTOL-HBB	_("Heap Bomb Bay Retribution VTOL")
+SK-Retre-VTOL-HEAP	"HEAP Retribution VTOL"
+SK-Retre-VTOL-Plasmite	_("Plasmite Retribution VTOL")
+SK-Retre-VTOL-PulseLsr	"*SK-Retre-VTOL-PulseLsr*"
+SK-Retre-VTOL-Scourge	"*SK-Retre-VTOL-Scourge*"
+SK-Retre-VTOL-Thermite	"*SK-Retre-VTOL-Thermite*"
+SK-Scorp-Heat-Hover-ASGUN	"*SK-Scorp-Heat-Hover-ASGUN*"
+SK-Scorp-Heat-Hover-BB	"*SK-Scorp-Heat-Hover-BB*"
+SK-Scorp-Heat-Hover-Bombard	"*SK-Scorp-Heat-Hover-Bombard*"
+SK-Scorp-Heat-Hover-Lancer	"*SK-Scorp-Heat-Hover-Lancer*"
+SK-Scorp-Heat-Track-ASGUN	"*SK-Scorp-Heat-Track-ASGUN*"
+SK-Scorp-Hover-ASGUN	"*SK-Scorp-Hover-ASGUN*"
+SK-Scorp-Hover-BB	"*SK-Scorp-Hover-BB*"
+SK-Scorp-Hover-Bombard	"*SK-Scorp-Hover-Bombard*"
+SK-Scorp-Hover-Lancer	"*SK-Scorp-Hover-Lancer*"
+SK-Scorp-Hover-Mcannon	"*SK-Scorp-Hover-Mcannon*"
+SK-Scorpion-Heat-VTOL-Hbomb	"*SK-Scorpion-Heat-VTOL-Hbomb*"
+SK-Scorpion-VTOL-BB	"*SK-Scorpion-VTOL-BB*"
+SK-Scorpion-VTOL-Hbomb	"*SK-Scorpion-VTOL-Hbomb*"
+SK-Scorp-Track-ASGUN	"*SK-Scorp-Track-ASGUN*"
+SK-Tiger-Hover-ASCannon	"*SK-Tiger-Hover-ASCannon*"
+SK-Tiger-Hover-Gauss	"*SK-Tiger-Hover-Gauss*"
+SK-Tiger-Hover-Hcannon	"*SK-Tiger-Hover-Hcannon*"
+SK-Tiger-Hover-HVC	"*SK-Tiger-Hover-HVC*"
+SK-Tiger-Hover-Scourge	"*SK-Tiger-Hover-Scourge*"
+SK-Tiger-Hover-TK	"*SK-Tiger-Hover-TK*"
+SK-Tiger-Track-ASCannon	"*SK-Tiger-Track-ASCannon*"
+SK-Tiger-Track-EMPCannon	"Tiger EMP Cannon Track"
+SK-Tiger-Track-Gauss	"*SK-Tiger-Track-Gauss*"
+SK-Tiger-Track-Groundshaker	"SK-Tiger-Track-Groundshaker"
+SK-Tiger-Track-Hcannon	"*SK-Tiger-Track-Hcannon*"
+SK-Tiger-Track-Hellstorm	"Tiger Hellstorm Track"
+SK-Tiger-Track-HVC	"*SK-Tiger-Track-HVC*"
+SK-Tiger-Track-IncendiaryHowitzer	"Tiger IncendiaryHowitzer Track"
+SK-Tiger-Track-IncSeraph	"Incendiary Seraph Tiger Track"
+SK-Tiger-Track-NexusTurret	"Tiger Nexus Turret Track"
+SK-Tiger-Track-Scourge	"*SK-Tiger-Track-Scourge*"
+SK-Tiger-Track-Seraph	"Tiger Seraph Track"
+SK-Tiger-Track-TK	"*SK-Tiger-Track-TK*"
+SK-Veng-Hover-Gauss	"*SK-Veng-Hover-Gauss*"
+SK-Veng-Hover-PlasmiteFlamer	"*SK-Veng-Hover-PlasmiteFlamer*"
+SK-Veng-Hover-PulseLsr	"*SK-Veng-Hover-PulseLsr*"
+SK-Veng-Hover-Scourge	"*SK-Veng-Hover-Scourge*"
+SK-Veng-Hover-Seraph	"*SK-Veng-Hover-Seraph*"
+SK-Veng-Track-C6TwinAslt	"*SK-Veng-Track-C6TwinAslt*"
+SK-Veng-Track-EMPCannon	"Vengeance EMP Cannon Track"
+SK-Veng-Track-Gauss	"*SK-Veng-Track-Gauss*"
+SK-Veng-Track-Groundshaker	"Vengeance Groundshaker Track"
+SK-Veng-Track-Hellstorm	"Vengeance Hellstorm Track"
+SK-Veng-Track-HvyLaser	"*SK-Veng-Track-HvyLaser*"
+SK-Veng-Track-IncSeraph	"Vengeance Incendiary Seraph Track"
+SK-Veng-Track-NexusTurret	"Vengeance Nexus Turret Track"
+SK-Veng-Track-PulseLsr	"*SK-Veng-Track-PulseLsr*"
+SK-Veng-Track-Scourge	"*SK-Veng-Track-Scourge*"
+SK-Veng-Track-Seraph	"Vengeance Seraph Track"
+Spade1Mk1	_("Truck")
+SPBomb	_("Proximity Superbomb Turret")
+SpyTurret01	_("Nexus Link Turret")
+StandardBrain	"*TEST - Standard Brain*"
+Superbody	"Kev's Super Body"
+Superbody2	"Alex's Super Body"
+Super-EMP-Fort	"Super EMP Fortress"
+Super-FlamerPlasma-Fort	"Super Plasmite Rail Fortress"
+Super-Howitzer105Mk1-RailPlas-Empl	"Super Incendiary Rail Howitzer"
+Super-Howitzer105Mk1-Rail-Ram-Empl	"Super Stabilized Rail Howitzer"
+Super-Howitzer105Mk1-Ram-Empl	"Super Stabilized Howitzer"
+Super-HowitzerPlas-Empl	"Super Incendiary Howitzer"
+Super-Laser2-Fort	"Super Laser Fortress"
+Super-LaserPlasma-Fort	"Super Plasma Cannon Fortress"
+Super-MG-Fort	"Super Assault Gun Fortress"
+Super-MortarGaussPlas-Empl	"Super Incendiary Rail Mortar"
+Super-MortarGaussRamjet-Empl	"Super Stabilized Rail Mortar"
+Super-MortarPlas-Empl	"Super Incendiary Mortar"
+Super-MortarRamjet-Empl	"Super Stabilized Mortar"
+Super-NEXUS-Fort	"Super NEXUS Link Fortress"
+SuperTank	"Kev's Super Tank"
+SuperTank2	"Alex's Killa"
+SuperTransport	_("Super Transport")
+SuperTransportBody	_("Super Transport Body")
+SuperTransportNAS	"Super NASDA Transport"
+Superweapon	"Kev's Super Weapon"
+Superweapon2	"Alex's Super Weapon"
+Sys-CBTower01	"*CB Tower*"
+Sys-CB-Tower01	_("CB Tower")
+Sys-CB-Tower02	"CB Plascrete Tower"
+Sys-CB-Tower03	"CB Sky Tower"
+Sys-CBTurret01	_("CB Radar Turret")
+Sys-NEXUSLinkTOW	"*Sys-NEXUSLinkTOW*"
+Sys-NX-CBTower	"*Sys-NX-CBTower*"
+Sys-NXLinkTurret01	_("Nexus Link")
+Sys-NX-SensorTower	"*Sys-NX-SensorTower*"
+Sys-NX-VTOL-CB-Tow	"*Sys-NX-VTOL-CB-Tow*"
+Sys-NX-VTOL-RadTow	"*Sys-NX-VTOL-RadTow*"
+Sys-RadarDetector01	_("Radar Detector Tower")
+Sys-SensoTower01	_("Sensor Tower")
+Sys-SensoTower02	_("Hardened Sensor Tower")
+Sys-SensoTower03	"Sensor Sky Tower"
+Sys-SensoTower04	"Supercrete Sensor Tower"
+Sys-SensoTower05	"Plascrete Sensor Tower"
+Sys-SensoTower06	"Metal Sensor Tower"
+Sys-SensoTowerWS	_("Wide Spectrum Sensor Tower")
+Sys-SensoTowerWS-Sky	"Wide Spectrum Sky Tower"
+Sys-SpyTower	_("Nexus Link Tower")
+Sys-SpyTower-Sky	"Nexus Link Sky Tower"
+Sys-VstrikeTurret01	_("VTOL Strike Turret")
+Sys-VTOLCBTower01	_("VTOL CB Radar Tower")
+Sys-VTOL-CB-Tower01	_("VTOL CB Tower")
+Sys-VTOLCBTurret01	_("VTOL CB Radar Turret")
+Sys-VTOLRadarTower01	_("VTOL CB Radar Tower")
+Sys-VTOL-RadarTower01	_("VTOL Strike Tower")
+TankTrap2C	_("Dragon's Teeth")
+TankTrapC	_("Tank Traps")
+TBug-HalfTrack-HeavyMG	"Heavy MG TBug Half-Track"
+TBug-HalfTrack-LightCannon	"Light Cannon TBug Half-Track"
+TBug-HalfTracks-MiniRocket	"Mini-Rocket TBug Half-tracks"
+TBug-Wheel-LightCannon	"Light Cannon TBug Wheels"
+TigerFlashlightHalf-tracks	"Flashlight Tiger HalfTrack"
+TigerHoverPulseLas  	_("Pulse Laser Tiger Hover")
+TigerHoverRailGun	_("Rail Gun Tiger Hover")
+TigerHvLaserTracks	_("Heavy Laser Tiger Tracks")
+TigerPlasmaCTracks	"Plasma Cannon Tiger Tracks"
+TigerPulseTracks	_("Pulse Laser Tiger Tracks")
+TigerTrackRailGun	"Rail Gun Tiger Track"
+TK-Mantis-H	_("Tank Killer Mantis Hover")
+TK-Mantis-Heat-H	"Tank Killer Thermal Mantis Hover"
+Tower2-Cannon5VulcanMk1-Inc	"Incendiary Assault Cannon Tower"
+Tower2-Laser3BEAMMk1-Gat	"Flashlight Tower"
+Tower2-MG3Mk1-Aslt	"Augmented Heavy Machinegun Tower"
+Tower-Projector	_("Inferno Bunker") //previously "Inferno Guard Tower"
+Tower-RotMg	_("Assault Gun Emplacement")
+TowerSensor	"*Tower Sensor*"
+Tower-VulcanCan	_("Assault Cannon Guard Tower")
+tracked01	_("Tracks")
+tracked02	_("Tracks II")
+tracked03	_("Tracks III")
+Transporter	_("Cyborg Transport")
+TransporterBody	_("Transport Body")
+TransporterNAS	"NASDA Transport"
+trapcorner	"*TrapCorner*"
+trapstraight	"*TrapStraight*"
+Tree1	"*Tree1*"
+Tree2	"*Tree2*"
+Tree3	"*Tree3*"
+TreeSnow1	"*Snowy Tree1*"
+TreeSnow2	"*Snowy Tree2*"
+TreeSnow3	"*Snowy Tree3*"
+TruckNAS	"NASDA Truck"
+TScorpHTrackHMG	"Heavy Machinegun TScorpion Half Tracks"
+TScorpionBBHalfTracks	"Bunker Buster TScorpion Half-tracks"
+TScorpionHvyMortarHalftrack	"Bombard TScorpion Half-tracks"
+TUTMG	_("Machinegun")
+TwinAG-HvyHPython-Tracks	"Twin Assault Gun HvyHPython Tracks"
+TwinAG-HvyLeopard-Tracks	"Twin Assault Gun HvyLeopard Tracks"
+TwinAG-HvyMantisHeat-Tracks	"Twin Assault Gun HvyMantisHeat Tracks"
+TwinAG-HvyMantis-Tracks	"Twin Assault Gun HvyMantis Tracks"
+TwinAG-Mantis-H	"Twin Assault Gun Mantis Hover"
+TwinAG-Mantis-Heat-H	"Twin Assault Gun Thermal Mantis Hover"
+TwinAG-Mantis-Heat-Tracks	"Twin Assault Gun Thermal Mantis Tracks"
+TwinAG-Mantis-Tracks	"Twin Assault Gun Mantis Tracks"
+TwinAG-Retaliation-H	"Twin Assault Gun Retaliation Hover"
+TwinAG-Vengeance-H	"Twin Assault Gun Vengeance Hover"
+UplinkCentre	"*UplinkCentre*"
+UplinkSensor	_("Uplink Sensor")
+V-Bug-BB	_("VTOL Bunker Buster Bug VTOL")
+V-Bug-ClusterBomb	_("VTOL Cluster Bomb Bay Bug VTOL")
+V-Bug-Heat-BB	"VTOL Bunker Buster Thermal Bug VTOL"
+V-Bug-Heat-ClusterBomb	"VTOL Cluster Bomb Bay Thermal Bug VTOL"
+V-Bug-Heat-HPV	"VTOL Hyper Velocity Cannon Thermal Bug VTOL"
+V-Bug-Heat-Lancer	"VTOL Lancer Thermal Bug VTOL"
+V-Bug-Heat-Sunburst	"VTOL Sunburst Thermal Bug"
+V-Bug-HPV	_("VTOL Hyper Velocity Cannon Bug VTOL")
+V-Bug-Lancer	_("VTOL Lancer Bug VTOL")
+V-Bug-Sunburst	"VTOL Sunburst Bug"
+ViperBBWheels	_("Bunker Buster Rockets Viper Wheels")
+ViperFlameHalfTracks	_("Flamer Viper Half-Tracks")
+ViperFlameWheels	_("Flamer Viper Wheels")
+Viper-Helicopter-HvyMG	"Viper Helicopter HMG"
+ViperHMGHalftrack	_("Heavy Machinegun Viper Half-tracks")
+ViperHMGTracks	_("Heavy Machinegun Viper Tracks")
+ViperHMGWheels	_("Heavy Machinegun Viper Wheels")
+ViperLtA-Twheels	_("Lancer Viper Wheels")
+ViperLtCannonHTracks	_("Light Cannon Viper Half-tracks")
+ViperLtCannonTracks	_("Light Cannon Viper Tracks")
+ViperLtCannonWheels	_("Light Cannon Viper Wheels")
+ViperLtMGHalfTracks	_("Machinegun Viper Half-Tracks")
+ViperLtMGWheels	_("Machinegun Viper Wheels")
+ViperMedCnTrks	_("Medium Cannon Viper Tracks")
+ViperMG01Wheels	_("Machinegun Viper Wheels")
+ViperMG02Halftrack	_("Twin Machinegun Viper Half-tracks")
+ViperMG02Wheels	_("Twin Machinegun Viper Wheels")
+ViperMortarHT	"Mortar Viper Halftrack"
+ViperMortarWheels	"Mortar Viper Wheels"
+ViperMRLHalfTracks	_("Mini-Rocket Array Viper Half Track")
+ViperMRLWheels	_("Mini-Rocket Array Viper Wheels")
+ViperPODHalfTracks	_("Mini-Rocket Viper Half Track")
+ViperPODWheels	_("Mini-Rocket Viper Wheels")
+ViperRepairHalftrack	_("Repair Turret Viper Half-track")
+ViperRepairWheels	_("Repair Turret Viper Wheels")
+ViperSensorWheels	_("Sensor Turret Viper Wheels")
+Viper-Trk-Com	_("Command Turret Viper Tracks")
+ViperTrkLancer	_("Lancer Viper Tracks")
+V-Mantis-Heat-HPV	"VTOL Hyper Velocity Cannon Thermal Mantis VTOL"
+V-Mantis-Heat-Lancer	"VTOL Lancer Thermal Mantis VTOL"
+V-Mantis-HPV	_("VTOL Hyper Velocity Cannon Mantis VTOL")
+V-Mantis-Lancer	_("VTOL Lancer Mantis VTOL")
+V-Scor-BB	_("VTOL Bunker Buster Scorpion VTOL")
+V-Scor-ClusterBomb	_("VTOL Cluster Bomb Bay Scorpion VTOL")
+V-Scor-Heat-ClusterBomb	"VTOL Cluster Bomb Bay Thermal Scorpion VTOL"
+V-Scor-Heat-HPV	"VTOL Hyper Velocity Cannon Thermal Scorpion VTOL"
+V-Scor-Heat-PhosphorBomb	"VTOL Phosphor Bomb Bay Thermal Scorpion"
+V-Scor-HPV	_("VTOL Hyper Velocity Cannon Scorpion VTOL")
+V-Scor-Lancer	_("VTOL Lancer Scorpion VTOL")
+V-Scor-PhosphorBomb	"VTOL Phosphor Bomb Bay Scorpion"
+V-Tol	_("VTOL")
+V-Tol02	_("VTOL II")
+V-Tol03	_("VTOL III")
+Wall	"Wall"
+WallCorner	"Wallcorner"
+WallCornerSmashed	 "Smashedcornerwall"
+Wall-RotMg	_("Assault Gun Hardpoint")
+WallSmashed	 "Smashedwall"
+WallTower01	_("Heavy Machinegun Hardpoint")
+WallTower02	_("Light Cannon Hardpoint")
+WallTower03	_("Medium Cannon Hardpoint")
+WallTower04	_("Heavy Cannon Hardpoint")
+WallTower05	_("Flamer Hardpoint")
+WallTower06	_("Lancer Hardpoint")
+WallTower2-Cannon4AUTOMk1-Hvy-Inc	"Heavy Incendiary HPV Hardpoint"
+WallTower2-Laser2PULSEMk1-Inc-Aslt	"Incendiary Flashlight Hardpoint"
+WallTower2-MG5TWINROTARY-Hvy-Inc	"Incendiary Twin Assault Gun Bunker"
+WallTower3-Cannon6TwinAslt-Rail	"Twin Assault Rail Hardpoint"
+WallTower3-HeavyLaser-Gat	"Heavy Laser Rotary Hardpoint"
+WallTower3-HeavyLaser-Inc-Aslt	"Heavy Laser Incendiary Assault Hardpoint"
+WallTower3-Laser2PULSEMk1-Inc	"Incendiary Pulse Laser Hardpoint"
+WallTower3-RailGun1Mk1-GatAA	"Reinforced Railgun Flak Hardpoint"
+WallTower3-RailGun1Mk1-Gat-Twn	"Needle Gun Twin Rotary Hardpoint"
+WallTower3-RailGun2Mk1-Twn-Inc	"Twin Rail Gun Incendiary Hardpoint"
+WallTower3-Railgun-Flak	"Railgun Flak Hardpoint"
+WallTower-AAGunLaser-Lng	"Reinforced Stormbringer Flak AA Hardpoint"
+WallTower-Atmiss	_("Scourge Missile Hardpoint")
+WallTower-DoubleAAGun	_("AA Flak Cannon Hardpoint")
+WallTower-EMP	_("EMP Cannon Tower")
+WallTower-HPVcannon	_("Hyper Velocity Cannon Hardpoint")
+WallTower-HvATrocket	_("Tank Killer Hardpoint")
+WallTower-MG5TWINROTARY-Hvy	"Augmented Twin Assault Gun Bunker"
+WallTower-Projector	_("Inferno Hardpoint")
+WallTower-PulseLas	_("Pulse Laser Hardpoint")
+WallTower-QuadRotAAGun	_("Whirlwind Hardpoint")
+WallTower-Rail2	_("Rail Gun Hardpoint")
+WallTower-Rail3	_("Gauss Cannon Hardpoint")
+WallTower-SamHvy	_("Vindicator Hardpoint")
+WallTower-SamHvy-Arch	"Thermal Vindicator SAM Tower"
+WallTower-SamSite	_("Avenger Hardpoint")
+WallTower-SamSite-Arch	"Thermal Avenger SAM Tower"
+WallTower-TwinAssaultGun	_("Twin Assault Gun Hardpoint")
+Wall-VulcanCan	_("Assault Cannon Hardpoint")
+WaterBuilding	"*Water Building*"
+WaterBuilding2	"*Water Building2*"
+WaterBuilding3	"*Water Building3*"
+WaterTower	"*Water Tower*"
+wheeled01	_("Wheels")
+wheeled02	_("Wheels II")
+wheeled03	_("Wheels III")
+Wreck0	"*Wreck0*"
+Wreck1	"*Wreck1*"
+Wreck2	"*Wreck2*"
+Wreck3	"*Wreck3*"
+Wreck4	"*Wreck4*"
+Wreck5	"*Wreck5*"
+WreckedBridge	_("Wrecked Bridge")
+WreckedBuilding10	"*Wrecked Building 10*"
+WreckedBuilding11	"*Wrecked Building 11*"
+WreckedBuilding12	"*Wrecked Building 12*"
+WreckedBuilding13	"*Wrecked Building 13*"
+WreckedBuilding14	"*Wrecked Building 14*"
+WreckedBuilding15	"*Wrecked Building 15*"
+WreckedBuilding16	"*Wrecked Building 16*"
+WreckedBuilding17	"*Wrecked Building 17*"
+WreckedBuilding6	"*Wrecked Building 6*"
+WreckedBuilding7	"*Wrecked Building 7*"
+WreckedBuilding8	"*Wrecked Building 8*"
+WreckedBuilding9	"*Wrecked Building 9*"
+WreckedDroidHub	_("Wreck")
+WreckedSuzukiJeep	_("Wrecked Vehicle")
+WreckedTank	_("Wrecked Tank")
+WreckedTankerV	_("Wrecked Tanker")
+WreckedTransporter	_("Downed Transport")
+WreckedVertCampVan	_("Wrecked Van")
+WyvernGaussTracks	_("Gauss Cannon Wyvern Tracks")
+WyvernHellstormTracks	"Hellstorm Wyvern Tracks"
+WyvernHvLaserTracks	_("Heavy Laser Wyvern Tracks")
+WyvernPlasmaCTracks  	_("Plasma Cannon Wyvern Tracks")
+WyvernPulseTracks	_("Pulse Laser Wyvern Tracks")
+WyvernRailTracks	"Rail Gun Wyvern Tracks"
+WyvernScourgeTracks  	_("Scourge Missile Wyvern Tracks")
+WyvernStormbringerTracks	"Stormbringer Wyvern Tracks"
+X-Super-Cannon	_("Cannon Fortress")
+X-Super-MassDriver	_("Mass Driver Fortress")
+X-Super-Missile	_("Missile Fortress")
+X-Super-Rocket	_("Heavy Rocket Bastion")
+Z-Lab01	_("Cyborg Laboratory")
+Z-Lab02	_("Advanced Warfare Laboratory")
+Z-Lab03	_("Engineering Laboratory")
+Z-Lab04	_("Robotics Laboratory")
+Z-Lab05	_("Laser Optics Laboratory")
+Z-Lab06	_("Electronics Laboratory")
+Z-Lab07	_("Chemical Laboratory")
+Z-Lab08	"*Advanced Materials Lab*"
+Z-Lab09	"*VTOL Lab*"
+Z-Lab10	"*Electro-Magnetics Lab*"
+Z-Lab11	"*Nanotech Lab*"
+Z-Lab12	"*High Energy Lab*"
+ZNULLBODY	"*Z NULL BODY*"
+ZNULLBRAIN	"Z NULL BRAIN"
+ZNULLCONSTRUCT	"Z NULL CONSTRUCT"
+ZNULLDESIGN	_("New Design")
+ZNULLECM	"Z NULL ECM"
+ZNULLPROGRAM	"Z NULL PROGRAM"
+ZNULLPROP	"Z NULL PROP"
+ZNULLREPAIR	"Z NULL REPAIR"
+ZNullResearch	"*Z Null Research*"
+ZNULLSENSOR	"Z NULL SENSOR"
+ZNULLWEAPON	"*Z NULL Weapon*"
+NP-L-RocketPod-Wheels-arch	"*NP-L-RocketPod-Wheels-Arch*"
+NP-S-RocketPod-Wheels-arch	"*NP-S-RocketPod-Wheels-Arch*"
+NP-L-Jammer-Wheels	"*NP-L-Jammer-Wheels*"
+AASite-QuadMg1AAGun-Scav "AA Turret"
+Tiger-Track-NASDA-Inc-AssaultCannon	"Tiger-Track-NASDA-Inc-AssaultCannon"
+Tiger-Track-NASDA-RotaryCannon	"Tiger-Track-NASDA-RotaryCannon"
+Tiger-Track-NASDA-AugmentedHPV	"Tiger-Track-NASDA-AugmentedHPV"
+Tiger-Track-NASDA-Hvy-HPV	"Tiger-Track-NASDA-Hvy-HPV"
+Tiger-Track-NASDA-AugmentedInc-HPV	"Tiger-Track-NASDA-AugmentedInc-HPV"
+Tiger-Track-NASDA-HPV-LongCannon	"Tiger-Track-NASDA-HPV-LongCannon"
+Tiger-Track-NASDA-Inc-HPV	"Tiger-Track-NASDA-Inc-HPV"
+Tiger-Track-NASDA-HvyAssaultHPV	"Tiger-Track-NASDA-HvyAssaultHPV"
+Tiger-Track-NASDA-AugmentedHeavyCannon	"Tiger-Track-NASDA-AugmentedHeavyCannon"
+Tiger-Track-NASDA-Twn-HeavyCannon	"Tiger-Track-NASDA-Twn-HeavyCannon"
+Tiger-HTrack-NASDA-Inc-AssaultCannon	"Tiger-HTrack-NASDA-Inc-AssaultCannon"
+Tiger-HTrack-NASDA-RotaryCannon	"Tiger-HTrack-NASDA-RotaryCannon"
+Tiger-HTrack-NASDA-AugmentedHPV	"Tiger-HTrack-NASDA-AugmentedHPV"
+Tiger-HTrack-NASDA-Hvy-HPV	"Tiger-HTrack-NASDA-Hvy-HPV"
+Tiger-HTrack-NASDA-AugmentedInc-HPV	"Tiger-HTrack-NASDA-AugmentedInc-HPV"
+Tiger-HTrack-NASDA-HPV-LongCannon	"Tiger-HTrack-NASDA-HPV-LongCannon"
+Tiger-HTrack-NASDA-Inc-HPV	"Tiger-HTrack-NASDA-Inc-HPV"
+Tiger-HTrack-NASDA-HvyAssaultHPV	"Tiger-HTrack-NASDA-HvyAssaultHPV"
+Tiger-HTrack-NASDA-AugmentedHeavyCannon	"Tiger-HTrack-NASDA-AugmentedHeavyCannon"
+Tiger-HTrack-NASDA-Twn-HeavyCannon	"Tiger-HTrack-NASDA-Twn-HeavyCannon"
+Panther-Track-NASDA-Inc-AssaultCannon	"Panther-Track-NASDA-Inc-AssaultCannon"
+Panther-Track-NASDA-RotaryCannon	"Panther-Track-NASDA-RotaryCannon"
+Panther-Track-NASDA-AugmentedHPV	"Panther-Track-NASDA-AugmentedHPV"
+Panther-Track-NASDA-Hvy-HPV	"Panther-Track-NASDA-Hvy-HPV"
+Panther-Track-NASDA-AugmentedInc-HPV	"Panther-Track-NASDA-AugmentedInc-HPV"
+Panther-Track-NASDA-HPV-LongCannon	"Panther-Track-NASDA-HPV-LongCannon"
+Panther-Track-NASDA-Inc-HPV	"Panther-Track-NASDA-Inc-HPV"
+Panther-Track-NASDA-HvyAssaultHPV	"Panther-Track-NASDA-HvyAssaultHPV"
+Panther-Track-NASDA-AugmentedHeavyCannon	"Panther-Track-NASDA-AugmentedHeavyCannon"
+Panther-Track-NASDA-Twn-HeavyCannon	"Panther-Track-NASDA-Twn-HeavyCannon"
+Panther-HTrack-NASDA-Inc-AssaultCannon	"Panther-HTrack-NASDA-Inc-AssaultCannon"
+Panther-HTrack-NASDA-RotaryCannon	"Panther-HTrack-NASDA-RotaryCannon"
+Panther-HTrack-NASDA-AugmentedHPV	"Panther-HTrack-NASDA-AugmentedHPV"
+Panther-HTrack-NASDA-Hvy-HPV	"Panther-HTrack-NASDA-Hvy-HPV"
+Panther-HTrack-NASDA-AugmentedInc-HPV	"Panther-HTrack-NASDA-AugmentedInc-HPV"
+Panther-HTrack-NASDA-HPV-LongCannon	"Panther-HTrack-NASDA-HPV-LongCannon"
+Panther-HTrack-NASDA-Inc-HPV	"Panther-HTrack-NASDA-Inc-HPV"
+Panther-HTrack-NASDA-HvyAssaultHPV	"Panther-HTrack-NASDA-HvyAssaultHPV"
+Panther-HTrack-NASDA-AugmentedHeavyCannon	"Panther-HTrack-NASDA-AugmentedHeavyCannon"
+Panther-HTrack-NASDA-Twn-HeavyCannon	"Panther-HTrack-NASDA-Twn-HeavyCannon"
+HvyPython-Track-NASDA-Inc-AssaultCannon	"HvyPython-Track-NASDA-Inc-AssaultCannon"
+HvyPython-Track-NASDA-RotaryCannon	"HvyPython-Track-NASDA-RotaryCannon"
+HvyPython-Track-NASDA-AugmentedHPV	"HvyPython-Track-NASDA-AugmentedHPV"
+HvyPython-Track-NASDA-Hvy-HPV	"HvyPython-Track-NASDA-Hvy-HPV"
+HvyPython-Track-NASDA-AugmentedInc-HPV	"HvyPython-Track-NASDA-AugmentedInc-HPV"
+HvyPython-Track-NASDA-HPV-LongCannon	"HvyPython-Track-NASDA-HPV-LongCannon"
+HvyPython-Track-NASDA-Inc-HPV	"HvyPython-Track-NASDA-Inc-HPV"
+HvyPython-Track-NASDA-HvyAssaultHPV	"HvyPython-Track-NASDA-HvyAssaultHPV"
+HvyPython-Track-NASDA-AugmentedHeavyCannon	"HvyPython-Track-NASDA-AugmentedHeavyCannon"
+HvyPython-Track-NASDA-Twn-HeavyCannon	"HvyPython-Track-NASDA-Twn-HeavyCannon"
+HvyPython-HTrack-NASDA-Inc-AssaultCannon	"HvyPython-HTrack-NASDA-Inc-AssaultCannon"
+HvyPython-HTrack-NASDA-RotaryCannon	"HvyPython-HTrack-NASDA-RotaryCannon"
+HvyPython-HTrack-NASDA-AugmentedHPV	"HvyPython-HTrack-NASDA-AugmentedHPV"
+HvyPython-HTrack-NASDA-Hvy-HPV	"HvyPython-HTrack-NASDA-Hvy-HPV"
+HvyPython-HTrack-NASDA-AugmentedInc-HPV	"HvyPython-HTrack-NASDA-AugmentedInc-HPV"
+HvyPython-HTrack-NASDA-HPV-LongCannon	"HvyPython-HTrack-NASDA-HPV-LongCannon"
+HvyPython-HTrack-NASDA-Inc-HPV	"HvyPython-HTrack-NASDA-Inc-HPV"
+HvyPython-HTrack-NASDA-HvyAssaultHPV	"HvyPython-HTrack-NASDA-HvyAssaultHPV"
+HvyPython-HTrack-NASDA-AugmentedHeavyCannon	"HvyPython-HTrack-NASDA-AugmentedHeavyCannon"
+HvyPython-HTrack-NASDA-Twn-HeavyCannon	"HvyPython-HTrack-NASDA-Twn-HeavyCannon"
+HvyCobra-Track-NASDA-Inc-AssaultCannon	"HvyCobra-Track-NASDA-Inc-AssaultCannon"
+HvyCobra-Track-NASDA-RotaryCannon	"HvyCobra-Track-NASDA-RotaryCannon"
+HvyCobra-Track-NASDA-AugmentedHPV	"HvyCobra-Track-NASDA-AugmentedHPV"
+HvyCobra-Track-NASDA-Hvy-HPV	"HvyCobra-Track-NASDA-Hvy-HPV"
+HvyCobra-Track-NASDA-AugmentedInc-HPV	"HvyCobra-Track-NASDA-AugmentedInc-HPV"
+HvyCobra-Track-NASDA-HPV-LongCannon	"HvyCobra-Track-NASDA-HPV-LongCannon"
+HvyCobra-Track-NASDA-Inc-HPV	"HvyCobra-Track-NASDA-Inc-HPV"
+HvyCobra-Track-NASDA-HvyAssaultHPV	"HvyCobra-Track-NASDA-HvyAssaultHPV"
+HvyCobra-Track-NASDA-AugmentedHeavyCannon	"HvyCobra-Track-NASDA-AugmentedHeavyCannon"
+HvyCobra-Track-NASDA-Twn-HeavyCannon	"HvyCobra-Track-NASDA-Twn-HeavyCannon"
+HvyCobra-HTrack-NASDA-Inc-AssaultCannon	"HvyCobra-HTrack-NASDA-Inc-AssaultCannon"
+HvyCobra-HTrack-NASDA-RotaryCannon	"HvyCobra-HTrack-NASDA-RotaryCannon"
+HvyCobra-HTrack-NASDA-AugmentedHPV	"HvyCobra-HTrack-NASDA-AugmentedHPV"
+HvyCobra-HTrack-NASDA-Hvy-HPV	"HvyCobra-HTrack-NASDA-Hvy-HPV"
+HvyCobra-HTrack-NASDA-AugmentedInc-HPV	"HvyCobra-HTrack-NASDA-AugmentedInc-HPV"
+HvyCobra-HTrack-NASDA-HPV-LongCannon	"HvyCobra-HTrack-NASDA-HPV-LongCannon"
+HvyCobra-HTrack-NASDA-Inc-HPV	"HvyCobra-HTrack-NASDA-Inc-HPV"
+HvyCobra-HTrack-NASDA-HvyAssaultHPV	"HvyCobra-HTrack-NASDA-HvyAssaultHPV"
+HvyCobra-HTrack-NASDA-AugmentedHeavyCannon	"HvyCobra-HTrack-NASDA-AugmentedHeavyCannon"
+HvyCobra-HTrack-NASDA-Twn-HeavyCannon	"HvyCobra-HTrack-NASDA-Twn-HeavyCannon"
+SHvyPython-Track-NASDA-Inc-AssaultCannon	"SHvyPython-Track-NASDA-Inc-AssaultCannon"
+SHvyPython-Track-NASDA-RotaryCannon	"SHvyPython-Track-NASDA-RotaryCannon"
+SHvyPython-Track-NASDA-AugmentedHPV	"SHvyPython-Track-NASDA-AugmentedHPV"
+SHvyPython-Track-NASDA-Hvy-HPV	"SHvyPython-Track-NASDA-Hvy-HPV"
+SHvyPython-Track-NASDA-AugmentedInc-HPV	"SHvyPython-Track-NASDA-AugmentedInc-HPV"
+SHvyPython-Track-NASDA-HPV-LongCannon	"SHvyPython-Track-NASDA-HPV-LongCannon"
+SHvyPython-Track-NASDA-Inc-HPV	"SHvyPython-Track-NASDA-Inc-HPV"
+SHvyPython-Track-NASDA-HvyAssaultHPV	"SHvyPython-Track-NASDA-HvyAssaultHPV"
+SHvyPython-Track-NASDA-AugmentedHeavyCannon	"SHvyPython-Track-NASDA-AugmentedHeavyCannon"
+SHvyPython-Track-NASDA-Twn-HeavyCannon	"SHvyPython-Track-NASDA-Twn-HeavyCannon"
+SHvyPython-HTrack-NASDA-Inc-AssaultCannon	"SHvyPython-HTrack-NASDA-Inc-AssaultCannon"
+SHvyPython-HTrack-NASDA-RotaryCannon	"SHvyPython-HTrack-NASDA-RotaryCannon"
+SHvyPython-HTrack-NASDA-AugmentedHPV	"SHvyPython-HTrack-NASDA-AugmentedHPV"
+SHvyPython-HTrack-NASDA-Hvy-HPV	"SHvyPython-HTrack-NASDA-Hvy-HPV"
+SHvyPython-HTrack-NASDA-AugmentedInc-HPV	"SHvyPython-HTrack-NASDA-AugmentedInc-HPV"
+SHvyPython-HTrack-NASDA-HPV-LongCannon	"SHvyPython-HTrack-NASDA-HPV-LongCannon"
+SHvyPython-HTrack-NASDA-Inc-HPV	"SHvyPython-HTrack-NASDA-Inc-HPV"
+SHvyPython-HTrack-NASDA-HvyAssaultHPV	"SHvyPython-HTrack-NASDA-HvyAssaultHPV"
+SHvyPython-HTrack-NASDA-AugmentedHeavyCannon	"SHvyPython-HTrack-NASDA-AugmentedHeavyCannon"
+SHvyPython-HTrack-NASDA-Twn-HeavyCannon	"SHvyPython-HTrack-NASDA-Twn-HeavyCannon"
+HvyViper-Track-NASDA-HPV-LongCannon "HvyViper-Track-NASDA-HPV-LongCannon"
