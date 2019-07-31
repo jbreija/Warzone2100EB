@@ -176,13 +176,13 @@
 	"object_6": {
 		"label": "LargeVtolFactory",
 		"id": 1632,
-		"player": 7,
+		"player": 9,
 		"type": 1
 	},
 	"object_7": {
 		"label": "MechCyborgFac",
 		"id": 1627,
-		"player": 7,
+		"player": 9,
 		"type": 1
 	},
 

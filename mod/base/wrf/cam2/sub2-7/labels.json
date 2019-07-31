@@ -113,7 +113,7 @@
 	},
 	"object_2": {
 		"label": "COHeavyFac-Arti-b2",
-		"id": 563,
+		"id": 561,
 		"player": 2,
 		"type": 1
 	},
@@ -146,11 +146,5 @@
 		"id": 107,
 		"player": 2,
 		"type": 1
-	},
-	"object_8": {
-		"label": "COFactorySouthEast",
-		"id": 561,
-		"player": 2,
-		"type": 1
-	},
+	}
 }

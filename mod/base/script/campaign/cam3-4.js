@@ -3,6 +3,7 @@ include("script/campaign/templates.js");
 include("script/campaign/transitionTech.js");
 include ("script/campaign/ultScav.js");
 
+
 camAreaEvent("factoryTriggerW", function() {
 	enableAllFactories();
 });
@@ -98,6 +99,11 @@ function truckDefense()
 	queue("truckDefense", camChangeOnDiff(camMinutesToMilliseconds(5)));
 }
 
+function changeColors()
+{
+	changePlayerColour(ULTSCAV, ((10 <= 0) ? 0 : Math.floor(Math.random() * 10))); // random colors, Nexus controls them all!
+}
+
 function eventStartLevel()
 {
 	var startpos = getObject("startPosition");
@@ -124,7 +130,7 @@ function eventStartLevel()
 	camManageTrucks(NEXUS);
 	truckDefense();
 
-	setAlliance(3, 7, true);
+	setAlliance(ULTSCAV, NEXUS, true);
 	camSetArtifacts({
 		"NX-NWCyborgFactory": { tech: "R-Wpn-RailGun03" },
 		"NX-NEFactory": { tech: "R-Vehicle-Body14" }, // Dragon
@@ -320,22 +326,23 @@ function eventStartLevel()
 	hackAddMessage("CM34_OBJ1", PROX_MSG, CAM_HUMAN_PLAYER);
 
 	queue("enableAllFactories", camChangeOnDiff(camMinutesToMilliseconds(10)));
+	setTimer("changeColors", camSecondsToMilliseconds(100));
 	ultScav_eventStartLevel(
 		1, // vtols on/off. -1 = off
-		20, // build defense every x seconds
+		55, // build defense every x seconds
 		50, // build factories every x seconds
 		45, // build cyborg factories every x seconds
 		25, // produce trucks every x seconds
 		35, // produce droids every x seconds
-		25, // produce cyborgs every x seconds
-		40, // produce VTOLs every x seconds
-		5, // min factories
-		5, // min vtol factories
-		5, // min cyborg factories
+		55, // produce cyborgs every x seconds
+		65, // produce VTOLs every x seconds
+		4, // min factories
+		4, // min vtol factories
+		4, // min cyborg factories
 		10, // min number of trucks
 		3, // min number of sensor droids
-		10, // min number of attack droids
-		3, // min number of defend droids
+		20, // min number of attack droids
+		10, // min number of defend droids
 		135, // ground attack every x seconds
 		135, // VTOL attack every x seconds
 		4); // tech level

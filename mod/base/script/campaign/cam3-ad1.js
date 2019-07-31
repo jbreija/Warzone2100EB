@@ -226,11 +226,12 @@ function eventStartLevel()
 
 	camCompleteRequiredResearch(CAM3AD_RES_NEXUS, NEXUS);
 
-	setAlliance(CAM_HUMAN_PLAYER, SILO_PLAYER, true);
-	setAlliance(NEXUS, SILO_PLAYER, true);
-	setAlliance(3, 7, true);
-	setAlliance(7, SILO_PLAYER, true);
-	
+
+	setAlliance(SILO_PLAYER, CAM_HUMAN_PLAYER, true);
+	setAlliance(SILO_PLAYER, ULTSCAV, true);
+	setAlliance(SILO_PLAYER, NEXUS, true);
+	setAlliance(ULTSCAV, NEXUS, true);
+
 	camSetArtifacts({
 		"NXbase1VtolFacArti": { tech: "R-Wpn-RailGun02" },
 		"NXcommandCenter": { tech: "R-Wpn-LasSat" },
@@ -314,21 +315,21 @@ function eventStartLevel()
 	queue("enableAllFactories", camChangeOnDiff(camMinutesToMilliseconds(5)));
 	ultScav_eventStartLevel(
 		1, // vtols on/off. -1 = off
-		20, // build defense every x seconds
+		65, // build defense every x seconds
 		50, // build factories every x seconds
 		45, // build cyborg factories every x seconds
 		25, // produce trucks every x seconds
-		35, // produce droids every x seconds
-		25, // produce cyborgs every x seconds
+		30, // produce droids every x seconds
+		45, // produce cyborgs every x seconds
 		40, // produce VTOLs every x seconds
-		5, // min factories
-		5, // min vtol factories
-		5, // min cyborg factories
-		10, // min number of trucks
+		3, // min factories
+		3, // min vtol factories
+		3, // min cyborg factories
+		5, // min number of trucks
 		3, // min number of sensor droids
-		10, // min number of attack droids
-		3, // min number of defend droids
+		20, // min number of attack droids
+		10, // min number of defend droids
 		135, // ground attack every x seconds
-		135, // VTOL attack every x seconds
+		155, // VTOL attack every x seconds
 		4); // tech level
 }

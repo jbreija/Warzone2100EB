@@ -4,7 +4,6 @@ include("script/campaign/templates.js");
 include("script/campaign/transitionTech.js");
 include("script/campaign/ultScav.js");
 
-const SCAVS = 7; // Scav player number
 
 //Get some droids for the New Paradigm transport
 function getDroidsForNPLZ(args)
@@ -120,7 +119,7 @@ function eventStartLevel()
 	camSetStandardWinLossConditions(CAM_VICTORY_OFFWORLD, "CAM_1A-C", {
 		area: "RTLZ",
 		message: "C1-5_LZ",
-		reinforcements: camMinutesToSeconds(3),
+		reinforcements: camMinutesToSeconds(2),
 		annihilate: true
 	});
 
@@ -139,10 +138,12 @@ function eventStartLevel()
 
 	//Make sure the New Paradigm and Scavs are allies
 	setAlliance(NEW_PARADIGM, SCAVS, true);
+	setAlliance(NEW_PARADIGM, ULTSCAV, true);
+	setAlliance(ULTSCAV, SCAVS, true);
 
 	camCompleteRequiredResearch(CAM1_5_RES_NP, NEW_PARADIGM);
 	camCompleteRequiredResearch(CAM1_5_RES_SCAV, SCAVS);
-
+	camCompleteRequiredResearch(CAM1_5_RES_SCAV, ULTSCAV);
 
 	camSetEnemyBases({
 		"ScavNorthGroup": {
@@ -255,22 +256,22 @@ function eventStartLevel()
 
 	queue("enableNPFactories", camChangeOnDiff(camMinutesToMilliseconds(10)));
 	ultScav_eventStartLevel(
-		-1, // vtols on/off. -1 = off
-		25, // build defense every x seconds
+		1, // vtols on/off. -1 = off
+		85, // build defense every x seconds
 		75, // build factories every x seconds
 		-1, // build cyborg factories every x seconds
 		25, // produce trucks every x seconds
-		20, // produce droids every x seconds
+		30, // produce droids every x seconds
 		-1, // produce cyborgs every x seconds
-		-1, // produce VTOLs every x seconds
-		10, // min factories
-		-1, // min vtol factories
+		40, // produce VTOLs every x seconds
+		4, // min factories
+		2, // min vtol factories
 		-1, // min cyborg factories
 		4, // min number of trucks
 		2, // min number of sensor droids
-		10, // min number of attack droids
-		3, // min number of defend droids
+		20, // min number of attack droids
+		10, // min number of defend droids
 		55, // ground attack every x seconds
-		-1, // VTOL attack every x seconds
+		170, // VTOL attack every x seconds
 		1); // tech level
 }

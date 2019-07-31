@@ -198,10 +198,24 @@ function cam2Setup()
 
 	camCompleteRequiredResearch(CAM1A_RESEARCH, THE_COLLECTIVE);
 	camCompleteRequiredResearch(CAM1A_RESEARCH, CAM_HUMAN_PLAYER);
+	camCompleteRequiredResearch(CAM1A_RESEARCH, ULTSCAV);
 
 	camCompleteRequiredResearch(CAM2A_RESEARCH, THE_COLLECTIVE);
 	camCompleteRequiredResearch(CAM2A_RESEARCH, CAM_HUMAN_PLAYER);
+	camCompleteRequiredResearch(CAM2A_RESEARCH, ULTSCAV);
+
 	camCompleteRequiredResearch(CAM2A_RES_COL, THE_COLLECTIVE);
+	camCompleteRequiredResearch(CAM2A_RES_COL, ULTSCAV);
+
+	const BASE_STRUCTURES = [
+		"A0CommandCentre", "A0PowerGenerator", "A0ResourceExtractor",
+		"A0ResearchFacility", "A0LightFactory",
+	];
+
+	for (var i = 0; i < BASE_STRUCTURES.length; ++i)
+	{
+		enableStructure(BASE_STRUCTURES[i], CAM_HUMAN_PLAYER);
+	}
 
 	preDamageStuff();
 }
@@ -276,11 +290,6 @@ function eventGameLoaded()
 	}
 }
 
-function eventGameInit()
-{
-	completeResearch("R-Sys-Sensor-Upgrade00", 0);
-}
-
 function eventStartLevel()
 {
 	const PLAYER_POWER = 5000;
@@ -299,7 +308,7 @@ function eventStartLevel()
 	startTransporterEntry(tent.x, tent.y, CAM_HUMAN_PLAYER);
 	setTransporterExit(text.x, text.y, CAM_HUMAN_PLAYER);
 
-	setAlliance(2, 7, true);
+	setAlliance(THE_COLLECTIVE, ULTSCAV, true);
 	camSetArtifacts({
 		"COCommandCenter": { tech: "R-Sys-Engineering02" },
 		"COArtiPillbox": { tech: "R-Wpn-MG-ROF02" },
@@ -344,6 +353,7 @@ function eventStartLevel()
 		setReinforcementTime(camMinutesToSeconds(5)); // 5 min.
 	}
 
+
 	queue("secondVideo", camSecondsToMilliseconds(12));
 	queue("truckDefense", camSecondsToMilliseconds(15));
 	queue("groupPatrol", camChangeOnDiff(camMinutesToMilliseconds(1)));
@@ -352,21 +362,21 @@ function eventStartLevel()
 	queue("mapEdgeDroids", camChangeOnDiff(camMinutesToMilliseconds(7)));
 	ultScav_eventStartLevel(
 		-1, // vtols on/off. -1 = off
-		25, // build defense every x seconds
+		135, // build defense every x seconds
 		75, // build factories every x seconds
-		-1, // build cyborg factories every x seconds
-		25, // produce trucks every x seconds
+		115, // build cyborg factories every x seconds
+		65, // produce trucks every x seconds
 		115, // produce droids every x seconds
-		-1, // produce cyborgs every x seconds
+		95, // produce cyborgs every x seconds
 		-1, // produce VTOLs every x seconds
-		10, // min factories
+		2, // min factories
 		-1, // min vtol factories
-		-1, // min cyborg factories
+		4, // min cyborg factories
 		4, // min number of trucks
-		-1, // min number of sensor droids
-		10, // min number of attack droids
-		3, // min number of defend droids
-		55, // ground attack every x seconds
+		-3, // min number of sensor droids
+		20, // min number of attack droids
+		5, // min number of defend droids
+		170, // ground attack every x seconds
 		-1, // VTOL attack every x seconds
-		1); // tech level
+		2); // tech level
 }

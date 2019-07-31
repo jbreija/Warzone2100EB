@@ -176,27 +176,27 @@ function cam3Setup()
 
 	camCompleteRequiredResearch(CAM1A_RESEARCH, CAM_HUMAN_PLAYER);
 	camCompleteRequiredResearch(CAM1A_RESEARCH, NEXUS);
-	camCompleteRequiredResearch(CAM2A_RESEARCH, ultScav_PLAYER_NUM);
+	camCompleteRequiredResearch(CAM2A_RESEARCH, ULTSCAV);
 
 	camCompleteRequiredResearch(CAM2A_RESEARCH, CAM_HUMAN_PLAYER);
 	camCompleteRequiredResearch(CAM2A_RESEARCH, NEXUS);
-	camCompleteRequiredResearch(CAM2A_RESEARCH, ultScav_PLAYER_NUM);
+	camCompleteRequiredResearch(CAM2A_RESEARCH, ULTSCAV);
 
 	camCompleteRequiredResearch(CAM3A_RESEARCH, CAM_HUMAN_PLAYER);
 	camCompleteRequiredResearch(CAM3A_RESEARCH, NEXUS);
-	camCompleteRequiredResearch(CAM3A_RESEARCH, ultScav_PLAYER_NUM);
+	camCompleteRequiredResearch(CAM3A_RESEARCH, ULTSCAV);
 	camCompleteRequiredResearch(CAM3A_RES_NEXUS, NEXUS);
+	camCompleteRequiredResearch(CAM3A_RES_NEXUS, ULTSCAV);
 
-		const STRUCTS = [
-			"A0CommandCentre", "A0PowerGenerator", "A0ResourceExtractor",
-			"A0ResearchFacility", "A0LightFactory",
-		];
+	const BASE_STRUCTURES = [
+		"A0CommandCentre", "A0PowerGenerator", "A0ResourceExtractor",
+		"A0ResearchFacility", "A0LightFactory",
+	];
 	
-		for (var i = 0; i < STRUCTS.length; ++i)
-		{
-			enableStructure(STRUCTS[i], CAM_HUMAN_PLAYER);
-		}
-
+	for (var i = 0; i < BASE_STRUCTURES.length; ++i)
+	{
+		enableStructure(BASE_STRUCTURES[i], CAM_HUMAN_PLAYER);
+	}
 }
 
 
@@ -211,7 +211,7 @@ function eventStartLevel()
 	camSetStandardWinLossConditions(CAM_VICTORY_STANDARD, "SUB_3_1S");
 	setMissionTime(camChangeOnDiff(camHoursToSeconds(2)));
 
-	setAlliance(3, 7, true);
+	setAlliance(ULTSCAV, NEXUS, true);
 	centreView(startpos.x, startpos.y);
 	setNoGoArea(lz.x, lz.y, lz.x2, lz.y2, CAM_HUMAN_PLAYER);
 	startTransporterEntry(tent.x, tent.y, CAM_HUMAN_PLAYER);
@@ -227,7 +227,6 @@ function eventStartLevel()
 
 	setPower(PLAYER_POWER, CAM_HUMAN_PLAYER);
 	cam3Setup();
-	setAlliance(3, 7, true);
 	
 	camSetEnemyBases({
 		"NEXUS-WBase": {
@@ -359,22 +358,22 @@ function eventStartLevel()
 	queue("vtolAttack", camChangeOnDiff(camMinutesToMilliseconds(8)));
 	queue("enableAllFactories", camChangeOnDiff(camMinutesToMilliseconds(20)));
 	ultScav_eventStartLevel(
-		1, // vtols on/off. -1 = off
-		20, // build defense every x seconds
+		-1, // vtols on/off. -1 = off
+		55, // build defense every x seconds
 		50, // build factories every x seconds
 		45, // build cyborg factories every x seconds
 		25, // produce trucks every x seconds
-		35, // produce droids every x seconds
-		25, // produce cyborgs every x seconds
-		40, // produce VTOLs every x seconds
-		5, // min factories
-		5, // min vtol factories
-		5, // min cyborg factories
-		10, // min number of trucks
-		3, // min number of sensor droids
-		10, // min number of attack droids
-		3, // min number of defend droids
+		55, // produce droids every x seconds
+		45, // produce cyborgs every x seconds
+		-1, // produce VTOLs every x seconds
+		2, // min factories
+		-1, // min vtol factories
+		3, // min cyborg factories
+		6, // min number of trucks
+		4, // min number of sensor droids
+		20, // min number of attack droids
+		10, // min number of defend droids
 		135, // ground attack every x seconds
-		135, // VTOL attack every x seconds
+		-1, // VTOL attack every x seconds
 		3); // tech level
 }

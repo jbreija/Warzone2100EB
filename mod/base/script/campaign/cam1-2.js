@@ -4,6 +4,7 @@ include("script/campaign/templates.js");
 include("script/campaign/transitionTech.js");
 include("script/campaign/ultScav.js");
 
+
 function exposeNorthBase()
 {
 	camDetectEnemyBase("NorthGroup"); // no problem if already detected
@@ -81,6 +82,8 @@ function eventStartLevel()
 	startTransporterEntry(tent.x, tent.y, CAM_HUMAN_PLAYER);
 	setTransporterExit(text.x, text.y, CAM_HUMAN_PLAYER);
 
+	setAlliance(ULTSCAV, SCAVS, true);
+
 	camSetEnemyBases({
 		"NorthGroup": {
 			cleanup: "NorthBase",
@@ -147,21 +150,21 @@ function eventStartLevel()
 	queue("enableWestFactory", camSecondsToMilliseconds(30));
 	ultScav_eventStartLevel(
 		1, // vtols on/off. -1 = off
-		35, // build defense every x seconds
+		65, // build defense every x seconds
 		75, // build factories every x seconds
 		-1, // build cyborg factories every x seconds
 		25, // produce trucks every x seconds
-		35, // produce droids every x seconds
+		50, // produce droids every x seconds
 		-1, // produce cyborgs every x seconds
 		55, // produce VTOLs every x seconds
-		4, // min factories
+		2, // min factories
 		2, // min vtol factories
 		-1, // min cyborg factories
 		3, // min number of trucks
 		-1, // min number of sensor droids
-		10, // min number of attack droids
+		20, // min number of attack droids
 		3, // min number of defend droids
-		55, // ground attack every x seconds
+		75, // ground attack every x seconds
 		210, // VTOL attack every x seconds
 		1); // tech level
 }

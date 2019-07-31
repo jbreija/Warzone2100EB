@@ -3,7 +3,6 @@ include("script/campaign/libcampaign.js");
 include("script/campaign/templates.js");
 include("script/campaign/ultScav.js");
 
-const SCAVS = 7; //Scav player number
 
 //Ambush player from scav base - triggered from middle path
 camAreaEvent("scavBaseTrigger", function()
@@ -59,6 +58,8 @@ function eventStartLevel()
 	startTransporterEntry(tent.x, tent.y, CAM_HUMAN_PLAYER);
 	setTransporterExit(text.x, text.y, CAM_HUMAN_PLAYER);
 
+	setAlliance(ULTSCAV, SCAVS, true);
+
 	//Get rid of the already existing crate and replace with another
 	camSafeRemoveObject("artifact1", false);
 	camSetArtifacts({
@@ -69,21 +70,21 @@ function eventStartLevel()
 	hackAddMessage("C1-1_OBJ1", PROX_MSG, CAM_HUMAN_PLAYER, true);
 	ultScav_eventStartLevel(
 		1, // vtols on/off. -1 = off
-		20, // build defense every x seconds
+		30, // build defense every x seconds
 		35, // build factories every x seconds
 		-1, // build cyborg factories every x seconds
 		25, // produce trucks every x seconds
-		25, // produce droids every x seconds
+		30, // produce droids every x seconds
 		-1, // produce cyborgs every x seconds
 		35, // produce VTOLs every x seconds
-		10, // min factories
+		2, // min factories
 		4, // min vtol factories
 		-1, // min cyborg factories
 		3, // min number of trucks
 		2, // min number of sensor droids
-		7, // min number of attack droids
-		3, // min number of defend droids
-		-1, // ground attack every x seconds
-		-1, // VTOL attack every x seconds
+		40, // min number of attack droids
+		15, // min number of defend droids
+		210, // ground attack every x seconds
+		230, // VTOL attack every x seconds
 		1); // tech level
 }

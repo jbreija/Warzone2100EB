@@ -276,7 +276,7 @@ function eventStartLevel()
 	});
 
 	setScrollLimits(0, Y_SCROLL_LIMIT, 64, 256);
-	setAlliance(3, 7, true);
+	setAlliance(ULTSCAV, NEXUS, true);
 	
 	//Destroy everything above limits
 	var destroyZone = enumArea(0, 0, 64, Y_SCROLL_LIMIT, CAM_HUMAN_PLAYER, false);

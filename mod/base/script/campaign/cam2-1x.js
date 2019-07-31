@@ -126,14 +126,14 @@ function eventStartLevel()
 	//Add crash site blip and from an alliance with the crashed team.
 	hackAddMessage("C21_OBJECTIVE", PROX_MSG, CAM_HUMAN_PLAYER, true);
 	setAlliance(CAM_HUMAN_PLAYER, TRANSPORT_TEAM, true);
-	setAlliance(2, 7, true);
+	setAlliance(THE_COLLECTIVE, ULTSCAV, true);
 
 	//set downed transport team colour to be Project Green.
 	changePlayerColour(TRANSPORT_TEAM, 0);
 
 	camCompleteRequiredResearch(CAM2_1_RES_COL, THE_COLLECTIVE);
 	camCompleteRequiredResearch(CAM2_1_RES_HUMAN, TRANSPORT_TEAM);
-	camCompleteRequiredResearch(CAM2_1_RES_HUMAN, TRANSPORT_TEAM);
+	camCompleteRequiredResearch(CAM2_1_RES_COL, ULTSCAV);
 
 	camSetArtifacts({
 		"base1ArtifactPos": { tech: "R-Vehicle-Body20" }, //hardened alloys, blue bodies
@@ -165,16 +165,16 @@ function eventStartLevel()
 	queue("setupCyborgGroups", camSecondsToMilliseconds(5));
 	ultScav_eventStartLevel(
 		-1, // vtols on/off. -1 = off
-		25, // build defense every x seconds
-		75, // build factories every x seconds
-		35, // build cyborg factories every x seconds
+		75, // build defense every x seconds
+		85, // build factories every x seconds
+		55, // build cyborg factories every x seconds
 		25, // produce trucks every x seconds
-		20, // produce droids every x seconds
-		15, // produce cyborgs every x seconds
+		45, // produce droids every x seconds
+		35, // produce cyborgs every x seconds
 		-1, // produce VTOLs every x seconds
-		2, // min factories
+		1, // min factories
 		-1, // min vtol factories
-		10, // min cyborg factories
+		1, // min cyborg factories
 		3, // min number of trucks
 		-1, // min number of sensor droids
 		10, // min number of attack droids

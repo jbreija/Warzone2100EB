@@ -218,7 +218,7 @@ function eventStartLevel()
 	centreView(startpos.x, startpos.y);
 	setNoGoArea(lz.x, lz.y, lz.x2, lz.y2, CAM_HUMAN_PLAYER);
 	setMissionTime(camChangeOnDiff(camHoursToSeconds(1)));
-	setAlliance(3, 7, true);
+	setAlliance(ULTSCAV, NEXUS, true);
 	
 	var enemyLz = getObject("NXlandingZone");
 	setNoGoArea(enemyLz.x, enemyLz.y, enemyLz.x2, enemyLz.y2, NEXUS);

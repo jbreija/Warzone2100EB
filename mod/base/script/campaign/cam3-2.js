@@ -205,7 +205,7 @@ function enableReinforcements()
 	camSetStandardWinLossConditions(CAM_VICTORY_OFFWORLD, "CAM3A-B", {
 		area: "RTLZ",
 		message: "C32_LZ",
-		reinforcements: camMinutesToSeconds(3),
+		reinforcements: camMinutesToSeconds(2),
 		callback: "alphaTeamAlive",
 		retlz: true
 	});
@@ -265,14 +265,15 @@ function eventStartLevel()
 	startTransporterEntry(tent.x, tent.y, CAM_HUMAN_PLAYER);
 	setTransporterExit(text.x, text.y, CAM_HUMAN_PLAYER);
 
-	setAlliance(3, ultScav_PLAYER_NUM, true);
-	setAlliance(1, ultScav_PLAYER_NUM, true);
+	setAlliance(ULTSCAV, NEXUS, true);
+
 	var enemyLz = getObject("NXlandingZone");
 	setNoGoArea(enemyLz.x, enemyLz.y, enemyLz.x2, enemyLz.y2, NEXUS);
 
 	camCompleteRequiredResearch(CAM3_2_RES_NEXUS, NEXUS);
 	camCompleteRequiredResearch(CAM3_2_RES_ALLY, ALPHA);
 	setAlliance(ALPHA, NEXUS, true);
+	setAlliance(ALPHA, ULTSCAV, true);
 	setAlliance(ALPHA, CAM_HUMAN_PLAYER, true);
 	changePlayerColour(ALPHA, 0);
 
@@ -283,22 +284,22 @@ function eventStartLevel()
 	queue("setAlphaExp", camSecondsToMilliseconds(2));
 	queue("setupPatrolGroups", camSecondsToMilliseconds(15));
 	ultScav_eventStartLevel(
-		1, // vtols on/off. -1 = off
-		20, // build defense every x seconds
+		-1, // vtols on/off. -1 = off
+		55, // build defense every x seconds
 		50, // build factories every x seconds
 		45, // build cyborg factories every x seconds
 		25, // produce trucks every x seconds
-		35, // produce droids every x seconds
-		25, // produce cyborgs every x seconds
-		40, // produce VTOLs every x seconds
-		5, // min factories
-		5, // min vtol factories
-		5, // min cyborg factories
-		10, // min number of trucks
-		3, // min number of sensor droids
-		10, // min number of attack droids
-		3, // min number of defend droids
+		30, // produce droids every x seconds
+		65, // produce cyborgs every x seconds
+		-1, // produce VTOLs every x seconds
+		2, // min factories
+		-1, // min vtol factories
+		2, // min cyborg factories
+		4, // min number of trucks
+		2, // min number of sensor droids
+		20, // min number of attack droids
+		10, // min number of defend droids
 		135, // ground attack every x seconds
-		135, // VTOL attack every x seconds
+		-1, // VTOL attack every x seconds
 		4); // tech level
 }

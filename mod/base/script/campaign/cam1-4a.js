@@ -4,6 +4,7 @@ include("script/campaign/templates.js");
 include("script/campaign/transitionTech.js");
 include("script/campaign/ultScav.js");
 
+
 //Pursue player when nearby but do not go too far away from defense zone.
 function camEnemyBaseDetected_NPBaseGroup()
 {
@@ -108,7 +109,6 @@ function eventStartLevel()
 		retlz: true
 	});
 
-	const SCAVS = 7;
 	var startpos = getObject("StartPosition");
 	var lz = getObject("LandingZone1"); // will override later
 	var tent = getObject("TransporterEntry");
@@ -121,7 +121,11 @@ function eventStartLevel()
 
 	camCompleteRequiredResearch(CAM1_4_RES_NP, NEW_PARADIGM);
 	camCompleteRequiredResearch(CAM1_4_RES_SCAV, SCAVS);
+	camCompleteRequiredResearch(CAM1_4_RES_SCAV, ULTSCAV);
 	setAlliance(NEW_PARADIGM, SCAVS, true);
+	setAlliance(SCAVS, ULTSCAV, true);
+	setAlliance(NEW_PARADIGM, ULTSCAV, true);
+
 
 	camSetEnemyBases({
 		"SouthScavBaseGroup": {
@@ -152,8 +156,8 @@ function eventStartLevel()
 		"MediumNPFactory": { tech: "R-Wpn-Rocket-Pod-MRA" },
 		"ThermalScorpion": { tech: "R-Vehicle-Body17" },
 		"MedCannonHardpoint": { tech: "R-Wpn-Cannon2Mk1" },
-		"MedCannonHardpoint": { tech: "R-Wpn-Rocket05-MiniPod-Arch" },
-		"MedCannonHardpoint": { tech: "R-Wpn-Rocket-Pod-MRA-Twin" },
+		"RocketTower": { tech: "R-Wpn-Rocket05-MiniPod-Arch" },
+		"Thermaldroid": { tech: "R-Wpn-Rocket-Pod-MRA-Twin" },
 	});
 
 	camSetFactories({
@@ -202,21 +206,21 @@ function eventStartLevel()
 	queue("enableSouthScavFactory", camChangeOnDiff(camSecondsToMilliseconds(10)));
 	ultScav_eventStartLevel(
 		1, // vtols on/off. -1 = off
-		45, // build defense every x seconds
+		95, // build defense every x seconds
 		85, // build factories every x seconds
 		-1, // build cyborg factories every x seconds
 		35, // produce trucks every x seconds
-		35, // produce droids every x seconds
+		75, // produce droids every x seconds
 		-1, // produce cyborgs every x seconds
 		-1, // produce VTOLs every x seconds
-		10, // min factories
-		-1, // min vtol factories
+		2, // min factories
+		1, // min vtol factories
 		-1, // min cyborg factories
 		3, // min number of trucks
 		-1, // min number of sensor droids
-		10, // min number of attack droids
-		20, // min number of defend droids
-		55, // ground attack every x seconds
+		20, // min number of attack droids
+		10, // min number of defend droids
+		230, // ground attack every x seconds
 		210, // VTOL attack every x seconds
 		1); // tech level
 }

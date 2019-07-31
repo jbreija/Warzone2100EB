@@ -96,13 +96,13 @@
 	"object_1": {
 		"label": "base3Factory",
 		"id": 20,
-		"player": 6,
+		"player": 7,
 		"type": 1
 	},
 	"object_2": {
 		"label": "base4Factory",
 		"id": 1256,
-		"player": 6,
+		"player": 7,
 		"type": 1
 	},
 

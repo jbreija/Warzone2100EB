@@ -4,6 +4,7 @@ include("script/campaign/templates.js");
 include("script/campaign/transitionTech.js");
 include("script/campaign/ultScav.js");
 
+
 camAreaEvent("tankTrapTrig", function(droid)
 {
 	camEnableFactory("NPFactoryW");
@@ -148,6 +149,8 @@ function eventStartLevel()
 	startTransporterEntry(tent.x, tent.y, CAM_HUMAN_PLAYER);
 	setTransporterExit(text.x, text.y, CAM_HUMAN_PLAYER);
 
+	setAlliance(ULTSCAV, NEW_PARADIGM, true);
+
 	//Get rid of the already existing crate and replace with another
 	camSafeRemoveObject("artifact1", false);
 	camSetArtifacts({
@@ -263,4 +266,23 @@ function eventStartLevel()
 	hackAddMessage("C1D_OBJ1", PROX_MSG, CAM_HUMAN_PLAYER, true);
 
 	queue("setupPatrols", camMinutesToMilliseconds(2.5));
+	ultScav_eventStartLevel(
+		1, // vtols on/off. -1 = off
+		85, // build defense every x seconds
+		75, // build factories every x seconds
+		90, // build cyborg factories every x seconds
+		35, // produce trucks every x seconds
+		55, // produce droids every x seconds
+		55, // produce cyborgs every x seconds
+		45, // produce VTOLs every x seconds
+		3, // min factories
+		3, // min vtol factories
+		3, // min cyborg factories
+		4, // min number of trucks
+		5, // min number of sensor droids
+		25, // min number of attack droids
+		3, // min number of defend droids
+		220, // ground attack every x seconds
+		210, // VTOL attack every x seconds
+		1.5); // tech level
 }

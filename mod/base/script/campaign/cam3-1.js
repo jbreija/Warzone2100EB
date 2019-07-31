@@ -3,6 +3,7 @@ include("script/campaign/templates.js");
 include("script/campaign/transitionTech.js");
 include ("script/campaign/ultScav.js");
 
+
 var launchInfo;
 var detonateInfo;
 
@@ -279,7 +280,7 @@ function eventStartLevel()
 
 	camSetStandardWinLossConditions(CAM_VICTORY_OFFWORLD, "CAM_3B", {
 		area: "RTLZ",
-		reinforcements: camMinutesToSeconds(3),
+		reinforcements: camMinutesToSeconds(2),
 		callback: "unitsInValley"
 	});
 
@@ -292,7 +293,7 @@ function eventStartLevel()
 	var enemyLz = getObject("NXlandingZone");
 	setNoGoArea(enemyLz.x, enemyLz.y, enemyLz.x2, enemyLz.y2, NEXUS);
 
-	setAlliance(3, 7, true);
+	setAlliance(ULTSCAV, NEXUS, true);
 	camCompleteRequiredResearch(CAM3A_RES_NEXUS, NEXUS);
 
 	camSetEnemyBases({
@@ -360,22 +361,22 @@ function eventStartLevel()
 	queue("vtolAttack", camChangeOnDiff(camMinutesToMilliseconds(5)));
 	queue("enableAllFactories", camChangeOnDiff(camMinutesToMilliseconds(5)));
 	ultScav_eventStartLevel(
-		1, // vtols on/off. -1 = off
-		20, // build defense every x seconds
+		-1, // vtols on/off. -1 = off
+		50, // build defense every x seconds
 		50, // build factories every x seconds
 		45, // build cyborg factories every x seconds
 		25, // produce trucks every x seconds
-		35, // produce droids every x seconds
-		25, // produce cyborgs every x seconds
-		40, // produce VTOLs every x seconds
-		5, // min factories
-		5, // min vtol factories
-		5, // min cyborg factories
-		10, // min number of trucks
+		55, // produce droids every x seconds
+		45, // produce cyborgs every x seconds
+		-1, // produce VTOLs every x seconds
+		2, // min factories
+		-1, // min vtol factories
+		2, // min cyborg factories
+		6, // min number of trucks
 		3, // min number of sensor droids
 		10, // min number of attack droids
 		3, // min number of defend droids
 		135, // ground attack every x seconds
-		135, // VTOL attack every x seconds
+		-1, // VTOL attack every x seconds
 		3); // tech level
 }

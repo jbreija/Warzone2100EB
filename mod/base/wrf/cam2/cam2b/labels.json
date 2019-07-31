@@ -200,6 +200,12 @@
 		"player": 2,
 		"type": 1
 	},
+	"object_8": {
+		"label": "InfernoBunker",
+		"id": 4835,
+		"player": 2,
+		"type": 1
+	},
 
 	"radius_0": {
 		"label": "vtolRemoveZone",

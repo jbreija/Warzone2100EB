@@ -3,6 +3,7 @@ include("script/campaign/templates.js");
 include("script/campaign/transitionTech.js");
 include ("script/campaign/ultScav.js");
 
+
 function vtolAttack()
 {
 	camManageGroup(camMakeGroup("COVtolGroup"), CAM_ORDER_ATTACK, {
@@ -73,7 +74,7 @@ function eventStartLevel()
 {
 	camSetStandardWinLossConditions(CAM_VICTORY_OFFWORLD, "CAM_2END", {
 		area: "RTLZ",
-		reinforcements: camMinutesToSeconds(3),
+		reinforcements: camMinutesToSeconds(2),
 		annihilate: true
 	});
 
@@ -97,7 +98,7 @@ function eventStartLevel()
 		"GroundShaker": { tech: "R-Wpn-HvyHowitzer" },
 	});
 
-	setAlliance(2, 7, true);
+	setAlliance(THE_COLLECTIVE, ULTSCAV, true);
 	camCompleteRequiredResearch(CAM2_8_RES_COL, THE_COLLECTIVE);
 
 	camSetEnemyBases({
@@ -178,21 +179,21 @@ function eventStartLevel()
 	queue("enableFactories", camChangeOnDiff(camMinutesToMilliseconds(1.5)));
 	ultScav_eventStartLevel(
 		1, // vtols on/off. -1 = off
-		20, // build defense every x seconds
+		40, // build defense every x seconds
 		50, // build factories every x seconds
 		45, // build cyborg factories every x seconds
 		25, // produce trucks every x seconds
-		35, // produce droids every x seconds
-		25, // produce cyborgs every x seconds
+		45, // produce droids every x seconds
+		35, // produce cyborgs every x seconds
 		40, // produce VTOLs every x seconds
-		5, // min factories
-		5, // min vtol factories
-		5, // min cyborg factories
+		3, // min factories
+		2, // min vtol factories
+		4, // min cyborg factories
 		10, // min number of trucks
 		3, // min number of sensor droids
-		10, // min number of attack droids
-		3, // min number of defend droids
-		135, // ground attack every x seconds
-		135, // VTOL attack every x seconds
-		2); // tech level
+		20, // min number of attack droids
+		10, // min number of defend droids
+		125, // ground attack every x seconds
+		145, // VTOL attack every x seconds
+		2.5); // tech level
 }

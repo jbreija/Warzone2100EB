@@ -154,10 +154,10 @@
 		"type": 1
 	},
 	"object_8": {
-		"label": "JammerDroid",
-		"id": 671,
+		"label": "JammerTurret",
+		"id": 695,
 		"player": 1,
-		"type": 0
+		"type": 1
 	},
 	"radius_0": {
 		"label": "RemoveBeacon",

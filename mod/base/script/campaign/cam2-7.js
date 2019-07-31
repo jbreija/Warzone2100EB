@@ -3,6 +3,7 @@ include("script/campaign/templates.js");
 include("script/campaign/transitionTech.js");
 include ("script/campaign/ultScav.js");
 
+
 function camEnemyBaseDetected_COBase1()
 {
 	hackRemoveMessage("C27_OBJECTIVE1", PROX_MSG, CAM_HUMAN_PLAYER);
@@ -78,7 +79,7 @@ function eventStartLevel()
 		eliminateBases: true,
 		area: "RTLZ",
 		message: "C27_LZ",
-		reinforcements: camMinutesToSeconds(3)
+		reinforcements: camMinutesToSeconds(2)
 	});
 
 	var startpos = getObject("startPosition");
@@ -94,13 +95,13 @@ function eventStartLevel()
 	setNoGoArea(enemyLz.x, enemyLz.y, enemyLz.x2, enemyLz.y2, THE_COLLECTIVE);
 
 	camSetArtifacts({
-		"COHeavyFac-Arti-b2": { tech: "R-Wpn-Cannon5" },
+		"COCyborgFac-b2": { tech: "R-Wpn-Cannon5" },
 		"COTankKillerHardpoint": { tech: "R-Wpn-Rocket07-Tank-Killer-Quad" },
-		"COFactorySouthEast": { tech: "R-Wpn-Cannon-Damage07" },
+		"COCyborgFac-b3": { tech: "R-Wpn-Cannon-Damage07" },
 		"COHeavyFac-b4": { tech: "R-Wpn-Cannon-ROF04" },
 	});
 
-	setAlliance(2, 7, true);
+	setAlliance(THE_COLLECTIVE, ULTSCAV, true);
 	camCompleteRequiredResearch(CAM2_7_RES_COL, THE_COLLECTIVE);
 
 	camSetEnemyBases({
@@ -233,5 +234,5 @@ function eventStartLevel()
 		3, // min number of defend droids
 		135, // ground attack every x seconds
 		135, // VTOL attack every x seconds
-		2); // tech level
+		2.5); // tech level
 }

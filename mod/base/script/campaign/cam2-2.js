@@ -145,7 +145,7 @@ function eventStartLevel()
 	camSetStandardWinLossConditions(CAM_VICTORY_OFFWORLD, "CAM_2C",{
 		area: "RTLZ",
 		message: "C22_LZ",
-		reinforcements: camMinutesToSeconds(3)
+		reinforcements: camMinutesToSeconds(2)
 	});
 
 	var startpos = getObject("startPosition");
@@ -157,7 +157,7 @@ function eventStartLevel()
 	startTransporterEntry(tent.x, tent.y, CAM_HUMAN_PLAYER);
 	setTransporterExit(text.x, text.y, CAM_HUMAN_PLAYER);
 
-	setAlliance(2, 7, true);
+	setAlliance(THE_COLLECTIVE, ULTSCAV, true);
 	var enemyLz = getObject("COLandingZone");
 	setNoGoArea(enemyLz.x, enemyLz.y, enemyLz.x2, enemyLz.y2, THE_COLLECTIVE);
 
@@ -224,20 +224,20 @@ function eventStartLevel()
 	queue("vtolAttack", camMinutesToMilliseconds(2));
 	ultScav_eventStartLevel(
 		-1, // vtols on/off. -1 = off
-		25, // build defense every x seconds
+		45, // build defense every x seconds
 		75, // build factories every x seconds
 		35, // build cyborg factories every x seconds
 		25, // produce trucks every x seconds
-		20, // produce droids every x seconds
-		15, // produce cyborgs every x seconds
+		50, // produce droids every x seconds
+		25, // produce cyborgs every x seconds
 		-1, // produce VTOLs every x seconds
 		2, // min factories
 		-1, // min vtol factories
-		10, // min cyborg factories
+		3, // min cyborg factories
 		3, // min number of trucks
 		-1, // min number of sensor droids
-		10, // min number of attack droids
-		3, // min number of defend droids
+		20, // min number of attack droids
+		10, // min number of defend droids
 		210, // ground attack every x seconds
 		-1, // VTOL attack every x seconds
 		2); // tech level

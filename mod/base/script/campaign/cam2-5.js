@@ -3,6 +3,7 @@ include("script/campaign/templates.js");
 include("script/campaign/transitionTech.js");
 include ("script/campaign/ultScav.js");
 
+
 camAreaEvent("factoryTrigger", function(droid)
 {
 	enableFactories();
@@ -81,7 +82,7 @@ function eventStartLevel()
 	camSetStandardWinLossConditions(CAM_VICTORY_OFFWORLD, "SUB_2DS",{
 		area: "RTLZ",
 		message: "C25_LZ",
-		reinforcements: camMinutesToSeconds(3)
+		reinforcements: camMinutesToSeconds(2)
 	});
 
 	var startpos = getObject("startPosition");
@@ -103,7 +104,7 @@ function eventStartLevel()
 		"COTankKillerHardpoint": { tech: "R-Wpn-Rocket-ROF02" },
 	});
 
-	setAlliance(2, 7, true);
+	setAlliance(THE_COLLECTIVE, ULTSCAV, true);
 	camCompleteRequiredResearch(CAM2_5_RES_COL, THE_COLLECTIVE);
 
 	camSetEnemyBases({
@@ -168,21 +169,21 @@ function eventStartLevel()
 	queue("setupCyborgsNorth", camChangeOnDiff(camMinutesToMilliseconds(10)));
 	ultScav_eventStartLevel(
 		1, // vtols on/off. -1 = off
-		20, // build defense every x seconds
+		40, // build defense every x seconds
 		50, // build factories every x seconds
 		45, // build cyborg factories every x seconds
 		25, // produce trucks every x seconds
-		35, // produce droids every x seconds
+		45, // produce droids every x seconds
 		25, // produce cyborgs every x seconds
 		40, // produce VTOLs every x seconds
-		5, // min factories
-		5, // min vtol factories
-		5, // min cyborg factories
-		10, // min number of trucks
+		1, // min factories
+		1, // min vtol factories
+		2, // min cyborg factories
+		5, // min number of trucks
 		3, // min number of sensor droids
-		10, // min number of attack droids
-		3, // min number of defend droids
+		20, // min number of attack droids
+		10, // min number of defend droids
 		135, // ground attack every x seconds
-		135, // VTOL attack every x seconds
-		2); // tech level
+		175, // VTOL attack every x seconds
+		2.5); // tech level
 }

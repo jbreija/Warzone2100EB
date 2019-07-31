@@ -72,6 +72,7 @@ function discoverGammaBase()
 
 	camAbsorbPlayer(GAMMA, CAM_HUMAN_PLAYER); //Take everything they got!
 	setAlliance(NEXUS, GAMMA, false);
+	setAlliance(ULTSCAV, GAMMA, false);
 
 	hackRemoveMessage("CM3C_GAMMABASE", PROX_MSG, CAM_HUMAN_PLAYER);
 	hackRemoveMessage("CM3C_BETATEAM", PROX_MSG, CAM_HUMAN_PLAYER);
@@ -137,8 +138,8 @@ function eventStartLevel()
 
 	setAlliance(CAM_HUMAN_PLAYER, GAMMA, true);
 	setAlliance(NEXUS, GAMMA, true);
-	setAlliance(ultScav_PLAYER_NUM, GAMMA, true);
-	setAlliance(ultScav_PLAYER_NUM, NEXUS, true);
+	setAlliance(ULTSCAV, GAMMA, true);
+	setAlliance(ULTSCAV, NEXUS, true);
 
 	camSetArtifacts({
 		"NXbase1HeavyFacArti": { tech: "R-Wpn-Laser02" }, 
@@ -226,22 +227,22 @@ function eventStartLevel()
 	queue("setupPatrolGroups", camSecondsToMilliseconds(10));
 	queue("enableAllFactories", camChangeOnDiff(camMinutesToMilliseconds(3)));
 	ultScav_eventStartLevel(
-		1, // vtols on/off. -1 = off
-		20, // build defense every x seconds
+		-1, // vtols on/off. -1 = off
+		50, // build defense every x seconds
 		50, // build factories every x seconds
 		45, // build cyborg factories every x seconds
 		25, // produce trucks every x seconds
 		35, // produce droids every x seconds
-		25, // produce cyborgs every x seconds
-		40, // produce VTOLs every x seconds
-		5, // min factories
-		5, // min vtol factories
-		5, // min cyborg factories
-		10, // min number of trucks
+		60, // produce cyborgs every x seconds
+		-1, // produce VTOLs every x seconds
+		2, // min factories
+		-1, // min vtol factories
+		2, // min cyborg factories
+		5, // min number of trucks
 		3, // min number of sensor droids
-		10, // min number of attack droids
-		3, // min number of defend droids
+		20, // min number of attack droids
+		10, // min number of defend droids
 		135, // ground attack every x seconds
-		135, // VTOL attack every x seconds
+		-1, // VTOL attack every x seconds
 		4); // tech level
 }

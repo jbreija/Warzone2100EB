@@ -111,7 +111,7 @@
 	"object_0": {
 		"label": "base1factory",
 		"id": 43,
-		"player": 6,
+		"player": 7,
 		"type": 1
 	},
 	"object_1": {
@@ -140,8 +140,8 @@
 	},
 	"object_5": {
 		"label": "npscout",
-		"id": 3577,
-		"player": 1,
+		"id": 3690,
+		"player": 7,
 		"type": 0
 	}
 }

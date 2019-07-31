@@ -85,10 +85,10 @@ const CAM_HUMAN_PLAYER = 0;
 const NEW_PARADIGM = 1;
 const THE_COLLECTIVE = 2;
 const NEXUS = 3;
-const ultScav_PLAYER_NUM = 7;
+const SCAVS = 7;
+const ULTSCAV = 9;
 
-
-const CAM_MAX_PLAYERS = 8;
+const CAM_MAX_PLAYERS = 11;
 const CAM_TICKS_PER_FRAME = 100;
 const AI_POWER = 999999;
 
@@ -539,13 +539,10 @@ function __camGrantSpecialResearch()
 {
 	for (var i = 1; i < CAM_MAX_PLAYERS; ++i)
 	{
-		if (i != ultScav_PLAYER_NUM)
+		if (!allianceExistsBetween(CAM_HUMAN_PLAYER, i) && (countDroid(DROID_ANY, i) > 0 || enumStruct(i).length > 0))
 		{
-			if (!allianceExistsBetween(CAM_HUMAN_PLAYER, i) && (countDroid(DROID_ANY, i) > 0 || enumStruct(i).length > 0))
-			{
-				//Boost AI production to produce all droids within a factory throttle
-				completeResearch("R-Struc-Factory-Upgrade-AI", i);
-			}
+			//Boost AI production to produce all droids within a factory throttle
+			completeResearch("R-Struc-Factory-Upgrade-AI", i);
 		}
 	}
 }
@@ -1305,7 +1302,7 @@ function __camDispatchTransporterUnsafe()
 		}
 		else
 		{
-			transporter_body = "TransporterBody"
+			transporter_body = "SuperTransportBody"
 		}
 		camTrace("Creating a transporter for player", player);
 		__camPlayerTransports[player] = addDroid(player, -1, -1,
@@ -3213,7 +3210,7 @@ function camIsTransporter(object)
 //;;
 function camSetupTransporter(x, y, x1, y1)
 {
-	addDroid(CAM_HUMAN_PLAYER, x, y, "Transport", "TransporterBody", "V-Tol", "", "", "MG3-VTOL");
+	addDroid(CAM_HUMAN_PLAYER, x, y, "Transport", "SuperTransportBody", "V-Tol", "", "", "MG3-VTOL");
 	setTransporterExit(x1, y1, CAM_HUMAN_PLAYER);
 }
 

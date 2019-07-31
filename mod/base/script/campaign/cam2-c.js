@@ -4,7 +4,7 @@ include("script/campaign/templates.js");
 include("script/campaign/transitionTech.js");
 include ("script/campaign/ultScav.js");
 
-const CIVILIAN = 7; //Civilian player number.
+const CIVILIAN = 6; //Civilian player number.
 var capturedCivCount; //How many civilians have been captured. 59 for defeat.
 var civilianPosIndex; //Current location of civilian groups.
 var shepardGroup; //Enemy group that protects civilians.
@@ -286,10 +286,12 @@ function eventStartLevel()
 
 	setMissionTime(camChangeOnDiff(camHoursToSeconds(2)));
 
-	setAlliance(2, 7, true);
+	setAlliance(THE_COLLECTIVE, ULTSCAV, true);
 	setAlliance(THE_COLLECTIVE, CIVILIAN, true);
 	setAlliance(CAM_HUMAN_PLAYER, CIVILIAN, true);
+	setAlliance(ULTSCAV, CIVILIAN, true);
 	camCompleteRequiredResearch(CAM2C_RES_COL, THE_COLLECTIVE);
+	camCompleteRequiredResearch(CAM2C_RES_COL, ULTSCAV);
 
 	camSetEnemyBases({
 		"COAirBase": {
@@ -397,21 +399,21 @@ function eventStartLevel()
 	queue("activateGroups", camChangeOnDiff(camMinutesToMilliseconds(8)));
 	ultScav_eventStartLevel(
 		1, // vtols on/off. -1 = off
-		20, // build defense every x seconds
+		35, // build defense every x seconds
 		50, // build factories every x seconds
 		45, // build cyborg factories every x seconds
 		25, // produce trucks every x seconds
-		35, // produce droids every x seconds
-		25, // produce cyborgs every x seconds
-		40, // produce VTOLs every x seconds
+		55, // produce droids every x seconds
+		45, // produce cyborgs every x seconds
+		60, // produce VTOLs every x seconds
 		5, // min factories
 		5, // min vtol factories
 		5, // min cyborg factories
 		10, // min number of trucks
 		3, // min number of sensor droids
-		10, // min number of attack droids
-		3, // min number of defend droids
+		20, // min number of attack droids
+		20, // min number of defend droids
 		135, // ground attack every x seconds
-		135, // VTOL attack every x seconds
+		165, // VTOL attack every x seconds
 		2); // tech level
 }

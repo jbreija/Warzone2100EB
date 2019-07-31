@@ -207,9 +207,13 @@ function eventStartLevel()
 
 	setReinforcementTime(-1);
 	setMissionTime(camChangeOnDiff(camHoursToSeconds(2)));
-	setAlliance(NEW_PARADIGM, 7, true);
+	setAlliance(NEW_PARADIGM, SCAVS, true);
+	setAlliance(ULTSCAV, SCAVS, true);
+	setAlliance(ULTSCAV, NEW_PARADIGM, true);
+
 	camCompleteRequiredResearch(CAM1C_RES_NP, NEW_PARADIGM);
-	camCompleteRequiredResearch(CAM1C_RES_SCAV, 7);
+	camCompleteRequiredResearch(CAM1C_RES_SCAV, SCAVS);
+	camCompleteRequiredResearch(CAM1C_RES_SCAV, ULTSCAV);
 	camSetEnemyBases({
 		"ScavSouthDerrickGroup": {
 			cleanup: "ScavSouthDerrick",
@@ -355,20 +359,20 @@ function eventStartLevel()
 	queue("enableNPFactory", camMinutesToMilliseconds(5));
 	ultScav_eventStartLevel(
 		1, // vtols on/off. -1 = off
-		25, // build defense every x seconds
+		55, // build defense every x seconds
 		75, // build factories every x seconds
 		-1, // build cyborg factories every x seconds
 		25, // produce trucks every x seconds
 		45, // produce droids every x seconds
 		-1, // produce cyborgs every x seconds
 		30, // produce VTOLs every x seconds
-		10, // min factories
-		-1, // min vtol factories
+		6, // min factories
+		6, // min vtol factories
 		-1, // min cyborg factories
 		4, // min number of trucks
 		5, // min number of sensor droids
 		25, // min number of attack droids
-		3, // min number of defend droids
+		10, // min number of defend droids
 		55, // ground attack every x seconds
 		210, // VTOL attack every x seconds
 		1); // tech level

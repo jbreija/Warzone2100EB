@@ -3,6 +3,7 @@ include("script/campaign/templates.js");
 include("script/campaign/transitionTech.js");
 include("script/campaign/ultScav.js");
 
+
 // Player zero's droid enters area next to first oil patch.
 camAreaEvent("launchScavAttack", function(droid)
 {
@@ -113,24 +114,29 @@ function camEnemyBaseEliminated_scavGroup2()
 	queue("camDetectEnemyBase", camSecondsToMilliseconds(2), "scavGroup3");
 }
 
-function enableBaseStructures()
-{
-	const STRUCTS = [
-		"A0CommandCentre", "A0PowerGenerator", "A0ResourceExtractor",
-		"A0ResearchFacility", "A0LightFactory",
-	];
-
-	for (var i = 0; i < STRUCTS.length; ++i)
-	{
-		enableStructure(STRUCTS[i], CAM_HUMAN_PLAYER);
-	}
-}
-
 function eventGameInit()
 {
 	// if completed in eventStartLevel() the sensor range is normal for a split second. Prefer to run this before map is loaded
 	// only needed in cam1a and cam1b
 	completeResearch("R-Sys-Sensor-Upgrade00", 0);
+}
+
+function cam1setup()
+{
+	enableResearch("R-Wpn-MG1Mk1", 0);
+	camCompleteRequiredResearch(CAM1A_RESEARCH, CAM_HUMAN_PLAYER);
+	camCompleteRequiredResearch(CAM1A_RES_SCAV, ULTSCAV);
+	camCompleteRequiredResearch(CAM1A_RES_SCAV, SCAVS);
+
+	const BASE_STRUCTURES = [
+		"A0CommandCentre", "A0PowerGenerator", "A0ResourceExtractor",
+		"A0ResearchFacility", "A0LightFactory",
+	];
+
+	for (var i = 0; i < BASE_STRUCTURES.length; ++i)
+	{
+		enableStructure(BASE_STRUCTURES[i], CAM_HUMAN_PLAYER);
+	}
 }
 
 function eventStartLevel()
@@ -141,30 +147,12 @@ function eventStartLevel()
 
 	camSetStandardWinLossConditions(CAM_VICTORY_STANDARD, "CAM_1B");
 
-
 	centreView(startpos.x, startpos.y);
 	setNoGoArea(lz.x, lz.y, lz.x2, lz.y2, CAM_HUMAN_PLAYER);
 
-	if (difficulty === HARD)
-	{
-		setPower(600, CAM_HUMAN_PLAYER);
-	}
-	else if (difficulty === INSANE)
-	{
-		setPower(300, CAM_HUMAN_PLAYER);
-	}
-	else
-	{
-		setPower(PLAYER_POWER, CAM_HUMAN_PLAYER);
-	}
-
-	setAlliance(6, 7, true);
-
-	enableBaseStructures();
-	enableResearch("R-Wpn-MG1Mk1", 0);
-	camCompleteRequiredResearch(CAM1A_RESEARCH, CAM_HUMAN_PLAYER);
-	camCompleteRequiredResearch(CAM1A_RES_SCAV, 6);
-	camCompleteRequiredResearch(CAM1A_RES_SCAV, 7);
+	cam1setup()
+	setPower(PLAYER_POWER, CAM_HUMAN_PLAYER);
+	setAlliance(ULTSCAV, SCAVS, true);
 
 	// Give player briefing.
 	hackAddMessage("CMB1_MSG", CAMP_MSG, CAM_HUMAN_PLAYER, false);
@@ -247,21 +235,21 @@ function eventStartLevel()
 	});
 	ultScav_eventStartLevel(
 		-1, // vtols on/off. -1 = off
-		55, // build defense every x seconds
+		140, // build defense every x seconds
 		75, // build factories every x seconds
 		-1, // build cyborg factories every x seconds
 		25, // produce trucks every x seconds
-		85, // produce droids every x seconds
+		30, // produce droids every x seconds
 		-1, // produce cyborgs every x seconds
-		20, // produce VTOLs every x seconds
-		2, // min factories
+		-1, // produce VTOLs every x seconds
+		3, // min factories
 		-1, // min vtol factories
 		-1, // min cyborg factories
 		3, // min number of trucks
 		-1, // min number of sensor droids
-		10, // min number of attack droids
-		3, // min number of defend droids
-		-1, // ground attack every x seconds
+		25, // min number of attack droids
+		10, // min number of defend droids
+		120, // ground attack every x seconds
 		-1, // VTOL attack every x seconds
 		1); // tech level
 

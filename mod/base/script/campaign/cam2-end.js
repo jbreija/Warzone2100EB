@@ -142,7 +142,7 @@ function eventStartLevel()
 
 	var enemyLz = {"x": 49, "y": 83, "x2": 51, "y2": 85};
 	setNoGoArea(enemyLz.x, enemyLz.y, enemyLz.x2, enemyLz.y2, THE_COLLECTIVE);
-	setAlliance(2, 7, true);
+	setAlliance(THE_COLLECTIVE, ULTSCAV, true);
 	
 	setMissionTime(camMinutesToSeconds(30));
 	camCompleteRequiredResearch(CAM2END_RES_COL, THE_COLLECTIVE);
@@ -173,5 +173,5 @@ function eventStartLevel()
 		3, // min number of defend droids
 		135, // ground attack every x seconds
 		135, // VTOL attack every x seconds
-		2); // tech level
+		2.5); // tech level
 }

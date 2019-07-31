@@ -7,7 +7,6 @@ var trapActive;
 var gammaAttackCount;
 const GAMMA = 1; // Player 1 is Gamma team.
 
-
 //Remove Nexus VTOL droids.
 camAreaEvent("vtolRemoveZone", function(droid)
 {
@@ -30,6 +29,7 @@ camAreaEvent("trapTrigger", function(droid)
 camAreaEvent("mockBattleTrigger", function(droid)
 {
 	setAlliance(GAMMA, NEXUS, false); //brief mockup battle
+	setAlliance(GAMMA, ULTSCAV, true);
 	camCallOnce("activateNexusGroups"); //help destroy Gamma base
 });
 
@@ -193,12 +193,14 @@ function trapSprung()
 		playSound("pcv455.ogg"); //Incoming message.
 		trapActive = true;
 		setAlliance(GAMMA, NEXUS, false);
+		setAlliance(GAMMA, ULTSCAV, true);
 		queue("trapSprung", camSecondsToMilliseconds(2)); //call this a few seconds later
 		return;
 	}
 
 	setAlliance(GAMMA, NEXUS, true);
 	setAlliance(GAMMA, CAM_HUMAN_PLAYER, false);
+	setAlliance(GAMMA, ULTSCAV, true);
 	camPlayVideos("MB3_B_MSG3");
 	hackRemoveMessage("CM3B_GAMMABASE", PROX_MSG, CAM_HUMAN_PLAYER);
 
@@ -249,12 +251,13 @@ function eventStartLevel()
 	setNoGoArea(enemyLz2.x, enemyLz2.y, enemyLz2.x2, enemyLz2.y2, 5);
 
 	camCompleteRequiredResearch(CAM3B_RES_NEXUS, NEXUS);
+	camCompleteRequiredResearch(CAM3B_RES_NEXUS, ULTSCAV);
 	camCompleteRequiredResearch(CAM3B_RES_ALLY, GAMMA);
 
 	setAlliance(GAMMA, CAM_HUMAN_PLAYER, false);
 	setAlliance(GAMMA, NEXUS, true);
-	setAlliance(GAMMA, ultScav_PLAYER_NUM, true);
-	setAlliance(NEXUS, ultScav_PLAYER_NUM, true);
+	setAlliance(GAMMA, ULTSCAV, true);
+	setAlliance(NEXUS, ULTSCAV, true);
 	
 	camSetArtifacts({
 		"NXCommandCenter": { tech: "R-Struc-Research-Upgrade07" },
@@ -325,21 +328,21 @@ function eventStartLevel()
 	queue("vtolAttack", camChangeOnDiff(camMinutesToMilliseconds(5)));
 	ultScav_eventStartLevel(
 		1, // vtols on/off. -1 = off
-		20, // build defense every x seconds
+		40, // build defense every x seconds
 		50, // build factories every x seconds
 		45, // build cyborg factories every x seconds
 		25, // produce trucks every x seconds
-		35, // produce droids every x seconds
-		25, // produce cyborgs every x seconds
+		55, // produce droids every x seconds
+		45, // produce cyborgs every x seconds
 		40, // produce VTOLs every x seconds
-		5, // min factories
-		5, // min vtol factories
-		5, // min cyborg factories
-		10, // min number of trucks
+		2, // min factories
+		2, // min vtol factories
+		3, // min cyborg factories
+		6, // min number of trucks
 		3, // min number of sensor droids
-		10, // min number of attack droids
-		3, // min number of defend droids
+		20, // min number of attack droids
+		10, // min number of defend droids
 		135, // ground attack every x seconds
-		135, // VTOL attack every x seconds
+		155, // VTOL attack every x seconds
 		4); // tech level
 }
