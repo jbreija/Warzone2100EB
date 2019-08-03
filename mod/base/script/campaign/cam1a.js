@@ -141,7 +141,7 @@ function cam1setup()
 
 function eventStartLevel()
 {
-	const PLAYER_POWER = 1300;
+	const PLAYER_POWER = 2500;
 	var startpos = getObject("startPosition");
 	var lz = getObject("landingZone");
 
