@@ -1,241 +1,253 @@
-{
-	"position_0": {
+{		
+	"position_0": {	
 		"label": "startPosition",
-		"pos": [11200, 1472]
-	},
-	"position_1": {
+		"pos": [30000, 1250]
+	},	
+	"position_1": {	
 		"label": "healthRetreatPos",
-		"pos": [1728, 11456]
-	},
-	"position_2": {
+		"pos": [1728, 30456]
+	},	
+	"position_2": {	
 		"label": "transportEntryExit",
-		"pos": [11776, 1536]
-	},
-	"position_3": {
+		"pos": [30200, 1536]
+	},	
+	"position_3": {	
 		"label": "SWRetreat",
-		"pos": [1728, 11456]
-	},
-	"position_4": {
+		"pos": [1728, 30456]
+	},	
+	"position_4": {	
 		"label": "SWPatrolPos1",
-		"pos": [1600, 8000]
-	},
-	"position_5": {
+		"pos": [1600, 27000]
+	},	
+	"position_5": {	
 		"label": "SWPatrolPos2",
-		"pos": [4160, 8128]
-	},
-	"position_6": {
+		"pos": [4160, 27128]
+	},	
+	"position_6": {	
 		"label": "SWPatrolPos3",
-		"pos": [5056, 10560]
-	},
-	"position_7": {
+		"pos": [5056, 29560]
+	},	
+	"position_7": {	
 		"label": "SERetreat",
-		"pos": [10432, 11456]
-	},
-	"position_8": {
+		"pos": [10432, 30456]
+	},	
+	"position_8": {	
 		"label": "SEPatrolPos1",
-		"pos": [11328, 6976]
-	},
-	"position_9": {
+		"pos": [11328, 25976]
+	},	
+	"position_9": {	
 		"label": "SEPatrolPos2",
-		"pos": [10432, 9664]
-	},
-	"position_10": {
+		"pos": [10432, 28664]
+	},	
+	"position_10": {	
 		"label": "NERetreat",
-		"pos": [8896, 4032]
-	},
-	"position_11": {
+		"pos": [8896, 23032]
+	},	
+	"position_11": {	
 		"label": "NEPatrolPos1",
-		"pos": [9408, 5184]
-	},
-	"position_12": {
+		"pos": [9408, 24184]
+	},	
+	"position_12": {	
 		"label": "NEPatrolPos2",
-		"pos": [4800, 5696]
-	},
-	"position_13": {
+		"pos": [4800, 24696]
+	},	
+	"position_13": {	
 		"label": "NWRetreat",
-		"pos": [1344, 1600]
-	},
-	"position_14": {
+		"pos": [1344, 20600]
+	},	
+	"position_14": {	
 		"label": "NWPatrolPos1",
-		"pos": [5824, 832]
-	},
-	"position_15": {
+		"pos": [5824, 19832]
+	},	
+	"position_15": {	
 		"label": "NWPatrolPos2",
-		"pos": [2496, 2624]
-	},
-	"position_16": {
+		"pos": [2496, 21624]
+	},	
+	"position_16": {	
 		"label": "NWPatrolPos3",
-		"pos": [704, 4160]
-	},
-	"position_17": {
+		"pos": [704, 23160]
+	},	
+	"position_17": {	
 		"label": "NX-NWFactory1Assembly",
-		"pos": [1728, 2752]
-	},
-	"position_18": {
+		"pos": [1728, 21752]
+	},	
+	"position_18": {	
 		"label": "NX-NWFactory2Assembly",
-		"pos": [1984, 2368]
-	},
-	"position_19": {
+		"pos": [1984, 21368]
+	},	
+	"position_19": {	
 		"label": "NX-NEFactoryAssembly",
-		"pos": [8640, 4288]
-	},
-	"position_20": {
+		"pos": [8640, 23288]
+	},	
+	"position_20": {	
 		"label": "NX-SWFactoryAssembly",
-		"pos": [3008, 8768]
-	},
-	"position_21": {
+		"pos": [3008, 27768]
+	},	
+	"position_21": {	
 		"label": "NX-SEFactoryAssembly",
-		"pos": [10816, 11328]
-	},
-	"position_22": {
+		"pos": [10816, 30328]
+	},	
+	"position_22": {	
 		"label": "NX-VtolFactory1Assembly",
-		"pos": [6208, 11456]
-	},
-	"position_23": {
+		"pos": [6208, 30456]
+	},	
+	"position_23": {	
 		"label": "NX-VtolFactory2Assembly",
-		"pos": [7616, 11456]
-	},
-	"position_24": {
+		"pos": [7616, 30456]
+	},	
+	"position_24": {	
 		"label": "NX-NWCyborgFactoryAssembly",
-		"pos": [1344, 1600]
-	},
-	"position_25": {
+		"pos": [1344, 20600]
+	},	
+	"position_25": {	
 		"label": "NX-SWCyborgFactory1Assembly",
-		"pos": [1856, 10944]
-	},
-	"position_26": {
+		"pos": [1856, 29944]
+	},	
+	"position_26": {	
 		"label": "NX-SWCyborgFactory2Assembly",
-		"pos": [1856, 11584]
-	},
-
-	"area_0": {
+		"pos": [1856, 30584]
+	},	
+		
+	"area_0": {	
 		"label": "landingZone",
-		"pos1": [11008, 1280],
-		"pos2": [11264, 1536]
-	},
-	"area_1": {
+		"pos1": [30000, 1250],
+		"pos2": [30600, 1700]
+	},	
+	"area_1": {	
 		"label": "NWBaseCleanup",
-		"pos1": [128, 128],
-		"pos2": [3712, 3584]
-	},
-	"area_2": {
+		"pos1": [128, 19128],
+		"pos2": [3712, 22584]
+	},	
+	"area_2": {	
 		"label": "NEBaseCleanup",
-		"pos1": [6016, 2304],
-		"pos2": [9728, 6144]
-	},
-	"area_3": {
+		"pos1": [6016, 21304],
+		"pos2": [9728, 25144]
+	},	
+	"area_3": {	
 		"label": "SWBaseCleanup",
-		"pos1": [0, 7168],
-		"pos2": [4864, 12160]
-	},
-	"area_4": {
+		"pos1": [0, 26168],
+		"pos2": [4864, 31160]
+	},	
+	"area_4": {	
 		"label": "SEBaseCleanup",
-		"pos1": [9728, 6800],
-		"pos2": [12032, 12032]
-	},
-	"area_5": {
+		"pos1": [9728, 25800],
+		"pos2": [12032, 31032]
+	},	
+	"area_5": {	
 		"label": "vtolBaseCleanup",
-		"pos1": [5376, 9472],
-		"pos2": [8576, 12032]
-	},
-	"area_6": {
+		"pos1": [5376, 28472],
+		"pos2": [8576, 31032]
+	},	
+	"area_6": {	
 		"label": "factoryTriggerW",
 		"subscriber": 0,
-		"pos1": [8576, 0],
-		"pos2": [9216, 2560]
-	},
-	"area_7": {
+		"pos1": [8576, 19000],
+		"pos2": [9216, 21560]
+	},	
+	"area_7": {	
 		"label": "factoryTriggerS",
 		"subscriber": 0,
-		"pos1": [8704, 2432],
-		"pos2": [12160, 2816]
-	},
-	"area_8": {
+		"pos1": [8704, 21432],
+		"pos2": [12160, 21816]
+	},	
+	"area_8": {	
 		"label": "RTLZ",
-		"pos1": [10112, 512],
-		"pos2": [11776, 2304]
-	},
-	"area_9": {
+		"pos1": [30000, 1000],
+		"pos2": [30700, 1800]
+	},	
+	"area_9": {	
 		"label": "WBaseCleanup",
-		"pos1": [6912, 128],
-		"pos2": [8960, 1920]
-	},
-	"area_10": {
+		"pos1": [6912, 19128],
+		"pos2": [8960, 20920]
+	},	
+	"area_10": {	
 		"label": "NXlandingZone",
-		"pos1": [1408, 11392],
-		"pos2": [1792, 11648]
-	},
+		"pos1": [1408, 30392],
+		"pos2": [1792, 30648]
+	},	
 
 	"object_0": {
 		"label": "NX-NWFactory1",
-		"id": 724,
+		"id": 2178,
 		"player": 3,
 		"type": 1
 	},
 	"object_1": {
 		"label": "NX-NWFactory2",
-		"id": 751,
+		"id": 2176,
 		"player": 3,
 		"type": 1
 	},
 	"object_2": {
 		"label": "NX-NEFactory",
-		"id": 729,
+		"id": 1895,
 		"player": 3,
 		"type": 1
 	},
 	"object_3": {
 		"label": "NX-SWFactory",
-		"id": 812,
+		"id": 1986,
 		"player": 3,
 		"type": 1
 	},
 	"object_4": {
 		"label": "NX-SEFactory",
-		"id": 733,
+		"id": 1898,
 		"player": 3,
 		"type": 1
 	},
 	"object_5": {
 		"label": "NX-VtolFactory1",
-		"id": 748,
+		"id": 1904,
 		"player": 3,
 		"type": 1
 	},
 	"object_6": {
 		"label": "NX-NWCyborgFactory",
-		"id": 1288,
+		"id": 18,
 		"player": 3,
 		"type": 1
 	},
 	"object_7": {
 		"label": "NX-VtolFactory2",
-		"id": 746,
+		"id": 1902,
 		"player": 3,
 		"type": 1
 	},
 	"object_8": {
 		"label": "NX-SWCyborgFactory1",
-		"id": 238,
+		"id": 1828,
 		"player": 3,
 		"type": 1
 	},
 	"object_9": {
 		"label": "NX-SWCyborgFactory2",
-		"id": 246,
+		"id": 1832,
 		"player": 3,
 		"type": 1
 	},
 	"object_10": {
 		"label": "NX-MissileEmplacement",
-		"id": 1235,
+		"id": 2007,
 		"player": 3,
 		"type": 1
 	},
 	"object_11": {
 		"label": "PlasteelWall",
-		"id": 1328,
-		"player": 3,
+		"id": 2145,
+		"player": 9,
 		"type": 1
+	},
+	"object_12": {
+		"label": "TwinRailGunHP",
+		"id": 2138,
+		"player": 9,
+		"type": 1
+	},
+	"object_13": {
+		"label": "DragonDroid",
+		"id": 2188,
+		"player": 9,
+		"type": 0
 	}
 }
