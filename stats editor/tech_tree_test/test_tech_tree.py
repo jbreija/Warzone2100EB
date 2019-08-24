@@ -4,7 +4,7 @@ import os
 
 
 START_RESEARCH = ["R-Vehicle-Engine01", "R-Sys-Sensor-Turret01", "R-Wpn-MG1Mk1", "R-Sys-Engineering01",
-                  "R-Vehicle-Prop-Wheels", "R-Vehicle-Body01"]
+                  "R-Vehicle-Prop-Wheels", "R-Vehicle-Body01", "R-Sys-Spade1Mk1"]
 RESEARCH_FACILITY = 14  # check researchPoints in structures.json
 RESEARCH_MODULE = 7  # check moduleResearchPoints in structures.json
 RESULTS_TXT = "results.txt"
@@ -29,10 +29,11 @@ RES_MOD = "R-Struc-Research-Module"
 
 def prepare_research():
     for research_item in START_RESEARCH:
+        #if research_item in JSON_DATA:
         CURRENT_RESEARCH[research_item] = JSON_DATA[research_item]['researchPoints']
 
     for key, value in JSON_DATA.items():
-        if "requiredResearch" not in JSON_DATA[key]:
+        if "requiredResearch" not in value:
             RESEARCH_ITEMS_WITH_NO_DEPENDENCY.append(key)
         elif key not in START_RESEARCH:
             UNFINISHED_RESEARCH.append(key)
@@ -94,102 +95,81 @@ def calculate_upgrades():
                                           "seconds": num_sec
                                           }
 
+
 def apply_upgrades():
     results = {}
-    try:
-        for key, value in FINISHED_RESEARCH.items():
-            if FINISHED_RESEARCH[key] < UPGRADE_DICT[RES_MOD]['points']:
-                results[key] = {"total_points": FINISHED_RESEARCH[key],
-                                "seconds": JSON_DATA[key]['researchPoints']/RESEARCH_FACILITY,
-                                "points": JSON_DATA[key]['researchPoints'],
-                                "total_seconds": FINISHED_RESEARCH[key] / RESEARCH_FACILITY,
-                                "cost_per_point": JSON_DATA[key]['researchPoints']/JSON_DATA[key]['researchPower']}
-            elif UPGRADE_DICT[RES_MOD]['points'] < FINISHED_RESEARCH[key] < UPGRADE_DICT["R-Struc-Research-Upgrade01"]['points']:
-                results[key] = {"total_points": FINISHED_RESEARCH[key],
-                                "seconds": (JSON_DATA[key]['researchPoints']/UPGRADE_DICT[RES_MOD]['upgrade']),
-                                "points": JSON_DATA[key]['researchPoints'],
-                                "total_seconds": ((FINISHED_RESEARCH[key]-UPGRADE_DICT[RES_MOD]['points'])/UPGRADE_DICT[RES_MOD]['upgrade'])+UPGRADE_DICT[RES_MOD]['seconds'],
-                                "cost_per_point": JSON_DATA[key]['researchPoints']/JSON_DATA[key]['researchPower']}
-            elif UPGRADE_DICT["R-Struc-Research-Upgrade01"]['points'] < FINISHED_RESEARCH[key] < UPGRADE_DICT["R-Struc-Research-Upgrade02"]['points']:
-                results[key] = {"total_points": FINISHED_RESEARCH[key],
-                    "seconds": (JSON_DATA[key]['researchPoints']/UPGRADE_DICT["R-Struc-Research-Upgrade01"]['upgrade']),
-                    "points": JSON_DATA[key]['researchPoints'],
-                    "total_seconds": ((FINISHED_RESEARCH[key] - UPGRADE_DICT["R-Struc-Research-Upgrade01"]['points']) /
-                        UPGRADE_DICT["R-Struc-Research-Upgrade01"]['upgrade'] + UPGRADE_DICT["R-Struc-Research-Upgrade01"]["seconds"]),
-                    "cost_per_point": JSON_DATA[key]['researchPoints']/JSON_DATA[key]['researchPower']}
-            elif UPGRADE_DICT["R-Struc-Research-Upgrade02"]['points'] < FINISHED_RESEARCH[key] < UPGRADE_DICT["R-Struc-Research-Upgrade03"]['points']:
-                results[key] = {"total_points": FINISHED_RESEARCH[key],
-                    "seconds": (JSON_DATA[key]['researchPoints'] / UPGRADE_DICT["R-Struc-Research-Upgrade02"]['upgrade']),
-                    "points": JSON_DATA[key]['researchPoints'],
-                    "total_seconds": ((FINISHED_RESEARCH[key] - UPGRADE_DICT["R-Struc-Research-Upgrade02"]['points']) /
-                                            UPGRADE_DICT["R-Struc-Research-Upgrade02"]['upgrade']) +
-                                           UPGRADE_DICT["R-Struc-Research-Upgrade02"]["seconds"],
-                    "cost_per_point": JSON_DATA[key]['researchPoints']/JSON_DATA[key]['researchPower']}
-            elif UPGRADE_DICT["R-Struc-Research-Upgrade03"]['points'] < FINISHED_RESEARCH[key] < UPGRADE_DICT["R-Struc-Research-Upgrade04"]['points']:
-                results[key] = {"total_points": FINISHED_RESEARCH[key],
-                    "seconds": (JSON_DATA[key]['researchPoints']/ UPGRADE_DICT["R-Struc-Research-Upgrade03"]['upgrade']),
-                    "points": JSON_DATA[key]['researchPoints'],
-                                "total_seconds": ((FINISHED_RESEARCH[key] - UPGRADE_DICT["R-Struc-Research-Upgrade03"][
-                                    'points']) /
-                                            UPGRADE_DICT["R-Struc-Research-Upgrade03"]['upgrade']) +
-                                           UPGRADE_DICT["R-Struc-Research-Upgrade03"]["seconds"],
-                    "cost_per_point": JSON_DATA[key]['researchPoints']/JSON_DATA[key]['researchPower']}
-            elif UPGRADE_DICT["R-Struc-Research-Upgrade04"]['points'] < FINISHED_RESEARCH[key] < UPGRADE_DICT["R-Struc-Research-Upgrade05"]['points']:
-                results[key] = {"total_points": FINISHED_RESEARCH[key],
-                    "seconds": (JSON_DATA[key]['researchPoints'] /UPGRADE_DICT["R-Struc-Research-Upgrade04"]['upgrade']),
-                    "points": JSON_DATA[key]['researchPoints'],
-                                "total_seconds": ((FINISHED_RESEARCH[key] - UPGRADE_DICT["R-Struc-Research-Upgrade04"][
-                                    'points']) /
-                                            UPGRADE_DICT["R-Struc-Research-Upgrade04"]['upgrade']) +
-                                           UPGRADE_DICT["R-Struc-Research-Upgrade04"]["seconds"],
-                    "cost_per_point": JSON_DATA[key]['researchPoints']/JSON_DATA[key]['researchPower']}
-            elif UPGRADE_DICT["R-Struc-Research-Upgrade05"]['points'] < FINISHED_RESEARCH[key] < UPGRADE_DICT["R-Struc-Research-Upgrade06"]['points']:
-                results[key] = {"total_points": FINISHED_RESEARCH[key],
-                    "seconds": (JSON_DATA[key]['researchPoints']/UPGRADE_DICT["R-Struc-Research-Upgrade05"]['upgrade']),
-                    "points": JSON_DATA[key]['researchPoints'],
-                                "total_seconds": ((FINISHED_RESEARCH[key] - UPGRADE_DICT["R-Struc-Research-Upgrade05"][
-                                    'points']) /
-                                            UPGRADE_DICT["R-Struc-Research-Upgrade05"]['upgrade']) +
-                                           UPGRADE_DICT["R-Struc-Research-Upgrade05"]["seconds"],
-                    "cost_per_point": JSON_DATA[key]['researchPoints']/JSON_DATA[key]['researchPower']}
-            elif UPGRADE_DICT["R-Struc-Research-Upgrade06"]['points'] < FINISHED_RESEARCH[key] < UPGRADE_DICT["R-Struc-Research-Upgrade07"]['points']:
-                results[key] = {"total_points": FINISHED_RESEARCH[key],
-                    "seconds": (JSON_DATA[key]['researchPoints']/UPGRADE_DICT["R-Struc-Research-Upgrade06"]['upgrade']),
-                    "points": JSON_DATA[key]['researchPoints'],
-                                "total_seconds": ((FINISHED_RESEARCH[key] - UPGRADE_DICT["R-Struc-Research-Upgrade06"][
-                                    'points']) /
-                                            UPGRADE_DICT["R-Struc-Research-Upgrade06"]['upgrade']) +
-                                           UPGRADE_DICT["R-Struc-Research-Upgrade06"]["seconds"],
-                    "cost_per_point": JSON_DATA[key]['researchPoints']/JSON_DATA[key]['researchPower']}
-            elif UPGRADE_DICT["R-Struc-Research-Upgrade07"]['points'] < FINISHED_RESEARCH[key] < UPGRADE_DICT["R-Struc-Research-Upgrade08"]['points']:
-                results[key] = {"total_points": FINISHED_RESEARCH[key],
-                    "seconds": (JSON_DATA[key]['researchPoints']/UPGRADE_DICT["R-Struc-Research-Upgrade07"]['upgrade']),
-                    "points": JSON_DATA[key]['researchPoints'],
-                                "total_seconds": ((FINISHED_RESEARCH[key] - UPGRADE_DICT["R-Struc-Research-Upgrade07"][
-                                    'points']) /
-                                            UPGRADE_DICT["R-Struc-Research-Upgrade07"]['upgrade']) +
-                                           UPGRADE_DICT["R-Struc-Research-Upgrade07"]["seconds"],
-                    "cost_per_point": JSON_DATA[key]['researchPoints']/JSON_DATA[key]['researchPower']}
-            elif UPGRADE_DICT["R-Struc-Research-Upgrade08"]['points'] < FINISHED_RESEARCH[key] < UPGRADE_DICT["R-Struc-Research-Upgrade09"]['points']:
-                results[key] = {"total_points": FINISHED_RESEARCH[key],
-                    "seconds": (JSON_DATA[key]['researchPoints']/UPGRADE_DICT["R-Struc-Research-Upgrade08"]['upgrade']),
-                    "points": JSON_DATA[key]['researchPoints'],
-                                "total_seconds": ((FINISHED_RESEARCH[key] - UPGRADE_DICT["R-Struc-Research-Upgrade08"][
-                                    'points']) /
-                                            UPGRADE_DICT["R-Struc-Research-Upgrade08"]['upgrade']) +
-                                           UPGRADE_DICT["R-Struc-Research-Upgrade08"]["seconds"],
-                    "cost_per_point": JSON_DATA[key]['researchPoints']/JSON_DATA[key]['researchPower']}
-            elif UPGRADE_DICT["R-Struc-Research-Upgrade09"]['points'] < FINISHED_RESEARCH[key]:
-                results[key] = {"total_points": FINISHED_RESEARCH[key],
-                    "seconds":(JSON_DATA[key]['researchPoints']/UPGRADE_DICT["R-Struc-Research-Upgrade09"]['upgrade']),
-                    "points": JSON_DATA[key]['researchPoints'],
-                                "total_seconds": ((FINISHED_RESEARCH[key] - UPGRADE_DICT["R-Struc-Research-Upgrade09"][
-                                    'points']) /
-                                            UPGRADE_DICT["R-Struc-Research-Upgrade09"]['upgrade']+
-                                           UPGRADE_DICT["R-Struc-Research-Upgrade09"]["seconds"]),
-                    "cost_per_point": JSON_DATA[key]['researchPoints']/JSON_DATA[key]['researchPower']}
-    except Exception as e:
-        pass
+    res = "R-Struc-Research-Upgrade0"
+    res1 = f"{res}{1}"
+    res2 = f"{res}{2}"
+    res3 = f"{res}{3}"
+    res4 = f"{res}{4}"
+    res5 = f"{res}{5}"
+    res6 = f"{res}{6}"
+    res7 = f"{res}{7}"
+    res8 = f"{res}{8}"
+    res9 = f"{res}{9}"
+
+    for key, value in FINISHED_RESEARCH.items():
+        # Case 1, research arrives before research module
+        if FINISHED_RESEARCH[key] < UPGRADE_DICT[RES_MOD]['points']:
+            num_seconds = JSON_DATA[key]['researchPoints'] / RESEARCH_FACILITY
+            total_seconds = FINISHED_RESEARCH[key] / RESEARCH_FACILITY
+        # Case 2, research arrives after research module but before first upgrade
+        elif UPGRADE_DICT[RES_MOD]['points'] < FINISHED_RESEARCH[key] < UPGRADE_DICT[res1]['points']:
+            num_seconds = (JSON_DATA[key]['researchPoints'] / UPGRADE_DICT[RES_MOD]['upgrade'])
+            total_seconds = ((FINISHED_RESEARCH[key] - UPGRADE_DICT[RES_MOD]['points']) / UPGRADE_DICT[RES_MOD][
+                'upgrade']) + UPGRADE_DICT[RES_MOD]['seconds']
+        # Case 3, research arrives after first upgrade but before 2nd upgrade
+        elif UPGRADE_DICT[res1]['points'] < FINISHED_RESEARCH[key] < UPGRADE_DICT[res2]['points']:
+            num_seconds = (JSON_DATA[key]['researchPoints'] / UPGRADE_DICT[res7]['upgrade'])
+            total_seconds = ((FINISHED_RESEARCH[key] - UPGRADE_DICT[res7]['points'])
+                             / UPGRADE_DICT[res7]['upgrade']) + UPGRADE_DICT[res7]["seconds"]
+        # Case 4, research arrives after second upgrade but before 3rd upgrade
+        elif UPGRADE_DICT[res2]['points'] < FINISHED_RESEARCH[key] < UPGRADE_DICT[res3]['points']:
+            num_seconds = (JSON_DATA[key]['researchPoints'] / UPGRADE_DICT[res7]['upgrade'])
+            total_seconds = ((FINISHED_RESEARCH[key] - UPGRADE_DICT[res7]['points'])
+                             / UPGRADE_DICT[res7]['upgrade']) + UPGRADE_DICT[res7]["seconds"]
+        # etc...
+        elif UPGRADE_DICT[res3]['points'] < FINISHED_RESEARCH[key] < UPGRADE_DICT[res4]['points']:
+            num_seconds = (JSON_DATA[key]['researchPoints'] / UPGRADE_DICT[res7]['upgrade'])
+            total_seconds = ((FINISHED_RESEARCH[key] - UPGRADE_DICT[res7]['points'])
+                             / UPGRADE_DICT[res7]['upgrade']) + UPGRADE_DICT[res7]["seconds"]
+        elif UPGRADE_DICT[res4]['points'] < FINISHED_RESEARCH[key] < UPGRADE_DICT[res5]['points']:
+            num_seconds = (JSON_DATA[key]['researchPoints'] / UPGRADE_DICT[res7]['upgrade'])
+            total_seconds = ((FINISHED_RESEARCH[key] - UPGRADE_DICT[res7]['points'])
+                             / UPGRADE_DICT[res7]['upgrade']) + UPGRADE_DICT[res7]["seconds"]
+        elif UPGRADE_DICT[res5]['points'] < FINISHED_RESEARCH[key] < UPGRADE_DICT[res6]['points']:
+            num_seconds = (JSON_DATA[key]['researchPoints'] / UPGRADE_DICT[res7]['upgrade'])
+            total_seconds = ((FINISHED_RESEARCH[key] - UPGRADE_DICT[res7]['points'])
+                             / UPGRADE_DICT[res7]['upgrade']) + UPGRADE_DICT[res7]["seconds"]
+        elif UPGRADE_DICT[res6]['points'] < FINISHED_RESEARCH[key] < UPGRADE_DICT[res7]['points']:
+            num_seconds = (JSON_DATA[key]['researchPoints'] / UPGRADE_DICT[res7]['upgrade'])
+            total_seconds = ((FINISHED_RESEARCH[key] - UPGRADE_DICT[res7]['points'])
+                             / UPGRADE_DICT[res7]['upgrade']) + UPGRADE_DICT[res7]["seconds"]
+        elif UPGRADE_DICT[res7]['points'] < FINISHED_RESEARCH[key] < UPGRADE_DICT[res8]['points']:
+            num_seconds = (JSON_DATA[key]['researchPoints'] / UPGRADE_DICT[res7]['upgrade'])
+            total_seconds = ((FINISHED_RESEARCH[key] - UPGRADE_DICT[res7]['points'])
+                             / UPGRADE_DICT[res7]['upgrade']) + UPGRADE_DICT[res7]["seconds"]
+        elif UPGRADE_DICT[res8]['points'] < FINISHED_RESEARCH[key] < UPGRADE_DICT[res9]['points']:
+            num_seconds = JSON_DATA[key]['researchPoints'] / UPGRADE_DICT[res8]['upgrade']
+            total_seconds = ((FINISHED_RESEARCH[key] - UPGRADE_DICT[res8]['points'])
+                             / UPGRADE_DICT[res8]['upgrade']) + UPGRADE_DICT[res8]["seconds"]
+        elif UPGRADE_DICT[res9]['points'] < FINISHED_RESEARCH[key]:
+            num_seconds = JSON_DATA[key]['researchPoints'] / UPGRADE_DICT[res9]['upgrade']
+            total_seconds = ((FINISHED_RESEARCH[key] - UPGRADE_DICT[res9]['points']) /
+                             UPGRADE_DICT[res9]['upgrade'] +
+                             UPGRADE_DICT[res9]["seconds"])
+
+        if "researchPower" in JSON_DATA[key]:
+            cost_per_point = JSON_DATA[key]['researchPoints'] / JSON_DATA[key]['researchPower']
+        else:
+            cost_per_point = 0
+
+        results[key] = {"total_points": FINISHED_RESEARCH[key],
+                        "seconds": num_seconds,
+                        "points": JSON_DATA[key]['researchPoints'],
+                        "total_seconds": total_seconds,
+                        "cost_per_point": cost_per_point}
     return results
 
 def results_to_excel(RESULTS):
