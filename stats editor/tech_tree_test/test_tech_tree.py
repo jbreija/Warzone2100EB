@@ -2,6 +2,11 @@
 import json
 import os
 
+
+START_RESEARCH = ["R-Vehicle-Engine01", "R-Sys-Sensor-Turret01", "R-Wpn-MG1Mk1", "R-Sys-Engineering01",
+                  "R-Vehicle-Prop-Wheels", "R-Vehicle-Body01"]
+RESEARCH_FACILITY = 14  # check researchPoints in structures.json
+RESEARCH_MODULE = 7  # check moduleResearchPoints in structures.json
 RESULTS_TXT = "results.txt"
 RESULTS_XLSX = "results.xlsx"
 
@@ -9,15 +14,12 @@ if "nt" in os.name.lower():
     RESEARCH_JSON = ".\\research.json"
 else:
     RESEARCH_JSON = "./research.json"
-
 with open(RESEARCH_JSON) as f:
     JSON_DATA = json.load(f)
 
 
-START_RESEARCH = ["R-Vehicle-Engine01", "R-Sys-Sensor-Turret01", "R-Wpn-MG1Mk1", "R-Sys-Engineering01"]
+
 RESEARCH_ITEMS_WITH_NO_DEPENDENCY = []
-RESEARCH_FACILITY = 14  # check researchPoints in structures.json
-RESEARCH_MODULE = 7  # check moduleResearchPoints in structures.json
 UNFINISHED_RESEARCH = []
 NEXT_RESEARCH = {}
 CURRENT_RESEARCH = {}
@@ -30,7 +32,7 @@ def prepare_research():
         CURRENT_RESEARCH[research_item] = JSON_DATA[research_item]['researchPoints']
 
     for key, value in JSON_DATA.items():
-        if "requiredResearch" not in value:
+        if "requiredResearch" not in JSON_DATA[key]:
             RESEARCH_ITEMS_WITH_NO_DEPENDENCY.append(key)
         elif key not in START_RESEARCH:
             UNFINISHED_RESEARCH.append(key)
@@ -214,6 +216,9 @@ def results_to_excel(RESULTS):
     workbook.close()
 
 def results_to_txt(RESULTS):
+    for each_research in RESEARCH_ITEMS_WITH_NO_DEPENDENCY:
+        if each_research not in START_RESEARCH:
+            UNFINISHED_RESEARCH.append(each_research)
     with open(RESULTS_TXT, 'w') as f:
         f.write("These research items are unreachable or have no dependencies")
         f.write(json.dumps(UNFINISHED_RESEARCH, indent=4, sort_keys=True))
