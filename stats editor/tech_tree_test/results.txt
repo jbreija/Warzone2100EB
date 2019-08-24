@@ -7,56 +7,56 @@ These research items are unreachable or have no dependencies[
         "points": 1200,
         "seconds": 85.71428571428571,
         "total_points": 4200,
-        "total_seconds": 342.8571428571429
+        "total_seconds": 257.14285714285717
     },
     "R-Comp-CommandTurret02": {
         "cost_per_point": 11.11111111111111,
         "points": 5000,
         "seconds": 99.20634920634919,
         "total_points": 9200,
-        "total_seconds": 1621.030921459493
+        "total_seconds": 1521.8245722531437
     },
     "R-Cyborg-Armor-Heat01": {
         "cost_per_point": 32.142857142857146,
         "points": 3600,
         "seconds": 71.42857142857142,
         "total_points": 15000,
-        "total_seconds": 1708.33250876108
+        "total_seconds": 1636.9039373325086
     },
     "R-Cyborg-Armor-Heat02": {
         "cost_per_point": 32.0,
         "points": 4800,
         "seconds": 95.23809523809521,
         "total_points": 19800,
-        "total_seconds": 1827.3801278086992
+        "total_seconds": 1732.142032570604
     },
     "R-Cyborg-Armor-Heat03": {
         "cost_per_point": 32.0855614973262,
         "points": 6000,
         "seconds": 119.04761904761902,
         "total_points": 25800,
-        "total_seconds": 1970.2372706658418
+        "total_seconds": 1851.1896516182228
     },
     "R-Cyborg-Armor-Heat04": {
         "cost_per_point": 32.0,
         "points": 8000,
         "seconds": 158.73015873015868,
         "total_points": 33800,
-        "total_seconds": 2168.6499690785404
+        "total_seconds": 2009.9198103483816
     },
     "R-Cyborg-Armor-Heat05": {
         "cost_per_point": 32.05128205128205,
         "points": 10000,
         "seconds": 198.41269841269838,
         "total_points": 43800,
-        "total_seconds": 2406.7452071737785
+        "total_seconds": 2208.33250876108
     },
     "R-Cyborg-Armor-Heat06": {
         "cost_per_point": 32.0,
         "points": 12000,
         "seconds": 219.7802197802197,
         "total_points": 55800,
-        "total_seconds": 2642.398442827014
+        "total_seconds": 2422.6182230467944
     },
     "R-Cyborg-Armor-Heat07": {
         "cost_per_point": 32.036613272311214,
@@ -84,105 +84,105 @@ These research items are unreachable or have no dependencies[
         "points": 5000,
         "seconds": 99.20634920634919,
         "total_points": 22000,
-        "total_seconds": 1874.9991754277466
+        "total_seconds": 1775.7928262213975
     },
     "R-Cyborg-Hvywpn-Acannon": {
         "cost_per_point": 32.0,
         "points": 4000,
         "seconds": 79.36507936507934,
         "total_points": 14460,
-        "total_seconds": 1705.5547309833023
+        "total_seconds": 1626.189651618223
     },
     "R-Cyborg-Hvywpn-HPV": {
         "cost_per_point": 32.0,
         "points": 4000,
         "seconds": 79.36507936507934,
         "total_points": 11260,
-        "total_seconds": 1642.062667491239
+        "total_seconds": 1562.6975881261596
     },
     "R-Cyborg-Hvywpn-Mcannon": {
         "cost_per_point": 32.0,
         "points": 4000,
         "seconds": 79.36507936507934,
         "total_points": 11260,
-        "total_seconds": 1642.062667491239
+        "total_seconds": 1562.6975881261596
     },
     "R-Cyborg-Hvywpn-PulseLsr": {
         "cost_per_point": 32.05128205128205,
         "points": 5000,
         "seconds": 99.20634920634919,
         "total_points": 48200,
-        "total_seconds": 2394.8404452690165
+        "total_seconds": 2295.634096062667
     },
     "R-Cyborg-Hvywpn-RailGunner": {
         "cost_per_point": 32.16374269005848,
         "points": 5500,
         "seconds": 100.7326007326007,
         "total_points": 55960,
-        "total_seconds": 2526.281226709798
+        "total_seconds": 2425.5486259771974
     },
     "R-Cyborg-Hvywpn-TK": {
         "cost_per_point": 32.05128205128205,
         "points": 5000,
         "seconds": 99.20634920634919,
         "total_points": 22000,
-        "total_seconds": 1874.9991754277466
+        "total_seconds": 1775.7928262213975
     },
     "R-Cyborg-Metals01": {
         "cost_per_point": 32.432432432432435,
         "points": 1200,
         "seconds": 47.619047619047606,
         "total_points": 5400,
-        "total_seconds": 1505.9515563801278
+        "total_seconds": 1458.3325087610801
     },
     "R-Cyborg-Metals02": {
         "cost_per_point": 32.0,
         "points": 2400,
         "seconds": 47.619047619047606,
         "total_points": 7800,
-        "total_seconds": 1553.5706039991755
+        "total_seconds": 1505.9515563801278
     },
     "R-Cyborg-Metals03": {
         "cost_per_point": 32.142857142857146,
         "points": 3600,
         "seconds": 95.23809523809521,
         "total_points": 11400,
-        "total_seconds": 1696.4277468563182
+        "total_seconds": 1601.189651618223
     },
     "R-Cyborg-Metals04": {
         "cost_per_point": 32.0,
         "points": 5600,
         "seconds": 111.11111111111109,
         "total_points": 17000,
-        "total_seconds": 1787.6975881261594
+        "total_seconds": 1676.5864770150483
     },
     "R-Cyborg-Metals05": {
         "cost_per_point": 32.06751054852321,
         "points": 7600,
         "seconds": 150.79365079365076,
         "total_points": 24600,
-        "total_seconds": 1978.17377860235
+        "total_seconds": 1827.3801278086992
     },
     "R-Cyborg-Metals06": {
         "cost_per_point": 32.0,
         "points": 9600,
         "seconds": 190.47619047619042,
         "total_points": 34200,
-        "total_seconds": 2208.33250876108
+        "total_seconds": 2017.8563182848895
     },
     "R-Cyborg-Metals07": {
         "cost_per_point": 32.04419889502763,
         "points": 11600,
         "seconds": 230.1587301587301,
         "total_points": 45800,
-        "total_seconds": 2478.17377860235
+        "total_seconds": 2248.01504844362
     },
     "R-Cyborg-Metals08": {
         "cost_per_point": 32.0,
         "points": 13600,
         "seconds": 249.08424908424902,
         "total_points": 59400,
-        "total_seconds": 2737.6365380651096
+        "total_seconds": 2488.5522889808603
     },
     "R-Cyborg-Metals09": {
         "cost_per_point": 34.666666666666664,
@@ -196,7 +196,7 @@ These research items are unreachable or have no dependencies[
         "points": 3600,
         "seconds": 71.42857142857142,
         "total_points": 6600,
-        "total_seconds": 1541.6658420944134
+        "total_seconds": 1470.237270665842
     },
     "R-Defense-AA-Laser": {
         "cost_per_point": 32.0,
@@ -210,28 +210,28 @@ These research items are unreachable or have no dependencies[
         "points": 4800,
         "seconds": 95.23809523809521,
         "total_points": 19260,
-        "total_seconds": 1816.6658420944134
+        "total_seconds": 1721.4277468563182
     },
     "R-Defense-AASite-QuadMg1": {
         "cost_per_point": 32.142857142857146,
         "points": 3600,
         "seconds": 71.42857142857142,
         "total_points": 10260,
-        "total_seconds": 1614.284889713461
+        "total_seconds": 1542.8563182848898
     },
     "R-Defense-AASite-QuadRotMg": {
         "cost_per_point": 32.0855614973262,
         "points": 6000,
         "seconds": 119.04761904761902,
         "total_points": 16260,
-        "total_seconds": 1780.9515563801276
+        "total_seconds": 1661.9039373325086
     },
     "R-Defense-Cannon6": {
         "cost_per_point": 32.0,
         "points": 6400,
         "seconds": 126.98412698412695,
         "total_points": 18400,
-        "total_seconds": 1831.3483817769531
+        "total_seconds": 1704.3642547928262
     },
     "R-Defense-EMPCannon": {
         "cost_per_point": 64.0,
@@ -252,35 +252,35 @@ These research items are unreachable or have no dependencies[
         "points": 3200,
         "seconds": 63.49206349206347,
         "total_points": 10460,
-        "total_seconds": 1610.3166357452071
+        "total_seconds": 1546.8245722531437
     },
     "R-Defense-GuardTower-ATMiss": {
         "cost_per_point": 32.0,
         "points": 7200,
         "seconds": 142.85714285714283,
         "total_points": 45000,
-        "total_seconds": 2374.9991754277466
+        "total_seconds": 2232.142032570604
     },
     "R-Defense-GuardTower-Rail1": {
         "cost_per_point": 32.0,
         "points": 7200,
         "seconds": 142.85714285714283,
         "total_points": 28860,
-        "total_seconds": 2054.7610801896512
+        "total_seconds": 1911.9039373325086
     },
     "R-Defense-HardcreteGate": {
         "cost_per_point": 32.142857142857146,
         "points": 1800,
         "seconds": 128.57142857142858,
         "total_points": 3600,
-        "total_seconds": 385.7142857142858
+        "total_seconds": 257.14285714285717
     },
     "R-Defense-HardcreteWall": {
         "cost_per_point": 33.333333333333336,
         "points": 600,
         "seconds": 42.857142857142854,
         "total_points": 1800,
-        "total_seconds": 171.42857142857144
+        "total_seconds": 128.57142857142858
     },
     "R-Defense-HeavyLas": {
         "cost_per_point": 45.333333333333336,
@@ -294,7 +294,7 @@ These research items are unreachable or have no dependencies[
         "points": 4800,
         "seconds": 95.23809523809521,
         "total_points": 17400,
-        "total_seconds": 1779.7610801896515
+        "total_seconds": 1684.5229849515563
     },
     "R-Defense-Howitzer-Incenediary": {
         "cost_per_point": 32.0,
@@ -308,7 +308,7 @@ These research items are unreachable or have no dependencies[
         "points": 4800,
         "seconds": 95.23809523809521,
         "total_points": 33400,
-        "total_seconds": 2097.221397649969
+        "total_seconds": 2001.9833024118736
     },
     "R-Defense-HvyArtMissile": {
         "cost_per_point": 64.0,
@@ -322,35 +322,35 @@ These research items are unreachable or have no dependencies[
         "points": 4000,
         "seconds": 79.36507936507934,
         "total_points": 13000,
-        "total_seconds": 1676.5864770150483
+        "total_seconds": 1597.221397649969
     },
     "R-Defense-HvyHowitzer": {
         "cost_per_point": 32.0855614973262,
         "points": 6000,
         "seconds": 119.04761904761902,
         "total_points": 23400,
-        "total_seconds": 1922.6182230467944
+        "total_seconds": 1803.5706039991753
     },
     "R-Defense-HvyMor": {
         "cost_per_point": 32.142857142857146,
         "points": 3600,
         "seconds": 71.42857142857142,
         "total_points": 6600,
-        "total_seconds": 1541.6658420944134
+        "total_seconds": 1470.237270665842
     },
     "R-Defense-IDFRocket": {
         "cost_per_point": 32.0,
         "points": 4800,
         "seconds": 95.23809523809521,
         "total_points": 7800,
-        "total_seconds": 2097.221397649969
+        "total_seconds": 2001.9833024118736
     },
     "R-Defense-MRL": {
         "cost_per_point": 32.432432432432435,
         "points": 1200,
         "seconds": 85.71428571428571,
         "total_points": 3000,
-        "total_seconds": 300.0
+        "total_seconds": 214.28571428571428
     },
     "R-Defense-MassDriver": {
         "cost_per_point": 111.11111111111111,
@@ -364,84 +364,84 @@ These research items are unreachable or have no dependencies[
         "points": 14400,
         "seconds": 285.71428571428567,
         "total_points": 37200,
-        "total_seconds": 2363.0944135229847
+        "total_seconds": 2077.380127808699
     },
     "R-Defense-MortarPit": {
         "cost_per_point": 32.432432432432435,
         "points": 1200,
         "seconds": 85.71428571428571,
         "total_points": 3000,
-        "total_seconds": 300.0
+        "total_seconds": 214.28571428571428
     },
     "R-Defense-MortarPit-Incenediary": {
         "cost_per_point": 32.0,
         "points": 2400,
         "seconds": 47.619047619047606,
         "total_points": 9000,
-        "total_seconds": 1565.4753659039375
+        "total_seconds": 1517.8563182848898
     },
     "R-Defense-Pillbox01": {
         "cost_per_point": 32.432432432432435,
         "points": 1200,
         "seconds": 85.71428571428571,
         "total_points": 1860,
-        "total_seconds": 218.57142857142856
+        "total_seconds": 132.85714285714286
     },
     "R-Defense-Pillbox04": {
         "cost_per_point": 32.608695652173914,
         "points": 1500,
         "seconds": 107.14285714285714,
         "total_points": 3300,
-        "total_seconds": 342.8571428571429
+        "total_seconds": 235.71428571428572
     },
     "R-Defense-Pillbox05": {
         "cost_per_point": 32.608695652173914,
         "points": 1500,
         "seconds": 107.14285714285714,
         "total_points": 3300,
-        "total_seconds": 342.8571428571429
+        "total_seconds": 235.71428571428572
     },
     "R-Defense-Pillbox06": {
         "cost_per_point": 32.608695652173914,
         "points": 1500,
         "seconds": 107.14285714285714,
         "total_points": 3300,
-        "total_seconds": 342.8571428571429
+        "total_seconds": 235.71428571428572
     },
     "R-Defense-PlasmaCannon": {
         "cost_per_point": 32.0,
         "points": 14400,
         "seconds": 285.71428571428567,
         "total_points": 33660,
-        "total_seconds": 2292.8563182848893
+        "total_seconds": 2007.1420325706038
     },
     "R-Defense-PlasmiteFlamer": {
         "cost_per_point": 32.0,
         "points": 4000,
         "seconds": 79.36507936507934,
         "total_points": 20200,
-        "total_seconds": 1819.4436198721912
+        "total_seconds": 1740.078540507112
     },
     "R-Defense-PrisLas": {
         "cost_per_point": 32.0,
         "points": 14400,
         "seconds": 285.71428571428567,
         "total_points": 36000,
-        "total_seconds": 2339.284889713461
+        "total_seconds": 2053.570603999175
     },
     "R-Defense-PulseLas": {
         "cost_per_point": 32.0,
         "points": 14400,
         "seconds": 263.73626373626365,
         "total_points": 57600,
-        "total_seconds": 2719.321519750091
+        "total_seconds": 2455.5852560138273
     },
     "R-Defense-Rail2": {
         "cost_per_point": 32.05128205128205,
         "points": 10000,
         "seconds": 183.1501831501831,
         "total_points": 60460,
-        "total_seconds": 2691.116391544963
+        "total_seconds": 2507.9662083947796
     },
     "R-Defense-Rail3": {
         "cost_per_point": 32.05128205128205,
@@ -455,28 +455,28 @@ These research items are unreachable or have no dependencies[
         "points": 5000,
         "seconds": 99.20634920634919,
         "total_points": 39600,
-        "total_seconds": 2224.205524634096
+        "total_seconds": 2124.9991754277466
     },
     "R-Defense-RotMG": {
         "cost_per_point": 32.0,
         "points": 4800,
         "seconds": 95.23809523809521,
         "total_points": 17460,
-        "total_seconds": 1780.9515563801276
+        "total_seconds": 1685.7134611420324
     },
     "R-Defense-RotMor": {
         "cost_per_point": 32.0,
         "points": 4800,
         "seconds": 95.23809523809521,
         "total_points": 28000,
-        "total_seconds": 1990.0785405071117
+        "total_seconds": 1894.8404452690165
     },
     "R-Defense-SamSite1": {
         "cost_per_point": 32.0,
         "points": 14400,
         "seconds": 285.71428571428567,
         "total_points": 36000,
-        "total_seconds": 2339.284889713461
+        "total_seconds": 2053.570603999175
     },
     "R-Defense-SamSite2": {
         "cost_per_point": 64.0,
@@ -490,14 +490,14 @@ These research items are unreachable or have no dependencies[
         "points": 1800,
         "seconds": 35.71428571428571,
         "total_points": 20400,
-        "total_seconds": 1779.7610801896517
+        "total_seconds": 1744.046794475366
     },
     "R-Defense-Super-Cannon": {
         "cost_per_point": 32.06106870229008,
         "points": 8400,
         "seconds": 166.66666666666663,
         "total_points": 28400,
-        "total_seconds": 2069.443619872191
+        "total_seconds": 1902.7769532055245
     },
     "R-Defense-Super-Missile": {
         "cost_per_point": 111.11111111111111,
@@ -511,91 +511,91 @@ These research items are unreachable or have no dependencies[
         "points": 12000,
         "seconds": 238.09523809523805,
         "total_points": 32000,
-        "total_seconds": 2212.300762729334
+        "total_seconds": 1974.205524634096
     },
     "R-Defense-TankTrap01": {
         "cost_per_point": 33.333333333333336,
         "points": 600,
         "seconds": 42.857142857142854,
         "total_points": 1800,
-        "total_seconds": 171.42857142857144
+        "total_seconds": 128.57142857142858
     },
     "R-Defense-Tower01": {
         "cost_per_point": 33.333333333333336,
         "points": 600,
         "seconds": 42.857142857142854,
         "total_points": 660,
-        "total_seconds": 90.0
+        "total_seconds": 47.142857142857146
     },
     "R-Defense-Tower06": {
         "cost_per_point": 32.0,
         "points": 2400,
         "seconds": 107.14285714285714,
         "total_points": 4200,
-        "total_seconds": 342.8571428571429
+        "total_seconds": 235.71428571428572
     },
     "R-Defense-Wall-RotMg": {
         "cost_per_point": 32.0,
         "points": 4800,
         "seconds": 95.23809523809521,
         "total_points": 17460,
-        "total_seconds": 1780.9515563801276
+        "total_seconds": 1685.7134611420324
     },
     "R-Defense-Wall-VulcanCan": {
         "cost_per_point": 32.0,
         "points": 4800,
         "seconds": 95.23809523809521,
         "total_points": 15260,
-        "total_seconds": 1737.300762729334
+        "total_seconds": 1642.062667491239
     },
     "R-Defense-WallTower-A-Tmiss": {
         "cost_per_point": 32.0,
         "points": 7200,
         "seconds": 142.85714285714283,
         "total_points": 45000,
-        "total_seconds": 2374.9991754277466
+        "total_seconds": 2232.142032570604
     },
     "R-Defense-WallTower-DoubleAAgun": {
         "cost_per_point": 66.66666666666667,
         "points": 30000,
         "seconds": 595.2380952380951,
         "total_points": 44460,
-        "total_seconds": 2816.665842094413
+        "total_seconds": 2221.427746856318
     },
     "R-Defense-WallTower-HPVcannon": {
         "cost_per_point": 32.0,
         "points": 4800,
         "seconds": 95.23809523809521,
         "total_points": 12060,
-        "total_seconds": 1673.8086992372707
+        "total_seconds": 1578.5706039991755
     },
     "R-Defense-WallTower-HvyA-Trocket": {
         "cost_per_point": 32.05128205128205,
         "points": 5000,
         "seconds": 99.20634920634919,
         "total_points": 33600,
-        "total_seconds": 2105.1579055864768
+        "total_seconds": 2005.9515563801276
     },
     "R-Defense-WallTower-PulseLas": {
         "cost_per_point": 32.0,
         "points": 14400,
         "seconds": 263.73626373626365,
         "total_points": 57600,
-        "total_seconds": 2719.321519750091
+        "total_seconds": 2455.5852560138273
     },
     "R-Defense-WallTower-QuadRotAA": {
         "cost_per_point": 66.66666666666667,
         "points": 30000,
         "seconds": 595.2380952380951,
         "total_points": 46260,
-        "total_seconds": 2852.380127808699
+        "total_seconds": 2257.142032570604
     },
     "R-Defense-WallTower-Rail2": {
         "cost_per_point": 32.0,
         "points": 14400,
         "seconds": 263.73626373626365,
         "total_points": 64860,
-        "total_seconds": 2852.288552717124
+        "total_seconds": 2588.5522889808603
     },
     "R-Defense-WallTower-Rail3": {
         "cost_per_point": 32.0,
@@ -609,119 +609,119 @@ These research items are unreachable or have no dependencies[
         "points": 30000,
         "seconds": 549.4505494505493,
         "total_points": 57600,
-        "total_seconds": 3005.0358054643766
+        "total_seconds": 2455.5852560138273
     },
     "R-Defense-WallTower-SamSite": {
         "cost_per_point": 66.66666666666667,
         "points": 30000,
         "seconds": 549.4505494505493,
         "total_points": 57600,
-        "total_seconds": 3005.0358054643766
+        "total_seconds": 2455.5852560138273
     },
     "R-Defense-WallTower-TwinAGun": {
         "cost_per_point": 33.333333333333336,
         "points": 15000,
         "seconds": 297.61904761904754,
         "total_points": 42660,
-        "total_seconds": 2483.33250876108
+        "total_seconds": 2185.7134611420324
     },
     "R-Defense-WallTower01": {
         "cost_per_point": 32.432432432432435,
         "points": 1200,
         "seconds": 85.71428571428571,
         "total_points": 3000,
-        "total_seconds": 300.0
+        "total_seconds": 214.28571428571428
     },
     "R-Defense-WallTower02": {
         "cost_per_point": 32.608695652173914,
         "points": 1500,
         "seconds": 107.14285714285714,
         "total_points": 3300,
-        "total_seconds": 342.8571428571429
+        "total_seconds": 235.71428571428572
     },
     "R-Defense-WallTower03": {
         "cost_per_point": 32.142857142857146,
         "points": 1800,
         "seconds": 85.71428571428571,
         "total_points": 5100,
-        "total_seconds": 428.57142857142856
+        "total_seconds": 342.85714285714283
     },
     "R-Defense-WallTower04": {
         "cost_per_point": 32.0,
         "points": 2400,
         "seconds": 47.619047619047606,
         "total_points": 7500,
-        "total_seconds": 1535.7134611420327
+        "total_seconds": 1488.094413522985
     },
     "R-Defense-WallTower06": {
         "cost_per_point": 32.608695652173914,
         "points": 1500,
         "seconds": 107.14285714285714,
         "total_points": 3300,
-        "total_seconds": 342.8571428571429
+        "total_seconds": 235.71428571428572
     },
     "R-Defense-WallUpgrade01": {
         "cost_per_point": 32.432432432432435,
         "points": 1200,
         "seconds": 85.71428571428571,
         "total_points": 3000,
-        "total_seconds": 300.0
+        "total_seconds": 214.28571428571428
     },
     "R-Defense-WallUpgrade02": {
         "cost_per_point": 32.0,
         "points": 2400,
         "seconds": 107.14285714285714,
         "total_points": 5400,
-        "total_seconds": 342.8571428571429
+        "total_seconds": 235.71428571428572
     },
     "R-Defense-WallUpgrade03": {
         "cost_per_point": 32.142857142857146,
         "points": 3600,
         "seconds": 71.42857142857142,
         "total_points": 9000,
-        "total_seconds": 1589.284889713461
+        "total_seconds": 1517.8563182848898
     },
     "R-Defense-WallUpgrade04": {
         "cost_per_point": 32.0855614973262,
         "points": 6000,
         "seconds": 119.04761904761902,
         "total_points": 12000,
-        "total_seconds": 1696.4277468563182
+        "total_seconds": 1577.3801278086992
     },
     "R-Defense-WallUpgrade05": {
         "cost_per_point": 32.0,
         "points": 8000,
         "seconds": 158.73015873015868,
         "total_points": 20000,
-        "total_seconds": 1894.8404452690165
+        "total_seconds": 1736.110286538858
     },
     "R-Defense-WallUpgrade06": {
         "cost_per_point": 32.05128205128205,
         "points": 10000,
         "seconds": 198.41269841269838,
         "total_points": 30000,
-        "total_seconds": 2132.9356833642546
+        "total_seconds": 1934.5229849515563
     },
     "R-Defense-WallUpgrade07": {
         "cost_per_point": 32.0,
         "points": 12000,
         "seconds": 238.09523809523805,
         "total_points": 27600,
-        "total_seconds": 2124.9991754277466
+        "total_seconds": 1886.9039373325086
     },
     "R-Defense-WallUpgrade08": {
         "cost_per_point": 32.036613272311214,
         "points": 14000,
         "seconds": 277.7777777777777,
         "total_points": 41600,
-        "total_seconds": 2442.4594928880642
+        "total_seconds": 2164.6817151102864
     },
     "R-Defense-WallUpgrade09": {
         "cost_per_point": 35.55555555555556,
         "points": 16000,
         "seconds": 293.04029304029297,
         "total_points": 57600,
-        "total_seconds": 2748.6255490541203
+        "total_seconds": 2455.5852560138273
     },
     "R-Defense-WallUpgrade10": {
         "cost_per_point": 40.0,
@@ -749,105 +749,105 @@ These research items are unreachable or have no dependencies[
         "points": 1200,
         "seconds": 85.71428571428571,
         "total_points": 3000,
-        "total_seconds": 300.0
+        "total_seconds": 214.28571428571428
     },
     "R-Struc-Factory-Cyborg": {
         "cost_per_point": 32.142857142857146,
         "points": 1800,
         "seconds": 128.57142857142858,
         "total_points": 3000,
-        "total_seconds": 342.8571428571429
+        "total_seconds": 214.28571428571428
     },
     "R-Struc-Factory-Module": {
         "cost_per_point": 32.0,
         "points": 2400,
         "seconds": 114.28571428571429,
         "total_points": 4800,
-        "total_seconds": 442.85714285714283
+        "total_seconds": 328.57142857142856
     },
     "R-Struc-Factory-Upgrade01": {
         "cost_per_point": 32.0,
         "points": 2400,
         "seconds": 47.619047619047606,
         "total_points": 7200,
-        "total_seconds": 1529.7610801896517
+        "total_seconds": 1482.142032570604
     },
     "R-Struc-Factory-Upgrade04": {
         "cost_per_point": 32.055749128919864,
         "points": 9200,
         "seconds": 182.5396825396825,
         "total_points": 16400,
-        "total_seconds": 1847.2213976499688
+        "total_seconds": 1664.6817151102864
     },
     "R-Struc-Factory-Upgrade07": {
         "cost_per_point": 33.77777777777778,
         "points": 15200,
         "seconds": 301.5873015873015,
         "total_points": 30800,
-        "total_seconds": 2251.983302411874
+        "total_seconds": 1950.3960008245722
     },
     "R-Struc-Factory-Upgrade09": {
         "cost_per_point": 42.666666666666664,
         "points": 19200,
         "seconds": 380.95238095238085,
         "total_points": 50000,
-        "total_seconds": 2712.3007627293337
+        "total_seconds": 2331.348381776953
     },
     "R-Struc-Materials01": {
         "cost_per_point": 32.432432432432435,
         "points": 1200,
         "seconds": 47.619047619047606,
         "total_points": 4200,
-        "total_seconds": 1529.7610801896517
+        "total_seconds": 1482.142032570604
     },
     "R-Struc-Materials02": {
         "cost_per_point": 32.0,
         "points": 2400,
         "seconds": 47.619047619047606,
         "total_points": 6600,
-        "total_seconds": 1517.8563182848898
+        "total_seconds": 1470.237270665842
     },
     "R-Struc-Materials03": {
         "cost_per_point": 32.142857142857146,
         "points": 3600,
         "seconds": 71.42857142857142,
         "total_points": 10200,
-        "total_seconds": 1613.094413522985
+        "total_seconds": 1541.6658420944136
     },
     "R-Struc-Materials04": {
         "cost_per_point": 32.0855614973262,
         "points": 6000,
         "seconds": 158.73015873015868,
         "total_points": 16200,
-        "total_seconds": 1894.8404452690165
+        "total_seconds": 1736.110286538858
     },
     "R-Struc-Materials05": {
         "cost_per_point": 32.0,
         "points": 8000,
         "seconds": 158.73015873015868,
         "total_points": 24200,
-        "total_seconds": 1978.17377860235
+        "total_seconds": 1819.4436198721912
     },
     "R-Struc-Materials06": {
         "cost_per_point": 32.05128205128205,
         "points": 10000,
         "seconds": 198.41269841269838,
         "total_points": 34200,
-        "total_seconds": 2216.269016697588
+        "total_seconds": 2017.8563182848895
     },
     "R-Struc-Materials07": {
         "cost_per_point": 32.0,
         "points": 12000,
         "seconds": 238.09523809523805,
         "total_points": 39600,
-        "total_seconds": 2363.0944135229847
+        "total_seconds": 2124.9991754277466
     },
     "R-Struc-Materials08": {
         "cost_per_point": 32.036613272311214,
         "points": 14000,
         "seconds": 256.41025641025635,
         "total_points": 53600,
-        "total_seconds": 2638.7354391640106
+        "total_seconds": 2382.3251827537542
     },
     "R-Struc-Materials09": {
         "cost_per_point": 35.55555555555556,
@@ -861,210 +861,210 @@ These research items are unreachable or have no dependencies[
         "points": 6000,
         "seconds": 119.04761904761902,
         "total_points": 8400,
-        "total_seconds": 1624.9991754277469
+        "total_seconds": 1505.9515563801278
     },
     "R-Struc-Power-Upgrade01b": {
         "cost_per_point": 32.0855614973262,
         "points": 6000,
         "seconds": 119.04761904761902,
         "total_points": 14400,
-        "total_seconds": 1744.046794475366
+        "total_seconds": 1624.9991754277469
     },
     "R-Struc-Power-Upgrade01c": {
         "cost_per_point": 32.0855614973262,
         "points": 6000,
         "seconds": 119.04761904761902,
         "total_points": 20400,
-        "total_seconds": 1863.094413522985
+        "total_seconds": 1744.046794475366
     },
     "R-Struc-Power-Upgrade02": {
         "cost_per_point": 32.02846975088968,
         "points": 9000,
         "seconds": 178.57142857142853,
         "total_points": 29400,
-        "total_seconds": 2101.189651618223
+        "total_seconds": 1922.6182230467944
     },
     "R-Struc-Power-Upgrade03": {
         "cost_per_point": 32.0,
         "points": 12000,
         "seconds": 238.09523809523805,
         "total_points": 41400,
-        "total_seconds": 2398.8086992372705
+        "total_seconds": 2160.7134611420324
     },
     "R-Struc-Power-Upgrade03a": {
         "cost_per_point": 32.0,
         "points": 12000,
         "seconds": 219.7802197802197,
         "total_points": 53400,
-        "total_seconds": 2598.44239887097
+        "total_seconds": 2378.66217909075
     },
     "R-Struc-PowerModuleMk1": {
         "cost_per_point": 32.432432432432435,
         "points": 1200,
         "seconds": 85.71428571428571,
         "total_points": 2400,
-        "total_seconds": 257.1428571428571
+        "total_seconds": 171.42857142857142
     },
     "R-Struc-RepairFacility": {
         "cost_per_point": 32.0,
         "points": 2400,
         "seconds": 47.619047619047606,
         "total_points": 4200,
-        "total_seconds": 1529.7610801896517
+        "total_seconds": 1482.142032570604
     },
     "R-Struc-Research-Module": {
         "cost_per_point": 32.432432432432435,
         "points": 1200,
         "seconds": 47.619047619047606,
         "total_points": 4200,
-        "total_seconds": 1529.7610801896517
+        "total_seconds": 1482.142032570604
     },
     "R-Struc-Research-Upgrade01": {
         "cost_per_point": 32.432432432432435,
         "points": 1200,
         "seconds": 47.619047619047606,
         "total_points": 5400,
-        "total_seconds": 1517.8563182848898
+        "total_seconds": 1470.237270665842
     },
     "R-Struc-Research-Upgrade02": {
         "cost_per_point": 32.0,
         "points": 2400,
         "seconds": 71.42857142857142,
         "total_points": 7800,
-        "total_seconds": 1613.094413522985
+        "total_seconds": 1541.6658420944136
     },
     "R-Struc-Research-Upgrade03": {
         "cost_per_point": 32.142857142857146,
         "points": 3600,
         "seconds": 85.71428571428571,
         "total_points": 11400,
-        "total_seconds": 300.0
+        "total_seconds": 214.28571428571428
     },
     "R-Struc-Research-Upgrade04": {
         "cost_per_point": 32.0,
         "points": 4800,
         "seconds": 182.5396825396825,
         "total_points": 16200,
-        "total_seconds": 1847.2213976499688
+        "total_seconds": 1664.6817151102864
     },
     "R-Struc-Research-Upgrade05": {
         "cost_per_point": 32.0855614973262,
         "points": 6000,
         "seconds": 119.04761904761902,
         "total_points": 22200,
-        "total_seconds": 1624.9991754277469
+        "total_seconds": 1505.9515563801278
     },
     "R-Struc-Research-Upgrade06": {
         "cost_per_point": 32.0,
         "points": 8000,
         "seconds": 119.04761904761902,
         "total_points": 30200,
-        "total_seconds": 1744.046794475366
+        "total_seconds": 1624.9991754277469
     },
     "R-Struc-Research-Upgrade07": {
         "cost_per_point": 32.05128205128205,
         "points": 10000,
         "seconds": 119.04761904761902,
         "total_points": 40200,
-        "total_seconds": 1863.094413522985
+        "total_seconds": 1744.046794475366
     },
     "R-Struc-Research-Upgrade08": {
         "cost_per_point": 32.0,
         "points": 12000,
         "seconds": 178.57142857142853,
         "total_points": 52200,
-        "total_seconds": 2101.189651618223
+        "total_seconds": 1922.6182230467944
     },
     "R-Struc-Research-Upgrade09": {
         "cost_per_point": 32.036613272311214,
         "points": 14000,
         "seconds": 238.09523809523805,
         "total_points": 66200,
-        "total_seconds": 2398.8086992372705
+        "total_seconds": 2160.7134611420324
     },
     "R-Struc-RprFac-Upgrade01": {
         "cost_per_point": 32.0,
         "points": 2400,
         "seconds": 47.619047619047606,
         "total_points": 6600,
-        "total_seconds": 1517.8563182848898
+        "total_seconds": 1470.237270665842
     },
     "R-Struc-RprFac-Upgrade04": {
         "cost_per_point": 32.0855614973262,
         "points": 6000,
         "seconds": 119.04761904761902,
         "total_points": 12600,
-        "total_seconds": 1708.3325087610801
+        "total_seconds": 1589.284889713461
     },
     "R-Struc-RprFac-Upgrade06": {
         "cost_per_point": 32.05128205128205,
         "points": 10000,
         "seconds": 198.41269841269838,
         "total_points": 22600,
-        "total_seconds": 1986.1102865388577
+        "total_seconds": 1787.6975881261594
     },
     "R-Struc-VTOLFactory": {
         "cost_per_point": 32.0855614973262,
         "points": 6000,
         "seconds": 119.04761904761902,
         "total_points": 19200,
-        "total_seconds": 1839.284889713461
+        "total_seconds": 1720.237270665842
     },
     "R-Struc-VTOLPad": {
         "cost_per_point": 32.142857142857146,
         "points": 3600,
         "seconds": 71.42857142857142,
         "total_points": 16800,
-        "total_seconds": 1744.0467944753657
+        "total_seconds": 1672.6182230467944
     },
     "R-Struc-VTOLPad-Upgrade01": {
         "cost_per_point": 32.0,
         "points": 4800,
         "seconds": 95.23809523809521,
         "total_points": 21600,
-        "total_seconds": 1863.0944135229847
+        "total_seconds": 1767.8563182848895
     },
     "R-Struc-VTOLPad-Upgrade02": {
         "cost_per_point": 32.0855614973262,
         "points": 6000,
         "seconds": 119.04761904761902,
         "total_points": 27600,
-        "total_seconds": 2005.9515563801276
+        "total_seconds": 1886.9039373325086
     },
     "R-Struc-VTOLPad-Upgrade03": {
         "cost_per_point": 32.0,
         "points": 8000,
         "seconds": 158.73015873015868,
         "total_points": 35600,
-        "total_seconds": 2204.364254792826
+        "total_seconds": 2045.6340960626674
     },
     "R-Struc-VTOLPad-Upgrade04": {
         "cost_per_point": 32.05128205128205,
         "points": 10000,
         "seconds": 198.41269841269838,
         "total_points": 16000,
-        "total_seconds": 1855.1579055864768
+        "total_seconds": 1656.7452071737785
     },
     "R-Struc-VTOLPad-Upgrade05": {
         "cost_per_point": 32.0,
         "points": 12000,
         "seconds": 238.09523809523805,
         "total_points": 28000,
-        "total_seconds": 2132.9356833642546
+        "total_seconds": 1894.8404452690165
     },
     "R-Struc-VTOLPad-Upgrade06": {
         "cost_per_point": 32.036613272311214,
         "points": 14000,
         "seconds": 277.7777777777777,
         "total_points": 42000,
-        "total_seconds": 2450.396000824572
+        "total_seconds": 2172.6182230467944
     },
     "R-SuperTransport": {
         "cost_per_point": 32.0,
         "points": 4000,
         "seconds": 79.36507936507934,
         "total_points": 10600,
-        "total_seconds": 1628.9674293960009
+        "total_seconds": 1549.6023500309216
     },
     "R-Sys-Autorepair-General": {
         "cost_per_point": 32.0,
@@ -1078,210 +1078,210 @@ These research items are unreachable or have no dependencies[
         "points": 3600,
         "seconds": 71.42857142857142,
         "total_points": 6600,
-        "total_seconds": 1541.6658420944134
+        "total_seconds": 1470.237270665842
     },
     "R-Sys-CBSensor-Turret01": {
         "cost_per_point": 32.0,
         "points": 4800,
         "seconds": 95.23809523809521,
         "total_points": 8400,
-        "total_seconds": 1601.189651618223
+        "total_seconds": 1505.9515563801278
     },
     "R-Sys-Engineering01": {
         "cost_per_point": 32.432432432432435,
         "points": 1200,
         "seconds": 85.71428571428571,
         "total_points": 1200,
-        "total_seconds": 171.42857142857142
+        "total_seconds": 85.71428571428571
     },
     "R-Sys-Engineering02": {
         "cost_per_point": 32.0,
         "points": 4800,
         "seconds": 95.23809523809521,
         "total_points": 6000,
-        "total_seconds": 1553.5706039991753
+        "total_seconds": 1458.3325087610801
     },
     "R-Sys-Engineering03": {
         "cost_per_point": 32.0,
         "points": 9600,
         "seconds": 190.47619047619042,
         "total_points": 15600,
-        "total_seconds": 1839.2848897134609
+        "total_seconds": 1648.8086992372705
     },
     "R-Sys-MobileRepairTurret01": {
         "cost_per_point": 33.333333333333336,
         "points": 600,
         "seconds": 42.857142857142854,
         "total_points": 1800,
-        "total_seconds": 171.42857142857144
+        "total_seconds": 128.57142857142858
     },
     "R-Sys-MobileRepairTurretHvy": {
         "cost_per_point": 33.333333333333336,
         "points": 600,
         "seconds": 11.904761904761902,
         "total_points": 6600,
-        "total_seconds": 1482.142032570604
+        "total_seconds": 1470.237270665842
     },
     "R-Sys-RadarDetector01": {
         "cost_per_point": 32.25806451612903,
         "points": 2000,
         "seconds": 39.68253968253967,
         "total_points": 5600,
-        "total_seconds": 1490.078540507112
+        "total_seconds": 1450.3960008245722
     },
     "R-Sys-Resistance-Circuits": {
         "cost_per_point": 32.0,
         "points": 14400,
         "seconds": 285.71428571428567,
         "total_points": 29700,
-        "total_seconds": 2214.284889713461
+        "total_seconds": 1928.5706039991753
     },
     "R-Sys-Sensor-Tower01": {
         "cost_per_point": 32.142857142857146,
         "points": 900,
         "seconds": 64.28571428571429,
         "total_points": 1800,
-        "total_seconds": 192.8571428571429
+        "total_seconds": 128.57142857142858
     },
     "R-Sys-Sensor-Tower02": {
         "cost_per_point": 32.432432432432435,
         "points": 1200,
         "seconds": 85.71428571428571,
         "total_points": 3000,
-        "total_seconds": 300.0
+        "total_seconds": 214.28571428571428
     },
     "R-Sys-Sensor-Turret01": {
         "cost_per_point": 32.142857142857146,
         "points": 900,
         "seconds": 64.28571428571429,
         "total_points": 900,
-        "total_seconds": 128.57142857142858
+        "total_seconds": 64.28571428571429
     },
     "R-Sys-Sensor-UpLink": {
         "cost_per_point": 64.0,
         "points": 28800,
         "seconds": 571.4285714285713,
         "total_points": 44100,
-        "total_seconds": 2785.7134611420324
+        "total_seconds": 2214.284889713461
     },
     "R-Sys-Sensor-Upgrade01": {
         "cost_per_point": 32.142857142857146,
         "points": 1800,
         "seconds": 128.57142857142858,
         "total_points": 3600,
-        "total_seconds": 385.7142857142858
+        "total_seconds": 257.14285714285717
     },
     "R-Sys-Sensor-Upgrade02": {
         "cost_per_point": 32.142857142857146,
         "points": 3600,
         "seconds": 71.42857142857142,
         "total_points": 7200,
-        "total_seconds": 1553.5706039991753
+        "total_seconds": 1482.142032570604
     },
     "R-Sys-Sensor-Upgrade03": {
         "cost_per_point": 32.0,
         "points": 7200,
         "seconds": 142.85714285714283,
         "total_points": 14400,
-        "total_seconds": 1767.8563182848898
+        "total_seconds": 1624.9991754277469
     },
     "R-Sys-Sensor-WS": {
         "cost_per_point": 32.0,
         "points": 14400,
         "seconds": 285.71428571428567,
         "total_points": 15300,
-        "total_seconds": 1928.5706039991755
+        "total_seconds": 1642.8563182848898
     },
     "R-Sys-Sensor-WSTower": {
         "cost_per_point": 36.44444444444444,
         "points": 16400,
         "seconds": 325.3968253968253,
         "total_points": 19400,
-        "total_seconds": 2049.602350030921
+        "total_seconds": 1724.205524634096
     },
     "R-Sys-Spade1Mk1": {
         "cost_per_point": 0,
         "points": 10,
         "seconds": 0.7142857142857143,
         "total_points": 10,
-        "total_seconds": 1.4285714285714286
+        "total_seconds": 0.7142857142857143
     },
     "R-Sys-SpyTower": {
         "cost_per_point": 32.0,
         "points": 7200,
         "seconds": 142.85714285714283,
         "total_points": 10200,
-        "total_seconds": 1684.5229849515565
+        "total_seconds": 1541.6658420944136
     },
     "R-Sys-SpyTurret": {
         "cost_per_point": 32.0,
         "points": 14400,
         "seconds": 285.71428571428567,
         "total_points": 29700,
-        "total_seconds": 2214.284889713461
+        "total_seconds": 1928.5706039991753
     },
     "R-Sys-VTOLCBS-Tower01": {
         "cost_per_point": 32.0,
         "points": 7200,
         "seconds": 142.85714285714283,
         "total_points": 10200,
-        "total_seconds": 1684.5229849515565
+        "total_seconds": 1541.6658420944136
     },
     "R-Sys-VTOLCBS-Turret01": {
         "cost_per_point": 32.06106870229008,
         "points": 8400,
         "seconds": 166.66666666666663,
         "total_points": 15600,
-        "total_seconds": 1815.475365903937
+        "total_seconds": 1648.8086992372705
     },
     "R-Sys-VTOLStrike-Tower01": {
         "cost_per_point": 32.0,
         "points": 7200,
         "seconds": 142.85714285714283,
         "total_points": 10200,
-        "total_seconds": 1684.5229849515565
+        "total_seconds": 1541.6658420944136
     },
     "R-Sys-VTOLStrike-Turret01": {
         "cost_per_point": 32.0,
         "points": 7200,
         "seconds": 142.85714285714283,
         "total_points": 8100,
-        "total_seconds": 1642.8563182848898
+        "total_seconds": 1499.9991754277469
     },
     "R-Vehicle-Armor-Heat01": {
         "cost_per_point": 32.0,
         "points": 4800,
         "seconds": 95.23809523809521,
         "total_points": 19800,
-        "total_seconds": 1827.3801278086992
+        "total_seconds": 1732.142032570604
     },
     "R-Vehicle-Armor-Heat02": {
         "cost_per_point": 32.11009174311926,
         "points": 7000,
         "seconds": 138.88888888888886,
         "total_points": 26800,
-        "total_seconds": 2009.9198103483816
+        "total_seconds": 1871.0309214594927
     },
     "R-Vehicle-Armor-Heat03": {
         "cost_per_point": 32.02846975088968,
         "points": 9000,
         "seconds": 178.57142857142853,
         "total_points": 35800,
-        "total_seconds": 2228.1737786023496
+        "total_seconds": 2049.602350030921
     },
     "R-Vehicle-Armor-Heat04": {
         "cost_per_point": 32.06997084548105,
         "points": 11000,
         "seconds": 218.2539682539682,
         "total_points": 46800,
-        "total_seconds": 2486.1102865388575
+        "total_seconds": 2267.8563182848893
     },
     "R-Vehicle-Armor-Heat05": {
         "cost_per_point": 32.01970443349754,
         "points": 13000,
         "seconds": 238.09523809523802,
         "total_points": 59800,
-        "total_seconds": 2733.9735344021055
+        "total_seconds": 2495.8782963068675
     },
     "R-Vehicle-Armor-Heat06": {
         "cost_per_point": 33.333333333333336,
@@ -1316,63 +1316,63 @@ These research items are unreachable or have no dependencies[
         "points": 600,
         "seconds": 42.857142857142854,
         "total_points": 600,
-        "total_seconds": 85.71428571428571
+        "total_seconds": 42.857142857142854
     },
     "R-Vehicle-Body02": {
         "cost_per_point": 32.0855614973262,
         "points": 6000,
         "seconds": 119.04761904761902,
         "total_points": 28600,
-        "total_seconds": 2025.7928262213975
+        "total_seconds": 1906.7452071737785
     },
     "R-Vehicle-Body03": {
         "cost_per_point": 32.0,
         "points": 14400,
         "seconds": 285.71428571428567,
         "total_points": 38800,
-        "total_seconds": 2394.8404452690165
+        "total_seconds": 2109.1261595547307
     },
     "R-Vehicle-Body04": {
         "cost_per_point": 32.432432432432435,
         "points": 1200,
         "seconds": 23.809523809523803,
         "total_points": 7200,
-        "total_seconds": 1505.9515563801278
+        "total_seconds": 1482.142032570604
     },
     "R-Vehicle-Body05": {
         "cost_per_point": 32.432432432432435,
         "points": 1200,
         "seconds": 23.809523809523803,
         "total_points": 6000,
-        "total_seconds": 1482.142032570604
+        "total_seconds": 1458.3325087610801
     },
     "R-Vehicle-Body06": {
         "cost_per_point": 32.0,
         "points": 7200,
         "seconds": 142.85714285714283,
         "total_points": 13200,
-        "total_seconds": 1744.046794475366
+        "total_seconds": 1601.189651618223
     },
     "R-Vehicle-Body07": {
         "cost_per_point": 64.0,
         "points": 28800,
         "seconds": 527.4725274725273,
         "total_points": 64200,
-        "total_seconds": 3103.9369043654756
+        "total_seconds": 2576.464376892948
     },
     "R-Vehicle-Body08": {
         "cost_per_point": 32.0,
         "points": 2400,
         "seconds": 47.619047619047606,
         "total_points": 9600,
-        "total_seconds": 1577.3801278086994
+        "total_seconds": 1529.7610801896517
     },
     "R-Vehicle-Body09": {
         "cost_per_point": 32.06106870229008,
         "points": 8400,
         "seconds": 166.66666666666663,
         "total_points": 16800,
-        "total_seconds": 1839.2848897134609
+        "total_seconds": 1672.6182230467944
     },
     "R-Vehicle-Body10": {
         "cost_per_point": 96.0,
@@ -1386,14 +1386,14 @@ These research items are unreachable or have no dependencies[
         "points": 2400,
         "seconds": 47.619047619047606,
         "total_points": 8400,
-        "total_seconds": 1553.5706039991755
+        "total_seconds": 1505.9515563801278
     },
     "R-Vehicle-Body12": {
         "cost_per_point": 32.142857142857146,
         "points": 3600,
         "seconds": 71.42857142857142,
         "total_points": 13200,
-        "total_seconds": 1672.6182230467944
+        "total_seconds": 1601.189651618223
     },
     "R-Vehicle-Body13": {
         "cost_per_point": 111.11111111111111,
@@ -1414,112 +1414,112 @@ These research items are unreachable or have no dependencies[
         "points": 1200,
         "seconds": 85.71428571428571,
         "total_points": 1200,
-        "total_seconds": 171.42857142857142
+        "total_seconds": 85.71428571428571
     },
     "R-Vehicle-Engine02": {
         "cost_per_point": 32.0,
         "points": 2400,
         "seconds": 171.42857142857142,
         "total_points": 3600,
-        "total_seconds": 428.57142857142856
+        "total_seconds": 257.14285714285717
     },
     "R-Vehicle-Engine03": {
         "cost_per_point": 32.0,
         "points": 4800,
         "seconds": 95.23809523809521,
         "total_points": 8400,
-        "total_seconds": 1601.189651618223
+        "total_seconds": 1505.9515563801278
     },
     "R-Vehicle-Engine04": {
         "cost_per_point": 32.11009174311926,
         "points": 7000,
         "seconds": 138.88888888888886,
         "total_points": 15400,
-        "total_seconds": 1783.7293341579054
+        "total_seconds": 1644.8404452690165
     },
     "R-Vehicle-Engine05": {
         "cost_per_point": 32.02846975088968,
         "points": 9000,
         "seconds": 178.57142857142853,
         "total_points": 24400,
-        "total_seconds": 2001.9833024118736
+        "total_seconds": 1823.4118738404452
     },
     "R-Vehicle-Engine06": {
         "cost_per_point": 32.06997084548105,
         "points": 11000,
         "seconds": 218.2539682539682,
         "total_points": 35400,
-        "total_seconds": 2259.9198103483814
+        "total_seconds": 2041.6658420944134
     },
     "R-Vehicle-Engine07": {
         "cost_per_point": 32.01970443349754,
         "points": 13000,
         "seconds": 257.9365079365079,
         "total_points": 26200,
-        "total_seconds": 2117.0626674912387
+        "total_seconds": 1859.1261595547307
     },
     "R-Vehicle-Engine08": {
         "cost_per_point": 33.333333333333336,
         "points": 15000,
         "seconds": 297.61904761904754,
         "total_points": 41200,
-        "total_seconds": 2454.364254792826
+        "total_seconds": 2156.7452071737785
     },
     "R-Vehicle-Engine09": {
         "cost_per_point": 37.77777777777778,
         "points": 17000,
         "seconds": 311.35531135531124,
         "total_points": 58200,
-        "total_seconds": 2777.9295783581492
+        "total_seconds": 2466.574267002838
     },
     "R-Vehicle-Metals01": {
         "cost_per_point": 32.142857142857146,
         "points": 1800,
         "seconds": 35.71428571428571,
         "total_points": 6000,
-        "total_seconds": 1494.046794475366
+        "total_seconds": 1458.3325087610801
     },
     "R-Vehicle-Metals02": {
         "cost_per_point": 32.142857142857146,
         "points": 3600,
         "seconds": 71.42857142857142,
         "total_points": 9600,
-        "total_seconds": 1601.189651618223
+        "total_seconds": 1529.7610801896517
     },
     "R-Vehicle-Metals03": {
         "cost_per_point": 32.142857142857146,
         "points": 5400,
         "seconds": 107.14285714285711,
         "total_points": 15000,
-        "total_seconds": 1744.0467944753657
+        "total_seconds": 1636.9039373325086
     },
     "R-Vehicle-Metals04": {
         "cost_per_point": 32.06751054852321,
         "points": 7600,
         "seconds": 150.79365079365076,
         "total_points": 22600,
-        "total_seconds": 1938.4912389198103
+        "total_seconds": 1787.6975881261594
     },
     "R-Vehicle-Metals05": {
         "cost_per_point": 32.0,
         "points": 9600,
         "seconds": 190.47619047619042,
         "total_points": 32200,
-        "total_seconds": 2168.6499690785404
+        "total_seconds": 1978.17377860235
     },
     "R-Vehicle-Metals06": {
         "cost_per_point": 32.04419889502763,
         "points": 11600,
         "seconds": 230.1587301587301,
         "total_points": 43800,
-        "total_seconds": 2438.4912389198103
+        "total_seconds": 2208.33250876108
     },
     "R-Vehicle-Metals07": {
         "cost_per_point": 32.0,
         "points": 13600,
         "seconds": 249.08424908424902,
         "total_points": 53800,
-        "total_seconds": 2635.072435501007
+        "total_seconds": 2385.988186416758
     },
     "R-Vehicle-Metals08": {
         "cost_per_point": 34.666666666666664,
@@ -1540,161 +1540,161 @@ These research items are unreachable or have no dependencies[
         "points": 1200,
         "seconds": 85.71428571428571,
         "total_points": 2400,
-        "total_seconds": 257.1428571428571
+        "total_seconds": 171.42857142857142
     },
     "R-Vehicle-Prop-Hover": {
         "cost_per_point": 32.142857142857146,
         "points": 3600,
         "seconds": 71.42857142857142,
         "total_points": 7200,
-        "total_seconds": 1553.5706039991753
+        "total_seconds": 1482.142032570604
     },
     "R-Vehicle-Prop-Tracks": {
         "cost_per_point": 32.0,
         "points": 2400,
         "seconds": 114.28571428571429,
         "total_points": 4800,
-        "total_seconds": 442.85714285714283
+        "total_seconds": 328.57142857142856
     },
     "R-Vehicle-Prop-VTOL": {
         "cost_per_point": 32.0855614973262,
         "points": 6000,
         "seconds": 119.04761904761902,
         "total_points": 13200,
-        "total_seconds": 1720.237270665842
+        "total_seconds": 1601.189651618223
     },
     "R-Vehicle-Prop-Wheels": {
         "cost_per_point": 32.432432432432435,
         "points": 1200,
         "seconds": 85.71428571428571,
         "total_points": 1200,
-        "total_seconds": 171.42857142857142
+        "total_seconds": 85.71428571428571
     },
     "R-Wpn-AAGun-Accuracy01": {
         "cost_per_point": 32.0855614973262,
         "points": 6000,
         "seconds": 119.04761904761902,
         "total_points": 12660,
-        "total_seconds": 1709.5229849515563
+        "total_seconds": 1590.4753659039372
     },
     "R-Wpn-AAGun-Accuracy02": {
         "cost_per_point": 32.0,
         "points": 7200,
         "seconds": 142.85714285714283,
         "total_points": 19860,
-        "total_seconds": 1876.189651618223
+        "total_seconds": 1733.3325087610801
     },
     "R-Wpn-AAGun-Accuracy03": {
         "cost_per_point": 32.06106870229008,
         "points": 8400,
         "seconds": 166.66666666666663,
         "total_points": 28260,
-        "total_seconds": 2066.665842094413
+        "total_seconds": 1899.9991754277466
     },
     "R-Wpn-AAGun-Damage01": {
         "cost_per_point": 32.0855614973262,
         "points": 6000,
         "seconds": 119.04761904761902,
         "total_points": 12660,
-        "total_seconds": 1709.5229849515563
+        "total_seconds": 1590.4753659039372
     },
     "R-Wpn-AAGun-Damage02": {
         "cost_per_point": 32.0,
         "points": 7200,
         "seconds": 142.85714285714283,
         "total_points": 19860,
-        "total_seconds": 1876.189651618223
+        "total_seconds": 1733.3325087610801
     },
     "R-Wpn-AAGun-Damage03": {
         "cost_per_point": 32.06106870229008,
         "points": 8400,
         "seconds": 166.66666666666663,
         "total_points": 28260,
-        "total_seconds": 2066.665842094413
+        "total_seconds": 1899.9991754277466
     },
     "R-Wpn-AAGun-Damage04": {
         "cost_per_point": 32.0,
         "points": 9600,
         "seconds": 190.47619047619042,
         "total_points": 37860,
-        "total_seconds": 2280.9515563801274
+        "total_seconds": 2090.475365903937
     },
     "R-Wpn-AAGun-Damage05": {
         "cost_per_point": 32.047477744807125,
         "points": 10800,
         "seconds": 214.28571428571422,
         "total_points": 48660,
-        "total_seconds": 2519.0467944753655
+        "total_seconds": 2304.7610801896512
     },
     "R-Wpn-AAGun-Damage06": {
         "cost_per_point": 32.0,
         "points": 12000,
         "seconds": 219.7802197802197,
         "total_points": 60660,
-        "total_seconds": 2731.409431838003
+        "total_seconds": 2511.629212057783
     },
     "R-Wpn-AAGun-ROF01": {
         "cost_per_point": 32.142857142857146,
         "points": 3600,
         "seconds": 71.42857142857142,
         "total_points": 11460,
-        "total_seconds": 1638.094413522985
+        "total_seconds": 1566.6658420944136
     },
     "R-Wpn-AAGun-ROF02": {
         "cost_per_point": 32.0,
         "points": 4800,
         "seconds": 95.23809523809521,
         "total_points": 16260,
-        "total_seconds": 1757.1420325706038
+        "total_seconds": 1661.9039373325086
     },
     "R-Wpn-AAGun-ROF03": {
         "cost_per_point": 32.0855614973262,
         "points": 6000,
         "seconds": 119.04761904761902,
         "total_points": 22260,
-        "total_seconds": 1899.9991754277469
+        "total_seconds": 1780.9515563801278
     },
     "R-Wpn-AAGun-ROF04": {
         "cost_per_point": 32.0,
         "points": 8000,
         "seconds": 158.73015873015868,
         "total_points": 30260,
-        "total_seconds": 2098.411873840445
+        "total_seconds": 1939.6817151102864
     },
     "R-Wpn-AAGun-ROF05": {
         "cost_per_point": 32.05128205128205,
         "points": 10000,
         "seconds": 198.41269841269838,
         "total_points": 40260,
-        "total_seconds": 2336.507111935683
+        "total_seconds": 2138.0944135229847
     },
     "R-Wpn-AAGun-ROF06": {
         "cost_per_point": 32.0,
         "points": 12000,
         "seconds": 219.7802197802197,
         "total_points": 52260,
-        "total_seconds": 2577.563277991849
+        "total_seconds": 2357.7830582116294
     },
     "R-Wpn-AAGun02": {
         "cost_per_point": 32.0,
         "points": 7200,
         "seconds": 142.85714285714283,
         "total_points": 14460,
-        "total_seconds": 1769.046794475366
+        "total_seconds": 1626.189651618223
     },
     "R-Wpn-AAGun03": {
         "cost_per_point": 32.142857142857146,
         "points": 3600,
         "seconds": 71.42857142857142,
         "total_points": 6660,
-        "total_seconds": 1542.8563182848895
+        "total_seconds": 1471.4277468563182
     },
     "R-Wpn-AAGun04": {
         "cost_per_point": 32.0855614973262,
         "points": 6000,
         "seconds": 119.04761904761902,
         "total_points": 18660,
-        "total_seconds": 1828.5706039991753
+        "total_seconds": 1709.5229849515563
     },
     "R-Wpn-AALaser": {
         "cost_per_point": 64.0,
@@ -1708,175 +1708,175 @@ These research items are unreachable or have no dependencies[
         "points": 7200,
         "seconds": 142.85714285714283,
         "total_points": 18660,
-        "total_seconds": 1852.3801278086992
+        "total_seconds": 1709.5229849515563
     },
     "R-Wpn-Bomb-Accuracy02": {
         "cost_per_point": 32.055749128919864,
         "points": 9200,
         "seconds": 182.5396825396825,
         "total_points": 27860,
-        "total_seconds": 2074.602350030921
+        "total_seconds": 1892.0626674912387
     },
     "R-Wpn-Bomb-Accuracy03": {
         "cost_per_point": 32.0,
         "points": 11200,
         "seconds": 222.22222222222217,
         "total_points": 39060,
-        "total_seconds": 2336.507111935683
+        "total_seconds": 2114.284889713461
     },
     "R-Wpn-Bomb01": {
         "cost_per_point": 32.16374269005848,
         "points": 5500,
         "seconds": 109.1269841269841,
         "total_points": 18700,
-        "total_seconds": 1819.4436198721912
+        "total_seconds": 1710.3166357452071
     },
     "R-Wpn-Bomb02": {
         "cost_per_point": 32.0,
         "points": 7200,
         "seconds": 142.85714285714283,
         "total_points": 25860,
-        "total_seconds": 1995.237270665842
+        "total_seconds": 1852.3801278086992
     },
     "R-Wpn-Bomb03": {
         "cost_per_point": 32.0,
         "points": 7200,
         "seconds": 142.85714285714283,
         "total_points": 13200,
-        "total_seconds": 1744.046794475366
+        "total_seconds": 1601.189651618223
     },
     "R-Wpn-Bomb04": {
         "cost_per_point": 32.055749128919864,
         "points": 9200,
         "seconds": 182.5396825396825,
         "total_points": 22400,
-        "total_seconds": 1966.2690166975879
+        "total_seconds": 1783.7293341579054
     },
     "R-Wpn-Bomb05": {
         "cost_per_point": 44.44444444444444,
         "points": 20000,
         "seconds": 396.82539682539675,
         "total_points": 36200,
-        "total_seconds": 2454.3642547928257
+        "total_seconds": 2057.538857967429
     },
     "R-Wpn-Bomb06": {
         "cost_per_point": 55.55555555555556,
         "points": 25000,
         "seconds": 496.0317460317459,
         "total_points": 47400,
-        "total_seconds": 2775.7928262213973
+        "total_seconds": 2279.7610801896512
     },
     "R-Wpn-Cannon-Accuracy01": {
         "cost_per_point": 32.142857142857146,
         "points": 3600,
         "seconds": 71.42857142857142,
         "total_points": 9000,
-        "total_seconds": 1589.284889713461
+        "total_seconds": 1517.8563182848898
     },
     "R-Wpn-Cannon-Accuracy02": {
         "cost_per_point": 32.0,
         "points": 4800,
         "seconds": 95.23809523809521,
         "total_points": 13800,
-        "total_seconds": 1708.3325087610801
+        "total_seconds": 1613.094413522985
     },
     "R-Wpn-Cannon-Damage01": {
         "cost_per_point": 32.432432432432435,
         "points": 1200,
         "seconds": 85.71428571428571,
         "total_points": 3660,
-        "total_seconds": 347.14285714285717
+        "total_seconds": 261.42857142857144
     },
     "R-Wpn-Cannon-Damage02": {
         "cost_per_point": 32.0,
         "points": 2400,
         "seconds": 47.619047619047606,
         "total_points": 6060,
-        "total_seconds": 1507.142032570604
+        "total_seconds": 1459.5229849515563
     },
     "R-Wpn-Cannon-Damage03": {
         "cost_per_point": 32.142857142857146,
         "points": 3600,
         "seconds": 71.42857142857142,
         "total_points": 9660,
-        "total_seconds": 1602.3801278086992
+        "total_seconds": 1530.9515563801278
     },
     "R-Wpn-Cannon-Damage04": {
         "cost_per_point": 32.0855614973262,
         "points": 6000,
         "seconds": 119.04761904761902,
         "total_points": 15660,
-        "total_seconds": 1769.046794475366
+        "total_seconds": 1649.9991754277469
     },
     "R-Wpn-Cannon-Damage05": {
         "cost_per_point": 32.0,
         "points": 7200,
         "seconds": 142.85714285714283,
         "total_points": 22860,
-        "total_seconds": 1935.7134611420324
+        "total_seconds": 1792.8563182848895
     },
     "R-Wpn-Cannon-Damage06": {
         "cost_per_point": 32.06106870229008,
         "points": 8400,
         "seconds": 166.66666666666663,
         "total_points": 31260,
-        "total_seconds": 2126.189651618223
+        "total_seconds": 1959.5229849515563
     },
     "R-Wpn-Cannon-Damage07": {
         "cost_per_point": 32.0,
         "points": 9600,
         "seconds": 190.47619047619042,
         "total_points": 40860,
-        "total_seconds": 2340.475365903937
+        "total_seconds": 2149.9991754277466
     },
     "R-Wpn-Cannon-Damage08": {
         "cost_per_point": 32.047477744807125,
         "points": 10800,
         "seconds": 214.28571428571422,
         "total_points": 51660,
-        "total_seconds": 2578.570603999175
+        "total_seconds": 2364.284889713461
     },
     "R-Wpn-Cannon-Damage09": {
         "cost_per_point": 32.0,
         "points": 12000,
         "seconds": 219.7802197802197,
         "total_points": 63660,
-        "total_seconds": 2786.354486783058
+        "total_seconds": 2566.574267002838
     },
     "R-Wpn-Cannon-ROF01": {
         "cost_per_point": 32.0,
         "points": 4000,
         "seconds": 79.36507936507934,
         "total_points": 19660,
-        "total_seconds": 1808.7293341579054
+        "total_seconds": 1729.3642547928262
     },
     "R-Wpn-Cannon-ROF02": {
         "cost_per_point": 32.0855614973262,
         "points": 6000,
         "seconds": 119.04761904761902,
         "total_points": 22400,
-        "total_seconds": 1902.7769532055245
+        "total_seconds": 1783.7293341579054
     },
     "R-Wpn-Cannon-ROF03": {
         "cost_per_point": 32.0,
         "points": 8000,
         "seconds": 158.73015873015868,
         "total_points": 30400,
-        "total_seconds": 2101.189651618223
+        "total_seconds": 1942.4594928880642
     },
     "R-Wpn-Cannon-ROF04": {
         "cost_per_point": 32.05128205128205,
         "points": 10000,
         "seconds": 198.41269841269838,
         "total_points": 40400,
-        "total_seconds": 2339.284889713461
+        "total_seconds": 2140.8721913007626
     },
     "R-Wpn-Cannon-ROF05": {
         "cost_per_point": 32.0,
         "points": 12000,
         "seconds": 219.7802197802197,
         "total_points": 52400,
-        "total_seconds": 2580.1273805559517
+        "total_seconds": 2360.347160775732
     },
     "R-Wpn-Cannon-ROF06": {
         "cost_per_point": 32.036613272311214,
@@ -1890,63 +1890,63 @@ These research items are unreachable or have no dependencies[
         "points": 1800,
         "seconds": 128.57142857142858,
         "total_points": 2460,
-        "total_seconds": 304.28571428571433
+        "total_seconds": 175.71428571428572
     },
     "R-Wpn-Cannon2Mk1": {
         "cost_per_point": 32.142857142857146,
         "points": 3600,
         "seconds": 71.42857142857142,
         "total_points": 7260,
-        "total_seconds": 1554.7610801896515
+        "total_seconds": 1483.3325087610801
     },
     "R-Wpn-Cannon3Mk1": {
         "cost_per_point": 32.0,
         "points": 8800,
         "seconds": 174.60317460317455,
         "total_points": 13600,
-        "total_seconds": 1783.7293341579054
+        "total_seconds": 1609.126159554731
     },
     "R-Wpn-Cannon4AMk1": {
         "cost_per_point": 32.0,
         "points": 4800,
         "seconds": 95.23809523809521,
         "total_points": 7260,
-        "total_seconds": 1578.5706039991753
+        "total_seconds": 1483.3325087610801
     },
     "R-Wpn-Cannon5": {
         "cost_per_point": 32.0,
         "points": 8000,
         "seconds": 158.73015873015868,
         "total_points": 10460,
-        "total_seconds": 1705.5547309833023
+        "total_seconds": 1546.8245722531437
     },
     "R-Wpn-Cannon6TwinAslt": {
         "cost_per_point": 32.0,
         "points": 9600,
         "seconds": 190.47619047619042,
         "total_points": 20060,
-        "total_seconds": 1927.7769532055245
+        "total_seconds": 1737.300762729334
     },
     "R-Wpn-EMPCannon": {
         "cost_per_point": 64.0,
         "points": 28800,
         "seconds": 527.4725274725273,
         "total_points": 58500,
-        "total_seconds": 2999.541299969871
+        "total_seconds": 2472.0687724973436
     },
     "R-Wpn-Energy-Accuracy01": {
         "cost_per_point": 32.0,
         "points": 14400,
         "seconds": 285.71428571428567,
         "total_points": 36000,
-        "total_seconds": 2339.284889713461
+        "total_seconds": 2053.570603999175
     },
     "R-Wpn-Energy-Damage01": {
         "cost_per_point": 32.0,
         "points": 14400,
         "seconds": 285.71428571428567,
         "total_points": 50400,
-        "total_seconds": 2624.9991754277466
+        "total_seconds": 2339.284889713461
     },
     "R-Wpn-Energy-Damage02": {
         "cost_per_point": 64.0,
@@ -1967,7 +1967,7 @@ These research items are unreachable or have no dependencies[
         "points": 14400,
         "seconds": 263.73626373626365,
         "total_points": 64800,
-        "total_seconds": 2851.189651618223
+        "total_seconds": 2587.4533878819593
     },
     "R-Wpn-Energy-ROF02": {
         "cost_per_point": 64.0,
@@ -1988,154 +1988,154 @@ These research items are unreachable or have no dependencies[
         "points": 7200,
         "seconds": 142.85714285714283,
         "total_points": 9000,
-        "total_seconds": 1660.7134611420327
+        "total_seconds": 1517.8563182848898
     },
     "R-Wpn-Flamer-Damage01": {
         "cost_per_point": 33.333333333333336,
         "points": 600,
         "seconds": 42.857142857142854,
         "total_points": 2400,
-        "total_seconds": 214.28571428571428
+        "total_seconds": 171.42857142857142
     },
     "R-Wpn-Flamer-Damage02": {
         "cost_per_point": 32.432432432432435,
         "points": 1200,
         "seconds": 85.71428571428571,
         "total_points": 3600,
-        "total_seconds": 342.8571428571429
+        "total_seconds": 257.14285714285717
     },
     "R-Wpn-Flamer-Damage03": {
         "cost_per_point": 32.0,
         "points": 2400,
         "seconds": 47.619047619047606,
         "total_points": 6000,
-        "total_seconds": 1505.9515563801278
+        "total_seconds": 1458.3325087610801
     },
     "R-Wpn-Flamer-Damage04": {
         "cost_per_point": 32.0,
         "points": 7200,
         "seconds": 142.85714285714283,
         "total_points": 13200,
-        "total_seconds": 1744.046794475366
+        "total_seconds": 1601.189651618223
     },
     "R-Wpn-Flamer-Damage05": {
         "cost_per_point": 32.055749128919864,
         "points": 9200,
         "seconds": 182.5396825396825,
         "total_points": 22400,
-        "total_seconds": 1966.2690166975879
+        "total_seconds": 1783.7293341579054
     },
     "R-Wpn-Flamer-Damage06": {
         "cost_per_point": 32.0,
         "points": 11200,
         "seconds": 222.22222222222217,
         "total_points": 33600,
-        "total_seconds": 2228.1737786023496
+        "total_seconds": 2005.9515563801276
     },
     "R-Wpn-Flamer-Damage07": {
         "cost_per_point": 32.03883495145631,
         "points": 13200,
         "seconds": 261.9047619047618,
         "total_points": 29400,
-        "total_seconds": 2184.5229849515563
+        "total_seconds": 1922.6182230467944
     },
     "R-Wpn-Flamer-Damage08": {
         "cost_per_point": 33.77777777777778,
         "points": 15200,
         "seconds": 301.5873015873015,
         "total_points": 44600,
-        "total_seconds": 2525.7928262213977
+        "total_seconds": 2224.205524634096
     },
     "R-Wpn-Flamer-Damage09": {
         "cost_per_point": 38.22222222222222,
         "points": 17200,
         "seconds": 315.0183150183149,
         "total_points": 61800,
-        "total_seconds": 2847.526647955219
+        "total_seconds": 2532.508332936904
     },
     "R-Wpn-Flamer-ROF01": {
         "cost_per_point": 32.142857142857146,
         "points": 900,
         "seconds": 42.857142857142854,
         "total_points": 4500,
-        "total_seconds": 357.1428571428571
+        "total_seconds": 314.2857142857143
     },
     "R-Wpn-Flamer-ROF02": {
         "cost_per_point": 32.0855614973262,
         "points": 6000,
         "seconds": 119.04761904761902,
         "total_points": 10500,
-        "total_seconds": 1666.6658420944134
+        "total_seconds": 1547.6182230467944
     },
     "R-Wpn-Flamer-ROF03": {
         "cost_per_point": 32.0,
         "points": 8000,
         "seconds": 158.73015873015868,
         "total_points": 18500,
-        "total_seconds": 1865.078540507112
+        "total_seconds": 1706.3483817769531
     },
     "R-Wpn-Flamer01Mk1": {
         "cost_per_point": 33.333333333333336,
         "points": 600,
         "seconds": 42.857142857142854,
         "total_points": 1800,
-        "total_seconds": 171.42857142857144
+        "total_seconds": 128.57142857142858
     },
     "R-Wpn-Howitzer-Accuracy01": {
         "cost_per_point": 32.0,
         "points": 7200,
         "seconds": 142.85714285714283,
         "total_points": 19800,
-        "total_seconds": 1874.9991754277469
+        "total_seconds": 1732.142032570604
     },
     "R-Wpn-Howitzer-Accuracy02": {
         "cost_per_point": 32.055749128919864,
         "points": 9200,
         "seconds": 182.5396825396825,
         "total_points": 25400,
-        "total_seconds": 2025.7928262213975
+        "total_seconds": 1843.253143681715
     },
     "R-Wpn-Howitzer-Accuracy03": {
         "cost_per_point": 32.0,
         "points": 11200,
         "seconds": 222.22222222222217,
         "total_points": 36600,
-        "total_seconds": 2287.697588126159
+        "total_seconds": 2065.475365903937
     },
     "R-Wpn-Howitzer-Damage01": {
         "cost_per_point": 32.0855614973262,
         "points": 6000,
         "seconds": 119.04761904761902,
         "total_points": 18600,
-        "total_seconds": 1827.3801278086992
+        "total_seconds": 1708.3325087610801
     },
     "R-Wpn-Howitzer-Damage02": {
         "cost_per_point": 32.0,
         "points": 8000,
         "seconds": 158.73015873015868,
         "total_points": 26600,
-        "total_seconds": 2025.7928262213973
+        "total_seconds": 1867.0626674912387
     },
     "R-Wpn-Howitzer-Damage03": {
         "cost_per_point": 32.05128205128205,
         "points": 10000,
         "seconds": 198.41269841269838,
         "total_points": 36600,
-        "total_seconds": 2263.8880643166353
+        "total_seconds": 2065.475365903937
     },
     "R-Wpn-Howitzer-Damage04": {
         "cost_per_point": 32.05128205128205,
         "points": 10000,
         "seconds": 198.41269841269838,
         "total_points": 44600,
-        "total_seconds": 2422.6182230467944
+        "total_seconds": 2224.205524634096
     },
     "R-Wpn-Howitzer-Damage05": {
         "cost_per_point": 32.0,
         "points": 12000,
         "seconds": 219.7802197802197,
         "total_points": 56600,
-        "total_seconds": 2657.050457479029
+        "total_seconds": 2437.270237698809
     },
     "R-Wpn-Howitzer-Damage06": {
         "cost_per_point": 32.036613272311214,
@@ -2149,63 +2149,63 @@ These research items are unreachable or have no dependencies[
         "points": 12000,
         "seconds": 238.09523809523805,
         "total_points": 21000,
-        "total_seconds": 1994.046794475366
+        "total_seconds": 1755.9515563801278
     },
     "R-Wpn-Howitzer-ROF01": {
         "cost_per_point": 32.0855614973262,
         "points": 6000,
         "seconds": 119.04761904761902,
         "total_points": 28600,
-        "total_seconds": 2025.7928262213975
+        "total_seconds": 1906.7452071737785
     },
     "R-Wpn-Howitzer-ROF02": {
         "cost_per_point": 32.0,
         "points": 8000,
         "seconds": 158.73015873015868,
         "total_points": 36600,
-        "total_seconds": 2224.2055246340956
+        "total_seconds": 2065.475365903937
     },
     "R-Wpn-Howitzer-ROF03": {
         "cost_per_point": 32.05128205128205,
         "points": 10000,
         "seconds": 198.41269841269838,
         "total_points": 46600,
-        "total_seconds": 2462.3007627293337
+        "total_seconds": 2263.8880643166353
     },
     "R-Wpn-Howitzer-ROF04": {
         "cost_per_point": 32.0,
         "points": 12000,
         "seconds": 219.7802197802197,
         "total_points": 58600,
-        "total_seconds": 2693.6804941090654
+        "total_seconds": 2473.9002743288456
     },
     "R-Wpn-Howitzer03-Rot": {
         "cost_per_point": 32.0,
         "points": 12000,
         "seconds": 238.09523809523805,
         "total_points": 34600,
-        "total_seconds": 2263.8880643166353
+        "total_seconds": 2025.7928262213975
     },
     "R-Wpn-HowitzerMk1": {
         "cost_per_point": 32.02846975088968,
         "points": 9000,
         "seconds": 178.57142857142853,
         "total_points": 12600,
-        "total_seconds": 1767.8563182848895
+        "total_seconds": 1589.284889713461
     },
     "R-Wpn-HvArtMissile": {
         "cost_per_point": 64.0,
         "points": 28800,
         "seconds": 571.4285714285713,
         "total_points": 44400,
-        "total_seconds": 2791.665842094413
+        "total_seconds": 2220.237270665842
     },
     "R-Wpn-HvyHowitzer": {
         "cost_per_point": 32.05128205128205,
         "points": 10000,
         "seconds": 198.41269841269838,
         "total_points": 22600,
-        "total_seconds": 1986.1102865388577
+        "total_seconds": 1787.6975881261594
     },
     "R-Wpn-HvyLaser": {
         "cost_per_point": 80.0,
@@ -2226,133 +2226,133 @@ These research items are unreachable or have no dependencies[
         "points": 14400,
         "seconds": 285.71428571428567,
         "total_points": 21600,
-        "total_seconds": 2053.570603999175
+        "total_seconds": 1767.8563182848895
     },
     "R-Wpn-Laser02": {
         "cost_per_point": 64.0,
         "points": 28800,
         "seconds": 571.4285714285713,
         "total_points": 43200,
-        "total_seconds": 2767.8563182848893
+        "total_seconds": 2196.427746856318
     },
     "R-Wpn-MG-Damage01": {
         "cost_per_point": 33.333333333333336,
         "points": 600,
         "seconds": 42.857142857142854,
         "total_points": 660,
-        "total_seconds": 90.0
+        "total_seconds": 47.142857142857146
     },
     "R-Wpn-MG-Damage02": {
         "cost_per_point": 32.432432432432435,
         "points": 1200,
         "seconds": 85.71428571428571,
         "total_points": 1860,
-        "total_seconds": 218.57142857142856
+        "total_seconds": 132.85714285714286
     },
     "R-Wpn-MG-Damage03": {
         "cost_per_point": 32.0,
         "points": 2400,
         "seconds": 114.28571428571429,
         "total_points": 4260,
-        "total_seconds": 417.1428571428571
+        "total_seconds": 302.85714285714283
     },
     "R-Wpn-MG-Damage04": {
         "cost_per_point": 32.0,
         "points": 7200,
         "seconds": 142.85714285714283,
         "total_points": 11460,
-        "total_seconds": 1709.5229849515565
+        "total_seconds": 1566.6658420944136
     },
     "R-Wpn-MG-Damage05": {
         "cost_per_point": 32.055749128919864,
         "points": 9200,
         "seconds": 182.5396825396825,
         "total_points": 17060,
-        "total_seconds": 1860.316635745207
+        "total_seconds": 1677.7769532055245
     },
     "R-Wpn-MG-Damage06": {
         "cost_per_point": 32.0,
         "points": 11200,
         "seconds": 222.22222222222217,
         "total_points": 28260,
-        "total_seconds": 2122.221397649969
+        "total_seconds": 1899.9991754277466
     },
     "R-Wpn-MG-Damage07": {
         "cost_per_point": 32.03883495145631,
         "points": 13200,
         "seconds": 261.9047619047618,
         "total_points": 41460,
-        "total_seconds": 2423.8086992372705
+        "total_seconds": 2161.9039373325086
     },
     "R-Wpn-MG-Damage08": {
         "cost_per_point": 33.77777777777778,
         "points": 15200,
         "seconds": 278.3882783882783,
         "total_points": 55400,
-        "total_seconds": 2693.680494109065
+        "total_seconds": 2415.2922157207868
     },
     "R-Wpn-MG-ROF01": {
         "cost_per_point": 32.142857142857146,
         "points": 3600,
         "seconds": 71.42857142857142,
         "total_points": 7860,
-        "total_seconds": 1566.6658420944134
+        "total_seconds": 1495.237270665842
     },
     "R-Wpn-MG-ROF02": {
         "cost_per_point": 32.0,
         "points": 4800,
         "seconds": 95.23809523809521,
         "total_points": 12660,
-        "total_seconds": 1685.7134611420324
+        "total_seconds": 1590.4753659039372
     },
     "R-Wpn-MG-ROF03": {
         "cost_per_point": 32.075471698113205,
         "points": 6800,
         "seconds": 134.92063492063488,
         "total_points": 19460,
-        "total_seconds": 1860.3166357452071
+        "total_seconds": 1725.3960008245722
     },
     "R-Wpn-MG1Mk1": {
         "cost_per_point": 60.0,
         "points": 60,
         "seconds": 4.285714285714286,
         "total_points": 60,
-        "total_seconds": 8.571428571428571
+        "total_seconds": 4.285714285714286
     },
     "R-Wpn-MG2Mk1": {
         "cost_per_point": 32.432432432432435,
         "points": 1200,
         "seconds": 85.71428571428571,
         "total_points": 3060,
-        "total_seconds": 304.2857142857143
+        "total_seconds": 218.57142857142858
     },
     "R-Wpn-MG3Mk1": {
         "cost_per_point": 32.0,
         "points": 2400,
         "seconds": 47.619047619047606,
         "total_points": 5460,
-        "total_seconds": 1495.237270665842
+        "total_seconds": 1447.6182230467944
     },
     "R-Wpn-MG4": {
         "cost_per_point": 32.0,
         "points": 7200,
         "seconds": 142.85714285714283,
         "total_points": 12660,
-        "total_seconds": 1733.3325087610801
+        "total_seconds": 1590.4753659039372
     },
     "R-Wpn-MG5": {
         "cost_per_point": 33.333333333333336,
         "points": 15000,
         "seconds": 297.61904761904754,
         "total_points": 27660,
-        "total_seconds": 2185.7134611420324
+        "total_seconds": 1888.0944135229847
     },
     "R-Wpn-MdArtMissile": {
         "cost_per_point": 32.0,
         "points": 14400,
         "seconds": 285.71428571428567,
         "total_points": 22800,
-        "total_seconds": 2077.380127808699
+        "total_seconds": 1791.6658420944134
     },
     "R-Wpn-Missile-Accuracy01": {
         "cost_per_point": 32.0,
@@ -2394,21 +2394,21 @@ These research items are unreachable or have no dependencies[
         "points": 28800,
         "seconds": 571.4285714285713,
         "total_points": 50400,
-        "total_seconds": 2910.7134611420324
+        "total_seconds": 2339.284889713461
     },
     "R-Wpn-Missile-LtSAM": {
         "cost_per_point": 32.0,
         "points": 14400,
         "seconds": 285.71428571428567,
         "total_points": 21600,
-        "total_seconds": 2053.570603999175
+        "total_seconds": 1767.8563182848895
     },
     "R-Wpn-Missile-ROF01": {
         "cost_per_point": 32.0,
         "points": 14400,
         "seconds": 285.71428571428567,
         "total_points": 52200,
-        "total_seconds": 2053.570603999175
+        "total_seconds": 1767.8563182848895
     },
     "R-Wpn-Missile-ROF02": {
         "cost_per_point": 64.0,
@@ -2429,161 +2429,161 @@ These research items are unreachable or have no dependencies[
         "points": 14400,
         "seconds": 285.71428571428567,
         "total_points": 37800,
-        "total_seconds": 2374.9991754277466
+        "total_seconds": 2089.284889713461
     },
     "R-Wpn-Mortar-Acc01": {
         "cost_per_point": 32.142857142857146,
         "points": 3600,
         "seconds": 95.23809523809521,
         "total_points": 11400,
-        "total_seconds": 1685.7134611420324
+        "total_seconds": 1590.4753659039372
     },
     "R-Wpn-Mortar-Acc02": {
         "cost_per_point": 32.0,
         "points": 7200,
         "seconds": 142.85714285714283,
         "total_points": 18600,
-        "total_seconds": 1851.189651618223
+        "total_seconds": 1708.3325087610801
     },
     "R-Wpn-Mortar-Acc03": {
         "cost_per_point": 32.055749128919864,
         "points": 9200,
         "seconds": 182.5396825396825,
         "total_points": 27800,
-        "total_seconds": 2073.411873840445
+        "total_seconds": 1890.8721913007626
     },
     "R-Wpn-Mortar-Damage01": {
         "cost_per_point": 32.142857142857146,
         "points": 1800,
         "seconds": 35.71428571428571,
         "total_points": 7860,
-        "total_seconds": 1530.9515563801278
+        "total_seconds": 1495.237270665842
     },
     "R-Wpn-Mortar-Damage02": {
         "cost_per_point": 32.142857142857146,
         "points": 3600,
         "seconds": 71.42857142857142,
         "total_points": 11460,
-        "total_seconds": 1638.094413522985
+        "total_seconds": 1566.6658420944136
     },
     "R-Wpn-Mortar-Damage03": {
         "cost_per_point": 32.0,
         "points": 7200,
         "seconds": 142.85714285714283,
         "total_points": 18660,
-        "total_seconds": 1852.3801278086992
+        "total_seconds": 1709.5229849515563
     },
     "R-Wpn-Mortar-Damage04": {
         "cost_per_point": 32.055749128919864,
         "points": 9200,
         "seconds": 182.5396825396825,
         "total_points": 22400,
-        "total_seconds": 1966.2690166975879
+        "total_seconds": 1783.7293341579054
     },
     "R-Wpn-Mortar-Damage05": {
         "cost_per_point": 32.0,
         "points": 11200,
         "seconds": 222.22222222222217,
         "total_points": 33600,
-        "total_seconds": 2228.1737786023496
+        "total_seconds": 2005.9515563801276
     },
     "R-Wpn-Mortar-Damage06": {
         "cost_per_point": 32.03883495145631,
         "points": 13200,
         "seconds": 261.9047619047618,
         "total_points": 46800,
-        "total_seconds": 2529.7610801896512
+        "total_seconds": 2267.8563182848893
     },
     "R-Wpn-Mortar-Incenediary": {
         "cost_per_point": 32.142857142857146,
         "points": 3600,
         "seconds": 71.42857142857142,
         "total_points": 12600,
-        "total_seconds": 1660.7134611420324
+        "total_seconds": 1589.284889713461
     },
     "R-Wpn-Mortar-ROF01": {
         "cost_per_point": 32.142857142857146,
         "points": 1800,
         "seconds": 35.71428571428571,
         "total_points": 20460,
-        "total_seconds": 1780.9515563801278
+        "total_seconds": 1745.237270665842
     },
     "R-Wpn-Mortar-ROF02": {
         "cost_per_point": 32.0855614973262,
         "points": 6000,
         "seconds": 119.04761904761902,
         "total_points": 19200,
-        "total_seconds": 1839.284889713461
+        "total_seconds": 1720.237270665842
     },
     "R-Wpn-Mortar-ROF03": {
         "cost_per_point": 32.0,
         "points": 8000,
         "seconds": 158.73015873015868,
         "total_points": 27200,
-        "total_seconds": 2037.6975881261592
+        "total_seconds": 1878.9674293960006
     },
     "R-Wpn-Mortar-ROF04": {
         "cost_per_point": 32.05128205128205,
         "points": 10000,
         "seconds": 198.41269841269838,
         "total_points": 37200,
-        "total_seconds": 2275.7928262213973
+        "total_seconds": 2077.380127808699
     },
     "R-Wpn-Mortar01Lt": {
         "cost_per_point": 32.0,
         "points": 2400,
         "seconds": 47.619047619047606,
         "total_points": 6060,
-        "total_seconds": 1507.142032570604
+        "total_seconds": 1459.5229849515563
     },
     "R-Wpn-Mortar02Hvy": {
         "cost_per_point": 32.0,
         "points": 7200,
         "seconds": 142.85714285714283,
         "total_points": 13200,
-        "total_seconds": 1744.046794475366
+        "total_seconds": 1601.189651618223
     },
     "R-Wpn-Mortar3": {
         "cost_per_point": 32.05128205128205,
         "points": 10000,
         "seconds": 198.41269841269838,
         "total_points": 23200,
-        "total_seconds": 1998.0150484436197
+        "total_seconds": 1799.6023500309213
     },
     "R-Wpn-PlasmaCannon": {
         "cost_per_point": 32.0,
         "points": 12000,
         "seconds": 238.09523809523805,
         "total_points": 19260,
-        "total_seconds": 1959.5229849515563
+        "total_seconds": 1721.4277468563182
     },
     "R-Wpn-Plasmite-Flamer": {
         "cost_per_point": 32.0,
         "points": 7200,
         "seconds": 198.41269841269838,
         "total_points": 16200,
-        "total_seconds": 1998.0150484436197
+        "total_seconds": 1799.6023500309213
     },
     "R-Wpn-Rail-Accuracy01": {
         "cost_per_point": 32.0,
         "points": 14400,
         "seconds": 285.71428571428567,
         "total_points": 50460,
-        "total_seconds": 2626.189651618223
+        "total_seconds": 2340.475365903937
     },
     "R-Wpn-Rail-Damage01": {
         "cost_per_point": 32.0,
         "points": 14400,
         "seconds": 285.71428571428567,
         "total_points": 36060,
-        "total_seconds": 2340.475365903937
+        "total_seconds": 2054.7610801896512
     },
     "R-Wpn-Rail-Damage02": {
         "cost_per_point": 64.0,
         "points": 28800,
         "seconds": 527.4725274725273,
         "total_points": 64860,
-        "total_seconds": 3116.0248164533878
+        "total_seconds": 2588.5522889808603
     },
     "R-Wpn-Rail-Damage03": {
         "cost_per_point": 96.0,
@@ -2597,7 +2597,7 @@ These research items are unreachable or have no dependencies[
         "points": 14400,
         "seconds": 263.73626373626365,
         "total_points": 64860,
-        "total_seconds": 2852.288552717124
+        "total_seconds": 2588.5522889808603
     },
     "R-Wpn-Rail-ROF02": {
         "cost_per_point": 64.0,
@@ -2618,14 +2618,14 @@ These research items are unreachable or have no dependencies[
         "points": 14400,
         "seconds": 285.71428571428567,
         "total_points": 21660,
-        "total_seconds": 2054.7610801896517
+        "total_seconds": 1769.046794475366
     },
     "R-Wpn-RailGun02": {
         "cost_per_point": 64.0,
         "points": 28800,
         "seconds": 571.4285714285713,
         "total_points": 50460,
-        "total_seconds": 2911.9039373325086
+        "total_seconds": 2340.475365903937
     },
     "R-Wpn-RailGun03": {
         "cost_per_point": 96.0,
@@ -2639,160 +2639,160 @@ These research items are unreachable or have no dependencies[
         "points": 3600,
         "seconds": 71.42857142857142,
         "total_points": 9000,
-        "total_seconds": 1589.284889713461
+        "total_seconds": 1517.8563182848898
     },
     "R-Wpn-Rocket-Accuracy02": {
         "cost_per_point": 32.0,
         "points": 4800,
         "seconds": 95.23809523809521,
         "total_points": 12600,
-        "total_seconds": 1684.5229849515563
+        "total_seconds": 1589.284889713461
     },
     "R-Wpn-Rocket-Damage01": {
         "cost_per_point": 32.432432432432435,
         "points": 1200,
         "seconds": 85.71428571428571,
         "total_points": 3600,
-        "total_seconds": 342.8571428571429
+        "total_seconds": 257.14285714285717
     },
     "R-Wpn-Rocket-Damage02": {
         "cost_per_point": 32.0,
         "points": 2400,
         "seconds": 47.619047619047606,
         "total_points": 6000,
-        "total_seconds": 1505.9515563801278
+        "total_seconds": 1458.3325087610801
     },
     "R-Wpn-Rocket-Damage03": {
         "cost_per_point": 32.142857142857146,
         "points": 3600,
         "seconds": 71.42857142857142,
         "total_points": 9600,
-        "total_seconds": 1601.189651618223
+        "total_seconds": 1529.7610801896517
     },
     "R-Wpn-Rocket-Damage04": {
         "cost_per_point": 32.0,
         "points": 4800,
         "seconds": 95.23809523809521,
         "total_points": 17400,
-        "total_seconds": 1779.7610801896515
+        "total_seconds": 1684.5229849515563
     },
     "R-Wpn-Rocket-Damage05": {
         "cost_per_point": 32.0855614973262,
         "points": 6000,
         "seconds": 119.04761904761902,
         "total_points": 23400,
-        "total_seconds": 1922.6182230467944
+        "total_seconds": 1803.5706039991753
     },
     "R-Wpn-Rocket-Damage06": {
         "cost_per_point": 32.0,
         "points": 7200,
         "seconds": 142.85714285714283,
         "total_points": 30600,
-        "total_seconds": 2089.284889713461
+        "total_seconds": 1946.4277468563182
     },
     "R-Wpn-Rocket-Damage07": {
         "cost_per_point": 32.06106870229008,
         "points": 8400,
         "seconds": 166.66666666666663,
         "total_points": 39000,
-        "total_seconds": 2279.7610801896512
+        "total_seconds": 2113.0944135229847
     },
     "R-Wpn-Rocket-Damage08": {
         "cost_per_point": 32.0,
         "points": 9600,
         "seconds": 190.47619047619042,
         "total_points": 48600,
-        "total_seconds": 2494.0467944753655
+        "total_seconds": 2303.570603999175
     },
     "R-Wpn-Rocket-Damage09": {
         "cost_per_point": 32.047477744807125,
         "points": 10800,
         "seconds": 197.80219780219775,
         "total_points": 59400,
-        "total_seconds": 2686.3544867830583
+        "total_seconds": 2488.5522889808603
     },
     "R-Wpn-Rocket-ROF01": {
         "cost_per_point": 32.0,
         "points": 2400,
         "seconds": 47.619047619047606,
         "total_points": 8400,
-        "total_seconds": 1553.5706039991755
+        "total_seconds": 1505.9515563801278
     },
     "R-Wpn-Rocket-ROF02": {
         "cost_per_point": 32.0,
         "points": 4800,
         "seconds": 95.23809523809521,
         "total_points": 13200,
-        "total_seconds": 1696.4277468563182
+        "total_seconds": 1601.189651618223
     },
     "R-Wpn-Rocket-ROF03": {
         "cost_per_point": 32.0,
         "points": 9600,
         "seconds": 190.47619047619042,
         "total_points": 22800,
-        "total_seconds": 1982.1420325706038
+        "total_seconds": 1791.6658420944134
     },
     "R-Wpn-Rocket01-LtAT": {
         "cost_per_point": 32.142857142857146,
         "points": 3600,
         "seconds": 71.42857142857142,
         "total_points": 12600,
-        "total_seconds": 1660.7134611420324
+        "total_seconds": 1589.284889713461
     },
     "R-Wpn-Rocket02-MRL": {
         "cost_per_point": 32.0,
         "points": 2400,
         "seconds": 47.619047619047606,
         "total_points": 8400,
-        "total_seconds": 1553.5706039991755
+        "total_seconds": 1505.9515563801278
     },
     "R-Wpn-Rocket03-HvAT": {
         "cost_per_point": 32.0,
         "points": 4800,
         "seconds": 95.23809523809521,
         "total_points": 16200,
-        "total_seconds": 1779.7610801896515
+        "total_seconds": 1684.5229849515563
     },
     "R-Wpn-Rocket05-MiniPod": {
         "cost_per_point": 32.432432432432435,
         "points": 1200,
         "seconds": 85.71428571428571,
         "total_points": 2400,
-        "total_seconds": 257.1428571428571
+        "total_seconds": 171.42857142857142
     },
     "R-Wpn-Rocket06-IDF": {
         "cost_per_point": 32.0,
         "points": 7200,
         "seconds": 142.85714285714283,
         "total_points": 15600,
-        "total_seconds": 1791.6658420944134
+        "total_seconds": 1648.8086992372705
     },
     "R-Wpn-Rocket07-Tank-Killer": {
         "cost_per_point": 32.05128205128205,
         "points": 10000,
         "seconds": 198.41269841269838,
         "total_points": 28600,
-        "total_seconds": 2105.1579055864768
+        "total_seconds": 1906.7452071737785
     },
     "R-Wpn-RocketSlow-Accuracy01": {
         "cost_per_point": 32.0855614973262,
         "points": 6000,
         "seconds": 119.04761904761902,
         "total_points": 18600,
-        "total_seconds": 1827.3801278086992
+        "total_seconds": 1708.3325087610801
     },
     "R-Wpn-RocketSlow-Accuracy02": {
         "cost_per_point": 32.0,
         "points": 7200,
         "seconds": 142.85714285714283,
         "total_points": 23400,
-        "total_seconds": 1946.4277468563182
+        "total_seconds": 1803.5706039991753
     },
     "R-Wpn-Sunburst": {
         "cost_per_point": 32.0855614973262,
         "points": 6000,
         "seconds": 119.04761904761902,
         "total_points": 18600,
-        "total_seconds": 1827.3801278086992
+        "total_seconds": 1708.3325087610801
     }
 }
