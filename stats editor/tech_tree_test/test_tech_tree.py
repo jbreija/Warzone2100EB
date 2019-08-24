@@ -3,6 +3,9 @@ import json
 import os
 import pandas
 
+RESULTS_TXT = "eb_results.txt"
+RESULTS_XLSX = "eb_results.xlsx"
+
 if "nt" in os.name.lower():
     RESEARCH_JSON = ".\\eb_research.json"
 else:
@@ -190,7 +193,7 @@ def apply_upgrades():
 
 def results_to_excel(RESULTS):
     import xlsxwriter
-    workbook = xlsxwriter.Workbook('eb_results.xlsx')
+    workbook = xlsxwriter.Workbook(RESULTS_XLSX)
     worksheet = workbook.add_worksheet()
     row = 0
     col = 0
@@ -212,7 +215,7 @@ def results_to_excel(RESULTS):
     workbook.close()
 
 def results_to_txt(RESULTS):
-    with open("eb_results.txt", 'w') as f:
+    with open(RESULTS_TXT, 'w') as f:
         f.write("These research items are unreachable or have no dependencies")
         f.write(json.dumps(UNFINISHED_RESEARCH, indent=4, sort_keys=True))
         f.write(json.dumps(RESULTS, indent=4, sort_keys=True))
