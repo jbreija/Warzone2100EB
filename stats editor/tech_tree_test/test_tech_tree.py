@@ -55,7 +55,6 @@ def calculate_dependencies():
 
             if available:
                 shortest_path = sorted(shortest_path, reverse=True)
-                print(shortest_path)
                 NEXT_RESEARCH[key] = shortest_path[0] + JSON_DATA[key]["researchPoints"]
 
         for key, value in CURRENT_RESEARCH.items():
