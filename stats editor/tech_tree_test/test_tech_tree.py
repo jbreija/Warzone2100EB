@@ -1,7 +1,6 @@
 
 import json
 import os
-import pandas
 
 RESULTS_TXT = "results.txt"
 RESULTS_XLSX = "results.xlsx"
