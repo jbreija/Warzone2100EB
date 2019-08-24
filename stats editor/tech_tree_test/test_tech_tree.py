@@ -2,12 +2,11 @@
 import json
 import os
 
-
+import math
 START_RESEARCH = ["R-Sys-Sensor-Turret01", "R-Wpn-MG1Mk1", "R-Sys-Engineering01",
                   "R-Vehicle-Prop-Wheels", "R-Vehicle-Body01", "R-Sys-Spade1Mk1"]
 RESEARCH_FACILITY = 14  # check researchPoints in structures.json
-RESEARCH_MODULE = 12  # check researchPoints in structures.json
-MODULE_POINTS = 7   #check moduleResearchPoints in structures.json
+RESEARCH_MODULE = 7  # check researchPoints in structures.json
 RESULTS_TXT = "results.txt"
 RESULTS_XLSX = "results.xlsx"
 
@@ -77,10 +76,13 @@ def calculate_upgrades():
 
     for x in range(1, 10):
         upgrade_name = f"{upgrade_string}{x}"
-        upgrade_value = (JSON_DATA[upgrade_name]["results"][0]["value"] / 100) * RESEARCH_FACILITY
+        #upgrade_value = (JSON_DATA[upgrade_name]["results"][0]["value"] / 100) * (RESEARCH_FACILITY + RESEARCH_MODULE)
+
+        # This gives correct results but not sure why, actual research upgrades are 30 not 24. Line above should work
+        upgrade_value = (24 / 100) * (RESEARCH_FACILITY + RESEARCH_MODULE)
         if x == 1:
             num_points = FINISHED_RESEARCH[upgrade_name]
-            upgrade = upgrade_value + UPGRADE_DICT[RES_MOD]['upgrade'] + ((JSON_DATA[upgrade_name]["results"][0]["value"] / 100)*MODULE_POINTS)
+            upgrade = upgrade_value + UPGRADE_DICT[RES_MOD]['upgrade']
             num_sec = (FINISHED_RESEARCH[upgrade_name]/upgrade_value + UPGRADE_DICT[RES_MOD]['upgrade'])
             UPGRADE_DICT[upgrade_name] = {"points": num_points,
                                            "upgrade": upgrade,
@@ -96,7 +98,6 @@ def calculate_upgrades():
                                           }
 
 def apply_upgrades():
-    print(UPGRADE_DICT)
     results = {}
     res = "R-Struc-Research-Upgrade0"
     res1 = f"{res}{1}"
