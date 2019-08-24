@@ -3,11 +3,11 @@ import json
 import os
 import pandas
 
-RESULTS_TXT = "eb_results.txt"
-RESULTS_XLSX = "eb_results.xlsx"
+RESULTS_TXT = "results.txt"
+RESULTS_XLSX = "results.xlsx"
 
 if "nt" in os.name.lower():
-    RESEARCH_JSON = ".\\eb_research.json"
+    RESEARCH_JSON = ".\\research.json"
 else:
     RESEARCH_JSON = "./research.json"
 
@@ -17,8 +17,8 @@ with open(RESEARCH_JSON) as f:
 
 START_RESEARCH = ["R-Vehicle-Engine01", "R-Sys-Sensor-Turret01", "R-Wpn-MG1Mk1", "R-Sys-Engineering01"]
 RESEARCH_ITEMS_WITH_NO_DEPENDENCY = []
-RESEARCH_FACILITY = 18  # check researchPoints in structures.json
-RESEARCH_MODULE = 12  # check moduleResearchPoints in structures.json
+RESEARCH_FACILITY = 14  # check researchPoints in structures.json
+RESEARCH_MODULE = 7  # check moduleResearchPoints in structures.json
 UNFINISHED_RESEARCH = []
 NEXT_RESEARCH = {}
 CURRENT_RESEARCH = {}
