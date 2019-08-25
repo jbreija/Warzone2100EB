@@ -79,7 +79,7 @@ def calculate_upgrades():
         #upgrade_value = (JSON_DATA[upgrade_name]["results"][0]["value"] / 100) * (RESEARCH_FACILITY + RESEARCH_MODULE)
 
         # This gives correct results but not sure why, actual research upgrades are 30 not 24. Line above should work
-        upgrade_value = (24 / 100) * (RESEARCH_FACILITY + RESEARCH_MODULE)
+        upgrade_value = (25 / 100) * (RESEARCH_FACILITY + RESEARCH_MODULE)
         if x == 1:
             num_points = FINISHED_RESEARCH[upgrade_name]
             upgrade = upgrade_value + UPGRADE_DICT[RES_MOD]['upgrade']
