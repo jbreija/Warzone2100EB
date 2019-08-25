@@ -362,7 +362,7 @@
         "range": 2304,
         "sensorModel": "miupdish.PIE",
         "type": "SUPER",
-        "weight": 10
+        "weight": 20
     },
     "ZNULLSENSOR": {
         "id": "ZNULLSENSOR",

@@ -933,7 +933,7 @@
         "weaponEffect": "FLAMER",
         "weaponSubClass": "BOMB",
         "weaponWav": "hwtzflgt.ogg",
-        "weight": 320000
+        "weight": 200000
     },
     "Bomb5-VTOL-Plasmite": {
         "buildPoints": 2000,
@@ -1418,7 +1418,7 @@
         "weaponEffect": "ALL ROUNDER",
         "weaponSubClass": "CANNON",
         "weaponWav": "lrgcan.ogg",
-        "weight": 176000
+        "weight": 170000
     },
     "Cannon4AUTO-VTOL": {
         "buildPoints": 700,
@@ -1542,7 +1542,7 @@
         "weaponEffect": "ALL ROUNDER",
         "weaponSubClass": "CANNON",
         "weaponWav": "hivelcan.ogg",
-        "weight": 188000
+        "weight": 170000
     },
     "Cannon4AUTOMk1-Hvy": {
         "buildPoints": 750,
@@ -1622,7 +1622,7 @@
         "weaponEffect": "ALL ROUNDER",
         "weaponSubClass": "CANNON",
         "weaponWav": "hivelcan.ogg",
-        "weight": 192000
+        "weight": 170000
     },
     "Cannon4AUTOMk1-Hvy-Inc": {
         "buildPoints": 700,
@@ -2084,7 +2084,7 @@
         "weaponEffect": "ALL ROUNDER",
         "weaponSubClass": "CANNON",
         "weaponWav": "smlcan.ogg",
-        "weight": 2400000
+        "weight": 200000
     },
     "CommandTurret1": {
         "buildPoints": 600,
@@ -4113,7 +4113,7 @@
         "weaponEffect": "ALL ROUNDER",
         "weaponSubClass": "EMP",
         "weaponWav": "emp.ogg",
-        "weight": 2400000
+        "weight": 200000
     },
     "Flame1Mk1": {
         "buildPoints": 200,
@@ -4243,7 +4243,7 @@
         "weaponEffect": "FLAMER",
         "weaponSubClass": "FLAME",
         "weaponWav": "flmthrow.ogg",
-        "weight": 180000
+        "weight": 170000
     },
     "Flame2-Rail": {
         "buildPoints": 1000,
@@ -4286,7 +4286,7 @@
         "weaponEffect": "FLAMER",
         "weaponSubClass": "FLAME",
         "weaponWav": "flmthrow.ogg",
-        "weight": 188000
+        "weight": 170000
     },
     "FlamerPlasmaSuper": {
         "buildPoints": 2400,
@@ -4331,7 +4331,7 @@
         "weaponEffect": "FLAMER",
         "weaponSubClass": "FLAME",
         "weaponWav": "plasflm.ogg",
-        "weight": 2400000
+        "weight": 200000
     },
     "HeavyLaser": {
         "buildPoints": 1000,
@@ -4376,7 +4376,7 @@
         "weaponEffect": "FLAMER",
         "weaponSubClass": "ENERGY",
         "weaponWav": "hevlsr.ogg",
-        "weight": 440000
+        "weight": 170000
     },
     "HeavyLaser-Aslt": {
         "buildPoints": 1200,
@@ -4421,7 +4421,7 @@
         "weaponEffect": "FLAMER",
         "weaponSubClass": "ENERGY",
         "weaponWav": "hevlsr.ogg",
-        "weight": 400000
+        "weight": 150000
     },
     "HeavyLaser-Gat": {
         "buildPoints": 1400,
@@ -4465,7 +4465,7 @@
         "weaponEffect": "FLAMER",
         "weaponSubClass": "ENERGY",
         "weaponWav": "hevlsr.ogg",
-        "weight": 360000
+        "weight": 140000
     },
     "HeavyLaser-Inc-Aslt": {
         "buildPoints": 1300,
@@ -4510,7 +4510,7 @@
         "weaponEffect": "FLAMER",
         "weaponSubClass": "ENERGY",
         "weaponWav": "hevlsr.ogg",
-        "weight": 480000
+        "weight": 200000
     },
     "HeavyLaser-VTOL": {
         "buildPoints": 1000,
@@ -4647,7 +4647,7 @@
         "weaponEffect": "ARTILLERY ROUND",
         "weaponSubClass": "HOWITZERS",
         "weaponWav": "lrgcan.ogg",
-        "weight": 320000
+        "weight": 200000
     },
     "Howitzer03-Rot-Inc": {
         "buildPoints": 1800,
@@ -4697,7 +4697,7 @@
         "weaponEffect": "ARTILLERY ROUND",
         "weaponSubClass": "HOWITZERS",
         "weaponWav": "lrgcan.ogg",
-        "weight": 320000
+        "weight": 200000
     },
     "Howitzer03-Rot-Rail": {
         "buildPoints": 1700,
@@ -4742,7 +4742,7 @@
         "weaponEffect": "ARTILLERY ROUND",
         "weaponSubClass": "HOWITZERS",
         "weaponWav": "gaussgun.ogg",
-        "weight": 320000
+        "weight": 200000
     },
     "Howitzer03-Rot-Rail-Inc": {
         "buildPoints": 2000,
@@ -4793,7 +4793,7 @@
         "weaponEffect": "ARTILLERY ROUND",
         "weaponSubClass": "HOWITZERS",
         "weaponWav": "gaussgun.ogg",
-        "weight": 320000
+        "weight": 200000
     },
     "Howitzer03-Rot-Rail-Ram": {
         "buildPoints": 2000,
@@ -4838,7 +4838,7 @@
         "weaponEffect": "ARTILLERY ROUND",
         "weaponSubClass": "HOWITZERS",
         "weaponWav": "gaussgun.ogg",
-        "weight": 320000
+        "weight": 200000
     },
     "Howitzer03-Rot-Ram": {
         "buildPoints": 1800,
@@ -4882,7 +4882,7 @@
         "weaponEffect": "ARTILLERY ROUND",
         "weaponSubClass": "HOWITZERS",
         "weaponWav": "lrgcan.ogg",
-        "weight": 320000
+        "weight": 200000
     },
     "Howitzer105Mk1": {
         "buildPoints": 1000,
@@ -5096,7 +5096,7 @@
         "weaponEffect": "ARTILLERY ROUND",
         "weaponSubClass": "HOWITZERS",
         "weaponWav": "gaussgun.ogg",
-        "weight": 4000000
+        "weight": 200000
     },
     "Howitzer105Mk1-RailPlasSuper": {
         "buildPoints": 3600,
@@ -5143,7 +5143,7 @@
         "weaponEffect": "ARTILLERY ROUND",
         "weaponSubClass": "HOWITZERS",
         "weaponWav": "gaussgun.ogg",
-        "weight": 4000000
+        "weight": 200000
     },
     "Howitzer105Mk1-Ram": {
         "buildPoints": 1100,
@@ -5224,7 +5224,7 @@
         "weaponEffect": "ARTILLERY ROUND",
         "weaponSubClass": "HOWITZERS",
         "weaponWav": "lrgcan.ogg",
-        "weight": 4000000
+        "weight": 200000
     },
     "Howitzer150Mk1": {
         "buildPoints": 1800,
@@ -5265,7 +5265,7 @@
         "weaponEffect": "ARTILLERY ROUND",
         "weaponSubClass": "HOWITZERS",
         "weaponWav": "lrgcan.ogg",
-        "weight": 400000
+        "weight": 200000
     },
     "Howitzer150Mk1-Gat": {
         "buildPoints": 1800,
@@ -5437,7 +5437,7 @@
         "weaponEffect": "ARTILLERY ROUND",
         "weaponSubClass": "HOWITZERS",
         "weaponWav": "gaussgun.ogg",
-        "weight": 400000
+        "weight": 200000
     },
     "Howitzer150Mk1-Rail-Hvy-Ram": {
         "buildPoints": 2100,
@@ -5527,7 +5527,7 @@
         "weaponEffect": "ARTILLERY ROUND",
         "weaponSubClass": "HOWITZERS",
         "weaponWav": "gaussgun.ogg",
-        "weight": 400000
+        "weight": 200000
     },
     "Howitzer150Mk1-Rail-Ram": {
         "buildPoints": 2000,
@@ -5697,7 +5697,7 @@
         "weaponEffect": "ARTILLERY ROUND",
         "weaponSubClass": "HOWITZERS",
         "weaponWav": "lrgcan.ogg",
-        "weight": 4000000
+        "weight": 200000
     },
     "LasSat": {
         "buildPoints": 500,
@@ -6223,7 +6223,7 @@
         "weaponEffect": "ALL ROUNDER",
         "weaponSubClass": "CANNON",
         "weaponWav": "bemlsr.ogg",
-        "weight": 360000
+        "weight": 200000
     },
     "Laser4-PlasmaCannon-Hvy-Aslt": {
         "buildPoints": 1000,
@@ -6264,7 +6264,7 @@
         "weaponEffect": "ALL ROUNDER",
         "weaponSubClass": "CANNON",
         "weaponWav": "hevlsr.ogg",
-        "weight": 360000
+        "weight": 200000
     },
     "Laser4-PlasmaCannon-Hvy-Lsr-Aslt": {
         "buildPoints": 1000,
@@ -6305,7 +6305,7 @@
         "weaponEffect": "ALL ROUNDER",
         "weaponSubClass": "CANNON",
         "weaponWav": "hevlsr.ogg",
-        "weight": 360000
+        "weight": 200000
     },
     "LaserPlasmaSuper": {
         "buildPoints": 2400,
@@ -6349,7 +6349,7 @@
         "weaponEffect": "FLAMER",
         "weaponSubClass": "ENERGY",
         "weaponWav": "hevlsr.ogg",
-        "weight": 2400000
+        "weight": 200000
     },
     "LaserSuper2": {
         "buildPoints": 2400,
@@ -6388,7 +6388,7 @@
         "weaponEffect": "ANTI TANK",
         "weaponSubClass": "ENERGY",
         "weaponWav": "hevlsr.ogg",
-        "weight": 2400000
+        "weight": 200000
     },
     "MG1-Pillbox": {
         "buildPoints": 50,
@@ -7182,7 +7182,7 @@
         "weaponEffect": "ANTI PERSONNEL",
         "weaponSubClass": "MACHINE GUN",
         "weaponWav": "asltmg.ogg",
-        "weight": 2400000
+        "weight": 200000
     },
     "MassDriver": {
         "buildPoints": 2000,
@@ -7222,7 +7222,7 @@
         "weaponEffect": "ALL ROUNDER",
         "weaponSubClass": "GAUSS",
         "weaponWav": "gaussgun.ogg",
-        "weight": 3000000
+        "weight": 200000
     },
     "Missile-A-T": {
         "buildPoints": 1200,
@@ -7350,7 +7350,7 @@
         "weaponEffect": "ARTILLERY ROUND",
         "weaponSubClass": "MISSILE",
         "weaponWav": "rocket.ogg",
-        "weight": 600000
+        "weight": 200000
     },
     "Missile-HvySAM": {
         "buildPoints": 1200,
@@ -7702,7 +7702,7 @@
         "weaponEffect": "ANTI TANK",
         "weaponSubClass": "MISSILE",
         "weaponWav": "rocket.ogg",
-        "weight": 2400000
+        "weight": 200000
     },
     "Mortar-Incenediary": {
         "buildPoints": 750,
@@ -8590,7 +8590,7 @@
         "weaponEffect": "ARTILLERY ROUND",
         "weaponSubClass": "MORTARS",
         "weaponWav": "gaussgun.ogg",
-        "weight": 4000000
+        "weight": 200000
     },
     "MortarGaussRamjetSuper": {
         "buildPoints": 2400,
@@ -8631,7 +8631,7 @@
         "weaponEffect": "ARTILLERY ROUND",
         "weaponSubClass": "MORTARS",
         "weaponWav": "gaussgun.ogg",
-        "weight": 4000000
+        "weight": 200000
     },
     "MortarPlasSuper": {
         "buildPoints": 2000,
@@ -8678,7 +8678,7 @@
         "weaponEffect": "ARTILLERY ROUND",
         "weaponSubClass": "MORTARS",
         "weaponWav": "mortar.ogg",
-        "weight": 4000000
+        "weight": 200000
     },
     "MortarRamjetSuper": {
         "buildPoints": 2000,
@@ -8719,7 +8719,7 @@
         "weaponEffect": "ARTILLERY ROUND",
         "weaponSubClass": "MORTARS",
         "weaponWav": "mortar.ogg",
-        "weight": 4000000
+        "weight": 200000
     },
     "NEXUSlink": {
         "buildPoints": 375,
@@ -9203,7 +9203,7 @@
         "weaponEffect": "ANTI TANK",
         "weaponSubClass": "A-A GUN",
         "weaponWav": "asltmg.ogg",
-        "weight": 200000
+        "weight": 100000
     },
     "QuadRotAAGun-Scav": {
         "buildPoints": 700,
@@ -9241,7 +9241,7 @@
         "weaponEffect": "ANTI TANK",
         "weaponSubClass": "A-A GUN",
         "weaponWav": "mgtower.ogg",
-        "weight": 280000
+        "weight": 150000
     },
     "RailGun1-VTOL": {
         "buildPoints": 1000,
@@ -9518,7 +9518,7 @@
         "weaponEffect": "ANTI TANK",
         "weaponSubClass": "GAUSS",
         "weaponWav": "gaussgun.ogg",
-        "weight": 319980
+        "weight": 170000
     },
     "RailGun2Mk1-Twn-Inc": {
         "buildPoints": 1200,
@@ -9902,7 +9902,7 @@
         "weaponEffect": "ANTI TANK",
         "weaponSubClass": "ROCKET",
         "weaponWav": "rocket.ogg",
-        "weight": 319980
+        "weight": 170000
     },
     "Rocket-BB": {
         "buildPoints": 500,
@@ -11371,7 +11371,7 @@
         "weaponEffect": "ANTI TANK",
         "weaponSubClass": "ROCKET",
         "weaponWav": "rocket.ogg",
-        "weight": 2000000
+        "weight": 200000
     },
     "ScavNEXUSlink": {
         "buildPoints": 100,
@@ -11478,7 +11478,7 @@
         "weaponEffect": "FLAMER",
         "weaponSubClass": "ELECTRONIC",
         "weaponWav": "rotlsr.ogg",
-        "weight": 2400000
+        "weight": 200000
     },
     "Str-Bun-Cannon1Mk1": {
         "buildPoints": 250,
@@ -11922,7 +11922,7 @@
         "weaponEffect": "ANTI TANK",
         "weaponSubClass": "ENERGY",
         "weaponWav": "plslsr.ogg",
-        "weight": 200000
+        "weight": 100000
     },
     "Str-Emp-Cannon4AUTOMk1": {
         "buildPoints": 700,
@@ -12006,7 +12006,7 @@
         "weaponEffect": "FLAMER",
         "weaponSubClass": "ENERGY",
         "weaponWav": "hevlsr.ogg",
-        "weight": 440000
+        "weight": 200000
     },
     "Str-Emp-Howitzer-Incenediary": {
         "buildPoints": 1000,
@@ -12094,7 +12094,7 @@
         "weaponEffect": "ARTILLERY ROUND",
         "weaponSubClass": "HOWITZERS",
         "weaponWav": "lrgcan.ogg",
-        "weight": 240000
+        "weight": 200000
     },
     "Str-Emp-Howitzer105Mk1": {
         "buildPoints": 1000,
@@ -12174,7 +12174,7 @@
         "weaponEffect": "ARTILLERY ROUND",
         "weaponSubClass": "HOWITZERS",
         "weaponWav": "lrgcan.ogg",
-        "weight": 320000
+        "weight": 200000
     },
     "Str-Emp-Laser2PULSEMk1": {
         "buildPoints": 800,
@@ -12296,7 +12296,7 @@
         "weaponEffect": "ALL ROUNDER",
         "weaponSubClass": "CANNON",
         "weaponWav": "bemlsr.ogg",
-        "weight": 360000
+        "weight": 200000
     },
     "Str-Emp-MG4ROTARYMk1": {
         "buildPoints": 500,
@@ -12375,7 +12375,7 @@
         "weaponEffect": "ARTILLERY ROUND",
         "weaponSubClass": "MISSILE",
         "weaponWav": "rocket.ogg",
-        "weight": 600000
+        "weight": 200000
     },
     "Str-Emp-Missile-HvySAM": {
         "buildPoints": 1200,
@@ -12788,7 +12788,7 @@
         "weaponEffect": "ANTI TANK",
         "weaponSubClass": "A-A GUN",
         "weaponWav": "asltmg.ogg",
-        "weight": 200000
+        "weight": 100000
     },
     "Str-Emp-RailGun2Mk1": {
         "buildPoints": 1200,
@@ -13402,7 +13402,7 @@
         "weaponEffect": "ANTI PERSONNEL",
         "weaponSubClass": "MACHINE GUN",
         "weaponWav": "mgtower.ogg",
-        "weight": 3300000
+        "weight": 140000
     },
     "Str-Har-MG4ROTARYMk1": {
         "buildPoints": 500,
@@ -13641,7 +13641,7 @@
         "weaponEffect": "ANTI TANK",
         "weaponSubClass": "A-A GUN",
         "weaponWav": "asltmg.ogg",
-        "weight": 200000
+        "weight": 100000
     },
     "Str-Har-RailGun2Mk1": {
         "buildPoints": 1200,
