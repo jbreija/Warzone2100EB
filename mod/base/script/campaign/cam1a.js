@@ -25,7 +25,7 @@ camAreaEvent("launchScavAttack", function(droid)
 function runAway()
 {
 	var oilPatch = getObject("oilPatch");
-	var droids = enumRange(oilPatch.x, oilPatch.y, 7, 7, false);
+	var droids = enumRange(oilPatch.x, oilPatch.y, 7, SCAVS, false);
 	camManageGroup(camMakeGroup(droids), CAM_ORDER_ATTACK, {
 		pos: camMakePos("scavAttack1"),
 		fallback: camMakePos("retreat1"),
@@ -118,12 +118,12 @@ function eventGameInit()
 {
 	// if completed in eventStartLevel() the sensor range is normal for a split second. Prefer to run this before map is loaded
 	// only needed in cam1a and cam1b
-	completeResearch("R-Sys-Sensor-Upgrade00", 0);
+	completeResearch("R-Sys-Sensor-Upgrade00", CAM_HUMAN_PLAYER);
 }
 
 function cam1setup()
 {
-	enableResearch("R-Wpn-MG1Mk1", 0);
+	enableResearch("R-Wpn-MG1Mk1", CAM_HUMAN_PLAYER);
 	camCompleteRequiredResearch(CAM1A_RESEARCH, CAM_HUMAN_PLAYER);
 	camCompleteRequiredResearch(CAM1A_RES_SCAV, ULTSCAV);
 	camCompleteRequiredResearch(CAM1A_RES_SCAV, SCAVS);

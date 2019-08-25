@@ -8,7 +8,7 @@ var NPScout; // Sensor scout
 camAreaEvent("AttackArea1", function(droid)
 {
 	queue("camCallOnce", camSecondsToMilliseconds(2), "doNPRetreat");
-	camManageGroup(camMakeGroup("enemy1Force1", 6), CAM_ORDER_ATTACK, {
+	camManageGroup(camMakeGroup("enemy1Force1", SCAVS), CAM_ORDER_ATTACK, {
 		pos: camMakePos("enemy1Force1Pos"),
 		fallback: camMakePos("enemy1Force1Fallback"),
 		morale: 100

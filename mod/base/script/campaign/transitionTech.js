@@ -9,14 +9,14 @@ const CAM1A_RESEARCH = [
 
 // Starting scavenger research for campaign 1
 const CAM1A_RES_SCAV = [
-	"R-Wpn-MG1Mk1", "R-Sys-Sensor-Upgrade00", 
+	"R-Wpn-MG1Mk1", "R-Sys-Sensor-Upgrade00",
 ];
 
 // Additional starting research for New Paradigm AI. This AI first appears in SUB1-3
 const CAM1_3_RES_NP = [
 	"R-Wpn-MG-Damage04", "R-Wpn-MG-ROF01", "R-Defense-WallUpgrade02",
 	"R-Struc-Materials02",
-    "R-Vehicle-Engine02",
+	"R-Vehicle-Engine02",
 	"R-Vehicle-Metals02", "R-Cyborg-Metals02", "R-Wpn-Cannon-Damage03",
 	"R-Wpn-Flamer-Damage03", "R-Wpn-Flamer-ROF01",
 	"R-Wpn-Mortar-Damage02", "R-Wpn-Rocket-Accuracy01",
@@ -103,7 +103,7 @@ const CAM2A_RES_COL = [
 	"R-Wpn-MG1Mk1", "R-Sys-Engineering03", "R-Wpn-Howitzer-ROF02",
 	"R-Defense-WallUpgrade06", "R-Struc-Materials03", "R-Wpn-Howitzer-Damage03",
 	"R-Struc-Factory-Upgrade07", "R-Wpn-Cannon-Mount02", "R-Wpn-Howitzer-Accuracy02",
-	"R-Vehicle-Engine06", "R-Vehicle-Metals06", "R-Cyborg-Metals06", 
+	"R-Vehicle-Engine06", "R-Vehicle-Metals06", "R-Cyborg-Metals06",
 	"R-Wpn-Cannon-Accuracy02", "R-Wpn-Cannon-Damage06", "R-Wpn-Flamer-Range02",
 	"R-Wpn-Cannon-ROF06", "R-Wpn-Flamer-Damage06", "R-Wpn-Flamer-ROF03", "R-Wpn-Mortar-ROF03",
 	"R-Wpn-MG-Damage06", "R-Wpn-MG-ROF02", "R-Wpn-Mortar-Acc02",
@@ -168,7 +168,7 @@ const CAM2END_RES_COL = [
 //				Gamma Campaign - Nexus AI
 // Starting research for all players in campaign 3
 // TODO: Make this minimal
-const CAM3A_RESEARCH = [ 
+const CAM3A_RESEARCH = [
 	"R-Wpn-MG1Mk1", "R-Sys-Engineering02", "R-Cyborg-Engine03", "R-Wpn-Rocket07-Tank-Killer-Quad", "R-Defense-Mortar3ROTARYMk1-Inc",
 	"R-Vehicle-Metals06", "R-Cyborg-Metals06", "R-Defense-WallUpgrade06", "R-Defense-WallTower-HvyA-Trocket",
 	"R-Struc-Factory-Upgrade04", "R-Wpn-Cannon4AMk1-Hvy", "R-Wpn-Cannon6TwinAslt", "R-Defense-WallTower04",
@@ -260,23 +260,3 @@ const CAM3C_RES_NEXUS = [
 const CAM3C_RES_ALLY = [
 	"R-Wpn-MG1Mk1"
 ];
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

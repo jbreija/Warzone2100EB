@@ -104,36 +104,6 @@ function changeColors()
 	changePlayerColour(ULTSCAV, ((10 <= 0) ? 0 : Math.floor(Math.random() * 10))); // random colors, Nexus controls them all!
 }
 
-
-function setUpperLimits()
-{
-	setDroidLimit(ULTSCAV, 250, DROID_ANY);
-	setDroidLimit(NEXUS, 250, DROID_ANY);
-	setDroidLimit(CAM_HUMAN_PLAYER, 150, DROID_ANY);
-
-	setStructureLimits("A0LightFactory", 20, ULTSCAV);	// set structure limits
-	setStructureLimits("A0PowerGenerator", 20, ULTSCAV);
-	setStructureLimits("A0ResearchFacility", 20, ULTSCAV);
-	setStructureLimits("A0CommandCentre", 20, ULTSCAV);
-	setStructureLimits("A0CommandCentreAR", 20, ULTSCAV);
-	setStructureLimits("A0ComDroidControl", 20, ULTSCAV);
-	setStructureLimits("A0CyborgFactory", 20, ULTSCAV);
-	setStructureLimits("A0CyborgFactoryMech", 20, ULTSCAV);
-	setStructureLimits("A0VTolFactory1", 20, ULTSCAV);
-	setStructureLimits("A0LargeVTolFactory1", 20, ULTSCAV);
-	setStructureLimits("A0DedicatedResearchFacility", 20, ULTSCAV);
-	setStructureLimits("A0RoboticFactory", 20, ULTSCAV);
-	setStructureLimits("A0LargeFactory1", 20, ULTSCAV);
-	setStructureLimits("A0VapPowerGenerator", 20, ULTSCAV);
-	setStructureLimits("A0RepairCentre3", 20, ULTSCAV);
-	setStructureLimits("A0RepairCentre4", 20, ULTSCAV);
-}
-
-function eventGameInit()
-{
-	setUpperLimits();
-}
-
 function eventStartLevel()
 {
 	var startpos = getObject("startPosition");
@@ -142,10 +112,9 @@ function eventStartLevel()
 
 	camSetStandardWinLossConditions(CAM_VICTORY_OFFWORLD, "GAMMA_OUT", {
 		area: "RTLZ",
-		reinforcements: camMinutesToSeconds(.5),
+		reinforcements: camMinutesToSeconds(1),
 		annihilate: true
 	});
-
 
 	centreView(startpos.x, startpos.y);
 	setNoGoArea(lz.x, lz.y, lz.x2, lz.y2, CAM_HUMAN_PLAYER);
@@ -163,8 +132,8 @@ function eventStartLevel()
 
 	setAlliance(ULTSCAV, NEXUS, true);
 	camSetArtifacts({
-		"TwinRailGunHP": { tech: "R-Wpn-RailGun03" },
-		"DragonDroid": { tech: "R-Vehicle-Body14" }, // Dragon
+		"NX-NWCyborgFactory": { tech: "R-Wpn-RailGun03" },
+		"NX-NEFactory": { tech: "R-Vehicle-Body14" }, // Dragon
 		"PlasteelWall": { tech: "R-Defense-WallUpgrade10" },
 	});
 
@@ -367,10 +336,10 @@ function eventStartLevel()
 		35, // produce droids every x seconds
 		55, // produce cyborgs every x seconds
 		65, // produce VTOLs every x seconds
-		5, // min factories
-		5, // min vtol factories
-		5, // min cyborg factories
-		15, // min number of trucks
+		4, // min factories
+		4, // min vtol factories
+		4, // min cyborg factories
+		10, // min number of trucks
 		3, // min number of sensor droids
 		20, // min number of attack droids
 		10, // min number of defend droids

@@ -4,7 +4,7 @@ include("script/campaign/templates.js");
 include("script/campaign/transitionTech.js");
 include("script/campaign/ultScav.js");
 
-const VTOL_GROUP = camNewGroup();
+var ultscav_Heli_group;
 
 function sendRocketForce()
 {
@@ -59,15 +59,15 @@ camAreaEvent("RemoveBeacon", function()
 
 function eventDroidBuilt(droid, structure)
 {
-	if (isVTOL(droid))
+	if (isVTOL(droid) && camPlayerMatchesFilter(droid.player, ULTSCAV))
 	{
-		groupAdd(VTOL_GROUP, droid);
+		groupAdd(ultscav_Heli_group, droid);
 	}
 }
 
 function attackVTOLs()
 {
-	var vtols = enumGroup(VTOL_GROUP);
+	var vtols = enumGroup(ultscav_Heli_group);
 	for (var i = 0; i < vtols.length; ++i)
 	{
 		orderDroidLoc(vtols[i], DORDER_ATTACK, startPosition.x, startPosition.y)
@@ -98,7 +98,7 @@ camAreaEvent("AmbushTrigger", function()
 	{
 		var fac = vtol_facts[j];
 		__camBuildDroid("ScavengerHelicopter", fac)
-	} 
+	}
 	setTimer("attackVTOLs", camMinutesToMilliseconds(5));
 
 
@@ -205,6 +205,8 @@ function eventStartLevel()
 		setNoGoArea(ph.x, ph.y, ph.x2, ph.y2, i + 1);
 	}
 
+	ultscav_Heli_group = camNewGroup();
+
 	setReinforcementTime(-1);
 	setMissionTime(camChangeOnDiff(camHoursToSeconds(2)));
 	setAlliance(NEW_PARADIGM, SCAVS, true);
@@ -244,7 +246,7 @@ function eventStartLevel()
 			detectMsg: "C1C_BASE5",
 			detectSnd: "pcv374.ogg",
 			eliminateSnd: "pcv391.ogg",
-			player: 7 // hence discriminate by player filter
+			player: SCAVS // hence discriminate by player filter
 		},
 		"NPEastBaseGroup": {
 			cleanup: "NPEastBase",

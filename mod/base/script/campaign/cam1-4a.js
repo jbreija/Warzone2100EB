@@ -36,12 +36,6 @@ camAreaEvent("triggerLZ2Blip", function()
 	hackAddMessage("C1-4_LZ", PROX_MSG, CAM_HUMAN_PLAYER, false);
 });
 
-//camAreaEvent("enemySpotted", function(droid)
-//{
-//	camManageGroup("AttackGroupLight", CAM_ORDER_COMPROMISE, "TransporterEntry")
-//	camManageGroup("AttackGroupMedium", CAM_ORDER_COMPROMISE, "TransporterEntry")
-//});
-
 camAreaEvent("LandingZoneTrigger", function()
 {
 	camPlayVideos(["pcv456.ogg", "SB1_4_B"]);

@@ -1,7 +1,6 @@
 
 
 // Port of Ultimate Scavengers Mod into campaign.
-var ULTSCAV;
 var ultScav_MIN_ATTACKERS;
 var ultScav_MIN_DEFENDERS;
 var ultScav_VTOL_FLAG;
@@ -9,7 +8,7 @@ var ultScav_MIN_FACTORIES;
 var ultScav_MIN_VTOL_FACTORIES;
 var ultScav_MIN_CYB_FACTORIES;
 var ultScav_MIN_TRUCKS;
-var ultScav_MIN_SENSORS; 
+var ultScav_MIN_SENSORS;
 
 var ultScav_baseInfo = [];
 
@@ -29,7 +28,7 @@ var ultScav_derrick;
 
 function ultScav_setTech(tech_level)
 {
-	if (tech_level == 4) //Late campaign 3
+	if (tech_level === 4) //Late campaign 3
 	{
 		changePlayerColour(ULTSCAV, 10); // white
 		ultScav_derrick = "A0ResourceExtractorMG";
@@ -50,40 +49,39 @@ function ultScav_setTech(tech_level)
 			LancerPit: "Super-Howitzer105Mk1-RailPlas-Empl", // super rail howitzer incnendiary
 			MortarPit: "Emplacement-HvART-pit", // arch angel
 			MortarPit2: "Sys-NEXUSLinkTOW", // arch angel
-			
-		}
+
+		};
 
 		ultScav_templates = {
 			bloke: { body: "Body15LGT", prop: "tracked01NAS", weap: "Laser2PULSEMk1-Aslt-Hvy" }, //superior leopard
 			trike: { body: "Body16MED", prop: "tracked01NAS", weap: "Laser2PULSEMk1-Inc-Aslt" }, //superior panther
 			buggy: { body: "Body13SUP", prop: "tracked01NAS", weap: "RailGun1Mk1" }, // wyvern
 			bjeep: { body: "Body14SUP", prop: "tracked01NAS", weap: "HeavyLaser-Inc-Aslt" }, // dragon
-		}
+		};
 
 		ultScav_vtoltemplates = {
 			ScavengerChopper: { body: "Body15LGT", prop: "Helicopter", weap: "Laser2PULSE-VTOL" },
 			HeavyChopper: { body: "Body16MED", prop: "V-Tol", weap: "Bomb5-VTOL-Plasmite" },
-		}
+		};
 
 		ultScav_cyborgs = {
 			mg: { body: "CyborgMecha", prop: "MechLegs", weap: "Cyb-Rail1-Mech" }, // Mech cyborgs
-			cannon: { body: "CyborgMecha", prop: "MechLegs", weap: "Cyb-Atmiss-Mech" }, 
+			cannon: { body: "CyborgMecha", prop: "MechLegs", weap: "Cyb-Atmiss-Mech" },
 			rocket: { body: "CyborgMecha", prop: "MechLegs", weap: "Cyb-Laser-Mech" },
 			mortar: { body: "CyborgHeavyNAS", prop: "CyborgLegsNAS", weap: "Cyb-Hvywpn-PulseLsr" },
-
-		}
+		};
 		ultScav_trucks = {
 			Truck1: { body: "Body15LGT", prop: "hover01NAS", weap: "Spade1Hvy" },
 			Truck2: { body: "Body15LGT", prop: "hover01NAS", weap: "Spade1Hvy" },
 			Truck3: { body: "Body15LGT", prop: "hover01NAS", weap: "Spade1Mk1NAS" },
 			Truck4: { body: "Body15LGT", prop: "hover01NAS", weap: "Spade1Mk1NAS" },
-		}
+		};
 
 		ultScav_sensors = {
 			scavsensor: { body: "Body15LGT", prop: "hover01NAS", weap: "Sensor-WideSpec" },
-		}
+		};
 	}
-	else if (tech_level == 3)  // Campaign 3
+	else if (tech_level === 3)  // Campaign 3
 	{
 		changePlayerColour(ULTSCAV, 10); // white
 		ultScav_derrick = "A0ResourceExtractorMG";
@@ -102,19 +100,19 @@ function ultScav_setTech(tech_level)
 			RocketPit: "Empl4-Mortar1Mk1-Rail",
 			LancerPit: "Emplacement-HvyATrocket",
 			MortarPit: "Empl4-Mortar2Mk1-Rail",
-		}
+		};
 
 		ultScav_templates = {
 			bloke: { body: "Body7ABT", prop: "tracked01NAS", weap: "RailGun1Mk1" }, //retaliation
 			trike: { body: "Body7ABT", prop: "tracked01NAS", weap: "RailGun1Mk1" },
 			buggy: { body: "Body3MBT", prop: "HalfTrackNAS", weap: "RailGun1Mk1" }, //retribution
 			bjeep: { body: "Body3MBT", prop: "HalfTrackNAS", weap: "RailGun1Mk1" },
-		}
+		};
 
 		ultScav_vtoltemplates = {
 			ScavengerChopper: { body: "Body3MBT", prop: "Helicopter", weap: "Rocket-VTOL-HvyA-T" },
 			HeavyChopper: { body: "Body3MBT", prop: "Helicopter", weap: "Rocket-VTOL-HvyA-T" },
-		}
+		};
 
 		ultScav_cyborgs = {
 			mg: { body: "CyborgHeavyNAS", prop: "CyborgLegsNAS", weap: "Cyb-Hvywpn-PulseLsr" },
@@ -122,19 +120,19 @@ function ultScav_setTech(tech_level)
 			rocket: { body: "CyborgHeavyNAS", prop: "CyborgLegsNAS", weap: "Cyb-Hvywpn-A-T" },
 			mortar: { body: "CyborgHeavyNAS", prop: "CyborgLegsNAS", weap: "Cyb-Wpn-Mortar1Mk1-Rail" },
 
-		}
+		};
 		ultScav_trucks = {
 			Truck1: { body: "Body7ABT", prop: "hover01NAS", weap: "Spade1Hvy" },
 			Truck2: { body: "Body7ABT", prop: "hover01NAS", weap: "Spade1Hvy" },
 			Truck3: { body: "Body3MBT", prop: "hover01NAS", weap: "Spade1Mk1NAS" },
 			Truck4: { body: "Body3MBT", prop: "hover01NAS", weap: "Spade1Mk1NAS" },
-		}
+		};
 
 		ultScav_sensors = {
 			scavsensor: { body: "Body3MBT", prop: "wheeled01NAS", weap: "Sensor-WideSpec" },
-		}
+		};
 	}
-	else if (tech_level == 2.5) // Late campaign 2
+	else if (tech_level === 2.5) // Late campaign 2
 	{
 		changePlayerColour(ULTSCAV, 5); // blue
 		ultScav_derrick = "A0ResourceExtractorMG";
@@ -153,19 +151,19 @@ function ultScav_setTech(tech_level)
 			RocketPit: "Emplacement-Cannon5VulcanMk1-Hvy",
 			LancerPit: "Emplacement-HvyATrocket",
 			MortarPit: "Empl3-Mortar3ROTARYMk1-Ram-Rot",
-		}
+		};
 
 		ultScav_templates = {
 			bloke: { body: "Body27SUP", prop: "HalfTrackNAS", weap: "Cannon4AUTOMk1-Hvy-Aslt" },
 			trike: { body: "Body25SUP", prop: "tracked01NAS", weap: "Cannon4AUTOMk1-Full-Aslt" },
-			buggy: { body: "Body22HVY", prop: "HalfTrackNAS", weap: "Cannon375mmMk1-Twn" }, 
+			buggy: { body: "Body22HVY", prop: "HalfTrackNAS", weap: "Cannon375mmMk1-Twn" },
 			bjeep: { body: "Body91REC", prop: "tracked01NAS", weap: "Cannon4AUTOMk1-Hvy-Inc" },
-		}
+		};
 
 		ultScav_vtoltemplates = {
 			ScavengerChopper: { body: "Body21MED", prop: "Helicopter", weap: "Cannon5Vulcan-VTOL" },
 			HeavyChopper: { body: "Body61SUPP", prop: "Helicopter", weap: "Cannon5Vulcan-VTOL" },
-		}
+		};
 
 		ultScav_cyborgs = {
 			cannon: { body: "CyborgHeavyNAS", prop: "CyborgLegsNAS", weap: "Cyb-Hvywpn-Acannon" },
@@ -173,20 +171,20 @@ function ultScav_setTech(tech_level)
 			mortar: { body: "CyborgHeavyNAS", prop: "CyborgLegsNAS", weap: "Cyb-Hvywpn-Mcannon" },
 			mg: { body: "CyborgHeavyNAS", prop: "CyborgLegsNAS", weap: "Cyb-Hvywpn-TK" },
 			mg1: { body: "CyborgHeavyNAS", prop: "CyborgLegsNAS", weap: "Cyb-Hvywpn-IncMortar" },
-		}
+		};
 		ultScav_trucks = {
 			Truck1: { body: "Body20LGT", prop: "hover01NAS", weap: "Spade1Mk1NAS" },
 			Truck2: { body: "Body20LGT", prop: "wheeled01NAS", weap: "Spade1Mk1NAS" },
 			Truck3: { body: "Body211SUP", prop: "wheeled01NAS", weap: "Spade1Mk1NAS" },
 			Truck4: { body: "Body211SUP", prop: "hover01NAS", weap: "Spade1Mk1NAS" },
-		}
+		};
 
 		ultScav_sensors = {
 			scavsensor: { body: "Body211SUP", prop: "HalfTrackNAS", weap: "ScavSensor" },
 			scavsensor2: { body: "Body20LGT", prop: "HalfTrackNAS", weap: "ScavSensor" },
-		}
+		};
 	}
-	else if (tech_level == 2)
+	else if (tech_level === 2)
 	{
 		changePlayerColour(ULTSCAV, 7); // cyan
 		ultScav_derrick = "A0ResourceExtractorMG";
@@ -205,19 +203,19 @@ function ultScav_setTech(tech_level)
 			RocketPit: "Emplacement-Cannon5VulcanMk1-Hvy",
 			LancerPit: "Emplacement-HvyATrocket",
 			MortarPit: "Empl3-Mortar3ROTARYMk1-Ram-Rot",
-		}
+		};
 
 		ultScav_templates = {
 			bloke: { body: "Body20LGT", prop: "HalfTrackNAS", weap: "Cannon5VulcanMk1-Gat" }, //hardened alloys - viper
 			trike: { body: "Body211SUP", prop: "tracked01NAS", weap: "Cannon4AUTOMk1" },
 			buggy: { body: "Body61SUPP", prop: "HalfTrackNAS", weap: "Cannon5VulcanMk1-Gat" }, //hardened alloys - cobra
 			bjeep: { body: "Body21MED", prop: "tracked01NAS", weap: "Cannon4AUTOMk1" },
-		}
+		};
 
 		ultScav_vtoltemplates = {
 			ScavengerChopper: { body: "Body20LGT", prop: "Helicopter", weap: "Cannon5Vulcan-VTOL" },
 			HeavyChopper: { body: "Body211SUP", prop: "Helicopter", weap: "Cannon5Vulcan-VTOL" },
-		}
+		};
 
 		ultScav_cyborgs = {
 			cannon: { body: "CyborgLightNAS", prop: "CyborgLegsNAS", weap: "CyborgCannon" },
@@ -226,20 +224,20 @@ function ultScav_setTech(tech_level)
 			mg: { body: "CyborgLightNAS", prop: "CyborgLegsNAS", weap: "Cyb-Wpn-Rocket-Pod-Arch" },
 			mg1: { body: "CyborgLightNAS", prop: "CyborgLegsNAS", weap: "Cyb-Wpn-Rocket-Pod-MRA" },
 			mg2: { body: "CyborgLightNAS", prop: "CyborgLegsNAS", weap: "Cyb-Wpn-Rocket-Sunburst-Arch" },
-		}
+		};
 		ultScav_trucks = {
 			Truck1: { body: "Body211SUP", prop: "wheeled01NAS", weap: "Spade1Mk1NAS" },
 			Truck2: { body: "Body211SUP", prop: "hover01NAS", weap: "Spade1Mk1NAS" },
 			Truck3: { body: "Body20LGT", prop: "wheeled01NAS", weap: "Spade1Mk1NAS" },
 			Truck4: { body: "Body20LGT", prop: "hover01NAS", weap: "Spade1Mk1NAS" },
-		}
+		};
 
 		ultScav_sensors = {
 			scavsensor: { body: "Body211SUP", prop: "HalfTrackNAS", weap: "ScavSensor" },
 			scavsensor2: { body: "Body20LGT", prop: "HalfTrackNAS", weap: "ScavSensor" },
-		}
+		};
 	}
-	else if (tech_level == 1.5)
+	else if (tech_level === 1.5)
 	{
 		changePlayerColour(ULTSCAV, 4); // red
 		ultScav_derrick = "A0ResourceExtractor";
@@ -256,20 +254,20 @@ function ultScav_setTech(tech_level)
 			RocketPit: "GuardTower4",
 			LancerPit: "Tower-Projector",
 			MortarPit: "PillBox5",
-		}
+		};
 
 		ultScav_templates = {
 			bloke: { body: "Body18MED", prop: "hover01NAS", weap: "Flame1Mk1" }, // thermal scorpion flamer
-			trike: { body: "Body18MED", prop: "hover01NAS", weap: "Flame2" }, 
+			trike: { body: "Body18MED", prop: "hover01NAS", weap: "Flame2" },
 			bjeep: { body: "Body19HVY", prop: "hover01NAS", weap: "Flame2" }, // thermal mantis flamer
-		}
+		};
 
 		ultScav_vtoltemplates = {
 			ScavengerChopper: { body: "Body88MBT", prop: "Helicopter", weap: "Cannon1-VTOL" }, // NASDA Scorpion
 			HeavyChopper: { body: "Body88MBT", prop: "Helicopter", weap: "Rocket-VTOL-TopAttackHvy" },
 			ScavengerChopper1: { body: "Body45ABT", prop: "Helicopter", weap: "Rocket-VTOL-Pod3" }, // NASDA Bug
 			HeavyChopper1: { body: "Body45ABT", prop: "Helicopter", weap: "Rocket-VTOL-LtA-T" },
-		}
+		};
 
 		ultScav_cyborgs = {
 			cannon: { body: "CyborgLightBody", prop: "CyborgLegs", weap: "CyborgCannon" },
@@ -277,14 +275,14 @@ function ultScav_setTech(tech_level)
 			mortar: { body: "CyborgLightBody", prop: "CyborgLegs", weap: "Cyb-Wpn-Thermite" },
 			mg: { body: "CyborgLightBody", prop: "CyborgLegs", weap: "CyborgChaingun" },
 
-		}
+		};
 		ultScav_trucks = {
 			Truck1: { body: "Body17LGT", prop: "hover01NAS", weap: "Spade1Mk1NAS" },
-		}
+		};
 
 		ultScav_sensors = {
 			scavsensor: { body: "Body17LGT", prop: "hover01NAS", weap: "ScavSensor" },
-		}
+		};
 	}
 	else
 	{
@@ -305,7 +303,7 @@ function ultScav_setTech(tech_level)
 			RocketPit: "A0BaBaRocketPit",
 			LancerPit: "A0BaBaRocketPitAT",
 			MortarPit: "A0BaBaMortarPit",
-		}
+		};
 
 		ultScav_templates = {
 			bloke: { body: "B1BaBaPerson01", prop: "BaBaLegs", weap: "BabaMG" },
@@ -315,27 +313,27 @@ function ultScav_setTech(tech_level)
 
 			rbjeep: { body: "B2RKJeepBody", prop: "BaBaProp", weap: "BabaRocket" },
 			rbuggy: { body: "B3bodyRKbuggy01", prop: "BaBaProp", weap: "BabaRocket" },
-		}
+		};
 
 		ultScav_vtoltemplates = {
 			ScavengerChopper: { body: "ScavengerChopper", prop: "Helicopter", weap: "MG1-VTOL" },
 			HeavyChopper: { body: "HeavyChopper", prop: "Helicopter", weap: "Rocket-VTOL-Pod" },
-		}
+		};
 
 		ultScav_cyborgs = {
 			mg: { body: "CyborgLightNAS", prop: "CyborgLegsNAS", weap: "CyborgChaingun" },
 
-		}
+		};
 		ultScav_trucks = {
 			Truck1: { body: "B2crane1", prop: "BaBaProp", weap: "scavCrane1" },
 			Truck2: { body: "B2crane1", prop: "BaBaProp", weap: "scavCrane2" },
 			Truck3: { body: "B2crane2", prop: "BaBaProp", weap: "scavCrane1" },
 			Truck4: { body: "B2crane2", prop: "BaBaProp", weap: "scavCrane2" },
-		}
+		};
 
 		ultScav_sensors = {
 			scavsensor: { body: "BusBody-AR", prop: "BaBaProp", weap: "ScavSensor" },
-		}
+		};
 	}
 }
 // unit limit constant
@@ -413,9 +411,9 @@ function ultScav_constructbaseInfo(x, y)
 {
 	this.x = x;
 	this.y = y;
-	this.defendGroup = newGroup(); // tanks to defend the base
-	this.builderGroup = newGroup(); // trucks to build base structures and ultScav_defenses
-	this.attackGroup = newGroup(); // tanks to attack nearby things
+	this.defendGroup = camNewGroup(); // tanks to defend the base
+	this.builderGroup = camNewGroup(); // trucks to build base structures and ultScav_defenses
+	this.attackGroup = camNewGroup(); // tanks to attack nearby things
 	this.ultScav_factoryNumber = ultScav_baseInfo.length;
 }
 
@@ -436,11 +434,11 @@ function ultScav_findNearest(list, x, y, flag)
 
 function ultScav_regroup()
 {
-	var list = enumDroid(ULTSCAV) 
+	var list = enumDroid(ULTSCAV);
 	for (var i = 0; i < list.length; ++i)
 	{
 		var droid = list[i];
-		if (droid.group == null)
+		if (droid.group === null)
 		{
 			ultScav_addDroidToSomeGroup(droid);
 		}
@@ -449,13 +447,13 @@ function ultScav_regroup()
 
 function ultScav_addDroidToSomeGroup(droid)
 {
-	
+
 	var base = ultScav_findNearest(ultScav_baseInfo, droid.x, droid.y, true);
 
 	if (!camDef(base))
 	{
 		var n = ultScav_baseInfo.length;
-		if (n == 0 && ultScav_buildStructure(droid, ultScav_factory))
+		if (n === 0 && ultScav_buildStructure(droid, ultScav_factory))
 		{
 			ultScav_baseInfo[n] = new ultScav_constructbaseInfo(droid.x, droid.y);
 			groupAddDroid(ultScav_baseInfo[n].builderGroup, droid);
@@ -513,7 +511,7 @@ function ultScav_groupOfTank(droid)
 {
 	for (var i = 0, b = ultScav_baseInfo.length; i < b; ++i)
 	{
-		if (droid.group == ultScav_baseInfo[i].attackGroup)
+		if (droid.group === ultScav_baseInfo[i].attackGroup)
 		{
 			return ultScav_baseInfo[i].attackGroup;
 		}
@@ -522,9 +520,9 @@ function ultScav_groupOfTank(droid)
 
 function ultScav_buildStructure(droid, stat)
 {
-	if ((droid.order != DORDER_BUILD))
+	if ((droid.order !== DORDER_BUILD))
 	{
-		
+
 		var loc = pickStructLocation(droid, stat, droid.x, droid.y, 0);
 		if(ultScav_isDefined(loc))
 		{
@@ -533,7 +531,7 @@ function ultScav_buildStructure(droid, stat)
 				return true;
 			}
 		}
-	
+
 
 		switch(stat)
 		{
@@ -579,8 +577,8 @@ function ultScav_buildStructure(droid, stat)
 
 function ultScav_randomAttrib(obj)
 {
-	var keys = Object.keys(obj)
-	return obj[keys[ keys.length * Math.random() << 0]];
+	var keys = Object.keys(obj);
+	return obj[keys[ camRand(keys.length)]];
 }
 function ultScav_buildTower(droid)
 {
@@ -609,7 +607,7 @@ function ultScav_buildOils()
 		{
 			ultScav_buildStructure(droid, ultScav_gen);
 		}
-		
+
 		if (!ultScav_checkAndrepair(droid))
 		{
 			var result = ultScav_findNearest(enumFeature(ALL_PLAYERS, ultScav_oilres), droid.x, droid.y, true);
@@ -622,8 +620,8 @@ function ultScav_buildOils()
 
 function ultScav_buildFactories()
 {
-	var list = enumDroid(ULTSCAV, DROID_CONSTRUCT)
-	
+	var list = enumDroid(ULTSCAV, DROID_CONSTRUCT);
+
 	if (countStruct(ultScav_factory, ULTSCAV) < ultScav_MIN_FACTORIES)
 	{
 		for (var i = 0, d = list.length; i < d; ++i)
@@ -633,7 +631,7 @@ function ultScav_buildFactories()
 			if (!camDef(base))
 			{
 				var n = ultScav_baseInfo.length;
-				if (n == 0 && ultScav_buildStructure(droid, ultScav_factory))
+				if (n === 0 && ultScav_buildStructure(droid, ultScav_factory))
 				{
 					ultScav_baseInfo[n] = new ultScav_constructbaseInfo(droid.x, droid.y);
 					groupAddDroid(ultScav_baseInfo[n].builderGroup, droid);
@@ -641,7 +639,7 @@ function ultScav_buildFactories()
 				}
 				return;
 			}
-			
+
 			var dist = distBetweenTwoPoints(base.x, base.y, droid.x, droid.y);
 			//dist makes sure that factories are not built too close to eachother
 			if ((dist > 5) && ultScav_buildStructure(droid, ultScav_factory))
@@ -697,6 +695,11 @@ function ultScav_buildThings()
 {
 	var list = ultScav_findTruck();
 
+	function isBuilt(structure)
+	{
+		return structure.status === BUILT;
+	}
+
 	for (var i = 0, d = list.length; i < d; ++i)
 	{
 		var droid = list[i];
@@ -704,7 +707,7 @@ function ultScav_buildThings()
 		{
 			if ((countStruct(ultScav_derrick, ULTSCAV) - ((countStruct(ultScav_gen, ULTSCAV) * 4))) > 0)
 				ultScav_buildStructure(droid, ultScav_gen);
-			if ((enumStruct(ULTSCAV, ultScav_repair).filter(function(s) { return (s.status === BUILT); }) < 2))
+			if ((enumStruct(ULTSCAV, ultScav_repair).filter(isBuilt) < 2))
 			{
 				ultScav_buildStructure(droid, ultScav_repair);
 			}
@@ -726,7 +729,7 @@ function ultScav_attackOils()
 			var dlist = enumStruct(0, ultScav_derrick);
 			if (dlist !== undefined && dlist.length > 0) {
 					// array empty or does not exist
-				
+
 				for (var r = 0; r < dlist.length; ++r)
 				{
 					var enemy_ultScav_derrick = dlist[r];
@@ -748,14 +751,14 @@ function ultScav_produceTruck()
 		for (var i = 0, f = list.length; i < f; ++i)
 		{
 			var fac = list[i];
-	
+
 			if (fac.status === BUILT)
 			{
-				var truck_list = []
+				var truck_list = [];
 				for(var key in ultScav_trucks) {
 					truck_list.push(key);
 				}
-				var random_template = truck_list[Math.floor(Math.random()*truck_list.length)];
+				var random_template = truck_list[camRand(truck_list.length)];
 				__camBuildDroid(ultScav_trucks[random_template], fac);
 			}
 		}
@@ -771,14 +774,14 @@ function ultScav_produceSensor()
 		for (var i = 0, f = list.length; i < f; ++i)
 		{
 			var fac = list[i];
-	
+
 			if (ultScav_structureReady(fac))
 			{
-				var sensor_list = []
+				var sensor_list = [];
 				for(var key in ultScav_sensors) {
 					sensor_list.push(key);
 				}
-				var random_template = sensor_list[Math.floor(Math.random()*sensor_list.length)];
+				var random_template = sensor_list[camRand(sensor_list.length)];
 				__camBuildDroid(ultScav_sensors[random_template], fac);
 			}
 		}
@@ -794,11 +797,11 @@ function ultScav_produceDroid()
 
 		if (ultScav_structureReady(fac))
 		{
-			var template_list = []
+			var template_list = [];
 			for(var key in ultScav_templates) {
 				template_list.push(key);
 			}
-			var random_template = template_list[Math.floor(Math.random()*template_list.length)];
+			var random_template = template_list[camRand(template_list.length)];
 			__camBuildDroid(ultScav_templates[random_template], fac);
 		}
 	}
@@ -812,11 +815,11 @@ function ultScav_produceHelicopter()
 		var fac = list[i];
 		if (ultScav_structureReady(fac))
 		{
-			var template_list = []
+			var template_list = [];
 			for(var key in ultScav_vtoltemplates) {
 				template_list.push(key);
 			}
-			var random_template = template_list[Math.floor(Math.random()*template_list.length)];
+			var random_template = template_list[camRand(template_list.length)];
 			__camBuildDroid(ultScav_vtoltemplates[random_template], fac);
 		}
 	}
@@ -835,11 +838,11 @@ function ultScav_produceCyborg()
 		var fac = list[i];
 		if (ultScav_structureReady(fac))
 		{
-			var template_list = []
+			var template_list = [];
 			for(var key in ultScav_cyborgs) {
 				template_list.push(key);
 			}
-			var random_template = template_list[Math.floor(Math.random()*template_list.length)];
+			var random_template = template_list[camRand(template_list.length)];
 			__camBuildDroid(ultScav_cyborgs[random_template], fac);
 		}
 	}
@@ -848,9 +851,9 @@ function ultScav_produceCyborg()
 function ultScav_checkAndrepair(droid)
 {
 	const MIN_HEALTH = 55;
-	if (droid != null)
+	if (droid !== null)
 	{
-		if (!(ultScav_isHeli(droid) || (droid.order == DORDER_BUILD)))
+		if (!(ultScav_isHeli(droid) || (droid.order === DORDER_BUILD)))
 		{
 			if (droid.health < MIN_HEALTH)
 			{
@@ -863,7 +866,7 @@ function ultScav_checkAndrepair(droid)
 
 function ultScav_attackWithDroid(droid, target, force)
 {
-	if (droid != null)
+	if (droid !== null)
 	{
 		if(ultScav_checkAndrepair(droid))
 		{
@@ -1002,7 +1005,7 @@ function ultScav_groundAttackStuff()
 
 function ultScav_retreat()
 {
-	var list = enumDroid(ULTSCAV) 
+	var list = enumDroid(ULTSCAV);
 	for (var i = 0; i < list.length; ++i)
 	{
 		var droid = list[i];
@@ -1023,26 +1026,19 @@ function ultScav_transporterDroids()
 	var droids = [];
 	var count = 6 + camRand(5);
 
-	var droid_list = []
+	var droid_list = [];
 	for(var key in ultScav_templates) {
 		droid_list.push(key);
 	}
 
-	var truck_list = []
+	var truck_list = [];
 	for(var key in ultScav_trucks) {
 		truck_list.push(key);
 	}
 
 	for (var i = 0; i < count; ++i)
 	{
-		if (i < 3)
-		{
-			droids.push(truck_list[Math.floor(Math.random()*truck_list.length)]); //bring 2 trucks
-		}
-		else
-		{
-			droids.push(droid_list[Math.floor(Math.random()*droid_list.length)]);
-		}
+		droids.push(droid_list[camRand(droid_list.length)]);
 	}
 	return droids;
 }
@@ -1050,12 +1046,23 @@ function ultScav_transporterDroids()
 // does not work yet
 function ultScav_reinforcements()
 {
-	var random_x = camRand(mapWidth)
-	var random_x2 = camRand(mapWidth)
+	var random_x = camRand(mapWidth);
+	var random_y = camRand(mapHeight);
+	var playerUnits = enumDroid(CAM_HUMAN_PLAYER).filter(function(droid) {
+		return !isVTOL(droid);
+	});
 
-	var random_y = camRand(mapHeight)
-	var random_y2 = camRand(mapHeight)
+	if (!playerUnits.length)
+	{
+		return;
+	}
+	var aPlayerUnit = playerUnits[0];
 
+	while (!propulsionCanReach("hover01", aPlayerUnit.x, aPlayerUnit.y, random_x, random_y))
+	{
+		random_x = camRand(mapWidth);
+		random_y = camRand(mapHeight);
+	}
 	var nearbyDefense = enumRange(random_x, random_y, 4, CAM_HUMAN_PLAYER, false);
 
 	if (!nearbyDefense.length)
@@ -1063,33 +1070,33 @@ function ultScav_reinforcements()
 		var list = ultScav_transporterDroids();
 		camSendReinforcement(ULTSCAV, camMakePos(random_x, random_y), list,
 			CAM_REINFORCE_TRANSPORT, {
-				entry: { x: random_x, y: random_y },
-				exit: { x: random_x2, y: random_y2 }
+				entry: { x: camRand(mapWidth), y: camRand(mapHeight) },
+				exit: { x: camRand(mapWidth), y: camRand(mapHeight) }
 			}
 		);
-
-		queue("ultScav_reinforcements", camChangeOnDiff(camMinutesToMilliseconds(1)));
 	}
+
+	queue("ultScav_reinforcements", camChangeOnDiff(camMinutesToMilliseconds(1)));
 }
 
 function ultScav_eventStartLevel(
-	vtol_flag, 
+	vtol_flag,
 	build_defense,
 	build_factories,
 	build_cybfactories,
-	produce_trucks, 
-	produce_droids, 
-	produce_cyborgs, 
+	produce_trucks,
+	produce_droids,
+	produce_cyborgs,
 	produce_vtols,
-	min_factories, 
-	min_vtol_factories, 
+	min_factories,
+	min_vtol_factories,
 	min_cyborg_factories,
 	min_trucks,
-	min_sensors, 
+	min_sensors,
 	min_attackers,
 	min_defenders,
 	ground_attack,
-	vtol_attack, 
+	vtol_attack,
 	tech_level)
 {
 	ultScav_setTech(tech_level);
@@ -1133,29 +1140,29 @@ function ultScav_eventStartLevel(
 	setTimer("ultScav_produceSensor", camChangeOnDiff(camSecondsToMilliseconds(130)));
 
 	// parameterized behavior
-	if (produce_trucks != -1)
+	if (produce_trucks !== -1)
 		setTimer("ultScav_produceTruck", camChangeOnDiff(camSecondsToMilliseconds(produce_trucks)));
-	if (produce_droids != -1)
+	if (produce_droids !== -1)
 		setTimer("ultScav_produceDroid", camChangeOnDiff(camSecondsToMilliseconds(produce_droids)));
-	if (produce_cyborgs != -1)
+	if (produce_cyborgs !== -1)
 		setTimer("ultScav_produceCyborg", camChangeOnDiff(camSecondsToMilliseconds(produce_cyborgs)));
-	if (build_factories != -1)
+	if (build_factories !== -1)
 		setTimer("ultScav_buildFactories", camChangeOnDiff(camSecondsToMilliseconds(build_factories)));
-	if (build_cybfactories != -1)
+	if (build_cybfactories !== -1)
 		setTimer("ultScav_buildCybFactories", camChangeOnDiff(camSecondsToMilliseconds(build_cybfactories)));
-	if (build_defense != -1)
+	if (build_defense !== -1)
 		setTimer("ultScav_buildThings", camChangeOnDiff(camSecondsToMilliseconds(build_defense)));
-	if (ground_attack != -1)
+	if (ground_attack !== -1)
 
 
 	// vtol behavior
-	if (ultScav_VTOL_FLAG != -1)
+	if (ultScav_VTOL_FLAG !== -1)
 	{
-		if (produce_vtols != -1)
+		if (produce_vtols !== -1)
 			setTimer("ultScav_buildvtolFactories", camChangeOnDiff(camSecondsToMilliseconds(produce_vtols)));
-		if (produce_vtols != -1)
+		if (produce_vtols !== -1)
 			setTimer("ultScav_produceHelicopter", camChangeOnDiff(camSecondsToMilliseconds(produce_vtols)));
-		if (vtol_attack != -1)
+		if (vtol_attack !== -1)
 			setTimer("ultScav_helicopterAttack", camChangeOnDiff(camSecondsToMilliseconds(vtol_attack)));
 	}
 }

@@ -192,7 +192,7 @@ function cam3Setup()
 		"A0CommandCentre", "A0PowerGenerator", "A0ResourceExtractor",
 		"A0ResearchFacility", "A0LightFactory",
 	];
-	
+
 	for (var i = 0; i < BASE_STRUCTURES.length; ++i)
 	{
 		enableStructure(BASE_STRUCTURES[i], CAM_HUMAN_PLAYER);
@@ -227,7 +227,7 @@ function eventStartLevel()
 
 	setPower(PLAYER_POWER, CAM_HUMAN_PLAYER);
 	cam3Setup();
-	
+
 	camSetEnemyBases({
 		"NEXUS-WBase": {
 			cleanup: "westBaseCleanup",
