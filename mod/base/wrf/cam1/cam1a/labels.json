@@ -59,8 +59,8 @@
 	},
 	"area_4": {
 		"label": "scavBase1Cleanup",
-		"pos1": [3520, 4416],
-		"pos2": [4416, 5056]
+		"pos1": [3072, 3840],
+		"pos2": [5504, 5888]
 	},
 	"area_5": {
 		"label": "scavBase2Cleanup",

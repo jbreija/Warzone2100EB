@@ -1,5 +1,5 @@
 /***********************************************************/
-/*  You may have to modify this file for it to be correct! */ 
+/*  You may have to modify this file for it to be correct! */
 /*******************       wrf\basic.wrf      *******************/
 
 
@@ -55,7 +55,6 @@ file		IMD	"fxheli11.pie"
 file		IMD	"fxheli12.pie"
 file		IMD	"chblades.pie"
 file		IMD	"hvyblades.pie"
-file		IMD	"fxpowerar.pie"
 directory	"misc"
 file		IMD	"arrow.pie"
 file		IMD	"iccamera.pie"
@@ -200,4 +199,3 @@ file		IMD	"craneArm2.pie"
 file        IMD "nexturret.pie"
 file        IMD "rocket.pie"
 file		IMD	"trlrcktg.pie"
-
