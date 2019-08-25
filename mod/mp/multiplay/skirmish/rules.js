@@ -23,7 +23,7 @@ const TRANSFER_LIKE_EVENT = 2;
 function reticuleManufactureCheck()
 {
 	var structureComplete = false;
-	var facs = ["A0LightFactory", "A0CyborgFactory", "A0VTolFactory1", "A0RoboticFactory", "A0LargeVTolFactory1", "A0LargeFactory1"];
+	var facs = [FACTORY, CYBORG_FACTORY, VTOL_FACTORY,];
 
 	for (var i = 0, len = facs.length; i < len; ++i)
 	{
@@ -51,12 +51,12 @@ function reticuleManufactureCheck()
 function reticuleResearchCheck()
 {
 	var structureComplete = false;
-	var labs = ["A0ResearchFacility", "A0DedicatedResearchFacility"];
+	var labs = [RESEARCH_LAB,];
 
 	for (var i = 0, len = labs.length; i < len; ++i)
 	{
 		var onMapResLabs = enumStruct(selectedPlayer, labs[i]);
-		for (var j = 0, len = onMapResLabs.length; j < len; ++j)
+		for (var j = 0, len2 = onMapResLabs.length; j < len2; ++j)
 		{
 			if (onMapResLabs[j].status === BUILT)
 			{
@@ -90,12 +90,12 @@ function reticuleBuildCheck()
 function reticuleDesignCheck()
 {
 	var structureComplete = false;
-	var HQS = ["A0CommandCentre", "A0CommandCentreAR"];
+	var HQS = [HQ,];
 
 	for (var i = 0, len = HQS.length; i < len; ++i)
 	{
 		var onMapHQ = enumStruct(selectedPlayer, HQS[i]);
-		for (var j = 0, len = onMapHQ.length; j < len; ++j)
+		for (var j = 0, len2 = onMapHQ.length; j < len2; ++j)
 		{
 			if (onMapHQ[j].status === BUILT)
 			{
@@ -103,7 +103,7 @@ function reticuleDesignCheck()
 				break;
 			}
 		}
-	}	
+	}
 	if (structureComplete === true)
 	{
 		setReticuleButton(4, _("Design (F4)"), "image_design_up.png", "image_design_down.png");
@@ -323,9 +323,9 @@ function eventGameInit()
 		"R-Wpn-MG-Damage01",
 		"R-Defense-WallTower01",
 		"R-Defense-Tower08",
-		"R-Wpn-Rocket-Damage01",	
-		"R-Sys-MobileRepairTurretHvy", 
-		"R-Vehicle-Body04", 
+		"R-Wpn-Rocket-Damage01",
+		"R-Sys-MobileRepairTurretHvy",
+		"R-Vehicle-Body04",
 		"R-Defense-Pillbox02");
 
 	for (var playnum = 0; playnum < maxPlayers; playnum++)
