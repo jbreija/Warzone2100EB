@@ -76,10 +76,8 @@ def calculate_upgrades():
 
     for x in range(1, 10):
         upgrade_name = f"{upgrade_string}{x}"
-        #upgrade_value = (JSON_DATA[upgrade_name]["results"][0]["value"] / 100) * (RESEARCH_FACILITY + RESEARCH_MODULE)
+        upgrade_value = math.ceil((JSON_DATA[upgrade_name]["results"][0]["value"] * RESEARCH_FACILITY) / 100)
 
-        # This gives correct results but not sure why, actual research upgrades are 30 not 24. Line above should work
-        upgrade_value = (25 / 100) * (RESEARCH_FACILITY + RESEARCH_MODULE)
         if x == 1:
             num_points = FINISHED_RESEARCH[upgrade_name]
             upgrade = upgrade_value + UPGRADE_DICT[RES_MOD]['upgrade']
@@ -96,8 +94,11 @@ def calculate_upgrades():
                                           "upgrade": upgrade,
                                           "seconds": num_sec
                                           }
+    for k, v in UPGRADE_DICT.items():
+        print(f"{k}  {v}")
 
 def apply_upgrades():
+
     results = {}
     res = "R-Struc-Research-Upgrade0"
     res1 = f"{res}{1}"
