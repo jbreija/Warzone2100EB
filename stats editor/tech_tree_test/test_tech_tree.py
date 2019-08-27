@@ -81,7 +81,7 @@ def calculate_upgrades():
         if x == 1:
             num_points = FINISHED_RESEARCH[upgrade_name]
             upgrade = upgrade_value + UPGRADE_DICT[RES_MOD]['upgrade']
-            num_sec = (FINISHED_RESEARCH[upgrade_name]/upgrade_value + UPGRADE_DICT[RES_MOD]['upgrade'])
+            num_sec = FINISHED_RESEARCH[upgrade_name]/(upgrade_value + UPGRADE_DICT[RES_MOD]['upgrade'])
             UPGRADE_DICT[upgrade_name] = {"points": num_points,
                                            "upgrade": upgrade,
                                           "seconds": num_sec}
