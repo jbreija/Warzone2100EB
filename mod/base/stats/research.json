@@ -737,7 +737,8 @@
         "msgName": "RES_CYW_H_RO",
         "name": "Rocket-Pod Cyborg",
         "requiredResearch": [
-            "R-Wpn-Rocket05-MiniPod"
+            "R-Wpn-Rocket05-MiniPod",
+            "R-Cyborg-HvyBody"
         ],
         "researchPoints": 4600,
         "researchPower": 230,
@@ -752,7 +753,8 @@
         "msgName": "RES_NULL_PLACE_HOL02",
         "name": "Thermal Rocket Cyborg",
         "requiredResearch": [
-            "R-Wpn-Rocket05-MiniPod-Arch"
+            "R-Wpn-Rocket05-MiniPod-Arch",
+            "R-Cyborg-HvyBody"
         ],
         "researchPoints": 4600,
         "researchPower": 230,
@@ -767,7 +769,8 @@
         "msgName": "RES_CYW_H_RA",
         "name": "Rocket Array Cyborg",
         "requiredResearch": [
-            "R-Wpn-Rocket02-MRL"
+            "R-Wpn-Rocket02-MRL",
+            "R-Cyborg-HvyBody"
         ],
         "researchPoints": 4800,
         "researchPower": 240,
@@ -11326,7 +11329,7 @@
         "msgName": "RES_MG1MK1",
         "name": "Machinegun",
         "researchPoints": 60,
-        "researchPower": 3,
+        "researchPower": 50,
         "resultComponents": [
             "CyborgChaingun",
             "MG1Mk1",

@@ -87,7 +87,6 @@ def calculate_upgrades():
                                           "seconds": num_sec}
         else:
             num_points = FINISHED_RESEARCH[upgrade_name]
-            num_prev_points = UPGRADE_DICT[f"{upgrade_string}{x - 1}"]['points']
             upgrade = (upgrade_value + UPGRADE_DICT[f"{upgrade_string}{x - 1}"]['upgrade'])
             num_sec = (JSON_DATA[upgrade_name]["researchPoints"]/UPGRADE_DICT[f"{upgrade_string}{x - 1}"]['upgrade'])+UPGRADE_DICT[f"{upgrade_string}{x - 1}"]['seconds']
             UPGRADE_DICT[upgrade_name] = {"points": num_points,
