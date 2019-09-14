@@ -308,7 +308,7 @@
                 "right": "prhrhtr3ar.pie"
             },
             "Helicopter": {
-                "left": "prhheli3.pie",
+                "left": "prhheli4.pie",
                 "moving": "fxheli11.pie",
                 "still": "heavyheli_rotor_stationary.pie"
             },
@@ -369,7 +369,7 @@
                 "right": "prhrhtr3ar.pie"
             },
             "Helicopter": {
-                "left": "prhheli3.pie",
+                "left": "prhheli4.pie",
                 "moving": "fxheli11.pie",
                 "still": "heavyheli_rotor_stationary.pie"
             },
@@ -491,8 +491,8 @@
                 "right": "prhrhtr3ar.pie"
             },
             "Helicopter": {
-                "left": "prhheli4.pie",
-                "moving": "fxheli12.pie",
+                "left": "prhheli1.pie",
+                "moving": "fxheli09.pie",
                 "still": "heavyheli_rotor_stationary.pie"
             },
             "Naval": {
@@ -553,7 +553,7 @@
             },
             "Helicopter": {
                 "left": "prhheli4.pie",
-                "moving": "fxheli12.pie",
+                "moving": "fxheli11.pie",
                 "still": "heavyheli_rotor_stationary.pie"
             },
             "Naval": {
@@ -614,7 +614,7 @@
             },
             "Helicopter": {
                 "left": "prhheli1.pie",
-                "moving": "fxheli12.pie",
+                "moving": "fxheli11.pie",
                 "still": "heavyheli_rotor_stationary.pie"
             },
             "Naval": {
@@ -735,8 +735,8 @@
                 "right": "prlrhtr1ar.pie"
             },
             "Helicopter": {
-                "left": "prlheli3.pie",
-                "moving": "fxheli04.pie",
+                "left": "prlheli2.pie",
+                "moving": "fxheli2and3.pie",
                 "still": "mediumheli_rotor_stationary.pie"
             },
             "Naval": {
@@ -979,8 +979,8 @@
                 "right": "prhrhtr3ar.pie"
             },
             "Helicopter": {
-                "left": "prhheli1.pie",
-                "moving": "fxheli09.pie",
+                "left": "prhheli4.pie",
+                "moving": "fxheli11.pie",
                 "still": "heavyheli_rotor_stationary.pie"
             },
             "Naval": {
@@ -1101,8 +1101,8 @@
                 "right": "prlrhtr1ar.pie"
             },
             "Helicopter": {
-                "left": "prlheli3.pie",
-                "moving": "fxheli04.pie",
+                "left": "prlheli1.pie",
+                "moving": "fxheli01.pie",
                 "still": "mediumheli_rotor_stationary.pie"
             },
             "Naval": {
@@ -1284,8 +1284,8 @@
                 "right": "prhrhtr3ar.pie"
             },
             "Helicopter": {
-                "left": "prhheli1.pie",
-                "moving": "fxheli09.pie",
+                "left": "prhheli3.pie",
+                "moving": "fxheli11.pie",
                 "still": "heavyheli_rotor_stationary.pie"
             },
             "Naval": {
@@ -1345,8 +1345,8 @@
                 "right": "prhrhtr3ar.pie"
             },
             "Helicopter": {
-                "left": "prhheli1.pie",
-                "moving": "fxheli09.pie",
+                "left": "prhheli4.pie",
+                "moving": "fxheli11.pie",
                 "still": "heavyheli_rotor_stationary.pie"
             },
             "Naval": {
@@ -1406,8 +1406,8 @@
                 "right": "prhrhtr3ar.pie"
             },
             "Helicopter": {
-                "left": "prhheli1.pie",
-                "moving": "fxheli09.pie",
+                "left": "prhheli4.pie",
+                "moving": "fxheli11.pie",
                 "still": "heavyheli_rotor_stationary.pie"
             },
             "Naval": {
@@ -1467,8 +1467,8 @@
                 "right": "prhrhtr3ar.pie"
             },
             "Helicopter": {
-                "left": "prhheli1.pie",
-                "moving": "fxheli09.pie",
+                "left": "prhheli4.pie",
+                "moving": "fxheli11.pie",
                 "still": "heavyheli_rotor_stationary.pie"
             },
             "Naval": {
@@ -1528,8 +1528,8 @@
                 "right": "prhrhtr3ar.pie"
             },
             "Helicopter": {
-                "left": "prhheli1.pie",
-                "moving": "fxheli09.pie",
+                "left": "prhheli4.pie",
+                "moving": "fxheli11.pie",
                 "still": "heavyheli_rotor_stationary.pie"
             },
             "Naval": {
@@ -1589,8 +1589,8 @@
                 "right": "prhrhtr3ar.pie"
             },
             "Helicopter": {
-                "left": "prhheli1.pie",
-                "moving": "fxheli09.pie",
+                "left": "prhheli4.pie",
+                "moving": "fxheli11.pie",
                 "still": "heavyheli_rotor_stationary.pie"
             },
             "Naval": {
@@ -1650,8 +1650,8 @@
                 "right": "prhrhtr3ar.pie"
             },
             "Helicopter": {
-                "left": "prhheli1.pie",
-                "moving": "fxheli09.pie",
+                "left": "prhheli4.pie",
+                "moving": "fxheli11.pie",
                 "still": "heavyheli_rotor_stationary.pie"
             },
             "Naval": {
@@ -1772,7 +1772,7 @@
                 "right": "prlrhtr1ar.pie"
             },
             "Helicopter": {
-                "left": "prlheli2.pie",
+                "left": "prlheli3.pie",
                 "moving": "fxheli2and3.pie",
                 "still": "lightheli_rotor_stationary.pie"
             },
