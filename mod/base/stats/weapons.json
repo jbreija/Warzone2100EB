@@ -14494,7 +14494,7 @@
         "weaponClass": "KINETIC",
         "weaponEffect": "ANTI PERSONNEL",
         "weaponSubClass": "MACHINE GUN",
-        "weaponWav": "mgbar3.ogg",
+        "weaponWav": "mgbar2.ogg",
         "weight": 20
     },
     "babawep": {
