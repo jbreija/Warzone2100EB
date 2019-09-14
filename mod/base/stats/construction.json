@@ -9,7 +9,7 @@
         "mountModel": "cybodyar.pie",
         "name": "Combat Engineer",
         "sensorModel": "cy_con.pie",
-        "weight": 175
+        "weight": 3500
     },
     "CyborgSpadeNAS": {
         "buildPoints": 30,
@@ -21,7 +21,7 @@
         "mountModel": "cybodyar.pie",
         "name": "NASDA Combat Engineer",
         "sensorModel": "cy_con.pie",
-        "weight": 175
+        "weight": 3500
     },
     "HvyCybSpade": {
         "buildPoints": 50,
@@ -42,7 +42,7 @@
         "id": "Spade1Hvy",
         "name": "Dump Truck",
         "sensorModel": "TRLCON2.PIE",
-        "weight": 5400
+        "weight": 108000
     },
     "Spade1Mk1": {
         "buildPoints": 50,
@@ -54,7 +54,7 @@
         "id": "Spade1Mk1",
         "name": "Truck",
         "sensorModel": "TRLCON.PIE",
-        "weight": 50
+        "weight": 1000
     },
     "Spade1Mk1NAS": {
         "buildPoints": 45,
@@ -66,7 +66,7 @@
         "id": "Spade1Mk1NAS",
         "name": "NASDA Truck",
         "sensorModel": "TRLCONar.PIE",
-        "weight": 50
+        "weight": 1000
     },
     "ZNULLCONSTRUCT": {
         "id": "ZNULLCONSTRUCT",
@@ -83,7 +83,7 @@
         "id": "scavCrane1",
         "name": "Crane1",
         "sensorModel": "cranearm1.pie",
-        "weight": 800
+        "weight": 16000
     },
     "scavCrane2": {
         "buildPoints": 25,
@@ -94,6 +94,6 @@
         "id": "scavCrane2",
         "name": "Crane2",
         "sensorModel": "cranearm2.pie",
-        "weight": 800
+        "weight": 16000
     }
 }

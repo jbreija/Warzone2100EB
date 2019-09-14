@@ -11,7 +11,7 @@
         "name": "Jammer Turret",
         "range": 1280,
         "sensorModel": "GNHSNSR3.PIE",
-        "weight": 100
+        "weight": 2000
     },
     "ECMBunker": {
         "buildPoints": 100,
@@ -20,7 +20,7 @@
         "location": "DEFAULT",
         "name": "ECM Bunker",
         "range": 75,
-        "weight": 100
+        "weight": 2000
     },
     "ECMCommandCenter": {
         "buildPoints": 100,
@@ -31,7 +31,7 @@
         "name": "ECM Command Center",
         "range": 2560,
         "sensorModel": "GNHSNSR3ar.PIE",
-        "weight": 100
+        "weight": 2000
     },
     "ECMHardpoint": {
         "buildPoints": 100,
@@ -41,21 +41,21 @@
         "location": "DEFAULT",
         "name": "ECM Hardpoint",
         "range": 512,
-        "weight": 100
+        "weight": 2000
     },
     "RepairCentre": {
         "id": "RepairCentre",
         "location": "TURRET",
         "name": "Repair Center Turret",
         "sensorModel": "GNHREPAR.PIE",
-        "weight": 250000
+        "weight": 230000
     },
     "RoboticRepairCentre": {
         "id": "RoboticRepairCentre",
         "location": "TURRET",
         "name": "Robotic Repair Center Turret",
         "sensorModel": "GNHREPARar.PIE",
-        "weight": 500000
+        "weight": 230000
     },
     "ZNULLECM": {
         "id": "ZNULLECM",
