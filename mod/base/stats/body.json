@@ -2909,7 +2909,7 @@
         "name": "scavengertruck",
         "powerOutput": 160000,
         "size": "LIGHT",
-        "weaponSlots": 1,
+        "weaponSlots": 3,
         "weight": 40000
     },
     "ScavengerChopper": {
