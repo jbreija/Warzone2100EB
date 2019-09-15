@@ -365,7 +365,7 @@
         "damageable": 0,
         "hitpoints": 0,
         "id": "OilResource",
-        "model": "mislick.pie",
+        "model": "mislickar.pie",
         "name": "Oil Resource",
         "startVisible": 0,
         "tileDraw": 1,
