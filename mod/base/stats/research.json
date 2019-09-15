@@ -7745,7 +7745,8 @@
         "researchPoints": 8500,
         "researchPower": 425,
         "resultComponents": [
-            "QuadRotAAGun"
+            "QuadRotAAGun",
+            "QuadRotAAGun-AR"
         ],
         "statID": "QuadRotAAGun"
     },
@@ -7776,7 +7777,8 @@
         "researchPoints": 5500,
         "researchPower": 275,
         "resultComponents": [
-            "QuadRotAAGun-Scav"
+            "QuadRotAAGun-Scav",
+            "QuadRotAAGun-Scav-AR"
         ],
         "statID": "QuadRotAAGun-Scav"
     },
@@ -8742,6 +8744,7 @@
         "resultComponents": [
             "Cannon1-VTOL",
             "Cannon1Mk1",
+            "Cannon1Mk1-AR",
             "CyborgCannon"
         ],
         "statID": "Cannon1Mk1"
@@ -8760,6 +8763,7 @@
         "resultComponents": [
             "Cannon2A-TMk1",
             "Cannon2A-TMk1-Lng",
+            "Cannon2A-TMk1-AR",
             "Cyb-Wpn-Cannon-Sniper"
         ],
         "statID": "Cannon2A-TMk1"
@@ -8796,6 +8800,7 @@
         "researchPower": 440,
         "resultComponents": [
             "Cannon375mmMk1",
+            "Cannon375mmMk1-AR",
             "Cannon375mmMk1-Lng"
         ],
         "statID": "Cannon375mmMk1"
@@ -8815,6 +8820,7 @@
         "resultComponents": [
             "Cannon4AUTO-VTOL",
             "Cannon4AUTOMk1",
+            "Cannon4AUTOMk1-AR",
             "Cannon4AUTOMk1-Lng"
         ],
         "statID": "Cannon4AUTOMk1"
@@ -8866,6 +8872,7 @@
         "researchPower": 350,
         "resultComponents": [
             "Cannon5VulcanMk1",
+            "Cannon5VulcanMk1-AR",
             "Cannon5Vulcan-VTOL"
         ],
         "statID": "Cannon5VulcanMk1"
@@ -8917,7 +8924,8 @@
         "researchPoints": 10600,
         "researchPower": 530,
         "resultComponents": [
-            "Cannon6TwinAslt"
+            "Cannon6TwinAslt",
+            "Cannon6TwinAslt-AR"
         ],
         "statID": "Cannon6TwinAslt"
     },
@@ -9968,6 +9976,7 @@
         "researchPower": 50,
         "resultComponents": [
             "CyborgFlamer01",
+            "Flame1Mk1-AR",
             "Flame1Mk1"
         ],
         "statID": "Flame1Mk1"
@@ -11298,7 +11307,8 @@
         "resultComponents": [
             "CyborgChaingun",
             "MG1Mk1",
-            "MG1-VTOL"
+            "MG1-VTOL",
+            "MG1Mk1-AR"
         ],
         "statID": "MG1Mk1"
     },
@@ -11315,7 +11325,8 @@
         "researchPower": 120,
         "resultComponents": [
             "MG2-VTOL",
-            "MG2Mk1"
+            "MG2Mk1",
+            "MG2Mk1-AR"
         ],
         "statID": "MG2Mk1"
     },
@@ -11333,7 +11344,8 @@
         "researchPower": 120,
         "resultComponents": [
             "MG3-VTOL",
-            "MG3Mk1"
+            "MG3Mk1",
+            "MG3Mk1-AR"
         ],
         "statID": "MG3Mk1"
     },
@@ -11394,7 +11406,8 @@
         "resultComponents": [
             "CyborgRotMG",
             "MG4ROTARY-VTOL",
-            "MG4ROTARYMk1"
+            "MG4ROTARYMk1",
+            "MG4ROTARYMk1-AR"
         ],
         "statID": "MG4ROTARYMk1"
     },
@@ -11704,7 +11717,8 @@
         "researchPoints": 9600,
         "researchPower": 480,
         "resultComponents": [
-            "Missile-LtSAM"
+            "Missile-LtSAM",
+            "Missile-LtSAM-AR"
         ],
         "statID": "Missile-LtSAM"
     },
@@ -12375,6 +12389,7 @@
         "researchPower": 140,
         "resultComponents": [
             "Cyb-Wpn-Grenade",
+            "Mortar1Mk1-AR",
             "Mortar1Mk1"
         ],
         "statID": "Mortar1Mk1"
@@ -12463,7 +12478,8 @@
         "researchPoints": 7200,
         "researchPower": 360,
         "resultComponents": [
-            "Mortar2Mk1"
+            "Mortar2Mk1",
+            "Mortar2Mk1-AR"
         ],
         "statID": "Mortar2Mk1"
     },
@@ -13707,7 +13723,8 @@
         "researchPoints": 4800,
         "researchPower": 240,
         "resultComponents": [
-            "Rocket-LtA-T-Quad"
+            "Rocket-LtA-T-Quad",
+            "Rocket-LtA-T-AR"
         ],
         "statID": "Rocket-LtA-T-Quad"
     },
@@ -13739,6 +13756,7 @@
         "researchPower": 240,
         "resultComponents": [
             "Rocket-BB",
+            "Rocket-BB-AR",
             "Rocket-VTOL-BB"
         ],
         "statID": "Rocket-BB"
@@ -13823,7 +13841,8 @@
         "researchPoints": 7200,
         "researchPower": 360,
         "resultComponents": [
-            "Rocket-IDF"
+            "Rocket-IDF",
+            "Rocket-IDF-AR"
         ],
         "statID": "Rocket-IDF"
     },
