@@ -7311,6 +7311,20 @@
         ],
         "statID": "wheeled01"
     },
+    "R-Vehicle-Prop-Wheels-NAS": {
+        "iconID": "IMAGE_RES_DROIDTECH",
+        "id": "R-Vehicle-Prop-Wheels-NAS",
+        "name": "NASDA Wheels",
+        "requiredResearch": [
+            "R-Vehicle-Prop-Wheels"
+        ],
+        "researchPoints": 575,
+        "researchPower": 57.5,
+        "resultComponents": [
+            "wheeled01NAS"
+        ],
+        "statID": "wheeled01NAS"
+    },
     "R-Wpn-AAGun-Accuracy01": {
         "iconID": "IMAGE_RES_WEAPONTECH",
         "id": "R-Wpn-AAGun-Accuracy01",
