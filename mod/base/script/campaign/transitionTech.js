@@ -4,7 +4,7 @@
 // Alpha Campaign - New Paradigm and Scavenger AI's
 // Starting research for all players in campaign 1, except scavengers
 const CAM1A_RESEARCH = [
-	"R-Vehicle-Body01", "R-Sys-Spade1Mk1", "R-Vehicle-Prop-Wheels", "R-Vehicle-Prop-Wheels-NAS", "R-Vehicle-Body26", "R-Sys-Sensor-Upgrade00",
+	"R-Vehicle-Body01", "R-Sys-Spade1Mk1", "R-Vehicle-Prop-Wheels", "R-Vehicle-Body26", "R-Sys-Sensor-Upgrade00",
 ];
 
 // Starting scavenger research for campaign 1
