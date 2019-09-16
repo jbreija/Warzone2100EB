@@ -6729,7 +6729,6 @@
         "id": "R-Vehicle-Body26",
         "name": "NASDA Viper",
         "requiredResearch": [
-            "R-Vehicle-Prop-Wheels-NAS",
             "R-Vehicle-Body01"
         ],
         "researchPoints": 635,
@@ -7221,7 +7220,8 @@
         "researchPower": 140,
         "resultComponents": [
             "HalfTrack",
-            "HalfTrackNAS"
+            "HalfTrackNAS",
+            "HalfTrackGM"
         ],
         "statID": "HalfTrack"
     },
@@ -7274,7 +7274,8 @@
         "researchPower": 120,
         "resultComponents": [
             "tracked01",
-            "tracked01NAS"
+            "tracked01NAS",
+            "tracked01GM"
         ],
         "statID": "tracked01"
     },
@@ -7304,23 +7305,11 @@
         "researchPoints": 1200,
         "researchPower": 120,
         "resultComponents": [
-            "wheeled01"
-        ],
-        "statID": "wheeled01"
-    },
-    "R-Vehicle-Prop-Wheels-NAS": {
-        "iconID": "IMAGE_RES_DROIDTECH",
-        "id": "R-Vehicle-Prop-Wheels-NAS",
-        "name": "NASDA Wheels",
-        "requiredResearch": [
-            "R-Vehicle-Prop-Wheels"
-        ],
-        "researchPoints": 575,
-        "researchPower": 57.5,
-        "resultComponents": [
+            "wheeled01",
+            "wheeled01GM",
             "wheeled01NAS"
         ],
-        "statID": "wheeled01NAS"
+        "statID": "wheeled01"
     },
     "R-Wpn-AAGun-Accuracy01": {
         "iconID": "IMAGE_RES_WEAPONTECH",

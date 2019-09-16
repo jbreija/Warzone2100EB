@@ -242,6 +242,10 @@
                 "left": "prhlhtr3.pie",
                 "right": "prhrhtr3.pie"
             },
+            "HalfTrackGM": {
+                "left": "prhlhtr3gm.pie",
+                "right": "prhrhtr3gm.pie"
+            },
             "HalfTrackNAS": {
                 "left": "prhlhtr3ar.pie",
                 "right": "prhrhtr3ar.pie"
@@ -269,6 +273,10 @@
                 "left": "prhltrk3.pie",
                 "right": "prhrtrk3.pie"
             },
+            "tracked01GM": {
+                "left": "prhltrk3gm.pie",
+                "right": "prhrtrk3gm.pie"
+            },
             "tracked01NAS": {
                 "left": "prhltrk3ar.pie",
                 "right": "prhrtrk3ar.pie"
@@ -276,6 +284,10 @@
             "wheeled01": {
                 "left": "prhlwhl1.pie",
                 "right": "prhrwhl1.pie"
+            },
+            "wheeled01GM": {
+                "left": "prhlwhl1gm.pie",
+                "right": "prhrwhl1gm.pie"
             },
             "wheeled01NAS": {
                 "left": "prhlwhl1ar.pie",
@@ -303,6 +315,10 @@
                 "left": "prhlhtr3.pie",
                 "right": "prhrhtr3.pie"
             },
+            "HalfTrackGM": {
+                "left": "prhlhtr3gm.pie",
+                "right": "prhrhtr3gm.pie"
+            },
             "HalfTrackNAS": {
                 "left": "prhlhtr3ar.pie",
                 "right": "prhrhtr3ar.pie"
@@ -330,6 +346,10 @@
                 "left": "prhltrk3.pie",
                 "right": "prhrtrk3.pie"
             },
+            "tracked01GM": {
+                "left": "prhltrk3gm.pie",
+                "right": "prhrtrk3gm.pie"
+            },
             "tracked01NAS": {
                 "left": "prhltrk3ar.pie",
                 "right": "prhrtrk3ar.pie"
@@ -337,6 +357,10 @@
             "wheeled01": {
                 "left": "prhlwhl1.pie",
                 "right": "prhrwhl1.pie"
+            },
+            "wheeled01GM": {
+                "left": "prhlwhl1gm.pie",
+                "right": "prhrwhl1gm.pie"
             },
             "wheeled01NAS": {
                 "left": "prhlwhl1ar.pie",
@@ -364,6 +388,10 @@
                 "left": "prhlhtr3.pie",
                 "right": "prhrhtr3.pie"
             },
+            "HalfTrackGM": {
+                "left": "prhlhtr3gm.pie",
+                "right": "prhrhtr3gm.pie"
+            },
             "HalfTrackNAS": {
                 "left": "prhlhtr3ar.pie",
                 "right": "prhrhtr3ar.pie"
@@ -391,6 +419,10 @@
                 "left": "prhltrk3.pie",
                 "right": "prhrtrk3.pie"
             },
+            "tracked01GM": {
+                "left": "prhltrk3gm.pie",
+                "right": "prhrtrk3gm.pie"
+            },
             "tracked01NAS": {
                 "left": "prhltrk3ar.pie",
                 "right": "prhrtrk3ar.pie"
@@ -398,6 +430,10 @@
             "wheeled01": {
                 "left": "prhlwhl1.pie",
                 "right": "prhrwhl1.pie"
+            },
+            "wheeled01GM": {
+                "left": "prhlwhl1gm.pie",
+                "right": "prhrwhl1gm.pie"
             },
             "wheeled01NAS": {
                 "left": "prhlwhl1ar.pie",
@@ -424,6 +460,10 @@
             "HalfTrack": {
                 "left": "prllhtr1.pie",
                 "right": "prlrhtr1.pie"
+            },
+            "HalfTrackGM": {
+                "left": "prllhtr1gm.pie",
+                "right": "prlrhtr1gm.pie"
             },
             "HalfTrackNAS": {
                 "left": "prllhtr1ar.pie",
@@ -452,6 +492,10 @@
                 "left": "prlltrk1.pie",
                 "right": "prlrtrk1.pie"
             },
+            "tracked01GM": {
+                "left": "prlltrk1gm.pie",
+                "right": "prlrtrk1gm.pie"
+            },
             "tracked01NAS": {
                 "left": "prlltrk1ar.pie",
                 "right": "prlrtrk1ar.pie"
@@ -459,6 +503,10 @@
             "wheeled01": {
                 "left": "prllwhl1.pie",
                 "right": "prlrwhl1.pie"
+            },
+            "wheeled01GM": {
+                "left": "prllwhl1gm.pie",
+                "right": "prlrwhl1gm.pie"
             },
             "wheeled01NAS": {
                 "left": "prllwhl1ar.pie",
@@ -485,6 +533,10 @@
             "HalfTrack": {
                 "left": "prhlhtr3.pie",
                 "right": "prhrhtr3.pie"
+            },
+            "HalfTrackGM": {
+                "left": "prhlhtr3gm.pie",
+                "right": "prhrhtr3gm.pie"
             },
             "HalfTrackNAS": {
                 "left": "prhlhtr3ar.pie",
@@ -513,6 +565,10 @@
                 "left": "prhltrk3.pie",
                 "right": "prhrtrk3.pie"
             },
+            "tracked01GM": {
+                "left": "prhltrk3gm.pie",
+                "right": "prhrtrk3gm.pie"
+            },
             "tracked01NAS": {
                 "left": "prhltrk3ar.pie",
                 "right": "prhrtrk3ar.pie"
@@ -520,6 +576,10 @@
             "wheeled01": {
                 "left": "prhlwhl1.pie",
                 "right": "prhrwhl1.pie"
+            },
+            "wheeled01GM": {
+                "left": "prhlwhl1gm.pie",
+                "right": "prhrwhl1gm.pie"
             },
             "wheeled01NAS": {
                 "left": "prhlwhl1ar.pie",
@@ -546,6 +606,10 @@
             "HalfTrack": {
                 "left": "prhlhtr3.pie",
                 "right": "prhrhtr3.pie"
+            },
+            "HalfTrackGM": {
+                "left": "prhlhtr3gm.pie",
+                "right": "prhrhtr3gm.pie"
             },
             "HalfTrackNAS": {
                 "left": "prhlhtr3ar.pie",
@@ -574,6 +638,10 @@
                 "left": "prhltrk3.pie",
                 "right": "prhrtrk3.pie"
             },
+            "tracked01GM": {
+                "left": "prhltrk3gm.pie",
+                "right": "prhrtrk3gm.pie"
+            },
             "tracked01NAS": {
                 "left": "prhltrk3ar.pie",
                 "right": "prhrtrk3ar.pie"
@@ -581,6 +649,10 @@
             "wheeled01": {
                 "left": "prhlwhl1.pie",
                 "right": "prhrwhl1.pie"
+            },
+            "wheeled01GM": {
+                "left": "prhlwhl1gm.pie",
+                "right": "prhrwhl1gm.pie"
             },
             "wheeled01NAS": {
                 "left": "prhlwhl1ar.pie",
@@ -607,6 +679,10 @@
             "HalfTrack": {
                 "left": "prhlhtr3.pie",
                 "right": "prhrhtr3.pie"
+            },
+            "HalfTrackGM": {
+                "left": "prhlhtr3gm.pie",
+                "right": "prhrhtr3gm.pie"
             },
             "HalfTrackNAS": {
                 "left": "prhlhtr3ar.pie",
@@ -635,6 +711,10 @@
                 "left": "prhltrk3.pie",
                 "right": "prhrtrk3.pie"
             },
+            "tracked01GM": {
+                "left": "prhltrk3gm.pie",
+                "right": "prhrtrk3gm.pie"
+            },
             "tracked01NAS": {
                 "left": "prhltrk3ar.pie",
                 "right": "prhrtrk3ar.pie"
@@ -642,6 +722,10 @@
             "wheeled01": {
                 "left": "prhlwhl1.pie",
                 "right": "prhrwhl1.pie"
+            },
+            "wheeled01GM": {
+                "left": "prhlwhl1gm.pie",
+                "right": "prhrwhl1gm.pie"
             },
             "wheeled01NAS": {
                 "left": "prhlwhl1ar.pie",
@@ -668,6 +752,10 @@
             "HalfTrack": {
                 "left": "prslhtr4.pie",
                 "right": "prsrhtr4.pie"
+            },
+            "HalfTrackGM": {
+                "left": "prhlhtr3gm.pie",
+                "right": "prhrhtr3gm.pie"
             },
             "HalfTrackNAS": {
                 "left": "prhlhtr3ar.pie",
@@ -696,6 +784,10 @@
                 "left": "prsltrk4.pie",
                 "right": "prsrtrk4.pie"
             },
+            "tracked01GM": {
+                "left": "prhltrk3gm.pie",
+                "right": "prhrtrk3gm.pie"
+            },
             "tracked01NAS": {
                 "left": "prhltrk3ar.pie",
                 "right": "prhrtrk3ar.pie"
@@ -703,6 +795,10 @@
             "wheeled01": {
                 "left": "prslwhl1.pie",
                 "right": "prsrwhl1.pie"
+            },
+            "wheeled01GM": {
+                "left": "prhlwhl1gm.pie",
+                "right": "prhrwhl1gm.pie"
             },
             "wheeled01NAS": {
                 "left": "prhlwhl1ar.pie",
@@ -729,6 +825,10 @@
             "HalfTrack": {
                 "left": "prllhtr1.pie",
                 "right": "prlrhtr1.pie"
+            },
+            "HalfTrackGM": {
+                "left": "prllhtr1gm.pie",
+                "right": "prlrhtr1gm.pie"
             },
             "HalfTrackNAS": {
                 "left": "prllhtr1ar.pie",
@@ -757,6 +857,10 @@
                 "left": "prlltrk1.pie",
                 "right": "prlrtrk1.pie"
             },
+            "tracked01GM": {
+                "left": "prlltrk1gm.pie",
+                "right": "prlrtrk1gm.pie"
+            },
             "tracked01NAS": {
                 "left": "prlltrk1ar.pie",
                 "right": "prlrtrk1ar.pie"
@@ -764,6 +868,10 @@
             "wheeled01": {
                 "left": "prllwhl1.pie",
                 "right": "prlrwhl1.pie"
+            },
+            "wheeled01GM": {
+                "left": "prllwhl1gm.pie",
+                "right": "prlrwhl1gm.pie"
             },
             "wheeled01NAS": {
                 "left": "prllwhl1ar.pie",
@@ -790,6 +898,10 @@
             "HalfTrack": {
                 "left": "prmlhtr2.pie",
                 "right": "prmrhtr2.pie"
+            },
+            "HalfTrackGM": {
+                "left": "prmlhtr2gm.pie",
+                "right": "prmrhtr2gm.pie"
             },
             "HalfTrackNAS": {
                 "left": "prmlhtr2ar.pie",
@@ -818,6 +930,10 @@
                 "left": "prmltrk2.pie",
                 "right": "prmrtrk2.pie"
             },
+            "tracked01GM": {
+                "left": "prmltrk2gm.pie",
+                "right": "prmrtrk2gm.pie"
+            },
             "tracked01NAS": {
                 "left": "prmltrk2ar.pie",
                 "right": "prmrtrk2ar.pie"
@@ -825,6 +941,10 @@
             "wheeled01": {
                 "left": "prmlwhl1.pie",
                 "right": "prmrwhl1.pie"
+            },
+            "wheeled01GM": {
+                "left": "prmlwhl1gm.pie",
+                "right": "prmrwhl1gm.pie"
             },
             "wheeled01NAS": {
                 "left": "prmlwhl1ar.pie",
@@ -851,6 +971,10 @@
             "HalfTrack": {
                 "left": "prllhtr1.pie",
                 "right": "prlrhtr1.pie"
+            },
+            "HalfTrackGM": {
+                "left": "prllhtr1gm.pie",
+                "right": "prlrhtr1gm.pie"
             },
             "HalfTrackNAS": {
                 "left": "prllhtr1ar.pie",
@@ -879,6 +1003,10 @@
                 "left": "prlltrk1.pie",
                 "right": "prlrtrk1.pie"
             },
+            "tracked01GM": {
+                "left": "prlltrk1gm.pie",
+                "right": "prlrtrk1gm.pie"
+            },
             "tracked01NAS": {
                 "left": "prlltrk1ar.pie",
                 "right": "prlrtrk1ar.pie"
@@ -886,6 +1014,10 @@
             "wheeled01": {
                 "left": "prllwhl1.pie",
                 "right": "prlrwhl1.pie"
+            },
+            "wheeled01GM": {
+                "left": "prllwhl1gm.pie",
+                "right": "prlrwhl1gm.pie"
             },
             "wheeled01NAS": {
                 "left": "prllwhl1ar.pie",
@@ -912,6 +1044,10 @@
             "HalfTrack": {
                 "left": "prmlhtr2.pie",
                 "right": "prmrhtr2.pie"
+            },
+            "HalfTrackGM": {
+                "left": "prmlhtr2gm.pie",
+                "right": "prmrhtr2gm.pie"
             },
             "HalfTrackNAS": {
                 "left": "prmlhtr2ar.pie",
@@ -940,6 +1076,10 @@
                 "left": "prmltrk2.pie",
                 "right": "prmrtrk2.pie"
             },
+            "tracked01GM": {
+                "left": "prmltrk2gm.pie",
+                "right": "prmrtrk2gm.pie"
+            },
             "tracked01NAS": {
                 "left": "prmltrk2ar.pie",
                 "right": "prmrtrk2ar.pie"
@@ -947,6 +1087,10 @@
             "wheeled01": {
                 "left": "prmlwhl1.pie",
                 "right": "prmrwhl1.pie"
+            },
+            "wheeled01GM": {
+                "left": "prmlwhl1gm.pie",
+                "right": "prmrwhl1gm.pie"
             },
             "wheeled01NAS": {
                 "left": "prmlwhl1ar.pie",
@@ -973,6 +1117,10 @@
             "HalfTrack": {
                 "left": "prhlhtr3.pie",
                 "right": "prhrhtr3.pie"
+            },
+            "HalfTrackGM": {
+                "left": "prhlhtr3gm.pie",
+                "right": "prhrhtr3gm.pie"
             },
             "HalfTrackNAS": {
                 "left": "prhlhtr3ar.pie",
@@ -1001,6 +1149,10 @@
                 "left": "prhltrk3.pie",
                 "right": "prhrtrk3.pie"
             },
+            "tracked01GM": {
+                "left": "prhltrk3gm.pie",
+                "right": "prhrtrk3gm.pie"
+            },
             "tracked01NAS": {
                 "left": "prhltrk3ar.pie",
                 "right": "prhrtrk3ar.pie"
@@ -1008,6 +1160,10 @@
             "wheeled01": {
                 "left": "prhlwhl1.pie",
                 "right": "prhrwhl1.pie"
+            },
+            "wheeled01GM": {
+                "left": "prhlwhl1gm.pie",
+                "right": "prhrwhl1gm.pie"
             },
             "wheeled01NAS": {
                 "left": "prhlwhl1ar.pie",
@@ -1034,6 +1190,10 @@
             "HalfTrack": {
                 "left": "prllhtr1.pie",
                 "right": "prlrhtr1.pie"
+            },
+            "HalfTrackGM": {
+                "left": "prllhtr1gm.pie",
+                "right": "prlrhtr1gm.pie"
             },
             "HalfTrackNAS": {
                 "left": "prllhtr1ar.pie",
@@ -1062,6 +1222,10 @@
                 "left": "prlltrk1.pie",
                 "right": "prlrtrk1.pie"
             },
+            "tracked01GM": {
+                "left": "prlltrk1gm.pie",
+                "right": "prlrtrk1gm.pie"
+            },
             "tracked01NAS": {
                 "left": "prlltrk1ar.pie",
                 "right": "prlrtrk1ar.pie"
@@ -1069,6 +1233,10 @@
             "wheeled01": {
                 "left": "prllwhl1.pie",
                 "right": "prlrwhl1.pie"
+            },
+            "wheeled01GM": {
+                "left": "prllwhl1gm.pie",
+                "right": "prlrwhl1gm.pie"
             },
             "wheeled01NAS": {
                 "left": "prllwhl1ar.pie",
@@ -1095,6 +1263,10 @@
             "HalfTrack": {
                 "left": "prllhtr1.pie",
                 "right": "prlrhtr1.pie"
+            },
+            "HalfTrackGM": {
+                "left": "prllhtr1gm.pie",
+                "right": "prlrhtr1gm.pie"
             },
             "HalfTrackNAS": {
                 "left": "prllhtr1ar.pie",
@@ -1123,6 +1295,10 @@
                 "left": "prlltrk1.pie",
                 "right": "prlrtrk1.pie"
             },
+            "tracked01GM": {
+                "left": "prlltrk1gm.pie",
+                "right": "prlrtrk1gm.pie"
+            },
             "tracked01NAS": {
                 "left": "prlltrk1ar.pie",
                 "right": "prlrtrk1ar.pie"
@@ -1130,6 +1306,10 @@
             "wheeled01": {
                 "left": "prllwhl1.pie",
                 "right": "prlrwhl1.pie"
+            },
+            "wheeled01GM": {
+                "left": "prllwhl1gm.pie",
+                "right": "prlrwhl1gm.pie"
             },
             "wheeled01NAS": {
                 "left": "prllwhl1ar.pie",
@@ -1156,6 +1336,10 @@
             "HalfTrack": {
                 "left": "prllhtr1.pie",
                 "right": "prlrhtr1.pie"
+            },
+            "HalfTrackGM": {
+                "left": "prllhtr1gm.pie",
+                "right": "prlrhtr1gm.pie"
             },
             "HalfTrackNAS": {
                 "left": "prllhtr1ar.pie",
@@ -1184,6 +1368,10 @@
                 "left": "prlltrk1.pie",
                 "right": "prlrtrk1.pie"
             },
+            "tracked01GM": {
+                "left": "prlltrk1gm.pie",
+                "right": "prlrtrk1gm.pie"
+            },
             "tracked01NAS": {
                 "left": "prlltrk1ar.pie",
                 "right": "prlrtrk1ar.pie"
@@ -1191,6 +1379,10 @@
             "wheeled01": {
                 "left": "prllwhl1.pie",
                 "right": "prlrwhl1.pie"
+            },
+            "wheeled01GM": {
+                "left": "prllwhl1gm.pie",
+                "right": "prlrwhl1gm.pie"
             },
             "wheeled01NAS": {
                 "left": "prllwhl1ar.pie",
@@ -1217,6 +1409,10 @@
             "HalfTrack": {
                 "left": "prmlhtr2.pie",
                 "right": "prmrhtr2.pie"
+            },
+            "HalfTrackGM": {
+                "left": "prmlhtr2gm.pie",
+                "right": "prmrhtr2gm.pie"
             },
             "HalfTrackNAS": {
                 "left": "prmlhtr2ar.pie",
@@ -1245,6 +1441,10 @@
                 "left": "prmltrk2.pie",
                 "right": "prmrtrk2.pie"
             },
+            "tracked01GM": {
+                "left": "prmltrk2gm.pie",
+                "right": "prmrtrk2gm.pie"
+            },
             "tracked01NAS": {
                 "left": "prmltrk2ar.pie",
                 "right": "prmrtrk2ar.pie"
@@ -1252,6 +1452,10 @@
             "wheeled01": {
                 "left": "prmlwhl1.pie",
                 "right": "prmrwhl1.pie"
+            },
+            "wheeled01GM": {
+                "left": "prmlwhl1gm.pie",
+                "right": "prmrwhl1gm.pie"
             },
             "wheeled01NAS": {
                 "left": "prmlwhl1ar.pie",
@@ -1278,6 +1482,10 @@
             "HalfTrack": {
                 "left": "prhlhtr3.pie",
                 "right": "prhrhtr3.pie"
+            },
+            "HalfTrackGM": {
+                "left": "prhlhtr3gm.pie",
+                "right": "prhrhtr3gm.pie"
             },
             "HalfTrackNAS": {
                 "left": "prhlhtr3ar.pie",
@@ -1306,6 +1514,10 @@
                 "left": "prhltrk3.pie",
                 "right": "prhrtrk3.pie"
             },
+            "tracked01GM": {
+                "left": "prhltrk3gm.pie",
+                "right": "prhrtrk3gm.pie"
+            },
             "tracked01NAS": {
                 "left": "prhltrk3ar.pie",
                 "right": "prhrtrk3ar.pie"
@@ -1313,6 +1525,10 @@
             "wheeled01": {
                 "left": "prhlwhl1.pie",
                 "right": "prhrwhl1.pie"
+            },
+            "wheeled01GM": {
+                "left": "prhlwhl1gm.pie",
+                "right": "prhrwhl1gm.pie"
             },
             "wheeled01NAS": {
                 "left": "prhlwhl1ar.pie",
@@ -1340,6 +1556,10 @@
                 "left": "prhlhtr3.pie",
                 "right": "prhrhtr3.pie"
             },
+            "HalfTrackGM": {
+                "left": "prhlhtr3gm.pie",
+                "right": "prhrhtr3gm.pie"
+            },
             "HalfTrackNAS": {
                 "left": "prhlhtr3ar.pie",
                 "right": "prhrhtr3ar.pie"
@@ -1367,6 +1587,10 @@
                 "left": "prhltrk3.pie",
                 "right": "prhrtrk3.pie"
             },
+            "tracked01GM": {
+                "left": "prhltrk3gm.pie",
+                "right": "prhrtrk3gm.pie"
+            },
             "tracked01NAS": {
                 "left": "prhltrk3ar.pie",
                 "right": "prhrtrk3ar.pie"
@@ -1374,6 +1598,10 @@
             "wheeled01": {
                 "left": "prhlwhl1.pie",
                 "right": "prhrwhl1.pie"
+            },
+            "wheeled01GM": {
+                "left": "prhlwhl1gm.pie",
+                "right": "prhrwhl1gm.pie"
             },
             "wheeled01NAS": {
                 "left": "prhlwhl1ar.pie",
@@ -1401,6 +1629,10 @@
                 "left": "prhlhtr3.pie",
                 "right": "prhrhtr3.pie"
             },
+            "HalfTrackGM": {
+                "left": "prhlhtr3gm.pie",
+                "right": "prhrhtr3gm.pie"
+            },
             "HalfTrackNAS": {
                 "left": "prhlhtr3ar.pie",
                 "right": "prhrhtr3ar.pie"
@@ -1428,6 +1660,10 @@
                 "left": "prhltrk3.pie",
                 "right": "prhrtrk3.pie"
             },
+            "tracked01GM": {
+                "left": "prhltrk3gm.pie",
+                "right": "prhrtrk3gm.pie"
+            },
             "tracked01NAS": {
                 "left": "prhltrk3ar.pie",
                 "right": "prhrtrk3ar.pie"
@@ -1435,6 +1671,10 @@
             "wheeled01": {
                 "left": "prhlwhl1.pie",
                 "right": "prhrwhl1.pie"
+            },
+            "wheeled01GM": {
+                "left": "prhlwhl1gm.pie",
+                "right": "prhrwhl1gm.pie"
             },
             "wheeled01NAS": {
                 "left": "prhlwhl1ar.pie",
@@ -1462,6 +1702,10 @@
                 "left": "prhlhtr3.pie",
                 "right": "prhrhtr3.pie"
             },
+            "HalfTrackGM": {
+                "left": "prhlhtr3gm.pie",
+                "right": "prhrhtr3gm.pie"
+            },
             "HalfTrackNAS": {
                 "left": "prhlhtr3ar.pie",
                 "right": "prhrhtr3ar.pie"
@@ -1489,6 +1733,10 @@
                 "left": "prhltrk3.pie",
                 "right": "prhrtrk3.pie"
             },
+            "tracked01GM": {
+                "left": "prhltrk3gm.pie",
+                "right": "prhrtrk3gm.pie"
+            },
             "tracked01NAS": {
                 "left": "prhltrk3ar.pie",
                 "right": "prhrtrk3ar.pie"
@@ -1496,6 +1744,10 @@
             "wheeled01": {
                 "left": "prhlwhl1.pie",
                 "right": "prhrwhl1.pie"
+            },
+            "wheeled01GM": {
+                "left": "prhlwhl1gm.pie",
+                "right": "prhrwhl1gm.pie"
             },
             "wheeled01NAS": {
                 "left": "prhlwhl1ar.pie",
@@ -1523,6 +1775,10 @@
                 "left": "prhlhtr3.pie",
                 "right": "prhrhtr3.pie"
             },
+            "HalfTrackGM": {
+                "left": "prhlhtr3gm.pie",
+                "right": "prhrhtr3gm.pie"
+            },
             "HalfTrackNAS": {
                 "left": "prhlhtr3ar.pie",
                 "right": "prhrhtr3ar.pie"
@@ -1550,6 +1806,10 @@
                 "left": "prhltrk3.pie",
                 "right": "prhrtrk3.pie"
             },
+            "tracked01GM": {
+                "left": "prhltrk3gm.pie",
+                "right": "prhrtrk3gm.pie"
+            },
             "tracked01NAS": {
                 "left": "prhltrk3ar.pie",
                 "right": "prhrtrk3ar.pie"
@@ -1557,6 +1817,10 @@
             "wheeled01": {
                 "left": "prhlwhl1.pie",
                 "right": "prhrwhl1.pie"
+            },
+            "wheeled01GM": {
+                "left": "prhlwhl1gm.pie",
+                "right": "prhrwhl1gm.pie"
             },
             "wheeled01NAS": {
                 "left": "prhlwhl1ar.pie",
@@ -1584,6 +1848,10 @@
                 "left": "prhlhtr3.pie",
                 "right": "prhrhtr3.pie"
             },
+            "HalfTrackGM": {
+                "left": "prhlhtr3gm.pie",
+                "right": "prhrhtr3gm.pie"
+            },
             "HalfTrackNAS": {
                 "left": "prhlhtr3ar.pie",
                 "right": "prhrhtr3ar.pie"
@@ -1611,6 +1879,10 @@
                 "left": "prhltrk3.pie",
                 "right": "prhrtrk3.pie"
             },
+            "tracked01GM": {
+                "left": "prhltrk3gm.pie",
+                "right": "prhrtrk3gm.pie"
+            },
             "tracked01NAS": {
                 "left": "prhltrk3ar.pie",
                 "right": "prhrtrk3ar.pie"
@@ -1618,6 +1890,10 @@
             "wheeled01": {
                 "left": "prhlwhl1.pie",
                 "right": "prhrwhl1.pie"
+            },
+            "wheeled01GM": {
+                "left": "prhlwhl1gm.pie",
+                "right": "prhrwhl1gm.pie"
             },
             "wheeled01NAS": {
                 "left": "prhlwhl1ar.pie",
@@ -1645,6 +1921,10 @@
                 "left": "prhlhtr3.pie",
                 "right": "prhrhtr3.pie"
             },
+            "HalfTrackGM": {
+                "left": "prhlhtr3gm.pie",
+                "right": "prhrhtr3gm.pie"
+            },
             "HalfTrackNAS": {
                 "left": "prhlhtr3ar.pie",
                 "right": "prhrhtr3ar.pie"
@@ -1672,6 +1952,10 @@
                 "left": "prhltrk3.pie",
                 "right": "prhrtrk3.pie"
             },
+            "tracked01GM": {
+                "left": "prhltrk3gm.pie",
+                "right": "prhrtrk3gm.pie"
+            },
             "tracked01NAS": {
                 "left": "prhltrk3ar.pie",
                 "right": "prhrtrk3ar.pie"
@@ -1679,6 +1963,10 @@
             "wheeled01": {
                 "left": "prhlwhl1.pie",
                 "right": "prhrwhl1.pie"
+            },
+            "wheeled01GM": {
+                "left": "prhlwhl1gm.pie",
+                "right": "prhrwhl1gm.pie"
             },
             "wheeled01NAS": {
                 "left": "prhlwhl1ar.pie",
@@ -1705,6 +1993,10 @@
             "HalfTrack": {
                 "left": "prllhtr1.pie",
                 "right": "prlrhtr1.pie"
+            },
+            "HalfTrackGM": {
+                "left": "prllhtr1gm.pie",
+                "right": "prlrhtr1gm.pie"
             },
             "HalfTrackNAS": {
                 "left": "prllhtr1ar.pie",
@@ -1733,6 +2025,10 @@
                 "left": "prlltrk1.pie",
                 "right": "prlrtrk1.pie"
             },
+            "tracked01GM": {
+                "left": "prlltrk1gm.pie",
+                "right": "prlrtrk1gm.pie"
+            },
             "tracked01NAS": {
                 "left": "prlltrk1ar.pie",
                 "right": "prlrtrk1ar.pie"
@@ -1740,6 +2036,10 @@
             "wheeled01": {
                 "left": "prllwhl1.pie",
                 "right": "prlrwhl1.pie"
+            },
+            "wheeled01GM": {
+                "left": "prllwhl1gm.pie",
+                "right": "prlrwhl1gm.pie"
             },
             "wheeled01NAS": {
                 "left": "prllwhl1ar.pie",
@@ -1766,6 +2066,10 @@
             "HalfTrack": {
                 "left": "prllhtr1.pie",
                 "right": "prlrhtr1.pie"
+            },
+            "HalfTrackGM": {
+                "left": "prllhtr1gm.pie",
+                "right": "prlrhtr1gm.pie"
             },
             "HalfTrackNAS": {
                 "left": "prllhtr1ar.pie",
@@ -1794,6 +2098,10 @@
                 "left": "prlltrk1.pie",
                 "right": "prlrtrk1.pie"
             },
+            "tracked01GM": {
+                "left": "prlltrk1gm.pie",
+                "right": "prlrtrk1gm.pie"
+            },
             "tracked01NAS": {
                 "left": "prlltrk1ar.pie",
                 "right": "prlrtrk1ar.pie"
@@ -1801,6 +2109,10 @@
             "wheeled01": {
                 "left": "prllwhl1.pie",
                 "right": "prlrwhl1.pie"
+            },
+            "wheeled01GM": {
+                "left": "prllwhl1gm.pie",
+                "right": "prlrwhl1gm.pie"
             },
             "wheeled01NAS": {
                 "left": "prllwhl1ar.pie",
@@ -1828,6 +2140,10 @@
                 "left": "prllhtr1.pie",
                 "right": "prlrhtr1.pie"
             },
+            "HalfTrackGM": {
+                "left": "prllhtr1gm.pie",
+                "right": "prlrhtr1gm.pie"
+            },
             "HalfTrackNAS": {
                 "left": "prllhtr1ar.pie",
                 "right": "prlrhtr1ar.pie"
@@ -1855,6 +2171,10 @@
                 "left": "prlltrk1.pie",
                 "right": "prlrtrk1.pie"
             },
+            "tracked01GM": {
+                "left": "prlltrk1gm.pie",
+                "right": "prlrtrk1gm.pie"
+            },
             "tracked01NAS": {
                 "left": "prlltrk1ar.pie",
                 "right": "prlrtrk1ar.pie"
@@ -1862,6 +2182,10 @@
             "wheeled01": {
                 "left": "prllwhl1.pie",
                 "right": "prlrwhl1.pie"
+            },
+            "wheeled01GM": {
+                "left": "prllwhl1gm.pie",
+                "right": "prlrwhl1gm.pie"
             },
             "wheeled01NAS": {
                 "left": "prllwhl1ar.pie",
@@ -1889,6 +2213,10 @@
                 "left": "prllhtr1.pie",
                 "right": "prlrhtr1.pie"
             },
+            "HalfTrackGM": {
+                "left": "prllhtr1gm.pie",
+                "right": "prlrhtr1gm.pie"
+            },
             "HalfTrackNAS": {
                 "left": "prllhtr1ar.pie",
                 "right": "prlrhtr1ar.pie"
@@ -1916,6 +2244,10 @@
                 "left": "prlltrk1.pie",
                 "right": "prlrtrk1.pie"
             },
+            "tracked01GM": {
+                "left": "prlltrk1gm.pie",
+                "right": "prlrtrk1gm.pie"
+            },
             "tracked01NAS": {
                 "left": "prlltrk1ar.pie",
                 "right": "prlrtrk1ar.pie"
@@ -1923,6 +2255,10 @@
             "wheeled01": {
                 "left": "prllwhl1.pie",
                 "right": "prlrwhl1.pie"
+            },
+            "wheeled01GM": {
+                "left": "prllwhl1gm.pie",
+                "right": "prlrwhl1gm.pie"
             },
             "wheeled01NAS": {
                 "left": "prllwhl1ar.pie",
@@ -1950,6 +2286,10 @@
                 "left": "prmlhtr2.pie",
                 "right": "prmrhtr2.pie"
             },
+            "HalfTrackGM": {
+                "left": "prmlhtr2gm.pie",
+                "right": "prmrhtr2gm.pie"
+            },
             "HalfTrackNAS": {
                 "left": "prmlhtr2ar.pie",
                 "right": "prmrhtr2ar.pie"
@@ -1977,6 +2317,10 @@
                 "left": "prmltrk2.pie",
                 "right": "prmrtrk2.pie"
             },
+            "tracked01GM": {
+                "left": "prmltrk2gm.pie",
+                "right": "prmrtrk2gm.pie"
+            },
             "tracked01NAS": {
                 "left": "prmltrk2ar.pie",
                 "right": "prmrtrk2ar.pie"
@@ -1984,6 +2328,10 @@
             "wheeled01": {
                 "left": "prmlwhl1.pie",
                 "right": "prmrwhl1.pie"
+            },
+            "wheeled01GM": {
+                "left": "prmlwhl1gm.pie",
+                "right": "prmrwhl1gm.pie"
             },
             "wheeled01NAS": {
                 "left": "prmlwhl1ar.pie",
@@ -2011,6 +2359,10 @@
                 "left": "prmlhtr2.pie",
                 "right": "prmrhtr2.pie"
             },
+            "HalfTrackGM": {
+                "left": "prmlhtr2gm.pie",
+                "right": "prmrhtr2gm.pie"
+            },
             "HalfTrackNAS": {
                 "left": "prmlhtr2ar.pie",
                 "right": "prmrhtr2ar.pie"
@@ -2038,13 +2390,21 @@
                 "left": "prmltrk2.pie",
                 "right": "prmrtrk2.pie"
             },
+            "tracked01GM": {
+                "left": "prmltrk2gm.pie",
+                "right": "prmrtrk2gm.pie"
+            },
             "tracked01NAS": {
                 "left": "prmltrk2ar.pie",
                 "right": "prmrtrk2ar.pie"
             },
             "wheeled01": {
-                "left": "prmlwhl1.pie",
-                "right": "prmrwhl1.pie"
+                "left": "prmlwhl1gm.pie",
+                "right": "prmrwhl1gm.pie"
+            },
+            "wheeled01GM": {
+                "left": "prmlwhl1gm.pie",
+                "right": "prmrwhl1gm.pie"
             },
             "wheeled01NAS": {
                 "left": "prmlwhl1ar.pie",
@@ -2072,6 +2432,10 @@
                 "left": "prmlhtr2.pie",
                 "right": "prmrhtr2.pie"
             },
+            "HalfTrackGM": {
+                "left": "prmlhtr2gm.pie",
+                "right": "prmrhtr2gm.pie"
+            },
             "HalfTrackNAS": {
                 "left": "prmlhtr2ar.pie",
                 "right": "prmrhtr2ar.pie"
@@ -2099,6 +2463,10 @@
                 "left": "prmltrk2.pie",
                 "right": "prmrtrk2.pie"
             },
+            "tracked01GM": {
+                "left": "prmltrk2gm.pie",
+                "right": "prmrtrk2gm.pie"
+            },
             "tracked01NAS": {
                 "left": "prmltrk2ar.pie",
                 "right": "prmrtrk2ar.pie"
@@ -2106,6 +2474,10 @@
             "wheeled01": {
                 "left": "prmlwhl1.pie",
                 "right": "prmrwhl1.pie"
+            },
+            "wheeled01GM": {
+                "left": "prmlwhl1gm.pie",
+                "right": "prmrwhl1gm.pie"
             },
             "wheeled01NAS": {
                 "left": "prmlwhl1ar.pie",
@@ -2133,6 +2505,10 @@
                 "left": "prmlhtr2.pie",
                 "right": "prmrhtr2.pie"
             },
+            "HalfTrackGM": {
+                "left": "prmlhtr2gm.pie",
+                "right": "prmrhtr2gm.pie"
+            },
             "HalfTrackNAS": {
                 "left": "prmlhtr2ar.pie",
                 "right": "prmrhtr2ar.pie"
@@ -2160,6 +2536,10 @@
                 "left": "prmltrk2.pie",
                 "right": "prmrtrk2.pie"
             },
+            "tracked01GM": {
+                "left": "prmltrk2gm.pie",
+                "right": "prmrtrk2gm.pie"
+            },
             "tracked01NAS": {
                 "left": "prmltrk2ar.pie",
                 "right": "prmrtrk2ar.pie"
@@ -2167,6 +2547,10 @@
             "wheeled01": {
                 "left": "prmlwhl1.pie",
                 "right": "prmrwhl1.pie"
+            },
+            "wheeled01GM": {
+                "left": "prmlwhl1gm.pie",
+                "right": "prmrwhl1gm.pie"
             },
             "wheeled01NAS": {
                 "left": "prmlwhl1ar.pie",
@@ -2194,6 +2578,10 @@
                 "left": "prmlhtr2.pie",
                 "right": "prmrhtr2.pie"
             },
+            "HalfTrackGM": {
+                "left": "prmlhtr2gm.pie",
+                "right": "prmrhtr2gm.pie"
+            },
             "HalfTrackNAS": {
                 "left": "prmlhtr2ar.pie",
                 "right": "prmrhtr2ar.pie"
@@ -2221,6 +2609,10 @@
                 "left": "prmltrk2.pie",
                 "right": "prmrtrk2.pie"
             },
+            "tracked01GM": {
+                "left": "prmltrk2gm.pie",
+                "right": "prmrtrk2gm.pie"
+            },
             "tracked01NAS": {
                 "left": "prmltrk2ar.pie",
                 "right": "prmrtrk2ar.pie"
@@ -2228,6 +2620,10 @@
             "wheeled01": {
                 "left": "prmlwhl1.pie",
                 "right": "prmrwhl1.pie"
+            },
+            "wheeled01GM": {
+                "left": "prmlwhl1gm.pie",
+                "right": "prmrwhl1gm.pie"
             },
             "wheeled01NAS": {
                 "left": "prmlwhl1ar.pie",
@@ -2255,6 +2651,10 @@
                 "left": "prmlhtr2.pie",
                 "right": "prmrhtr2.pie"
             },
+            "HalfTrackGM": {
+                "left": "prmlhtr2gm.pie",
+                "right": "prmrhtr2gm.pie"
+            },
             "HalfTrackNAS": {
                 "left": "prmlhtr2ar.pie",
                 "right": "prmrhtr2ar.pie"
@@ -2282,6 +2682,10 @@
                 "left": "prmltrk2.pie",
                 "right": "prmrtrk2.pie"
             },
+            "tracked01GM": {
+                "left": "prmltrk2gm.pie",
+                "right": "prmrtrk2gm.pie"
+            },
             "tracked01NAS": {
                 "left": "prmltrk2ar.pie",
                 "right": "prmrtrk2ar.pie"
@@ -2289,6 +2693,10 @@
             "wheeled01": {
                 "left": "prmlwhl1.pie",
                 "right": "prmrwhl1.pie"
+            },
+            "wheeled01GM": {
+                "left": "prmlwhl1gm.pie",
+                "right": "prmrwhl1gm.pie"
             },
             "wheeled01NAS": {
                 "left": "prmlwhl1ar.pie",
@@ -2316,6 +2724,10 @@
                 "left": "prmlhtr2.pie",
                 "right": "prmrhtr2.pie"
             },
+            "HalfTrackGM": {
+                "left": "prmlhtr2gm.pie",
+                "right": "prmrhtr2gm.pie"
+            },
             "HalfTrackNAS": {
                 "left": "prmlhtr2ar.pie",
                 "right": "prmrhtr2ar.pie"
@@ -2343,6 +2755,10 @@
                 "left": "prmltrk2.pie",
                 "right": "prmrtrk2.pie"
             },
+            "tracked01GM": {
+                "left": "prmltrk2gm.pie",
+                "right": "prmrtrk2gm.pie"
+            },
             "tracked01NAS": {
                 "left": "prmltrk2ar.pie",
                 "right": "prmrtrk2ar.pie"
@@ -2350,6 +2766,10 @@
             "wheeled01": {
                 "left": "prmlwhl1.pie",
                 "right": "prmrwhl1.pie"
+            },
+            "wheeled01GM": {
+                "left": "prmlwhl1gm.pie",
+                "right": "prmrwhl1gm.pie"
             },
             "wheeled01NAS": {
                 "left": "prmlwhl1ar.pie",
@@ -2377,6 +2797,10 @@
                 "left": "prhlhtr3.pie",
                 "right": "prhrhtr3.pie"
             },
+            "HalfTrackGM": {
+                "left": "prhlhtr3gm.pie",
+                "right": "prhrhtr3gm.pie"
+            },
             "HalfTrackNAS": {
                 "left": "prhlhtr3ar.pie",
                 "right": "prhrhtr3ar.pie"
@@ -2404,6 +2828,10 @@
                 "left": "prhltrk3.pie",
                 "right": "prhrtrk3.pie"
             },
+            "tracked01GM": {
+                "left": "prhltrk3gm.pie",
+                "right": "prhrtrk3gm.pie"
+            },
             "tracked01NAS": {
                 "left": "prhltrk3ar.pie",
                 "right": "prhrtrk3ar.pie"
@@ -2411,6 +2839,10 @@
             "wheeled01": {
                 "left": "prhlwhl1.pie",
                 "right": "prhrwhl1.pie"
+            },
+            "wheeled01GM": {
+                "left": "prhlwhl1gm.pie",
+                "right": "prhrwhl1gm.pie"
             },
             "wheeled01NAS": {
                 "left": "prhlwhl1ar.pie",
@@ -2438,6 +2870,10 @@
                 "left": "prhlhtr3.pie",
                 "right": "prhrhtr3.pie"
             },
+            "HalfTrackGM": {
+                "left": "prhlhtr3gm.pie",
+                "right": "prhrhtr3gm.pie"
+            },
             "HalfTrackNAS": {
                 "left": "prhlhtr3ar.pie",
                 "right": "prhrhtr3ar.pie"
@@ -2465,6 +2901,10 @@
                 "left": "prhltrk3.pie",
                 "right": "prhrtrk3.pie"
             },
+            "tracked01GM": {
+                "left": "prhltrk3gm.pie",
+                "right": "prhrtrk3gm.pie"
+            },
             "tracked01NAS": {
                 "left": "prhltrk3ar.pie",
                 "right": "prhrtrk3ar.pie"
@@ -2472,6 +2912,10 @@
             "wheeled01": {
                 "left": "prhlwhl1.pie",
                 "right": "prhrwhl1.pie"
+            },
+            "wheeled01GM": {
+                "left": "prhlwhl1gm.pie",
+                "right": "prhrwhl1gm.pie"
             },
             "wheeled01NAS": {
                 "left": "prhlwhl1ar.pie",
@@ -2909,7 +3353,7 @@
         "name": "scavengertruck",
         "powerOutput": 160000,
         "size": "LIGHT",
-        "weaponSlots": 3,
+        "weaponSlots": 1,
         "weight": 40000
     },
     "ScavengerChopper": {

@@ -66,6 +66,19 @@
         "type": "Half-Tracked",
         "weight": 420
     },
+    "HalfTrackGM": {
+        "buildPoints": 90,
+        "buildPower": 160,
+        "designable": 1,
+        "hitpointPctOfBody": 250,
+        "id": "HalfTrackGM",
+        "model": "PRLRHTR1gm.PIE",
+        "name": "Heavy Half-tracks",
+        "skidDeceleration": 900,
+        "speed": 173,
+        "type": "Half-Tracked",
+        "weight": 390
+    },
     "HalfTrackNAS": {
         "buildPoints": 67.5,
         "buildPower": 175,
@@ -182,6 +195,19 @@
         "type": "Tracked",
         "weight": 340
     },
+    "tracked01GM": {
+        "buildPoints": 150,
+        "buildPower": 240,
+        "designable": 1,
+        "hitpointPctOfBody": 400,
+        "id": "tracked01GM",
+        "model": "PRLRTRK1gm.PIE",
+        "name": "Heavy Tracks",
+        "speed": 154,
+        "spinAngle": 45,
+        "type": "Tracked",
+        "weight": 300
+    },
     "tracked01NAS": {
         "buildPoints": 112,
         "buildPower": 250,
@@ -207,6 +233,19 @@
         "speed": 295,
         "type": "Wheeled",
         "weight": 320
+    },
+    "wheeled01GM": {
+        "buildPoints": 35,
+        "buildPower": 50,
+        "designable": 1,
+        "hitpointPctOfBody": 150,
+        "id": "wheeled01GM",
+        "model": "PRLRWHL1gm.PIE",
+        "name": "Heavy Wheels",
+        "skidDeceleration": 350,
+        "speed": 275,
+        "type": "Wheeled",
+        "weight": 290
     },
     "wheeled01NAS": {
         "buildPoints": 10,
