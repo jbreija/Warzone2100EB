@@ -2403,8 +2403,8 @@
                 "right": "prmrwhl1gm.pie"
             },
             "wheeled01GM": {
-                "left": "prmlwhl1gm.pie",
-                "right": "prmrwhl1gm.pie"
+                "left": "prmlwhl1.pie",
+                "right": "prmrwhl1.pie"
             },
             "wheeled01NAS": {
                 "left": "prmlwhl1ar.pie",
@@ -3353,7 +3353,7 @@
         "name": "scavengertruck",
         "powerOutput": 160000,
         "size": "LIGHT",
-        "weaponSlots": 1,
+        "weaponSlots": 3,
         "weight": 40000
     },
     "ScavengerChopper": {
